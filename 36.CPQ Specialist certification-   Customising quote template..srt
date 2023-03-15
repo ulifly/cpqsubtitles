@@ -1,0 +1,1149 @@
+
+00:00:00,780 --> 00:00:03,169
+ 
+good everyone I hope you guys have an  amazing day um so in the last episode  right I talked about uh uh code  templates and how you can create your  own code template well which is fine I  mean right it does the job but that's  pretty basic right I mean let's say you  wanted to customize it though according  to you know your own requirement instead  of uh just sticking to you know the  basic template option  um then you might have to look for a  different uh solution and which is  pretty out of box it comes to uh cpq  right uh there's something called uh  template content uh so we're going to  look at that today and what I'll do I  will try to create a customized template  um unfortunately I don't have a good eye  for design so just bear with me and my  apologies if the template looks yucky  right but that being said it will uh  that being said right I will try to  explain you the concept and  um and based on the requirement you can  build a fancy looking template right  okay so the first thing first you need  to have an orc I presume you know we are  pretty much 70 of this course  um you should be having an org at this  stage with the cpq package installed if  not and if you're preparing for CPK  certification then I'm afraid that it's  not going to be easy right because you  should be doing Hands-On and you should  be playing around with the work to see  the uh you know the things which you can  do and things which you can do okay all  right so what I'll do I will go to you  know I'll just add this specific app  okay and  and there's something called  um  template  template  content  so what I'll do I'll create a header  I'll create a footer and I'll create the  line items right and we're going to use  only three to display our code okay so  the first thing first I will say  I'll create new right by going to  template content and you see we got all  these options here we can do custom HTML  if you like you can build your header  template codes and everything using a  single HTML but I'm not going to do that  it's it just uh I mean you can do that  right I mean if you're very much uh into  this kind of stuff you can do that but  I'll just make my life easier I'm just  gonna do uh the template top which I  will say  uh header and outside  uh  um yeah fun family perhaps I want to use  um this one right and font size I'll  just keep it to 13 right uh text color  if you don't specify it it will  um  uh display as a black right but it's a  hex core right you can specify whatever  color you want but for now what I'll do  I will keep it as black right  um and I'll keep all this option  essentially if you want you can change  it here right it gives you a template uh  which you can uh fiddle with right if  you wanted to add more features if you  don't want to add more features that's  up to you but for now I'm just pretty  happy with the existing Autobox right  uh all the safe  okay  and now what I'll do I will go back to  the template content again  and so we have a header now now we need  to have the body right which is your  code line  so I'll do new  um I will do the code sorry the line  items right  and I will say line items  uh yeah whatever Ford family uh I'll  keep the same uh the text color what  I'll do I will use it as a red okay just  to differentiate I know it's it's it's  it's not a great color but  um but that being said right I'm pretty  happy with it okay and I'll see the font  size as 10. okay our size 12.  and I'll say save right so now we got  header now we got align items now all we  are after is the footer right  so let me create a footer  um so I'll do that's the template bottom  so you choose this option  um I mean you just say  footer okay phone family the same  uh I'm not concerned with the uh the  text color I'll just keep it as black  and also 12.  um and as you can see that it will give  you you know the  uh the basic uh template to fill with it  if you wanted to change it you can  change it and the signature I'll just  say Dave okay  uh date I don't care for now  uh the title I'll just add the cells  agent  right you can fill it you can customize  it you see you got a lot of options here  right at the top uh you can if you  wanted to look at the source you can  look at the source right and you can  fiddle with it if you are  uh you know very well versed with HTML  right you can just copy this to a Visual  Studio code  um and then you know fill with it okay  so I'm just showing you the simplest way  you can customize it I do understand  that if you're an admin if you're not  comfortable with HTML you might say oh  it looks a bit trickier but that being  said right uh that's one of the reasons  why my sales was just giving you just  pretty much out of box template I mean  if you don't want to use it you might as  well you know use the basic template  which comes out of box but for most of  the businesses that may not fit the  requirement so you might have to  customize it and you might have a  developer in your team I was pretty  confident with HTML you just hand the  stuff to them or you might have a you  know a designer graphic designer has a  pretty good eye for design  um you can hand this stuff to them they  will sort this stuff for you right okay  excuse me say  and uh  and the template content  right so we got a header we got footer  we got uh line items right now if you  remember in the last episode I talked  about how to create a template right so  I built a new code template  um if you go to code templates right  so we have this new template which is  fantastic right it will do the job okay  so let me show you how it looks like at  this stage so I go to codes okay  and I will go to this one  and I will say generate document  and I will choose this template so if  you don't have multiple templates it  will point to the default one right so I  mean you can make this as a default  that's up to you but  um yeah I'm not going to do that at this  time so this is a new template which I  uh built last time and you can see that  it looks something like this right now I  don't want my template to look this way  I want it to completely different okay  um  so what I'll do I mean I want a  customized version of it okay so what  I'll do I'll go to the code template  which is great  and I will go to the related list okay  and we have something called section  okay let's keep on adding the section  first so first thing what we'll do I  will say I want to add a header  and also the content as a header and I  will set the display order first okay it  should display first  I'm not going to bother with any of the  options here  also new  um line items  so what I'm trying to do that you  remember that you know the template  content which I did so I'm adding to the  section side of the the template so that  I can render this information when you  generate a code right  um so we got the content  so  all right  um  so the footer  uh so you're gonna say three okay  so we've added header you have the line  items and the footer right  okay  um so that's all we need to do right and  then we go to  code right  um and I select this code  uh generate document  because I I do have some line items so I  don't I'm not going to add any extra  line items to it just one will do just  to demonstrate right  um I'll choose the template the new  template and I'll say preview  you might find a bit different right you  see a change right so let me see this  right  um and you see the lot of stuff  disappear right and you see I put the  title sales agent the signature Dave and  you see I've changed the color I know  that that doesn't look very pretty here  um but you know well you know what I'll  do let me go back  and uh  change the content  what I'll do I'll change the line items  to into the font size to 12 I just make  it to nine right  to see if that have any impact right  I'll go to code again  and I'll do General document  uh select this  preview  okay  yeah now it looks a little bit better  right I mean it's not really truncating  okay let me go back again  and uh  um where is it  template content  uh footer line items  uh what I'll do I'll just use 7.5 yeah  come on  7.5  um let me try to create it again  preview it I mean  so I'll choose this template  uh preview  yeah it's taking zones with time  yeah now it looks better right so you  can see that you know it fits in the  boxes  uh you know it looks this looks alright  to me and I can do the similar you know  similar stuff for the uh for the footer  as well right so yeah so that's  uh pretty much I wanted to uh  talk about in today's episode  um in the future episode we're going to  talk about conditional uh you know  options in the template uh so you know  the thing's gonna get excited right so  that being said I hope you guys have an  amazing uh Sunday adios
+
+00:00:03,169 --> 00:00:04,910
+good everyone I hope you guys have an  amazing day um so in the last episode  right I talked about uh uh code  templates and how you can create your  own code template well which is fine I  mean right it does the job but that's  pretty basic right I mean let's say you  wanted to customize it though according  to you know your own requirement instead  of uh just sticking to you know the  basic template option  um then you might have to look for a  different uh solution and which is  pretty out of box it comes to uh cpq  right uh there's something called uh  template content uh so we're going to  look at that today and what I'll do I  will try to create a customized template  um unfortunately I don't have a good eye  for design so just bear with me and my  apologies if the template looks yucky  right but that being said it will uh  that being said right I will try to  explain you the concept and  um and based on the requirement you can  build a fancy looking template right  okay so the first thing first you need  to have an orc I presume you know we are  pretty much 70 of this course  um you should be having an org at this  stage with the cpq package installed if  not and if you're preparing for CPK  certification then I'm afraid that it's  not going to be easy right because you  should be doing Hands-On and you should  be playing around with the work to see  the uh you know the things which you can  do and things which you can do okay all  right so what I'll do I will go to you  know I'll just add this specific app  okay and  and there's something called  um  template  template  content  so what I'll do I'll create a header  I'll create a footer and I'll create the  line items right and we're going to use  only three to display our code okay so  the first thing first I will say  I'll create new right by going to  template content and you see we got all  these options here we can do custom HTML  if you like you can build your header  template codes and everything using a  single HTML but I'm not going to do that  it's it just uh I mean you can do that  right I mean if you're very much uh into  this kind of stuff you can do that but  I'll just make my life easier I'm just  gonna do uh the template top which I  will say  uh header and outside  uh  um yeah fun family perhaps I want to use  um this one right and font size I'll  just keep it to 13 right uh text color  if you don't specify it it will  um  uh display as a black right but it's a  hex core right you can specify whatever  color you want but for now what I'll do  I will keep it as black right  um and I'll keep all this option  essentially if you want you can change  it here right it gives you a template uh  which you can uh fiddle with right if  you wanted to add more features if you  don't want to add more features that's  up to you but for now I'm just pretty  happy with the existing Autobox right  uh all the safe  okay  and now what I'll do I will go back to  the template content again  and so we have a header now now we need  to have the body right which is your  code line  so I'll do new  um I will do the code sorry the line  items right  and I will say line items  uh yeah whatever Ford family uh I'll  keep the same uh the text color what  I'll do I will use it as a red okay just  to differentiate I know it's it's it's  it's not a great color but  um but that being said right I'm pretty  happy with it okay and I'll see the font  size as 10. okay our size 12.  and I'll say save right so now we got  header now we got align items now all we  are after is the footer right  so let me create a footer  um so I'll do that's the template bottom  so you choose this option  um I mean you just say  footer okay phone family the same  uh I'm not concerned with the uh the  text color I'll just keep it as black  and also 12.  um and as you can see that it will give  you you know the  uh the basic uh template to fill with it  if you wanted to change it you can  change it and the signature I'll just  say Dave okay  uh date I don't care for now  uh the title I'll just add the cells  agent  right you can fill it you can customize  it you see you got a lot of options here  right at the top uh you can if you  wanted to look at the source you can  look at the source right and you can  fiddle with it if you are  uh you know very well versed with HTML  right you can just copy this to a Visual  Studio code  um and then you know fill with it okay  so I'm just showing you the simplest way  you can customize it I do understand  that if you're an admin if you're not  comfortable with HTML you might say oh  it looks a bit trickier but that being  said right uh that's one of the reasons  why my sales was just giving you just  pretty much out of box template I mean  if you don't want to use it you might as  well you know use the basic template  which comes out of box but for most of  the businesses that may not fit the  requirement so you might have to  customize it and you might have a  developer in your team I was pretty  confident with HTML you just hand the  stuff to them or you might have a you  know a designer graphic designer has a  pretty good eye for design  um you can hand this stuff to them they  will sort this stuff for you right okay  excuse me say  and uh  and the template content  right so we got a header we got footer  we got uh line items right now if you  remember in the last episode I talked  about how to create a template right so  I built a new code template  um if you go to code templates right  so we have this new template which is  fantastic right it will do the job okay  so let me show you how it looks like at  this stage so I go to codes okay  and I will go to this one  and I will say generate document  and I will choose this template so if  you don't have multiple templates it  will point to the default one right so I  mean you can make this as a default  that's up to you but  um yeah I'm not going to do that at this  time so this is a new template which I  uh built last time and you can see that  it looks something like this right now I  don't want my template to look this way  I want it to completely different okay  um  so what I'll do I mean I want a  customized version of it okay so what  I'll do I'll go to the code template  which is great  and I will go to the related list okay  and we have something called section  okay let's keep on adding the section  first so first thing what we'll do I  will say I want to add a header  and also the content as a header and I  will set the display order first okay it  should display first  I'm not going to bother with any of the  options here  also new  um line items  so what I'm trying to do that you  remember that you know the template  content which I did so I'm adding to the  section side of the the template so that  I can render this information when you  generate a code right  um so we got the content  so  all right  um  so the footer  uh so you're gonna say three okay  so we've added header you have the line  items and the footer right  okay  um so that's all we need to do right and  then we go to  code right  um and I select this code  uh generate document  because I I do have some line items so I  don't I'm not going to add any extra  line items to it just one will do just  to demonstrate right  um I'll choose the template the new  template and I'll say preview  you might find a bit different right you  see a change right so let me see this  right  um and you see the lot of stuff  disappear right and you see I put the  title sales agent the signature Dave and  you see I've changed the color I know  that that doesn't look very pretty here  um but you know well you know what I'll  do let me go back  and uh  change the content  what I'll do I'll change the line items  to into the font size to 12 I just make  it to nine right  to see if that have any impact right  I'll go to code again  and I'll do General document  uh select this  preview  okay  yeah now it looks a little bit better  right I mean it's not really truncating  okay let me go back again  and uh  um where is it  template content  uh footer line items  uh what I'll do I'll just use 7.5 yeah  come on  7.5  um let me try to create it again  preview it I mean  so I'll choose this template  uh preview  yeah it's taking zones with time  yeah now it looks better right so you  can see that you know it fits in the  boxes  uh you know it looks this looks alright  to me and I can do the similar you know  similar stuff for the uh for the footer  as well right so yeah so that's  uh pretty much I wanted to uh  talk about in today's episode  um in the future episode we're going to  talk about conditional uh you know  options in the template uh so you know  the thing's gonna get excited right so  that being said I hope you guys have an  amazing uh Sunday adios
+ 
+
+00:00:04,910 --> 00:00:08,690
+ 
+ 
+
+00:00:08,690 --> 00:00:11,150
+ 
+ 
+
+00:00:11,150 --> 00:00:13,490
+ 
+ 
+
+00:00:13,490 --> 00:00:15,049
+ 
+ 
+
+00:00:15,049 --> 00:00:17,990
+ 
+ 
+
+00:00:17,990 --> 00:00:20,029
+ 
+ 
+
+00:00:20,029 --> 00:00:22,130
+ 
+ 
+
+00:00:22,130 --> 00:00:24,769
+ 
+ 
+
+00:00:24,769 --> 00:00:27,109
+ 
+ 
+
+00:00:27,109 --> 00:00:29,689
+ 
+ 
+
+00:00:29,689 --> 00:00:31,730
+ 
+ 
+
+00:00:31,730 --> 00:00:34,490
+ 
+ 
+
+00:00:34,490 --> 00:00:37,010
+ 
+ 
+
+00:00:37,010 --> 00:00:39,110
+ 
+ 
+
+00:00:39,110 --> 00:00:41,209
+ 
+ 
+
+00:00:41,209 --> 00:00:44,690
+ 
+ 
+
+00:00:44,690 --> 00:00:46,610
+ 
+ 
+
+00:00:46,610 --> 00:00:49,790
+ 
+ 
+
+00:00:49,790 --> 00:00:51,709
+ 
+ 
+
+00:00:51,709 --> 00:00:55,430
+ 
+ 
+
+00:00:55,430 --> 00:00:58,430
+ 
+ 
+
+00:00:58,430 --> 00:01:01,310
+ 
+ 
+
+00:01:01,310 --> 00:01:03,170
+ 
+ 
+
+00:01:03,170 --> 00:01:05,270
+ 
+ 
+
+00:01:05,270 --> 00:01:08,090
+ 
+ 
+
+00:01:08,090 --> 00:01:10,490
+ 
+ 
+
+00:01:10,490 --> 00:01:13,789
+ 
+ 
+
+00:01:13,789 --> 00:01:15,710
+ 
+ 
+
+00:01:15,710 --> 00:01:17,990
+ 
+ 
+
+00:01:17,990 --> 00:01:20,450
+ 
+ 
+
+00:01:20,450 --> 00:01:23,270
+ 
+ 
+
+00:01:23,270 --> 00:01:25,490
+ 
+ 
+
+00:01:25,490 --> 00:01:27,170
+ 
+ 
+
+00:01:27,170 --> 00:01:28,789
+ 
+ 
+
+00:01:28,789 --> 00:01:31,670
+ 
+ 
+
+00:01:31,670 --> 00:01:34,550
+ 
+ 
+
+00:01:34,550 --> 00:01:38,210
+ 
+ 
+
+00:01:38,210 --> 00:01:41,090
+ 
+ 
+
+00:01:41,090 --> 00:01:43,789
+ 
+ 
+
+00:01:43,789 --> 00:01:46,130
+ 
+ 
+
+00:01:46,130 --> 00:01:46,140
+ 
+ 
+
+00:01:46,140 --> 00:01:47,929
+ 
+
+
+00:01:47,929 --> 00:01:47,939
+ 
+ 
+
+00:01:47,939 --> 00:01:51,050
+ 
+
+
+00:01:51,050 --> 00:01:51,060
+ 
+ 
+
+00:01:51,060 --> 00:01:53,389
+ 
+
+
+00:01:53,389 --> 00:01:55,310
+ 
+ 
+
+00:01:55,310 --> 00:01:57,350
+ 
+ 
+
+00:01:57,350 --> 00:01:59,330
+ 
+ 
+
+00:01:59,330 --> 00:02:03,109
+ 
+ 
+
+00:02:03,109 --> 00:02:05,929
+ 
+ 
+
+00:02:05,929 --> 00:02:07,730
+ 
+ 
+
+00:02:07,730 --> 00:02:10,430
+ 
+ 
+
+00:02:10,430 --> 00:02:12,470
+ 
+ 
+
+00:02:12,470 --> 00:02:14,930
+ 
+ 
+
+00:02:14,930 --> 00:02:16,790
+ 
+ 
+
+00:02:16,790 --> 00:02:18,589
+ 
+ 
+
+00:02:18,589 --> 00:02:22,250
+ 
+ 
+
+00:02:22,250 --> 00:02:25,970
+ 
+ 
+
+00:02:25,970 --> 00:02:27,350
+ 
+ 
+
+00:02:27,350 --> 00:02:29,270
+ 
+ 
+
+00:02:29,270 --> 00:02:33,050
+ 
+ 
+
+00:02:33,050 --> 00:02:34,550
+ 
+ 
+
+00:02:34,550 --> 00:02:38,270
+ 
+ 
+
+00:02:38,270 --> 00:02:38,280
+ 
+ 
+
+00:02:38,280 --> 00:02:39,770
+ 
+
+
+00:02:39,770 --> 00:02:44,869
+ 
+ 
+
+00:02:44,869 --> 00:02:47,509
+ 
+ 
+
+00:02:47,509 --> 00:02:50,869
+ 
+ 
+
+00:02:50,869 --> 00:02:53,390
+ 
+ 
+
+00:02:53,390 --> 00:02:53,400
+ 
+ 
+
+00:02:53,400 --> 00:02:54,110
+ 
+
+
+00:02:54,110 --> 00:02:56,809
+ 
+ 
+
+00:02:56,809 --> 00:02:59,210
+ 
+ 
+
+00:02:59,210 --> 00:03:01,790
+ 
+ 
+
+00:03:01,790 --> 00:03:04,309
+ 
+ 
+
+00:03:04,309 --> 00:03:05,570
+ 
+ 
+
+00:03:05,570 --> 00:03:07,190
+ 
+ 
+
+00:03:07,190 --> 00:03:10,369
+ 
+ 
+
+00:03:10,369 --> 00:03:13,009
+ 
+ 
+
+00:03:13,009 --> 00:03:14,330
+ 
+ 
+
+00:03:14,330 --> 00:03:15,410
+ 
+ 
+
+00:03:15,410 --> 00:03:17,149
+ 
+ 
+
+00:03:17,149 --> 00:03:20,030
+ 
+ 
+
+00:03:20,030 --> 00:03:22,430
+ 
+ 
+
+00:03:22,430 --> 00:03:22,440
+ 
+ 
+
+00:03:22,440 --> 00:03:24,130
+ 
+
+
+00:03:24,130 --> 00:03:28,190
+ 
+ 
+
+00:03:28,190 --> 00:03:29,949
+ 
+ 
+
+00:03:29,949 --> 00:03:33,410
+ 
+ 
+
+00:03:33,410 --> 00:03:35,449
+ 
+ 
+
+00:03:35,449 --> 00:03:36,589
+ 
+ 
+
+00:03:36,589 --> 00:03:39,530
+ 
+ 
+
+00:03:39,530 --> 00:03:42,229
+ 
+ 
+
+00:03:42,229 --> 00:03:43,970
+ 
+ 
+
+00:03:43,970 --> 00:03:47,210
+ 
+ 
+
+00:03:47,210 --> 00:03:51,050
+ 
+ 
+
+00:03:51,050 --> 00:03:53,449
+ 
+ 
+
+00:03:53,449 --> 00:03:56,149
+ 
+ 
+
+00:03:56,149 --> 00:03:57,949
+ 
+ 
+
+00:03:57,949 --> 00:04:00,589
+ 
+ 
+
+00:04:00,589 --> 00:04:02,930
+ 
+ 
+
+00:04:02,930 --> 00:04:05,089
+ 
+ 
+
+00:04:05,089 --> 00:04:10,250
+ 
+ 
+
+00:04:10,250 --> 00:04:13,309
+ 
+ 
+
+00:04:13,309 --> 00:04:16,670
+ 
+ 
+
+00:04:16,670 --> 00:04:18,770
+ 
+ 
+
+00:04:18,770 --> 00:04:20,930
+ 
+ 
+
+00:04:20,930 --> 00:04:24,590
+ 
+ 
+
+00:04:24,590 --> 00:04:27,050
+ 
+ 
+
+00:04:27,050 --> 00:04:30,230
+ 
+ 
+
+00:04:30,230 --> 00:04:33,650
+ 
+ 
+
+00:04:33,650 --> 00:04:36,830
+ 
+ 
+
+00:04:36,830 --> 00:04:38,570
+ 
+ 
+
+00:04:38,570 --> 00:04:41,629
+ 
+ 
+
+00:04:41,629 --> 00:04:43,790
+ 
+ 
+
+00:04:43,790 --> 00:04:46,070
+ 
+ 
+
+00:04:46,070 --> 00:04:49,249
+ 
+ 
+
+00:04:49,249 --> 00:04:50,510
+ 
+ 
+
+00:04:50,510 --> 00:04:52,010
+ 
+ 
+
+00:04:52,010 --> 00:04:54,950
+ 
+ 
+
+00:04:54,950 --> 00:04:57,530
+ 
+ 
+
+00:04:57,530 --> 00:05:00,650
+ 
+ 
+
+00:05:00,650 --> 00:05:00,660
+ 
+ 
+
+00:05:00,660 --> 00:05:02,570
+ 
+
+
+00:05:02,570 --> 00:05:04,850
+ 
+ 
+
+00:05:04,850 --> 00:05:06,710
+ 
+ 
+
+00:05:06,710 --> 00:05:09,770
+ 
+ 
+
+00:05:09,770 --> 00:05:10,969
+ 
+ 
+
+00:05:10,969 --> 00:05:13,310
+ 
+ 
+
+00:05:13,310 --> 00:05:15,370
+ 
+ 
+
+00:05:15,370 --> 00:05:18,650
+ 
+ 
+
+00:05:18,650 --> 00:05:20,870
+ 
+ 
+
+00:05:20,870 --> 00:05:22,670
+ 
+ 
+
+00:05:22,670 --> 00:05:25,610
+ 
+ 
+
+00:05:25,610 --> 00:05:28,790
+ 
+ 
+
+00:05:28,790 --> 00:05:31,189
+ 
+ 
+
+00:05:31,189 --> 00:05:32,689
+ 
+ 
+
+00:05:32,689 --> 00:05:34,550
+ 
+ 
+
+00:05:34,550 --> 00:05:36,890
+ 
+ 
+
+00:05:36,890 --> 00:05:39,409
+ 
+ 
+
+00:05:39,409 --> 00:05:41,330
+ 
+ 
+
+00:05:41,330 --> 00:05:43,550
+ 
+ 
+
+00:05:43,550 --> 00:05:45,409
+ 
+ 
+
+00:05:45,409 --> 00:05:47,270
+ 
+ 
+
+00:05:47,270 --> 00:05:49,730
+ 
+ 
+
+00:05:49,730 --> 00:05:51,290
+ 
+ 
+
+00:05:51,290 --> 00:05:52,909
+ 
+ 
+
+00:05:52,909 --> 00:05:54,409
+ 
+ 
+
+00:05:54,409 --> 00:05:56,450
+ 
+ 
+
+00:05:56,450 --> 00:05:58,909
+ 
+ 
+
+00:05:58,909 --> 00:06:01,129
+ 
+ 
+
+00:06:01,129 --> 00:06:03,290
+ 
+ 
+
+00:06:03,290 --> 00:06:05,390
+ 
+ 
+
+00:06:05,390 --> 00:06:07,310
+ 
+ 
+
+00:06:07,310 --> 00:06:10,070
+ 
+ 
+
+00:06:10,070 --> 00:06:12,710
+ 
+ 
+
+00:06:12,710 --> 00:06:15,469
+ 
+ 
+
+00:06:15,469 --> 00:06:18,529
+ 
+ 
+
+00:06:18,529 --> 00:06:21,890
+ 
+ 
+
+00:06:21,890 --> 00:06:24,529
+ 
+ 
+
+00:06:24,529 --> 00:06:26,689
+ 
+ 
+
+00:06:26,689 --> 00:06:29,270
+ 
+ 
+
+00:06:29,270 --> 00:06:31,610
+ 
+ 
+
+00:06:31,610 --> 00:06:35,090
+ 
+ 
+
+00:06:35,090 --> 00:06:37,670
+ 
+ 
+
+00:06:37,670 --> 00:06:39,830
+ 
+ 
+
+00:06:39,830 --> 00:06:42,529
+ 
+ 
+
+00:06:42,529 --> 00:06:45,529
+ 
+ 
+
+00:06:45,529 --> 00:06:48,710
+ 
+ 
+
+00:06:48,710 --> 00:06:52,790
+ 
+ 
+
+00:06:52,790 --> 00:06:55,370
+ 
+ 
+
+00:06:55,370 --> 00:06:56,930
+ 
+ 
+
+00:06:56,930 --> 00:06:59,029
+ 
+ 
+
+00:06:59,029 --> 00:07:00,350
+ 
+ 
+
+00:07:00,350 --> 00:07:02,570
+ 
+ 
+
+00:07:02,570 --> 00:07:04,309
+ 
+ 
+
+00:07:04,309 --> 00:07:06,230
+ 
+ 
+
+00:07:06,230 --> 00:07:09,590
+ 
+ 
+
+00:07:09,590 --> 00:07:11,930
+ 
+ 
+
+00:07:11,930 --> 00:07:14,210
+ 
+ 
+
+00:07:14,210 --> 00:07:17,510
+ 
+ 
+
+00:07:17,510 --> 00:07:17,520
+ 
+ 
+
+00:07:17,520 --> 00:07:18,249
+ 
+
+
+00:07:18,249 --> 00:07:22,010
+ 
+ 
+
+00:07:22,010 --> 00:07:24,290
+ 
+ 
+
+00:07:24,290 --> 00:07:25,610
+ 
+ 
+
+00:07:25,610 --> 00:07:27,350
+ 
+ 
+
+00:07:27,350 --> 00:07:29,990
+ 
+ 
+
+00:07:29,990 --> 00:07:31,430
+ 
+ 
+
+00:07:31,430 --> 00:07:33,770
+ 
+ 
+
+00:07:33,770 --> 00:07:35,930
+ 
+ 
+
+00:07:35,930 --> 00:07:37,969
+ 
+ 
+
+00:07:37,969 --> 00:07:40,370
+ 
+ 
+
+00:07:40,370 --> 00:07:42,409
+ 
+ 
+
+00:07:42,409 --> 00:07:44,210
+ 
+ 
+
+00:07:44,210 --> 00:07:46,010
+ 
+ 
+
+00:07:46,010 --> 00:07:47,150
+ 
+ 
+
+00:07:47,150 --> 00:07:49,129
+ 
+ 
+
+00:07:49,129 --> 00:07:51,469
+ 
+ 
+
+00:07:51,469 --> 00:07:53,570
+ 
+ 
+
+00:07:53,570 --> 00:07:55,070
+ 
+ 
+
+00:07:55,070 --> 00:07:58,070
+ 
+ 
+
+00:07:58,070 --> 00:08:01,430
+ 
+ 
+
+00:08:01,430 --> 00:08:03,890
+ 
+ 
+
+00:08:03,890 --> 00:08:06,589
+ 
+ 
+
+00:08:06,589 --> 00:08:10,070
+ 
+ 
+
+00:08:10,070 --> 00:08:10,080
+ 
+ 
+
+00:08:10,080 --> 00:08:18,969
+ 
+
+
+00:08:18,969 --> 00:08:20,869
+ 
+ 
+
+00:08:20,869 --> 00:08:20,879
+ 
+ 
+
+00:08:20,879 --> 00:08:21,650
+ 
+
+
+00:08:21,650 --> 00:08:23,930
+ 
+ 
+
+00:08:23,930 --> 00:08:28,309
+ 
+ 
+
+00:08:28,309 --> 00:08:30,950
+ 
+ 
+
+00:08:30,950 --> 00:08:34,310
+ 
+ 
+
+00:08:34,310 --> 00:08:34,320
+ 
+ 
+
+00:08:34,320 --> 00:08:36,230
+ 
+
+
+00:08:36,230 --> 00:08:39,409
+ 
+ 
+
+00:08:39,409 --> 00:08:41,269
+ 
+ 
+
+00:08:41,269 --> 00:08:44,630
+ 
+ 
+
+00:08:44,630 --> 00:08:48,410
+ 
+ 
+
+00:08:48,410 --> 00:08:51,889
+ 
+ 
+
+00:08:51,889 --> 00:08:54,470
+ 
+ 
+
+00:08:54,470 --> 00:08:56,030
+ 
+ 
+
+00:08:56,030 --> 00:08:58,610
+ 
+ 
+
+00:08:58,610 --> 00:09:00,710
+ 
+ 
+
+00:09:00,710 --> 00:09:02,269
+ 
+ 
+
+00:09:02,269 --> 00:09:06,170
+ 
+ 
+
+00:09:06,170 --> 00:09:08,930
+ 
+ 
+
+00:09:08,930 --> 00:09:14,509
+ 
+ 
+
+00:09:14,509 --> 00:09:14,519
+ 
+ 
+
+00:09:14,519 --> 00:09:16,130
+ 
+
+
+00:09:16,130 --> 00:09:17,990
+ 
+ 
+
+00:09:17,990 --> 00:09:20,509
+ 
+ 
+
+00:09:20,509 --> 00:09:23,449
+ 
+ 
+
+00:09:23,449 --> 00:09:24,889
+ 
+ 
+
+00:09:24,889 --> 00:09:28,850
+ 
+ 
+
+00:09:28,850 --> 00:09:31,130
+ 
+ 
+
+00:09:31,130 --> 00:09:33,250
+ 
+ 
+
+00:09:33,250 --> 00:09:35,150
+ 
+ 
+
+00:09:35,150 --> 00:09:37,310
+ 
+ 
+
+00:09:37,310 --> 00:09:41,750
+ 
+ 
+
+00:09:41,750 --> 00:09:44,329
+ 
+ 
+
+00:09:44,329 --> 00:09:46,670
+ 
+ 
+
+00:09:46,670 --> 00:09:50,509
+ 
+ 
+
+00:09:50,509 --> 00:09:53,750
+ 
+ 
+
+00:09:53,750 --> 00:09:57,829
+ 
+ 
+
+00:09:57,829 --> 00:10:00,410
+ 
+ 
+
+00:10:00,410 --> 00:10:00,420
+ 
+ 
+
+00:10:00,420 --> 00:10:06,470
+ 
+
+
+00:10:06,470 --> 00:10:06,480
+ 
+ 
+
+00:10:06,480 --> 00:10:09,350
+ 
+
+
+00:10:09,350 --> 00:10:11,750
+ 
+ 
+
+00:10:11,750 --> 00:10:14,269
+ 
+ 
+
+00:10:14,269 --> 00:10:17,269
+ 
+ 
+
+00:10:17,269 --> 00:10:21,170
+ 
+ 
+
+00:10:21,170 --> 00:10:24,769
+ 
+ 
+
+00:10:24,769 --> 00:10:27,110
+ 
+ 
+
+00:10:27,110 --> 00:10:32,269
+ 
+ 
+
+00:10:32,269 --> 00:10:39,230
+ 
+ 
+
+00:10:39,230 --> 00:10:40,730
+ 
+ 
+
+00:10:40,730 --> 00:10:40,740
+ 
+ 
+
+00:10:40,740 --> 00:10:46,670
+ 
+
+
+00:10:46,670 --> 00:10:49,190
+ 
+ 
+
+00:10:49,190 --> 00:10:52,250
+ 
+ 
+
+00:10:52,250 --> 00:10:55,490
+ 
+ 
+
+00:10:55,490 --> 00:10:59,389
+ 
+ 
+
+00:10:59,389 --> 00:11:03,230
+ 
+ 
+
+00:11:03,230 --> 00:11:05,810
+ 
+ 
+
+00:11:05,810 --> 00:11:07,670
+ 
+ 
+
+00:11:07,670 --> 00:11:07,680
+ 
+ 
+
+00:11:07,680 --> 00:11:08,630
+ 
+
+
+00:11:08,630 --> 00:11:11,090
+ 
+ 
+
+00:11:11,090 --> 00:11:13,790
+ 
+ 
+
+00:11:13,790 --> 00:11:16,190
+ 
+ 
+
+00:11:16,190 --> 00:11:19,870
+ 
+ 
+
+00:11:19,870 --> 00:11:24,410
+ 
+ 
+
+00:11:24,410 --> 00:11:27,230
+ 
+ 
+
+00:11:27,230 --> 00:11:28,670
+ 
+ 
+
+00:11:28,670 --> 00:11:30,769
+ 
+ 
+
+00:11:30,769 --> 00:11:33,530
+ 
+ 
+
+00:11:33,530 --> 00:11:35,509
+ 
+ 
+
+00:11:35,509 --> 00:11:37,190
+ 
+ 
+
+00:11:37,190 --> 00:11:40,820
+ 
+ 
+

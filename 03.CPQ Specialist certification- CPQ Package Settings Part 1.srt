@@ -1,0 +1,1416 @@
+1
+00:00:00,480 --> 00:00:02,650
+good everyone i hope you guys 
+have an  amazing day
+
+2
+00:00:02,650 --> 00:00:06,450
+so what i'm gonna do today i will talk about  
+
+3
+00:00:06,450 --> 00:00:08,750
+the package settings 
+which comes with the CPQ
+
+4
+00:00:08,750 --> 00:00:10,050
+my apologies 
+
+5 
+00:00:10,050 --> 00:00:12,700
+it's been a while that i've done
+any video on CPQ, right 
+
+6
+00:00:13,000 --> 00:00:16,950
+the reason being i've been unwell 
+for a you know, for a couple of weeks 
+
+7
+00:00:16,950 --> 00:00:18,950
+because i've been down with influenza  
+
+8
+00:00:19,950 --> 00:00:22,380
+so yeah, so i was not able to talk  
+
+9
+00:00:22,380 --> 00:00:24,360
+because my lungs is still healing 
+
+10
+00:00:24,560 --> 00:00:26,500
+so in saying that
+
+11
+00:00:27,510 --> 00:00:29,350
+i won't be making a very long video today 
+
+12
+00:00:29,350 --> 00:00:31,400
+so i will do short videos  
+
+13
+00:00:32,150 --> 00:00:33,350
+you know over the course of time 
+
+14
+00:00:33,350 --> 00:00:36,850
+i'm gonna get back to making 
+you know longer duration videos 
+
+15
+00:00:36,850 --> 00:00:40,000
+okay, so when you install CPQ, right 
+
+16
+00:00:40,000 --> 00:00:42,900
+if you if you remember 
+i talked about in the last episode 
+
+17
+00:00:43,100 --> 00:00:46,600
+CPQ you can go to the trial 
+and install it, right 
+
+18
+00:00:46,600 --> 00:00:48,050
+it's usually for 90 days 
+
+19
+00:00:48,050 --> 00:00:49,150
+pretty simple 
+
+20
+00:00:49,550 --> 00:00:53,550
+now CPQ, when you install CPQ 
+typically comes with a few settings
+
+21
+00:00:53,550 --> 00:00:56,400
+which is worth to know  
+
+22
+00:00:56,600 --> 00:00:59,200
+because you tampering with those 
+
+23
+00:00:59,200 --> 00:01:01,850
+will have a profound impact the way you
+
+24
+00:01:01,850 --> 00:01:02,950
+work with CPQ 
+
+25
+00:01:02,950 --> 00:01:05,700
+so, i thought, i investigate, sorry 
+
+26
+00:01:05,700 --> 00:01:08,750
+i spent some time
+to explain to you guys 
+
+27
+00:01:08,750 --> 00:01:10,100
+what the settings are about 
+
+28
+00:01:10,100 --> 00:01:12,100
+we won't be covering  
+everything today 
+
+29
+00:01:12,100 --> 00:01:14,000
+but i will talk about a few, right 
+
+30
+00:01:14,000 --> 00:01:16,650
+okay, so i logged into my org  
+
+31
+00:01:16,650 --> 00:01:19,050
+so i hope you guys have registered for CPQ org 
+
+32
+00:01:19,250 --> 00:01:21,450
+if you do not know how to do that 
+
+33
+00:01:21,450 --> 00:01:23,050
+please watch my previous episode 
+
+34
+00:01:23,050 --> 00:01:25,450
+i talked about it in detail, right 
+
+35
+00:01:25,450 --> 00:01:27,850
+okay so, under quick find 
+
+36
+00:01:27,850 --> 00:01:31,550
+i go... installed packages  
+
+37
+00:01:36,250 --> 00:01:38,850
+all right so you can see 
+that CPQ is installed, right  
+
+38
+00:01:39,450 --> 00:01:40,850
+and it's still active 
+
+39
+00:01:40,850 --> 00:01:44,350
+and you can see the expiration date 
+
+40
+00:01:44,350 --> 00:01:46,000
+it's not set which is fine for now 
+
+41
+00:01:46,000 --> 00:01:48,000
+okay so i'm gonna go to configure  
+
+42
+00:01:49,200 --> 00:01:52,150
+so we will look at a few settings 
+
+43
+00:01:52,150 --> 00:01:53,650
+so, documents right 
+
+44
+00:01:53,650 --> 00:01:54,550
+we got different options  
+
+45
+00:01:54,550 --> 00:01:57,000
+there now you must be wondering 
+oh wow that's a lot of settings 
+
+46
+00:01:57,000 --> 00:01:59,000
+yeah, it comes with a lot of settings
+
+47
+00:01:59,000 --> 00:02:01,450
+but it will be good to know 
+what the settings are 
+
+48
+00:02:02,000 --> 00:02:04,000
+first start with the document folder, right 
+
+49
+00:02:04,000 --> 00:02:05,000
+the first one  
+
+50
+00:02:05,550 --> 00:02:07,300
+so it contains a few options 
+
+51
+00:02:07,300 --> 00:02:09,200
+so the document folders 
+
+52
+00:02:09,400 --> 00:02:13,200
+what that means is that uh it 
+lets you select the folder
+
+53
+00:02:13,200 --> 00:02:17,000
+which contains the quote document after generation 
+
+54
+00:02:17,000 --> 00:02:18,850
+so  you remember i talked about 
+
+55
+00:02:19,850 --> 00:02:22,350
+i demonstrated last episode 
+how to create a quote, right 
+
+56
+00:02:22,450 --> 00:02:26,770
+so once the quote is generated 
+it has to go somewhere, right 
+
+57
+00:02:26,770 --> 00:02:30,160
+so that's what you set it here 
+you can go into quote folder
+
+58
+00:02:30,160 --> 00:02:32,200
+you can go in under personal documents 
+
+59
+00:02:32,200 --> 00:02:34,050
+salesforce CPQ assets
+
+60
+00:02:35,250 --> 00:02:37,400
+SteelBrick CPQ template resources, right 
+
+61
+00:02:37,400 --> 00:02:39,050
+so that's nothing
+
+62
+00:02:39,250 --> 00:02:42,850
+attachment target uh so 
+you choose target object, right  
+
+63
+00:02:42,850 --> 00:02:44,650
+so say for instance 
+
+64
+00:02:44,650 --> 00:02:46,350
+by default is opportunity
+
+65
+00:02:46,550 --> 00:02:48,200
+so when you choose opportunity 
+
+66
+00:02:48,200 --> 00:02:50,650
+what happens is the quote documents, right 
+
+67
+00:02:50,650 --> 00:02:52,600
+which they are usually  saved  
+
+68
+00:02:53,100 --> 00:02:55,950
+in the chosen salesforce document folder  
+
+69
+00:02:56,350 --> 00:03:00,150
+and in the opportunity 
+notes and attachment related lists 
+
+70
+00:03:00,150 --> 00:03:02,900
+right, so usually when the quotes get you know 
+
+71
+00:03:04,000 --> 00:03:06,550
+generator righ,t so you chose this document folder 
+
+72
+00:03:06,550 --> 00:03:07,750
+so it goes there 
+
+73
+00:03:07,750 --> 00:03:08,950
+along with that 
+
+74
+00:03:08,950 --> 00:03:12,650
+it goes to your opportunity 
+related list, right, notes attachment
+
+75
+00:03:12,650 --> 00:03:15,500
+now, if you decide to choose the quote right  
+
+76
+00:03:15,500 --> 00:03:19,900
+so you must be wondering okay so 
+what that what we'll do what, sorry  
+
+77
+00:03:19,900 --> 00:03:22,220
+what that will do right, 
+if you select quote
+
+78
+00:03:23,000 --> 00:03:24,700
+so when you select aquote, right  
+
+79
+00:03:24,700 --> 00:03:26,650
+the quote documents as usual
+
+80
+00:03:26,650 --> 00:03:29,350
+they usually saved in the 
+chosen salesforce documentation  
+
+81
+00:03:30,150 --> 00:03:31,750
+along with that 
+
+82
+00:03:31,750 --> 00:03:35,600
+it also goes into the quotes notes 
+and attachment related list  
+
+83
+00:03:36,000 --> 00:03:36,950
+it's pretty simple, right  
+
+84
+00:03:36,950 --> 00:03:39,650
+now if you select document only, so 
+
+85
+00:03:39,650 --> 00:03:41,650
+it just pretty much only stores 
+
+86
+00:03:41,650 --> 00:03:44,150
+into the, you know document
+folder which you selected
+
+87
+00:03:44,150 --> 00:03:45,450
+it's pretty simple, right 
+
+88
+00:03:45,450 --> 00:03:48,550
+now, hide document name  
+
+89
+00:03:48,550 --> 00:03:51,800
+so if you wanted to hide the file name 
+
+90
+00:03:51,800 --> 00:03:52,250
+on a quote document you can do that 
+
+91
+00:03:52,250 --> 00:03:57,350
+so it's usually helpful 
+when you if you don't want the 
+
+92
+00:03:57,350 --> 00:04:01,100
+you know the sales team to  
+fiddle uh with the document name 
+
+93
+00:04:01,100 --> 00:04:02,800
+or change it for whatever reason, right  
+
+94
+00:04:03,800 --> 00:04:08,560
+so usually you know,
+it comes with the default name, right  
+
+95
+00:04:08,560 --> 00:04:10,750
+now if the sales reps right 
+
+96
+00:04:10,750 --> 00:04:15,750
+they say okay i don't want the 
+default name i wanted to change it 
+
+97
+00:04:15,750 --> 00:04:18,750
+so if you if you tick this one, right 
+they will not be able to do that  
+
+98
+00:04:18,750 --> 00:04:21,130
+right, so that's pretty simple right
+
+99
+00:04:21,130 --> 00:04:22,100
+post to feed  
+
+100
+00:04:22,100 --> 00:04:23,650
+so now you must be wondering right 
+
+101
+00:04:23,650 --> 00:04:26,550
+a few of the options are tick,
+yeah that's by default 
+
+102
+00:04:26,550 --> 00:04:29,550
+uh comes with that, but  
+
+103
+00:04:29,550 --> 00:04:32,850
+you know the reason why i'm talking about this settings
+
+104
+00:04:32,850 --> 00:04:34,850
+so that you know you guys understand right 
+
+105
+00:04:34,850 --> 00:04:38,000
+if you have a business requirement 
+where you wanted to implement the CPQ
+
+106
+00:04:38,000 --> 00:04:42,550
+you need to know this settings 
+so that you can make best use of the CPQ
+
+107
+00:04:42,550 --> 00:04:47,900
+so uh but just  don't rely on the 
+default options that's been given to you, right  
+
+108
+00:04:47,900 --> 00:04:49,550
+when you install this product  
+
+109
+00:04:49,550 --> 00:04:51,200
+okay now post to feed 
+
+110
+00:04:51,200 --> 00:04:53,200
+as usual the name indicates 
+pretty simple 
+
+111
+00:04:53,400 --> 00:04:56,440
+it posts the quote document the chatter feed  
+
+112
+00:04:56,440 --> 00:04:58,750
+which is associated with the quote
+
+113
+00:04:58,750 --> 00:05:01,100
+or opportunity attachment target  
+
+114
+00:05:01,100 --> 00:05:03,550
+okay so that's pretty much about it  
+
+115
+00:05:03,550 --> 00:05:08,565
+so full page review, if you can do... preview sorry 
+
+116
+00:05:08,565 --> 00:05:10,165
+full page preview 
+
+116
+
+00:05:10,650 --> 00:05:13,860
+it previews the quote document in a full window 
+
+117
+00:05:13,860 --> 00:05:15,980
+instead of a small iframe right  
+
+118
+00:05:15,980 --> 00:05:17,200 
+that's pretty much it  
+
+119
+00:05:17,200 --> 00:05:20,050 
+as you can see that my voice 
+is still not very clear 
+
+120
+00:05:20,050 --> 00:05:21,400
+my apologies for that 
+
+121
+00:05:21,400 --> 00:05:23,900
+i mean like i said i'm still recovering so  
+
+122
+00:05:23,900 --> 00:05:25,500
+it will get better i mean 
+
+123
+00:05:25,500 --> 00:05:28,200
+i mean if you would have heard me 
+a couple of uh you know  
+
+124
+00:05:28,200 --> 00:05:30,850
+last week i got like a horse voice right  
+
+125
+00:05:30,850 --> 00:05:33,400
+it just sounded pretty strange 
+
+126
+00:05:33,500 --> 0:05:37,350
+and i you know one of my co-workers said 
+hey you sound like a very different person 
+
+127
+00:05:37,350 --> 00:05:41,250
+i mean even though i work from home but  
+still right when you talk in teams  
+
+128
+00:05:41,250 --> 00:05:43,500
+so anyways sorry daggers 
+
+129
+00:05:43,500 --> 00:05:46,950
+okay so enable multi-language translation 
+
+130
+00:05:46,950 --> 00:05:48,350
+this is pretty interesting though right  
+
+131
+00:05:48,350 --> 00:05:52,300
+so, what that will do if you tick this option  
+
+132
+00:05:52,300 --> 00:05:56,600
+uh it will allows the sales rep 
+to generate the quote documentation 
+
+133
+00:05:56,600 --> 00:05:59,000
+in one of your org supported language right  
+
+134
+00:05:59,000 --> 00:06:01,800
+your work might support spanish 
+you might support italian
+
+135
+00:06:01,800 --> 00:06:03,500
+much about korean right over right  
+
+136
+00:06:03,500 --> 00:06:08,800
+so what that will do this will add a locale pick list  
+
+137
+00:06:08,800 --> 00:06:11,500
+to the generated document page okay  
+
+138
+00:06:11,500 --> 00:06:14,900
+so, but the but the problem is 
+
+139
+00:06:14,900 --> 00:06:15,600
+uh not the problem 
+
+140
+00:06:15,600 --> 00:06:18,300
+but there's something 
+which you have to keep into consideration  
+
+141
+00:06:18,300 --> 00:06:20,100
+you must also have  
+
+142
+00:06:20,100 --> 00:06:24,300
+translator values stored for 
+the language that they can select  
+
+143
+00:06:25,300 --> 00:06:27,900
+okay so that's that's pretty much it  
+
+144
+00:06:28,600 --> 00:06:32,000
+okay now, 
+
+145
+00:06:32,000 --> 00:06:35,500
+there's something called mass document username 
+
+146
+00:06:35,500 --> 00:06:38,500
+now you must be wondering oh, this is a click... 
+
+147
+00:06:38,500 --> 00:06:41,200
+you know request authorization okay 
+
+148
+00:06:41,200 --> 00:06:45,300
+so, so what does that mean right 
+if you click that button  
+
+149
+00:06:45,300 --> 00:06:48,000
+it will allow salesforce CPQ 
+
+150
+00:06:48,000 --> 00:06:51,900
+to generate and send 
+quote documents on your behalf  
+
+151
+00:06:51,900 --> 00:06:53,600
+when you're not logged into the salesforce 
+
+152
+00:06:53,600 --> 00:06:56,650
+so if you want that functionality
+then go for it 
+
+153
+00:06:56,650 --> 00:07:00,700
+i mean this setting appears only upon
+the the first installation okay 
+
+154
+00:07:00,700 --> 00:07:03,700
+so uh so, if you select this one 
+
+155
+00:07:03,700 --> 00:07:06,400
+this options goes away, 
+so when you select it  
+
+156
+00:07:06,400 --> 00:07:08,500
+you're just telling the salesforce CPQ hey 
+
+157
+00:07:08,500 --> 00:07:12,400
+generate the, the quote and 
+
+158
+00:07:12,400 --> 00:07:15,200
+you know send document on my behalf 
+and i'm not logged in so 
+
+159
+00:07:15,200 --> 00:07:18,600
+if that's your business requirement 
+go and select it 
+
+160
+00:07:18,600 --> 00:07:22,350
+if you tick it,
+then you can't roll back 
+
+161
+00:07:22,350 --> 00:07:25,150
+probably you might have to 
+call the support i'm not 100% sure  
+
+162
+00:07:26,150 --> 00:07:29,950
+um so then we have the 
+group package settings, right  
+
+163
+00:07:29,950 --> 00:07:33,750
+this is... not too much  
+
+164
+00:07:33,750 --> 00:07:37,200
+in the sense right, 
+you don't see much options there 
+
+165
+00:07:37,200 --> 00:07:38,800
+i mean you need to understand solution groups 
+
+166
+00:07:38,800 --> 00:07:40,850
+i'll talk about solution group 
+in the coming episode 
+
+167
+00:07:40,850 --> 00:07:43,750
+but just remember for the sake of...  
+
+168
+00:07:43,750 --> 00:07:46,120
+you know understanding at the stage 
+
+169
+00:07:46,120 --> 00:07:48,420
+that if you enable this option right 
+
+170
+00:07:48,420 --> 00:07:53,000
+it will allow admins to create 
+solution group for the sales reps 
+
+171
+00:07:53,300 --> 00:07:55,100
+to use in the code line editor 
+
+172
+00:07:55,100 --> 00:07:57,000
+yeah like if you see in the quote right 
+
+173
+00:07:57,000 --> 00:07:59,400
+so we have a quote and we have 
+you know the header  
+
+174
+00:07:59,400 --> 00:08:00,850
+then we have lines right 
+
+175
+00:08:00,850 --> 00:08:02,240
+where you add  different stuff to it  
+
+176
+00:08:03,200 --> 00:08:05,380
+so the solution group  
+
+177
+00:08:05,380 --> 00:08:08,200
+the you know the functionality 
+of solution group in nutshell, right 
+
+178
+00:08:08,200 --> 00:08:12,100
+it will  let you group 
+and subtotal products 
+
+179
+00:08:12,100 --> 00:08:14,750
+independently of other quote line item  
+
+180
+00:08:14,750 --> 00:08:17,100
+and the quote line groups  
+
+181
+00:08:17,100 --> 00:08:23,250
+so if your company has a standard set 
+of quote line group like  
+
+182
+00:08:23,250 --> 00:08:29,000
+say solar panel hardware or say solar panel software  
+
+183
+00:08:29,000 --> 00:08:32,000
+or you can say solar panel different  stuff 
+
+184
+00:08:32,000 --> 00:08:35,050
+if you have a separate lines of grouping 
+
+185
+00:08:35,050 --> 00:08:37,800
+then this will be handy 
+i'll talk about it right  
+
+186
+00:08:37,800 --> 00:08:40,950
+when i get to this stage just for now  
+just just don't worry about it 
+
+
+187
+00:08:40,950 --> 00:08:43,950
+just just understand one thing 
+you tick this option 
+
+
+188
+00:08:43,950 --> 00:08:47,300
+you will allow admin to create  
+he you know the the solution group  
+
+
+189
+00:08:47,300 --> 00:08:52,100
+for your app okay so that it can 
+be used in the uh quote line editor 
+
+
+190
+00:08:52,100 --> 00:08:56,150
+simple right, okay now require group name 
+
+191 
+00:08:56,150 --> 00:08:58,200
+okay this is by default ticked  
+
+192
+00:08:58,200 --> 00:09:01,000
+um so what happens is, right 
+
+193
+00:09:01,000 --> 00:09:02,600
+when this  option is ticked  
+
+194
+00:09:02,900 --> 00:09:06,100
+sales reps are required to... 
+
+195
+00:09:06,100 --> 00:09:07,800
+so when you  when you tick this 
+
+196
+00:09:07,800 --> 00:09:11,600
+it will allow the sales rep 
+to edit group names 
+
+197
+00:09:11,600 --> 00:09:11,600
+in the quote line editor 
+
+198
+00:09:13,800 --> 00:09:18,250
+so, so require group names so yeah  
+
+199
+00:09:18,250 --> 00:09:21,250
+so sales reps are required to edit 
+
+200
+00:09:21,250 --> 00:09:21,250
+group names in the quote line editor, so  
+
+201
+00:09:21,250 --> 00:09:26,400
+that's um then we have um  
+
+202 
+00:09:26,400 --> 00:09:28,500
+lime editor package settings 
+
+203
+00:09:28,500 --> 00:09:30,350
+it's a lot of them 
+
+204
+00:09:30,350 --> 00:09:31,450
+i understand that  
+
+205
+00:09:31,450 --> 00:09:34,550
+um so let's see  
+
+206
+00:09:34,550 --> 00:09:36,300
+we talk about the plugins right 
+
+207
+00:09:36,300 --> 00:09:37,500
+i'm  gonna talk about  
+
+208
+00:09:37,500 --> 00:09:40,450
+uh line editor it's a bit complicated 
+
+209
+00:09:40,450 --> 00:09:43,000
+so i don't want to go too deep into it 
+
+210
+00:09:43,000 --> 00:09:45,100
+uh just gonna talk about few things right 
+
+211
+00:09:45,100 --> 00:09:47,000
+uh which is gonna be commonly used 
+
+212
+00:09:47,000 --> 00:09:49,450
+electronic signature plug-in 
+for instance this one  
+
+213
+00:09:49,450 --> 00:09:51,550
+so what that will do is right 
+
+214
+00:09:51,550 --> 00:09:54,000
+um it lets you integrate salesforce CPQ
+
+215
+00:09:54,000 --> 00:09:57,260
+with electronic e-signature provider 
+like for instance kundasign 
+
+216
+00:09:57,260 --> 00:09:58,450
+if you wanted to 
+
+217
+00:09:58,450 --> 00:10:01,900
+you know integrate your CPQ with you 
+know kundasign, you can do that 
+
+218
+00:10:01,900 --> 00:10:05,550
+then you have uh you know something called  
+
+219
+00:10:05,550 --> 00:10:07,700
+product search plugin 
+
+220
+00:10:07,700 --> 00:10:12,000
+so it lets you modify and add  
+
+221
+00:10:12,000 --> 00:10:17,800
+specif uh to uh you know  
+specification specification  
+
+222
+00:10:17,800 --> 00:10:19,160
+i can't pronounce the word  
+
+223
+00:10:19,160 --> 00:10:24,550
+specificity to product filter searches  
+
+224
+00:10:24,550 --> 00:10:28,050
+and it will pretty much help you with you know  
+
+225
+00:10:29,050 --> 00:10:30,250
+the search stuff  
+
+226
+00:10:30,250 --> 00:10:33,900
+so i haven't used this functionality so much 
+
+227
+00:10:33,900 --> 00:10:35,650
+so i can't really get into the detail 
+
+228
+00:10:35,650 --> 00:10:37,850
+but i've used electronic signature a lot 
+
+229
+00:10:37,850 --> 00:10:40,800
+um then i've used the quote calculator plugin 
+
+230
+00:10:40,800 --> 00:10:42,600
+that i've used in so you know 
+
+231
+00:10:42,600 --> 00:10:44,800
+you can extend the  
+functionality of the salesforce 
+
+232 
+00:10:44,800 --> 00:10:47,570
+CPQ calculator  
+
+233
+00:10:47,570 --> 00:10:50,800
+so you can use it here 
+so i've used that one  
+
+234
+00:10:50,800 --> 00:10:53,000
+but product search plug-in not really so  
+
+235
+00:10:53,000 --> 00:10:55,750
+i can but this is a functionality there  
+
+236
+00:10:55,750 --> 00:10:59,450
+so um yeah 
+
+237
+00:10:59,450 --> 00:11:02,750
+and then the order management 
+plug-in is there so which is another  
+
+238
+00:11:02,750 --> 00:11:05,250
+important stuff then we have just 
+
+239
+00:11:05,750 --> 00:11:06,950 
+you know so order management plug-in 
+
+240
+00:11:06,950 --> 00:11:11,350 
+it lets you customize you know sales 
+how your salesforce CPQ
+
+250
+00:11:11,350 --> 00:11:14,350 
+calculate normally the order start date  
+
+251
+00:11:14,350 --> 00:11:16,850 
+so if you're you know if you wanted to  
+
+252
+00:11:16,850 --> 00:11:20,150 
+work on your order start date 
+so this is the plugin 
+
+253
+00:11:20,150 --> 00:11:21,550 
+to go for it 
+
+254
+00:11:21,550 --> 00:11:23,550 
+so that's the order management plugin
+
+255
+00:11:23,550 --> 00:11:26,800 
+then we have, document store plugin 
+
+256
+00:11:26,800 --> 00:11:30,500 
+which is, which is another plug-in 
+which is i believe very important 
+
+257
+00:11:30,500 --> 00:11:33,500 
+i've seen often integration 
+with that plug-in a lot 
+
+257
+00:11:33,500 --> 00:11:39,150 
+in CPQ based on my experience 
+working this CPQ implementation before 
+
+258
+00:11:39,150 --> 00:11:41,750 
+so it lets you integrate your CPQ with  you know 
+
+259
+00:11:41,750 --> 00:11:45,250
+document management providers right 
+so whichever you choose  
+
+260
+00:11:45,250 --> 00:11:51,250
+so that's.. then we have pricing and calculation  
+which is another one  
+
+261
+00:11:51,250 --> 00:11:55,150
+i will touch a little bit on pricing  and calculation  
+
+262
+00:11:56,666 --> 00:12:01,900
+so now the first one is the currency symbol right  
+
+263
+00:12:02,100 --> 00:12:05,200
+now you must be wondering what 
+the heck is the currency symbol so
+
+264
+00:12:05,200 --> 00:12:11,650
+so if you so CPQ right, it uses this currency symbol 
+
+265
+00:12:11,650 --> 00:12:13,950
+in the quote line editor  
+
+266
+00:12:13,950 --> 00:12:18,050
+on the generated document right 
+like a dollar sign or whatever right 
+
+267
+00:12:18,050 --> 00:12:20,350
+so  that's pretty much it  
+
+268
+00:12:20,350 --> 00:12:24,000
+and then you have something 
+called unit price scale 
+
+269
+00:12:24,000 --> 00:12:27,450
+which is very important right 
+because the this is very important 
+
+270
+00:12:27,450 --> 00:12:31,300
+so this is a fractional unit price round off to  
+
+271
+00:12:31,300 --> 00:12:34,500
+many decimal places right so this two here  
+
+272
+00:12:34,500 --> 00:12:39,400
+so that's a bit that's, you can change it 
+if you wanted to change it 
+
+273
+00:12:39,400 --> 00:12:44,700
+then you have something called 
+by default the legacy calculator 
+
+274
+00:12:44,700 --> 00:12:50,350
+so this enable the 
+salesforce CPQ legacy calculator  
+
+275
+00:12:50,350 --> 00:12:52,700
+but you have to understand one thing  
+
+276
+00:12:52,700 --> 00:12:55,900
+salesforce CPQ no longer offer support  
+
+277
+00:12:55,900 --> 00:12:59,900
+for this version of the calculator 
+so it's better to untick 
+
+278
+00:12:59,900 --> 00:13:02,200
+yeah, so.... 
+
+279
+00:13:03,500 --> 00:13:06,500
+now you must be wondering 
+oh this is too much right 
+
+280
+00:13:06,500 --> 00:13:08,500
+i understand 
+we haven't touched detail  
+
+281
+00:13:08,500 --> 00:13:10,800
+in in detail about pricing 
+
+282
+00:13:10,800 --> 00:13:12,900
+about discounting model calculation  
+
+283
+00:13:13,000 --> 00:13:14,900
+we're gonna get there but 
+
+284
+00:13:14,900 --> 00:13:17,750
+just wanted to understand that 
+we have these settings in place  
+
+285
+00:13:18,000 --> 00:13:20,250
+so it will make you  
+
+286
+00:13:20,250 --> 00:13:24,750
+use CPQ in, in a much informed way right 
+
+287
+00:13:25,000 --> 00:13:30,600
+then we have very important 
+thing, enable quick calculate  
+
+288
+00:13:31,250 --> 00:13:33,180
+so this is this one this boy here 
+
+289
+00:13:33,180 --> 00:13:34,900
+so when you tick this option right  
+
+290
+00:13:35,000 --> 00:13:39,250
+it actually um so  
+
+291
+00:13:39,250 --> 00:13:42,250
+i'll tell you one thing what 
+does this do right in simple terms  
+
+292
+00:13:42,900 --> 00:13:44,600
+so this functionality right 
+
+293
+00:13:44,600 --> 00:13:49,500
+this specific functionality it 
+actually improves your code calculation time 
+
+
+294
+00:13:49,500 --> 00:13:51,850
+and how does that do that  
+
+295
+00:13:51,850 --> 00:13:53,300
+so it's pretty simple 
+
+296
+00:13:53,300 --> 00:13:56,150
+it disables three function, uh features  
+
+297
+00:13:56,150 --> 00:13:57,700
+one is the price rule 
+
+298
+00:13:57,700 --> 00:13:59,900
+in quote line formula field 
+
+299
+00:13:59,900 --> 00:14:01,900
+that depends upon the parent relationship 
+
+300
+00:14:01,900 --> 00:14:04,200
+and displaying role-up summary fields 
+
+301
+00:14:04,200 --> 00:14:05,600
+in the quote line  editor so  
+
+302
+00:14:05,600 --> 00:14:07,650
+if you wanted to use this 
+
+303
+00:14:07,650 --> 00:14:09,350
+those three things will be disabled 
+
+304
+00:14:09,350 --> 00:14:11,700
+price rules, quote line formula fields  
+
+305
+00:14:11,700 --> 00:14:14,500
+displaying roll-up summary fields 
+in the quote line editor  
+
+306
+00:14:14,500 --> 00:14:17,100
+so this is how it improves the 
+
+307
+00:14:20,100 --> 00:14:21,716
+the the calculation time right  
+
+308
+00:14:21,716 --> 00:14:25,550
+so now you must be wondering oh there's  
+
+309
+00:14:27,000 --> 00:14:29,360
+different things so  
+
+310
+00:14:29,360 --> 00:14:33,600
+i mean for now this is all i think 
+you should pay attention to it 
+
+311
+00:14:33,600 --> 00:14:36,600
+i know the subscriptions and renew renewal 
+
+312
+00:14:36,600 --> 00:14:39,300
+so if you if you are if you you know go and  
+
+313
+00:14:39,300 --> 00:14:41,700
+buy like it's like in a magazine right  
+
+314
+00:14:41,700 --> 00:14:44,050
+you buy for 12 months subscription 
+
+315
+00:14:44,050 --> 00:14:46,600
+so i get order renewed after 12 months so  
+
+316
+00:14:46,600 --> 00:14:49,400
+so yeah so different options comes into places 
+
+317
+00:14:49,400 --> 00:14:51,850
+this is a little bit more to talk about it 
+
+318
+00:14:51,850 --> 00:14:54,000
+so i'm not going to talk about today because  
+
+319
+00:14:54,000 --> 00:14:56,150
+unfortunately i'm already getting tired  
+
+320
+00:14:56,150 --> 00:15:00,350
+so  i will stop it right here now 
+
+321 
+00:15:00,350 --> 00:15:01,800
+and in the next episode 
+
+322
+00:15:01,800 --> 00:15:03,700
+hopefully tomorrow, day after tomorrow 
+
+323
+00:15:03,700 --> 00:15:06,400
+i will cover the remaining part of it right 
+
+324
+00:15:06,400 --> 00:15:08,050
+sounds good i hope 
+
+325 
+00:15:08,050 --> 00:15:09,550
+so yeah i mean 
+
+326
+00:15:09,550 --> 00:15:11,450
+from exam point of view this is important 
+
+327
+00:15:12,250 --> 00:15:15,050
+so one thing i always tell right 
+
+328
+00:15:15,050 --> 00:15:16,650
+when i teach people certification 
+
+329
+00:15:16,650 --> 00:15:19,250
+my main goal is not to you know teach you guys 
+
+330
+00:15:19,250 --> 00:15:22,600
+just to clear the certification 
+but to enjoy the journey 
+
+331
+00:15:22,600 --> 00:15:25,000
+understand the product very well 
+
+332
+00:15:25,000 --> 00:15:27,000
+and become a better consultant or an architect 
+
+333
+00:15:27,000 --> 00:15:29,250
+right that's all my intention is all about 
+
+334
+00:15:29,250 --> 00:15:30,600
+right so that being said 
+
+335
+00:15:30,600 --> 00:15:30,600
+i hope you guys have an  amazing  wednesday  anyway
+
+

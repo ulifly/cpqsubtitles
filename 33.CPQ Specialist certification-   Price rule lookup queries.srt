@@ -1,0 +1,1189 @@
+
+00:00:00,560 --> 00:00:02,230
+ 
+good everyone i hope you guys have an  amazing day so in the last episode if  you remember i talked about the price  rules  um and how it can impact the prices  right um so i mean that's that was  pretty simple right i mean you have an  account and based on account type  you specify you know a price of a  product right now imagine you have a  different uh you know types of accounts  right and you want to give  uh  the different price to the same product  now  that might sounds like a easy thing you  can say hey i can create a a new price  rule right what's a big deal like i've  done here the education price here  you know similarly i can create  you know for uh you know different  industry code so what's a big deal well  the problem is that right um  imagine you have tons of it right and  you have a product with different  you know different codes you wanted to  give you know different codes pricing  for  uh based on industry tribe just for the  sake of argument so the price rules can  get very complicated and it will be an  admin nightmare and trust me admins hate  doing data entry stuff right it's just  like a nightmare for them they prefer to  have something uh  in place which is simple and easy to  implement and it's future proof right  so um  salesforce when you install the cpq  right there is something uh that comes  along with it there's a custom object  called uh  industry prices so it's pretty simple  right what industry prices will do  um it will it contains a few fields okay  uh it contains fields like uh you know  industry price name  uh industry type for you know a product  what product you wanted to  associate this with and if it's a you  know what kind of category is it and the  price okay so that's pretty simple  uh in a custom object and you can use  this custom object as a lookup uh when  you do a price rules that which is  exactly what we're gonna do today  okay uh so what i've done right just to  make it simple  um i've created i mean this is pretty  much a trailer example so i created two  entries here  uh the first one says  okay so the same chromebook if you  remember the chromebook which we  uh created last time right and i've used  the same  uh chromebook uh for it  uh  education sector so i'm going to use the  same chromebook for health and education  because i've created this entry to say  hey i want this ip institute of  education uh the product will be  chromebook  uh psla ipsla  bronze and the i and the price okay  uh the same thing i did for  uh the health  so healthcare so i said okay i want the  price of the same chromebook to be 50  250 and for if you are coming from  education it should be 230 right  discount  okay so now how are we going to build  the price rule okay that's pretty simple  uh you go here the first thing first  right uh you need to if you  uh what i'll do i will deactivate the  existing price rule so that you know it  doesn't interfere  uh and then i go back to the price rule  create new  okay  so i will say you know combined  whatever right  com industry combined  industry combined  price rule okay  uh evaluation scope i would say  calculator  i'm not interested in the product so the  only thing you have to pay attention  here is the okay first of all you need  to make active right obviously the  lookup object so which object you're  going to look uh you're going to use a  lookup uh relationship so you have to  use the lookup relationship industry  price which i've already demonstrated so  i'll say yes  okay now what i'll do uh we're not gonna  work for the price condition right  that's something we did in the last  episode like if then  so instead we're gonna work with the  lookup price uh lookup queries okay so  you got new  uh and what i'll say match type i also  feel value  uh tester object also code uh target  field i say okay i wanted to say  industry what i'm doing i'm going to  match  the code industry field with the custom  object  industry field yeah  so i will say  equals okay  and also the look of fields should be  your  industry okay  and then now what i want is that i want  to match obviously the product as well  right just having industry is not enough  so i'll do match field value also  attached object for the code line  obviously the first thing what we did is  pretty much the same like what we did in  the last time right so first we match  with industry that's use the code  because that's a code level then uh i'm  matching the product based on the code  line so i will say  this product code  matches equals  i think this one right okay so that's  done so this is like a price condition  so instead we use the lookup now what  should happen if these things matches  right obviously you have to set the  price  so what i'll do i will say target object  also code line and i will say this  special price  okay and then i'll say okay set it to  iprice okay  so what i want to do i wanted to bring  the price from the custom object okay  instead of using the price from the  product so that exactly what i said this  is the target object and i'm saying hey  set the price from here  that's all you have to do and then you  know i've activated it and i made sure  that i've deactivated  uh the previous  existing education price right okay now  let's go to the code  and i'll create a new code so let's  start with the  education industry  um  so  all right so i'll choose this primary  account i'll choose the school account  right which is my  education account  then  i'll choose edit lines and i'll choose a  chromebook okay so it should show  something like um  it's a matter  like 2 30 something right  because actual price from the price book  is actually four in the box as you can  see here  but behind the scene it does the  calculation using price rule  and highly speaking should show for uh  okay so that means it didn't work okay  that's fine  uh now  why didn't work okay so you might get  the scenario it you know when you say  hey i just did this but why it's not  working okay let's go back to the  the price rule to see the mistake what  we did okay something we might have  missed it  okay so let's look at the pricing rule  so what i did let's look at this one  so i said the product should match  okay here  okay the mistake  you can see that here  see we have chosen so the mistake what  i've done right i've done in the price  action so instead of choosing the list  price  um i've selected  uh the special price obviously it won't  work  right this is the one way you can  troubleshoot right if things go wrong  you come back to the price rule to see  what's happening right  okay so we go back to the codes again  and uh let's see if this is a code we  created okay this is cool account so  i'll do edit lines  and uh  and i'll do add product  and i'll say chromebook  and i will  select  all right it should work  okay 2 30 right it worked all right now  we're gonna do the same for a healthcare  account  all right so what i'll do i'll go back  to the codes again  and i'll go to this code right and i'll  choose this  uh changes account to test account which  is my  uh health care account  okay so  and i will go to edit lines  so when you are coming from a healthcare  account the price of the same chromebook  is should be 250.  so you go to add product  i'll choose chromebook  right and i'll choose from here and also  select  it should work so 250 right so you can  see the difference right so  uh this is pretty powerful when you have  different scenarios you wanted to give  different price based on the industry  type or for that matter any other fields  right custom field body  whichever you create so uh give a try i  mean we'll you know look up like i said  i mean if you have a very basic  requirement and you believe that you  know  uh your requirement won't change then go  with the normal one right the one which  i demonstrated in the previous episode  if you have a fancy requirement of the  complex requirement where you need to  create uh very believe that you might  end up in creating a lot of price rules  then i believe this option is a better  way to go forward just try with the look  up try to build a custom object just to  see how it goes right so it's a case by  case based on your business business  requirement so that's pretty much uh i  would like to cover in today's episode i  hope you enjoyed it um if you have any  questions or come in just do let me know  right uh so that being said you guys  have amazing uh thursday adios
+
+00:00:02,230 --> 00:00:04,230
+good everyone i hope you guys have an  amazing day so in the last episode if  you remember i talked about the price  rules  um and how it can impact the prices  right um so i mean that's that was  pretty simple right i mean you have an  account and based on account type  you specify you know a price of a  product right now imagine you have a  different uh you know types of accounts  right and you want to give  uh  the different price to the same product  now  that might sounds like a easy thing you  can say hey i can create a a new price  rule right what's a big deal like i've  done here the education price here  you know similarly i can create  you know for uh you know different  industry code so what's a big deal well  the problem is that right um  imagine you have tons of it right and  you have a product with different  you know different codes you wanted to  give you know different codes pricing  for  uh based on industry tribe just for the  sake of argument so the price rules can  get very complicated and it will be an  admin nightmare and trust me admins hate  doing data entry stuff right it's just  like a nightmare for them they prefer to  have something uh  in place which is simple and easy to  implement and it's future proof right  so um  salesforce when you install the cpq  right there is something uh that comes  along with it there's a custom object  called uh  industry prices so it's pretty simple  right what industry prices will do  um it will it contains a few fields okay  uh it contains fields like uh you know  industry price name  uh industry type for you know a product  what product you wanted to  associate this with and if it's a you  know what kind of category is it and the  price okay so that's pretty simple  uh in a custom object and you can use  this custom object as a lookup uh when  you do a price rules that which is  exactly what we're gonna do today  okay uh so what i've done right just to  make it simple  um i've created i mean this is pretty  much a trailer example so i created two  entries here  uh the first one says  okay so the same chromebook if you  remember the chromebook which we  uh created last time right and i've used  the same  uh chromebook uh for it  uh  education sector so i'm going to use the  same chromebook for health and education  because i've created this entry to say  hey i want this ip institute of  education uh the product will be  chromebook  uh psla ipsla  bronze and the i and the price okay  uh the same thing i did for  uh the health  so healthcare so i said okay i want the  price of the same chromebook to be 50  250 and for if you are coming from  education it should be 230 right  discount  okay so now how are we going to build  the price rule okay that's pretty simple  uh you go here the first thing first  right uh you need to if you  uh what i'll do i will deactivate the  existing price rule so that you know it  doesn't interfere  uh and then i go back to the price rule  create new  okay  so i will say you know combined  whatever right  com industry combined  industry combined  price rule okay  uh evaluation scope i would say  calculator  i'm not interested in the product so the  only thing you have to pay attention  here is the okay first of all you need  to make active right obviously the  lookup object so which object you're  going to look uh you're going to use a  lookup uh relationship so you have to  use the lookup relationship industry  price which i've already demonstrated so  i'll say yes  okay now what i'll do uh we're not gonna  work for the price condition right  that's something we did in the last  episode like if then  so instead we're gonna work with the  lookup price uh lookup queries okay so  you got new  uh and what i'll say match type i also  feel value  uh tester object also code uh target  field i say okay i wanted to say  industry what i'm doing i'm going to  match  the code industry field with the custom  object  industry field yeah  so i will say  equals okay  and also the look of fields should be  your  industry okay  and then now what i want is that i want  to match obviously the product as well  right just having industry is not enough  so i'll do match field value also  attached object for the code line  obviously the first thing what we did is  pretty much the same like what we did in  the last time right so first we match  with industry that's use the code  because that's a code level then uh i'm  matching the product based on the code  line so i will say  this product code  matches equals  i think this one right okay so that's  done so this is like a price condition  so instead we use the lookup now what  should happen if these things matches  right obviously you have to set the  price  so what i'll do i will say target object  also code line and i will say this  special price  okay and then i'll say okay set it to  iprice okay  so what i want to do i wanted to bring  the price from the custom object okay  instead of using the price from the  product so that exactly what i said this  is the target object and i'm saying hey  set the price from here  that's all you have to do and then you  know i've activated it and i made sure  that i've deactivated  uh the previous  existing education price right okay now  let's go to the code  and i'll create a new code so let's  start with the  education industry  um  so  all right so i'll choose this primary  account i'll choose the school account  right which is my  education account  then  i'll choose edit lines and i'll choose a  chromebook okay so it should show  something like um  it's a matter  like 2 30 something right  because actual price from the price book  is actually four in the box as you can  see here  but behind the scene it does the  calculation using price rule  and highly speaking should show for uh  okay so that means it didn't work okay  that's fine  uh now  why didn't work okay so you might get  the scenario it you know when you say  hey i just did this but why it's not  working okay let's go back to the  the price rule to see the mistake what  we did okay something we might have  missed it  okay so let's look at the pricing rule  so what i did let's look at this one  so i said the product should match  okay here  okay the mistake  you can see that here  see we have chosen so the mistake what  i've done right i've done in the price  action so instead of choosing the list  price  um i've selected  uh the special price obviously it won't  work  right this is the one way you can  troubleshoot right if things go wrong  you come back to the price rule to see  what's happening right  okay so we go back to the codes again  and uh let's see if this is a code we  created okay this is cool account so  i'll do edit lines  and uh  and i'll do add product  and i'll say chromebook  and i will  select  all right it should work  okay 2 30 right it worked all right now  we're gonna do the same for a healthcare  account  all right so what i'll do i'll go back  to the codes again  and i'll go to this code right and i'll  choose this  uh changes account to test account which  is my  uh health care account  okay so  and i will go to edit lines  so when you are coming from a healthcare  account the price of the same chromebook  is should be 250.  so you go to add product  i'll choose chromebook  right and i'll choose from here and also  select  it should work so 250 right so you can  see the difference right so  uh this is pretty powerful when you have  different scenarios you wanted to give  different price based on the industry  type or for that matter any other fields  right custom field body  whichever you create so uh give a try i  mean we'll you know look up like i said  i mean if you have a very basic  requirement and you believe that you  know  uh your requirement won't change then go  with the normal one right the one which  i demonstrated in the previous episode  if you have a fancy requirement of the  complex requirement where you need to  create uh very believe that you might  end up in creating a lot of price rules  then i believe this option is a better  way to go forward just try with the look  up try to build a custom object just to  see how it goes right so it's a case by  case based on your business business  requirement so that's pretty much uh i  would like to cover in today's episode i  hope you enjoyed it um if you have any  questions or come in just do let me know  right uh so that being said you guys  have amazing uh thursday adios
+ 
+
+00:00:04,230 --> 00:00:06,070
+ 
+ 
+
+00:00:06,070 --> 00:00:06,080
+ 
+ 
+
+00:00:06,080 --> 00:00:07,190
+ 
+
+
+00:00:07,190 --> 00:00:09,830
+ 
+ 
+
+00:00:09,830 --> 00:00:12,629
+ 
+ 
+
+00:00:12,629 --> 00:00:14,310
+ 
+ 
+
+00:00:14,310 --> 00:00:17,269
+ 
+ 
+
+00:00:17,269 --> 00:00:19,990
+ 
+ 
+
+00:00:19,990 --> 00:00:23,349
+ 
+ 
+
+00:00:23,349 --> 00:00:26,790
+ 
+ 
+
+00:00:26,790 --> 00:00:28,830
+ 
+ 
+
+00:00:28,830 --> 00:00:28,840
+ 
+ 
+
+00:00:28,840 --> 00:00:30,630
+ 
+
+
+00:00:30,630 --> 00:00:33,030
+ 
+ 
+
+00:00:33,030 --> 00:00:33,040
+ 
+ 
+
+00:00:33,040 --> 00:00:33,990
+ 
+
+
+00:00:33,990 --> 00:00:37,030
+ 
+ 
+
+00:00:37,030 --> 00:00:39,510
+ 
+ 
+
+00:00:39,510 --> 00:00:41,190
+ 
+ 
+
+00:00:41,190 --> 00:00:43,670
+ 
+ 
+
+00:00:43,670 --> 00:00:46,069
+ 
+ 
+
+00:00:46,069 --> 00:00:48,150
+ 
+ 
+
+00:00:48,150 --> 00:00:50,950
+ 
+ 
+
+00:00:50,950 --> 00:00:54,150
+ 
+ 
+
+00:00:54,150 --> 00:00:56,709
+ 
+ 
+
+00:00:56,709 --> 00:00:58,709
+ 
+ 
+
+00:00:58,709 --> 00:01:00,069
+ 
+ 
+
+00:01:00,069 --> 00:01:02,069
+ 
+ 
+
+00:01:02,069 --> 00:01:02,079
+ 
+ 
+
+00:01:02,079 --> 00:01:02,869
+ 
+
+
+00:01:02,869 --> 00:01:05,350
+ 
+ 
+
+00:01:05,350 --> 00:01:07,510
+ 
+ 
+
+00:01:07,510 --> 00:01:10,630
+ 
+ 
+
+00:01:10,630 --> 00:01:13,990
+ 
+ 
+
+00:01:13,990 --> 00:01:16,390
+ 
+ 
+
+00:01:16,390 --> 00:01:18,710
+ 
+ 
+
+00:01:18,710 --> 00:01:20,630
+ 
+ 
+
+00:01:20,630 --> 00:01:22,310
+ 
+ 
+
+00:01:22,310 --> 00:01:25,190
+ 
+ 
+
+00:01:25,190 --> 00:01:27,030
+ 
+ 
+
+00:01:27,030 --> 00:01:28,710
+ 
+ 
+
+00:01:28,710 --> 00:01:30,469
+ 
+ 
+
+00:01:30,469 --> 00:01:32,230
+ 
+ 
+
+00:01:32,230 --> 00:01:33,990
+ 
+ 
+
+00:01:33,990 --> 00:01:36,789
+ 
+ 
+
+00:01:36,789 --> 00:01:39,270
+ 
+ 
+
+00:01:39,270 --> 00:01:43,830
+ 
+ 
+
+00:01:43,830 --> 00:01:46,149
+ 
+ 
+
+00:01:46,149 --> 00:01:47,830
+ 
+ 
+
+00:01:47,830 --> 00:01:51,429
+ 
+ 
+
+00:01:51,429 --> 00:01:53,670
+ 
+ 
+
+00:01:53,670 --> 00:01:55,830
+ 
+ 
+
+00:01:55,830 --> 00:01:57,670
+ 
+ 
+
+00:01:57,670 --> 00:02:00,870
+ 
+ 
+
+00:02:00,870 --> 00:02:03,270
+ 
+ 
+
+00:02:03,270 --> 00:02:06,069
+ 
+ 
+
+00:02:06,069 --> 00:02:07,990
+ 
+ 
+
+00:02:07,990 --> 00:02:09,910
+ 
+ 
+
+00:02:09,910 --> 00:02:13,110
+ 
+ 
+
+00:02:13,110 --> 00:02:14,470
+ 
+ 
+
+00:02:14,470 --> 00:02:16,550
+ 
+ 
+
+00:02:16,550 --> 00:02:19,190
+ 
+ 
+
+00:02:19,190 --> 00:02:20,390
+ 
+ 
+
+00:02:20,390 --> 00:02:22,630
+ 
+ 
+
+00:02:22,630 --> 00:02:24,550
+ 
+ 
+
+00:02:24,550 --> 00:02:27,589
+ 
+ 
+
+00:02:27,589 --> 00:02:30,070
+ 
+ 
+
+00:02:30,070 --> 00:02:31,110
+ 
+ 
+
+00:02:31,110 --> 00:02:33,430
+ 
+ 
+
+00:02:33,430 --> 00:02:33,440
+ 
+ 
+
+00:02:33,440 --> 00:02:34,390
+ 
+
+
+00:02:34,390 --> 00:02:36,309
+ 
+ 
+
+00:02:36,309 --> 00:02:38,710
+ 
+ 
+
+00:02:38,710 --> 00:02:40,390
+ 
+ 
+
+00:02:40,390 --> 00:02:42,710
+ 
+ 
+
+00:02:42,710 --> 00:02:44,710
+ 
+ 
+
+00:02:44,710 --> 00:02:44,720
+ 
+ 
+
+00:02:44,720 --> 00:02:45,750
+ 
+
+
+00:02:45,750 --> 00:02:48,710
+ 
+ 
+
+00:02:48,710 --> 00:02:51,589
+ 
+ 
+
+00:02:51,589 --> 00:02:53,990
+ 
+ 
+
+00:02:53,990 --> 00:02:55,670
+ 
+ 
+
+00:02:55,670 --> 00:02:57,589
+ 
+ 
+
+00:02:57,589 --> 00:02:59,990
+ 
+ 
+
+00:02:59,990 --> 00:03:01,910
+ 
+ 
+
+00:03:01,910 --> 00:03:03,830
+ 
+ 
+
+00:03:03,830 --> 00:03:03,840
+ 
+ 
+
+00:03:03,840 --> 00:03:04,869
+ 
+
+
+00:03:04,869 --> 00:03:06,550
+ 
+ 
+
+00:03:06,550 --> 00:03:08,949
+ 
+ 
+
+00:03:08,949 --> 00:03:11,190
+ 
+ 
+
+00:03:11,190 --> 00:03:13,670
+ 
+ 
+
+00:03:13,670 --> 00:03:15,910
+ 
+ 
+
+00:03:15,910 --> 00:03:17,910
+ 
+ 
+
+00:03:17,910 --> 00:03:20,309
+ 
+ 
+
+00:03:20,309 --> 00:03:23,030
+ 
+ 
+
+00:03:23,030 --> 00:03:24,309
+ 
+ 
+
+00:03:24,309 --> 00:03:24,319
+ 
+ 
+
+00:03:24,319 --> 00:03:25,350
+ 
+
+
+00:03:25,350 --> 00:03:28,550
+ 
+ 
+
+00:03:28,550 --> 00:03:31,430
+ 
+ 
+
+00:03:31,430 --> 00:03:36,309
+ 
+ 
+
+00:03:36,309 --> 00:03:38,869
+ 
+ 
+
+00:03:38,869 --> 00:03:40,949
+ 
+ 
+
+00:03:40,949 --> 00:03:42,710
+ 
+ 
+
+00:03:42,710 --> 00:03:42,720
+ 
+ 
+
+00:03:42,720 --> 00:03:44,149
+ 
+
+
+00:03:44,149 --> 00:03:45,990
+ 
+ 
+
+00:03:45,990 --> 00:03:47,350
+ 
+ 
+
+00:03:47,350 --> 00:03:49,350
+ 
+ 
+
+00:03:49,350 --> 00:03:51,110
+ 
+ 
+
+00:03:51,110 --> 00:03:53,110
+ 
+ 
+
+00:03:53,110 --> 00:03:55,350
+ 
+ 
+
+00:03:55,350 --> 00:03:58,470
+ 
+ 
+
+00:03:58,470 --> 00:04:00,149
+ 
+ 
+
+00:04:00,149 --> 00:04:02,070
+ 
+ 
+
+00:04:02,070 --> 00:04:04,710
+ 
+ 
+
+00:04:04,710 --> 00:04:07,030
+ 
+ 
+
+00:04:07,030 --> 00:04:08,470
+ 
+ 
+
+00:04:08,470 --> 00:04:09,990
+ 
+ 
+
+00:04:09,990 --> 00:04:11,990
+ 
+ 
+
+00:04:11,990 --> 00:04:13,429
+ 
+ 
+
+00:04:13,429 --> 00:04:16,789
+ 
+ 
+
+00:04:16,789 --> 00:04:18,150
+ 
+ 
+
+00:04:18,150 --> 00:04:20,390
+ 
+ 
+
+00:04:20,390 --> 00:04:21,590
+ 
+ 
+
+00:04:21,590 --> 00:04:24,790
+ 
+ 
+
+00:04:24,790 --> 00:04:26,629
+ 
+ 
+
+00:04:26,629 --> 00:04:28,070
+ 
+ 
+
+00:04:28,070 --> 00:04:28,080
+ 
+ 
+
+00:04:28,080 --> 00:04:29,189
+ 
+
+
+00:04:29,189 --> 00:04:32,310
+ 
+ 
+
+00:04:32,310 --> 00:04:32,320
+ 
+ 
+
+00:04:32,320 --> 00:04:34,390
+ 
+
+
+00:04:34,390 --> 00:04:36,230
+ 
+ 
+
+00:04:36,230 --> 00:04:37,909
+ 
+ 
+
+00:04:37,909 --> 00:04:39,590
+ 
+ 
+
+00:04:39,590 --> 00:04:42,070
+ 
+ 
+
+00:04:42,070 --> 00:04:42,080
+ 
+ 
+
+00:04:42,080 --> 00:04:44,310
+ 
+
+
+00:04:44,310 --> 00:04:46,790
+ 
+ 
+
+00:04:46,790 --> 00:04:49,110
+ 
+ 
+
+00:04:49,110 --> 00:04:50,870
+ 
+ 
+
+00:04:50,870 --> 00:04:53,350
+ 
+ 
+
+00:04:53,350 --> 00:04:55,830
+ 
+ 
+
+00:04:55,830 --> 00:04:57,430
+ 
+ 
+
+00:04:57,430 --> 00:04:59,189
+ 
+ 
+
+00:04:59,189 --> 00:05:00,790
+ 
+ 
+
+00:05:00,790 --> 00:05:02,870
+ 
+ 
+
+00:05:02,870 --> 00:05:04,469
+ 
+ 
+
+00:05:04,469 --> 00:05:07,270
+ 
+ 
+
+00:05:07,270 --> 00:05:08,790
+ 
+ 
+
+00:05:08,790 --> 00:05:11,430
+ 
+ 
+
+00:05:11,430 --> 00:05:14,950
+ 
+ 
+
+00:05:14,950 --> 00:05:19,189
+ 
+ 
+
+00:05:19,189 --> 00:05:21,189
+ 
+ 
+
+00:05:21,189 --> 00:05:23,990
+ 
+ 
+
+00:05:23,990 --> 00:05:26,390
+ 
+ 
+
+00:05:26,390 --> 00:05:27,990
+ 
+ 
+
+00:05:27,990 --> 00:05:29,189
+ 
+ 
+
+00:05:29,189 --> 00:05:29,199
+ 
+ 
+
+00:05:29,199 --> 00:05:30,310
+ 
+
+
+00:05:30,310 --> 00:05:34,310
+ 
+ 
+
+00:05:34,310 --> 00:05:37,350
+ 
+ 
+
+00:05:37,350 --> 00:05:38,790
+ 
+ 
+
+00:05:38,790 --> 00:05:42,790
+ 
+ 
+
+00:05:42,790 --> 00:05:44,550
+ 
+ 
+
+00:05:44,550 --> 00:05:46,629
+ 
+ 
+
+00:05:46,629 --> 00:05:48,950
+ 
+ 
+
+00:05:48,950 --> 00:05:50,469
+ 
+ 
+
+00:05:50,469 --> 00:05:52,710
+ 
+ 
+
+00:05:52,710 --> 00:05:54,550
+ 
+ 
+
+00:05:54,550 --> 00:05:56,790
+ 
+ 
+
+00:05:56,790 --> 00:05:59,029
+ 
+ 
+
+00:05:59,029 --> 00:06:01,110
+ 
+ 
+
+00:06:01,110 --> 00:06:03,110
+ 
+ 
+
+00:06:03,110 --> 00:06:05,510
+ 
+ 
+
+00:06:05,510 --> 00:06:07,990
+ 
+ 
+
+00:06:07,990 --> 00:06:09,909
+ 
+ 
+
+00:06:09,909 --> 00:06:11,909
+ 
+ 
+
+00:06:11,909 --> 00:06:13,110
+ 
+ 
+
+00:06:13,110 --> 00:06:15,590
+ 
+ 
+
+00:06:15,590 --> 00:06:15,600
+ 
+ 
+
+00:06:15,600 --> 00:06:16,550
+ 
+
+
+00:06:16,550 --> 00:06:16,560
+ 
+ 
+
+00:06:16,560 --> 00:06:21,270
+ 
+
+
+00:06:21,270 --> 00:06:23,350
+ 
+ 
+
+00:06:23,350 --> 00:06:25,350
+ 
+ 
+
+00:06:25,350 --> 00:06:28,950
+ 
+ 
+
+00:06:28,950 --> 00:06:30,469
+ 
+ 
+
+00:06:30,469 --> 00:06:30,479
+ 
+ 
+
+00:06:30,479 --> 00:06:31,430
+ 
+
+
+00:06:31,430 --> 00:06:34,469
+ 
+ 
+
+00:06:34,469 --> 00:06:36,629
+ 
+ 
+
+00:06:36,629 --> 00:06:38,870
+ 
+ 
+
+00:06:38,870 --> 00:06:43,590
+ 
+ 
+
+00:06:43,590 --> 00:06:46,070
+ 
+ 
+
+00:06:46,070 --> 00:06:48,950
+ 
+ 
+
+00:06:48,950 --> 00:06:50,950
+ 
+ 
+
+00:06:50,950 --> 00:06:52,309
+ 
+ 
+
+00:06:52,309 --> 00:06:54,070
+ 
+ 
+
+00:06:54,070 --> 00:06:56,150
+ 
+ 
+
+00:06:56,150 --> 00:06:58,950
+ 
+ 
+
+00:06:58,950 --> 00:07:01,749
+ 
+ 
+
+00:07:01,749 --> 00:07:02,950
+ 
+ 
+
+00:07:02,950 --> 00:07:04,390
+ 
+ 
+
+00:07:04,390 --> 00:07:07,029
+ 
+ 
+
+00:07:07,029 --> 00:07:09,270
+ 
+ 
+
+00:07:09,270 --> 00:07:11,670
+ 
+ 
+
+00:07:11,670 --> 00:07:13,990
+ 
+ 
+
+00:07:13,990 --> 00:07:16,150
+ 
+ 
+
+00:07:16,150 --> 00:07:17,990
+ 
+ 
+
+00:07:17,990 --> 00:07:18,950
+ 
+ 
+
+00:07:18,950 --> 00:07:21,670
+ 
+ 
+
+00:07:21,670 --> 00:07:24,710
+ 
+ 
+
+00:07:24,710 --> 00:07:28,950
+ 
+ 
+
+00:07:28,950 --> 00:07:34,629
+ 
+ 
+
+00:07:34,629 --> 00:07:36,629
+ 
+ 
+
+00:07:36,629 --> 00:07:40,469
+ 
+ 
+
+00:07:40,469 --> 00:07:43,430
+ 
+ 
+
+00:07:43,430 --> 00:07:45,270
+ 
+ 
+
+00:07:45,270 --> 00:07:47,189
+ 
+ 
+
+00:07:47,189 --> 00:07:47,199
+ 
+ 
+
+00:07:47,199 --> 00:07:48,309
+ 
+
+
+00:07:48,309 --> 00:07:51,350
+ 
+ 
+
+00:07:51,350 --> 00:07:53,029
+ 
+ 
+
+00:07:53,029 --> 00:07:53,039
+ 
+ 
+
+00:07:53,039 --> 00:07:53,830
+ 
+
+
+00:07:53,830 --> 00:07:55,110
+ 
+ 
+
+00:07:55,110 --> 00:07:56,550
+ 
+ 
+
+00:07:56,550 --> 00:07:57,990
+ 
+ 
+
+00:07:57,990 --> 00:07:59,749
+ 
+ 
+
+00:07:59,749 --> 00:08:03,270
+ 
+ 
+
+00:08:03,270 --> 00:08:05,350
+ 
+ 
+
+00:08:05,350 --> 00:08:07,430
+ 
+ 
+
+00:08:07,430 --> 00:08:11,029
+ 
+ 
+
+00:08:11,029 --> 00:08:12,550
+ 
+ 
+
+00:08:12,550 --> 00:08:15,510
+ 
+ 
+
+00:08:15,510 --> 00:08:20,710
+ 
+ 
+
+00:08:20,710 --> 00:08:23,430
+ 
+ 
+
+00:08:23,430 --> 00:08:23,440
+ 
+ 
+
+00:08:23,440 --> 00:08:25,110
+ 
+
+
+00:08:25,110 --> 00:08:29,110
+ 
+ 
+
+00:08:29,110 --> 00:08:32,149
+ 
+ 
+
+00:08:32,149 --> 00:08:34,310
+ 
+ 
+
+00:08:34,310 --> 00:08:34,320
+ 
+ 
+
+00:08:34,320 --> 00:08:35,269
+ 
+
+
+00:08:35,269 --> 00:08:36,709
+ 
+ 
+
+00:08:36,709 --> 00:08:38,949
+ 
+ 
+
+00:08:38,949 --> 00:08:41,350
+ 
+ 
+
+00:08:41,350 --> 00:08:42,630
+ 
+ 
+
+00:08:42,630 --> 00:08:44,630
+ 
+ 
+
+00:08:44,630 --> 00:08:46,150
+ 
+ 
+
+00:08:46,150 --> 00:08:49,750
+ 
+ 
+
+00:08:49,750 --> 00:08:51,350
+ 
+ 
+
+00:08:51,350 --> 00:08:54,550
+ 
+ 
+
+00:08:54,550 --> 00:08:56,230
+ 
+ 
+
+00:08:56,230 --> 00:08:58,550
+ 
+ 
+
+00:08:58,550 --> 00:09:00,710
+ 
+ 
+
+00:09:00,710 --> 00:09:03,670
+ 
+ 
+
+00:09:03,670 --> 00:09:07,190
+ 
+ 
+
+00:09:07,190 --> 00:09:10,550
+ 
+ 
+
+00:09:10,550 --> 00:09:10,560
+ 
+ 
+
+00:09:10,560 --> 00:09:13,910
+ 
+
+
+00:09:13,910 --> 00:09:16,150
+ 
+ 
+
+00:09:16,150 --> 00:09:18,550
+ 
+ 
+
+00:09:18,550 --> 00:09:21,430
+ 
+ 
+
+00:09:21,430 --> 00:09:23,030
+ 
+ 
+
+00:09:23,030 --> 00:09:24,710
+ 
+ 
+
+00:09:24,710 --> 00:09:26,949
+ 
+ 
+
+00:09:26,949 --> 00:09:28,949
+ 
+ 
+
+00:09:28,949 --> 00:09:31,910
+ 
+ 
+
+00:09:31,910 --> 00:09:34,550
+ 
+ 
+
+00:09:34,550 --> 00:09:36,790
+ 
+ 
+
+00:09:36,790 --> 00:09:38,870
+ 
+ 
+
+00:09:38,870 --> 00:09:38,880
+ 
+ 
+
+00:09:38,880 --> 00:09:39,670
+ 
+
+
+00:09:39,670 --> 00:09:42,150
+ 
+ 
+
+00:09:42,150 --> 00:09:43,829
+ 
+ 
+
+00:09:43,829 --> 00:09:45,829
+ 
+ 
+
+00:09:45,829 --> 00:09:47,430
+ 
+ 
+
+00:09:47,430 --> 00:09:48,870
+ 
+ 
+
+00:09:48,870 --> 00:09:51,829
+ 
+ 
+
+00:09:51,829 --> 00:09:53,509
+ 
+ 
+
+00:09:53,509 --> 00:09:55,110
+ 
+ 
+
+00:09:55,110 --> 00:09:57,269
+ 
+ 
+
+00:09:57,269 --> 00:09:59,670
+ 
+ 
+
+00:09:59,670 --> 00:10:01,829
+ 
+ 
+
+00:10:01,829 --> 00:10:03,829
+ 
+ 
+
+00:10:03,829 --> 00:10:06,630
+ 
+ 
+
+00:10:06,630 --> 00:10:08,790
+ 
+ 
+
+00:10:08,790 --> 00:10:11,110
+ 
+ 
+
+00:10:11,110 --> 00:10:12,630
+ 
+ 
+
+00:10:12,630 --> 00:10:14,550
+ 
+ 
+
+00:10:14,550 --> 00:10:19,160
+ 
+ 
+

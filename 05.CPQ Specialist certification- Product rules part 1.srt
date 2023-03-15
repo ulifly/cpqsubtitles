@@ -1,0 +1,2137 @@
+
+00:00:00,560 --> 00:00:02,149
+ 
+good everyone i hope you guys have an  amazing day um so today what i'm gonna  do i will talk about the product rules  um in the last episode i talked about  uh the package configuration so if you  haven't watched it i would highly  encourage you to go and check it out  right now when we talk about cpq right  product rules plays a very important  role  uh  uh plays an important role right now you  must be wondering why right because the  product role right product rules it  helps uh you know ensure the sales reps  are putting together the right products  and bundles every single time so what  that means is that you don't have to  worry about mucking up save uh you know  bundles so for instance like you have a  desktop uh as a product bundle so  desktop contains like monitor  processor  um say for instance you know you don't  want it to  ship multiple processors  right  along with the desktop bundle so you can  use the product rule to stop it so  that's pretty much i'm gonna demonstrate  today so it's pretty much hands-on today  so uh not much theory uh so that you get  an idea so the first thing first right  what we're going to do we're going to  have to create a product rule so i've  already created one but i'm going to  walk you through each and every step so  that it becomes very clear  now  there are four kinds of product rules  which we're going to look at it but  today i'm going to look at only the  validation rules right so talking which  you know so we have validation rules  selection rules filter rules alert rules  okay  so we're gonna do let's jump into the  org and let's dive into each uh you know  settings so that it becomes very clear  so  if you're going to  study for cpq i would highly encourage  you to get an org register for an org  and then do hands-on it's very important  you guys to do hands right just by  listening to the videos it's just not  good enough you have to get that muscle  memory growing it's very important guys  okay so i'm logged into my org so i'm in  the cpq app so this is the product rules  um  so i've created a product rules called  computer which is a very silly rule so  um so the requirement is okay  so i'll show you what is the business  requirement  so i'll go to the code right i'll create  a code and i create a code line item  um so  and  i'm going to try to add a bundle right i  have demonstrated how to add an item to  the code in one of the episode if you  haven't watched it please uh check that  out right that's just an introduction  and i mentioned how to create a code and  prints ipedia right so i've mentioned  how to add items to the code all right  so i'm going to add a product  um  so desktop computer  just going to add a digital computer  if you still find my voices but clunky  unfortunately i still haven't recovered  from the cuff  so  so my voice is a bit strange i i get  that right and it's it's healing it's  gonna take time right right so  as you can see this is a product bundle  right so what i wanted to do say you can  add monitors  you can add laser printer right say for  instance um  i wanted to have a validation in place  so where i wanted to stop say for  instance  um let's say i wanted to add a laser  printer right let's say i can add five  layers of printer  okay  all right it's added  that's okay that's fine so if you would  have noticed that there's something  called the monitor so i wanted to have a  validation rules where i will not like  to add more than you know say three  monitors to this product bundle  because you know that's  uh you know otherwise it will mock up  the bundle right it makes no sense  you're you know you're for instance  you're shipping a desktop you you're  shipping like 50 monitors it doesn't  make any sense right i understand two  monitors right people wanted to uh you  know work with two monitors or three  models just but more than that it just  it's it's pointless right i mean you  cannot work with five or six monitors at  a time so  uh to not to muck up the bundle we need  to put the validation in place  uh so that user will not be able to  select certain number of monitors for a  product bundle called desktop computer  okay so let's create a validation uh  sorry product rule first so i've already  created one so  okay so when you so the you go to  product rule click on new so it will  take you to something here and we're  gonna do edit  okay so i gave the name of the product  rule i know it's a silly name i just  gave computer and the type right type is  important here so we like i mentioned uh  there are four kinds of the four types  one is the validation rule validation  rule it's pretty much like and normal  validation rules you have in salesforce  right you know it validates you know  certain conditions and if it fails it  throws up error message that's pretty  much it is right in simple terms  selection rules  um it  it set ups a rule to automatically add  remove hide enable or disable option in  a bundle that's in nutshell what  selection rule is about then we have  filter rule uh it's pre-filtered the  products that are available to at the  bundle alert rule which pretty much  alerts right uh like for instance a  validation rule  if you validate if if you violate the  validation  uh  then it will not let you save right but  in alert rule it will let the user say  hey we have a problem there but i still  let you save right  guidance informed through message during  configuration or pricing that's in  simple terms okay so you choose that and  then we have a condition condition means  that okay i want every condition to be  met  or i want any condition to be met or  custom condition right okay one or two  or three so we're gonna deal about that  bit later so just for now i just want  every condition to be met okay pretty  simple so just keep it simple and scope  you can have the product to  scope to the product bundle or to the  code bundle so in most of the scenarios  uh we normally go for the product  bundles though we can use the code  bundle but just for the simplicity uh  you know i'm just going to keep to the  product window i can  imagine that this is going to be a bit  challenging for you if you are doing  this for the first time you know because  you know it might be confusing so  you know just to keep it simple just to  give you uh you know  a comfortable demo i just wanted to keep  option pretty simple right we can go to  the advanced stage as we you know  proceed along with the course right so  product uh scope means we are only  keeping the focus to the bundle right  product bundle okay advanced condition  forget about it uh evaluation event you  can you know it's not means it never  fires load means when you load the  configuration and it means when you do  edit the field same means when you're  doing save all this means always  triggers it right a respective edit or  whatever  evaluation order is just the order which  you wanted to evaluate  so  for now just leave it  and the message right like i said you  can only select max to monitors like you  know my business decides that we only  gonna ship two monitors for the desktop  okay so this is a message  okay so now that's done  now  uh after that we have to create error  condition and  uh configuration  um  configuration rules of now what is an  error condition why do we need it  obviously you create a product rule  right but  it should get fired  otherwise what's the point of creating a  product rule when it's never get  initiated right it has to be triggered  by something right and that something is  where we're gonna define an air  conditioner  okay now before i jump into air  condition i need to create a something  called summary variable summary  variables is like you know  um  say for instance  it will give you  it will help you with the error  condition to filter out certain things  okay  so let me go to summary variables  okay so i've created something called  summer monitor  okay so you can go to new and do that  here  now  let me do edit okay now this summary  variable i'm gonna use in the error  condition okay it's like  you're telling okay give me a sum of  a product  in a bundle starting with say monitor  okay so in a bundle  say for instance i have two monitors  so it will give me the sum as two okay  so i'm to give saying give me the sum of  monitor what is the aggregate function  sum  and which field you're gonna aggregate  on quantity and what object you're going  to target is going to target the product  option  because these are the options you have  um now  obviously it's like it's like firing a  circle query select  a sum of quantity from product option  okay but what about the where clause so  these are the rare clause you're saying  okay the where clause is where product  code equals to this  right so you're saying select sum of  quantity  um say something like that i'll show you  i've done something similar like  something like that  right so this is  you know  i'll give you something like that so  let's just say i'll just give you a  dummies select some of uh  quality  from whatever right product option i  can't remember the name of the  object but just give you an idea where  product you know code  equals to  whatever like blah blah blah right so  this is what  uh this is gonna  uh  give you right the sum of  the summary variable uh mind you right  you have to be very careful when using  this because it contributes towards the  governor limit or circle limit  so just be aware of it right just don't  go crazy about using it so  use it wisely so i'm gonna use it  because i wanted to get the sum of  monitors which gonna be part of the  bundle so i wanted to make sure that  give me the sum of the monitors some of  what i'm going to do here i'm just  saying give me the sum of  monitor a sum of quantity of the monitor  uh in that bundle right so that's pretty  much i'm doing okay so now let's go to  the error condition  okay  uh we're gonna go to the same product  rule  so to create an error  condition you need to create a rule  first okay you can't create an error  condition first okay so let's go to the  error condition  okay and let's edit it  so what i'll do  index means  um so it's just  the f you know you might have multiple  error conditions so i'm just saying this  is the first which needs to be fired  uh and the test variable so i'm not  concerned about any of this stuff you  can although you can add a code code  line but  i'm not concerned about any of this  stuff i'm just saying okay give me the  tester variable which is the summary  variable okay and now that's great so i  have the variable  in place  now they say okay so i got the variable  in place say now what exactly you want  me to do with that variable so you're  saying that okay if the sum of  that value variable if it's greater than  two then fire the error condition okay  or let's say i wanted to make it three  right  let's say i my business decides that you  should only supply three monitors with  the desktop because it's silly to supply  four or five right  i mean obviously you can't use five  monitors at the same time you know using  a single desktop i mean i i don't know i  don't see the reason  uh  you know  some may argue why not but you know in  general right i mean i cannot use more  than two monitors at the time right some  people do three but five is far too  fresh right okay all right so i'm just  saying here again the summer monitor  that's the sum of that  monitor  uh if it's greater than three  throw an  error right  throw in validation error so that's  exactly what it's gonna do  um  now once that's done right we got one  more step to do right and that is  uh configuration rule we just need to  link it to this configuration rule  so you can create a new right and i've  already done that  so what do you have to do it's pretty  simple  ah crap sorry  uh just  make it active choose the product which  you know where you want this to be fired  so i'm just saying that's the computer  um  and  and the product rule just select the  product rule which you've created  that there you go  and once that's in place let's see if it  if it gets fired or not okay let's go to  code  and i create a code right so i'm gonna  try the existing code  and  and  just gonna wait  all right so what i'm going to do i'm  going to use the desktop  i'm going to choose this  right  and to select  okay  so now most of the things uh in a bundle  you can't change  but  we can certainly change these things  so  let's say if i do two  you know it will work  right  okay so that's great  now what i'm going to do  i will  go to the  monitor and  i don't know if i can change it okay no  never mind  what i'll do i will add another product  and  since  uh  i mentioned that before that product  rule is specific to the product  uh not to the code so what i'll do i  will just select this and say i wanted  to ship four right because we have  validation rule in place you cannot ship  more than three okay so i'll just do  save let's see what happens  right you cannot select max two monitors  with the desktop all right that's a  misleading message i understand  i know why because  we changed the number  from two to three but we didn't change  it here okay so we can just say three  go back here  i mean you might see this kind of  mistake happening right uh the reason  why you know i've seen this happened so  i just thought it's an opportunity for  me to demonstrate this as well  right so if you if you see something  like this just go back to the the  product rule and  and fix it it's pretty simple right okay  let's go back to the code again and see  whether we can replicate it  so go to edit lines  and  so gonna add product  and we just say desktop  computer  and just say desktop  select  okay so  now let's go back to the monitor  and i'll say okay i want to change it to  four i wanted to ship four  whether  i can do or not let's see all right you  can only select max three monitors right  so  that's pretty sweet because that's  exactly what we wanted to accomplish we  wanted to trigger  this product rule to ensure that a user  or sales rep will only be able to select  max 3 monitor with that bundle so there  you go that's pretty much i wanted to  cover in today's episode i my apologies  that you know if you think my voice is  still a bit clunky  yeah i'm recovering so i'm trying my  best right so and and trust me guys you  know i really just really feel like  coughing but you know somehow i'm  holding on to it so that not to cuff  uh so in saying that i'm just gonna end  this conversation right here so i hope  you guys have an amazing  thursday adios
+
+00:00:02,149 --> 00:00:04,070
+good everyone i hope you guys have an  amazing day um so today what i'm gonna  do i will talk about the product rules  um in the last episode i talked about  uh the package configuration so if you  haven't watched it i would highly  encourage you to go and check it out  right now when we talk about cpq right  product rules plays a very important  role  uh  uh plays an important role right now you  must be wondering why right because the  product role right product rules it  helps uh you know ensure the sales reps  are putting together the right products  and bundles every single time so what  that means is that you don't have to  worry about mucking up save uh you know  bundles so for instance like you have a  desktop uh as a product bundle so  desktop contains like monitor  processor  um say for instance you know you don't  want it to  ship multiple processors  right  along with the desktop bundle so you can  use the product rule to stop it so  that's pretty much i'm gonna demonstrate  today so it's pretty much hands-on today  so uh not much theory uh so that you get  an idea so the first thing first right  what we're going to do we're going to  have to create a product rule so i've  already created one but i'm going to  walk you through each and every step so  that it becomes very clear  now  there are four kinds of product rules  which we're going to look at it but  today i'm going to look at only the  validation rules right so talking which  you know so we have validation rules  selection rules filter rules alert rules  okay  so we're gonna do let's jump into the  org and let's dive into each uh you know  settings so that it becomes very clear  so  if you're going to  study for cpq i would highly encourage  you to get an org register for an org  and then do hands-on it's very important  you guys to do hands right just by  listening to the videos it's just not  good enough you have to get that muscle  memory growing it's very important guys  okay so i'm logged into my org so i'm in  the cpq app so this is the product rules  um  so i've created a product rules called  computer which is a very silly rule so  um so the requirement is okay  so i'll show you what is the business  requirement  so i'll go to the code right i'll create  a code and i create a code line item  um so  and  i'm going to try to add a bundle right i  have demonstrated how to add an item to  the code in one of the episode if you  haven't watched it please uh check that  out right that's just an introduction  and i mentioned how to create a code and  prints ipedia right so i've mentioned  how to add items to the code all right  so i'm going to add a product  um  so desktop computer  just going to add a digital computer  if you still find my voices but clunky  unfortunately i still haven't recovered  from the cuff  so  so my voice is a bit strange i i get  that right and it's it's healing it's  gonna take time right right so  as you can see this is a product bundle  right so what i wanted to do say you can  add monitors  you can add laser printer right say for  instance um  i wanted to have a validation in place  so where i wanted to stop say for  instance  um let's say i wanted to add a laser  printer right let's say i can add five  layers of printer  okay  all right it's added  that's okay that's fine so if you would  have noticed that there's something  called the monitor so i wanted to have a  validation rules where i will not like  to add more than you know say three  monitors to this product bundle  because you know that's  uh you know otherwise it will mock up  the bundle right it makes no sense  you're you know you're for instance  you're shipping a desktop you you're  shipping like 50 monitors it doesn't  make any sense right i understand two  monitors right people wanted to uh you  know work with two monitors or three  models just but more than that it just  it's it's pointless right i mean you  cannot work with five or six monitors at  a time so  uh to not to muck up the bundle we need  to put the validation in place  uh so that user will not be able to  select certain number of monitors for a  product bundle called desktop computer  okay so let's create a validation uh  sorry product rule first so i've already  created one so  okay so when you so the you go to  product rule click on new so it will  take you to something here and we're  gonna do edit  okay so i gave the name of the product  rule i know it's a silly name i just  gave computer and the type right type is  important here so we like i mentioned uh  there are four kinds of the four types  one is the validation rule validation  rule it's pretty much like and normal  validation rules you have in salesforce  right you know it validates you know  certain conditions and if it fails it  throws up error message that's pretty  much it is right in simple terms  selection rules  um it  it set ups a rule to automatically add  remove hide enable or disable option in  a bundle that's in nutshell what  selection rule is about then we have  filter rule uh it's pre-filtered the  products that are available to at the  bundle alert rule which pretty much  alerts right uh like for instance a  validation rule  if you validate if if you violate the  validation  uh  then it will not let you save right but  in alert rule it will let the user say  hey we have a problem there but i still  let you save right  guidance informed through message during  configuration or pricing that's in  simple terms okay so you choose that and  then we have a condition condition means  that okay i want every condition to be  met  or i want any condition to be met or  custom condition right okay one or two  or three so we're gonna deal about that  bit later so just for now i just want  every condition to be met okay pretty  simple so just keep it simple and scope  you can have the product to  scope to the product bundle or to the  code bundle so in most of the scenarios  uh we normally go for the product  bundles though we can use the code  bundle but just for the simplicity uh  you know i'm just going to keep to the  product window i can  imagine that this is going to be a bit  challenging for you if you are doing  this for the first time you know because  you know it might be confusing so  you know just to keep it simple just to  give you uh you know  a comfortable demo i just wanted to keep  option pretty simple right we can go to  the advanced stage as we you know  proceed along with the course right so  product uh scope means we are only  keeping the focus to the bundle right  product bundle okay advanced condition  forget about it uh evaluation event you  can you know it's not means it never  fires load means when you load the  configuration and it means when you do  edit the field same means when you're  doing save all this means always  triggers it right a respective edit or  whatever  evaluation order is just the order which  you wanted to evaluate  so  for now just leave it  and the message right like i said you  can only select max to monitors like you  know my business decides that we only  gonna ship two monitors for the desktop  okay so this is a message  okay so now that's done  now  uh after that we have to create error  condition and  uh configuration  um  configuration rules of now what is an  error condition why do we need it  obviously you create a product rule  right but  it should get fired  otherwise what's the point of creating a  product rule when it's never get  initiated right it has to be triggered  by something right and that something is  where we're gonna define an air  conditioner  okay now before i jump into air  condition i need to create a something  called summary variable summary  variables is like you know  um  say for instance  it will give you  it will help you with the error  condition to filter out certain things  okay  so let me go to summary variables  okay so i've created something called  summer monitor  okay so you can go to new and do that  here  now  let me do edit okay now this summary  variable i'm gonna use in the error  condition okay it's like  you're telling okay give me a sum of  a product  in a bundle starting with say monitor  okay so in a bundle  say for instance i have two monitors  so it will give me the sum as two okay  so i'm to give saying give me the sum of  monitor what is the aggregate function  sum  and which field you're gonna aggregate  on quantity and what object you're going  to target is going to target the product  option  because these are the options you have  um now  obviously it's like it's like firing a  circle query select  a sum of quantity from product option  okay but what about the where clause so  these are the rare clause you're saying  okay the where clause is where product  code equals to this  right so you're saying select sum of  quantity  um say something like that i'll show you  i've done something similar like  something like that  right so this is  you know  i'll give you something like that so  let's just say i'll just give you a  dummies select some of uh  quality  from whatever right product option i  can't remember the name of the  object but just give you an idea where  product you know code  equals to  whatever like blah blah blah right so  this is what  uh this is gonna  uh  give you right the sum of  the summary variable uh mind you right  you have to be very careful when using  this because it contributes towards the  governor limit or circle limit  so just be aware of it right just don't  go crazy about using it so  use it wisely so i'm gonna use it  because i wanted to get the sum of  monitors which gonna be part of the  bundle so i wanted to make sure that  give me the sum of the monitors some of  what i'm going to do here i'm just  saying give me the sum of  monitor a sum of quantity of the monitor  uh in that bundle right so that's pretty  much i'm doing okay so now let's go to  the error condition  okay  uh we're gonna go to the same product  rule  so to create an error  condition you need to create a rule  first okay you can't create an error  condition first okay so let's go to the  error condition  okay and let's edit it  so what i'll do  index means  um so it's just  the f you know you might have multiple  error conditions so i'm just saying this  is the first which needs to be fired  uh and the test variable so i'm not  concerned about any of this stuff you  can although you can add a code code  line but  i'm not concerned about any of this  stuff i'm just saying okay give me the  tester variable which is the summary  variable okay and now that's great so i  have the variable  in place  now they say okay so i got the variable  in place say now what exactly you want  me to do with that variable so you're  saying that okay if the sum of  that value variable if it's greater than  two then fire the error condition okay  or let's say i wanted to make it three  right  let's say i my business decides that you  should only supply three monitors with  the desktop because it's silly to supply  four or five right  i mean obviously you can't use five  monitors at the same time you know using  a single desktop i mean i i don't know i  don't see the reason  uh  you know  some may argue why not but you know in  general right i mean i cannot use more  than two monitors at the time right some  people do three but five is far too  fresh right okay all right so i'm just  saying here again the summer monitor  that's the sum of that  monitor  uh if it's greater than three  throw an  error right  throw in validation error so that's  exactly what it's gonna do  um  now once that's done right we got one  more step to do right and that is  uh configuration rule we just need to  link it to this configuration rule  so you can create a new right and i've  already done that  so what do you have to do it's pretty  simple  ah crap sorry  uh just  make it active choose the product which  you know where you want this to be fired  so i'm just saying that's the computer  um  and  and the product rule just select the  product rule which you've created  that there you go  and once that's in place let's see if it  if it gets fired or not okay let's go to  code  and i create a code right so i'm gonna  try the existing code  and  and  just gonna wait  all right so what i'm going to do i'm  going to use the desktop  i'm going to choose this  right  and to select  okay  so now most of the things uh in a bundle  you can't change  but  we can certainly change these things  so  let's say if i do two  you know it will work  right  okay so that's great  now what i'm going to do  i will  go to the  monitor and  i don't know if i can change it okay no  never mind  what i'll do i will add another product  and  since  uh  i mentioned that before that product  rule is specific to the product  uh not to the code so what i'll do i  will just select this and say i wanted  to ship four right because we have  validation rule in place you cannot ship  more than three okay so i'll just do  save let's see what happens  right you cannot select max two monitors  with the desktop all right that's a  misleading message i understand  i know why because  we changed the number  from two to three but we didn't change  it here okay so we can just say three  go back here  i mean you might see this kind of  mistake happening right uh the reason  why you know i've seen this happened so  i just thought it's an opportunity for  me to demonstrate this as well  right so if you if you see something  like this just go back to the the  product rule and  and fix it it's pretty simple right okay  let's go back to the code again and see  whether we can replicate it  so go to edit lines  and  so gonna add product  and we just say desktop  computer  and just say desktop  select  okay so  now let's go back to the monitor  and i'll say okay i want to change it to  four i wanted to ship four  whether  i can do or not let's see all right you  can only select max three monitors right  so  that's pretty sweet because that's  exactly what we wanted to accomplish we  wanted to trigger  this product rule to ensure that a user  or sales rep will only be able to select  max 3 monitor with that bundle so there  you go that's pretty much i wanted to  cover in today's episode i my apologies  that you know if you think my voice is  still a bit clunky  yeah i'm recovering so i'm trying my  best right so and and trust me guys you  know i really just really feel like  coughing but you know somehow i'm  holding on to it so that not to cuff  uh so in saying that i'm just gonna end  this conversation right here so i hope  you guys have an amazing  thursday adios
+ 
+
+00:00:04,070 --> 00:00:06,789
+ 
+ 
+
+00:00:06,789 --> 00:00:10,070
+ 
+ 
+
+00:00:10,070 --> 00:00:11,990
+ 
+ 
+
+00:00:11,990 --> 00:00:13,589
+ 
+ 
+
+00:00:13,589 --> 00:00:15,350
+ 
+ 
+
+00:00:15,350 --> 00:00:18,310
+ 
+ 
+
+00:00:18,310 --> 00:00:19,910
+ 
+ 
+
+00:00:19,910 --> 00:00:19,920
+ 
+ 
+
+00:00:19,920 --> 00:00:20,710
+ 
+
+
+00:00:20,710 --> 00:00:20,720
+ 
+ 
+
+00:00:20,720 --> 00:00:21,750
+ 
+
+
+00:00:21,750 --> 00:00:23,990
+ 
+ 
+
+00:00:23,990 --> 00:00:26,470
+ 
+ 
+
+00:00:26,470 --> 00:00:29,109
+ 
+ 
+
+00:00:29,109 --> 00:00:32,870
+ 
+ 
+
+00:00:32,870 --> 00:00:35,190
+ 
+ 
+
+00:00:35,190 --> 00:00:37,510
+ 
+ 
+
+00:00:37,510 --> 00:00:38,950
+ 
+ 
+
+00:00:38,950 --> 00:00:41,590
+ 
+ 
+
+00:00:41,590 --> 00:00:43,670
+ 
+ 
+
+00:00:43,670 --> 00:00:46,229
+ 
+ 
+
+00:00:46,229 --> 00:00:48,709
+ 
+ 
+
+00:00:48,709 --> 00:00:48,719
+ 
+ 
+
+00:00:48,719 --> 00:00:49,990
+ 
+
+
+00:00:49,990 --> 00:00:52,229
+ 
+ 
+
+00:00:52,229 --> 00:00:53,590
+ 
+ 
+
+00:00:53,590 --> 00:00:55,830
+ 
+ 
+
+00:00:55,830 --> 00:00:55,840
+ 
+ 
+
+00:00:55,840 --> 00:00:57,189
+ 
+
+
+00:00:57,189 --> 00:00:59,830
+ 
+ 
+
+00:00:59,830 --> 00:01:01,990
+ 
+ 
+
+00:01:01,990 --> 00:01:03,670
+ 
+ 
+
+00:01:03,670 --> 00:01:05,830
+ 
+ 
+
+00:01:05,830 --> 00:01:09,109
+ 
+ 
+
+00:01:09,109 --> 00:01:11,350
+ 
+ 
+
+00:01:11,350 --> 00:01:12,310
+ 
+ 
+
+00:01:12,310 --> 00:01:13,590
+ 
+ 
+
+00:01:13,590 --> 00:01:14,950
+ 
+ 
+
+00:01:14,950 --> 00:01:16,630
+ 
+ 
+
+00:01:16,630 --> 00:01:18,469
+ 
+ 
+
+00:01:18,469 --> 00:01:18,479
+ 
+ 
+
+00:01:18,479 --> 00:01:19,270
+ 
+
+
+00:01:19,270 --> 00:01:21,510
+ 
+ 
+
+00:01:21,510 --> 00:01:22,789
+ 
+ 
+
+00:01:22,789 --> 00:01:24,550
+ 
+ 
+
+00:01:24,550 --> 00:01:27,190
+ 
+ 
+
+00:01:27,190 --> 00:01:29,270
+ 
+ 
+
+00:01:29,270 --> 00:01:31,910
+ 
+ 
+
+00:01:31,910 --> 00:01:31,920
+ 
+ 
+
+00:01:31,920 --> 00:01:32,710
+ 
+
+
+00:01:32,710 --> 00:01:35,350
+ 
+ 
+
+00:01:35,350 --> 00:01:39,270
+ 
+ 
+
+00:01:39,270 --> 00:01:41,990
+ 
+ 
+
+00:01:41,990 --> 00:01:42,000
+ 
+ 
+
+00:01:42,000 --> 00:01:43,590
+ 
+
+
+00:01:43,590 --> 00:01:45,510
+ 
+ 
+
+00:01:45,510 --> 00:01:47,749
+ 
+ 
+
+00:01:47,749 --> 00:01:50,710
+ 
+ 
+
+00:01:50,710 --> 00:01:52,710
+ 
+ 
+
+00:01:52,710 --> 00:01:54,789
+ 
+ 
+
+00:01:54,789 --> 00:01:56,389
+ 
+ 
+
+00:01:56,389 --> 00:01:58,870
+ 
+ 
+
+00:01:58,870 --> 00:02:00,550
+ 
+ 
+
+00:02:00,550 --> 00:02:02,789
+ 
+ 
+
+00:02:02,789 --> 00:02:06,789
+ 
+ 
+
+00:02:06,789 --> 00:02:06,799
+ 
+ 
+
+00:02:06,799 --> 00:02:07,670
+ 
+
+
+00:02:07,670 --> 00:02:09,589
+ 
+ 
+
+00:02:09,589 --> 00:02:12,390
+ 
+ 
+
+00:02:12,390 --> 00:02:15,190
+ 
+ 
+
+00:02:15,190 --> 00:02:16,550
+ 
+ 
+
+00:02:16,550 --> 00:02:16,560
+ 
+ 
+
+00:02:16,560 --> 00:02:18,869
+ 
+
+
+00:02:18,869 --> 00:02:20,710
+ 
+ 
+
+00:02:20,710 --> 00:02:25,510
+ 
+ 
+
+00:02:25,510 --> 00:02:28,229
+ 
+ 
+
+00:02:28,229 --> 00:02:28,239
+ 
+ 
+
+00:02:28,239 --> 00:02:31,589
+ 
+
+
+00:02:31,589 --> 00:02:33,990
+ 
+ 
+
+00:02:33,990 --> 00:02:36,070
+ 
+ 
+
+00:02:36,070 --> 00:02:37,910
+ 
+ 
+
+00:02:37,910 --> 00:02:40,309
+ 
+ 
+
+00:02:40,309 --> 00:02:42,070
+ 
+ 
+
+00:02:42,070 --> 00:02:44,390
+ 
+ 
+
+00:02:44,390 --> 00:02:46,869
+ 
+ 
+
+00:02:46,869 --> 00:02:49,350
+ 
+ 
+
+00:02:49,350 --> 00:02:52,550
+ 
+ 
+
+00:02:52,550 --> 00:02:52,560
+ 
+ 
+
+00:02:52,560 --> 00:02:56,630
+ 
+
+
+00:02:56,630 --> 00:02:58,550
+ 
+ 
+
+00:02:58,550 --> 00:03:01,350
+ 
+ 
+
+00:03:01,350 --> 00:03:03,350
+ 
+ 
+
+00:03:03,350 --> 00:03:05,110
+ 
+ 
+
+00:03:05,110 --> 00:03:06,470
+ 
+ 
+
+00:03:06,470 --> 00:03:06,480
+ 
+ 
+
+00:03:06,480 --> 00:03:07,670
+ 
+
+
+00:03:07,670 --> 00:03:10,070
+ 
+ 
+
+00:03:10,070 --> 00:03:12,229
+ 
+ 
+
+00:03:12,229 --> 00:03:15,110
+ 
+ 
+
+00:03:15,110 --> 00:03:16,869
+ 
+ 
+
+00:03:16,869 --> 00:03:19,350
+ 
+ 
+
+00:03:19,350 --> 00:03:20,710
+ 
+ 
+
+00:03:20,710 --> 00:03:23,430
+ 
+ 
+
+00:03:23,430 --> 00:03:25,190
+ 
+ 
+
+00:03:25,190 --> 00:03:28,070
+ 
+ 
+
+00:03:28,070 --> 00:03:30,229
+ 
+ 
+
+00:03:30,229 --> 00:03:30,239
+ 
+ 
+
+00:03:30,239 --> 00:03:31,190
+ 
+
+
+00:03:31,190 --> 00:03:33,190
+ 
+ 
+
+00:03:33,190 --> 00:03:34,949
+ 
+ 
+
+00:03:34,949 --> 00:03:36,149
+ 
+ 
+
+00:03:36,149 --> 00:03:36,159
+ 
+ 
+
+00:03:36,159 --> 00:03:41,910
+ 
+
+
+00:03:41,910 --> 00:03:43,750
+ 
+ 
+
+00:03:43,750 --> 00:03:46,710
+ 
+ 
+
+00:03:46,710 --> 00:03:47,830
+ 
+ 
+
+00:03:47,830 --> 00:03:49,750
+ 
+ 
+
+00:03:49,750 --> 00:03:51,670
+ 
+ 
+
+00:03:51,670 --> 00:03:53,429
+ 
+ 
+
+00:03:53,429 --> 00:03:56,710
+ 
+ 
+
+00:03:56,710 --> 00:03:58,630
+ 
+ 
+
+00:03:58,630 --> 00:04:00,229
+ 
+ 
+
+00:04:00,229 --> 00:04:01,670
+ 
+ 
+
+00:04:01,670 --> 00:04:03,429
+ 
+ 
+
+00:04:03,429 --> 00:04:05,350
+ 
+ 
+
+00:04:05,350 --> 00:04:07,110
+ 
+ 
+
+00:04:07,110 --> 00:04:08,710
+ 
+ 
+
+00:04:08,710 --> 00:04:11,110
+ 
+ 
+
+00:04:11,110 --> 00:04:12,630
+ 
+ 
+
+00:04:12,630 --> 00:04:14,949
+ 
+ 
+
+00:04:14,949 --> 00:04:16,949
+ 
+ 
+
+00:04:16,949 --> 00:04:18,949
+ 
+ 
+
+00:04:18,949 --> 00:04:20,469
+ 
+ 
+
+00:04:20,469 --> 00:04:22,390
+ 
+ 
+
+00:04:22,390 --> 00:04:24,550
+ 
+ 
+
+00:04:24,550 --> 00:04:26,390
+ 
+ 
+
+00:04:26,390 --> 00:04:28,629
+ 
+ 
+
+00:04:28,629 --> 00:04:30,629
+ 
+ 
+
+00:04:30,629 --> 00:04:32,790
+ 
+ 
+
+00:04:32,790 --> 00:04:34,710
+ 
+ 
+
+00:04:34,710 --> 00:04:36,550
+ 
+ 
+
+00:04:36,550 --> 00:04:39,510
+ 
+ 
+
+00:04:39,510 --> 00:04:42,150
+ 
+ 
+
+00:04:42,150 --> 00:04:43,990
+ 
+ 
+
+00:04:43,990 --> 00:04:45,510
+ 
+ 
+
+00:04:45,510 --> 00:04:47,510
+ 
+ 
+
+00:04:47,510 --> 00:04:49,030
+ 
+ 
+
+00:04:49,030 --> 00:04:51,350
+ 
+ 
+
+00:04:51,350 --> 00:04:54,070
+ 
+ 
+
+00:04:54,070 --> 00:04:56,390
+ 
+ 
+
+00:04:56,390 --> 00:04:58,550
+ 
+ 
+
+00:04:58,550 --> 00:05:00,310
+ 
+ 
+
+00:05:00,310 --> 00:05:02,469
+ 
+ 
+
+00:05:02,469 --> 00:05:04,550
+ 
+ 
+
+00:05:04,550 --> 00:05:06,550
+ 
+ 
+
+00:05:06,550 --> 00:05:08,150
+ 
+ 
+
+00:05:08,150 --> 00:05:10,230
+ 
+ 
+
+00:05:10,230 --> 00:05:11,590
+ 
+ 
+
+00:05:11,590 --> 00:05:13,350
+ 
+ 
+
+00:05:13,350 --> 00:05:16,390
+ 
+ 
+
+00:05:16,390 --> 00:05:19,670
+ 
+ 
+
+00:05:19,670 --> 00:05:22,150
+ 
+ 
+
+00:05:22,150 --> 00:05:24,070
+ 
+ 
+
+00:05:24,070 --> 00:05:26,790
+ 
+ 
+
+00:05:26,790 --> 00:05:28,790
+ 
+ 
+
+00:05:28,790 --> 00:05:30,950
+ 
+ 
+
+00:05:30,950 --> 00:05:33,029
+ 
+ 
+
+00:05:33,029 --> 00:05:34,469
+ 
+ 
+
+00:05:34,469 --> 00:05:37,270
+ 
+ 
+
+00:05:37,270 --> 00:05:37,280
+ 
+ 
+
+00:05:37,280 --> 00:05:38,390
+ 
+
+
+00:05:38,390 --> 00:05:38,400
+ 
+ 
+
+00:05:38,400 --> 00:05:39,350
+ 
+
+
+00:05:39,350 --> 00:05:42,150
+ 
+ 
+
+00:05:42,150 --> 00:05:44,310
+ 
+ 
+
+00:05:44,310 --> 00:05:46,070
+ 
+ 
+
+00:05:46,070 --> 00:05:47,590
+ 
+ 
+
+00:05:47,590 --> 00:05:49,830
+ 
+ 
+
+00:05:49,830 --> 00:05:51,909
+ 
+ 
+
+00:05:51,909 --> 00:05:54,469
+ 
+ 
+
+00:05:54,469 --> 00:05:56,070
+ 
+ 
+
+00:05:56,070 --> 00:05:58,629
+ 
+ 
+
+00:05:58,629 --> 00:05:58,639
+ 
+ 
+
+00:05:58,639 --> 00:05:59,510
+ 
+
+
+00:05:59,510 --> 00:06:01,990
+ 
+ 
+
+00:06:01,990 --> 00:06:04,150
+ 
+ 
+
+00:06:04,150 --> 00:06:06,150
+ 
+ 
+
+00:06:06,150 --> 00:06:08,870
+ 
+ 
+
+00:06:08,870 --> 00:06:10,550
+ 
+ 
+
+00:06:10,550 --> 00:06:13,350
+ 
+ 
+
+00:06:13,350 --> 00:06:15,830
+ 
+ 
+
+00:06:15,830 --> 00:06:18,150
+ 
+ 
+
+00:06:18,150 --> 00:06:20,870
+ 
+ 
+
+00:06:20,870 --> 00:06:22,629
+ 
+ 
+
+00:06:22,629 --> 00:06:25,189
+ 
+ 
+
+00:06:25,189 --> 00:06:27,830
+ 
+ 
+
+00:06:27,830 --> 00:06:29,029
+ 
+ 
+
+00:06:29,029 --> 00:06:31,189
+ 
+ 
+
+00:06:31,189 --> 00:06:33,909
+ 
+ 
+
+00:06:33,909 --> 00:06:35,350
+ 
+ 
+
+00:06:35,350 --> 00:06:37,990
+ 
+ 
+
+00:06:37,990 --> 00:06:40,550
+ 
+ 
+
+00:06:40,550 --> 00:06:42,550
+ 
+ 
+
+00:06:42,550 --> 00:06:44,950
+ 
+ 
+
+00:06:44,950 --> 00:06:47,510
+ 
+ 
+
+00:06:47,510 --> 00:06:49,589
+ 
+ 
+
+00:06:49,589 --> 00:06:51,430
+ 
+ 
+
+00:06:51,430 --> 00:06:54,390
+ 
+ 
+
+00:06:54,390 --> 00:06:57,510
+ 
+ 
+
+00:06:57,510 --> 00:06:59,270
+ 
+ 
+
+00:06:59,270 --> 00:07:01,350
+ 
+ 
+
+00:07:01,350 --> 00:07:04,070
+ 
+ 
+
+00:07:04,070 --> 00:07:06,309
+ 
+ 
+
+00:07:06,309 --> 00:07:08,309
+ 
+ 
+
+00:07:08,309 --> 00:07:10,469
+ 
+ 
+
+00:07:10,469 --> 00:07:12,309
+ 
+ 
+
+00:07:12,309 --> 00:07:13,990
+ 
+ 
+
+00:07:13,990 --> 00:07:15,990
+ 
+ 
+
+00:07:15,990 --> 00:07:16,000
+ 
+ 
+
+00:07:16,000 --> 00:07:17,110
+ 
+
+
+00:07:17,110 --> 00:07:19,350
+ 
+ 
+
+00:07:19,350 --> 00:07:21,749
+ 
+ 
+
+00:07:21,749 --> 00:07:21,759
+ 
+ 
+
+00:07:21,759 --> 00:07:22,790
+ 
+
+
+00:07:22,790 --> 00:07:24,710
+ 
+ 
+
+00:07:24,710 --> 00:07:27,189
+ 
+ 
+
+00:07:27,189 --> 00:07:30,230
+ 
+ 
+
+00:07:30,230 --> 00:07:32,870
+ 
+ 
+
+00:07:32,870 --> 00:07:35,029
+ 
+ 
+
+00:07:35,029 --> 00:07:37,350
+ 
+ 
+
+00:07:37,350 --> 00:07:39,350
+ 
+ 
+
+00:07:39,350 --> 00:07:39,360
+ 
+ 
+
+00:07:39,360 --> 00:07:40,390
+ 
+
+
+00:07:40,390 --> 00:07:43,909
+ 
+ 
+
+00:07:43,909 --> 00:07:46,150
+ 
+ 
+
+00:07:46,150 --> 00:07:47,990
+ 
+ 
+
+00:07:47,990 --> 00:07:48,000
+ 
+ 
+
+00:07:48,000 --> 00:07:48,869
+ 
+
+
+00:07:48,869 --> 00:07:51,430
+ 
+ 
+
+00:07:51,430 --> 00:07:52,869
+ 
+ 
+
+00:07:52,869 --> 00:07:54,390
+ 
+ 
+
+00:07:54,390 --> 00:07:55,510
+ 
+ 
+
+00:07:55,510 --> 00:07:57,270
+ 
+ 
+
+00:07:57,270 --> 00:07:58,950
+ 
+ 
+
+00:07:58,950 --> 00:08:00,309
+ 
+ 
+
+00:08:00,309 --> 00:08:02,629
+ 
+ 
+
+00:08:02,629 --> 00:08:05,430
+ 
+ 
+
+00:08:05,430 --> 00:08:06,950
+ 
+ 
+
+00:08:06,950 --> 00:08:06,960
+ 
+ 
+
+00:08:06,960 --> 00:08:07,990
+ 
+
+
+00:08:07,990 --> 00:08:10,469
+ 
+ 
+
+00:08:10,469 --> 00:08:12,869
+ 
+ 
+
+00:08:12,869 --> 00:08:14,230
+ 
+ 
+
+00:08:14,230 --> 00:08:16,150
+ 
+ 
+
+00:08:16,150 --> 00:08:16,160
+ 
+ 
+
+00:08:16,160 --> 00:08:17,189
+ 
+
+
+00:08:17,189 --> 00:08:18,629
+ 
+ 
+
+00:08:18,629 --> 00:08:20,150
+ 
+ 
+
+00:08:20,150 --> 00:08:21,430
+ 
+ 
+
+00:08:21,430 --> 00:08:23,270
+ 
+ 
+
+00:08:23,270 --> 00:08:23,280
+ 
+ 
+
+00:08:23,280 --> 00:08:24,830
+ 
+
+
+00:08:24,830 --> 00:08:27,909
+ 
+ 
+
+00:08:27,909 --> 00:08:29,830
+ 
+ 
+
+00:08:29,830 --> 00:08:31,189
+ 
+ 
+
+00:08:31,189 --> 00:08:33,670
+ 
+ 
+
+00:08:33,670 --> 00:08:33,680
+ 
+ 
+
+00:08:33,680 --> 00:08:35,909
+ 
+
+
+00:08:35,909 --> 00:08:35,919
+ 
+ 
+
+00:08:35,919 --> 00:08:37,190
+ 
+
+
+00:08:37,190 --> 00:08:39,750
+ 
+ 
+
+00:08:39,750 --> 00:08:41,269
+ 
+ 
+
+00:08:41,269 --> 00:08:42,870
+ 
+ 
+
+00:08:42,870 --> 00:08:46,389
+ 
+ 
+
+00:08:46,389 --> 00:08:47,910
+ 
+ 
+
+00:08:47,910 --> 00:08:51,110
+ 
+ 
+
+00:08:51,110 --> 00:08:52,710
+ 
+ 
+
+00:08:52,710 --> 00:08:55,590
+ 
+ 
+
+00:08:55,590 --> 00:08:58,550
+ 
+ 
+
+00:08:58,550 --> 00:09:00,310
+ 
+ 
+
+00:09:00,310 --> 00:09:02,470
+ 
+ 
+
+00:09:02,470 --> 00:09:02,480
+ 
+ 
+
+00:09:02,480 --> 00:09:04,070
+ 
+
+
+00:09:04,070 --> 00:09:06,230
+ 
+ 
+
+00:09:06,230 --> 00:09:08,470
+ 
+ 
+
+00:09:08,470 --> 00:09:10,389
+ 
+ 
+
+00:09:10,389 --> 00:09:10,399
+ 
+ 
+
+00:09:10,399 --> 00:09:11,670
+ 
+
+
+00:09:11,670 --> 00:09:13,670
+ 
+ 
+
+00:09:13,670 --> 00:09:15,110
+ 
+ 
+
+00:09:15,110 --> 00:09:17,430
+ 
+ 
+
+00:09:17,430 --> 00:09:19,269
+ 
+ 
+
+00:09:19,269 --> 00:09:22,150
+ 
+ 
+
+00:09:22,150 --> 00:09:24,310
+ 
+ 
+
+00:09:24,310 --> 00:09:26,310
+ 
+ 
+
+00:09:26,310 --> 00:09:28,470
+ 
+ 
+
+00:09:28,470 --> 00:09:30,389
+ 
+ 
+
+00:09:30,389 --> 00:09:32,550
+ 
+ 
+
+00:09:32,550 --> 00:09:32,560
+ 
+ 
+
+00:09:32,560 --> 00:09:33,670
+ 
+
+
+00:09:33,670 --> 00:09:37,030
+ 
+ 
+
+00:09:37,030 --> 00:09:39,509
+ 
+ 
+
+00:09:39,509 --> 00:09:41,430
+ 
+ 
+
+00:09:41,430 --> 00:09:43,030
+ 
+ 
+
+00:09:43,030 --> 00:09:44,150
+ 
+ 
+
+00:09:44,150 --> 00:09:45,829
+ 
+ 
+
+00:09:45,829 --> 00:09:47,509
+ 
+ 
+
+00:09:47,509 --> 00:09:51,030
+ 
+ 
+
+00:09:51,030 --> 00:09:51,040
+ 
+ 
+
+00:09:51,040 --> 00:09:52,870
+ 
+
+
+00:09:52,870 --> 00:09:55,430
+ 
+ 
+
+00:09:55,430 --> 00:09:57,190
+ 
+ 
+
+00:09:57,190 --> 00:09:59,990
+ 
+ 
+
+00:09:59,990 --> 00:10:02,230
+ 
+ 
+
+00:10:02,230 --> 00:10:03,430
+ 
+ 
+
+00:10:03,430 --> 00:10:05,829
+ 
+ 
+
+00:10:05,829 --> 00:10:07,030
+ 
+ 
+
+00:10:07,030 --> 00:10:08,710
+ 
+ 
+
+00:10:08,710 --> 00:10:08,720
+ 
+ 
+
+00:10:08,720 --> 00:10:10,710
+ 
+
+
+00:10:10,710 --> 00:10:13,030
+ 
+ 
+
+00:10:13,030 --> 00:10:15,509
+ 
+ 
+
+00:10:15,509 --> 00:10:17,269
+ 
+ 
+
+00:10:17,269 --> 00:10:19,030
+ 
+ 
+
+00:10:19,030 --> 00:10:21,509
+ 
+ 
+
+00:10:21,509 --> 00:10:23,509
+ 
+ 
+
+00:10:23,509 --> 00:10:26,150
+ 
+ 
+
+00:10:26,150 --> 00:10:28,470
+ 
+ 
+
+00:10:28,470 --> 00:10:29,829
+ 
+ 
+
+00:10:29,829 --> 00:10:32,310
+ 
+ 
+
+00:10:32,310 --> 00:10:33,990
+ 
+ 
+
+00:10:33,990 --> 00:10:36,870
+ 
+ 
+
+00:10:36,870 --> 00:10:38,550
+ 
+ 
+
+00:10:38,550 --> 00:10:40,310
+ 
+ 
+
+00:10:40,310 --> 00:10:43,750
+ 
+ 
+
+00:10:43,750 --> 00:10:46,069
+ 
+ 
+
+00:10:46,069 --> 00:10:48,550
+ 
+ 
+
+00:10:48,550 --> 00:10:51,190
+ 
+ 
+
+00:10:51,190 --> 00:10:51,200
+ 
+ 
+
+00:10:51,200 --> 00:10:54,069
+ 
+
+
+00:10:54,069 --> 00:10:55,990
+ 
+ 
+
+00:10:55,990 --> 00:10:56,000
+ 
+ 
+
+00:10:56,000 --> 00:10:57,590
+ 
+
+
+00:10:57,590 --> 00:10:59,670
+ 
+ 
+
+00:10:59,670 --> 00:11:01,110
+ 
+ 
+
+00:11:01,110 --> 00:11:03,269
+ 
+ 
+
+00:11:03,269 --> 00:11:05,030
+ 
+ 
+
+00:11:05,030 --> 00:11:06,790
+ 
+ 
+
+00:11:06,790 --> 00:11:08,949
+ 
+ 
+
+00:11:08,949 --> 00:11:10,230
+ 
+ 
+
+00:11:10,230 --> 00:11:11,829
+ 
+ 
+
+00:11:11,829 --> 00:11:13,750
+ 
+ 
+
+00:11:13,750 --> 00:11:15,509
+ 
+ 
+
+00:11:15,509 --> 00:11:17,350
+ 
+ 
+
+00:11:17,350 --> 00:11:19,910
+ 
+ 
+
+00:11:19,910 --> 00:11:22,389
+ 
+ 
+
+00:11:22,389 --> 00:11:23,990
+ 
+ 
+
+00:11:23,990 --> 00:11:26,230
+ 
+ 
+
+00:11:26,230 --> 00:11:27,269
+ 
+ 
+
+00:11:27,269 --> 00:11:28,790
+ 
+ 
+
+00:11:28,790 --> 00:11:30,470
+ 
+ 
+
+00:11:30,470 --> 00:11:32,230
+ 
+ 
+
+00:11:32,230 --> 00:11:34,949
+ 
+ 
+
+00:11:34,949 --> 00:11:36,389
+ 
+ 
+
+00:11:36,389 --> 00:11:37,430
+ 
+ 
+
+00:11:37,430 --> 00:11:40,069
+ 
+ 
+
+00:11:40,069 --> 00:11:42,310
+ 
+ 
+
+00:11:42,310 --> 00:11:43,910
+ 
+ 
+
+00:11:43,910 --> 00:11:47,430
+ 
+ 
+
+00:11:47,430 --> 00:11:49,750
+ 
+ 
+
+00:11:49,750 --> 00:11:52,310
+ 
+ 
+
+00:11:52,310 --> 00:11:53,829
+ 
+ 
+
+00:11:53,829 --> 00:11:53,839
+ 
+ 
+
+00:11:53,839 --> 00:11:55,110
+ 
+
+
+00:11:55,110 --> 00:11:58,550
+ 
+ 
+
+00:11:58,550 --> 00:12:00,550
+ 
+ 
+
+00:12:00,550 --> 00:12:02,230
+ 
+ 
+
+00:12:02,230 --> 00:12:03,509
+ 
+ 
+
+00:12:03,509 --> 00:12:05,350
+ 
+ 
+
+00:12:05,350 --> 00:12:07,670
+ 
+ 
+
+00:12:07,670 --> 00:12:10,470
+ 
+ 
+
+00:12:10,470 --> 00:12:12,710
+ 
+ 
+
+00:12:12,710 --> 00:12:12,720
+ 
+ 
+
+00:12:12,720 --> 00:12:13,829
+ 
+
+
+00:12:13,829 --> 00:12:14,790
+ 
+ 
+
+00:12:14,790 --> 00:12:18,310
+ 
+ 
+
+00:12:18,310 --> 00:12:20,790
+ 
+ 
+
+00:12:20,790 --> 00:12:22,870
+ 
+ 
+
+00:12:22,870 --> 00:12:25,430
+ 
+ 
+
+00:12:25,430 --> 00:12:27,910
+ 
+ 
+
+00:12:27,910 --> 00:12:30,230
+ 
+ 
+
+00:12:30,230 --> 00:12:31,829
+ 
+ 
+
+00:12:31,829 --> 00:12:31,839
+ 
+ 
+
+00:12:31,839 --> 00:12:33,190
+ 
+
+
+00:12:33,190 --> 00:12:36,069
+ 
+ 
+
+00:12:36,069 --> 00:12:37,350
+ 
+ 
+
+00:12:37,350 --> 00:12:38,710
+ 
+ 
+
+00:12:38,710 --> 00:12:40,389
+ 
+ 
+
+00:12:40,389 --> 00:12:43,110
+ 
+ 
+
+00:12:43,110 --> 00:12:43,120
+ 
+ 
+
+00:12:43,120 --> 00:12:44,310
+ 
+
+
+00:12:44,310 --> 00:12:46,790
+ 
+ 
+
+00:12:46,790 --> 00:12:51,190
+ 
+ 
+
+00:12:51,190 --> 00:12:53,350
+ 
+ 
+
+00:12:53,350 --> 00:12:55,910
+ 
+ 
+
+00:12:55,910 --> 00:12:58,790
+ 
+ 
+
+00:12:58,790 --> 00:13:00,389
+ 
+ 
+
+00:13:00,389 --> 00:13:02,389
+ 
+ 
+
+00:13:02,389 --> 00:13:02,399
+ 
+ 
+
+00:13:02,399 --> 00:13:03,430
+ 
+
+
+00:13:03,430 --> 00:13:07,670
+ 
+ 
+
+00:13:07,670 --> 00:13:08,710
+ 
+ 
+
+00:13:08,710 --> 00:13:11,509
+ 
+ 
+
+00:13:11,509 --> 00:13:13,990
+ 
+ 
+
+00:13:13,990 --> 00:13:16,310
+ 
+ 
+
+00:13:16,310 --> 00:13:16,320
+ 
+ 
+
+00:13:16,320 --> 00:13:17,190
+ 
+
+
+00:13:17,190 --> 00:13:17,200
+ 
+ 
+
+00:13:17,200 --> 00:13:18,389
+ 
+
+
+00:13:18,389 --> 00:13:19,990
+ 
+ 
+
+00:13:19,990 --> 00:13:22,550
+ 
+ 
+
+00:13:22,550 --> 00:13:24,389
+ 
+ 
+
+00:13:24,389 --> 00:13:27,110
+ 
+ 
+
+00:13:27,110 --> 00:13:29,190
+ 
+ 
+
+00:13:29,190 --> 00:13:29,200
+ 
+ 
+
+00:13:29,200 --> 00:13:31,430
+ 
+
+
+00:13:31,430 --> 00:13:34,150
+ 
+ 
+
+00:13:34,150 --> 00:13:36,389
+ 
+ 
+
+00:13:36,389 --> 00:13:36,399
+ 
+ 
+
+00:13:36,399 --> 00:13:40,710
+ 
+
+
+00:13:40,710 --> 00:13:40,720
+ 
+ 
+
+00:13:40,720 --> 00:13:42,069
+ 
+
+
+00:13:42,069 --> 00:13:48,550
+ 
+ 
+
+00:13:48,550 --> 00:13:49,670
+ 
+ 
+
+00:13:49,670 --> 00:13:54,230
+ 
+ 
+
+00:13:54,230 --> 00:13:56,230
+ 
+ 
+
+00:13:56,230 --> 00:13:56,240
+ 
+ 
+
+00:13:56,240 --> 00:13:57,590
+ 
+
+
+00:13:57,590 --> 00:14:02,710
+ 
+ 
+
+00:14:02,710 --> 00:14:02,720
+ 
+ 
+
+00:14:02,720 --> 00:14:03,590
+ 
+
+
+00:14:03,590 --> 00:14:06,230
+ 
+ 
+
+00:14:06,230 --> 00:14:08,150
+ 
+ 
+
+00:14:08,150 --> 00:14:08,160
+ 
+ 
+
+00:14:08,160 --> 00:14:09,430
+ 
+
+
+00:14:09,430 --> 00:14:12,310
+ 
+ 
+
+00:14:12,310 --> 00:14:12,320
+ 
+ 
+
+00:14:12,320 --> 00:14:13,750
+ 
+
+
+00:14:13,750 --> 00:14:18,310
+ 
+ 
+
+00:14:18,310 --> 00:14:21,910
+ 
+ 
+
+00:14:21,910 --> 00:14:21,920
+ 
+ 
+
+00:14:21,920 --> 00:14:27,509
+ 
+
+
+00:14:27,509 --> 00:14:29,670
+ 
+ 
+
+00:14:29,670 --> 00:14:32,389
+ 
+ 
+
+00:14:32,389 --> 00:14:36,230
+ 
+ 
+
+00:14:36,230 --> 00:14:37,670
+ 
+ 
+
+00:14:37,670 --> 00:14:42,629
+ 
+ 
+
+00:14:42,629 --> 00:14:44,389
+ 
+ 
+
+00:14:44,389 --> 00:14:48,069
+ 
+ 
+
+00:14:48,069 --> 00:15:04,470
+ 
+ 
+
+00:15:04,470 --> 00:15:04,480
+ 
+ 
+
+00:15:04,480 --> 00:15:05,590
+ 
+
+
+00:15:05,590 --> 00:15:05,600
+ 
+ 
+
+00:15:05,600 --> 00:15:07,350
+ 
+
+
+00:15:07,350 --> 00:15:07,360
+ 
+ 
+
+00:15:07,360 --> 00:15:08,310
+ 
+
+
+00:15:08,310 --> 00:15:10,629
+ 
+ 
+
+00:15:10,629 --> 00:15:12,710
+ 
+ 
+
+00:15:12,710 --> 00:15:14,870
+ 
+ 
+
+00:15:14,870 --> 00:15:16,870
+ 
+ 
+
+00:15:16,870 --> 00:15:18,710
+ 
+ 
+
+00:15:18,710 --> 00:15:21,030
+ 
+ 
+
+00:15:21,030 --> 00:15:23,350
+ 
+ 
+
+00:15:23,350 --> 00:15:27,350
+ 
+ 
+
+00:15:27,350 --> 00:15:29,910
+ 
+ 
+
+00:15:29,910 --> 00:15:31,189
+ 
+ 
+
+00:15:31,189 --> 00:15:33,509
+ 
+ 
+
+00:15:33,509 --> 00:15:37,430
+ 
+ 
+
+00:15:37,430 --> 00:15:39,670
+ 
+ 
+
+00:15:39,670 --> 00:15:41,990
+ 
+ 
+
+00:15:41,990 --> 00:15:45,269
+ 
+ 
+
+00:15:45,269 --> 00:15:46,710
+ 
+ 
+
+00:15:46,710 --> 00:15:48,629
+ 
+ 
+
+00:15:48,629 --> 00:15:50,790
+ 
+ 
+
+00:15:50,790 --> 00:15:53,430
+ 
+ 
+
+00:15:53,430 --> 00:15:54,870
+ 
+ 
+
+00:15:54,870 --> 00:15:56,870
+ 
+ 
+
+00:15:56,870 --> 00:15:59,110
+ 
+ 
+
+00:15:59,110 --> 00:16:00,949
+ 
+ 
+
+00:16:00,949 --> 00:16:02,550
+ 
+ 
+
+00:16:02,550 --> 00:16:04,870
+ 
+ 
+
+00:16:04,870 --> 00:16:07,110
+ 
+ 
+
+00:16:07,110 --> 00:16:10,710
+ 
+ 
+
+00:16:10,710 --> 00:16:14,629
+ 
+ 
+
+00:16:14,629 --> 00:16:14,639
+ 
+ 
+
+00:16:14,639 --> 00:16:16,629
+ 
+
+
+00:16:16,629 --> 00:16:19,590
+ 
+ 
+
+00:16:19,590 --> 00:16:23,670
+ 
+ 
+
+00:16:23,670 --> 00:16:23,680
+ 
+ 
+
+00:16:23,680 --> 00:16:25,509
+ 
+
+
+00:16:25,509 --> 00:16:28,310
+ 
+ 
+
+00:16:28,310 --> 00:16:28,320
+ 
+ 
+
+00:16:28,320 --> 00:16:33,350
+ 
+
+
+00:16:33,350 --> 00:16:34,829
+ 
+ 
+
+00:16:34,829 --> 00:16:39,829
+ 
+ 
+
+00:16:39,829 --> 00:16:42,230
+ 
+ 
+
+00:16:42,230 --> 00:16:44,230
+ 
+ 
+
+00:16:44,230 --> 00:16:44,240
+ 
+ 
+
+00:16:44,240 --> 00:16:45,110
+ 
+
+
+00:16:45,110 --> 00:16:47,670
+ 
+ 
+
+00:16:47,670 --> 00:16:49,590
+ 
+ 
+
+00:16:49,590 --> 00:16:49,600
+ 
+ 
+
+00:16:49,600 --> 00:16:50,389
+ 
+
+
+00:16:50,389 --> 00:16:51,749
+ 
+ 
+
+00:16:51,749 --> 00:16:54,150
+ 
+ 
+
+00:16:54,150 --> 00:16:56,389
+ 
+ 
+
+00:16:56,389 --> 00:16:59,509
+ 
+ 
+
+00:16:59,509 --> 00:17:02,230
+ 
+ 
+
+00:17:02,230 --> 00:17:04,949
+ 
+ 
+
+00:17:04,949 --> 00:17:07,110
+ 
+ 
+
+00:17:07,110 --> 00:17:10,150
+ 
+ 
+
+00:17:10,150 --> 00:17:11,909
+ 
+ 
+
+00:17:11,909 --> 00:17:13,510
+ 
+ 
+
+00:17:13,510 --> 00:17:15,189
+ 
+ 
+
+00:17:15,189 --> 00:17:18,230
+ 
+ 
+
+00:17:18,230 --> 00:17:19,990
+ 
+ 
+
+00:17:19,990 --> 00:17:21,990
+ 
+ 
+
+00:17:21,990 --> 00:17:24,870
+ 
+ 
+
+00:17:24,870 --> 00:17:27,350
+ 
+ 
+
+00:17:27,350 --> 00:17:29,830
+ 
+ 
+
+00:17:29,830 --> 00:17:31,990
+ 
+ 
+
+00:17:31,990 --> 00:17:35,720
+ 
+ 
+

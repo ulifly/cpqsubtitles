@@ -1,0 +1,933 @@
+
+00:00:00,659 --> 00:00:02,750
+ 
+good everyone I hope you guys have an  amazing day so today what I'm gonna do I  will talk a little bit about the  contract and amendment of uh  uh the codes and how does that will  change the subscription so  um I do understand that you know we  talked about orders we haven't talked  much in detail about the contract  contract in simple terms right it's a  kind of an agreement you have uh but you  know a company have with the customer  right so it could be  um let's uh I'll give you a very simple  scenario you know you decide to you know  a customer send sorry a company sends  out a code uh to a customer saying hey  uh you know this is just a product you  will be buying it and when if the  customer agrees on the price then you  know the con then pretty much uh you  know the proposal is finalized and the  order is generated and the items get  shipped right once the money is received  now uh there are certain kind of  products which is not one-off products  but it instead is like a  subscription-based so for instance uh  you uh sign a contract with the customer  so for instance you wanted to uh  subscribe for a  yearly streaming service uh say you  subscribe to a Hulu or Netflix or  whatever right so obviously what happens  is thread you know the code you know  normally a code will be created with the  certain code line items so for instance  a Netflix streaming or other stuff right  and then a contract will be created and  then and subscription will be in place  right so subscription will be a yearly  12 month subscription right  uh or 24 months or 36 months whatever so  I just wanted to show you uh a scenario  where say for instance you have a  contract created for a year say for  instance  um you have a contract to say you know  customer will be starting  um say a licensing subscription from  um from October 1st of you know 2021 to  uh until uh October 2nd  2022 or 2023 right  um so what happens if customer wants to  add another license right uh to the same  uh to the same contract or to the same  code uh will that is that possible right  I mean under normal scenario you might  be thinking ah it's too much of work for  uh for a support person right just to go  to the contract and look at the code  line items and and move each one to  different orders it's just a pain right  but behind the scenes Salesforce does  that job pretty simple in a pretty easy  way so you don't have to do much admin  work so that's pretty much I'm going to  demonstrate right you we have a contract  in place uh which contract obviously  linked to an account  so let me show you  I'll go to account  and I'll pick the school account right  so  I'll pick the school account  and on the related list I have contracts  so this is a contract I want to deal  with right  all right  so I have this contract in place let me  activate this contract so  okay  now this contract is linked to uh this  specific code okay which we go here  when I go here let me look at the  code lines  obviously we have this creative suit  license which is from say  uh the first of October  um to perhaps uh September 2020  three uh so imagine I have a requirement  when I wanted to uh add another license  uh but not from the first of October but  say perhaps from you know uh April  um  2023 for six months so  uh how that will affect the subscription  that's exactly what I'm going to  demonstrate so what I'll do I will go to  so I'm in I'm in the same opportunity  here right uh as you can see that this  opportunity is linked to the contract  which I've already  uh shown you guys before  uh now what I'll do I will go to the add  product  and let's add some license right so  that's probably I say  um maybe I have a lot of VPN license  okay  and I will before I do that just let me  go back to the account just to see that  what subscription we have in place  um so I'm going to relate the list  and I was doing it the wrong way  about going to the code and adding it so  that's one of the mistakes you know  people normally make but just let me uh  show you the best way to do it so I got  three subscription in place I have  subscription for all these stuff so what  I want to do I wanted to add the VPN  license right starting from April  so I will go to this account again I'll  go to this contract  um and I have this option called MN  contract so I would prefer to do this  from here  um and I will say amend this contract so  we are amending it  uh and um  and what I'll do I will add a new  product and I will say VPN  license  yeah  and uh  yeah it's going to take some time but  that's right and then I'll change my see  the the start date change right  so what I'll do I will actually change  the date to  first of April right  um my  June July August September  um but this is still October so what  I'll do I will change it to just wanted  to make six months before so I haven't  put it too much  right so I will save it because I want  this license to be activated uh six  months before the subscription ends  um so I've done this and now let's look  at the uh  opportunities  so now we got this new created just now  um now what I'll do I will edit this one  and in this opportunity  I will do order first yeah you remember  the flag order right which will create  an order behind the scene right  um so let me go to the accounts  um I will go to this account and I go to  the related one  um let's see the orders  hopefully  Let me refresh it  uh let me see if this is the one  yeah this is the one right so order has  been generated now what I'll do I'll go  back to the same opportunity again  and I'll go for this the same  opportunity name and under edit  uh what I do I will do this one called  contracted  and I'll save yeah  so opportunity for contract has been  saved now let's look at the subscription  to see how that has been impacted  so I'll go to the account again  and I'll go to the school account  and I'll go to the related list  and  so what I'll do so you see a new  subscription has been created uh entry  has been added that's a VPN license  and starting from first to the uh end so  see how easy to do right I don't have to  manually enter this information I don't  have to manually create an order I just  don't have to do most of the stuff right  all I have to do a few options uh add  the right product and set the start date  uh go to the opportunity  uh take the older flag with the order  for me and take the contract and flag  and then this will generate the  subscription option for me  um this is pretty much I wanted to cover  uh because the reason why I wanted to  talk about this topic because I just  wanted to demonstrate how easy it for  you guys to do a very simple thing  um using cpq like I mean it sounds  simple right sorry I I didn't mean  simple it might be a very complicated  process if you wanted to do uh manually  but cpq kind of made it super simple  right everything happens behind the  scene for you uh from an admin  perspective from a sales perspective cpq  really uh you know stands out because  you don't have to really deal with the  complexity that goes behind the scene  right just few clicks uh you know if you  have a process in place to do certain  steps that will take care of it uh you  know whatever that happens behind the  scene so that being said that's pretty  much I wanted to cover uh in this  episode I hope you guys have an amazing  Sunday adios
+
+00:00:02,750 --> 00:00:05,749
+good everyone I hope you guys have an  amazing day so today what I'm gonna do I  will talk a little bit about the  contract and amendment of uh  uh the codes and how does that will  change the subscription so  um I do understand that you know we  talked about orders we haven't talked  much in detail about the contract  contract in simple terms right it's a  kind of an agreement you have uh but you  know a company have with the customer  right so it could be  um let's uh I'll give you a very simple  scenario you know you decide to you know  a customer send sorry a company sends  out a code uh to a customer saying hey  uh you know this is just a product you  will be buying it and when if the  customer agrees on the price then you  know the con then pretty much uh you  know the proposal is finalized and the  order is generated and the items get  shipped right once the money is received  now uh there are certain kind of  products which is not one-off products  but it instead is like a  subscription-based so for instance uh  you uh sign a contract with the customer  so for instance you wanted to uh  subscribe for a  yearly streaming service uh say you  subscribe to a Hulu or Netflix or  whatever right so obviously what happens  is thread you know the code you know  normally a code will be created with the  certain code line items so for instance  a Netflix streaming or other stuff right  and then a contract will be created and  then and subscription will be in place  right so subscription will be a yearly  12 month subscription right  uh or 24 months or 36 months whatever so  I just wanted to show you uh a scenario  where say for instance you have a  contract created for a year say for  instance  um you have a contract to say you know  customer will be starting  um say a licensing subscription from  um from October 1st of you know 2021 to  uh until uh October 2nd  2022 or 2023 right  um so what happens if customer wants to  add another license right uh to the same  uh to the same contract or to the same  code uh will that is that possible right  I mean under normal scenario you might  be thinking ah it's too much of work for  uh for a support person right just to go  to the contract and look at the code  line items and and move each one to  different orders it's just a pain right  but behind the scenes Salesforce does  that job pretty simple in a pretty easy  way so you don't have to do much admin  work so that's pretty much I'm going to  demonstrate right you we have a contract  in place uh which contract obviously  linked to an account  so let me show you  I'll go to account  and I'll pick the school account right  so  I'll pick the school account  and on the related list I have contracts  so this is a contract I want to deal  with right  all right  so I have this contract in place let me  activate this contract so  okay  now this contract is linked to uh this  specific code okay which we go here  when I go here let me look at the  code lines  obviously we have this creative suit  license which is from say  uh the first of October  um to perhaps uh September 2020  three uh so imagine I have a requirement  when I wanted to uh add another license  uh but not from the first of October but  say perhaps from you know uh April  um  2023 for six months so  uh how that will affect the subscription  that's exactly what I'm going to  demonstrate so what I'll do I will go to  so I'm in I'm in the same opportunity  here right uh as you can see that this  opportunity is linked to the contract  which I've already  uh shown you guys before  uh now what I'll do I will go to the add  product  and let's add some license right so  that's probably I say  um maybe I have a lot of VPN license  okay  and I will before I do that just let me  go back to the account just to see that  what subscription we have in place  um so I'm going to relate the list  and I was doing it the wrong way  about going to the code and adding it so  that's one of the mistakes you know  people normally make but just let me uh  show you the best way to do it so I got  three subscription in place I have  subscription for all these stuff so what  I want to do I wanted to add the VPN  license right starting from April  so I will go to this account again I'll  go to this contract  um and I have this option called MN  contract so I would prefer to do this  from here  um and I will say amend this contract so  we are amending it  uh and um  and what I'll do I will add a new  product and I will say VPN  license  yeah  and uh  yeah it's going to take some time but  that's right and then I'll change my see  the the start date change right  so what I'll do I will actually change  the date to  first of April right  um my  June July August September  um but this is still October so what  I'll do I will change it to just wanted  to make six months before so I haven't  put it too much  right so I will save it because I want  this license to be activated uh six  months before the subscription ends  um so I've done this and now let's look  at the uh  opportunities  so now we got this new created just now  um now what I'll do I will edit this one  and in this opportunity  I will do order first yeah you remember  the flag order right which will create  an order behind the scene right  um so let me go to the accounts  um I will go to this account and I go to  the related one  um let's see the orders  hopefully  Let me refresh it  uh let me see if this is the one  yeah this is the one right so order has  been generated now what I'll do I'll go  back to the same opportunity again  and I'll go for this the same  opportunity name and under edit  uh what I do I will do this one called  contracted  and I'll save yeah  so opportunity for contract has been  saved now let's look at the subscription  to see how that has been impacted  so I'll go to the account again  and I'll go to the school account  and I'll go to the related list  and  so what I'll do so you see a new  subscription has been created uh entry  has been added that's a VPN license  and starting from first to the uh end so  see how easy to do right I don't have to  manually enter this information I don't  have to manually create an order I just  don't have to do most of the stuff right  all I have to do a few options uh add  the right product and set the start date  uh go to the opportunity  uh take the older flag with the order  for me and take the contract and flag  and then this will generate the  subscription option for me  um this is pretty much I wanted to cover  uh because the reason why I wanted to  talk about this topic because I just  wanted to demonstrate how easy it for  you guys to do a very simple thing  um using cpq like I mean it sounds  simple right sorry I I didn't mean  simple it might be a very complicated  process if you wanted to do uh manually  but cpq kind of made it super simple  right everything happens behind the  scene for you uh from an admin  perspective from a sales perspective cpq  really uh you know stands out because  you don't have to really deal with the  complexity that goes behind the scene  right just few clicks uh you know if you  have a process in place to do certain  steps that will take care of it uh you  know whatever that happens behind the  scene so that being said that's pretty  much I wanted to cover uh in this  episode I hope you guys have an amazing  Sunday adios
+ 
+
+00:00:05,749 --> 00:00:07,849
+ 
+ 
+
+00:00:07,849 --> 00:00:10,669
+ 
+ 
+
+00:00:10,669 --> 00:00:14,570
+ 
+ 
+
+00:00:14,570 --> 00:00:17,029
+ 
+ 
+
+00:00:17,029 --> 00:00:18,470
+ 
+ 
+
+00:00:18,470 --> 00:00:20,390
+ 
+ 
+
+00:00:20,390 --> 00:00:21,769
+ 
+ 
+
+00:00:21,769 --> 00:00:23,810
+ 
+ 
+
+00:00:23,810 --> 00:00:26,390
+ 
+ 
+
+00:00:26,390 --> 00:00:27,589
+ 
+ 
+
+00:00:27,589 --> 00:00:29,750
+ 
+ 
+
+00:00:29,750 --> 00:00:31,250
+ 
+ 
+
+00:00:31,250 --> 00:00:34,010
+ 
+ 
+
+00:00:34,010 --> 00:00:36,889
+ 
+ 
+
+00:00:36,889 --> 00:00:40,569
+ 
+ 
+
+00:00:40,569 --> 00:00:43,790
+ 
+ 
+
+00:00:43,790 --> 00:00:46,250
+ 
+ 
+
+00:00:46,250 --> 00:00:49,250
+ 
+ 
+
+00:00:49,250 --> 00:00:52,430
+ 
+ 
+
+00:00:52,430 --> 00:00:54,049
+ 
+ 
+
+00:00:54,049 --> 00:00:55,970
+ 
+ 
+
+00:00:55,970 --> 00:00:58,549
+ 
+ 
+
+00:00:58,549 --> 00:01:01,549
+ 
+ 
+
+00:01:01,549 --> 00:01:03,650
+ 
+ 
+
+00:01:03,650 --> 00:01:05,090
+ 
+ 
+
+00:01:05,090 --> 00:01:07,609
+ 
+ 
+
+00:01:07,609 --> 00:01:09,770
+ 
+ 
+
+00:01:09,770 --> 00:01:12,050
+ 
+ 
+
+00:01:12,050 --> 00:01:13,929
+ 
+ 
+
+00:01:13,929 --> 00:01:16,910
+ 
+ 
+
+00:01:16,910 --> 00:01:19,969
+ 
+ 
+
+00:01:19,969 --> 00:01:22,190
+ 
+ 
+
+00:01:22,190 --> 00:01:24,890
+ 
+ 
+
+00:01:24,890 --> 00:01:27,289
+ 
+ 
+
+00:01:27,289 --> 00:01:29,270
+ 
+ 
+
+00:01:29,270 --> 00:01:32,030
+ 
+ 
+
+00:01:32,030 --> 00:01:34,850
+ 
+ 
+
+00:01:34,850 --> 00:01:37,130
+ 
+ 
+
+00:01:37,130 --> 00:01:39,530
+ 
+ 
+
+00:01:39,530 --> 00:01:41,690
+ 
+ 
+
+00:01:41,690 --> 00:01:45,649
+ 
+ 
+
+00:01:45,649 --> 00:01:49,010
+ 
+ 
+
+00:01:49,010 --> 00:01:51,469
+ 
+ 
+
+00:01:51,469 --> 00:01:53,929
+ 
+ 
+
+00:01:53,929 --> 00:01:53,939
+ 
+ 
+
+00:01:53,939 --> 00:01:54,950
+ 
+
+
+00:01:54,950 --> 00:01:57,950
+ 
+ 
+
+00:01:57,950 --> 00:02:00,410
+ 
+ 
+
+00:02:00,410 --> 00:02:04,249
+ 
+ 
+
+00:02:04,249 --> 00:02:08,169
+ 
+ 
+
+00:02:08,169 --> 00:02:12,790
+ 
+ 
+
+00:02:12,790 --> 00:02:16,190
+ 
+ 
+
+00:02:16,190 --> 00:02:19,850
+ 
+ 
+
+00:02:19,850 --> 00:02:25,130
+ 
+ 
+
+00:02:25,130 --> 00:02:27,710
+ 
+ 
+
+00:02:27,710 --> 00:02:30,949
+ 
+ 
+
+00:02:30,949 --> 00:02:33,290
+ 
+ 
+
+00:02:33,290 --> 00:02:35,410
+ 
+ 
+
+00:02:35,410 --> 00:02:38,390
+ 
+ 
+
+00:02:38,390 --> 00:02:40,430
+ 
+ 
+
+00:02:40,430 --> 00:02:42,770
+ 
+ 
+
+00:02:42,770 --> 00:02:44,990
+ 
+ 
+
+00:02:44,990 --> 00:02:47,330
+ 
+ 
+
+00:02:47,330 --> 00:02:49,610
+ 
+ 
+
+00:02:49,610 --> 00:02:52,430
+ 
+ 
+
+00:02:52,430 --> 00:02:54,050
+ 
+ 
+
+00:02:54,050 --> 00:02:55,610
+ 
+ 
+
+00:02:55,610 --> 00:02:57,650
+ 
+ 
+
+00:02:57,650 --> 00:02:59,030
+ 
+ 
+
+00:02:59,030 --> 00:03:01,490
+ 
+ 
+
+00:03:01,490 --> 00:03:05,150
+ 
+ 
+
+00:03:05,150 --> 00:03:06,890
+ 
+ 
+
+00:03:06,890 --> 00:03:06,900
+ 
+ 
+
+00:03:06,900 --> 00:03:09,009
+ 
+
+
+00:03:09,009 --> 00:03:12,790
+ 
+ 
+
+00:03:12,790 --> 00:03:17,390
+ 
+ 
+
+00:03:17,390 --> 00:03:19,729
+ 
+ 
+
+00:03:19,729 --> 00:03:22,070
+ 
+ 
+
+00:03:22,070 --> 00:03:23,390
+ 
+ 
+
+00:03:23,390 --> 00:03:25,790
+ 
+ 
+
+00:03:25,790 --> 00:03:28,309
+ 
+ 
+
+00:03:28,309 --> 00:03:28,319
+ 
+ 
+
+00:03:28,319 --> 00:03:29,809
+ 
+
+
+00:03:29,809 --> 00:03:33,470
+ 
+ 
+
+00:03:33,470 --> 00:03:37,250
+ 
+ 
+
+00:03:37,250 --> 00:03:40,190
+ 
+ 
+
+00:03:40,190 --> 00:03:44,149
+ 
+ 
+
+00:03:44,149 --> 00:03:47,210
+ 
+ 
+
+00:03:47,210 --> 00:03:49,550
+ 
+ 
+
+00:03:49,550 --> 00:03:53,330
+ 
+ 
+
+00:03:53,330 --> 00:03:58,850
+ 
+ 
+
+00:03:58,850 --> 00:04:03,110
+ 
+ 
+
+00:04:03,110 --> 00:04:06,610
+ 
+ 
+
+00:04:06,610 --> 00:04:10,429
+ 
+ 
+
+00:04:10,429 --> 00:04:14,690
+ 
+ 
+
+00:04:14,690 --> 00:04:14,700
+ 
+ 
+
+00:04:14,700 --> 00:04:15,849
+ 
+
+
+00:04:15,849 --> 00:04:19,129
+ 
+ 
+
+00:04:19,129 --> 00:04:21,710
+ 
+ 
+
+00:04:21,710 --> 00:04:22,909
+ 
+ 
+
+00:04:22,909 --> 00:04:25,730
+ 
+ 
+
+00:04:25,730 --> 00:04:27,770
+ 
+ 
+
+00:04:27,770 --> 00:04:30,409
+ 
+ 
+
+00:04:30,409 --> 00:04:32,270
+ 
+ 
+
+00:04:32,270 --> 00:04:33,590
+ 
+ 
+
+00:04:33,590 --> 00:04:36,189
+ 
+ 
+
+00:04:36,189 --> 00:04:40,670
+ 
+ 
+
+00:04:40,670 --> 00:04:40,680
+ 
+ 
+
+00:04:40,680 --> 00:04:41,629
+ 
+
+
+00:04:41,629 --> 00:04:44,450
+ 
+ 
+
+00:04:44,450 --> 00:04:48,890
+ 
+ 
+
+00:04:48,890 --> 00:04:53,930
+ 
+ 
+
+00:04:53,930 --> 00:04:53,940
+ 
+ 
+
+00:04:53,940 --> 00:04:55,129
+ 
+
+
+00:04:55,129 --> 00:04:58,490
+ 
+ 
+
+00:04:58,490 --> 00:05:01,490
+ 
+ 
+
+00:05:01,490 --> 00:05:04,850
+ 
+ 
+
+00:05:04,850 --> 00:05:09,170
+ 
+ 
+
+00:05:09,170 --> 00:05:11,270
+ 
+ 
+
+00:05:11,270 --> 00:05:14,570
+ 
+ 
+
+00:05:14,570 --> 00:05:16,070
+ 
+ 
+
+00:05:16,070 --> 00:05:19,550
+ 
+ 
+
+00:05:19,550 --> 00:05:22,850
+ 
+ 
+
+00:05:22,850 --> 00:05:24,529
+ 
+ 
+
+00:05:24,529 --> 00:05:26,810
+ 
+ 
+
+00:05:26,810 --> 00:05:29,390
+ 
+ 
+
+00:05:29,390 --> 00:05:31,850
+ 
+ 
+
+00:05:31,850 --> 00:05:35,150
+ 
+ 
+
+00:05:35,150 --> 00:05:38,870
+ 
+ 
+
+00:05:38,870 --> 00:05:40,969
+ 
+ 
+
+00:05:40,969 --> 00:05:43,010
+ 
+ 
+
+00:05:43,010 --> 00:05:44,870
+ 
+ 
+
+00:05:44,870 --> 00:05:46,850
+ 
+ 
+
+00:05:46,850 --> 00:05:49,370
+ 
+ 
+
+00:05:49,370 --> 00:05:56,629
+ 
+ 
+
+00:05:56,629 --> 00:05:59,510
+ 
+ 
+
+00:05:59,510 --> 00:06:04,850
+ 
+ 
+
+00:06:04,850 --> 00:06:04,860
+ 
+ 
+
+00:06:04,860 --> 00:06:06,710
+ 
+
+
+00:06:06,710 --> 00:06:06,720
+ 
+ 
+
+00:06:06,720 --> 00:06:10,010
+ 
+
+
+00:06:10,010 --> 00:06:15,950
+ 
+ 
+
+00:06:15,950 --> 00:06:18,409
+ 
+ 
+
+00:06:18,409 --> 00:06:20,870
+ 
+ 
+
+00:06:20,870 --> 00:06:23,090
+ 
+ 
+
+00:06:23,090 --> 00:06:26,330
+ 
+ 
+
+00:06:26,330 --> 00:06:30,050
+ 
+ 
+
+00:06:30,050 --> 00:06:32,990
+ 
+ 
+
+00:06:32,990 --> 00:06:34,189
+ 
+ 
+
+00:06:34,189 --> 00:06:38,029
+ 
+ 
+
+00:06:38,029 --> 00:06:40,610
+ 
+ 
+
+00:06:40,610 --> 00:06:42,890
+ 
+ 
+
+00:06:42,890 --> 00:06:44,510
+ 
+ 
+
+00:06:44,510 --> 00:06:46,850
+ 
+ 
+
+00:06:46,850 --> 00:06:50,029
+ 
+ 
+
+00:06:50,029 --> 00:06:52,670
+ 
+ 
+
+00:06:52,670 --> 00:06:55,670
+ 
+ 
+
+00:06:55,670 --> 00:06:58,730
+ 
+ 
+
+00:06:58,730 --> 00:07:01,309
+ 
+ 
+
+00:07:01,309 --> 00:07:01,319
+ 
+ 
+
+00:07:01,319 --> 00:07:04,610
+ 
+
+
+00:07:04,610 --> 00:07:10,129
+ 
+ 
+
+00:07:10,129 --> 00:07:13,189
+ 
+ 
+
+00:07:13,189 --> 00:07:16,010
+ 
+ 
+
+00:07:16,010 --> 00:07:19,430
+ 
+ 
+
+00:07:19,430 --> 00:07:21,170
+ 
+ 
+
+00:07:21,170 --> 00:07:24,050
+ 
+ 
+
+00:07:24,050 --> 00:07:29,570
+ 
+ 
+
+00:07:29,570 --> 00:07:32,629
+ 
+ 
+
+00:07:32,629 --> 00:07:37,490
+ 
+ 
+
+00:07:37,490 --> 00:07:39,290
+ 
+ 
+
+00:07:39,290 --> 00:07:39,300
+ 
+ 
+
+00:07:39,300 --> 00:07:41,689
+ 
+
+
+00:07:41,689 --> 00:07:50,629
+ 
+ 
+
+00:07:50,629 --> 00:07:55,129
+ 
+ 
+
+00:07:55,129 --> 00:07:57,230
+ 
+ 
+
+00:07:57,230 --> 00:07:59,330
+ 
+ 
+
+00:07:59,330 --> 00:08:01,430
+ 
+ 
+
+00:08:01,430 --> 00:08:03,589
+ 
+ 
+
+00:08:03,589 --> 00:08:08,330
+ 
+ 
+
+00:08:08,330 --> 00:08:12,770
+ 
+ 
+
+00:08:12,770 --> 00:08:12,780
+ 
+ 
+
+00:08:12,780 --> 00:08:14,629
+ 
+
+
+00:08:14,629 --> 00:08:19,189
+ 
+ 
+
+00:08:19,189 --> 00:08:21,969
+ 
+ 
+
+00:08:21,969 --> 00:08:24,770
+ 
+ 
+
+00:08:24,770 --> 00:08:27,830
+ 
+ 
+
+00:08:27,830 --> 00:08:31,129
+ 
+ 
+
+00:08:31,129 --> 00:08:34,990
+ 
+ 
+
+00:08:34,990 --> 00:08:39,409
+ 
+ 
+
+00:08:39,409 --> 00:08:39,419
+ 
+ 
+
+00:08:39,419 --> 00:08:41,389
+ 
+
+
+00:08:41,389 --> 00:08:45,050
+ 
+ 
+
+00:08:45,050 --> 00:08:48,530
+ 
+ 
+
+00:08:48,530 --> 00:08:50,930
+ 
+ 
+
+00:08:50,930 --> 00:08:55,310
+ 
+ 
+
+00:08:55,310 --> 00:08:58,130
+ 
+ 
+
+00:08:58,130 --> 00:08:59,750
+ 
+ 
+
+00:08:59,750 --> 00:09:03,050
+ 
+ 
+
+00:09:03,050 --> 00:09:04,790
+ 
+ 
+
+00:09:04,790 --> 00:09:07,370
+ 
+ 
+
+00:09:07,370 --> 00:09:10,630
+ 
+ 
+
+00:09:10,630 --> 00:09:13,550
+ 
+ 
+
+00:09:13,550 --> 00:09:15,829
+ 
+ 
+
+00:09:15,829 --> 00:09:17,930
+ 
+ 
+
+00:09:17,930 --> 00:09:19,730
+ 
+ 
+
+00:09:19,730 --> 00:09:22,430
+ 
+ 
+
+00:09:22,430 --> 00:09:23,870
+ 
+ 
+
+00:09:23,870 --> 00:09:25,610
+ 
+ 
+
+00:09:25,610 --> 00:09:28,250
+ 
+ 
+
+00:09:28,250 --> 00:09:30,650
+ 
+ 
+
+00:09:30,650 --> 00:09:33,769
+ 
+ 
+
+00:09:33,769 --> 00:09:36,410
+ 
+ 
+
+00:09:36,410 --> 00:09:38,570
+ 
+ 
+
+00:09:38,570 --> 00:09:40,790
+ 
+ 
+
+00:09:40,790 --> 00:09:43,310
+ 
+ 
+
+00:09:43,310 --> 00:09:45,650
+ 
+ 
+
+00:09:45,650 --> 00:09:47,750
+ 
+ 
+
+00:09:47,750 --> 00:09:49,550
+ 
+ 
+
+00:09:49,550 --> 00:09:51,949
+ 
+ 
+
+00:09:51,949 --> 00:09:55,070
+ 
+ 
+
+00:09:55,070 --> 00:09:57,889
+ 
+ 
+
+00:09:57,889 --> 00:09:59,630
+ 
+ 
+
+00:09:59,630 --> 00:10:02,150
+ 
+ 
+
+00:10:02,150 --> 00:10:03,949
+ 
+ 
+
+00:10:03,949 --> 00:10:06,470
+ 
+ 
+
+00:10:06,470 --> 00:10:07,910
+ 
+ 
+
+00:10:07,910 --> 00:10:09,889
+ 
+ 
+
+00:10:09,889 --> 00:10:11,690
+ 
+ 
+
+00:10:11,690 --> 00:10:13,250
+ 
+ 
+
+00:10:13,250 --> 00:10:16,399
+ 
+ 
+

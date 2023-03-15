@@ -1,0 +1,3957 @@
+
+00:00:00,799 --> 00:00:02,629
+ 
+good everyone i hope you guys have an  amazing day so uh what i'm gonna do  today i will talk about how to configure  product bundle and we'll look at uh some  of the options that's pretty much simple  and yet it's a powerful feature i mean  because if you are a sales rep uh you  know or your you know cpq admin you  might want to you know create a product  bundle  and then control the features you know  around that now bundles could be a  dynamic bundle or a static bundle so  static bundle for instance you have a  fixed set of um in a bundle  uh in a product uh  which you wanted to ship and you don't  want to be changed  dining one though you know where you can  you know add stuff based on the  requirement during the code right  so  that's very simple  uh meaning in general so what i'll do i  will create a product and we'll see how  to create a product bundle right so i  got a lot of existing products so i just  don't want to bother with it so  uh what i'm gonna do i will create a uh  say iphone product right  or you can say okay let's create a  samsung anyways right  i don't use iphone so  i use samsung so let's create something  so i just say samsung  uh phone okay i would say  you know  sam  song  phone  uh product family i just got hardware  uh product type it's a hardware  and i will see  configuration type required  configuration event always i'll tell you  what it is uh just don't worry about it  at this stage  um section  um just say sort order  so we'll say price method list  um  percentage whatever  and  let me see  what all we can fill  right okay i'll just save it  okay so  um all right so i'll just edit it  okay and i'll just make it to active  right and uh let's see what is the price  um let's see if you got any price here  high price in the search result  um percentage price editable no  okay so  that's cool  um  just a second just a second  just wanted to make sure that i covered  everything  all right okay so that's fine  um  and just say price book  uh add standard price  i'm just going to add standard price the  list price  uh i will say 1200  i'll just set your standard price okay  whatever right  so  for now don't worry about the price  books right just for the sake of  uh demo i'm just  wanted to show you how to configure  um uh the product bundle so we're gonna  talk about the price later right we've  reached that stage um so let me go to  the  uh so this is the samsung phone that's  the product code uh let me go to the  orders sorry code and let's see what  happens when we try to add code uh this  product to the code lines right so just  go into edit lines  um  um  and just gonna say add product  and say search  okay  all right so the price is coming  correctly  um so i'll do that list price fantastic  no problem  okay so that's cool now uh  obviously you know when you are selling  samsung phone right you know as a  company i would like to sell uh other  stuff right accessories like i would  like to sell say  um you know  extra ram say for instance i would say  samsung 128 gig uh  gb ram  um then i would say a phone case right  so well it's a black cray phone case we  can add two products like that right  um so i want to just you know ship that  in in the form of a bundle right  and probably i would say a samsung  headset right  maybe  um or bluetooth headset so that you can  use with your phone or i mean you can  also sell you know samsung watch  right so we can add a lot of stuff but  just to keep it simple uh i just wanted  to configure a few products and to see  how to add to the bundle and then i will  also show you how to change the layout  on the code uh screen when you try to  add the bundle right pretty pretty  simple right but it's yet very powerful  feature  um so what i'll do i'll go to product  and i will add a new product um say  say samsung  ram right 128  gb  ram  uh product code  you know just copy the same thing here  doesn't matter  uh product hardware  i'm just going to say active product  family hardware  um and configuration type  let's just say no i i don't know i don't  want it to do anything i'll just show i  will tell you why  in a second  uh option layout i don't just care about  anything i just say save okay  and all i have to do i will have to go  to add the price book  and at the standard price  um so 128 back i would say  maybe  70 bucks  right so just add that  okay  now i'll just go to the product  and i will add the new product right i  will say  samsung  512  right  um  so if somebody wants to purchase  higher ram that's  they can do that  i would say hardware and i will say  save right  now i go to pricebook and i will add the  price to  um say 140 uh  140 dollars right  um so i'll just make it  120 eight  right so  okay so that's done and now we got two  rams right uh now we have to talk about  the phone case  so let's say black  come on  phone case i'll just say samsung  um  okay  some people prefer black or some people  prefer it depends right i mean  whichever you like but just say to say  and  say yes  uh the phone case my words like in new  zealand you get the phone case for  twenty dollars right  pretty cheap  it's not nothing fancy right i mean the  place where i like right go to mall  there's this uh nice lady she sells um  uh the phone case you know just take  your phone to her she'll say okay she  will show you different options right so  i mean if you like to buy you know  it's pretty basic you might get 20 10  bucks  uh but if you like to get you know  decent one will cost you 20 bucks so  sorry digress just you know  20 bucks right just keep it 20.  um obviously samson right we don't want  to sell the  you know  the bad products so bad quality so i  would say gray  yeah i'm not gonna add more so  just keeping it simple  um  active um right um just for product  family oh sorry sorry sorry i need to  add a few things  uh i don't want to miss anything i just  wanted to make it consistent so because  it's belong to hardware  okay so gonna go to the uh the phone  book um and  sorry price book  and 20 bucks  right okay that's cool  um now i will add the samsung  samsung watch  okay add the samsung watch  and we'll say  sam  sun  watch  um just make it active i hope all these  products are selected are active  i just wanted to double check it  samsung um so i would say  standard price  because i was at 250 bucks  so  um  so we're gonna go to the products and uh  you know what i don't like this uh  screen but that's all right um  great phone  active  uh  the black phone case active right  fantastic  um all right now i wanted to add headset  right that's the  all right forget about the headset right  i think this is enough otherwise we're  gonna  all take ages okay so i think this is  enough for a bundle so we are shipping  ram  uh the phone case  and and the samsung watch right  okay now let's go to the right now  let's go to the main uh the parents  right the samsung phone just just  what we're gonna ship as a main product  right uh obviously you know people won't  be buying just uh  the phone case without a phone right  it's pointless or you buying a ram  without a phone  right or even a samsung  watch without a samsung phone it's it's  not really  worth it right you might as well use the  regular you know  swiss watch which you know i use normal  watch i don't use the samsung watch but  some people do  um okay so we are in the main product  right now  i wanted to configure the feature and  the  options so what i'll do  i'll go to feature so i will add the  first feature  uh the first feature is the phone case  right  uh the minimum option how many you can  select the maximum options you get  allowed to select  category  hardware  numbers just want to put one  um  i just wanted to don't want to do  anything  here just say save  so i'm going to creating a feature here  so because you remember that and when i  demonstrated one of the  the code when i've added the desktop  computer you might have seen ram  uh memory so that ram memory  forms are part of a feature so that's  exactly what i'm doing um so under phone  case you'll it will show you black and  you know the gray  uh and under  apple watch sorry samsung watch it will  show just one  so samsung watch  you can only say one just say one  oh sorry just say two  m category it's a hardware we're not  doing anything to the software today  that's cool uh now we got to do the ram  yeah  so i'll just say samsung ram  okay that's cool i just say maximum  options one you're not to select only  what okay um so just say hardware right  just okay we created the feature  all right what i'll do i will open a  separate tab  and  i will go to the  samsung phone  and i will go to options  and i'll go to new  and here i'll say product option so i  will say samsung  uh which one you have to so let's do the  ram first right i'll just say one  select it it just required  okay quantity just one one  um  and  minimum quantity one  maximum quantity one  okay so  um  we are making it uh pricing just so  bundled  okay um and  we're just making it um  that  this require i mean we're not making an  option as a part of a bundle you know  customer has to select one so  um  so  we say feature  um i'm gonna copy this one  though you can make this option right  but just for the sake of simplicity  um just making it one  mandatory right okay  so i will samsung 1512 okay  now we'll see the  samsung  128  number two selected  required  um quantity one  chord now i don't want to edit the  quantity  minimum quantity one maximum quantity  one yeah  no i don't want to require this one  you know what i will do one thing um  okay so what i'll do i'll just go back  to the other one  and i will  make this  requires  um  and  obviously you know  we don't want everything to be selected  okay  okay go back go back  um so i'll just edit obviously i don't  want to be selected  okay all right that's cool  um now what i'll do i'll go to the  the same  uh  product again  yeah no it's it's a time consuming it's  not  that you know just a two-minute job  that's why i said okay let's stop with  the  product creation otherwise we'll end up  in creating  you know 50 products and it's going to  take ages  uh and that was not the intention  whatsoever  right so outside required  um i don't want to set it quiet  um  minimum quantity one  let's see what happens hey um so when we  so select product  so i'm doing this demo pretending that  i'm doing this for the first time so you  know if you're admin you want to do this  for the first time the things you face  the challenges you face so yeah that's  pretty much i'm trying to mimic that uh  you know behavior  so that it's easier um you know when you  get to i mean we all do mistakes right  and that's what we learn  so  so great phone so we're just doing for  the gray phone so i don't want to select  anything just say quantity  um just say one two step one just one  um  and we'll say  something watch  say right  now we have  no  did a mistake i did a mistake  i actually did a mistake  oh you must be thinking right what an  idiot i am  yeah  mix and match everything  right that's not expecting that um  okay great phone case that will be  disaster right  yeah see it happens  you know you might do the same mistake  yeah  sorry about that  i put the the phone case in the watch  and  another way around which is like yeah  the ramp  this should be the ram not the watch  yeah i'm pretty sure you must you guys  must have thought what this guy is doing  why is linking um  a phone case to a ram  it doesn't make any sense but  some of you might have thought oh look  at that idiot  he's doing some crazy stuff but yeah  whatever  yeah why not have fun right  uh  okay so  i've configured correctly right this  time  ram and  sorry phone  case and ram right now  let's say samsung watch  and there is the watch  okay um  so one okay i want to select required  i want to make sure i wanted to ship  this guy  okay one  one  one  um okay so sam's  son watch  save it nice  okay uh i think uh  what else the other stuff we have  we got phone case samsung watch ram okay  so these are the things  we configured which is pretty cool  um all right so the only thing i forgot  to configure here  is the  quantity  all right so that's great um  okay and that's great um let me refresh  it and we'll say okay i want to select  that  and the only thing i'm saying i want to  require is the samsung  watch okay  now let's go to the product and um okay  so i'm gonna say some some phone  or get the phone code  okay cool now let's go to the code and  go here  edit lines  all right so add products  samsung phone  okay  um i just say select  yeah  ah  i think there's there's a problem here  okay i still think there's a problem  here  um because  this guy  okay so there there is a problem here  now um the samsung black  phone  uh case is fine great for this 128 gb  shouldn't be here right so that's a  mistake okay let's see what's happening  so  you might do the same mistake right you  will come to a bundle will test you say  hey it doesn't make sense  why i'm seeing a ram in a phone case  perfectly fine let's go  back um let's go back to  the products  go to options here  so 128  um is a culprit  yeah it shouldn't be a phone case  okay it should be  some  some ram  okay so that's great  now we're just gonna go to the which one  is it samson  uh phone case  now something was the watch  um  is that the price no  sorry not that one  um okay so i will open this in a new  window  samsung watch is correct  now what is it that is missing  um samson there's one more thing that is  causing an issue  so samsung phone case  okay this is correct  uh samsung phone case is correct  uh  black phone case  okay that's correct as well  um  five to a ram  okay all right let's give it a try again  right  let's see what happens  okay so i'm gonna go to code  right um and i will add  the name of the product again  samsung phone  right um and i'll just say edit line  and i'll say add product  okay  samson i'll choose this one  okay this time  ah it looks perfectly fine right so  i'm gonna save it  right so it's added uh stuff to it so  you know we have the list price so now  so this is what the samsung added  so we have added uh all the other stuff  along with the bundle  okay that's fantastic now you remember  that you've seen the option right where  a user  could fill with the stuff right so for  instance  if i go to  to the ad phone right  and say  select  if i don't want it i can change it here  right what if the user for whatever  reason  don't want uh you know user to select  this instead when you add a product it  should automatically add it  in other words they don't want the  configure product option to show up  is that possible you know your customer  might ask that i mean  they might say hey i don't want this  option to be visible okay the user wants  to buy  um you know samsung phone and we wanted  to enforce that they should buy all of  the stuff right there should not be any  option  they shouldn't be deciding which ram to  buy which ram not to buy right so  this is a ram so you wanted to sell them  you know the expensive ram and and the  default phone black case right is that  possible yeah it's possible you can do  that  um it's not very commonly used but you  can do that so you go to samsung phone  right the main  just go to edit  and  so  you can  see  right now if you have to pay attention  to the cpg configuration right so here  you have configuration type required  which means that it's always required  when you try to add a product  now if i say allowed  and i would say  none  would say it's allowed but you know  configuration wouldn't want to happen  but let's say i don't want any of this  stuff to happen so i just said disabled  all this  it's always disabled for this product i  don't care  now it's usually like i said this option  is not often  uh used but you know for whatever  business requirement you have  in place if you want to use it  uh you can use it that's why salesforce  provided this option in first place  right  okay so edit lines  um  and  let's just say i product  which is a samsung phone  um  sorry  yeah there you go  you see  um you didn't get an option to  straddle with it you just you know  selected it and adds to your  code line without even giving you an  option to pick and choose whichever you  want right  so that's great okay so  i wanted to enable that option again and  i wanted to show you one more option  which is very interesting  so let's go to the product  and go to the samsung phone  all right um  so required  always  um  okay so i wanted to keep that there and  let me open the code  right  and  i'll show you one thing that you might  be interested  let's change the layout a bit right  so  let me go to edit lines  um  ad groups  now if i say samsung phone  when i say select  you see  the layout it's like a section right if  you you know on salesforce we have  sections right so this is like the  sections  now some user might say um i don't want  sections i want in the form of a tab  right so sure phone case samsung watch  samsung ram  instead of section uh you know some  people do say okay this is what we want  based on a business requirement right  everything is driven by a business  requirement and and the user  feedback so  um if this is not what you're after you  can obviously change it right to  to suit your need  um so  this can be changed to i tabs now that's  pretty simple to do so so all you have  to do go back to the main product that's  in this case a samsung  phone okay um so  it will go here  and we go to the  cells for cpu configuration under we  have uh option layout so right now it's  sections right that's why you are  viewing uh this  configure  product option in the form of sections  right but i wanted to change the form of  a tab i don't know this one  so i will choose as a tab  visitors is a bit interesting right you  may not want that option i'll show you  why  in a minute  so i've changed this to tab  right okay now i'm gonna add product  and i'll just know something fun  see there  okay  now that doesn't make sense right so  okay so i will  okay so i will do order  um is it still tabs right  not order sorry  codes okay that's fine  headlines  um add products  um let's see  the product  okay select  huh  that's interesting  okay all right am i doing the right  thing at the right time okay  um let me see why it's not working  is it  sometimes it just  it just doesn't make sense but uh  it should have worked but uh let's see  because i've used that functionality in  the past  um it doesn't make sense if it's not  working all right okay what i'll do i  will go to code and um i'll just say you  know i wanted to add code  um edit lines  and things happens right sometimes it  doesn't work like you know once steve  job i remember he was giving a demo it  was disaster right so  happens  i  i didn't prepare for this demo right i  mean i'm just telling you based on my  real implementation experience so you  know  so i thought i'll give you the live  experience of you know how things can go  wrong  um  make sense to me now  what  um  okay  am i all right let me look at the  products  one more time  if it doesn't work i will do this in the  next episode don't worry about it i'll  just sort it out  uh there must be something right every  um configuration rules  um  let's look at the options  or okay let me look at the options here  so we have the hardware configuration  type  ah  this boy  right let me  save this one  okay i'll just choose the wizard  samsung phone  let's just go options here  um okay let me give this a try one last  time then  we'll see what's going on  oily shouldn't matter but  um  in my opinion this one  um  should not be  matter but let me see  okay so this is a wizard  okay  now  um i will just open this one and just  one last try right if i wanted to try  with the two if it doesn't work then  i'll i will demonstrate this next time  otherwise this episode will go on  forever  pretty sure something i missed right  which i can't recall what i missed but  yeah  okay so  let's go back to the codes  um  you know what i will do one thing there  is an existing product let's try with  that and to see if that works  no that's  that's not what i wanted  there's no where i want it  now okay that's fine uh something is  wrong uh with the configuration that's  fine let's go to the desktop computer  which is an existing one  and  if i change this one right obviously  and if i change this to  uh tabs  right  and i will go to the orders  sorry codes i don't know why i'm saying  orders every time  and code line  okay so i'll do add  sorry desktop  all right and i'll say  select  are those  um  no even this one doesn't work okay all  right don't worry about it i will  show you you know there must be some  configuration issue i'll let you know  guys knows what happened and i'll show  you next time right so  um there must be something uh which i  missed right which i can't recall at  this stage i apologize for that  um but you know the main intention for  today's episode was to show you how to  create a product bundle which has been  successful i'm happy about that  uh but these two options i really wanted  to you know demonstrate but i'll do that  next time right in in saying so i hope  you guys have an amazing  um tuesday editors
+
+00:00:02,629 --> 00:00:05,110
+good everyone i hope you guys have an  amazing day so uh what i'm gonna do  today i will talk about how to configure  product bundle and we'll look at uh some  of the options that's pretty much simple  and yet it's a powerful feature i mean  because if you are a sales rep uh you  know or your you know cpq admin you  might want to you know create a product  bundle  and then control the features you know  around that now bundles could be a  dynamic bundle or a static bundle so  static bundle for instance you have a  fixed set of um in a bundle  uh in a product uh  which you wanted to ship and you don't  want to be changed  dining one though you know where you can  you know add stuff based on the  requirement during the code right  so  that's very simple  uh meaning in general so what i'll do i  will create a product and we'll see how  to create a product bundle right so i  got a lot of existing products so i just  don't want to bother with it so  uh what i'm gonna do i will create a uh  say iphone product right  or you can say okay let's create a  samsung anyways right  i don't use iphone so  i use samsung so let's create something  so i just say samsung  uh phone okay i would say  you know  sam  song  phone  uh product family i just got hardware  uh product type it's a hardware  and i will see  configuration type required  configuration event always i'll tell you  what it is uh just don't worry about it  at this stage  um section  um just say sort order  so we'll say price method list  um  percentage whatever  and  let me see  what all we can fill  right okay i'll just save it  okay so  um all right so i'll just edit it  okay and i'll just make it to active  right and uh let's see what is the price  um let's see if you got any price here  high price in the search result  um percentage price editable no  okay so  that's cool  um  just a second just a second  just wanted to make sure that i covered  everything  all right okay so that's fine  um  and just say price book  uh add standard price  i'm just going to add standard price the  list price  uh i will say 1200  i'll just set your standard price okay  whatever right  so  for now don't worry about the price  books right just for the sake of  uh demo i'm just  wanted to show you how to configure  um uh the product bundle so we're gonna  talk about the price later right we've  reached that stage um so let me go to  the  uh so this is the samsung phone that's  the product code uh let me go to the  orders sorry code and let's see what  happens when we try to add code uh this  product to the code lines right so just  go into edit lines  um  um  and just gonna say add product  and say search  okay  all right so the price is coming  correctly  um so i'll do that list price fantastic  no problem  okay so that's cool now uh  obviously you know when you are selling  samsung phone right you know as a  company i would like to sell uh other  stuff right accessories like i would  like to sell say  um you know  extra ram say for instance i would say  samsung 128 gig uh  gb ram  um then i would say a phone case right  so well it's a black cray phone case we  can add two products like that right  um so i want to just you know ship that  in in the form of a bundle right  and probably i would say a samsung  headset right  maybe  um or bluetooth headset so that you can  use with your phone or i mean you can  also sell you know samsung watch  right so we can add a lot of stuff but  just to keep it simple uh i just wanted  to configure a few products and to see  how to add to the bundle and then i will  also show you how to change the layout  on the code uh screen when you try to  add the bundle right pretty pretty  simple right but it's yet very powerful  feature  um so what i'll do i'll go to product  and i will add a new product um say  say samsung  ram right 128  gb  ram  uh product code  you know just copy the same thing here  doesn't matter  uh product hardware  i'm just going to say active product  family hardware  um and configuration type  let's just say no i i don't know i don't  want it to do anything i'll just show i  will tell you why  in a second  uh option layout i don't just care about  anything i just say save okay  and all i have to do i will have to go  to add the price book  and at the standard price  um so 128 back i would say  maybe  70 bucks  right so just add that  okay  now i'll just go to the product  and i will add the new product right i  will say  samsung  512  right  um  so if somebody wants to purchase  higher ram that's  they can do that  i would say hardware and i will say  save right  now i go to pricebook and i will add the  price to  um say 140 uh  140 dollars right  um so i'll just make it  120 eight  right so  okay so that's done and now we got two  rams right uh now we have to talk about  the phone case  so let's say black  come on  phone case i'll just say samsung  um  okay  some people prefer black or some people  prefer it depends right i mean  whichever you like but just say to say  and  say yes  uh the phone case my words like in new  zealand you get the phone case for  twenty dollars right  pretty cheap  it's not nothing fancy right i mean the  place where i like right go to mall  there's this uh nice lady she sells um  uh the phone case you know just take  your phone to her she'll say okay she  will show you different options right so  i mean if you like to buy you know  it's pretty basic you might get 20 10  bucks  uh but if you like to get you know  decent one will cost you 20 bucks so  sorry digress just you know  20 bucks right just keep it 20.  um obviously samson right we don't want  to sell the  you know  the bad products so bad quality so i  would say gray  yeah i'm not gonna add more so  just keeping it simple  um  active um right um just for product  family oh sorry sorry sorry i need to  add a few things  uh i don't want to miss anything i just  wanted to make it consistent so because  it's belong to hardware  okay so gonna go to the uh the phone  book um and  sorry price book  and 20 bucks  right okay that's cool  um now i will add the samsung  samsung watch  okay add the samsung watch  and we'll say  sam  sun  watch  um just make it active i hope all these  products are selected are active  i just wanted to double check it  samsung um so i would say  standard price  because i was at 250 bucks  so  um  so we're gonna go to the products and uh  you know what i don't like this uh  screen but that's all right um  great phone  active  uh  the black phone case active right  fantastic  um all right now i wanted to add headset  right that's the  all right forget about the headset right  i think this is enough otherwise we're  gonna  all take ages okay so i think this is  enough for a bundle so we are shipping  ram  uh the phone case  and and the samsung watch right  okay now let's go to the right now  let's go to the main uh the parents  right the samsung phone just just  what we're gonna ship as a main product  right uh obviously you know people won't  be buying just uh  the phone case without a phone right  it's pointless or you buying a ram  without a phone  right or even a samsung  watch without a samsung phone it's it's  not really  worth it right you might as well use the  regular you know  swiss watch which you know i use normal  watch i don't use the samsung watch but  some people do  um okay so we are in the main product  right now  i wanted to configure the feature and  the  options so what i'll do  i'll go to feature so i will add the  first feature  uh the first feature is the phone case  right  uh the minimum option how many you can  select the maximum options you get  allowed to select  category  hardware  numbers just want to put one  um  i just wanted to don't want to do  anything  here just say save  so i'm going to creating a feature here  so because you remember that and when i  demonstrated one of the  the code when i've added the desktop  computer you might have seen ram  uh memory so that ram memory  forms are part of a feature so that's  exactly what i'm doing um so under phone  case you'll it will show you black and  you know the gray  uh and under  apple watch sorry samsung watch it will  show just one  so samsung watch  you can only say one just say one  oh sorry just say two  m category it's a hardware we're not  doing anything to the software today  that's cool uh now we got to do the ram  yeah  so i'll just say samsung ram  okay that's cool i just say maximum  options one you're not to select only  what okay um so just say hardware right  just okay we created the feature  all right what i'll do i will open a  separate tab  and  i will go to the  samsung phone  and i will go to options  and i'll go to new  and here i'll say product option so i  will say samsung  uh which one you have to so let's do the  ram first right i'll just say one  select it it just required  okay quantity just one one  um  and  minimum quantity one  maximum quantity one  okay so  um  we are making it uh pricing just so  bundled  okay um and  we're just making it um  that  this require i mean we're not making an  option as a part of a bundle you know  customer has to select one so  um  so  we say feature  um i'm gonna copy this one  though you can make this option right  but just for the sake of simplicity  um just making it one  mandatory right okay  so i will samsung 1512 okay  now we'll see the  samsung  128  number two selected  required  um quantity one  chord now i don't want to edit the  quantity  minimum quantity one maximum quantity  one yeah  no i don't want to require this one  you know what i will do one thing um  okay so what i'll do i'll just go back  to the other one  and i will  make this  requires  um  and  obviously you know  we don't want everything to be selected  okay  okay go back go back  um so i'll just edit obviously i don't  want to be selected  okay all right that's cool  um now what i'll do i'll go to the  the same  uh  product again  yeah no it's it's a time consuming it's  not  that you know just a two-minute job  that's why i said okay let's stop with  the  product creation otherwise we'll end up  in creating  you know 50 products and it's going to  take ages  uh and that was not the intention  whatsoever  right so outside required  um i don't want to set it quiet  um  minimum quantity one  let's see what happens hey um so when we  so select product  so i'm doing this demo pretending that  i'm doing this for the first time so you  know if you're admin you want to do this  for the first time the things you face  the challenges you face so yeah that's  pretty much i'm trying to mimic that uh  you know behavior  so that it's easier um you know when you  get to i mean we all do mistakes right  and that's what we learn  so  so great phone so we're just doing for  the gray phone so i don't want to select  anything just say quantity  um just say one two step one just one  um  and we'll say  something watch  say right  now we have  no  did a mistake i did a mistake  i actually did a mistake  oh you must be thinking right what an  idiot i am  yeah  mix and match everything  right that's not expecting that um  okay great phone case that will be  disaster right  yeah see it happens  you know you might do the same mistake  yeah  sorry about that  i put the the phone case in the watch  and  another way around which is like yeah  the ramp  this should be the ram not the watch  yeah i'm pretty sure you must you guys  must have thought what this guy is doing  why is linking um  a phone case to a ram  it doesn't make any sense but  some of you might have thought oh look  at that idiot  he's doing some crazy stuff but yeah  whatever  yeah why not have fun right  uh  okay so  i've configured correctly right this  time  ram and  sorry phone  case and ram right now  let's say samsung watch  and there is the watch  okay um  so one okay i want to select required  i want to make sure i wanted to ship  this guy  okay one  one  one  um okay so sam's  son watch  save it nice  okay uh i think uh  what else the other stuff we have  we got phone case samsung watch ram okay  so these are the things  we configured which is pretty cool  um all right so the only thing i forgot  to configure here  is the  quantity  all right so that's great um  okay and that's great um let me refresh  it and we'll say okay i want to select  that  and the only thing i'm saying i want to  require is the samsung  watch okay  now let's go to the product and um okay  so i'm gonna say some some phone  or get the phone code  okay cool now let's go to the code and  go here  edit lines  all right so add products  samsung phone  okay  um i just say select  yeah  ah  i think there's there's a problem here  okay i still think there's a problem  here  um because  this guy  okay so there there is a problem here  now um the samsung black  phone  uh case is fine great for this 128 gb  shouldn't be here right so that's a  mistake okay let's see what's happening  so  you might do the same mistake right you  will come to a bundle will test you say  hey it doesn't make sense  why i'm seeing a ram in a phone case  perfectly fine let's go  back um let's go back to  the products  go to options here  so 128  um is a culprit  yeah it shouldn't be a phone case  okay it should be  some  some ram  okay so that's great  now we're just gonna go to the which one  is it samson  uh phone case  now something was the watch  um  is that the price no  sorry not that one  um okay so i will open this in a new  window  samsung watch is correct  now what is it that is missing  um samson there's one more thing that is  causing an issue  so samsung phone case  okay this is correct  uh samsung phone case is correct  uh  black phone case  okay that's correct as well  um  five to a ram  okay all right let's give it a try again  right  let's see what happens  okay so i'm gonna go to code  right um and i will add  the name of the product again  samsung phone  right um and i'll just say edit line  and i'll say add product  okay  samson i'll choose this one  okay this time  ah it looks perfectly fine right so  i'm gonna save it  right so it's added uh stuff to it so  you know we have the list price so now  so this is what the samsung added  so we have added uh all the other stuff  along with the bundle  okay that's fantastic now you remember  that you've seen the option right where  a user  could fill with the stuff right so for  instance  if i go to  to the ad phone right  and say  select  if i don't want it i can change it here  right what if the user for whatever  reason  don't want uh you know user to select  this instead when you add a product it  should automatically add it  in other words they don't want the  configure product option to show up  is that possible you know your customer  might ask that i mean  they might say hey i don't want this  option to be visible okay the user wants  to buy  um you know samsung phone and we wanted  to enforce that they should buy all of  the stuff right there should not be any  option  they shouldn't be deciding which ram to  buy which ram not to buy right so  this is a ram so you wanted to sell them  you know the expensive ram and and the  default phone black case right is that  possible yeah it's possible you can do  that  um it's not very commonly used but you  can do that so you go to samsung phone  right the main  just go to edit  and  so  you can  see  right now if you have to pay attention  to the cpg configuration right so here  you have configuration type required  which means that it's always required  when you try to add a product  now if i say allowed  and i would say  none  would say it's allowed but you know  configuration wouldn't want to happen  but let's say i don't want any of this  stuff to happen so i just said disabled  all this  it's always disabled for this product i  don't care  now it's usually like i said this option  is not often  uh used but you know for whatever  business requirement you have  in place if you want to use it  uh you can use it that's why salesforce  provided this option in first place  right  okay so edit lines  um  and  let's just say i product  which is a samsung phone  um  sorry  yeah there you go  you see  um you didn't get an option to  straddle with it you just you know  selected it and adds to your  code line without even giving you an  option to pick and choose whichever you  want right  so that's great okay so  i wanted to enable that option again and  i wanted to show you one more option  which is very interesting  so let's go to the product  and go to the samsung phone  all right um  so required  always  um  okay so i wanted to keep that there and  let me open the code  right  and  i'll show you one thing that you might  be interested  let's change the layout a bit right  so  let me go to edit lines  um  ad groups  now if i say samsung phone  when i say select  you see  the layout it's like a section right if  you you know on salesforce we have  sections right so this is like the  sections  now some user might say um i don't want  sections i want in the form of a tab  right so sure phone case samsung watch  samsung ram  instead of section uh you know some  people do say okay this is what we want  based on a business requirement right  everything is driven by a business  requirement and and the user  feedback so  um if this is not what you're after you  can obviously change it right to  to suit your need  um so  this can be changed to i tabs now that's  pretty simple to do so so all you have  to do go back to the main product that's  in this case a samsung  phone okay um so  it will go here  and we go to the  cells for cpu configuration under we  have uh option layout so right now it's  sections right that's why you are  viewing uh this  configure  product option in the form of sections  right but i wanted to change the form of  a tab i don't know this one  so i will choose as a tab  visitors is a bit interesting right you  may not want that option i'll show you  why  in a minute  so i've changed this to tab  right okay now i'm gonna add product  and i'll just know something fun  see there  okay  now that doesn't make sense right so  okay so i will  okay so i will do order  um is it still tabs right  not order sorry  codes okay that's fine  headlines  um add products  um let's see  the product  okay select  huh  that's interesting  okay all right am i doing the right  thing at the right time okay  um let me see why it's not working  is it  sometimes it just  it just doesn't make sense but uh  it should have worked but uh let's see  because i've used that functionality in  the past  um it doesn't make sense if it's not  working all right okay what i'll do i  will go to code and um i'll just say you  know i wanted to add code  um edit lines  and things happens right sometimes it  doesn't work like you know once steve  job i remember he was giving a demo it  was disaster right so  happens  i  i didn't prepare for this demo right i  mean i'm just telling you based on my  real implementation experience so you  know  so i thought i'll give you the live  experience of you know how things can go  wrong  um  make sense to me now  what  um  okay  am i all right let me look at the  products  one more time  if it doesn't work i will do this in the  next episode don't worry about it i'll  just sort it out  uh there must be something right every  um configuration rules  um  let's look at the options  or okay let me look at the options here  so we have the hardware configuration  type  ah  this boy  right let me  save this one  okay i'll just choose the wizard  samsung phone  let's just go options here  um okay let me give this a try one last  time then  we'll see what's going on  oily shouldn't matter but  um  in my opinion this one  um  should not be  matter but let me see  okay so this is a wizard  okay  now  um i will just open this one and just  one last try right if i wanted to try  with the two if it doesn't work then  i'll i will demonstrate this next time  otherwise this episode will go on  forever  pretty sure something i missed right  which i can't recall what i missed but  yeah  okay so  let's go back to the codes  um  you know what i will do one thing there  is an existing product let's try with  that and to see if that works  no that's  that's not what i wanted  there's no where i want it  now okay that's fine uh something is  wrong uh with the configuration that's  fine let's go to the desktop computer  which is an existing one  and  if i change this one right obviously  and if i change this to  uh tabs  right  and i will go to the orders  sorry codes i don't know why i'm saying  orders every time  and code line  okay so i'll do add  sorry desktop  all right and i'll say  select  are those  um  no even this one doesn't work okay all  right don't worry about it i will  show you you know there must be some  configuration issue i'll let you know  guys knows what happened and i'll show  you next time right so  um there must be something uh which i  missed right which i can't recall at  this stage i apologize for that  um but you know the main intention for  today's episode was to show you how to  create a product bundle which has been  successful i'm happy about that  uh but these two options i really wanted  to you know demonstrate but i'll do that  next time right in in saying so i hope  you guys have an amazing  um tuesday editors
+ 
+
+00:00:05,110 --> 00:00:07,749
+ 
+ 
+
+00:00:07,749 --> 00:00:09,589
+ 
+ 
+
+00:00:09,589 --> 00:00:12,230
+ 
+ 
+
+00:00:12,230 --> 00:00:14,390
+ 
+ 
+
+00:00:14,390 --> 00:00:16,710
+ 
+ 
+
+00:00:16,710 --> 00:00:18,790
+ 
+ 
+
+00:00:18,790 --> 00:00:20,870
+ 
+ 
+
+00:00:20,870 --> 00:00:20,880
+ 
+ 
+
+00:00:20,880 --> 00:00:21,750
+ 
+
+
+00:00:21,750 --> 00:00:24,550
+ 
+ 
+
+00:00:24,550 --> 00:00:26,310
+ 
+ 
+
+00:00:26,310 --> 00:00:28,710
+ 
+ 
+
+00:00:28,710 --> 00:00:30,390
+ 
+ 
+
+00:00:30,390 --> 00:00:33,590
+ 
+ 
+
+00:00:33,590 --> 00:00:35,750
+ 
+ 
+
+00:00:35,750 --> 00:00:37,590
+ 
+ 
+
+00:00:37,590 --> 00:00:39,030
+ 
+ 
+
+00:00:39,030 --> 00:00:40,869
+ 
+ 
+
+00:00:40,869 --> 00:00:42,549
+ 
+ 
+
+00:00:42,549 --> 00:00:45,350
+ 
+ 
+
+00:00:45,350 --> 00:00:45,360
+ 
+ 
+
+00:00:45,360 --> 00:00:46,310
+ 
+
+
+00:00:46,310 --> 00:00:48,069
+ 
+ 
+
+00:00:48,069 --> 00:00:50,869
+ 
+ 
+
+00:00:50,869 --> 00:00:52,790
+ 
+ 
+
+00:00:52,790 --> 00:00:55,189
+ 
+ 
+
+00:00:55,189 --> 00:00:57,189
+ 
+ 
+
+00:00:57,189 --> 00:00:59,110
+ 
+ 
+
+00:00:59,110 --> 00:01:01,590
+ 
+ 
+
+00:01:01,590 --> 00:01:03,750
+ 
+ 
+
+00:01:03,750 --> 00:01:05,509
+ 
+ 
+
+00:01:05,509 --> 00:01:07,990
+ 
+ 
+
+00:01:07,990 --> 00:01:10,149
+ 
+ 
+
+00:01:10,149 --> 00:01:11,990
+ 
+ 
+
+00:01:11,990 --> 00:01:14,630
+ 
+ 
+
+00:01:14,630 --> 00:01:18,310
+ 
+ 
+
+00:01:18,310 --> 00:01:19,190
+ 
+ 
+
+00:01:19,190 --> 00:01:19,200
+ 
+ 
+
+00:01:19,200 --> 00:01:20,630
+ 
+
+
+00:01:20,630 --> 00:01:20,640
+ 
+ 
+
+00:01:20,640 --> 00:01:21,590
+ 
+
+
+00:01:21,590 --> 00:01:21,600
+ 
+ 
+
+00:01:21,600 --> 00:01:23,670
+ 
+
+
+00:01:23,670 --> 00:01:27,350
+ 
+ 
+
+00:01:27,350 --> 00:01:30,550
+ 
+ 
+
+00:01:30,550 --> 00:01:33,590
+ 
+ 
+
+00:01:33,590 --> 00:01:36,469
+ 
+ 
+
+00:01:36,469 --> 00:01:38,550
+ 
+ 
+
+00:01:38,550 --> 00:01:41,190
+ 
+ 
+
+00:01:41,190 --> 00:01:42,710
+ 
+ 
+
+00:01:42,710 --> 00:01:45,030
+ 
+ 
+
+00:01:45,030 --> 00:01:48,149
+ 
+ 
+
+00:01:48,149 --> 00:01:51,990
+ 
+ 
+
+00:01:51,990 --> 00:01:52,000
+ 
+ 
+
+00:01:52,000 --> 00:01:54,870
+ 
+
+
+00:01:54,870 --> 00:02:04,149
+ 
+ 
+
+00:02:04,149 --> 00:02:04,159
+ 
+ 
+
+00:02:04,159 --> 00:02:05,429
+ 
+
+
+00:02:05,429 --> 00:02:08,309
+ 
+ 
+
+00:02:08,309 --> 00:02:10,309
+ 
+ 
+
+00:02:10,309 --> 00:02:14,150
+ 
+ 
+
+00:02:14,150 --> 00:02:16,229
+ 
+ 
+
+00:02:16,229 --> 00:02:20,949
+ 
+ 
+
+00:02:20,949 --> 00:02:24,949
+ 
+ 
+
+00:02:24,949 --> 00:02:29,750
+ 
+ 
+
+00:02:29,750 --> 00:02:32,070
+ 
+ 
+
+00:02:32,070 --> 00:02:34,630
+ 
+ 
+
+00:02:34,630 --> 00:02:38,869
+ 
+ 
+
+00:02:38,869 --> 00:02:42,150
+ 
+ 
+
+00:02:42,150 --> 00:02:47,910
+ 
+ 
+
+00:02:47,910 --> 00:02:47,920
+ 
+ 
+
+00:02:47,920 --> 00:02:51,910
+ 
+
+
+00:02:51,910 --> 00:02:55,110
+ 
+ 
+
+00:02:55,110 --> 00:02:56,949
+ 
+ 
+
+00:02:56,949 --> 00:02:56,959
+ 
+ 
+
+00:02:56,959 --> 00:03:01,030
+ 
+
+
+00:03:01,030 --> 00:03:03,509
+ 
+ 
+
+00:03:03,509 --> 00:03:03,519
+ 
+ 
+
+00:03:03,519 --> 00:03:04,470
+ 
+
+
+00:03:04,470 --> 00:03:08,070
+ 
+ 
+
+00:03:08,070 --> 00:03:10,710
+ 
+ 
+
+00:03:10,710 --> 00:03:12,869
+ 
+ 
+
+00:03:12,869 --> 00:03:15,190
+ 
+ 
+
+00:03:15,190 --> 00:03:18,390
+ 
+ 
+
+00:03:18,390 --> 00:03:19,990
+ 
+ 
+
+00:03:19,990 --> 00:03:22,149
+ 
+ 
+
+00:03:22,149 --> 00:03:22,159
+ 
+ 
+
+00:03:22,159 --> 00:03:23,030
+ 
+
+
+00:03:23,030 --> 00:03:24,390
+ 
+ 
+
+00:03:24,390 --> 00:03:26,470
+ 
+ 
+
+00:03:26,470 --> 00:03:28,390
+ 
+ 
+
+00:03:28,390 --> 00:03:30,830
+ 
+ 
+
+00:03:30,830 --> 00:03:33,830
+ 
+ 
+
+00:03:33,830 --> 00:03:36,229
+ 
+ 
+
+00:03:36,229 --> 00:03:38,869
+ 
+ 
+
+00:03:38,869 --> 00:03:38,879
+ 
+ 
+
+00:03:38,879 --> 00:03:39,670
+ 
+
+
+00:03:39,670 --> 00:03:41,670
+ 
+ 
+
+00:03:41,670 --> 00:03:44,070
+ 
+ 
+
+00:03:44,070 --> 00:03:47,670
+ 
+ 
+
+00:03:47,670 --> 00:03:50,710
+ 
+ 
+
+00:03:50,710 --> 00:03:52,869
+ 
+ 
+
+00:03:52,869 --> 00:03:56,149
+ 
+ 
+
+00:03:56,149 --> 00:03:56,159
+ 
+ 
+
+00:03:56,159 --> 00:04:00,789
+ 
+
+
+00:04:00,789 --> 00:04:00,799
+ 
+ 
+
+00:04:00,799 --> 00:04:01,670
+ 
+
+
+00:04:01,670 --> 00:04:05,910
+ 
+ 
+
+00:04:05,910 --> 00:04:08,869
+ 
+ 
+
+00:04:08,869 --> 00:04:08,879
+ 
+ 
+
+00:04:08,879 --> 00:04:09,990
+ 
+
+
+00:04:09,990 --> 00:04:11,589
+ 
+ 
+
+00:04:11,589 --> 00:04:11,599
+ 
+ 
+
+00:04:11,599 --> 00:04:12,710
+ 
+
+
+00:04:12,710 --> 00:04:15,589
+ 
+ 
+
+00:04:15,589 --> 00:04:16,629
+ 
+ 
+
+00:04:16,629 --> 00:04:19,509
+ 
+ 
+
+00:04:19,509 --> 00:04:21,670
+ 
+ 
+
+00:04:21,670 --> 00:04:24,230
+ 
+ 
+
+00:04:24,230 --> 00:04:26,870
+ 
+ 
+
+00:04:26,870 --> 00:04:29,189
+ 
+ 
+
+00:04:29,189 --> 00:04:31,030
+ 
+ 
+
+00:04:31,030 --> 00:04:32,870
+ 
+ 
+
+00:04:32,870 --> 00:04:35,590
+ 
+ 
+
+00:04:35,590 --> 00:04:39,670
+ 
+ 
+
+00:04:39,670 --> 00:04:41,030
+ 
+ 
+
+00:04:41,030 --> 00:04:45,030
+ 
+ 
+
+00:04:45,030 --> 00:04:48,070
+ 
+ 
+
+00:04:48,070 --> 00:04:50,790
+ 
+ 
+
+00:04:50,790 --> 00:04:53,350
+ 
+ 
+
+00:04:53,350 --> 00:04:56,469
+ 
+ 
+
+00:04:56,469 --> 00:04:58,870
+ 
+ 
+
+00:04:58,870 --> 00:05:00,230
+ 
+ 
+
+00:05:00,230 --> 00:05:00,240
+ 
+ 
+
+00:05:00,240 --> 00:05:01,270
+ 
+
+
+00:05:01,270 --> 00:05:03,510
+ 
+ 
+
+00:05:03,510 --> 00:05:05,830
+ 
+ 
+
+00:05:05,830 --> 00:05:08,390
+ 
+ 
+
+00:05:08,390 --> 00:05:10,629
+ 
+ 
+
+00:05:10,629 --> 00:05:13,029
+ 
+ 
+
+00:05:13,029 --> 00:05:14,950
+ 
+ 
+
+00:05:14,950 --> 00:05:17,110
+ 
+ 
+
+00:05:17,110 --> 00:05:19,350
+ 
+ 
+
+00:05:19,350 --> 00:05:21,749
+ 
+ 
+
+00:05:21,749 --> 00:05:23,270
+ 
+ 
+
+00:05:23,270 --> 00:05:25,590
+ 
+ 
+
+00:05:25,590 --> 00:05:25,600
+ 
+ 
+
+00:05:25,600 --> 00:05:26,790
+ 
+
+
+00:05:26,790 --> 00:05:29,909
+ 
+ 
+
+00:05:29,909 --> 00:05:34,710
+ 
+ 
+
+00:05:34,710 --> 00:05:36,790
+ 
+ 
+
+00:05:36,790 --> 00:05:40,550
+ 
+ 
+
+00:05:40,550 --> 00:05:40,560
+ 
+ 
+
+00:05:40,560 --> 00:05:41,830
+ 
+
+
+00:05:41,830 --> 00:05:41,840
+ 
+ 
+
+00:05:41,840 --> 00:05:44,310
+ 
+
+
+00:05:44,310 --> 00:05:46,310
+ 
+ 
+
+00:05:46,310 --> 00:05:48,390
+ 
+ 
+
+00:05:48,390 --> 00:05:49,590
+ 
+ 
+
+00:05:49,590 --> 00:05:52,150
+ 
+ 
+
+00:05:52,150 --> 00:05:54,310
+ 
+ 
+
+00:05:54,310 --> 00:05:57,189
+ 
+ 
+
+00:05:57,189 --> 00:06:01,270
+ 
+ 
+
+00:06:01,270 --> 00:06:03,430
+ 
+ 
+
+00:06:03,430 --> 00:06:05,029
+ 
+ 
+
+00:06:05,029 --> 00:06:06,790
+ 
+ 
+
+00:06:06,790 --> 00:06:09,670
+ 
+ 
+
+00:06:09,670 --> 00:06:12,550
+ 
+ 
+
+00:06:12,550 --> 00:06:15,110
+ 
+ 
+
+00:06:15,110 --> 00:06:17,350
+ 
+ 
+
+00:06:17,350 --> 00:06:19,430
+ 
+ 
+
+00:06:19,430 --> 00:06:21,909
+ 
+ 
+
+00:06:21,909 --> 00:06:25,430
+ 
+ 
+
+00:06:25,430 --> 00:06:25,440
+ 
+ 
+
+00:06:25,440 --> 00:06:26,870
+ 
+
+
+00:06:26,870 --> 00:06:28,629
+ 
+ 
+
+00:06:28,629 --> 00:06:30,870
+ 
+ 
+
+00:06:30,870 --> 00:06:30,880
+ 
+ 
+
+00:06:30,880 --> 00:06:31,990
+ 
+
+
+00:06:31,990 --> 00:06:34,950
+ 
+ 
+
+00:06:34,950 --> 00:06:37,670
+ 
+ 
+
+00:06:37,670 --> 00:06:39,670
+ 
+ 
+
+00:06:39,670 --> 00:06:39,680
+ 
+ 
+
+00:06:39,680 --> 00:06:41,909
+ 
+
+
+00:06:41,909 --> 00:06:41,919
+ 
+ 
+
+00:06:41,919 --> 00:06:43,670
+ 
+
+
+00:06:43,670 --> 00:06:43,680
+ 
+ 
+
+00:06:43,680 --> 00:06:44,710
+ 
+
+
+00:06:44,710 --> 00:06:44,720
+ 
+ 
+
+00:06:44,720 --> 00:06:45,830
+ 
+
+
+00:06:45,830 --> 00:06:48,550
+ 
+ 
+
+00:06:48,550 --> 00:06:50,390
+ 
+ 
+
+00:06:50,390 --> 00:06:52,230
+ 
+ 
+
+00:06:52,230 --> 00:06:57,189
+ 
+ 
+
+00:06:57,189 --> 00:06:59,350
+ 
+ 
+
+00:06:59,350 --> 00:07:02,870
+ 
+ 
+
+00:07:02,870 --> 00:07:05,430
+ 
+ 
+
+00:07:05,430 --> 00:07:08,589
+ 
+ 
+
+00:07:08,589 --> 00:07:10,950
+ 
+ 
+
+00:07:10,950 --> 00:07:12,830
+ 
+ 
+
+00:07:12,830 --> 00:07:16,230
+ 
+ 
+
+00:07:16,230 --> 00:07:18,309
+ 
+ 
+
+00:07:18,309 --> 00:07:21,670
+ 
+ 
+
+00:07:21,670 --> 00:07:25,029
+ 
+ 
+
+00:07:25,029 --> 00:07:26,950
+ 
+ 
+
+00:07:26,950 --> 00:07:32,230
+ 
+ 
+
+00:07:32,230 --> 00:07:34,070
+ 
+ 
+
+00:07:34,070 --> 00:07:38,710
+ 
+ 
+
+00:07:38,710 --> 00:07:38,720
+ 
+ 
+
+00:07:38,720 --> 00:07:39,589
+ 
+
+
+00:07:39,589 --> 00:07:39,599
+ 
+ 
+
+00:07:39,599 --> 00:07:41,510
+ 
+
+
+00:07:41,510 --> 00:07:43,749
+ 
+ 
+
+00:07:43,749 --> 00:07:47,510
+ 
+ 
+
+00:07:47,510 --> 00:07:52,869
+ 
+ 
+
+00:07:52,869 --> 00:07:52,879
+ 
+ 
+
+00:07:52,879 --> 00:07:54,390
+ 
+
+
+00:07:54,390 --> 00:07:56,150
+ 
+ 
+
+00:07:56,150 --> 00:07:59,029
+ 
+ 
+
+00:07:59,029 --> 00:08:00,710
+ 
+ 
+
+00:08:00,710 --> 00:08:02,390
+ 
+ 
+
+00:08:02,390 --> 00:08:03,589
+ 
+ 
+
+00:08:03,589 --> 00:08:05,909
+ 
+ 
+
+00:08:05,909 --> 00:08:07,990
+ 
+ 
+
+00:08:07,990 --> 00:08:11,029
+ 
+ 
+
+00:08:11,029 --> 00:08:12,629
+ 
+ 
+
+00:08:12,629 --> 00:08:15,029
+ 
+ 
+
+00:08:15,029 --> 00:08:17,029
+ 
+ 
+
+00:08:17,029 --> 00:08:19,029
+ 
+ 
+
+00:08:19,029 --> 00:08:21,430
+ 
+ 
+
+00:08:21,430 --> 00:08:21,440
+ 
+ 
+
+00:08:21,440 --> 00:08:22,230
+ 
+
+
+00:08:22,230 --> 00:08:24,070
+ 
+ 
+
+00:08:24,070 --> 00:08:26,469
+ 
+ 
+
+00:08:26,469 --> 00:08:28,710
+ 
+ 
+
+00:08:28,710 --> 00:08:31,350
+ 
+ 
+
+00:08:31,350 --> 00:08:33,589
+ 
+ 
+
+00:08:33,589 --> 00:08:36,149
+ 
+ 
+
+00:08:36,149 --> 00:08:39,110
+ 
+ 
+
+00:08:39,110 --> 00:08:41,509
+ 
+ 
+
+00:08:41,509 --> 00:08:44,870
+ 
+ 
+
+00:08:44,870 --> 00:08:47,190
+ 
+ 
+
+00:08:47,190 --> 00:08:49,269
+ 
+ 
+
+00:08:49,269 --> 00:08:49,279
+ 
+ 
+
+00:08:49,279 --> 00:08:50,230
+ 
+
+
+00:08:50,230 --> 00:08:53,190
+ 
+ 
+
+00:08:53,190 --> 00:08:56,790
+ 
+ 
+
+00:08:56,790 --> 00:08:59,110
+ 
+ 
+
+00:08:59,110 --> 00:09:01,430
+ 
+ 
+
+00:09:01,430 --> 00:09:03,509
+ 
+ 
+
+00:09:03,509 --> 00:09:05,509
+ 
+ 
+
+00:09:05,509 --> 00:09:08,550
+ 
+ 
+
+00:09:08,550 --> 00:09:10,630
+ 
+ 
+
+00:09:10,630 --> 00:09:12,949
+ 
+ 
+
+00:09:12,949 --> 00:09:14,790
+ 
+ 
+
+00:09:14,790 --> 00:09:16,790
+ 
+ 
+
+00:09:16,790 --> 00:09:22,550
+ 
+ 
+
+00:09:22,550 --> 00:09:25,670
+ 
+ 
+
+00:09:25,670 --> 00:09:29,190
+ 
+ 
+
+00:09:29,190 --> 00:09:30,630
+ 
+ 
+
+00:09:30,630 --> 00:09:30,640
+ 
+ 
+
+00:09:30,640 --> 00:09:31,910
+ 
+
+
+00:09:31,910 --> 00:09:31,920
+ 
+ 
+
+00:09:31,920 --> 00:09:33,269
+ 
+
+
+00:09:33,269 --> 00:09:33,279
+ 
+ 
+
+00:09:33,279 --> 00:09:37,750
+ 
+
+
+00:09:37,750 --> 00:09:40,630
+ 
+ 
+
+00:09:40,630 --> 00:09:43,590
+ 
+ 
+
+00:09:43,590 --> 00:09:47,949
+ 
+ 
+
+00:09:47,949 --> 00:09:51,990
+ 
+ 
+
+00:09:51,990 --> 00:09:53,590
+ 
+ 
+
+00:09:53,590 --> 00:09:55,509
+ 
+ 
+
+00:09:55,509 --> 00:09:55,519
+ 
+ 
+
+00:09:55,519 --> 00:09:57,110
+ 
+
+
+00:09:57,110 --> 00:09:57,120
+ 
+ 
+
+00:09:57,120 --> 00:09:59,829
+ 
+
+
+00:09:59,829 --> 00:10:04,310
+ 
+ 
+
+00:10:04,310 --> 00:10:07,110
+ 
+ 
+
+00:10:07,110 --> 00:10:10,150
+ 
+ 
+
+00:10:10,150 --> 00:10:12,150
+ 
+ 
+
+00:10:12,150 --> 00:10:12,160
+ 
+ 
+
+00:10:12,160 --> 00:10:14,550
+ 
+
+
+00:10:14,550 --> 00:10:14,560
+ 
+ 
+
+00:10:14,560 --> 00:10:15,590
+ 
+
+
+00:10:15,590 --> 00:10:19,030
+ 
+ 
+
+00:10:19,030 --> 00:10:19,040
+ 
+ 
+
+00:10:19,040 --> 00:10:20,790
+ 
+
+
+00:10:20,790 --> 00:10:23,829
+ 
+ 
+
+00:10:23,829 --> 00:10:25,750
+ 
+ 
+
+00:10:25,750 --> 00:10:27,030
+ 
+ 
+
+00:10:27,030 --> 00:10:28,550
+ 
+ 
+
+00:10:28,550 --> 00:10:28,560
+ 
+ 
+
+00:10:28,560 --> 00:10:30,230
+ 
+
+
+00:10:30,230 --> 00:10:32,630
+ 
+ 
+
+00:10:32,630 --> 00:10:35,110
+ 
+ 
+
+00:10:35,110 --> 00:10:35,120
+ 
+ 
+
+00:10:35,120 --> 00:10:35,990
+ 
+
+
+00:10:35,990 --> 00:10:37,990
+ 
+ 
+
+00:10:37,990 --> 00:10:40,310
+ 
+ 
+
+00:10:40,310 --> 00:10:43,430
+ 
+ 
+
+00:10:43,430 --> 00:10:45,829
+ 
+ 
+
+00:10:45,829 --> 00:10:48,310
+ 
+ 
+
+00:10:48,310 --> 00:10:50,790
+ 
+ 
+
+00:10:50,790 --> 00:10:53,269
+ 
+ 
+
+00:10:53,269 --> 00:10:55,350
+ 
+ 
+
+00:10:55,350 --> 00:10:56,870
+ 
+ 
+
+00:10:56,870 --> 00:10:59,509
+ 
+ 
+
+00:10:59,509 --> 00:11:01,350
+ 
+ 
+
+00:11:01,350 --> 00:11:03,509
+ 
+ 
+
+00:11:03,509 --> 00:11:05,910
+ 
+ 
+
+00:11:05,910 --> 00:11:06,949
+ 
+ 
+
+00:11:06,949 --> 00:11:09,430
+ 
+ 
+
+00:11:09,430 --> 00:11:11,110
+ 
+ 
+
+00:11:11,110 --> 00:11:14,630
+ 
+ 
+
+00:11:14,630 --> 00:11:17,110
+ 
+ 
+
+00:11:17,110 --> 00:11:18,470
+ 
+ 
+
+00:11:18,470 --> 00:11:22,230
+ 
+ 
+
+00:11:22,230 --> 00:11:23,430
+ 
+ 
+
+00:11:23,430 --> 00:11:25,190
+ 
+ 
+
+00:11:25,190 --> 00:11:25,200
+ 
+ 
+
+00:11:25,200 --> 00:11:25,990
+ 
+
+
+00:11:25,990 --> 00:11:27,750
+ 
+ 
+
+00:11:27,750 --> 00:11:29,509
+ 
+ 
+
+00:11:29,509 --> 00:11:31,110
+ 
+ 
+
+00:11:31,110 --> 00:11:35,509
+ 
+ 
+
+00:11:35,509 --> 00:11:35,519
+ 
+ 
+
+00:11:35,519 --> 00:11:36,630
+ 
+
+
+00:11:36,630 --> 00:11:38,389
+ 
+ 
+
+00:11:38,389 --> 00:11:40,150
+ 
+ 
+
+00:11:40,150 --> 00:11:41,430
+ 
+ 
+
+00:11:41,430 --> 00:11:41,440
+ 
+ 
+
+00:11:41,440 --> 00:11:42,790
+ 
+
+
+00:11:42,790 --> 00:11:42,800
+ 
+ 
+
+00:11:42,800 --> 00:11:43,829
+ 
+
+
+00:11:43,829 --> 00:11:46,470
+ 
+ 
+
+00:11:46,470 --> 00:11:46,480
+ 
+ 
+
+00:11:46,480 --> 00:11:47,910
+ 
+
+
+00:11:47,910 --> 00:11:49,670
+ 
+ 
+
+00:11:49,670 --> 00:11:49,680
+ 
+ 
+
+00:11:49,680 --> 00:11:50,710
+ 
+
+
+00:11:50,710 --> 00:11:53,509
+ 
+ 
+
+00:11:53,509 --> 00:11:55,990
+ 
+ 
+
+00:11:55,990 --> 00:11:58,629
+ 
+ 
+
+00:11:58,629 --> 00:12:00,310
+ 
+ 
+
+00:12:00,310 --> 00:12:01,750
+ 
+ 
+
+00:12:01,750 --> 00:12:03,590
+ 
+ 
+
+00:12:03,590 --> 00:12:07,269
+ 
+ 
+
+00:12:07,269 --> 00:12:08,870
+ 
+ 
+
+00:12:08,870 --> 00:12:11,590
+ 
+ 
+
+00:12:11,590 --> 00:12:14,310
+ 
+ 
+
+00:12:14,310 --> 00:12:16,310
+ 
+ 
+
+00:12:16,310 --> 00:12:18,629
+ 
+ 
+
+00:12:18,629 --> 00:12:20,470
+ 
+ 
+
+00:12:20,470 --> 00:12:22,829
+ 
+ 
+
+00:12:22,829 --> 00:12:27,750
+ 
+ 
+
+00:12:27,750 --> 00:12:31,430
+ 
+ 
+
+00:12:31,430 --> 00:12:33,990
+ 
+ 
+
+00:12:33,990 --> 00:12:36,150
+ 
+ 
+
+00:12:36,150 --> 00:12:38,550
+ 
+ 
+
+00:12:38,550 --> 00:12:42,710
+ 
+ 
+
+00:12:42,710 --> 00:12:42,720
+ 
+ 
+
+00:12:42,720 --> 00:12:43,829
+ 
+
+
+00:12:43,829 --> 00:12:47,990
+ 
+ 
+
+00:12:47,990 --> 00:12:50,470
+ 
+ 
+
+00:12:50,470 --> 00:12:53,269
+ 
+ 
+
+00:12:53,269 --> 00:12:56,870
+ 
+ 
+
+00:12:56,870 --> 00:12:59,829
+ 
+ 
+
+00:12:59,829 --> 00:13:03,110
+ 
+ 
+
+00:13:03,110 --> 00:13:06,949
+ 
+ 
+
+00:13:06,949 --> 00:13:06,959
+ 
+ 
+
+00:13:06,959 --> 00:13:09,190
+ 
+
+
+00:13:09,190 --> 00:13:11,670
+ 
+ 
+
+00:13:11,670 --> 00:13:14,310
+ 
+ 
+
+00:13:14,310 --> 00:13:17,829
+ 
+ 
+
+00:13:17,829 --> 00:13:20,470
+ 
+ 
+
+00:13:20,470 --> 00:13:23,030
+ 
+ 
+
+00:13:23,030 --> 00:13:25,750
+ 
+ 
+
+00:13:25,750 --> 00:13:27,829
+ 
+ 
+
+00:13:27,829 --> 00:13:30,150
+ 
+ 
+
+00:13:30,150 --> 00:13:33,269
+ 
+ 
+
+00:13:33,269 --> 00:13:36,790
+ 
+ 
+
+00:13:36,790 --> 00:13:36,800
+ 
+ 
+
+00:13:36,800 --> 00:13:37,750
+ 
+
+
+00:13:37,750 --> 00:13:37,760
+ 
+ 
+
+00:13:37,760 --> 00:13:38,870
+ 
+
+
+00:13:38,870 --> 00:13:41,430
+ 
+ 
+
+00:13:41,430 --> 00:13:47,829
+ 
+ 
+
+00:13:47,829 --> 00:13:49,829
+ 
+ 
+
+00:13:49,829 --> 00:13:49,839
+ 
+ 
+
+00:13:49,839 --> 00:13:51,509
+ 
+
+
+00:13:51,509 --> 00:13:54,150
+ 
+ 
+
+00:13:54,150 --> 00:13:54,160
+ 
+ 
+
+00:13:54,160 --> 00:13:55,269
+ 
+
+
+00:13:55,269 --> 00:13:57,430
+ 
+ 
+
+00:13:57,430 --> 00:13:59,509
+ 
+ 
+
+00:13:59,509 --> 00:13:59,519
+ 
+ 
+
+00:13:59,519 --> 00:14:00,710
+ 
+
+
+00:14:00,710 --> 00:14:03,670
+ 
+ 
+
+00:14:03,670 --> 00:14:05,269
+ 
+ 
+
+00:14:05,269 --> 00:14:08,069
+ 
+ 
+
+00:14:08,069 --> 00:14:08,079
+ 
+ 
+
+00:14:08,079 --> 00:14:10,710
+ 
+
+
+00:14:10,710 --> 00:14:10,720
+ 
+ 
+
+00:14:10,720 --> 00:14:11,430
+ 
+
+
+00:14:11,430 --> 00:14:13,590
+ 
+ 
+
+00:14:13,590 --> 00:14:16,550
+ 
+ 
+
+00:14:16,550 --> 00:14:18,310
+ 
+ 
+
+00:14:18,310 --> 00:14:20,870
+ 
+ 
+
+00:14:20,870 --> 00:14:22,870
+ 
+ 
+
+00:14:22,870 --> 00:14:24,949
+ 
+ 
+
+00:14:24,949 --> 00:14:28,470
+ 
+ 
+
+00:14:28,470 --> 00:14:31,189
+ 
+ 
+
+00:14:31,189 --> 00:14:31,199
+ 
+ 
+
+00:14:31,199 --> 00:14:33,110
+ 
+
+
+00:14:33,110 --> 00:14:33,120
+ 
+ 
+
+00:14:33,120 --> 00:14:37,590
+ 
+
+
+00:14:37,590 --> 00:14:40,710
+ 
+ 
+
+00:14:40,710 --> 00:14:40,720
+ 
+ 
+
+00:14:40,720 --> 00:14:43,110
+ 
+
+
+00:14:43,110 --> 00:14:45,350
+ 
+ 
+
+00:14:45,350 --> 00:14:46,949
+ 
+ 
+
+00:14:46,949 --> 00:14:46,959
+ 
+ 
+
+00:14:46,959 --> 00:14:48,710
+ 
+
+
+00:14:48,710 --> 00:14:51,110
+ 
+ 
+
+00:14:51,110 --> 00:15:01,350
+ 
+ 
+
+00:15:01,350 --> 00:15:04,870
+ 
+ 
+
+00:15:04,870 --> 00:15:13,269
+ 
+ 
+
+00:15:13,269 --> 00:15:15,590
+ 
+ 
+
+00:15:15,590 --> 00:15:17,829
+ 
+ 
+
+00:15:17,829 --> 00:15:20,150
+ 
+ 
+
+00:15:20,150 --> 00:15:24,829
+ 
+ 
+
+00:15:24,829 --> 00:15:24,839
+ 
+ 
+
+00:15:24,839 --> 00:15:26,389
+ 
+
+
+00:15:26,389 --> 00:15:26,399
+ 
+ 
+
+00:15:26,399 --> 00:15:29,590
+ 
+
+
+00:15:29,590 --> 00:15:29,600
+ 
+ 
+
+00:15:29,600 --> 00:15:31,829
+ 
+
+
+00:15:31,829 --> 00:15:33,509
+ 
+ 
+
+00:15:33,509 --> 00:15:35,990
+ 
+ 
+
+00:15:35,990 --> 00:15:36,000
+ 
+ 
+
+00:15:36,000 --> 00:15:37,350
+ 
+
+
+00:15:37,350 --> 00:15:41,670
+ 
+ 
+
+00:15:41,670 --> 00:15:44,230
+ 
+ 
+
+00:15:44,230 --> 00:15:47,509
+ 
+ 
+
+00:15:47,509 --> 00:15:49,590
+ 
+ 
+
+00:15:49,590 --> 00:15:53,350
+ 
+ 
+
+00:15:53,350 --> 00:15:56,069
+ 
+ 
+
+00:15:56,069 --> 00:15:56,079
+ 
+ 
+
+00:15:56,079 --> 00:15:57,189
+ 
+
+
+00:15:57,189 --> 00:16:02,470
+ 
+ 
+
+00:16:02,470 --> 00:16:04,870
+ 
+ 
+
+00:16:04,870 --> 00:16:04,880
+ 
+ 
+
+00:16:04,880 --> 00:16:05,910
+ 
+
+
+00:16:05,910 --> 00:16:07,509
+ 
+ 
+
+00:16:07,509 --> 00:16:10,710
+ 
+ 
+
+00:16:10,710 --> 00:16:10,720
+ 
+ 
+
+00:16:10,720 --> 00:16:11,430
+ 
+
+
+00:16:11,430 --> 00:16:13,269
+ 
+ 
+
+00:16:13,269 --> 00:16:14,710
+ 
+ 
+
+00:16:14,710 --> 00:16:16,389
+ 
+ 
+
+00:16:16,389 --> 00:16:17,990
+ 
+ 
+
+00:16:17,990 --> 00:16:19,670
+ 
+ 
+
+00:16:19,670 --> 00:16:19,680
+ 
+ 
+
+00:16:19,680 --> 00:16:21,749
+ 
+
+
+00:16:21,749 --> 00:16:24,710
+ 
+ 
+
+00:16:24,710 --> 00:16:27,910
+ 
+ 
+
+00:16:27,910 --> 00:16:27,920
+ 
+ 
+
+00:16:27,920 --> 00:16:29,189
+ 
+
+
+00:16:29,189 --> 00:16:31,110
+ 
+ 
+
+00:16:31,110 --> 00:16:41,269
+ 
+ 
+
+00:16:41,269 --> 00:16:45,910
+ 
+ 
+
+00:16:45,910 --> 00:16:47,829
+ 
+ 
+
+00:16:47,829 --> 00:16:49,910
+ 
+ 
+
+00:16:49,910 --> 00:16:51,509
+ 
+ 
+
+00:16:51,509 --> 00:16:53,509
+ 
+ 
+
+00:16:53,509 --> 00:16:55,350
+ 
+ 
+
+00:16:55,350 --> 00:16:58,069
+ 
+ 
+
+00:16:58,069 --> 00:17:00,230
+ 
+ 
+
+00:17:00,230 --> 00:17:02,710
+ 
+ 
+
+00:17:02,710 --> 00:17:05,510
+ 
+ 
+
+00:17:05,510 --> 00:17:07,590
+ 
+ 
+
+00:17:07,590 --> 00:17:07,600
+ 
+ 
+
+00:17:07,600 --> 00:17:11,189
+ 
+
+
+00:17:11,189 --> 00:17:13,510
+ 
+ 
+
+00:17:13,510 --> 00:17:14,870
+ 
+ 
+
+00:17:14,870 --> 00:17:17,829
+ 
+ 
+
+00:17:17,829 --> 00:17:22,069
+ 
+ 
+
+00:17:22,069 --> 00:17:22,079
+ 
+ 
+
+00:17:22,079 --> 00:17:22,870
+ 
+
+
+00:17:22,870 --> 00:17:25,189
+ 
+ 
+
+00:17:25,189 --> 00:17:27,189
+ 
+ 
+
+00:17:27,189 --> 00:17:28,470
+ 
+ 
+
+00:17:28,470 --> 00:17:32,150
+ 
+ 
+
+00:17:32,150 --> 00:17:32,160
+ 
+ 
+
+00:17:32,160 --> 00:17:33,909
+ 
+
+
+00:17:33,909 --> 00:17:38,789
+ 
+ 
+
+00:17:38,789 --> 00:17:41,830
+ 
+ 
+
+00:17:41,830 --> 00:17:43,990
+ 
+ 
+
+00:17:43,990 --> 00:17:46,470
+ 
+ 
+
+00:17:46,470 --> 00:17:46,480
+ 
+ 
+
+00:17:46,480 --> 00:17:48,070
+ 
+
+
+00:17:48,070 --> 00:17:54,150
+ 
+ 
+
+00:17:54,150 --> 00:17:57,990
+ 
+ 
+
+00:17:57,990 --> 00:17:59,590
+ 
+ 
+
+00:17:59,590 --> 00:18:01,350
+ 
+ 
+
+00:18:01,350 --> 00:18:03,350
+ 
+ 
+
+00:18:03,350 --> 00:18:05,590
+ 
+ 
+
+00:18:05,590 --> 00:18:05,600
+ 
+ 
+
+00:18:05,600 --> 00:18:06,630
+ 
+
+
+00:18:06,630 --> 00:18:09,830
+ 
+ 
+
+00:18:09,830 --> 00:18:11,750
+ 
+ 
+
+00:18:11,750 --> 00:18:11,760
+ 
+ 
+
+00:18:11,760 --> 00:18:12,549
+ 
+
+
+00:18:12,549 --> 00:18:16,150
+ 
+ 
+
+00:18:16,150 --> 00:18:17,270
+ 
+ 
+
+00:18:17,270 --> 00:18:28,630
+ 
+ 
+
+00:18:28,630 --> 00:18:30,549
+ 
+ 
+
+00:18:30,549 --> 00:18:32,470
+ 
+ 
+
+00:18:32,470 --> 00:18:34,950
+ 
+ 
+
+00:18:34,950 --> 00:18:37,669
+ 
+ 
+
+00:18:37,669 --> 00:18:40,390
+ 
+ 
+
+00:18:40,390 --> 00:18:41,830
+ 
+ 
+
+00:18:41,830 --> 00:18:43,110
+ 
+ 
+
+00:18:43,110 --> 00:18:46,870
+ 
+ 
+
+00:18:46,870 --> 00:18:46,880
+ 
+ 
+
+00:18:46,880 --> 00:18:49,430
+ 
+
+
+00:18:49,430 --> 00:18:52,549
+ 
+ 
+
+00:18:52,549 --> 00:18:52,559
+ 
+ 
+
+00:18:52,559 --> 00:18:53,350
+ 
+
+
+00:18:53,350 --> 00:18:54,710
+ 
+ 
+
+00:18:54,710 --> 00:18:57,350
+ 
+ 
+
+00:18:57,350 --> 00:18:57,360
+ 
+ 
+
+00:18:57,360 --> 00:18:58,710
+ 
+
+
+00:18:58,710 --> 00:19:00,789
+ 
+ 
+
+00:19:00,789 --> 00:19:01,990
+ 
+ 
+
+00:19:01,990 --> 00:19:04,310
+ 
+ 
+
+00:19:04,310 --> 00:19:07,990
+ 
+ 
+
+00:19:07,990 --> 00:19:13,350
+ 
+ 
+
+00:19:13,350 --> 00:19:15,350
+ 
+ 
+
+00:19:15,350 --> 00:19:18,230
+ 
+ 
+
+00:19:18,230 --> 00:19:19,750
+ 
+ 
+
+00:19:19,750 --> 00:19:21,909
+ 
+ 
+
+00:19:21,909 --> 00:19:23,350
+ 
+ 
+
+00:19:23,350 --> 00:19:23,360
+ 
+ 
+
+00:19:23,360 --> 00:19:24,630
+ 
+
+
+00:19:24,630 --> 00:19:24,640
+ 
+ 
+
+00:19:24,640 --> 00:19:27,990
+ 
+
+
+00:19:27,990 --> 00:19:31,270
+ 
+ 
+
+00:19:31,270 --> 00:19:35,270
+ 
+ 
+
+00:19:35,270 --> 00:19:37,270
+ 
+ 
+
+00:19:37,270 --> 00:19:40,230
+ 
+ 
+
+00:19:40,230 --> 00:19:43,510
+ 
+ 
+
+00:19:43,510 --> 00:19:46,150
+ 
+ 
+
+00:19:46,150 --> 00:19:47,909
+ 
+ 
+
+00:19:47,909 --> 00:19:50,310
+ 
+ 
+
+00:19:50,310 --> 00:19:52,870
+ 
+ 
+
+00:19:52,870 --> 00:19:55,430
+ 
+ 
+
+00:19:55,430 --> 00:19:57,029
+ 
+ 
+
+00:19:57,029 --> 00:19:57,039
+ 
+ 
+
+00:19:57,039 --> 00:20:04,870
+ 
+
+
+00:20:04,870 --> 00:20:09,029
+ 
+ 
+
+00:20:09,029 --> 00:20:11,830
+ 
+ 
+
+00:20:11,830 --> 00:20:13,669
+ 
+ 
+
+00:20:13,669 --> 00:20:13,679
+ 
+ 
+
+00:20:13,679 --> 00:20:15,110
+ 
+
+
+00:20:15,110 --> 00:20:16,789
+ 
+ 
+
+00:20:16,789 --> 00:20:18,830
+ 
+ 
+
+00:20:18,830 --> 00:20:20,870
+ 
+ 
+
+00:20:20,870 --> 00:20:26,230
+ 
+ 
+
+00:20:26,230 --> 00:20:30,870
+ 
+ 
+
+00:20:30,870 --> 00:20:33,029
+ 
+ 
+
+00:20:33,029 --> 00:20:37,669
+ 
+ 
+
+00:20:37,669 --> 00:20:40,310
+ 
+ 
+
+00:20:40,310 --> 00:20:46,470
+ 
+ 
+
+00:20:46,470 --> 00:20:52,070
+ 
+ 
+
+00:20:52,070 --> 00:20:54,950
+ 
+ 
+
+00:20:54,950 --> 00:20:54,960
+ 
+ 
+
+00:20:54,960 --> 00:20:56,789
+ 
+
+
+00:20:56,789 --> 00:21:00,710
+ 
+ 
+
+00:21:00,710 --> 00:21:00,720
+ 
+ 
+
+00:21:00,720 --> 00:21:03,510
+ 
+
+
+00:21:03,510 --> 00:21:03,520
+ 
+ 
+
+00:21:03,520 --> 00:21:05,430
+ 
+
+
+00:21:05,430 --> 00:21:09,029
+ 
+ 
+
+00:21:09,029 --> 00:21:11,029
+ 
+ 
+
+00:21:11,029 --> 00:21:11,039
+ 
+ 
+
+00:21:11,039 --> 00:21:11,909
+ 
+
+
+00:21:11,909 --> 00:21:14,549
+ 
+ 
+
+00:21:14,549 --> 00:21:16,470
+ 
+ 
+
+00:21:16,470 --> 00:21:19,350
+ 
+ 
+
+00:21:19,350 --> 00:21:22,870
+ 
+ 
+
+00:21:22,870 --> 00:21:22,880
+ 
+ 
+
+00:21:22,880 --> 00:21:24,470
+ 
+
+
+00:21:24,470 --> 00:21:27,590
+ 
+ 
+
+00:21:27,590 --> 00:21:29,029
+ 
+ 
+
+00:21:29,029 --> 00:21:31,110
+ 
+ 
+
+00:21:31,110 --> 00:21:31,120
+ 
+ 
+
+00:21:31,120 --> 00:21:32,710
+ 
+
+
+00:21:32,710 --> 00:21:34,230
+ 
+ 
+
+00:21:34,230 --> 00:21:36,310
+ 
+ 
+
+00:21:36,310 --> 00:21:38,070
+ 
+ 
+
+00:21:38,070 --> 00:21:41,029
+ 
+ 
+
+00:21:41,029 --> 00:21:42,830
+ 
+ 
+
+00:21:42,830 --> 00:21:45,909
+ 
+ 
+
+00:21:45,909 --> 00:21:48,630
+ 
+ 
+
+00:21:48,630 --> 00:21:52,230
+ 
+ 
+
+00:21:52,230 --> 00:21:54,470
+ 
+ 
+
+00:21:54,470 --> 00:21:59,909
+ 
+ 
+
+00:21:59,909 --> 00:22:04,310
+ 
+ 
+
+00:22:04,310 --> 00:22:09,350
+ 
+ 
+
+00:22:09,350 --> 00:22:09,360
+ 
+ 
+
+00:22:09,360 --> 00:22:10,630
+ 
+
+
+00:22:10,630 --> 00:22:13,830
+ 
+ 
+
+00:22:13,830 --> 00:22:16,070
+ 
+ 
+
+00:22:16,070 --> 00:22:18,870
+ 
+ 
+
+00:22:18,870 --> 00:22:21,669
+ 
+ 
+
+00:22:21,669 --> 00:22:24,070
+ 
+ 
+
+00:22:24,070 --> 00:22:28,870
+ 
+ 
+
+00:22:28,870 --> 00:22:28,880
+ 
+ 
+
+00:22:28,880 --> 00:22:30,149
+ 
+
+
+00:22:30,149 --> 00:22:33,190
+ 
+ 
+
+00:22:33,190 --> 00:22:44,950
+ 
+ 
+
+00:22:44,950 --> 00:22:47,750
+ 
+ 
+
+00:22:47,750 --> 00:22:47,760
+ 
+ 
+
+00:22:47,760 --> 00:22:55,669
+ 
+
+
+00:22:55,669 --> 00:22:57,669
+ 
+ 
+
+00:22:57,669 --> 00:23:01,350
+ 
+ 
+
+00:23:01,350 --> 00:23:03,750
+ 
+ 
+
+00:23:03,750 --> 00:23:05,909
+ 
+ 
+
+00:23:05,909 --> 00:23:11,190
+ 
+ 
+
+00:23:11,190 --> 00:23:13,590
+ 
+ 
+
+00:23:13,590 --> 00:23:17,909
+ 
+ 
+
+00:23:17,909 --> 00:23:17,919
+ 
+ 
+
+00:23:17,919 --> 00:23:18,789
+ 
+
+
+00:23:18,789 --> 00:23:28,149
+ 
+ 
+
+00:23:28,149 --> 00:23:31,350
+ 
+ 
+
+00:23:31,350 --> 00:23:31,360
+ 
+ 
+
+00:23:31,360 --> 00:23:32,310
+ 
+
+
+00:23:32,310 --> 00:23:41,190
+ 
+ 
+
+00:23:41,190 --> 00:23:42,870
+ 
+ 
+
+00:23:42,870 --> 00:23:42,880
+ 
+ 
+
+00:23:42,880 --> 00:23:43,669
+ 
+
+
+00:23:43,669 --> 00:23:45,830
+ 
+ 
+
+00:23:45,830 --> 00:23:48,789
+ 
+ 
+
+00:23:48,789 --> 00:23:52,549
+ 
+ 
+
+00:23:52,549 --> 00:23:56,950
+ 
+ 
+
+00:23:56,950 --> 00:24:02,630
+ 
+ 
+
+00:24:02,630 --> 00:24:09,990
+ 
+ 
+
+00:24:09,990 --> 00:24:14,870
+ 
+ 
+
+00:24:14,870 --> 00:24:14,880
+ 
+ 
+
+00:24:14,880 --> 00:24:17,110
+ 
+
+
+00:24:17,110 --> 00:24:23,350
+ 
+ 
+
+00:24:23,350 --> 00:24:26,310
+ 
+ 
+
+00:24:26,310 --> 00:24:31,590
+ 
+ 
+
+00:24:31,590 --> 00:24:37,669
+ 
+ 
+
+00:24:37,669 --> 00:24:42,230
+ 
+ 
+
+00:24:42,230 --> 00:24:47,430
+ 
+ 
+
+00:24:47,430 --> 00:24:49,990
+ 
+ 
+
+00:24:49,990 --> 00:24:52,390
+ 
+ 
+
+00:24:52,390 --> 00:24:54,789
+ 
+ 
+
+00:24:54,789 --> 00:24:57,110
+ 
+ 
+
+00:24:57,110 --> 00:24:59,510
+ 
+ 
+
+00:24:59,510 --> 00:25:00,630
+ 
+ 
+
+00:25:00,630 --> 00:25:02,789
+ 
+ 
+
+00:25:02,789 --> 00:25:02,799
+ 
+ 
+
+00:25:02,799 --> 00:25:03,990
+ 
+
+
+00:25:03,990 --> 00:25:05,430
+ 
+ 
+
+00:25:05,430 --> 00:25:09,269
+ 
+ 
+
+00:25:09,269 --> 00:25:12,630
+ 
+ 
+
+00:25:12,630 --> 00:25:12,640
+ 
+ 
+
+00:25:12,640 --> 00:25:15,669
+ 
+
+
+00:25:15,669 --> 00:25:17,430
+ 
+ 
+
+00:25:17,430 --> 00:25:19,669
+ 
+ 
+
+00:25:19,669 --> 00:25:19,679
+ 
+ 
+
+00:25:19,679 --> 00:25:20,950
+ 
+
+
+00:25:20,950 --> 00:25:24,549
+ 
+ 
+
+00:25:24,549 --> 00:25:27,430
+ 
+ 
+
+00:25:27,430 --> 00:25:29,669
+ 
+ 
+
+00:25:29,669 --> 00:25:31,510
+ 
+ 
+
+00:25:31,510 --> 00:25:34,470
+ 
+ 
+
+00:25:34,470 --> 00:25:36,070
+ 
+ 
+
+00:25:36,070 --> 00:25:37,669
+ 
+ 
+
+00:25:37,669 --> 00:25:39,029
+ 
+ 
+
+00:25:39,029 --> 00:25:42,070
+ 
+ 
+
+00:25:42,070 --> 00:25:43,190
+ 
+ 
+
+00:25:43,190 --> 00:25:45,590
+ 
+ 
+
+00:25:45,590 --> 00:25:47,110
+ 
+ 
+
+00:25:47,110 --> 00:25:48,710
+ 
+ 
+
+00:25:48,710 --> 00:25:48,720
+ 
+ 
+
+00:25:48,720 --> 00:25:49,669
+ 
+
+
+00:25:49,669 --> 00:25:51,669
+ 
+ 
+
+00:25:51,669 --> 00:25:54,310
+ 
+ 
+
+00:25:54,310 --> 00:25:57,110
+ 
+ 
+
+00:25:57,110 --> 00:25:59,350
+ 
+ 
+
+00:25:59,350 --> 00:26:01,350
+ 
+ 
+
+00:26:01,350 --> 00:26:03,510
+ 
+ 
+
+00:26:03,510 --> 00:26:03,520
+ 
+ 
+
+00:26:03,520 --> 00:26:04,470
+ 
+
+
+00:26:04,470 --> 00:26:07,110
+ 
+ 
+
+00:26:07,110 --> 00:26:08,549
+ 
+ 
+
+00:26:08,549 --> 00:26:10,470
+ 
+ 
+
+00:26:10,470 --> 00:26:12,390
+ 
+ 
+
+00:26:12,390 --> 00:26:12,400
+ 
+ 
+
+00:26:12,400 --> 00:26:15,190
+ 
+
+
+00:26:15,190 --> 00:26:15,200
+ 
+ 
+
+00:26:15,200 --> 00:26:17,430
+ 
+
+
+00:26:17,430 --> 00:26:18,950
+ 
+ 
+
+00:26:18,950 --> 00:26:18,960
+ 
+ 
+
+00:26:18,960 --> 00:26:20,390
+ 
+
+
+00:26:20,390 --> 00:26:22,310
+ 
+ 
+
+00:26:22,310 --> 00:26:25,190
+ 
+ 
+
+00:26:25,190 --> 00:26:26,710
+ 
+ 
+
+00:26:26,710 --> 00:26:28,789
+ 
+ 
+
+00:26:28,789 --> 00:26:31,669
+ 
+ 
+
+00:26:31,669 --> 00:26:33,669
+ 
+ 
+
+00:26:33,669 --> 00:26:36,230
+ 
+ 
+
+00:26:36,230 --> 00:26:36,240
+ 
+ 
+
+00:26:36,240 --> 00:26:37,029
+ 
+
+
+00:26:37,029 --> 00:26:39,269
+ 
+ 
+
+00:26:39,269 --> 00:26:41,110
+ 
+ 
+
+00:26:41,110 --> 00:26:42,870
+ 
+ 
+
+00:26:42,870 --> 00:26:45,590
+ 
+ 
+
+00:26:45,590 --> 00:26:46,630
+ 
+ 
+
+00:26:46,630 --> 00:26:48,630
+ 
+ 
+
+00:26:48,630 --> 00:26:49,990
+ 
+ 
+
+00:26:49,990 --> 00:26:52,549
+ 
+ 
+
+00:26:52,549 --> 00:26:53,830
+ 
+ 
+
+00:26:53,830 --> 00:26:56,950
+ 
+ 
+
+00:26:56,950 --> 00:26:59,430
+ 
+ 
+
+00:26:59,430 --> 00:27:02,310
+ 
+ 
+
+00:27:02,310 --> 00:27:03,990
+ 
+ 
+
+00:27:03,990 --> 00:27:05,350
+ 
+ 
+
+00:27:05,350 --> 00:27:05,360
+ 
+ 
+
+00:27:05,360 --> 00:27:06,470
+ 
+
+
+00:27:06,470 --> 00:27:11,909
+ 
+ 
+
+00:27:11,909 --> 00:27:11,919
+ 
+ 
+
+00:27:11,919 --> 00:27:12,950
+ 
+
+
+00:27:12,950 --> 00:27:12,960
+ 
+ 
+
+00:27:12,960 --> 00:27:13,830
+ 
+
+
+00:27:13,830 --> 00:27:17,750
+ 
+ 
+
+00:27:17,750 --> 00:27:20,389
+ 
+ 
+
+00:27:20,389 --> 00:27:20,399
+ 
+ 
+
+00:27:20,399 --> 00:27:21,830
+ 
+
+
+00:27:21,830 --> 00:27:21,840
+ 
+ 
+
+00:27:21,840 --> 00:27:25,669
+ 
+
+
+00:27:25,669 --> 00:27:27,110
+ 
+ 
+
+00:27:27,110 --> 00:27:28,149
+ 
+ 
+
+00:27:28,149 --> 00:27:30,870
+ 
+ 
+
+00:27:30,870 --> 00:27:33,269
+ 
+ 
+
+00:27:33,269 --> 00:27:36,230
+ 
+ 
+
+00:27:36,230 --> 00:27:37,830
+ 
+ 
+
+00:27:37,830 --> 00:27:39,510
+ 
+ 
+
+00:27:39,510 --> 00:27:40,549
+ 
+ 
+
+00:27:40,549 --> 00:27:42,789
+ 
+ 
+
+00:27:42,789 --> 00:27:45,110
+ 
+ 
+
+00:27:45,110 --> 00:27:47,110
+ 
+ 
+
+00:27:47,110 --> 00:27:49,750
+ 
+ 
+
+00:27:49,750 --> 00:27:52,789
+ 
+ 
+
+00:27:52,789 --> 00:28:03,190
+ 
+ 
+
+00:28:03,190 --> 00:28:04,549
+ 
+ 
+
+00:28:04,549 --> 00:28:06,389
+ 
+ 
+
+00:28:06,389 --> 00:28:06,399
+ 
+ 
+
+00:28:06,399 --> 00:28:11,430
+ 
+
+
+00:28:11,430 --> 00:28:11,440
+ 
+ 
+
+00:28:11,440 --> 00:28:13,590
+ 
+
+
+00:28:13,590 --> 00:28:16,710
+ 
+ 
+
+00:28:16,710 --> 00:28:19,510
+ 
+ 
+
+00:28:19,510 --> 00:28:19,520
+ 
+ 
+
+00:28:19,520 --> 00:28:21,190
+ 
+
+
+00:28:21,190 --> 00:28:21,200
+ 
+ 
+
+00:28:21,200 --> 00:28:25,190
+ 
+
+
+00:28:25,190 --> 00:28:27,190
+ 
+ 
+
+00:28:27,190 --> 00:28:32,549
+ 
+ 
+
+00:28:32,549 --> 00:28:35,510
+ 
+ 
+
+00:28:35,510 --> 00:28:35,520
+ 
+ 
+
+00:28:35,520 --> 00:28:36,549
+ 
+
+
+00:28:36,549 --> 00:28:42,070
+ 
+ 
+
+00:28:42,070 --> 00:28:42,080
+ 
+ 
+
+00:28:42,080 --> 00:28:43,029
+ 
+
+
+00:28:43,029 --> 00:28:47,029
+ 
+ 
+
+00:28:47,029 --> 00:28:52,389
+ 
+ 
+
+00:28:52,389 --> 00:28:55,510
+ 
+ 
+
+00:28:55,510 --> 00:28:56,389
+ 
+ 
+
+00:28:56,389 --> 00:28:58,710
+ 
+ 
+
+00:28:58,710 --> 00:28:59,990
+ 
+ 
+
+00:28:59,990 --> 00:29:01,350
+ 
+ 
+
+00:29:01,350 --> 00:29:01,360
+ 
+ 
+
+00:29:01,360 --> 00:29:02,470
+ 
+
+
+00:29:02,470 --> 00:29:05,029
+ 
+ 
+
+00:29:05,029 --> 00:29:07,350
+ 
+ 
+
+00:29:07,350 --> 00:29:10,470
+ 
+ 
+
+00:29:10,470 --> 00:29:11,669
+ 
+ 
+
+00:29:11,669 --> 00:29:13,830
+ 
+ 
+
+00:29:13,830 --> 00:29:16,389
+ 
+ 
+
+00:29:16,389 --> 00:29:18,230
+ 
+ 
+
+00:29:18,230 --> 00:29:19,510
+ 
+ 
+
+00:29:19,510 --> 00:29:22,389
+ 
+ 
+
+00:29:22,389 --> 00:29:24,789
+ 
+ 
+
+00:29:24,789 --> 00:29:26,789
+ 
+ 
+
+00:29:26,789 --> 00:29:29,830
+ 
+ 
+
+00:29:29,830 --> 00:29:31,750
+ 
+ 
+
+00:29:31,750 --> 00:29:33,350
+ 
+ 
+
+00:29:33,350 --> 00:29:36,470
+ 
+ 
+
+00:29:36,470 --> 00:29:38,710
+ 
+ 
+
+00:29:38,710 --> 00:29:40,310
+ 
+ 
+
+00:29:40,310 --> 00:29:42,310
+ 
+ 
+
+00:29:42,310 --> 00:29:45,830
+ 
+ 
+
+00:29:45,830 --> 00:29:48,789
+ 
+ 
+
+00:29:48,789 --> 00:29:51,909
+ 
+ 
+
+00:29:51,909 --> 00:29:54,389
+ 
+ 
+
+00:29:54,389 --> 00:29:57,350
+ 
+ 
+
+00:29:57,350 --> 00:29:59,430
+ 
+ 
+
+00:29:59,430 --> 00:30:02,149
+ 
+ 
+
+00:30:02,149 --> 00:30:02,159
+ 
+ 
+
+00:30:02,159 --> 00:30:03,269
+ 
+
+
+00:30:03,269 --> 00:30:05,350
+ 
+ 
+
+00:30:05,350 --> 00:30:07,029
+ 
+ 
+
+00:30:07,029 --> 00:30:09,990
+ 
+ 
+
+00:30:09,990 --> 00:30:13,350
+ 
+ 
+
+00:30:13,350 --> 00:30:15,669
+ 
+ 
+
+00:30:15,669 --> 00:30:17,510
+ 
+ 
+
+00:30:17,510 --> 00:30:17,520
+ 
+ 
+
+00:30:17,520 --> 00:30:19,110
+ 
+
+
+00:30:19,110 --> 00:30:20,710
+ 
+ 
+
+00:30:20,710 --> 00:30:27,110
+ 
+ 
+
+00:30:27,110 --> 00:30:31,590
+ 
+ 
+
+00:30:31,590 --> 00:30:36,070
+ 
+ 
+
+00:30:36,070 --> 00:30:40,630
+ 
+ 
+
+00:30:40,630 --> 00:30:40,640
+ 
+ 
+
+00:30:40,640 --> 00:30:42,630
+ 
+
+
+00:30:42,630 --> 00:30:45,350
+ 
+ 
+
+00:30:45,350 --> 00:30:53,510
+ 
+ 
+
+00:30:53,510 --> 00:30:58,230
+ 
+ 
+
+00:30:58,230 --> 00:31:04,549
+ 
+ 
+
+00:31:04,549 --> 00:31:06,389
+ 
+ 
+
+00:31:06,389 --> 00:31:11,509
+ 
+ 
+
+00:31:11,509 --> 00:31:11,519
+ 
+ 
+
+00:31:11,519 --> 00:31:17,590
+ 
+
+
+00:31:17,590 --> 00:31:22,230
+ 
+ 
+
+00:31:22,230 --> 00:31:23,909
+ 
+ 
+
+00:31:23,909 --> 00:31:30,630
+ 
+ 
+
+00:31:30,630 --> 00:31:33,190
+ 
+ 
+
+00:31:33,190 --> 00:31:33,200
+ 
+ 
+
+00:31:33,200 --> 00:31:35,110
+ 
+
+
+00:31:35,110 --> 00:31:37,029
+ 
+ 
+
+00:31:37,029 --> 00:31:39,750
+ 
+ 
+
+00:31:39,750 --> 00:31:45,430
+ 
+ 
+
+00:31:45,430 --> 00:31:49,990
+ 
+ 
+
+00:31:49,990 --> 00:31:59,509
+ 
+ 
+
+00:31:59,509 --> 00:32:01,830
+ 
+ 
+
+00:32:01,830 --> 00:32:04,389
+ 
+ 
+
+00:32:04,389 --> 00:32:08,310
+ 
+ 
+
+00:32:08,310 --> 00:32:09,909
+ 
+ 
+
+00:32:09,909 --> 00:32:11,110
+ 
+ 
+
+00:32:11,110 --> 00:32:13,029
+ 
+ 
+
+00:32:13,029 --> 00:32:15,029
+ 
+ 
+
+00:32:15,029 --> 00:32:18,630
+ 
+ 
+
+00:32:18,630 --> 00:32:22,710
+ 
+ 
+
+00:32:22,710 --> 00:32:25,590
+ 
+ 
+
+00:32:25,590 --> 00:32:27,269
+ 
+ 
+
+00:32:27,269 --> 00:32:29,110
+ 
+ 
+
+00:32:29,110 --> 00:32:31,269
+ 
+ 
+
+00:32:31,269 --> 00:32:33,990
+ 
+ 
+
+00:32:33,990 --> 00:32:34,000
+ 
+ 
+
+00:32:34,000 --> 00:32:35,830
+ 
+
+
+00:32:35,830 --> 00:32:35,840
+ 
+ 
+
+00:32:35,840 --> 00:32:37,110
+ 
+
+
+00:32:37,110 --> 00:32:38,710
+ 
+ 
+
+00:32:38,710 --> 00:32:41,269
+ 
+ 
+
+00:32:41,269 --> 00:32:43,750
+ 
+ 
+
+00:32:43,750 --> 00:32:43,760
+ 
+ 
+
+00:32:43,760 --> 00:32:45,909
+ 
+
+
+00:32:45,909 --> 00:32:47,909
+ 
+ 
+
+00:32:47,909 --> 00:32:50,070
+ 
+ 
+
+00:32:50,070 --> 00:32:50,080
+ 
+ 
+
+00:32:50,080 --> 00:32:52,070
+ 
+
+
+00:32:52,070 --> 00:32:52,080
+ 
+ 
+
+00:32:52,080 --> 00:32:55,990
+ 
+
+
+00:32:55,990 --> 00:32:59,110
+ 
+ 
+
+00:32:59,110 --> 00:32:59,120
+ 
+ 
+
+00:32:59,120 --> 00:32:59,990
+ 
+
+
+00:32:59,990 --> 00:33:00,000
+ 
+ 
+
+00:33:00,000 --> 00:33:02,870
+ 
+
+
+00:33:02,870 --> 00:33:02,880
+ 
+ 
+
+00:33:02,880 --> 00:33:04,630
+ 
+
+
+00:33:04,630 --> 00:33:08,470
+ 
+ 
+
+00:33:08,470 --> 00:33:08,480
+ 
+ 
+
+00:33:08,480 --> 00:33:10,389
+ 
+
+
+00:33:10,389 --> 00:33:23,190
+ 
+ 
+
+00:33:23,190 --> 00:33:25,830
+ 
+ 
+
+00:33:25,830 --> 00:33:27,509
+ 
+ 
+
+00:33:27,509 --> 00:33:29,029
+ 
+ 
+
+00:33:29,029 --> 00:33:31,509
+ 
+ 
+
+00:33:31,509 --> 00:33:33,990
+ 
+ 
+
+00:33:33,990 --> 00:33:34,000
+ 
+ 
+
+00:33:34,000 --> 00:33:35,669
+ 
+
+
+00:33:35,669 --> 00:33:40,630
+ 
+ 
+
+00:33:40,630 --> 00:33:44,870
+ 
+ 
+
+00:33:44,870 --> 00:33:47,110
+ 
+ 
+
+00:33:47,110 --> 00:33:47,120
+ 
+ 
+
+00:33:47,120 --> 00:33:48,870
+ 
+
+
+00:33:48,870 --> 00:33:48,880
+ 
+ 
+
+00:33:48,880 --> 00:33:53,990
+ 
+
+
+00:33:53,990 --> 00:34:00,870
+ 
+ 
+
+00:34:00,870 --> 00:34:03,190
+ 
+ 
+
+00:34:03,190 --> 00:34:07,750
+ 
+ 
+
+00:34:07,750 --> 00:34:11,909
+ 
+ 
+
+00:34:11,909 --> 00:34:14,470
+ 
+ 
+
+00:34:14,470 --> 00:34:18,829
+ 
+ 
+
+00:34:18,829 --> 00:34:22,470
+ 
+ 
+
+00:34:22,470 --> 00:34:25,669
+ 
+ 
+
+00:34:25,669 --> 00:34:34,950
+ 
+ 
+
+00:34:34,950 --> 00:34:39,030
+ 
+ 
+
+00:34:39,030 --> 00:34:39,040
+ 
+ 
+
+00:34:39,040 --> 00:34:39,990
+ 
+
+
+00:34:39,990 --> 00:34:43,270
+ 
+ 
+
+00:34:43,270 --> 00:34:43,280
+ 
+ 
+
+00:34:43,280 --> 00:34:50,790
+ 
+
+
+00:34:50,790 --> 00:34:52,149
+ 
+ 
+
+00:34:52,149 --> 00:35:02,390
+ 
+ 
+
+00:35:02,390 --> 00:35:05,510
+ 
+ 
+
+00:35:05,510 --> 00:35:05,520
+ 
+ 
+
+00:35:05,520 --> 00:35:06,950
+ 
+
+
+00:35:06,950 --> 00:35:06,960
+ 
+ 
+
+00:35:06,960 --> 00:35:09,109
+ 
+
+
+00:35:09,109 --> 00:35:11,829
+ 
+ 
+
+00:35:11,829 --> 00:35:13,990
+ 
+ 
+
+00:35:13,990 --> 00:35:15,670
+ 
+ 
+
+00:35:15,670 --> 00:35:19,109
+ 
+ 
+
+00:35:19,109 --> 00:35:20,950
+ 
+ 
+
+00:35:20,950 --> 00:35:20,960
+ 
+ 
+
+00:35:20,960 --> 00:35:28,069
+ 
+
+
+00:35:28,069 --> 00:35:30,550
+ 
+ 
+
+00:35:30,550 --> 00:35:33,829
+ 
+ 
+
+00:35:33,829 --> 00:35:33,839
+ 
+ 
+
+00:35:33,839 --> 00:35:35,030
+ 
+
+
+00:35:35,030 --> 00:35:36,630
+ 
+ 
+
+00:35:36,630 --> 00:35:51,510
+ 
+ 
+
+00:35:51,510 --> 00:35:51,520
+ 
+ 
+
+00:35:51,520 --> 00:36:01,109
+ 
+
+
+00:36:01,109 --> 00:36:03,270
+ 
+ 
+
+00:36:03,270 --> 00:36:05,430
+ 
+ 
+
+00:36:05,430 --> 00:36:09,589
+ 
+ 
+
+00:36:09,589 --> 00:36:10,950
+ 
+ 
+
+00:36:10,950 --> 00:36:13,030
+ 
+ 
+
+00:36:13,030 --> 00:36:16,470
+ 
+ 
+
+00:36:16,470 --> 00:36:19,510
+ 
+ 
+
+00:36:19,510 --> 00:36:21,510
+ 
+ 
+
+00:36:21,510 --> 00:36:23,270
+ 
+ 
+
+00:36:23,270 --> 00:36:26,790
+ 
+ 
+
+00:36:26,790 --> 00:36:26,800
+ 
+ 
+
+00:36:26,800 --> 00:36:27,750
+ 
+
+
+00:36:27,750 --> 00:36:34,550
+ 
+ 
+
+00:36:34,550 --> 00:36:39,270
+ 
+ 
+
+00:36:39,270 --> 00:36:41,190
+ 
+ 
+
+00:36:41,190 --> 00:36:41,200
+ 
+ 
+
+00:36:41,200 --> 00:36:44,069
+ 
+
+
+00:36:44,069 --> 00:36:47,510
+ 
+ 
+
+00:36:47,510 --> 00:36:50,230
+ 
+ 
+
+00:36:50,230 --> 00:36:57,270
+ 
+ 
+
+00:36:57,270 --> 00:37:04,470
+ 
+ 
+
+00:37:04,470 --> 00:37:08,390
+ 
+ 
+
+00:37:08,390 --> 00:37:11,990
+ 
+ 
+
+00:37:11,990 --> 00:37:14,630
+ 
+ 
+
+00:37:14,630 --> 00:37:14,640
+ 
+ 
+
+00:37:14,640 --> 00:37:22,390
+ 
+
+
+00:37:22,390 --> 00:37:25,910
+ 
+ 
+
+00:37:25,910 --> 00:37:25,920
+ 
+ 
+
+00:37:25,920 --> 00:37:27,030
+ 
+
+
+00:37:27,030 --> 00:37:29,349
+ 
+ 
+
+00:37:29,349 --> 00:37:31,910
+ 
+ 
+
+00:37:31,910 --> 00:37:33,910
+ 
+ 
+
+00:37:33,910 --> 00:37:35,510
+ 
+ 
+
+00:37:35,510 --> 00:37:37,349
+ 
+ 
+
+00:37:37,349 --> 00:37:39,510
+ 
+ 
+
+00:37:39,510 --> 00:37:42,069
+ 
+ 
+
+00:37:42,069 --> 00:37:43,990
+ 
+ 
+
+00:37:43,990 --> 00:37:46,230
+ 
+ 
+
+00:37:46,230 --> 00:37:48,630
+ 
+ 
+
+00:37:48,630 --> 00:37:50,310
+ 
+ 
+
+00:37:50,310 --> 00:37:51,750
+ 
+ 
+
+00:37:51,750 --> 00:37:53,910
+ 
+ 
+
+00:37:53,910 --> 00:37:56,310
+ 
+ 
+
+00:37:56,310 --> 00:37:58,790
+ 
+ 
+
+00:37:58,790 --> 00:38:01,109
+ 
+ 
+
+00:38:01,109 --> 00:38:02,950
+ 
+ 
+
+00:38:02,950 --> 00:38:07,160
+ 
+ 
+

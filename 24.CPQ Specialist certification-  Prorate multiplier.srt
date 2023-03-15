@@ -1,0 +1,1729 @@
+
+00:00:00,719 --> 00:00:02,389
+ 
+good everyone i hope you guys have an  amazing day uh so today what i'm going  to do i'm going to talk a little bit  more about the proration i mean if you  remember in the last episode i talked  about the prorate right so how the pro  rate was calculated uh when you have a  subscription for say uh 12 months and we  decide to buy a product you know for 28  months right so uh so today what i'm  going to do it's more a theory session  so i decided to you know cover this from  a trailhead uh there's no point in  duplicating to a slide right so i might  as well  excuse me uh talked uh to talk to you  guys through  uh through the trailhead right uh  so  it's pretty simple right proration right  progression uh so in the last episode if  you remember  uh i created a product called  i just go back  um  some vpn license  and i set the product price to 10 bucks  right  so if you try to add to a code  and say for instance if i go back to the  code again right and  which one this one is it i guess  uh does it expire it's just a second  let me show you what i'm trying to do  okay now i'm just gonna make this one  so  so if i say i put it as 24  uh for two terms right that's for two  years  uh it will calculate behind the scene  right uh when you try to add a product  um for 10 bucks for 12 months it will  say hey the price of the product for two  years is uh 20 bucks right now you must  be wondering how  that's happening behind the scene um  there is something called uh the prorate  multiplier so in this case uh the pro  rate value will be two because you put  the term in your code as uh 24 and so  the the actual term for the product will  be just defined  uh if you remember by going to the  product  that's um  so that's  so usually if you don't mention it  excuse me it's usually 12 months so  what happens is if i try to um add a  product here  excuse me  um so it will  tell you that  uh okay so the pro rate is two so  um and i'm going to work out the total  price for this code right based on the  24  months contract  so what we'll do it will uh first of all  it will try to calculate the prorate  multiplier  and the way it works is that it will  pick up your  the code description terms and and the  total term the product is for sorry the  code  uh subscription term which is the 24 and  then the product term so uh 24 divided  by 12 that is two and then when the  co product get added to the code so to  pick up the uh  the price from price book so in this  case because we are talking about the  fixed price right  so it will pick up 10 and multiply by  two  okay that's that's cool  right but what happens right if you have  uh you know start date and end date and  you have months right  and sometimes you don't want to  uh just say for instance if i if my code  starts from first of august right uh of  2022 and it ends and an end date for  that code is say  uh 5th of august 2023 so obviously  uh you can say if you're rounding up  okay to 12 months but  what if the the customer is not happy  with that they wanted to calculate the  number of days right  along with the month so we have an  option called month and day so that  means you know probably 12 months and  four days so you need to still work out  the four days price right uh so how do  we do that so for that you need to have  a option set up in place okay so this is  a option you need to set up under  configuration which is very important  so as usual so you go to get call icon  go to setup  right  i'll show you a few options there and we  will walk uh through how the price get  calculated behind the scene uh this is  very important in terms of understanding  how the price works uh because uh when  it comes to subscription because you  know if you don't understand it you  might end up in you know suggesting  something and the customer might have  different  uh you know price of outcome and which  they may not be very happy with it right  okay so you go to the  install here and go to install package  um and then show package you go to  it's taking some time configure  um  okay so go to subscription here right  now pay attention to the subscription  plus pro rate position right right now  set to month  so  um because in our case why was  calculating monthly because we haven't  specified  uh you know if you look at it any uh  start date and end date so it doesn't  matter so just working on the plane from  subscription so  uh  but if you have start date and date you  know how this is going to work so the  month right so let's start the month  this will be the basic  uh this will be the simplest option  where the customer don't care about the  number of days like i said um you know  you have a start date on first august  and you know  of 2022 and the end date of fourth of  august 2023 right so obviously it's 12  months but if you're not considering  days who cares right it's just it's just  a flat two a month so  um  that's great so that's and and you're  obviously  uh your  the pro rate right multiplier that's  plays an important role so all of this  right all of the settings that  contributes to the calculation of the  pro rate multiplied the one i i spoke  about just just a minute ago right uh  you have 24 months description uh sorry  code is for 24 months and the product is  12 months right so your prorate  multiplier will be 24 divided by 12. uh  the sim so that's how it normally works  so that's exactly what they're talking  about so round up that's the months  right  and your the default uh subscription  terms so this is your uh the default  subscription terms  i just go up  so it's like in the code line so this is  your default subscription term right  um so let me go back  to your  cancel  all right sorry  anyways not mine so as you can see here  so they talk about the default  subscription term here um so  that's great uh so that's one way that's  the calculation works and it's and it's  pretty simple now if you change the  month and daily right so  in this case you know obviously we're  not dealing with months so this might be  a bit of confusing when you were  dealing for the first time but that's  why i often use this  i often keep a chart right but it's easy  for you to if you are cpq consultant  right  having this chart handy you know you can  you can stick it to your you know  board wherever you wanted to do right  this is always handy because you know if  customers ask you hey you know i wanted  to do based on days or days with the  calendar i want to exclude the leap year  and not leave here right so it's good to  have this okay so if you have monthly  and daily right so that's the setting  here um you change it to here uh  so you change it and save it and then  you work with your codes and and the  products right so the way it works is  that your total number months which is  right obviously from um between august  1st and uh 2022. uh let's take an  example of this one right it's pretty  simple so they're talking about uh you  know  the start date is the the tenth of  2022 january and the end date is april  15th so obviously it contains 15 days  but along with that  it does contain six days extra okay  so you know if you are talking only  purely in terms of month yes it's it's a  15 month but if you're not talking  purely only in terms of months but  months plus days so you got extra five  days right so how do you work out those  extra five days that's where the monthly  and daily comes in the picture so you do  months okay then the remaining days  which is six now divided by you know  the 365 by 12 and your  um  the subscription term default right  that's 12.  um  obviously  what happens is  it will calculate your prorate and then  you multiply the prorate with the price  so that will give you the result that's  pretty much it  and the same with the calendar with  monthly so we do partial days in the  start month  uh you know in this case uh you know  it's she got 22  and plus sorry divided by stays in the  start month that is  how many days total days  so partial days means you know whatever  the remaining days right from the gen 10  so it's obviously  you can say it's 22 days right so 22  divided by number of days in a month  that is the 31  um  then the whole month the total number a  month right the calculating plus the  partial days in the end month so the  last month you know april 15  to you know  the the 30th of april that's obviously  15 days  uh then the water by days in a month and  then total i know this can be confusing  but the uh but the cpq does this behind  the scene this is just to let you know  how the calculation works right it's  just important to understand because if  someone asks you can you explain to me  how the prorate  multiplier is calculated when i have  calendar monthly plus daily uh option  set up and if you say um i am not sure  then that won't be a good look right so  it's just better to understand or you  can show this to your customer hey this  is how it works right uh the day is  pretty simple right the number of days  between the you know start and end days  and the 366. so 366 is constrained the  leap year so that's how it works right  sometimes you have 29 days in in the  month in february you know considering  the leap year or not so  you have to factor that so and if you're  not interested right uh if you're just  saying hey i don't you know give a dang  about the leap here so there is an  option  uh  how to turn that off so just go here see  just notice the screen right just pay  attention to the screen for a second uh  if you change this to days  okay your option changes so you can  obviously say ignore leap here then you  know it works the way it's supposed to  work  so you can read it selecting this field  will ignore the extra dice from the leap  year  uh in the pro rate calculation right so  if you're thinking if you think that  okay the epr might be an issue so just  take this option right and we'll take  care of it  the same goes for i think  i'm not sure if this is okay yeah the  the days with calendar month  so ignore the leave here right so that's  okay so in that case the days of  calendar month it's the calculation is  the year just for one year plus  remaining days how many days  divided by x x is 366 running days  so it's based on the leap year right so  that's um  that's pretty much it  so  um  so 96 days remaining years right 12 plus  three that's 15 months so total number  of days that's obviously  you know the 96 days because you know  you obviously calculate from june 10 to  you know probably  june 10th of next year and then from  there to april 15 so that's 96 days  that's what the 96 days is here if you  are wondering what it is right  so  and then i'll talk about the days method  it's usually unusual right  uh  so they say that if your all  subscription term unit is day you must  choose day method for all methods that  are all usually you know i i don't know  about you guys if you work for cpq i  haven't seen the days method getting  used much is usually customer first  month because that depends upon the uh  the moral of business you're dealing  with i suppose right  but normally you know  the place where i've  kind of done cp implementation in the  past uh they were providing products  based on the monthly so  the days were not usually considered so  uh  so yeah i mean i haven't seen much  getting used but but whatever right  so yeah so this is the option as i  mentioned so this is just a theory i  wanted to walk you through what you guys  walking through guys for  uh to help you guys understand you know  why the pro rate uh calculation is  important because the prorate uh  multiplication factor  is what determines your outcome in terms  of the price right the code price  otherwise you might be confused right  why this guy's calculating this way why  i'm getting a strange cpq you know price  result that's because of the prorated  multiplier  so one troubleshooting step i will  suggest you if you've configured right  your prorate uh and if you're getting so  for instance you know if you're if your  customer is saying hey the price is not  working for whatever reason for you know  after the last update so just have a  look at the settings right to see what  you've configured here and subscription  term unit and look at the product look  at the code you know that's one of the  easy way to troubleshoot right so that's  pretty much i wanted to cover i mean  this is not a handsome session i i  appreciate the fact that you know it's  too much to you know grasp uh in terms  of uh the functionality but i would say  that it's very important uh concept to  learn from an exam point of view as well  as from your implementation point of  view so that being said i hope you guys  have an amazing sunday adios
+
+00:00:02,389 --> 00:00:04,070
+good everyone i hope you guys have an  amazing day uh so today what i'm going  to do i'm going to talk a little bit  more about the proration i mean if you  remember in the last episode i talked  about the prorate right so how the pro  rate was calculated uh when you have a  subscription for say uh 12 months and we  decide to buy a product you know for 28  months right so uh so today what i'm  going to do it's more a theory session  so i decided to you know cover this from  a trailhead uh there's no point in  duplicating to a slide right so i might  as well  excuse me uh talked uh to talk to you  guys through  uh through the trailhead right uh  so  it's pretty simple right proration right  progression uh so in the last episode if  you remember  uh i created a product called  i just go back  um  some vpn license  and i set the product price to 10 bucks  right  so if you try to add to a code  and say for instance if i go back to the  code again right and  which one this one is it i guess  uh does it expire it's just a second  let me show you what i'm trying to do  okay now i'm just gonna make this one  so  so if i say i put it as 24  uh for two terms right that's for two  years  uh it will calculate behind the scene  right uh when you try to add a product  um for 10 bucks for 12 months it will  say hey the price of the product for two  years is uh 20 bucks right now you must  be wondering how  that's happening behind the scene um  there is something called uh the prorate  multiplier so in this case uh the pro  rate value will be two because you put  the term in your code as uh 24 and so  the the actual term for the product will  be just defined  uh if you remember by going to the  product  that's um  so that's  so usually if you don't mention it  excuse me it's usually 12 months so  what happens is if i try to um add a  product here  excuse me  um so it will  tell you that  uh okay so the pro rate is two so  um and i'm going to work out the total  price for this code right based on the  24  months contract  so what we'll do it will uh first of all  it will try to calculate the prorate  multiplier  and the way it works is that it will  pick up your  the code description terms and and the  total term the product is for sorry the  code  uh subscription term which is the 24 and  then the product term so uh 24 divided  by 12 that is two and then when the  co product get added to the code so to  pick up the uh  the price from price book so in this  case because we are talking about the  fixed price right  so it will pick up 10 and multiply by  two  okay that's that's cool  right but what happens right if you have  uh you know start date and end date and  you have months right  and sometimes you don't want to  uh just say for instance if i if my code  starts from first of august right uh of  2022 and it ends and an end date for  that code is say  uh 5th of august 2023 so obviously  uh you can say if you're rounding up  okay to 12 months but  what if the the customer is not happy  with that they wanted to calculate the  number of days right  along with the month so we have an  option called month and day so that  means you know probably 12 months and  four days so you need to still work out  the four days price right uh so how do  we do that so for that you need to have  a option set up in place okay so this is  a option you need to set up under  configuration which is very important  so as usual so you go to get call icon  go to setup  right  i'll show you a few options there and we  will walk uh through how the price get  calculated behind the scene uh this is  very important in terms of understanding  how the price works uh because uh when  it comes to subscription because you  know if you don't understand it you  might end up in you know suggesting  something and the customer might have  different  uh you know price of outcome and which  they may not be very happy with it right  okay so you go to the  install here and go to install package  um and then show package you go to  it's taking some time configure  um  okay so go to subscription here right  now pay attention to the subscription  plus pro rate position right right now  set to month  so  um because in our case why was  calculating monthly because we haven't  specified  uh you know if you look at it any uh  start date and end date so it doesn't  matter so just working on the plane from  subscription so  uh  but if you have start date and date you  know how this is going to work so the  month right so let's start the month  this will be the basic  uh this will be the simplest option  where the customer don't care about the  number of days like i said um you know  you have a start date on first august  and you know  of 2022 and the end date of fourth of  august 2023 right so obviously it's 12  months but if you're not considering  days who cares right it's just it's just  a flat two a month so  um  that's great so that's and and you're  obviously  uh your  the pro rate right multiplier that's  plays an important role so all of this  right all of the settings that  contributes to the calculation of the  pro rate multiplied the one i i spoke  about just just a minute ago right uh  you have 24 months description uh sorry  code is for 24 months and the product is  12 months right so your prorate  multiplier will be 24 divided by 12. uh  the sim so that's how it normally works  so that's exactly what they're talking  about so round up that's the months  right  and your the default uh subscription  terms so this is your uh the default  subscription terms  i just go up  so it's like in the code line so this is  your default subscription term right  um so let me go back  to your  cancel  all right sorry  anyways not mine so as you can see here  so they talk about the default  subscription term here um so  that's great uh so that's one way that's  the calculation works and it's and it's  pretty simple now if you change the  month and daily right so  in this case you know obviously we're  not dealing with months so this might be  a bit of confusing when you were  dealing for the first time but that's  why i often use this  i often keep a chart right but it's easy  for you to if you are cpq consultant  right  having this chart handy you know you can  you can stick it to your you know  board wherever you wanted to do right  this is always handy because you know if  customers ask you hey you know i wanted  to do based on days or days with the  calendar i want to exclude the leap year  and not leave here right so it's good to  have this okay so if you have monthly  and daily right so that's the setting  here um you change it to here uh  so you change it and save it and then  you work with your codes and and the  products right so the way it works is  that your total number months which is  right obviously from um between august  1st and uh 2022. uh let's take an  example of this one right it's pretty  simple so they're talking about uh you  know  the start date is the the tenth of  2022 january and the end date is april  15th so obviously it contains 15 days  but along with that  it does contain six days extra okay  so you know if you are talking only  purely in terms of month yes it's it's a  15 month but if you're not talking  purely only in terms of months but  months plus days so you got extra five  days right so how do you work out those  extra five days that's where the monthly  and daily comes in the picture so you do  months okay then the remaining days  which is six now divided by you know  the 365 by 12 and your  um  the subscription term default right  that's 12.  um  obviously  what happens is  it will calculate your prorate and then  you multiply the prorate with the price  so that will give you the result that's  pretty much it  and the same with the calendar with  monthly so we do partial days in the  start month  uh you know in this case uh you know  it's she got 22  and plus sorry divided by stays in the  start month that is  how many days total days  so partial days means you know whatever  the remaining days right from the gen 10  so it's obviously  you can say it's 22 days right so 22  divided by number of days in a month  that is the 31  um  then the whole month the total number a  month right the calculating plus the  partial days in the end month so the  last month you know april 15  to you know  the the 30th of april that's obviously  15 days  uh then the water by days in a month and  then total i know this can be confusing  but the uh but the cpq does this behind  the scene this is just to let you know  how the calculation works right it's  just important to understand because if  someone asks you can you explain to me  how the prorate  multiplier is calculated when i have  calendar monthly plus daily uh option  set up and if you say um i am not sure  then that won't be a good look right so  it's just better to understand or you  can show this to your customer hey this  is how it works right uh the day is  pretty simple right the number of days  between the you know start and end days  and the 366. so 366 is constrained the  leap year so that's how it works right  sometimes you have 29 days in in the  month in february you know considering  the leap year or not so  you have to factor that so and if you're  not interested right uh if you're just  saying hey i don't you know give a dang  about the leap here so there is an  option  uh  how to turn that off so just go here see  just notice the screen right just pay  attention to the screen for a second uh  if you change this to days  okay your option changes so you can  obviously say ignore leap here then you  know it works the way it's supposed to  work  so you can read it selecting this field  will ignore the extra dice from the leap  year  uh in the pro rate calculation right so  if you're thinking if you think that  okay the epr might be an issue so just  take this option right and we'll take  care of it  the same goes for i think  i'm not sure if this is okay yeah the  the days with calendar month  so ignore the leave here right so that's  okay so in that case the days of  calendar month it's the calculation is  the year just for one year plus  remaining days how many days  divided by x x is 366 running days  so it's based on the leap year right so  that's um  that's pretty much it  so  um  so 96 days remaining years right 12 plus  three that's 15 months so total number  of days that's obviously  you know the 96 days because you know  you obviously calculate from june 10 to  you know probably  june 10th of next year and then from  there to april 15 so that's 96 days  that's what the 96 days is here if you  are wondering what it is right  so  and then i'll talk about the days method  it's usually unusual right  uh  so they say that if your all  subscription term unit is day you must  choose day method for all methods that  are all usually you know i i don't know  about you guys if you work for cpq i  haven't seen the days method getting  used much is usually customer first  month because that depends upon the uh  the moral of business you're dealing  with i suppose right  but normally you know  the place where i've  kind of done cp implementation in the  past uh they were providing products  based on the monthly so  the days were not usually considered so  uh  so yeah i mean i haven't seen much  getting used but but whatever right  so yeah so this is the option as i  mentioned so this is just a theory i  wanted to walk you through what you guys  walking through guys for  uh to help you guys understand you know  why the pro rate uh calculation is  important because the prorate uh  multiplication factor  is what determines your outcome in terms  of the price right the code price  otherwise you might be confused right  why this guy's calculating this way why  i'm getting a strange cpq you know price  result that's because of the prorated  multiplier  so one troubleshooting step i will  suggest you if you've configured right  your prorate uh and if you're getting so  for instance you know if you're if your  customer is saying hey the price is not  working for whatever reason for you know  after the last update so just have a  look at the settings right to see what  you've configured here and subscription  term unit and look at the product look  at the code you know that's one of the  easy way to troubleshoot right so that's  pretty much i wanted to cover i mean  this is not a handsome session i i  appreciate the fact that you know it's  too much to you know grasp uh in terms  of uh the functionality but i would say  that it's very important uh concept to  learn from an exam point of view as well  as from your implementation point of  view so that being said i hope you guys  have an amazing sunday adios
+ 
+
+00:00:04,070 --> 00:00:05,590
+ 
+ 
+
+00:00:05,590 --> 00:00:08,230
+ 
+ 
+
+00:00:08,230 --> 00:00:09,910
+ 
+ 
+
+00:00:09,910 --> 00:00:11,669
+ 
+ 
+
+00:00:11,669 --> 00:00:14,070
+ 
+ 
+
+00:00:14,070 --> 00:00:17,269
+ 
+ 
+
+00:00:17,269 --> 00:00:19,590
+ 
+ 
+
+00:00:19,590 --> 00:00:21,910
+ 
+ 
+
+00:00:21,910 --> 00:00:23,509
+ 
+ 
+
+00:00:23,509 --> 00:00:25,509
+ 
+ 
+
+00:00:25,509 --> 00:00:27,429
+ 
+ 
+
+00:00:27,429 --> 00:00:29,109
+ 
+ 
+
+00:00:29,109 --> 00:00:30,710
+ 
+ 
+
+00:00:30,710 --> 00:00:33,750
+ 
+ 
+
+00:00:33,750 --> 00:00:34,870
+ 
+ 
+
+00:00:34,870 --> 00:00:37,750
+ 
+ 
+
+00:00:37,750 --> 00:00:37,760
+ 
+ 
+
+00:00:37,760 --> 00:00:39,670
+ 
+
+
+00:00:39,670 --> 00:00:41,910
+ 
+ 
+
+00:00:41,910 --> 00:00:44,709
+ 
+ 
+
+00:00:44,709 --> 00:00:45,830
+ 
+ 
+
+00:00:45,830 --> 00:00:49,270
+ 
+ 
+
+00:00:49,270 --> 00:00:52,389
+ 
+ 
+
+00:00:52,389 --> 00:00:52,399
+ 
+ 
+
+00:00:52,399 --> 00:00:55,510
+ 
+
+
+00:00:55,510 --> 00:00:57,430
+ 
+ 
+
+00:00:57,430 --> 00:00:59,990
+ 
+ 
+
+00:00:59,990 --> 00:01:00,000
+ 
+ 
+
+00:01:00,000 --> 00:01:01,110
+ 
+
+
+00:01:01,110 --> 00:01:04,469
+ 
+ 
+
+00:01:04,469 --> 00:01:06,870
+ 
+ 
+
+00:01:06,870 --> 00:01:09,910
+ 
+ 
+
+00:01:09,910 --> 00:01:14,550
+ 
+ 
+
+00:01:14,550 --> 00:01:17,590
+ 
+ 
+
+00:01:17,590 --> 00:01:20,630
+ 
+ 
+
+00:01:20,630 --> 00:01:23,910
+ 
+ 
+
+00:01:23,910 --> 00:01:23,920
+ 
+ 
+
+00:01:23,920 --> 00:01:25,830
+ 
+
+
+00:01:25,830 --> 00:01:29,109
+ 
+ 
+
+00:01:29,109 --> 00:01:31,990
+ 
+ 
+
+00:01:31,990 --> 00:01:32,000
+ 
+ 
+
+00:01:32,000 --> 00:01:32,789
+ 
+
+
+00:01:32,789 --> 00:01:35,670
+ 
+ 
+
+00:01:35,670 --> 00:01:38,310
+ 
+ 
+
+00:01:38,310 --> 00:01:40,870
+ 
+ 
+
+00:01:40,870 --> 00:01:43,429
+ 
+ 
+
+00:01:43,429 --> 00:01:45,510
+ 
+ 
+
+00:01:45,510 --> 00:01:46,710
+ 
+ 
+
+00:01:46,710 --> 00:01:48,710
+ 
+ 
+
+00:01:48,710 --> 00:01:51,109
+ 
+ 
+
+00:01:51,109 --> 00:01:53,990
+ 
+ 
+
+00:01:53,990 --> 00:01:56,709
+ 
+ 
+
+00:01:56,709 --> 00:02:01,030
+ 
+ 
+
+00:02:01,030 --> 00:02:03,190
+ 
+ 
+
+00:02:03,190 --> 00:02:04,870
+ 
+ 
+
+00:02:04,870 --> 00:02:06,950
+ 
+ 
+
+00:02:06,950 --> 00:02:06,960
+ 
+ 
+
+00:02:06,960 --> 00:02:11,589
+ 
+
+
+00:02:11,589 --> 00:02:17,430
+ 
+ 
+
+00:02:17,430 --> 00:02:19,910
+ 
+ 
+
+00:02:19,910 --> 00:02:21,830
+ 
+ 
+
+00:02:21,830 --> 00:02:24,869
+ 
+ 
+
+00:02:24,869 --> 00:02:27,670
+ 
+ 
+
+00:02:27,670 --> 00:02:29,190
+ 
+ 
+
+00:02:29,190 --> 00:02:31,030
+ 
+ 
+
+00:02:31,030 --> 00:02:33,509
+ 
+ 
+
+00:02:33,509 --> 00:02:35,350
+ 
+ 
+
+00:02:35,350 --> 00:02:38,070
+ 
+ 
+
+00:02:38,070 --> 00:02:40,710
+ 
+ 
+
+00:02:40,710 --> 00:02:43,670
+ 
+ 
+
+00:02:43,670 --> 00:02:43,680
+ 
+ 
+
+00:02:43,680 --> 00:02:44,710
+ 
+
+
+00:02:44,710 --> 00:02:46,309
+ 
+ 
+
+00:02:46,309 --> 00:02:49,670
+ 
+ 
+
+00:02:49,670 --> 00:02:51,430
+ 
+ 
+
+00:02:51,430 --> 00:02:51,440
+ 
+ 
+
+00:02:51,440 --> 00:02:52,630
+ 
+
+
+00:02:52,630 --> 00:02:54,470
+ 
+ 
+
+00:02:54,470 --> 00:02:55,589
+ 
+ 
+
+00:02:55,589 --> 00:02:58,229
+ 
+ 
+
+00:02:58,229 --> 00:03:01,110
+ 
+ 
+
+00:03:01,110 --> 00:03:01,120
+ 
+ 
+
+00:03:01,120 --> 00:03:01,910
+ 
+
+
+00:03:01,910 --> 00:03:04,070
+ 
+ 
+
+00:03:04,070 --> 00:03:06,710
+ 
+ 
+
+00:03:06,710 --> 00:03:09,910
+ 
+ 
+
+00:03:09,910 --> 00:03:11,990
+ 
+ 
+
+00:03:11,990 --> 00:03:14,309
+ 
+ 
+
+00:03:14,309 --> 00:03:16,149
+ 
+ 
+
+00:03:16,149 --> 00:03:17,990
+ 
+ 
+
+00:03:17,990 --> 00:03:19,670
+ 
+ 
+
+00:03:19,670 --> 00:03:22,550
+ 
+ 
+
+00:03:22,550 --> 00:03:22,560
+ 
+ 
+
+00:03:22,560 --> 00:03:23,589
+ 
+
+
+00:03:23,589 --> 00:03:25,750
+ 
+ 
+
+00:03:25,750 --> 00:03:29,190
+ 
+ 
+
+00:03:29,190 --> 00:03:30,949
+ 
+ 
+
+00:03:30,949 --> 00:03:32,390
+ 
+ 
+
+00:03:32,390 --> 00:03:35,110
+ 
+ 
+
+00:03:35,110 --> 00:03:38,070
+ 
+ 
+
+00:03:38,070 --> 00:03:40,470
+ 
+ 
+
+00:03:40,470 --> 00:03:43,589
+ 
+ 
+
+00:03:43,589 --> 00:03:44,949
+ 
+ 
+
+00:03:44,949 --> 00:03:48,229
+ 
+ 
+
+00:03:48,229 --> 00:03:50,710
+ 
+ 
+
+00:03:50,710 --> 00:03:52,869
+ 
+ 
+
+00:03:52,869 --> 00:03:54,869
+ 
+ 
+
+00:03:54,869 --> 00:03:56,470
+ 
+ 
+
+00:03:56,470 --> 00:03:58,390
+ 
+ 
+
+00:03:58,390 --> 00:03:59,990
+ 
+ 
+
+00:03:59,990 --> 00:04:01,670
+ 
+ 
+
+00:04:01,670 --> 00:04:04,309
+ 
+ 
+
+00:04:04,309 --> 00:04:06,309
+ 
+ 
+
+00:04:06,309 --> 00:04:09,509
+ 
+ 
+
+00:04:09,509 --> 00:04:12,470
+ 
+ 
+
+00:04:12,470 --> 00:04:15,110
+ 
+ 
+
+00:04:15,110 --> 00:04:17,110
+ 
+ 
+
+00:04:17,110 --> 00:04:19,430
+ 
+ 
+
+00:04:19,430 --> 00:04:22,710
+ 
+ 
+
+00:04:22,710 --> 00:04:24,629
+ 
+ 
+
+00:04:24,629 --> 00:04:24,639
+ 
+ 
+
+00:04:24,639 --> 00:04:26,230
+ 
+
+
+00:04:26,230 --> 00:04:27,749
+ 
+ 
+
+00:04:27,749 --> 00:04:30,550
+ 
+ 
+
+00:04:30,550 --> 00:04:32,950
+ 
+ 
+
+00:04:32,950 --> 00:04:35,590
+ 
+ 
+
+00:04:35,590 --> 00:04:38,550
+ 
+ 
+
+00:04:38,550 --> 00:04:40,070
+ 
+ 
+
+00:04:40,070 --> 00:04:41,350
+ 
+ 
+
+00:04:41,350 --> 00:04:43,510
+ 
+ 
+
+00:04:43,510 --> 00:04:45,430
+ 
+ 
+
+00:04:45,430 --> 00:04:45,440
+ 
+ 
+
+00:04:45,440 --> 00:04:46,390
+ 
+
+
+00:04:46,390 --> 00:04:49,670
+ 
+ 
+
+00:04:49,670 --> 00:04:51,590
+ 
+ 
+
+00:04:51,590 --> 00:04:53,990
+ 
+ 
+
+00:04:53,990 --> 00:04:57,909
+ 
+ 
+
+00:04:57,909 --> 00:05:01,110
+ 
+ 
+
+00:05:01,110 --> 00:05:05,909
+ 
+ 
+
+00:05:05,909 --> 00:05:05,919
+ 
+ 
+
+00:05:05,919 --> 00:05:07,430
+ 
+
+
+00:05:07,430 --> 00:05:09,430
+ 
+ 
+
+00:05:09,430 --> 00:05:11,590
+ 
+ 
+
+00:05:11,590 --> 00:05:13,670
+ 
+ 
+
+00:05:13,670 --> 00:05:14,950
+ 
+ 
+
+00:05:14,950 --> 00:05:14,960
+ 
+ 
+
+00:05:14,960 --> 00:05:16,310
+ 
+
+
+00:05:16,310 --> 00:05:18,790
+ 
+ 
+
+00:05:18,790 --> 00:05:20,390
+ 
+ 
+
+00:05:20,390 --> 00:05:20,400
+ 
+ 
+
+00:05:20,400 --> 00:05:21,670
+ 
+
+
+00:05:21,670 --> 00:05:24,950
+ 
+ 
+
+00:05:24,950 --> 00:05:26,390
+ 
+ 
+
+00:05:26,390 --> 00:05:28,550
+ 
+ 
+
+00:05:28,550 --> 00:05:29,830
+ 
+ 
+
+00:05:29,830 --> 00:05:29,840
+ 
+ 
+
+00:05:29,840 --> 00:05:30,550
+ 
+
+
+00:05:30,550 --> 00:05:32,550
+ 
+ 
+
+00:05:32,550 --> 00:05:34,070
+ 
+ 
+
+00:05:34,070 --> 00:05:35,749
+ 
+ 
+
+00:05:35,749 --> 00:05:37,270
+ 
+ 
+
+00:05:37,270 --> 00:05:39,430
+ 
+ 
+
+00:05:39,430 --> 00:05:40,950
+ 
+ 
+
+00:05:40,950 --> 00:05:43,350
+ 
+ 
+
+00:05:43,350 --> 00:05:45,430
+ 
+ 
+
+00:05:45,430 --> 00:05:46,629
+ 
+ 
+
+00:05:46,629 --> 00:05:49,189
+ 
+ 
+
+00:05:49,189 --> 00:05:52,469
+ 
+ 
+
+00:05:52,469 --> 00:05:53,990
+ 
+ 
+
+00:05:53,990 --> 00:05:57,029
+ 
+ 
+
+00:05:57,029 --> 00:05:59,749
+ 
+ 
+
+00:05:59,749 --> 00:05:59,759
+ 
+ 
+
+00:05:59,759 --> 00:06:00,629
+ 
+
+
+00:06:00,629 --> 00:06:03,749
+ 
+ 
+
+00:06:03,749 --> 00:06:03,759
+ 
+ 
+
+00:06:03,759 --> 00:06:05,029
+ 
+
+
+00:06:05,029 --> 00:06:06,469
+ 
+ 
+
+00:06:06,469 --> 00:06:09,110
+ 
+ 
+
+00:06:09,110 --> 00:06:11,749
+ 
+ 
+
+00:06:11,749 --> 00:06:13,110
+ 
+ 
+
+00:06:13,110 --> 00:06:14,790
+ 
+ 
+
+00:06:14,790 --> 00:06:17,110
+ 
+ 
+
+00:06:17,110 --> 00:06:19,590
+ 
+ 
+
+00:06:19,590 --> 00:06:21,830
+ 
+ 
+
+00:06:21,830 --> 00:06:23,749
+ 
+ 
+
+00:06:23,749 --> 00:06:25,990
+ 
+ 
+
+00:06:25,990 --> 00:06:29,029
+ 
+ 
+
+00:06:29,029 --> 00:06:32,230
+ 
+ 
+
+00:06:32,230 --> 00:06:33,590
+ 
+ 
+
+00:06:33,590 --> 00:06:36,230
+ 
+ 
+
+00:06:36,230 --> 00:06:36,240
+ 
+ 
+
+00:06:36,240 --> 00:06:37,029
+ 
+
+
+00:06:37,029 --> 00:06:39,749
+ 
+ 
+
+00:06:39,749 --> 00:06:42,870
+ 
+ 
+
+00:06:42,870 --> 00:06:46,070
+ 
+ 
+
+00:06:46,070 --> 00:06:47,510
+ 
+ 
+
+00:06:47,510 --> 00:06:49,749
+ 
+ 
+
+00:06:49,749 --> 00:06:52,950
+ 
+ 
+
+00:06:52,950 --> 00:06:56,870
+ 
+ 
+
+00:06:56,870 --> 00:06:58,629
+ 
+ 
+
+00:06:58,629 --> 00:06:58,639
+ 
+ 
+
+00:06:58,639 --> 00:07:04,790
+ 
+
+
+00:07:04,790 --> 00:07:16,469
+ 
+ 
+
+00:07:16,469 --> 00:07:19,350
+ 
+ 
+
+00:07:19,350 --> 00:07:20,469
+ 
+ 
+
+00:07:20,469 --> 00:07:24,469
+ 
+ 
+
+00:07:24,469 --> 00:07:27,350
+ 
+ 
+
+00:07:27,350 --> 00:07:28,950
+ 
+ 
+
+00:07:28,950 --> 00:07:31,029
+ 
+ 
+
+00:07:31,029 --> 00:07:33,430
+ 
+ 
+
+00:07:33,430 --> 00:07:35,350
+ 
+ 
+
+00:07:35,350 --> 00:07:38,469
+ 
+ 
+
+00:07:38,469 --> 00:07:40,550
+ 
+ 
+
+00:07:40,550 --> 00:07:41,909
+ 
+ 
+
+00:07:41,909 --> 00:07:44,869
+ 
+ 
+
+00:07:44,869 --> 00:07:47,110
+ 
+ 
+
+00:07:47,110 --> 00:07:49,189
+ 
+ 
+
+00:07:49,189 --> 00:07:49,199
+ 
+ 
+
+00:07:49,199 --> 00:07:49,990
+ 
+
+
+00:07:49,990 --> 00:07:52,309
+ 
+ 
+
+00:07:52,309 --> 00:07:54,629
+ 
+ 
+
+00:07:54,629 --> 00:07:56,790
+ 
+ 
+
+00:07:56,790 --> 00:07:59,189
+ 
+ 
+
+00:07:59,189 --> 00:08:01,029
+ 
+ 
+
+00:08:01,029 --> 00:08:03,909
+ 
+ 
+
+00:08:03,909 --> 00:08:05,990
+ 
+ 
+
+00:08:05,990 --> 00:08:08,230
+ 
+ 
+
+00:08:08,230 --> 00:08:10,950
+ 
+ 
+
+00:08:10,950 --> 00:08:13,270
+ 
+ 
+
+00:08:13,270 --> 00:08:16,550
+ 
+ 
+
+00:08:16,550 --> 00:08:18,710
+ 
+ 
+
+00:08:18,710 --> 00:08:20,710
+ 
+ 
+
+00:08:20,710 --> 00:08:22,869
+ 
+ 
+
+00:08:22,869 --> 00:08:24,869
+ 
+ 
+
+00:08:24,869 --> 00:08:27,749
+ 
+ 
+
+00:08:27,749 --> 00:08:30,950
+ 
+ 
+
+00:08:30,950 --> 00:08:32,949
+ 
+ 
+
+00:08:32,949 --> 00:08:35,430
+ 
+ 
+
+00:08:35,430 --> 00:08:35,440
+ 
+ 
+
+00:08:35,440 --> 00:08:36,230
+ 
+
+
+00:08:36,230 --> 00:08:40,949
+ 
+ 
+
+00:08:40,949 --> 00:08:43,829
+ 
+ 
+
+00:08:43,829 --> 00:08:46,710
+ 
+ 
+
+00:08:46,710 --> 00:08:48,470
+ 
+ 
+
+00:08:48,470 --> 00:08:51,430
+ 
+ 
+
+00:08:51,430 --> 00:08:53,350
+ 
+ 
+
+00:08:53,350 --> 00:08:55,430
+ 
+ 
+
+00:08:55,430 --> 00:08:57,430
+ 
+ 
+
+00:08:57,430 --> 00:08:58,949
+ 
+ 
+
+00:08:58,949 --> 00:09:01,430
+ 
+ 
+
+00:09:01,430 --> 00:09:04,070
+ 
+ 
+
+00:09:04,070 --> 00:09:06,070
+ 
+ 
+
+00:09:06,070 --> 00:09:08,070
+ 
+ 
+
+00:09:08,070 --> 00:09:10,070
+ 
+ 
+
+00:09:10,070 --> 00:09:13,430
+ 
+ 
+
+00:09:13,430 --> 00:09:16,310
+ 
+ 
+
+00:09:16,310 --> 00:09:16,320
+ 
+ 
+
+00:09:16,320 --> 00:09:18,630
+ 
+
+
+00:09:18,630 --> 00:09:20,150
+ 
+ 
+
+00:09:20,150 --> 00:09:22,150
+ 
+ 
+
+00:09:22,150 --> 00:09:22,160
+ 
+ 
+
+00:09:22,160 --> 00:09:23,030
+ 
+
+
+00:09:23,030 --> 00:09:23,040
+ 
+ 
+
+00:09:23,040 --> 00:09:25,350
+ 
+
+
+00:09:25,350 --> 00:09:27,030
+ 
+ 
+
+00:09:27,030 --> 00:09:29,030
+ 
+ 
+
+00:09:29,030 --> 00:09:30,790
+ 
+ 
+
+00:09:30,790 --> 00:09:32,389
+ 
+ 
+
+00:09:32,389 --> 00:09:33,509
+ 
+ 
+
+00:09:33,509 --> 00:09:35,190
+ 
+ 
+
+00:09:35,190 --> 00:09:37,910
+ 
+ 
+
+00:09:37,910 --> 00:09:39,430
+ 
+ 
+
+00:09:39,430 --> 00:09:42,949
+ 
+ 
+
+00:09:42,949 --> 00:09:46,470
+ 
+ 
+
+00:09:46,470 --> 00:09:49,030
+ 
+ 
+
+00:09:49,030 --> 00:09:50,949
+ 
+ 
+
+00:09:50,949 --> 00:09:53,430
+ 
+ 
+
+00:09:53,430 --> 00:09:55,430
+ 
+ 
+
+00:09:55,430 --> 00:09:57,670
+ 
+ 
+
+00:09:57,670 --> 00:09:59,430
+ 
+ 
+
+00:09:59,430 --> 00:10:02,389
+ 
+ 
+
+00:10:02,389 --> 00:10:04,550
+ 
+ 
+
+00:10:04,550 --> 00:10:06,310
+ 
+ 
+
+00:10:06,310 --> 00:10:06,320
+ 
+ 
+
+00:10:06,320 --> 00:10:07,269
+ 
+
+
+00:10:07,269 --> 00:10:09,430
+ 
+ 
+
+00:10:09,430 --> 00:10:11,750
+ 
+ 
+
+00:10:11,750 --> 00:10:13,590
+ 
+ 
+
+00:10:13,590 --> 00:10:15,990
+ 
+ 
+
+00:10:15,990 --> 00:10:17,350
+ 
+ 
+
+00:10:17,350 --> 00:10:20,310
+ 
+ 
+
+00:10:20,310 --> 00:10:21,590
+ 
+ 
+
+00:10:21,590 --> 00:10:24,550
+ 
+ 
+
+00:10:24,550 --> 00:10:27,110
+ 
+ 
+
+00:10:27,110 --> 00:10:29,829
+ 
+ 
+
+00:10:29,829 --> 00:10:31,670
+ 
+ 
+
+00:10:31,670 --> 00:10:33,350
+ 
+ 
+
+00:10:33,350 --> 00:10:35,269
+ 
+ 
+
+00:10:35,269 --> 00:10:36,710
+ 
+ 
+
+00:10:36,710 --> 00:10:38,150
+ 
+ 
+
+00:10:38,150 --> 00:10:39,829
+ 
+ 
+
+00:10:39,829 --> 00:10:43,110
+ 
+ 
+
+00:10:43,110 --> 00:10:45,509
+ 
+ 
+
+00:10:45,509 --> 00:10:48,069
+ 
+ 
+
+00:10:48,069 --> 00:10:49,750
+ 
+ 
+
+00:10:49,750 --> 00:10:51,590
+ 
+ 
+
+00:10:51,590 --> 00:10:54,069
+ 
+ 
+
+00:10:54,069 --> 00:10:56,550
+ 
+ 
+
+00:10:56,550 --> 00:10:58,550
+ 
+ 
+
+00:10:58,550 --> 00:11:01,910
+ 
+ 
+
+00:11:01,910 --> 00:11:04,310
+ 
+ 
+
+00:11:04,310 --> 00:11:06,470
+ 
+ 
+
+00:11:06,470 --> 00:11:08,710
+ 
+ 
+
+00:11:08,710 --> 00:11:10,790
+ 
+ 
+
+00:11:10,790 --> 00:11:13,110
+ 
+ 
+
+00:11:13,110 --> 00:11:15,269
+ 
+ 
+
+00:11:15,269 --> 00:11:17,829
+ 
+ 
+
+00:11:17,829 --> 00:11:19,670
+ 
+ 
+
+00:11:19,670 --> 00:11:19,680
+ 
+ 
+
+00:11:19,680 --> 00:11:20,550
+ 
+
+
+00:11:20,550 --> 00:11:20,560
+ 
+ 
+
+00:11:20,560 --> 00:11:21,509
+ 
+
+
+00:11:21,509 --> 00:11:24,550
+ 
+ 
+
+00:11:24,550 --> 00:11:26,150
+ 
+ 
+
+00:11:26,150 --> 00:11:28,230
+ 
+ 
+
+00:11:28,230 --> 00:11:30,630
+ 
+ 
+
+00:11:30,630 --> 00:11:33,030
+ 
+ 
+
+00:11:33,030 --> 00:11:35,190
+ 
+ 
+
+00:11:35,190 --> 00:11:36,470
+ 
+ 
+
+00:11:36,470 --> 00:11:36,480
+ 
+ 
+
+00:11:36,480 --> 00:11:37,509
+ 
+
+
+00:11:37,509 --> 00:11:40,230
+ 
+ 
+
+00:11:40,230 --> 00:11:42,069
+ 
+ 
+
+00:11:42,069 --> 00:11:42,079
+ 
+ 
+
+00:11:42,079 --> 00:11:42,870
+ 
+
+
+00:11:42,870 --> 00:11:46,310
+ 
+ 
+
+00:11:46,310 --> 00:11:48,069
+ 
+ 
+
+00:11:48,069 --> 00:11:50,870
+ 
+ 
+
+00:11:50,870 --> 00:11:52,550
+ 
+ 
+
+00:11:52,550 --> 00:11:54,069
+ 
+ 
+
+00:11:54,069 --> 00:11:58,470
+ 
+ 
+
+00:11:58,470 --> 00:12:00,710
+ 
+ 
+
+00:12:00,710 --> 00:12:02,629
+ 
+ 
+
+00:12:02,629 --> 00:12:06,230
+ 
+ 
+
+00:12:06,230 --> 00:12:08,389
+ 
+ 
+
+00:12:08,389 --> 00:12:10,949
+ 
+ 
+
+00:12:10,949 --> 00:12:13,190
+ 
+ 
+
+00:12:13,190 --> 00:12:15,590
+ 
+ 
+
+00:12:15,590 --> 00:12:19,430
+ 
+ 
+
+00:12:19,430 --> 00:12:21,750
+ 
+ 
+
+00:12:21,750 --> 00:12:24,470
+ 
+ 
+
+00:12:24,470 --> 00:12:26,710
+ 
+ 
+
+00:12:26,710 --> 00:12:26,720
+ 
+ 
+
+00:12:26,720 --> 00:12:28,230
+ 
+
+
+00:12:28,230 --> 00:12:28,240
+ 
+ 
+
+00:12:28,240 --> 00:12:29,590
+ 
+
+
+00:12:29,590 --> 00:12:32,389
+ 
+ 
+
+00:12:32,389 --> 00:12:34,230
+ 
+ 
+
+00:12:34,230 --> 00:12:36,230
+ 
+ 
+
+00:12:36,230 --> 00:12:38,470
+ 
+ 
+
+00:12:38,470 --> 00:12:41,190
+ 
+ 
+
+00:12:41,190 --> 00:12:42,629
+ 
+ 
+
+00:12:42,629 --> 00:12:44,310
+ 
+ 
+
+00:12:44,310 --> 00:12:47,990
+ 
+ 
+
+00:12:47,990 --> 00:12:50,310
+ 
+ 
+
+00:12:50,310 --> 00:12:52,949
+ 
+ 
+
+00:12:52,949 --> 00:12:52,959
+ 
+ 
+
+00:12:52,959 --> 00:12:53,829
+ 
+
+
+00:12:53,829 --> 00:12:55,670
+ 
+ 
+
+00:12:55,670 --> 00:12:57,829
+ 
+ 
+
+00:12:57,829 --> 00:12:57,839
+ 
+ 
+
+00:12:57,839 --> 00:12:59,190
+ 
+
+
+00:12:59,190 --> 00:13:00,949
+ 
+ 
+
+00:13:00,949 --> 00:13:03,190
+ 
+ 
+
+00:13:03,190 --> 00:13:05,990
+ 
+ 
+
+00:13:05,990 --> 00:13:09,190
+ 
+ 
+
+00:13:09,190 --> 00:13:11,430
+ 
+ 
+
+00:13:11,430 --> 00:13:13,030
+ 
+ 
+
+00:13:13,030 --> 00:13:15,670
+ 
+ 
+
+00:13:15,670 --> 00:13:18,790
+ 
+ 
+
+00:13:18,790 --> 00:13:19,990
+ 
+ 
+
+00:13:19,990 --> 00:13:21,509
+ 
+ 
+
+00:13:21,509 --> 00:13:23,670
+ 
+ 
+
+00:13:23,670 --> 00:13:25,670
+ 
+ 
+
+00:13:25,670 --> 00:13:27,590
+ 
+ 
+
+00:13:27,590 --> 00:13:30,389
+ 
+ 
+
+00:13:30,389 --> 00:13:31,990
+ 
+ 
+
+00:13:31,990 --> 00:13:34,870
+ 
+ 
+
+00:13:34,870 --> 00:13:34,880
+ 
+ 
+
+00:13:34,880 --> 00:13:35,910
+ 
+
+
+00:13:35,910 --> 00:13:38,310
+ 
+ 
+
+00:13:38,310 --> 00:13:41,750
+ 
+ 
+
+00:13:41,750 --> 00:13:43,750
+ 
+ 
+
+00:13:43,750 --> 00:13:45,990
+ 
+ 
+
+00:13:45,990 --> 00:13:48,710
+ 
+ 
+
+00:13:48,710 --> 00:13:50,150
+ 
+ 
+
+00:13:50,150 --> 00:13:52,790
+ 
+ 
+
+00:13:52,790 --> 00:13:55,110
+ 
+ 
+
+00:13:55,110 --> 00:13:57,430
+ 
+ 
+
+00:13:57,430 --> 00:13:59,670
+ 
+ 
+
+00:13:59,670 --> 00:14:03,030
+ 
+ 
+
+00:14:03,030 --> 00:14:05,189
+ 
+ 
+
+00:14:05,189 --> 00:14:07,670
+ 
+ 
+
+00:14:07,670 --> 00:14:10,389
+ 
+ 
+
+00:14:10,389 --> 00:14:13,269
+ 
+ 
+
+00:14:13,269 --> 00:14:16,230
+ 
+ 
+
+00:14:16,230 --> 00:14:16,240
+ 
+ 
+
+00:14:16,240 --> 00:14:17,430
+ 
+
+
+00:14:17,430 --> 00:14:19,430
+ 
+ 
+
+00:14:19,430 --> 00:14:22,710
+ 
+ 
+
+00:14:22,710 --> 00:14:25,350
+ 
+ 
+
+00:14:25,350 --> 00:14:26,790
+ 
+ 
+
+00:14:26,790 --> 00:14:28,710
+ 
+ 
+
+00:14:28,710 --> 00:14:31,110
+ 
+ 
+
+00:14:31,110 --> 00:14:32,870
+ 
+ 
+
+00:14:32,870 --> 00:14:35,350
+ 
+ 
+
+00:14:35,350 --> 00:14:37,269
+ 
+ 
+
+00:14:37,269 --> 00:14:38,790
+ 
+ 
+
+00:14:38,790 --> 00:14:40,629
+ 
+ 
+
+00:14:40,629 --> 00:14:43,509
+ 
+ 
+
+00:14:43,509 --> 00:14:45,110
+ 
+ 
+
+00:14:45,110 --> 00:14:46,710
+ 
+ 
+
+00:14:46,710 --> 00:14:48,470
+ 
+ 
+
+00:14:48,470 --> 00:14:51,430
+ 
+ 
+
+00:14:51,430 --> 00:14:54,310
+ 
+ 
+
+00:14:54,310 --> 00:14:56,949
+ 
+ 
+
+00:14:56,949 --> 00:14:58,870
+ 
+ 
+
+00:14:58,870 --> 00:15:00,949
+ 
+ 
+
+00:15:00,949 --> 00:15:03,030
+ 
+ 
+
+00:15:03,030 --> 00:15:07,800
+ 
+ 
+

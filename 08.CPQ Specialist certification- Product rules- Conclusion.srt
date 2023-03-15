@@ -1,0 +1,461 @@
+
+00:00:00,640 --> 00:00:02,310
+ 
+good everyone i hope you guys have an  amazing day um so in the previous  episode i talked about  the product rule uh selection type so  today i'm gonna talk about a photo type  a bit  uh and then we're gonna mark the end of  the product rules right i believe we  talked enough uh so i'm not gonna do  much into the the filter type uh from a  certification point of view you don't  really have to know too much but in  saying so i'll just show you you know  how you can configure it so it's pretty  simple similar like other rules what  we've done so we're gonna now you must  be uh you know  wondering you know why we used to uh why  we need a uh filter product rule right  so filter product rule help you to  create a dynamic bundle so you know  where you know  you know if you're a sales rep which  gives you an option to add  say for instance uh you know different  items to the code so  for instance like i have this product  rule called the computer  uh and this is a type i set it to filter  so before  i was just using  um  uh you know the selection so i've  changed it and now what i've done i just  removed the error condition so if you  remember uh if you've been following  along  for the other  type right alert  selection and  for validation so i've used error  condition so  in this case i've just removed it so  instead i'm just relying on action so  it's pretty  nothing fancy so i just used you know  the default filter i've used  so you got the type i just use the  default filter or you can use um  optional filters so and then i use the  product that's that's pretty much it and  then you go to the code  and  you go to code here  and you go to edit lines  and i'll just show you at different  options which you may not have seen  before  uh just go to add product  um and i'm going to use desktop computer  the same one right the same boy  i'm gonna select  and you see we got now two options right  i t options and we got others right so  you know you can click here and  uh dislike so this is what i said it  helps you to create dynamic bundles  so  that's the advantage of using a filter  rule it's pretty simple right okay now  one thing i just wanted to talk about  which you know mostly you might get  confused right uh when you go to this  product right you have something called  the product family okay  now um when you edit it you will see um  a lot of options here  so this is a pick list right if you  wanted you can add it you know something  new so most people i remember talking to  someone  and a guy is pretty new to cpq and it  was like okay i wanted to add a product  family so  uh where can i find it you know just  there's no object here so this is just a  pick list right so you can go there  and add the stuff there this is pretty  simple right so yeah that's pretty much  i wanted to talk about the product rule  i do understand it's a very short topic  uh from it's like i said from it from an  exam point of view you don't really need  to know too much uh but at least you  should know what different kinds of  product rules are and and the purpose it  serves right so  yeah so in saying so that's pretty much  i wanted to talk about in this episode  uh and i promise that i'll be regular  more often i my apologies that i'm not  making much videos like before you know  a lot lots going on in my life at this  stage uh it's been flat out busy with my  you know  my work you know and different things  are doing at the site all right that  being said i hope you guys have an  amazing evening adios
+
+00:00:02,310 --> 00:00:04,710
+good everyone i hope you guys have an  amazing day um so in the previous  episode i talked about  the product rule uh selection type so  today i'm gonna talk about a photo type  a bit  uh and then we're gonna mark the end of  the product rules right i believe we  talked enough uh so i'm not gonna do  much into the the filter type uh from a  certification point of view you don't  really have to know too much but in  saying so i'll just show you you know  how you can configure it so it's pretty  simple similar like other rules what  we've done so we're gonna now you must  be uh you know  wondering you know why we used to uh why  we need a uh filter product rule right  so filter product rule help you to  create a dynamic bundle so you know  where you know  you know if you're a sales rep which  gives you an option to add  say for instance uh you know different  items to the code so  for instance like i have this product  rule called the computer  uh and this is a type i set it to filter  so before  i was just using  um  uh you know the selection so i've  changed it and now what i've done i just  removed the error condition so if you  remember uh if you've been following  along  for the other  type right alert  selection and  for validation so i've used error  condition so  in this case i've just removed it so  instead i'm just relying on action so  it's pretty  nothing fancy so i just used you know  the default filter i've used  so you got the type i just use the  default filter or you can use um  optional filters so and then i use the  product that's that's pretty much it and  then you go to the code  and  you go to code here  and you go to edit lines  and i'll just show you at different  options which you may not have seen  before  uh just go to add product  um and i'm going to use desktop computer  the same one right the same boy  i'm gonna select  and you see we got now two options right  i t options and we got others right so  you know you can click here and  uh dislike so this is what i said it  helps you to create dynamic bundles  so  that's the advantage of using a filter  rule it's pretty simple right okay now  one thing i just wanted to talk about  which you know mostly you might get  confused right uh when you go to this  product right you have something called  the product family okay  now um when you edit it you will see um  a lot of options here  so this is a pick list right if you  wanted you can add it you know something  new so most people i remember talking to  someone  and a guy is pretty new to cpq and it  was like okay i wanted to add a product  family so  uh where can i find it you know just  there's no object here so this is just a  pick list right so you can go there  and add the stuff there this is pretty  simple right so yeah that's pretty much  i wanted to talk about the product rule  i do understand it's a very short topic  uh from it's like i said from it from an  exam point of view you don't really need  to know too much uh but at least you  should know what different kinds of  product rules are and and the purpose it  serves right so  yeah so in saying so that's pretty much  i wanted to talk about in this episode  uh and i promise that i'll be regular  more often i my apologies that i'm not  making much videos like before you know  a lot lots going on in my life at this  stage uh it's been flat out busy with my  you know  my work you know and different things  are doing at the site all right that  being said i hope you guys have an  amazing evening adios
+ 
+
+00:00:04,710 --> 00:00:06,869
+ 
+ 
+
+00:00:06,869 --> 00:00:09,350
+ 
+ 
+
+00:00:09,350 --> 00:00:11,430
+ 
+ 
+
+00:00:11,430 --> 00:00:12,390
+ 
+ 
+
+00:00:12,390 --> 00:00:14,070
+ 
+ 
+
+00:00:14,070 --> 00:00:15,749
+ 
+ 
+
+00:00:15,749 --> 00:00:18,070
+ 
+ 
+
+00:00:18,070 --> 00:00:21,189
+ 
+ 
+
+00:00:21,189 --> 00:00:22,390
+ 
+ 
+
+00:00:22,390 --> 00:00:24,630
+ 
+ 
+
+00:00:24,630 --> 00:00:26,310
+ 
+ 
+
+00:00:26,310 --> 00:00:28,870
+ 
+ 
+
+00:00:28,870 --> 00:00:31,109
+ 
+ 
+
+00:00:31,109 --> 00:00:34,069
+ 
+ 
+
+00:00:34,069 --> 00:00:36,069
+ 
+ 
+
+00:00:36,069 --> 00:00:38,470
+ 
+ 
+
+00:00:38,470 --> 00:00:41,430
+ 
+ 
+
+00:00:41,430 --> 00:00:43,430
+ 
+ 
+
+00:00:43,430 --> 00:00:46,069
+ 
+ 
+
+00:00:46,069 --> 00:00:47,670
+ 
+ 
+
+00:00:47,670 --> 00:00:49,270
+ 
+ 
+
+00:00:49,270 --> 00:00:51,350
+ 
+ 
+
+00:00:51,350 --> 00:00:53,990
+ 
+ 
+
+00:00:53,990 --> 00:00:56,549
+ 
+ 
+
+00:00:56,549 --> 00:00:58,389
+ 
+ 
+
+00:00:58,389 --> 00:01:00,389
+ 
+ 
+
+00:01:00,389 --> 00:01:03,590
+ 
+ 
+
+00:01:03,590 --> 00:01:05,109
+ 
+ 
+
+00:01:05,109 --> 00:01:06,630
+ 
+ 
+
+00:01:06,630 --> 00:01:06,640
+ 
+ 
+
+00:01:06,640 --> 00:01:07,910
+ 
+
+
+00:01:07,910 --> 00:01:09,590
+ 
+ 
+
+00:01:09,590 --> 00:01:11,910
+ 
+ 
+
+00:01:11,910 --> 00:01:13,670
+ 
+ 
+
+00:01:13,670 --> 00:01:15,429
+ 
+ 
+
+00:01:15,429 --> 00:01:15,439
+ 
+ 
+
+00:01:15,439 --> 00:01:16,789
+ 
+
+
+00:01:16,789 --> 00:01:18,789
+ 
+ 
+
+00:01:18,789 --> 00:01:21,270
+ 
+ 
+
+00:01:21,270 --> 00:01:23,510
+ 
+ 
+
+00:01:23,510 --> 00:01:25,510
+ 
+ 
+
+00:01:25,510 --> 00:01:27,190
+ 
+ 
+
+00:01:27,190 --> 00:01:29,910
+ 
+ 
+
+00:01:29,910 --> 00:01:32,710
+ 
+ 
+
+00:01:32,710 --> 00:01:33,910
+ 
+ 
+
+00:01:33,910 --> 00:01:35,830
+ 
+ 
+
+00:01:35,830 --> 00:01:38,390
+ 
+ 
+
+00:01:38,390 --> 00:01:40,310
+ 
+ 
+
+00:01:40,310 --> 00:01:43,510
+ 
+ 
+
+00:01:43,510 --> 00:01:45,429
+ 
+ 
+
+00:01:45,429 --> 00:01:47,429
+ 
+ 
+
+00:01:47,429 --> 00:01:50,069
+ 
+ 
+
+00:01:50,069 --> 00:01:50,079
+ 
+ 
+
+00:01:50,079 --> 00:01:50,870
+ 
+
+
+00:01:50,870 --> 00:01:53,429
+ 
+ 
+
+00:01:53,429 --> 00:01:55,910
+ 
+ 
+
+00:01:55,910 --> 00:01:57,510
+ 
+ 
+
+00:01:57,510 --> 00:01:59,030
+ 
+ 
+
+00:01:59,030 --> 00:01:59,040
+ 
+ 
+
+00:01:59,040 --> 00:01:59,910
+ 
+
+
+00:01:59,910 --> 00:02:02,230
+ 
+ 
+
+00:02:02,230 --> 00:02:05,910
+ 
+ 
+
+00:02:05,910 --> 00:02:09,029
+ 
+ 
+
+00:02:09,029 --> 00:02:12,070
+ 
+ 
+
+00:02:12,070 --> 00:02:14,390
+ 
+ 
+
+00:02:14,390 --> 00:02:18,070
+ 
+ 
+
+00:02:18,070 --> 00:02:21,110
+ 
+ 
+
+00:02:21,110 --> 00:02:23,350
+ 
+ 
+
+00:02:23,350 --> 00:02:25,589
+ 
+ 
+
+00:02:25,589 --> 00:02:25,599
+ 
+ 
+
+00:02:25,599 --> 00:02:26,309
+ 
+
+
+00:02:26,309 --> 00:02:28,550
+ 
+ 
+
+00:02:28,550 --> 00:02:30,710
+ 
+ 
+
+00:02:30,710 --> 00:02:32,949
+ 
+ 
+
+00:02:32,949 --> 00:02:34,830
+ 
+ 
+
+00:02:34,830 --> 00:02:37,430
+ 
+ 
+
+00:02:37,430 --> 00:02:38,710
+ 
+ 
+
+00:02:38,710 --> 00:02:40,949
+ 
+ 
+
+00:02:40,949 --> 00:02:45,190
+ 
+ 
+
+00:02:45,190 --> 00:02:46,869
+ 
+ 
+
+00:02:46,869 --> 00:02:48,390
+ 
+ 
+
+00:02:48,390 --> 00:02:50,470
+ 
+ 
+
+00:02:50,470 --> 00:02:53,030
+ 
+ 
+
+00:02:53,030 --> 00:02:53,040
+ 
+ 
+
+00:02:53,040 --> 00:02:53,910
+ 
+
+
+00:02:53,910 --> 00:02:55,990
+ 
+ 
+
+00:02:55,990 --> 00:02:57,589
+ 
+ 
+
+00:02:57,589 --> 00:02:58,710
+ 
+ 
+
+00:02:58,710 --> 00:03:01,030
+ 
+ 
+
+00:03:01,030 --> 00:03:03,509
+ 
+ 
+
+00:03:03,509 --> 00:03:05,830
+ 
+ 
+
+00:03:05,830 --> 00:03:07,589
+ 
+ 
+
+00:03:07,589 --> 00:03:09,910
+ 
+ 
+
+00:03:09,910 --> 00:03:12,390
+ 
+ 
+
+00:03:12,390 --> 00:03:14,790
+ 
+ 
+
+00:03:14,790 --> 00:03:17,270
+ 
+ 
+
+00:03:17,270 --> 00:03:18,949
+ 
+ 
+
+00:03:18,949 --> 00:03:21,350
+ 
+ 
+
+00:03:21,350 --> 00:03:22,710
+ 
+ 
+
+00:03:22,710 --> 00:03:24,630
+ 
+ 
+
+00:03:24,630 --> 00:03:26,789
+ 
+ 
+
+00:03:26,789 --> 00:03:28,869
+ 
+ 
+
+00:03:28,869 --> 00:03:30,789
+ 
+ 
+
+00:03:30,789 --> 00:03:33,190
+ 
+ 
+
+00:03:33,190 --> 00:03:35,350
+ 
+ 
+
+00:03:35,350 --> 00:03:37,750
+ 
+ 
+
+00:03:37,750 --> 00:03:39,750
+ 
+ 
+
+00:03:39,750 --> 00:03:42,949
+ 
+ 
+
+00:03:42,949 --> 00:03:44,789
+ 
+ 
+
+00:03:44,789 --> 00:03:47,110
+ 
+ 
+
+00:03:47,110 --> 00:03:49,030
+ 
+ 
+
+00:03:49,030 --> 00:03:50,869
+ 
+ 
+
+00:03:50,869 --> 00:03:54,680
+ 
+ 
+

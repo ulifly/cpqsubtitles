@@ -1,0 +1,829 @@
+
+00:00:00,880 --> 00:00:02,629
+ 
+good everyone i hope you guys have an  amazing day so today what i'm going to  do i will show you how to add  a field uh to the code line editor um  and  yeah so so let me let me start with the  requirement right so let's say i have a  code right so this is the code so  um so i go to my code  now  and i i'm as a customer right i'm just  telling as a customer i'm just i'm going  to my code and i'm just saying okay i'm  going to code line editor oh sorry not  the code liner  let's say i'm going to do edit lines  okay  and  so  and i want to add a product so i will  add any product right it doesn't matter  so i'm just going to add this product  um  okay so i'll just say save  okay now the requirement is right  i wanted to see a list price here right  i can see the start date end date  subscription term edition discount  that's great but i would love to see the  list price here and also i would like to  see more  of fields in the product uh in this uh  code line right right now i see the the  product code uh product name and  quantity that's fine  so i would like to see more  right so let's see if we can do that  okay the first thing first right so  let's sort out this problem uh the code  information right so i wanted to add a  list price here so that the user can see  the list price information here  now how to do that is pretty simple so  you go to the  scarecrow icon  and say go to setup  and what we do we will go to  um  object manager  and i'll go to the code  right and under code i will go here  and what i'll do i'll go to the the  field set right  and there's something called line editor  i'll go here  and i'll go edit  and so we got only four here so  something about the list price they want  right something to do with the list i  don't know if i can see something about  the list  um or the amount i'm not sure i'll let  the list amount right so i'll just copy  that here  and then i will save it okay so that's  saved  and let's go back to the i refresh this  and let's go back to the code  and let's add  so  i mean you might find that this is  pretty basic but you know sometimes  um clients might ask you you know to  change this  and if you say hey look i have no clue  that that that's not really a good look  right so it's good to know these kind of  things it's it looks simple but right  it's yet very powerful feature  okay so go to the edit lines right  now you see we got our list amount here  right so let me add the product here  and i'll choose you know whatever right  it doesn't matter  okay so you can see the spot list amount  here right which is fantastic so i'm  gonna add another product here so  i'll just add whatever right select  okay so you can see the list price  getting updated here which is fantastic  so all right so now let's see if i can  add more  uh you know  columns to it let's see how to do that  um  we have  okay don't worry about it  so you're gonna also do this i'm not  sure if you've seen this one  uh this is a different you know look and  feel  so if you click on this forward arrow so  we'll do something like this right so  all right  okay so let's go back to the setup  and let's go back to the manager  and let's go to the code  let's see what we have in the code line  right so you're just talking about the  chord line just go to field set  line editor um editor edit  so we got only three right so let's say  we put  uh only one description  um  let's say  uh package total i know that doesn't  look like a good  cross profit  um okay i'll do this this will do for  now  gonna save  uh let me refresh my page  go back to the codes  and uh let's go back to  just code again  and edit line  all right  all right let me add a product  uh it doesn't matter any product you  want to add  there you go you see i've added you know  two more fields here so that's how you  add  fields to the code line editor or to  this space right so you just have to go  to the field set and it will do the job  right so this information is useful  right not just from a exam point of view  right but just from a cpq implementation  consultant point of view right so the  one thing i always tell to  the students right  do not  take uh you know please do not approach  any calls just for the sake of taking it  right  i do understand that salesforce space is  driven by certification but what's the  point of certification if you if you  know i wanted to you know if you can't  relate those things to the real life  scenario right so the certifications are  great i love certifications right that's  the best way you can learn uh you know  different things about salesforce but at  the same time you do have to understand  you have to relate this from a business  context or otherwise it's pointless  right you can  learn different technology but if you're  not going to use it right it just you  know you'll forget about it right that's  how the human brain work so you know i  would highly encourage you to you know  if you don't if you don't believe me i  would highly encourage you to read about  uh human you know  uh human psychology and the way the  brain works so you will not retain uh  you know information for a longer period  of time if you don't use it so  so yeah i mean so try to relate from a  business point of view and like i always  say is uh you know find a study group  right find a  study partner  you know work out a business scenario  and try to implement the product right  like i gave you scenario right you  wanted to do this code and your customer  says i wanted to see the list amount how  to do that right and also i wanted to  see more options here in the edit line  so what's the best way to  to go about doing that so that's exactly  what i demonstrated so yeah and from a  business sense in business context it  makes sense  right so that's pretty much i wanted to  cover in today's episode i hope you guys  have an amazing thursday adios
+
+00:00:02,629 --> 00:00:04,230
+good everyone i hope you guys have an  amazing day so today what i'm going to  do i will show you how to add  a field uh to the code line editor um  and  yeah so so let me let me start with the  requirement right so let's say i have a  code right so this is the code so  um so i go to my code  now  and i i'm as a customer right i'm just  telling as a customer i'm just i'm going  to my code and i'm just saying okay i'm  going to code line editor oh sorry not  the code liner  let's say i'm going to do edit lines  okay  and  so  and i want to add a product so i will  add any product right it doesn't matter  so i'm just going to add this product  um  okay so i'll just say save  okay now the requirement is right  i wanted to see a list price here right  i can see the start date end date  subscription term edition discount  that's great but i would love to see the  list price here and also i would like to  see more  of fields in the product uh in this uh  code line right right now i see the the  product code uh product name and  quantity that's fine  so i would like to see more  right so let's see if we can do that  okay the first thing first right so  let's sort out this problem uh the code  information right so i wanted to add a  list price here so that the user can see  the list price information here  now how to do that is pretty simple so  you go to the  scarecrow icon  and say go to setup  and what we do we will go to  um  object manager  and i'll go to the code  right and under code i will go here  and what i'll do i'll go to the the  field set right  and there's something called line editor  i'll go here  and i'll go edit  and so we got only four here so  something about the list price they want  right something to do with the list i  don't know if i can see something about  the list  um or the amount i'm not sure i'll let  the list amount right so i'll just copy  that here  and then i will save it okay so that's  saved  and let's go back to the i refresh this  and let's go back to the code  and let's add  so  i mean you might find that this is  pretty basic but you know sometimes  um clients might ask you you know to  change this  and if you say hey look i have no clue  that that that's not really a good look  right so it's good to know these kind of  things it's it looks simple but right  it's yet very powerful feature  okay so go to the edit lines right  now you see we got our list amount here  right so let me add the product here  and i'll choose you know whatever right  it doesn't matter  okay so you can see the spot list amount  here right which is fantastic so i'm  gonna add another product here so  i'll just add whatever right select  okay so you can see the list price  getting updated here which is fantastic  so all right so now let's see if i can  add more  uh you know  columns to it let's see how to do that  um  we have  okay don't worry about it  so you're gonna also do this i'm not  sure if you've seen this one  uh this is a different you know look and  feel  so if you click on this forward arrow so  we'll do something like this right so  all right  okay so let's go back to the setup  and let's go back to the manager  and let's go to the code  let's see what we have in the code line  right so you're just talking about the  chord line just go to field set  line editor um editor edit  so we got only three right so let's say  we put  uh only one description  um  let's say  uh package total i know that doesn't  look like a good  cross profit  um okay i'll do this this will do for  now  gonna save  uh let me refresh my page  go back to the codes  and uh let's go back to  just code again  and edit line  all right  all right let me add a product  uh it doesn't matter any product you  want to add  there you go you see i've added you know  two more fields here so that's how you  add  fields to the code line editor or to  this space right so you just have to go  to the field set and it will do the job  right so this information is useful  right not just from a exam point of view  right but just from a cpq implementation  consultant point of view right so the  one thing i always tell to  the students right  do not  take uh you know please do not approach  any calls just for the sake of taking it  right  i do understand that salesforce space is  driven by certification but what's the  point of certification if you if you  know i wanted to you know if you can't  relate those things to the real life  scenario right so the certifications are  great i love certifications right that's  the best way you can learn uh you know  different things about salesforce but at  the same time you do have to understand  you have to relate this from a business  context or otherwise it's pointless  right you can  learn different technology but if you're  not going to use it right it just you  know you'll forget about it right that's  how the human brain work so you know i  would highly encourage you to you know  if you don't if you don't believe me i  would highly encourage you to read about  uh human you know  uh human psychology and the way the  brain works so you will not retain uh  you know information for a longer period  of time if you don't use it so  so yeah i mean so try to relate from a  business point of view and like i always  say is uh you know find a study group  right find a  study partner  you know work out a business scenario  and try to implement the product right  like i gave you scenario right you  wanted to do this code and your customer  says i wanted to see the list amount how  to do that right and also i wanted to  see more options here in the edit line  so what's the best way to  to go about doing that so that's exactly  what i demonstrated so yeah and from a  business sense in business context it  makes sense  right so that's pretty much i wanted to  cover in today's episode i hope you guys  have an amazing thursday adios
+ 
+
+00:00:04,230 --> 00:00:07,990
+ 
+ 
+
+00:00:07,990 --> 00:00:12,390
+ 
+ 
+
+00:00:12,390 --> 00:00:12,400
+ 
+ 
+
+00:00:12,400 --> 00:00:13,270
+ 
+
+
+00:00:13,270 --> 00:00:15,430
+ 
+ 
+
+00:00:15,430 --> 00:00:17,670
+ 
+ 
+
+00:00:17,670 --> 00:00:20,390
+ 
+ 
+
+00:00:20,390 --> 00:00:23,349
+ 
+ 
+
+00:00:23,349 --> 00:00:23,359
+ 
+ 
+
+00:00:23,359 --> 00:00:27,029
+ 
+
+
+00:00:27,029 --> 00:00:29,910
+ 
+ 
+
+00:00:29,910 --> 00:00:32,150
+ 
+ 
+
+00:00:32,150 --> 00:00:34,790
+ 
+ 
+
+00:00:34,790 --> 00:00:36,950
+ 
+ 
+
+00:00:36,950 --> 00:00:38,549
+ 
+ 
+
+00:00:38,549 --> 00:00:40,310
+ 
+ 
+
+00:00:40,310 --> 00:00:40,320
+ 
+ 
+
+00:00:40,320 --> 00:00:42,470
+ 
+
+
+00:00:42,470 --> 00:00:42,480
+ 
+ 
+
+00:00:42,480 --> 00:00:44,150
+ 
+
+
+00:00:44,150 --> 00:00:44,160
+ 
+ 
+
+00:00:44,160 --> 00:00:45,430
+ 
+
+
+00:00:45,430 --> 00:00:47,430
+ 
+ 
+
+00:00:47,430 --> 00:00:49,430
+ 
+ 
+
+00:00:49,430 --> 00:00:52,310
+ 
+ 
+
+00:00:52,310 --> 00:00:52,320
+ 
+ 
+
+00:00:52,320 --> 00:00:55,029
+ 
+
+
+00:00:55,029 --> 00:01:01,029
+ 
+ 
+
+00:01:01,029 --> 00:01:04,390
+ 
+ 
+
+00:01:04,390 --> 00:01:07,750
+ 
+ 
+
+00:01:07,750 --> 00:01:09,670
+ 
+ 
+
+00:01:09,670 --> 00:01:11,830
+ 
+ 
+
+00:01:11,830 --> 00:01:13,830
+ 
+ 
+
+00:01:13,830 --> 00:01:16,310
+ 
+ 
+
+00:01:16,310 --> 00:01:17,590
+ 
+ 
+
+00:01:17,590 --> 00:01:21,270
+ 
+ 
+
+00:01:21,270 --> 00:01:24,149
+ 
+ 
+
+00:01:24,149 --> 00:01:26,230
+ 
+ 
+
+00:01:26,230 --> 00:01:27,749
+ 
+ 
+
+00:01:27,749 --> 00:01:30,630
+ 
+ 
+
+00:01:30,630 --> 00:01:33,510
+ 
+ 
+
+00:01:33,510 --> 00:01:35,510
+ 
+ 
+
+00:01:35,510 --> 00:01:38,069
+ 
+ 
+
+00:01:38,069 --> 00:01:41,350
+ 
+ 
+
+00:01:41,350 --> 00:01:43,990
+ 
+ 
+
+00:01:43,990 --> 00:01:46,310
+ 
+ 
+
+00:01:46,310 --> 00:01:48,469
+ 
+ 
+
+00:01:48,469 --> 00:01:50,069
+ 
+ 
+
+00:01:50,069 --> 00:01:52,149
+ 
+ 
+
+00:01:52,149 --> 00:01:54,950
+ 
+ 
+
+00:01:54,950 --> 00:02:00,630
+ 
+ 
+
+00:02:00,630 --> 00:02:00,640
+ 
+ 
+
+00:02:00,640 --> 00:02:03,109
+ 
+
+
+00:02:03,109 --> 00:02:05,109
+ 
+ 
+
+00:02:05,109 --> 00:02:07,670
+ 
+ 
+
+00:02:07,670 --> 00:02:12,150
+ 
+ 
+
+00:02:12,150 --> 00:02:14,630
+ 
+ 
+
+00:02:14,630 --> 00:02:17,030
+ 
+ 
+
+00:02:17,030 --> 00:02:18,869
+ 
+ 
+
+00:02:18,869 --> 00:02:20,710
+ 
+ 
+
+00:02:20,710 --> 00:02:23,430
+ 
+ 
+
+00:02:23,430 --> 00:02:26,790
+ 
+ 
+
+00:02:26,790 --> 00:02:28,470
+ 
+ 
+
+00:02:28,470 --> 00:02:30,309
+ 
+ 
+
+00:02:30,309 --> 00:02:31,830
+ 
+ 
+
+00:02:31,830 --> 00:02:34,830
+ 
+ 
+
+00:02:34,830 --> 00:02:37,589
+ 
+ 
+
+00:02:37,589 --> 00:02:39,509
+ 
+ 
+
+00:02:39,509 --> 00:02:41,350
+ 
+ 
+
+00:02:41,350 --> 00:02:44,150
+ 
+ 
+
+00:02:44,150 --> 00:02:44,160
+ 
+ 
+
+00:02:44,160 --> 00:02:45,589
+ 
+
+
+00:02:45,589 --> 00:02:48,309
+ 
+ 
+
+00:02:48,309 --> 00:02:53,030
+ 
+ 
+
+00:02:53,030 --> 00:03:03,990
+ 
+ 
+
+00:03:03,990 --> 00:03:04,000
+ 
+ 
+
+00:03:04,000 --> 00:03:05,670
+ 
+
+
+00:03:05,670 --> 00:03:07,190
+ 
+ 
+
+00:03:07,190 --> 00:03:09,830
+ 
+ 
+
+00:03:09,830 --> 00:03:13,030
+ 
+ 
+
+00:03:13,030 --> 00:03:14,229
+ 
+ 
+
+00:03:14,229 --> 00:03:16,790
+ 
+ 
+
+00:03:16,790 --> 00:03:19,270
+ 
+ 
+
+00:03:19,270 --> 00:03:21,350
+ 
+ 
+
+00:03:21,350 --> 00:03:23,910
+ 
+ 
+
+00:03:23,910 --> 00:03:25,830
+ 
+ 
+
+00:03:25,830 --> 00:03:32,550
+ 
+ 
+
+00:03:32,550 --> 00:03:34,229
+ 
+ 
+
+00:03:34,229 --> 00:03:38,550
+ 
+ 
+
+00:03:38,550 --> 00:03:40,869
+ 
+ 
+
+00:03:40,869 --> 00:03:45,350
+ 
+ 
+
+00:03:45,350 --> 00:03:47,509
+ 
+ 
+
+00:03:47,509 --> 00:03:49,350
+ 
+ 
+
+00:03:49,350 --> 00:03:52,949
+ 
+ 
+
+00:03:52,949 --> 00:03:58,710
+ 
+ 
+
+00:03:58,710 --> 00:04:00,309
+ 
+ 
+
+00:04:00,309 --> 00:04:02,070
+ 
+ 
+
+00:04:02,070 --> 00:04:04,550
+ 
+ 
+
+00:04:04,550 --> 00:04:05,750
+ 
+ 
+
+00:04:05,750 --> 00:04:07,110
+ 
+ 
+
+00:04:07,110 --> 00:04:09,910
+ 
+ 
+
+00:04:09,910 --> 00:04:09,920
+ 
+ 
+
+00:04:09,920 --> 00:04:13,429
+ 
+
+
+00:04:13,429 --> 00:04:14,869
+ 
+ 
+
+00:04:14,869 --> 00:04:17,030
+ 
+ 
+
+00:04:17,030 --> 00:04:19,189
+ 
+ 
+
+00:04:19,189 --> 00:04:20,789
+ 
+ 
+
+00:04:20,789 --> 00:04:22,790
+ 
+ 
+
+00:04:22,790 --> 00:04:22,800
+ 
+ 
+
+00:04:22,800 --> 00:04:23,830
+ 
+
+
+00:04:23,830 --> 00:04:26,469
+ 
+ 
+
+00:04:26,469 --> 00:04:36,870
+ 
+ 
+
+00:04:36,870 --> 00:04:38,070
+ 
+ 
+
+00:04:38,070 --> 00:04:44,790
+ 
+ 
+
+00:04:44,790 --> 00:04:48,310
+ 
+ 
+
+00:04:48,310 --> 00:04:51,990
+ 
+ 
+
+00:04:51,990 --> 00:04:53,749
+ 
+ 
+
+00:04:53,749 --> 00:04:55,270
+ 
+ 
+
+00:04:55,270 --> 00:04:58,790
+ 
+ 
+
+00:04:58,790 --> 00:05:03,830
+ 
+ 
+
+00:05:03,830 --> 00:05:06,150
+ 
+ 
+
+00:05:06,150 --> 00:05:07,990
+ 
+ 
+
+00:05:07,990 --> 00:05:10,550
+ 
+ 
+
+00:05:10,550 --> 00:05:10,560
+ 
+ 
+
+00:05:10,560 --> 00:05:12,950
+ 
+
+
+00:05:12,950 --> 00:05:17,830
+ 
+ 
+
+00:05:17,830 --> 00:05:20,870
+ 
+ 
+
+00:05:20,870 --> 00:05:22,310
+ 
+ 
+
+00:05:22,310 --> 00:05:25,670
+ 
+ 
+
+00:05:25,670 --> 00:05:28,550
+ 
+ 
+
+00:05:28,550 --> 00:05:28,560
+ 
+ 
+
+00:05:28,560 --> 00:05:29,590
+ 
+
+
+00:05:29,590 --> 00:05:33,110
+ 
+ 
+
+00:05:33,110 --> 00:05:39,029
+ 
+ 
+
+00:05:39,029 --> 00:05:46,469
+ 
+ 
+
+00:05:46,469 --> 00:05:51,189
+ 
+ 
+
+00:05:51,189 --> 00:05:52,469
+ 
+ 
+
+00:05:52,469 --> 00:05:54,550
+ 
+ 
+
+00:05:54,550 --> 00:05:59,510
+ 
+ 
+
+00:05:59,510 --> 00:06:02,230
+ 
+ 
+
+00:06:02,230 --> 00:06:03,909
+ 
+ 
+
+00:06:03,909 --> 00:06:09,110
+ 
+ 
+
+00:06:09,110 --> 00:06:12,390
+ 
+ 
+
+00:06:12,390 --> 00:06:14,710
+ 
+ 
+
+00:06:14,710 --> 00:06:14,720
+ 
+ 
+
+00:06:14,720 --> 00:06:15,590
+ 
+
+
+00:06:15,590 --> 00:06:17,990
+ 
+ 
+
+00:06:17,990 --> 00:06:20,629
+ 
+ 
+
+00:06:20,629 --> 00:06:22,790
+ 
+ 
+
+00:06:22,790 --> 00:06:25,350
+ 
+ 
+
+00:06:25,350 --> 00:06:27,909
+ 
+ 
+
+00:06:27,909 --> 00:06:30,950
+ 
+ 
+
+00:06:30,950 --> 00:06:33,029
+ 
+ 
+
+00:06:33,029 --> 00:06:35,029
+ 
+ 
+
+00:06:35,029 --> 00:06:37,110
+ 
+ 
+
+00:06:37,110 --> 00:06:38,230
+ 
+ 
+
+00:06:38,230 --> 00:06:41,430
+ 
+ 
+
+00:06:41,430 --> 00:06:43,670
+ 
+ 
+
+00:06:43,670 --> 00:06:43,680
+ 
+ 
+
+00:06:43,680 --> 00:06:44,469
+ 
+
+
+00:06:44,469 --> 00:06:46,469
+ 
+ 
+
+00:06:46,469 --> 00:06:48,070
+ 
+ 
+
+00:06:48,070 --> 00:06:50,390
+ 
+ 
+
+00:06:50,390 --> 00:06:52,070
+ 
+ 
+
+00:06:52,070 --> 00:06:54,070
+ 
+ 
+
+00:06:54,070 --> 00:06:56,790
+ 
+ 
+
+00:06:56,790 --> 00:06:58,950
+ 
+ 
+
+00:06:58,950 --> 00:07:01,430
+ 
+ 
+
+00:07:01,430 --> 00:07:03,110
+ 
+ 
+
+00:07:03,110 --> 00:07:05,430
+ 
+ 
+
+00:07:05,430 --> 00:07:07,189
+ 
+ 
+
+00:07:07,189 --> 00:07:09,430
+ 
+ 
+
+00:07:09,430 --> 00:07:10,870
+ 
+ 
+
+00:07:10,870 --> 00:07:12,390
+ 
+ 
+
+00:07:12,390 --> 00:07:14,790
+ 
+ 
+
+00:07:14,790 --> 00:07:16,230
+ 
+ 
+
+00:07:16,230 --> 00:07:19,029
+ 
+ 
+
+00:07:19,029 --> 00:07:20,469
+ 
+ 
+
+00:07:20,469 --> 00:07:21,670
+ 
+ 
+
+00:07:21,670 --> 00:07:23,589
+ 
+ 
+
+00:07:23,589 --> 00:07:25,270
+ 
+ 
+
+00:07:25,270 --> 00:07:27,430
+ 
+ 
+
+00:07:27,430 --> 00:07:30,790
+ 
+ 
+
+00:07:30,790 --> 00:07:32,469
+ 
+ 
+
+00:07:32,469 --> 00:07:35,189
+ 
+ 
+
+00:07:35,189 --> 00:07:37,830
+ 
+ 
+
+00:07:37,830 --> 00:07:39,589
+ 
+ 
+
+00:07:39,589 --> 00:07:41,830
+ 
+ 
+
+00:07:41,830 --> 00:07:43,189
+ 
+ 
+
+00:07:43,189 --> 00:07:44,469
+ 
+ 
+
+00:07:44,469 --> 00:07:45,909
+ 
+ 
+
+00:07:45,909 --> 00:07:47,589
+ 
+ 
+
+00:07:47,589 --> 00:07:49,510
+ 
+ 
+
+00:07:49,510 --> 00:07:51,430
+ 
+ 
+
+00:07:51,430 --> 00:07:53,270
+ 
+ 
+
+00:07:53,270 --> 00:07:55,110
+ 
+ 
+
+00:07:55,110 --> 00:07:57,350
+ 
+ 
+
+00:07:57,350 --> 00:07:59,350
+ 
+ 
+
+00:07:59,350 --> 00:08:01,510
+ 
+ 
+
+00:08:01,510 --> 00:08:03,990
+ 
+ 
+
+00:08:03,990 --> 00:08:05,990
+ 
+ 
+
+00:08:05,990 --> 00:08:07,430
+ 
+ 
+
+00:08:07,430 --> 00:08:09,189
+ 
+ 
+
+00:08:09,189 --> 00:08:11,430
+ 
+ 
+
+00:08:11,430 --> 00:08:15,639
+ 
+ 
+

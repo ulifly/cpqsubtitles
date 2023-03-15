@@ -1,0 +1,1073 @@
+
+00:00:00,719 --> 00:00:02,550
+ 
+good everyone i hope you guys have an  amazing day so today what i'm going to  do i will talk about  a volume based discount so if you've  been following along right um so you  might have remember that i've talked  about a term space discount and i did  mention right cpq does offer um  volume-based discount uh which is like  an out-of-box functionality um now what  is a volume-based discount right i just  want to give you a very simple example  it's i mean you  guys know about this stuff right because  you guys deal with it in your day-to-day  life uh just  let me give you a very classic example  right in new zealand right uh we have  something called cream cheese i mean  obviously you might be getting cream  cheese in your country as well so here  uh for  250 grams for cream cheese you pay like  four sorry four dollars  um sometimes supermarkets want you to  buy in bulk so what they do hey if  you're going to buy more than three  products you will get for 10 bucks  instead of 12 bucks so you  so for a consumer  right for a customer you know it's like  a two dollar  uh safe  uh you know  so  uh if you are excuse me if you are  someone who is uh passionate about cream  cheese use cream cheese  if you're making your meatballs or  um your  lasagna or  you know whatever right even as a spread  i like i'm a big fan of cream cheese  right i use it you know  uh all the time so for me that bargain  is pretty good right so  similarly right you might get uh  something else right you go and buy say  mcdonald's uh sweden's house or safe or  if you buy more than 10 you will get  like two  extra right so something similar right  so volume based discount or if you buy  set 10 sweden sour sauce say um for five  bucks  sorry it if if the each sweden sour  sauce is like 50 cents right so if you  buy say 10 of them right  um so you will instead of paying uh five  dollars you pay three dollars so yeah i  get a two dollars off so we're gonna  configure that um in super today it's  pretty simple a few clicks  you don't have to worry about the fancy  complex steps right so the first thing  first uh you should have an homework  right i trust you guys have an org  because you know we have almost reached  halfway through the certification course  and i do expect  you will have an org to practice if not  i i tell you guys this is the right time  right  just get your hands dirty  okay um so what i'll do we go to  something called discount schedules so  in this case if you if you look at my  screen right you can see discount  schedules here but if for whatever  reason you can't see it  so you go to the stick tag talk icon  uh type discount schedules  right  and we'll take you here  so we gonna create new  um  keeps a meaningful name right i will say  discount  options  uh give a meaningful name uh which makes  sense okay  now  we're not gonna fill much stuff here  right as you've seen that i haven't  filled much so whatever i've done it's  pretty cool at this stage so if you  notice we have something called editors  on the right and  side of the screen so you go here  yeah  i'll say  [Music]  three  quantity  and above  or would say three items in a bowl right  uh lower bound i wanted to give  discounts for anything about three  and up around 10. so let's say customer  buys  uh between three and ten  you will get a 10 discount  right and if you buy  um  say uh 10 and a bow um you will get  um say 15 scale  yeah  makes sense right okay  now that's done now obviously  creating a discount schedule is not good  enough right because you have to hook  that up to your product otherwise how  will the product know which discount  schedule to use right so you go to  product uh you can pick and choose any  product  right we're not talking about  subscription based product at this stage  right a simple product  okay so  um you go to tablet this all right so  i'm gonna  do edit yeah and i'll look for  something called discount  and there's something called discount  schedule right so you search here  and link that uh the discount schedule  record here  click on save  now what i'll do i'll go to code  right  um i'll pick and choose any code doesn't  matter right i've talked about zillions  of times of the cricket code so i'm not  going to cover that at this stage right  um so go to edit lines  right now  i will go to add products  i'm also at 10  right  the 10  inch tablet  and i'll select this and select okay now  by default it will put you  uh  so it will  include this  product  with the quantity  value as one okay now  at this stage discount won't be uh  coming into play because  we mentioned in our discount schedule  right if you select a product um whose  quantity is three and a bow  then you will get a discount options  right so you will get templates in this  gap so what i'll do i will choose four  oh sorry not this one  i'll choose four  um so  okay how this this will work  so four times 150 so that's 600 bucks  and then you're getting a 10 discount so  that's 60 off so double that means you  will get something around 540 right okay  so let's calculate  okay so five funny right now if you  remember uh if you go to this discount  schedule right  um  so  all right sorry my bad  my bad  i shouldn't have done that i shouldn't  have done that okay that's fine  um  all right so i'll do this again  right okay  um right so  all right so we were at four right and  um i applied this gown so something like  this right  oh sorry what the heck  and calculate  all right so if you remember i've  created like a two tiers right one is  three to ten you get uh ten percent  discount then ten  to twenty  about ten and  up to 20 you will get like 15 discount  right so i'm gonna put uh 11  here  now okay let me show how it works  so let's use a calculator right sorry my  apologies and  i mean  i consider myself pretty good in  mathematics but you know i can't  remember big numbers so  i'm not that genius right so yeah pretty  average guy anyways uh 11 times right we  got um 150  all right so 1650 now we got 15 discount  so we got 15.  all right so we're just going to do  divide by  100  and now to subtract one six  five zero so something like you will get  one four or two  something close by right let's see  um  so i will do calculate  right one four oh two five zero right so  one four two five zero so that's how it  works right so as you can see it's  pretty simple pretty easy to use right  and this counts right it's it's it's a  pretty daily thing right i mean you have  experienced it in your life you don't  have to know cpq to understand the skill  right so most of the things you have  experience in your real life so that's  pretty much i try to imitate right it's  pretty simple so that's all i want to  cover in this episode i hope you guys  enjoyed it uh i wish you guys have a  great  weekend adios
+
+00:00:02,550 --> 00:00:04,230
+good everyone i hope you guys have an  amazing day so today what i'm going to  do i will talk about  a volume based discount so if you've  been following along right um so you  might have remember that i've talked  about a term space discount and i did  mention right cpq does offer um  volume-based discount uh which is like  an out-of-box functionality um now what  is a volume-based discount right i just  want to give you a very simple example  it's i mean you  guys know about this stuff right because  you guys deal with it in your day-to-day  life uh just  let me give you a very classic example  right in new zealand right uh we have  something called cream cheese i mean  obviously you might be getting cream  cheese in your country as well so here  uh for  250 grams for cream cheese you pay like  four sorry four dollars  um sometimes supermarkets want you to  buy in bulk so what they do hey if  you're going to buy more than three  products you will get for 10 bucks  instead of 12 bucks so you  so for a consumer  right for a customer you know it's like  a two dollar  uh safe  uh you know  so  uh if you are excuse me if you are  someone who is uh passionate about cream  cheese use cream cheese  if you're making your meatballs or  um your  lasagna or  you know whatever right even as a spread  i like i'm a big fan of cream cheese  right i use it you know  uh all the time so for me that bargain  is pretty good right so  similarly right you might get uh  something else right you go and buy say  mcdonald's uh sweden's house or safe or  if you buy more than 10 you will get  like two  extra right so something similar right  so volume based discount or if you buy  set 10 sweden sour sauce say um for five  bucks  sorry it if if the each sweden sour  sauce is like 50 cents right so if you  buy say 10 of them right  um so you will instead of paying uh five  dollars you pay three dollars so yeah i  get a two dollars off so we're gonna  configure that um in super today it's  pretty simple a few clicks  you don't have to worry about the fancy  complex steps right so the first thing  first uh you should have an homework  right i trust you guys have an org  because you know we have almost reached  halfway through the certification course  and i do expect  you will have an org to practice if not  i i tell you guys this is the right time  right  just get your hands dirty  okay um so what i'll do we go to  something called discount schedules so  in this case if you if you look at my  screen right you can see discount  schedules here but if for whatever  reason you can't see it  so you go to the stick tag talk icon  uh type discount schedules  right  and we'll take you here  so we gonna create new  um  keeps a meaningful name right i will say  discount  options  uh give a meaningful name uh which makes  sense okay  now  we're not gonna fill much stuff here  right as you've seen that i haven't  filled much so whatever i've done it's  pretty cool at this stage so if you  notice we have something called editors  on the right and  side of the screen so you go here  yeah  i'll say  [Music]  three  quantity  and above  or would say three items in a bowl right  uh lower bound i wanted to give  discounts for anything about three  and up around 10. so let's say customer  buys  uh between three and ten  you will get a 10 discount  right and if you buy  um  say uh 10 and a bow um you will get  um say 15 scale  yeah  makes sense right okay  now that's done now obviously  creating a discount schedule is not good  enough right because you have to hook  that up to your product otherwise how  will the product know which discount  schedule to use right so you go to  product uh you can pick and choose any  product  right we're not talking about  subscription based product at this stage  right a simple product  okay so  um you go to tablet this all right so  i'm gonna  do edit yeah and i'll look for  something called discount  and there's something called discount  schedule right so you search here  and link that uh the discount schedule  record here  click on save  now what i'll do i'll go to code  right  um i'll pick and choose any code doesn't  matter right i've talked about zillions  of times of the cricket code so i'm not  going to cover that at this stage right  um so go to edit lines  right now  i will go to add products  i'm also at 10  right  the 10  inch tablet  and i'll select this and select okay now  by default it will put you  uh  so it will  include this  product  with the quantity  value as one okay now  at this stage discount won't be uh  coming into play because  we mentioned in our discount schedule  right if you select a product um whose  quantity is three and a bow  then you will get a discount options  right so you will get templates in this  gap so what i'll do i will choose four  oh sorry not this one  i'll choose four  um so  okay how this this will work  so four times 150 so that's 600 bucks  and then you're getting a 10 discount so  that's 60 off so double that means you  will get something around 540 right okay  so let's calculate  okay so five funny right now if you  remember uh if you go to this discount  schedule right  um  so  all right sorry my bad  my bad  i shouldn't have done that i shouldn't  have done that okay that's fine  um  all right so i'll do this again  right okay  um right so  all right so we were at four right and  um i applied this gown so something like  this right  oh sorry what the heck  and calculate  all right so if you remember i've  created like a two tiers right one is  three to ten you get uh ten percent  discount then ten  to twenty  about ten and  up to 20 you will get like 15 discount  right so i'm gonna put uh 11  here  now okay let me show how it works  so let's use a calculator right sorry my  apologies and  i mean  i consider myself pretty good in  mathematics but you know i can't  remember big numbers so  i'm not that genius right so yeah pretty  average guy anyways uh 11 times right we  got um 150  all right so 1650 now we got 15 discount  so we got 15.  all right so we're just going to do  divide by  100  and now to subtract one six  five zero so something like you will get  one four or two  something close by right let's see  um  so i will do calculate  right one four oh two five zero right so  one four two five zero so that's how it  works right so as you can see it's  pretty simple pretty easy to use right  and this counts right it's it's it's a  pretty daily thing right i mean you have  experienced it in your life you don't  have to know cpq to understand the skill  right so most of the things you have  experience in your real life so that's  pretty much i try to imitate right it's  pretty simple so that's all i want to  cover in this episode i hope you guys  enjoyed it uh i wish you guys have a  great  weekend adios
+ 
+
+00:00:04,230 --> 00:00:06,789
+ 
+ 
+
+00:00:06,789 --> 00:00:09,030
+ 
+ 
+
+00:00:09,030 --> 00:00:11,589
+ 
+ 
+
+00:00:11,589 --> 00:00:13,589
+ 
+ 
+
+00:00:13,589 --> 00:00:16,550
+ 
+ 
+
+00:00:16,550 --> 00:00:19,590
+ 
+ 
+
+00:00:19,590 --> 00:00:21,990
+ 
+ 
+
+00:00:21,990 --> 00:00:24,390
+ 
+ 
+
+00:00:24,390 --> 00:00:26,470
+ 
+ 
+
+00:00:26,470 --> 00:00:28,150
+ 
+ 
+
+00:00:28,150 --> 00:00:30,390
+ 
+ 
+
+00:00:30,390 --> 00:00:32,389
+ 
+ 
+
+00:00:32,389 --> 00:00:34,870
+ 
+ 
+
+00:00:34,870 --> 00:00:36,709
+ 
+ 
+
+00:00:36,709 --> 00:00:38,389
+ 
+ 
+
+00:00:38,389 --> 00:00:40,709
+ 
+ 
+
+00:00:40,709 --> 00:00:42,229
+ 
+ 
+
+00:00:42,229 --> 00:00:43,430
+ 
+ 
+
+00:00:43,430 --> 00:00:46,310
+ 
+ 
+
+00:00:46,310 --> 00:00:47,549
+ 
+ 
+
+00:00:47,549 --> 00:00:50,630
+ 
+ 
+
+00:00:50,630 --> 00:00:52,709
+ 
+ 
+
+00:00:52,709 --> 00:00:55,430
+ 
+ 
+
+00:00:55,430 --> 00:00:58,310
+ 
+ 
+
+00:00:58,310 --> 00:01:00,150
+ 
+ 
+
+00:01:00,150 --> 00:01:02,389
+ 
+ 
+
+00:01:02,389 --> 00:01:04,950
+ 
+ 
+
+00:01:04,950 --> 00:01:06,630
+ 
+ 
+
+00:01:06,630 --> 00:01:08,630
+ 
+ 
+
+00:01:08,630 --> 00:01:10,070
+ 
+ 
+
+00:01:10,070 --> 00:01:11,270
+ 
+ 
+
+00:01:11,270 --> 00:01:12,870
+ 
+ 
+
+00:01:12,870 --> 00:01:12,880
+ 
+ 
+
+00:01:12,880 --> 00:01:13,990
+ 
+
+
+00:01:13,990 --> 00:01:15,910
+ 
+ 
+
+00:01:15,910 --> 00:01:17,990
+ 
+ 
+
+00:01:17,990 --> 00:01:19,749
+ 
+ 
+
+00:01:19,749 --> 00:01:22,149
+ 
+ 
+
+00:01:22,149 --> 00:01:23,670
+ 
+ 
+
+00:01:23,670 --> 00:01:25,190
+ 
+ 
+
+00:01:25,190 --> 00:01:27,830
+ 
+ 
+
+00:01:27,830 --> 00:01:29,590
+ 
+ 
+
+00:01:29,590 --> 00:01:31,510
+ 
+ 
+
+00:01:31,510 --> 00:01:35,030
+ 
+ 
+
+00:01:35,030 --> 00:01:37,190
+ 
+ 
+
+00:01:37,190 --> 00:01:39,429
+ 
+ 
+
+00:01:39,429 --> 00:01:41,749
+ 
+ 
+
+00:01:41,749 --> 00:01:44,710
+ 
+ 
+
+00:01:44,710 --> 00:01:46,789
+ 
+ 
+
+00:01:46,789 --> 00:01:48,149
+ 
+ 
+
+00:01:48,149 --> 00:01:50,469
+ 
+ 
+
+00:01:50,469 --> 00:01:53,030
+ 
+ 
+
+00:01:53,030 --> 00:01:57,109
+ 
+ 
+
+00:01:57,109 --> 00:01:57,119
+ 
+ 
+
+00:01:57,119 --> 00:01:58,149
+ 
+
+
+00:01:58,149 --> 00:02:00,469
+ 
+ 
+
+00:02:00,469 --> 00:02:02,789
+ 
+ 
+
+00:02:02,789 --> 00:02:04,950
+ 
+ 
+
+00:02:04,950 --> 00:02:07,590
+ 
+ 
+
+00:02:07,590 --> 00:02:09,350
+ 
+ 
+
+00:02:09,350 --> 00:02:11,910
+ 
+ 
+
+00:02:11,910 --> 00:02:14,630
+ 
+ 
+
+00:02:14,630 --> 00:02:17,270
+ 
+ 
+
+00:02:17,270 --> 00:02:18,869
+ 
+ 
+
+00:02:18,869 --> 00:02:21,430
+ 
+ 
+
+00:02:21,430 --> 00:02:23,030
+ 
+ 
+
+00:02:23,030 --> 00:02:25,110
+ 
+ 
+
+00:02:25,110 --> 00:02:27,510
+ 
+ 
+
+00:02:27,510 --> 00:02:29,270
+ 
+ 
+
+00:02:29,270 --> 00:02:30,790
+ 
+ 
+
+00:02:30,790 --> 00:02:34,150
+ 
+ 
+
+00:02:34,150 --> 00:02:35,990
+ 
+ 
+
+00:02:35,990 --> 00:02:36,000
+ 
+ 
+
+00:02:36,000 --> 00:02:37,110
+ 
+
+
+00:02:37,110 --> 00:02:38,790
+ 
+ 
+
+00:02:38,790 --> 00:02:41,110
+ 
+ 
+
+00:02:41,110 --> 00:02:43,910
+ 
+ 
+
+00:02:43,910 --> 00:02:45,430
+ 
+ 
+
+00:02:45,430 --> 00:02:46,869
+ 
+ 
+
+00:02:46,869 --> 00:02:48,949
+ 
+ 
+
+00:02:48,949 --> 00:02:50,630
+ 
+ 
+
+00:02:50,630 --> 00:02:53,670
+ 
+ 
+
+00:02:53,670 --> 00:02:55,910
+ 
+ 
+
+00:02:55,910 --> 00:02:55,920
+ 
+ 
+
+00:02:55,920 --> 00:02:57,509
+ 
+
+
+00:02:57,509 --> 00:02:59,830
+ 
+ 
+
+00:02:59,830 --> 00:03:02,229
+ 
+ 
+
+00:03:02,229 --> 00:03:02,239
+ 
+ 
+
+00:03:02,239 --> 00:03:03,270
+ 
+
+
+00:03:03,270 --> 00:03:04,869
+ 
+ 
+
+00:03:04,869 --> 00:03:04,879
+ 
+ 
+
+00:03:04,879 --> 00:03:06,949
+ 
+
+
+00:03:06,949 --> 00:03:06,959
+ 
+ 
+
+00:03:06,959 --> 00:03:08,070
+ 
+
+
+00:03:08,070 --> 00:03:10,630
+ 
+ 
+
+00:03:10,630 --> 00:03:13,190
+ 
+ 
+
+00:03:13,190 --> 00:03:13,200
+ 
+ 
+
+00:03:13,200 --> 00:03:14,390
+ 
+
+
+00:03:14,390 --> 00:03:16,070
+ 
+ 
+
+00:03:16,070 --> 00:03:17,509
+ 
+ 
+
+00:03:17,509 --> 00:03:20,790
+ 
+ 
+
+00:03:20,790 --> 00:03:23,110
+ 
+ 
+
+00:03:23,110 --> 00:03:25,430
+ 
+ 
+
+00:03:25,430 --> 00:03:27,350
+ 
+ 
+
+00:03:27,350 --> 00:03:29,910
+ 
+ 
+
+00:03:29,910 --> 00:03:29,920
+ 
+ 
+
+00:03:29,920 --> 00:03:31,110
+ 
+
+
+00:03:31,110 --> 00:03:32,160
+ 
+ 
+
+00:03:32,160 --> 00:03:32,170
+ 
+ 
+
+00:03:32,170 --> 00:03:33,509
+ 
+
+
+00:03:33,509 --> 00:03:33,519
+ 
+ 
+
+00:03:33,519 --> 00:03:34,390
+ 
+
+
+00:03:34,390 --> 00:03:34,400
+ 
+ 
+
+00:03:34,400 --> 00:03:35,990
+ 
+
+
+00:03:35,990 --> 00:03:38,149
+ 
+ 
+
+00:03:38,149 --> 00:03:42,229
+ 
+ 
+
+00:03:42,229 --> 00:03:44,229
+ 
+ 
+
+00:03:44,229 --> 00:03:47,589
+ 
+ 
+
+00:03:47,589 --> 00:03:50,630
+ 
+ 
+
+00:03:50,630 --> 00:03:50,640
+ 
+ 
+
+00:03:50,640 --> 00:03:51,830
+ 
+
+
+00:03:51,830 --> 00:03:54,949
+ 
+ 
+
+00:03:54,949 --> 00:03:58,630
+ 
+ 
+
+00:03:58,630 --> 00:04:01,350
+ 
+ 
+
+00:04:01,350 --> 00:04:01,360
+ 
+ 
+
+00:04:01,360 --> 00:04:03,110
+ 
+
+
+00:04:03,110 --> 00:04:08,149
+ 
+ 
+
+00:04:08,149 --> 00:04:11,270
+ 
+ 
+
+00:04:11,270 --> 00:04:11,280
+ 
+ 
+
+00:04:11,280 --> 00:04:12,309
+ 
+
+
+00:04:12,309 --> 00:04:14,470
+ 
+ 
+
+00:04:14,470 --> 00:04:17,110
+ 
+ 
+
+00:04:17,110 --> 00:04:18,789
+ 
+ 
+
+00:04:18,789 --> 00:04:20,469
+ 
+ 
+
+00:04:20,469 --> 00:04:22,550
+ 
+ 
+
+00:04:22,550 --> 00:04:23,830
+ 
+ 
+
+00:04:23,830 --> 00:04:25,830
+ 
+ 
+
+00:04:25,830 --> 00:04:27,909
+ 
+ 
+
+00:04:27,909 --> 00:04:27,919
+ 
+ 
+
+00:04:27,919 --> 00:04:28,870
+ 
+
+
+00:04:28,870 --> 00:04:29,990
+ 
+ 
+
+00:04:29,990 --> 00:04:31,590
+ 
+ 
+
+00:04:31,590 --> 00:04:33,350
+ 
+ 
+
+00:04:33,350 --> 00:04:34,469
+ 
+ 
+
+00:04:34,469 --> 00:04:36,950
+ 
+ 
+
+00:04:36,950 --> 00:04:37,990
+ 
+ 
+
+00:04:37,990 --> 00:04:41,590
+ 
+ 
+
+00:04:41,590 --> 00:04:44,469
+ 
+ 
+
+00:04:44,469 --> 00:04:45,670
+ 
+ 
+
+00:04:45,670 --> 00:04:48,310
+ 
+ 
+
+00:04:48,310 --> 00:04:51,110
+ 
+ 
+
+00:04:51,110 --> 00:04:53,110
+ 
+ 
+
+00:04:53,110 --> 00:04:54,390
+ 
+ 
+
+00:04:54,390 --> 00:04:57,590
+ 
+ 
+
+00:04:57,590 --> 00:04:57,600
+ 
+ 
+
+00:04:57,600 --> 00:04:58,469
+ 
+
+
+00:04:58,469 --> 00:05:00,150
+ 
+ 
+
+00:05:00,150 --> 00:05:02,550
+ 
+ 
+
+00:05:02,550 --> 00:05:04,390
+ 
+ 
+
+00:05:04,390 --> 00:05:07,189
+ 
+ 
+
+00:05:07,189 --> 00:05:11,189
+ 
+ 
+
+00:05:11,189 --> 00:05:13,270
+ 
+ 
+
+00:05:13,270 --> 00:05:16,629
+ 
+ 
+
+00:05:16,629 --> 00:05:19,590
+ 
+ 
+
+00:05:19,590 --> 00:05:19,600
+ 
+ 
+
+00:05:19,600 --> 00:05:20,390
+ 
+
+
+00:05:20,390 --> 00:05:21,909
+ 
+ 
+
+00:05:21,909 --> 00:05:23,590
+ 
+ 
+
+00:05:23,590 --> 00:05:26,390
+ 
+ 
+
+00:05:26,390 --> 00:05:28,629
+ 
+ 
+
+00:05:28,629 --> 00:05:28,639
+ 
+ 
+
+00:05:28,639 --> 00:05:30,070
+ 
+
+
+00:05:30,070 --> 00:05:31,270
+ 
+ 
+
+00:05:31,270 --> 00:05:32,950
+ 
+ 
+
+00:05:32,950 --> 00:05:32,960
+ 
+ 
+
+00:05:32,960 --> 00:05:34,790
+ 
+
+
+00:05:34,790 --> 00:05:37,029
+ 
+ 
+
+00:05:37,029 --> 00:05:40,150
+ 
+ 
+
+00:05:40,150 --> 00:05:43,029
+ 
+ 
+
+00:05:43,029 --> 00:05:45,110
+ 
+ 
+
+00:05:45,110 --> 00:05:47,350
+ 
+ 
+
+00:05:47,350 --> 00:05:50,390
+ 
+ 
+
+00:05:50,390 --> 00:05:52,629
+ 
+ 
+
+00:05:52,629 --> 00:05:54,870
+ 
+ 
+
+00:05:54,870 --> 00:05:56,309
+ 
+ 
+
+00:05:56,309 --> 00:05:59,029
+ 
+ 
+
+00:05:59,029 --> 00:06:01,189
+ 
+ 
+
+00:06:01,189 --> 00:06:03,110
+ 
+ 
+
+00:06:03,110 --> 00:06:04,309
+ 
+ 
+
+00:06:04,309 --> 00:06:06,790
+ 
+ 
+
+00:06:06,790 --> 00:06:10,150
+ 
+ 
+
+00:06:10,150 --> 00:06:12,230
+ 
+ 
+
+00:06:12,230 --> 00:06:15,189
+ 
+ 
+
+00:06:15,189 --> 00:06:18,629
+ 
+ 
+
+00:06:18,629 --> 00:06:22,309
+ 
+ 
+
+00:06:22,309 --> 00:06:25,430
+ 
+ 
+
+00:06:25,430 --> 00:06:27,350
+ 
+ 
+
+00:06:27,350 --> 00:06:30,150
+ 
+ 
+
+00:06:30,150 --> 00:06:30,160
+ 
+ 
+
+00:06:30,160 --> 00:06:31,189
+ 
+
+
+00:06:31,189 --> 00:06:31,199
+ 
+ 
+
+00:06:31,199 --> 00:06:34,629
+ 
+
+
+00:06:34,629 --> 00:06:36,469
+ 
+ 
+
+00:06:36,469 --> 00:06:37,430
+ 
+ 
+
+00:06:37,430 --> 00:06:38,790
+ 
+ 
+
+00:06:38,790 --> 00:06:41,189
+ 
+ 
+
+00:06:41,189 --> 00:06:41,199
+ 
+ 
+
+00:06:41,199 --> 00:06:44,710
+ 
+
+
+00:06:44,710 --> 00:06:56,390
+ 
+ 
+
+00:06:56,390 --> 00:06:59,430
+ 
+ 
+
+00:06:59,430 --> 00:07:03,990
+ 
+ 
+
+00:07:03,990 --> 00:07:06,390
+ 
+ 
+
+00:07:06,390 --> 00:07:08,550
+ 
+ 
+
+00:07:08,550 --> 00:07:10,230
+ 
+ 
+
+00:07:10,230 --> 00:07:14,150
+ 
+ 
+
+00:07:14,150 --> 00:07:16,629
+ 
+ 
+
+00:07:16,629 --> 00:07:18,550
+ 
+ 
+
+00:07:18,550 --> 00:07:21,350
+ 
+ 
+
+00:07:21,350 --> 00:07:24,150
+ 
+ 
+
+00:07:24,150 --> 00:07:25,909
+ 
+ 
+
+00:07:25,909 --> 00:07:27,350
+ 
+ 
+
+00:07:27,350 --> 00:07:28,629
+ 
+ 
+
+00:07:28,629 --> 00:07:31,110
+ 
+ 
+
+00:07:31,110 --> 00:07:34,469
+ 
+ 
+
+00:07:34,469 --> 00:07:34,479
+ 
+ 
+
+00:07:34,479 --> 00:07:35,430
+ 
+
+
+00:07:35,430 --> 00:07:38,230
+ 
+ 
+
+00:07:38,230 --> 00:07:40,309
+ 
+ 
+
+00:07:40,309 --> 00:07:41,670
+ 
+ 
+
+00:07:41,670 --> 00:07:43,110
+ 
+ 
+
+00:07:43,110 --> 00:07:44,550
+ 
+ 
+
+00:07:44,550 --> 00:07:46,629
+ 
+ 
+
+00:07:46,629 --> 00:07:48,550
+ 
+ 
+
+00:07:48,550 --> 00:07:51,749
+ 
+ 
+
+00:07:51,749 --> 00:07:55,990
+ 
+ 
+
+00:07:55,990 --> 00:07:59,830
+ 
+ 
+
+00:07:59,830 --> 00:08:03,749
+ 
+ 
+
+00:08:03,749 --> 00:08:05,589
+ 
+ 
+
+00:08:05,589 --> 00:08:07,189
+ 
+ 
+
+00:08:07,189 --> 00:08:09,029
+ 
+ 
+
+00:08:09,029 --> 00:08:09,039
+ 
+ 
+
+00:08:09,039 --> 00:08:10,230
+ 
+
+
+00:08:10,230 --> 00:08:12,790
+ 
+ 
+
+00:08:12,790 --> 00:08:15,589
+ 
+ 
+
+00:08:15,589 --> 00:08:17,430
+ 
+ 
+
+00:08:17,430 --> 00:08:21,189
+ 
+ 
+
+00:08:21,189 --> 00:08:21,199
+ 
+ 
+
+00:08:21,199 --> 00:08:22,150
+ 
+
+
+00:08:22,150 --> 00:08:25,670
+ 
+ 
+
+00:08:25,670 --> 00:08:28,230
+ 
+ 
+
+00:08:28,230 --> 00:08:30,869
+ 
+ 
+
+00:08:30,869 --> 00:08:32,790
+ 
+ 
+
+00:08:32,790 --> 00:08:35,269
+ 
+ 
+
+00:08:35,269 --> 00:08:37,670
+ 
+ 
+
+00:08:37,670 --> 00:08:39,829
+ 
+ 
+
+00:08:39,829 --> 00:08:41,269
+ 
+ 
+
+00:08:41,269 --> 00:08:43,350
+ 
+ 
+
+00:08:43,350 --> 00:08:45,269
+ 
+ 
+
+00:08:45,269 --> 00:08:47,269
+ 
+ 
+
+00:08:47,269 --> 00:08:49,670
+ 
+ 
+
+00:08:49,670 --> 00:08:52,790
+ 
+ 
+
+00:08:52,790 --> 00:08:54,389
+ 
+ 
+
+00:08:54,389 --> 00:08:56,710
+ 
+ 
+
+00:08:56,710 --> 00:08:56,720
+ 
+ 
+
+00:08:56,720 --> 00:08:57,590
+ 
+
+
+00:08:57,590 --> 00:09:00,920
+ 
+ 
+

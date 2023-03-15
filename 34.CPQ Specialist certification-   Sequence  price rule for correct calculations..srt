@@ -1,0 +1,1349 @@
+
+00:00:00,719 --> 00:00:02,389
+ 
+good everyone i hope you guys have an  amazing day uh so today what i'm gonna  do i'll be talking about the sequence  price rules for  uh correct calculation so this is just a  theory session so i don't really want to  make a slide so i thought i might as  well teach you guys from trailhead so  you know if you if you been following  along right you would have seen right  you know a lot of things  uh  around cpq like um say for instance um  you create a code you add a product to  the code and you know the prices get  calculated based on the price rules or  uh other logic that set in place right  so you must be wondering what exactly  triggers those things behind the scene  right um so um  that's something i wanted to talk about  like you know if you look at it right  you know say like i said the same  example which i gave just now like you  add a product to the code you can  modify certain things and you can you  know you have an option to calculate it  so when you save it the things uh behind  the scene right right just so certain  calculations and then you get the  desired output  right now we have something called a  calculating field right so what happens  is like for instance you might have seen  a very classic example right the  subscription term so if you change  say your subscription terms from 12  months to 24 or whatever right it kind  of triggers a calculation behind the  scenes and that kind of uh drive your  output  result  so uh if you go to the salesforce right  if your salesforce org you go to the  object manager  so  you go to say let me take a code as an  example  so if you go to code  and you go to the field set  you see we have this calculating fields  there right so  and this pretty much uh drives your  calculations uh behind the scene  um  say  you know  like i gave you an example right we have  the subscription  terms similarly you have type and  opportunity type if you wanted  uh to add more field you can add it here  drag and drop  so for instance if you wanted to drive a  calculation uh if you wanted to trigger  a calculation based on account cla you  can do that you know just drag and drop  so  this is uh any any field which is a part  of this uh the fields are right there  they will contribute to the calculations  uh behind the scene  okay that's that's pretty simple right  you must be thinking and now if you  remember we have done something called  the price rules right  so  um let me go back here  um and in price rules  um i've talked about  um if you say let's go to the price  rules  let me edit the price rules  now this one right calculation event i  said okay for now  assume that you know for now use on  calculate and we will talk about this  later right if you remember when i spoke  about it initially  so this is something i wanted to  uh talk about so these all determines  the order of execution the events will  happen  so let me  go here  so see this is the one right  so it says when a cpg calculates a code  right so when you add a a product to the  code in a lot of things goes behind the  scene right so you might have set uh  like for instance in this case i've set  a  work rule  sorry price rule based on you know  account type and  and the product right so based on that  say industry type so for instance if  it's a health care you will get a  certain price for a certain product um  if it's a  education sector you will get certain  price for a certain product so in our  case we talked about we spoke about the  chromebook right say i wanted to sell  230 bucks  um if you are  a school customer right if you're if  your account belongs to school um if  your account belongs to a is a health  care sector you will pay say 250 bucks  whereas the actual price for the  chromebooks 400 bucks right um so when  you do that right when you set up a  price rule based on if then right we  have a price conditions and then price  uh  uh actions right so  um when you set up this price rule and  when you add this specific product uh  based on this uh specific code right  belong to a specific account uh the  price rules kicks in right behind the  scene now when the price rule kicks in  all of this events that comes in the  picture so that's exactly what i'm going  to talk about so say the first thing is  right when you uh the how it works from  the calculation happens from this very  specific sequence right because  today's episode is all about sequence  right because understanding the sequence  is important because you might  may not need on calculate your so you  want this specific price rule to be  calculated before calculate uh happens  or after calculation happens right  so that's something i will talk about so  what happens in normal scenario right so  uh when the code get calculated based on  price rule right behind the scene the  first thing that happens  uh it fetches the data right from the  product options cost uh sorry yeah cost  and other stuff and then uh it will run  on initialized price rules then evaluate  the formula fields and then it runs  before calculate  um then it kind of runs on calculate so  you can pretty much add all of this  right if you want  so  but no under normal scenario it doesn't  really work that way  i mean  you can add it because obviously you  know um  that's why they giving you a  multi-select option right  uh but i haven't seen uh i've seen very  rare scenario where they use everything  uh sometimes normally what happens they  use  before calculate or after calculate so  depending upon  your business requirement um and one  thing i just wanted to  tell you right you know uh  so  um  say you know certain scenario right  certain classification or certain uh  business requirement  uh  will  force you to  you know try out different combination  and permutations because sometimes you  may not get it right at the first time  so you have to play around with it to  see  which is the best option but in saying  so right  so  this is exactly  what it does behind the scene  right so you can read about it so you  know trailhead so that's pretty  much i mean from exam point of view  you might get quizzed around the  sequencing of it i would just you know  but  uh  but from a practicality point of view i  would say that um you know it's  important to understand the price rule  very well why you need to have a price  rule and what's the price condition so  what happens right i'll give you one  classic scenario  um  so  in the price action right you can have  multiple price actions right now if you  have multiple price actions right so you  might want to say hey i have three price  actions right  and i want the order of the price  actions to be determined right this  action should fire first this action  second action should fire later right  and how do you define that  right because obviously you can have  multiple price action right it's like  think about like a trigger right so you  want a trigger to be fired before insert  should fire first then after insert will  fire later right something like that and  if you have uh i'm not sure if you've  used um  non-profit uh  package in nonprofit you can have  multiple triggers right so you to  now and in that you can actually  determine which one can get fired so  using the order of execution uh using  the order or priority status so  similarly for a price action right you  can pretty much determine  based on the order  which multiple actions  on a rule are executed  so if you have uh  two orders uh so if you have two price  section if you put one  this to this one and second to another  one so this will get executed first and  the the second one will get executed  later so this is just a sequence you  have to you know keep in consideration  there is an option which you can use it  if you have to use it uh but that being  said right you have to understand what  exactly you're trying to achieve okay  it's all driven by business rule right  so this is just like i said this is just  a theory session to make you guys  understand we have certain sequence like  calculation happens behind the scene uh  and how does it work behind the scene  right so that's pretty much it  so that's pretty uh much  about this price rules right so uh i  mean  uh i would highly encourage you to go  through this trailhead and read through  it if you wanted to know more  um  but in saying so right from example  point of view uh you won't get quite  much on this side you probably  have to know the price rules very well  the conditions  and the price actions right and and the  lookup queries which we the lookup  queries right this one  um which we uh did last time so you  should know this one  um the next topic i'm gonna uh  talk about the code template and then we  talk about contracts um  yeah and a few more other stuff then we  pretty much done right  uh i do understand right if you are  um not a programmer if you're not from a  um if you're if you're a technical  person  uh sorry if you if you're a programmer  if you're a technical person you might  find the cpu certification bit boring  because it's too much of functional but  in saying so right if you're a solution  architect  it's very important for you and the guys  to understand you know the functionality  before you even suggest  the solution uh to solve a business  problem right  so  yeah that's pretty much i wanted to talk  about it um my apologies that does not  contain any hands-on in today's lecture  but  i just mentioned that the start of the  episode right this that's going to be a  theory so uh that being said you guys  have an amazing sunday adios
+
+00:00:02,389 --> 00:00:04,150
+good everyone i hope you guys have an  amazing day uh so today what i'm gonna  do i'll be talking about the sequence  price rules for  uh correct calculation so this is just a  theory session so i don't really want to  make a slide so i thought i might as  well teach you guys from trailhead so  you know if you if you been following  along right you would have seen right  you know a lot of things  uh  around cpq like um say for instance um  you create a code you add a product to  the code and you know the prices get  calculated based on the price rules or  uh other logic that set in place right  so you must be wondering what exactly  triggers those things behind the scene  right um so um  that's something i wanted to talk about  like you know if you look at it right  you know say like i said the same  example which i gave just now like you  add a product to the code you can  modify certain things and you can you  know you have an option to calculate it  so when you save it the things uh behind  the scene right right just so certain  calculations and then you get the  desired output  right now we have something called a  calculating field right so what happens  is like for instance you might have seen  a very classic example right the  subscription term so if you change  say your subscription terms from 12  months to 24 or whatever right it kind  of triggers a calculation behind the  scenes and that kind of uh drive your  output  result  so uh if you go to the salesforce right  if your salesforce org you go to the  object manager  so  you go to say let me take a code as an  example  so if you go to code  and you go to the field set  you see we have this calculating fields  there right so  and this pretty much uh drives your  calculations uh behind the scene  um  say  you know  like i gave you an example right we have  the subscription  terms similarly you have type and  opportunity type if you wanted  uh to add more field you can add it here  drag and drop  so for instance if you wanted to drive a  calculation uh if you wanted to trigger  a calculation based on account cla you  can do that you know just drag and drop  so  this is uh any any field which is a part  of this uh the fields are right there  they will contribute to the calculations  uh behind the scene  okay that's that's pretty simple right  you must be thinking and now if you  remember we have done something called  the price rules right  so  um let me go back here  um and in price rules  um i've talked about  um if you say let's go to the price  rules  let me edit the price rules  now this one right calculation event i  said okay for now  assume that you know for now use on  calculate and we will talk about this  later right if you remember when i spoke  about it initially  so this is something i wanted to  uh talk about so these all determines  the order of execution the events will  happen  so let me  go here  so see this is the one right  so it says when a cpg calculates a code  right so when you add a a product to the  code in a lot of things goes behind the  scene right so you might have set uh  like for instance in this case i've set  a  work rule  sorry price rule based on you know  account type and  and the product right so based on that  say industry type so for instance if  it's a health care you will get a  certain price for a certain product um  if it's a  education sector you will get certain  price for a certain product so in our  case we talked about we spoke about the  chromebook right say i wanted to sell  230 bucks  um if you are  a school customer right if you're if  your account belongs to school um if  your account belongs to a is a health  care sector you will pay say 250 bucks  whereas the actual price for the  chromebooks 400 bucks right um so when  you do that right when you set up a  price rule based on if then right we  have a price conditions and then price  uh  uh actions right so  um when you set up this price rule and  when you add this specific product uh  based on this uh specific code right  belong to a specific account uh the  price rules kicks in right behind the  scene now when the price rule kicks in  all of this events that comes in the  picture so that's exactly what i'm going  to talk about so say the first thing is  right when you uh the how it works from  the calculation happens from this very  specific sequence right because  today's episode is all about sequence  right because understanding the sequence  is important because you might  may not need on calculate your so you  want this specific price rule to be  calculated before calculate uh happens  or after calculation happens right  so that's something i will talk about so  what happens in normal scenario right so  uh when the code get calculated based on  price rule right behind the scene the  first thing that happens  uh it fetches the data right from the  product options cost uh sorry yeah cost  and other stuff and then uh it will run  on initialized price rules then evaluate  the formula fields and then it runs  before calculate  um then it kind of runs on calculate so  you can pretty much add all of this  right if you want  so  but no under normal scenario it doesn't  really work that way  i mean  you can add it because obviously you  know um  that's why they giving you a  multi-select option right  uh but i haven't seen uh i've seen very  rare scenario where they use everything  uh sometimes normally what happens they  use  before calculate or after calculate so  depending upon  your business requirement um and one  thing i just wanted to  tell you right you know uh  so  um  say you know certain scenario right  certain classification or certain uh  business requirement  uh  will  force you to  you know try out different combination  and permutations because sometimes you  may not get it right at the first time  so you have to play around with it to  see  which is the best option but in saying  so right  so  this is exactly  what it does behind the scene  right so you can read about it so you  know trailhead so that's pretty  much i mean from exam point of view  you might get quizzed around the  sequencing of it i would just you know  but  uh  but from a practicality point of view i  would say that um you know it's  important to understand the price rule  very well why you need to have a price  rule and what's the price condition so  what happens right i'll give you one  classic scenario  um  so  in the price action right you can have  multiple price actions right now if you  have multiple price actions right so you  might want to say hey i have three price  actions right  and i want the order of the price  actions to be determined right this  action should fire first this action  second action should fire later right  and how do you define that  right because obviously you can have  multiple price action right it's like  think about like a trigger right so you  want a trigger to be fired before insert  should fire first then after insert will  fire later right something like that and  if you have uh i'm not sure if you've  used um  non-profit uh  package in nonprofit you can have  multiple triggers right so you to  now and in that you can actually  determine which one can get fired so  using the order of execution uh using  the order or priority status so  similarly for a price action right you  can pretty much determine  based on the order  which multiple actions  on a rule are executed  so if you have uh  two orders uh so if you have two price  section if you put one  this to this one and second to another  one so this will get executed first and  the the second one will get executed  later so this is just a sequence you  have to you know keep in consideration  there is an option which you can use it  if you have to use it uh but that being  said right you have to understand what  exactly you're trying to achieve okay  it's all driven by business rule right  so this is just like i said this is just  a theory session to make you guys  understand we have certain sequence like  calculation happens behind the scene uh  and how does it work behind the scene  right so that's pretty much it  so that's pretty uh much  about this price rules right so uh i  mean  uh i would highly encourage you to go  through this trailhead and read through  it if you wanted to know more  um  but in saying so right from example  point of view uh you won't get quite  much on this side you probably  have to know the price rules very well  the conditions  and the price actions right and and the  lookup queries which we the lookup  queries right this one  um which we uh did last time so you  should know this one  um the next topic i'm gonna uh  talk about the code template and then we  talk about contracts um  yeah and a few more other stuff then we  pretty much done right  uh i do understand right if you are  um not a programmer if you're not from a  um if you're if you're a technical  person  uh sorry if you if you're a programmer  if you're a technical person you might  find the cpu certification bit boring  because it's too much of functional but  in saying so right if you're a solution  architect  it's very important for you and the guys  to understand you know the functionality  before you even suggest  the solution uh to solve a business  problem right  so  yeah that's pretty much i wanted to talk  about it um my apologies that does not  contain any hands-on in today's lecture  but  i just mentioned that the start of the  episode right this that's going to be a  theory so uh that being said you guys  have an amazing sunday adios
+ 
+
+00:00:04,150 --> 00:00:06,230
+ 
+ 
+
+00:00:06,230 --> 00:00:07,749
+ 
+ 
+
+00:00:07,749 --> 00:00:09,669
+ 
+ 
+
+00:00:09,669 --> 00:00:12,070
+ 
+ 
+
+00:00:12,070 --> 00:00:13,430
+ 
+ 
+
+00:00:13,430 --> 00:00:15,829
+ 
+ 
+
+00:00:15,829 --> 00:00:18,150
+ 
+ 
+
+00:00:18,150 --> 00:00:19,990
+ 
+ 
+
+00:00:19,990 --> 00:00:21,750
+ 
+ 
+
+00:00:21,750 --> 00:00:21,760
+ 
+ 
+
+00:00:21,760 --> 00:00:22,790
+ 
+
+
+00:00:22,790 --> 00:00:26,230
+ 
+ 
+
+00:00:26,230 --> 00:00:28,070
+ 
+ 
+
+00:00:28,070 --> 00:00:30,470
+ 
+ 
+
+00:00:30,470 --> 00:00:32,870
+ 
+ 
+
+00:00:32,870 --> 00:00:35,350
+ 
+ 
+
+00:00:35,350 --> 00:00:37,590
+ 
+ 
+
+00:00:37,590 --> 00:00:39,590
+ 
+ 
+
+00:00:39,590 --> 00:00:42,549
+ 
+ 
+
+00:00:42,549 --> 00:00:44,069
+ 
+ 
+
+00:00:44,069 --> 00:00:46,229
+ 
+ 
+
+00:00:46,229 --> 00:00:47,910
+ 
+ 
+
+00:00:47,910 --> 00:00:50,069
+ 
+ 
+
+00:00:50,069 --> 00:00:53,110
+ 
+ 
+
+00:00:53,110 --> 00:00:55,350
+ 
+ 
+
+00:00:55,350 --> 00:00:56,950
+ 
+ 
+
+00:00:56,950 --> 00:00:59,830
+ 
+ 
+
+00:00:59,830 --> 00:01:02,310
+ 
+ 
+
+00:01:02,310 --> 00:01:04,229
+ 
+ 
+
+00:01:04,229 --> 00:01:06,390
+ 
+ 
+
+00:01:06,390 --> 00:01:08,710
+ 
+ 
+
+00:01:08,710 --> 00:01:11,190
+ 
+ 
+
+00:01:11,190 --> 00:01:13,030
+ 
+ 
+
+00:01:13,030 --> 00:01:14,630
+ 
+ 
+
+00:01:14,630 --> 00:01:18,230
+ 
+ 
+
+00:01:18,230 --> 00:01:19,990
+ 
+ 
+
+00:01:19,990 --> 00:01:22,310
+ 
+ 
+
+00:01:22,310 --> 00:01:23,910
+ 
+ 
+
+00:01:23,910 --> 00:01:27,590
+ 
+ 
+
+00:01:27,590 --> 00:01:27,600
+ 
+ 
+
+00:01:27,600 --> 00:01:28,550
+ 
+
+
+00:01:28,550 --> 00:01:28,560
+ 
+ 
+
+00:01:28,560 --> 00:01:29,749
+ 
+
+
+00:01:29,749 --> 00:01:32,310
+ 
+ 
+
+00:01:32,310 --> 00:01:34,310
+ 
+ 
+
+00:01:34,310 --> 00:01:36,230
+ 
+ 
+
+00:01:36,230 --> 00:01:36,240
+ 
+ 
+
+00:01:36,240 --> 00:01:37,830
+ 
+
+
+00:01:37,830 --> 00:01:39,990
+ 
+ 
+
+00:01:39,990 --> 00:01:40,000
+ 
+ 
+
+00:01:40,000 --> 00:01:41,270
+ 
+
+
+00:01:41,270 --> 00:01:43,910
+ 
+ 
+
+00:01:43,910 --> 00:01:46,389
+ 
+ 
+
+00:01:46,389 --> 00:01:48,149
+ 
+ 
+
+00:01:48,149 --> 00:01:49,910
+ 
+ 
+
+00:01:49,910 --> 00:01:53,830
+ 
+ 
+
+00:01:53,830 --> 00:01:56,789
+ 
+ 
+
+00:01:56,789 --> 00:01:56,799
+ 
+ 
+
+00:01:56,799 --> 00:01:57,670
+ 
+
+
+00:01:57,670 --> 00:01:57,680
+ 
+ 
+
+00:01:57,680 --> 00:01:58,469
+ 
+
+
+00:01:58,469 --> 00:01:59,510
+ 
+ 
+
+00:01:59,510 --> 00:02:01,190
+ 
+ 
+
+00:02:01,190 --> 00:02:02,550
+ 
+ 
+
+00:02:02,550 --> 00:02:04,709
+ 
+ 
+
+00:02:04,709 --> 00:02:06,709
+ 
+ 
+
+00:02:06,709 --> 00:02:08,790
+ 
+ 
+
+00:02:08,790 --> 00:02:10,229
+ 
+ 
+
+00:02:10,229 --> 00:02:12,550
+ 
+ 
+
+00:02:12,550 --> 00:02:14,390
+ 
+ 
+
+00:02:14,390 --> 00:02:16,630
+ 
+ 
+
+00:02:16,630 --> 00:02:19,270
+ 
+ 
+
+00:02:19,270 --> 00:02:19,280
+ 
+ 
+
+00:02:19,280 --> 00:02:20,869
+ 
+
+
+00:02:20,869 --> 00:02:23,430
+ 
+ 
+
+00:02:23,430 --> 00:02:25,350
+ 
+ 
+
+00:02:25,350 --> 00:02:28,229
+ 
+ 
+
+00:02:28,229 --> 00:02:30,150
+ 
+ 
+
+00:02:30,150 --> 00:02:32,630
+ 
+ 
+
+00:02:32,630 --> 00:02:34,229
+ 
+ 
+
+00:02:34,229 --> 00:02:35,750
+ 
+ 
+
+00:02:35,750 --> 00:02:37,430
+ 
+ 
+
+00:02:37,430 --> 00:02:37,440
+ 
+ 
+
+00:02:37,440 --> 00:02:38,229
+ 
+
+
+00:02:38,229 --> 00:02:42,710
+ 
+ 
+
+00:02:42,710 --> 00:02:46,949
+ 
+ 
+
+00:02:46,949 --> 00:02:49,270
+ 
+ 
+
+00:02:49,270 --> 00:02:51,670
+ 
+ 
+
+00:02:51,670 --> 00:02:51,680
+ 
+ 
+
+00:02:51,680 --> 00:02:53,110
+ 
+
+
+00:02:53,110 --> 00:02:55,430
+ 
+ 
+
+00:02:55,430 --> 00:02:57,830
+ 
+ 
+
+00:02:57,830 --> 00:02:59,430
+ 
+ 
+
+00:02:59,430 --> 00:03:02,149
+ 
+ 
+
+00:03:02,149 --> 00:03:03,670
+ 
+ 
+
+00:03:03,670 --> 00:03:05,670
+ 
+ 
+
+00:03:05,670 --> 00:03:07,509
+ 
+ 
+
+00:03:07,509 --> 00:03:10,229
+ 
+ 
+
+00:03:10,229 --> 00:03:12,630
+ 
+ 
+
+00:03:12,630 --> 00:03:14,710
+ 
+ 
+
+00:03:14,710 --> 00:03:14,720
+ 
+ 
+
+00:03:14,720 --> 00:03:15,509
+ 
+
+
+00:03:15,509 --> 00:03:16,710
+ 
+ 
+
+00:03:16,710 --> 00:03:18,470
+ 
+ 
+
+00:03:18,470 --> 00:03:20,790
+ 
+ 
+
+00:03:20,790 --> 00:03:22,949
+ 
+ 
+
+00:03:22,949 --> 00:03:25,350
+ 
+ 
+
+00:03:25,350 --> 00:03:27,430
+ 
+ 
+
+00:03:27,430 --> 00:03:29,670
+ 
+ 
+
+00:03:29,670 --> 00:03:31,670
+ 
+ 
+
+00:03:31,670 --> 00:03:31,680
+ 
+ 
+
+00:03:31,680 --> 00:03:33,270
+ 
+
+
+00:03:33,270 --> 00:03:35,270
+ 
+ 
+
+00:03:35,270 --> 00:03:37,190
+ 
+ 
+
+00:03:37,190 --> 00:03:39,190
+ 
+ 
+
+00:03:39,190 --> 00:03:44,070
+ 
+ 
+
+00:03:44,070 --> 00:03:45,990
+ 
+ 
+
+00:03:45,990 --> 00:03:48,229
+ 
+ 
+
+00:03:48,229 --> 00:03:50,949
+ 
+ 
+
+00:03:50,949 --> 00:03:52,229
+ 
+ 
+
+00:03:52,229 --> 00:03:53,990
+ 
+ 
+
+00:03:53,990 --> 00:03:55,430
+ 
+ 
+
+00:03:55,430 --> 00:03:57,670
+ 
+ 
+
+00:03:57,670 --> 00:03:59,750
+ 
+ 
+
+00:03:59,750 --> 00:04:01,190
+ 
+ 
+
+00:04:01,190 --> 00:04:02,869
+ 
+ 
+
+00:04:02,869 --> 00:04:04,949
+ 
+ 
+
+00:04:04,949 --> 00:04:07,030
+ 
+ 
+
+00:04:07,030 --> 00:04:09,670
+ 
+ 
+
+00:04:09,670 --> 00:04:12,309
+ 
+ 
+
+00:04:12,309 --> 00:04:13,910
+ 
+ 
+
+00:04:13,910 --> 00:04:16,789
+ 
+ 
+
+00:04:16,789 --> 00:04:18,390
+ 
+ 
+
+00:04:18,390 --> 00:04:20,229
+ 
+ 
+
+00:04:20,229 --> 00:04:23,030
+ 
+ 
+
+00:04:23,030 --> 00:04:23,040
+ 
+ 
+
+00:04:23,040 --> 00:04:27,110
+ 
+
+
+00:04:27,110 --> 00:04:29,749
+ 
+ 
+
+00:04:29,749 --> 00:04:32,150
+ 
+ 
+
+00:04:32,150 --> 00:04:34,629
+ 
+ 
+
+00:04:34,629 --> 00:04:36,710
+ 
+ 
+
+00:04:36,710 --> 00:04:38,950
+ 
+ 
+
+00:04:38,950 --> 00:04:40,629
+ 
+ 
+
+00:04:40,629 --> 00:04:43,030
+ 
+ 
+
+00:04:43,030 --> 00:04:44,710
+ 
+ 
+
+00:04:44,710 --> 00:04:46,629
+ 
+ 
+
+00:04:46,629 --> 00:04:49,270
+ 
+ 
+
+00:04:49,270 --> 00:04:51,909
+ 
+ 
+
+00:04:51,909 --> 00:04:53,430
+ 
+ 
+
+00:04:53,430 --> 00:04:55,189
+ 
+ 
+
+00:04:55,189 --> 00:04:56,870
+ 
+ 
+
+00:04:56,870 --> 00:04:59,189
+ 
+ 
+
+00:04:59,189 --> 00:05:01,270
+ 
+ 
+
+00:05:01,270 --> 00:05:04,310
+ 
+ 
+
+00:05:04,310 --> 00:05:06,070
+ 
+ 
+
+00:05:06,070 --> 00:05:09,430
+ 
+ 
+
+00:05:09,430 --> 00:05:11,749
+ 
+ 
+
+00:05:11,749 --> 00:05:14,469
+ 
+ 
+
+00:05:14,469 --> 00:05:17,590
+ 
+ 
+
+00:05:17,590 --> 00:05:19,670
+ 
+ 
+
+00:05:19,670 --> 00:05:21,350
+ 
+ 
+
+00:05:21,350 --> 00:05:22,710
+ 
+ 
+
+00:05:22,710 --> 00:05:25,430
+ 
+ 
+
+00:05:25,430 --> 00:05:28,310
+ 
+ 
+
+00:05:28,310 --> 00:05:31,670
+ 
+ 
+
+00:05:31,670 --> 00:05:33,909
+ 
+ 
+
+00:05:33,909 --> 00:05:35,909
+ 
+ 
+
+00:05:35,909 --> 00:05:38,230
+ 
+ 
+
+00:05:38,230 --> 00:05:40,950
+ 
+ 
+
+00:05:40,950 --> 00:05:43,189
+ 
+ 
+
+00:05:43,189 --> 00:05:45,189
+ 
+ 
+
+00:05:45,189 --> 00:05:45,199
+ 
+ 
+
+00:05:45,199 --> 00:05:46,310
+ 
+
+
+00:05:46,310 --> 00:05:48,870
+ 
+ 
+
+00:05:48,870 --> 00:05:50,390
+ 
+ 
+
+00:05:50,390 --> 00:05:51,430
+ 
+ 
+
+00:05:51,430 --> 00:05:53,110
+ 
+ 
+
+00:05:53,110 --> 00:05:54,390
+ 
+ 
+
+00:05:54,390 --> 00:05:55,189
+ 
+ 
+
+00:05:55,189 --> 00:05:57,270
+ 
+ 
+
+00:05:57,270 --> 00:06:00,469
+ 
+ 
+
+00:06:00,469 --> 00:06:02,550
+ 
+ 
+
+00:06:02,550 --> 00:06:04,390
+ 
+ 
+
+00:06:04,390 --> 00:06:04,400
+ 
+ 
+
+00:06:04,400 --> 00:06:05,270
+ 
+
+
+00:06:05,270 --> 00:06:07,670
+ 
+ 
+
+00:06:07,670 --> 00:06:08,870
+ 
+ 
+
+00:06:08,870 --> 00:06:11,510
+ 
+ 
+
+00:06:11,510 --> 00:06:13,110
+ 
+ 
+
+00:06:13,110 --> 00:06:15,430
+ 
+ 
+
+00:06:15,430 --> 00:06:15,440
+ 
+ 
+
+00:06:15,440 --> 00:06:16,710
+ 
+
+
+00:06:16,710 --> 00:06:16,720
+ 
+ 
+
+00:06:16,720 --> 00:06:18,790
+ 
+
+
+00:06:18,790 --> 00:06:20,870
+ 
+ 
+
+00:06:20,870 --> 00:06:24,150
+ 
+ 
+
+00:06:24,150 --> 00:06:25,909
+ 
+ 
+
+00:06:25,909 --> 00:06:25,919
+ 
+ 
+
+00:06:25,919 --> 00:06:27,110
+ 
+
+
+00:06:27,110 --> 00:06:27,120
+ 
+ 
+
+00:06:27,120 --> 00:06:28,790
+ 
+
+
+00:06:28,790 --> 00:06:30,070
+ 
+ 
+
+00:06:30,070 --> 00:06:32,309
+ 
+ 
+
+00:06:32,309 --> 00:06:34,070
+ 
+ 
+
+00:06:34,070 --> 00:06:35,670
+ 
+ 
+
+00:06:35,670 --> 00:06:38,070
+ 
+ 
+
+00:06:38,070 --> 00:06:38,080
+ 
+ 
+
+00:06:38,080 --> 00:06:39,029
+ 
+
+
+00:06:39,029 --> 00:06:40,710
+ 
+ 
+
+00:06:40,710 --> 00:06:43,110
+ 
+ 
+
+00:06:43,110 --> 00:06:43,120
+ 
+ 
+
+00:06:43,120 --> 00:06:44,790
+ 
+
+
+00:06:44,790 --> 00:06:46,390
+ 
+ 
+
+00:06:46,390 --> 00:06:48,870
+ 
+ 
+
+00:06:48,870 --> 00:06:51,350
+ 
+ 
+
+00:06:51,350 --> 00:06:53,430
+ 
+ 
+
+00:06:53,430 --> 00:06:56,550
+ 
+ 
+
+00:06:56,550 --> 00:06:58,150
+ 
+ 
+
+00:06:58,150 --> 00:07:00,150
+ 
+ 
+
+00:07:00,150 --> 00:07:00,160
+ 
+ 
+
+00:07:00,160 --> 00:07:01,110
+ 
+
+
+00:07:01,110 --> 00:07:01,120
+ 
+ 
+
+00:07:01,120 --> 00:07:02,070
+ 
+
+
+00:07:02,070 --> 00:07:04,070
+ 
+ 
+
+00:07:04,070 --> 00:07:05,990
+ 
+ 
+
+00:07:05,990 --> 00:07:07,430
+ 
+ 
+
+00:07:07,430 --> 00:07:09,430
+ 
+ 
+
+00:07:09,430 --> 00:07:11,990
+ 
+ 
+
+00:07:11,990 --> 00:07:13,350
+ 
+ 
+
+00:07:13,350 --> 00:07:15,189
+ 
+ 
+
+00:07:15,189 --> 00:07:15,199
+ 
+ 
+
+00:07:15,199 --> 00:07:16,469
+ 
+
+
+00:07:16,469 --> 00:07:16,479
+ 
+ 
+
+00:07:16,479 --> 00:07:18,070
+ 
+
+
+00:07:18,070 --> 00:07:20,150
+ 
+ 
+
+00:07:20,150 --> 00:07:22,469
+ 
+ 
+
+00:07:22,469 --> 00:07:24,710
+ 
+ 
+
+00:07:24,710 --> 00:07:26,870
+ 
+ 
+
+00:07:26,870 --> 00:07:28,309
+ 
+ 
+
+00:07:28,309 --> 00:07:31,029
+ 
+ 
+
+00:07:31,029 --> 00:07:33,430
+ 
+ 
+
+00:07:33,430 --> 00:07:35,670
+ 
+ 
+
+00:07:35,670 --> 00:07:38,070
+ 
+ 
+
+00:07:38,070 --> 00:07:39,909
+ 
+ 
+
+00:07:39,909 --> 00:07:41,270
+ 
+ 
+
+00:07:41,270 --> 00:07:42,950
+ 
+ 
+
+00:07:42,950 --> 00:07:44,950
+ 
+ 
+
+00:07:44,950 --> 00:07:48,150
+ 
+ 
+
+00:07:48,150 --> 00:07:50,790
+ 
+ 
+
+00:07:50,790 --> 00:07:53,110
+ 
+ 
+
+00:07:53,110 --> 00:07:55,270
+ 
+ 
+
+00:07:55,270 --> 00:07:56,629
+ 
+ 
+
+00:07:56,629 --> 00:07:58,390
+ 
+ 
+
+00:07:58,390 --> 00:08:00,390
+ 
+ 
+
+00:08:00,390 --> 00:08:03,990
+ 
+ 
+
+00:08:03,990 --> 00:08:05,510
+ 
+ 
+
+00:08:05,510 --> 00:08:07,589
+ 
+ 
+
+00:08:07,589 --> 00:08:09,830
+ 
+ 
+
+00:08:09,830 --> 00:08:12,550
+ 
+ 
+
+00:08:12,550 --> 00:08:14,469
+ 
+ 
+
+00:08:14,469 --> 00:08:19,589
+ 
+ 
+
+00:08:19,589 --> 00:08:21,749
+ 
+ 
+
+00:08:21,749 --> 00:08:23,430
+ 
+ 
+
+00:08:23,430 --> 00:08:25,670
+ 
+ 
+
+00:08:25,670 --> 00:08:27,670
+ 
+ 
+
+00:08:27,670 --> 00:08:29,430
+ 
+ 
+
+00:08:29,430 --> 00:08:30,950
+ 
+ 
+
+00:08:30,950 --> 00:08:33,350
+ 
+ 
+
+00:08:33,350 --> 00:08:35,589
+ 
+ 
+
+00:08:35,589 --> 00:08:37,430
+ 
+ 
+
+00:08:37,430 --> 00:08:40,070
+ 
+ 
+
+00:08:40,070 --> 00:08:42,230
+ 
+ 
+
+00:08:42,230 --> 00:08:44,470
+ 
+ 
+
+00:08:44,470 --> 00:08:47,269
+ 
+ 
+
+00:08:47,269 --> 00:08:49,269
+ 
+ 
+
+00:08:49,269 --> 00:08:51,030
+ 
+ 
+
+00:08:51,030 --> 00:08:53,030
+ 
+ 
+
+00:08:53,030 --> 00:08:54,790
+ 
+ 
+
+00:08:54,790 --> 00:08:56,150
+ 
+ 
+
+00:08:56,150 --> 00:08:58,470
+ 
+ 
+
+00:08:58,470 --> 00:09:01,030
+ 
+ 
+
+00:09:01,030 --> 00:09:02,790
+ 
+ 
+
+00:09:02,790 --> 00:09:05,829
+ 
+ 
+
+00:09:05,829 --> 00:09:09,269
+ 
+ 
+
+00:09:09,269 --> 00:09:12,230
+ 
+ 
+
+00:09:12,230 --> 00:09:12,240
+ 
+ 
+
+00:09:12,240 --> 00:09:12,949
+ 
+
+
+00:09:12,949 --> 00:09:14,870
+ 
+ 
+
+00:09:14,870 --> 00:09:16,310
+ 
+ 
+
+00:09:16,310 --> 00:09:18,389
+ 
+ 
+
+00:09:18,389 --> 00:09:18,399
+ 
+ 
+
+00:09:18,399 --> 00:09:19,350
+ 
+
+
+00:09:19,350 --> 00:09:21,030
+ 
+ 
+
+00:09:21,030 --> 00:09:22,790
+ 
+ 
+
+00:09:22,790 --> 00:09:25,190
+ 
+ 
+
+00:09:25,190 --> 00:09:27,110
+ 
+ 
+
+00:09:27,110 --> 00:09:28,470
+ 
+ 
+
+00:09:28,470 --> 00:09:30,230
+ 
+ 
+
+00:09:30,230 --> 00:09:32,070
+ 
+ 
+
+00:09:32,070 --> 00:09:33,750
+ 
+ 
+
+00:09:33,750 --> 00:09:36,550
+ 
+ 
+
+00:09:36,550 --> 00:09:37,910
+ 
+ 
+
+00:09:37,910 --> 00:09:40,790
+ 
+ 
+
+00:09:40,790 --> 00:09:42,870
+ 
+ 
+
+00:09:42,870 --> 00:09:45,430
+ 
+ 
+
+00:09:45,430 --> 00:09:47,269
+ 
+ 
+
+00:09:47,269 --> 00:09:49,190
+ 
+ 
+
+00:09:49,190 --> 00:09:51,750
+ 
+ 
+
+00:09:51,750 --> 00:09:54,150
+ 
+ 
+
+00:09:54,150 --> 00:09:56,150
+ 
+ 
+
+00:09:56,150 --> 00:09:56,160
+ 
+ 
+
+00:09:56,160 --> 00:09:57,269
+ 
+
+
+00:09:57,269 --> 00:09:59,190
+ 
+ 
+
+00:09:59,190 --> 00:10:00,550
+ 
+ 
+
+00:10:00,550 --> 00:10:03,269
+ 
+ 
+
+00:10:03,269 --> 00:10:04,949
+ 
+ 
+
+00:10:04,949 --> 00:10:06,630
+ 
+ 
+
+00:10:06,630 --> 00:10:06,640
+ 
+ 
+
+00:10:06,640 --> 00:10:07,990
+ 
+
+
+00:10:07,990 --> 00:10:09,509
+ 
+ 
+
+00:10:09,509 --> 00:10:11,110
+ 
+ 
+
+00:10:11,110 --> 00:10:12,630
+ 
+ 
+
+00:10:12,630 --> 00:10:14,710
+ 
+ 
+
+00:10:14,710 --> 00:10:17,269
+ 
+ 
+
+00:10:17,269 --> 00:10:17,279
+ 
+ 
+
+00:10:17,279 --> 00:10:18,389
+ 
+
+
+00:10:18,389 --> 00:10:20,230
+ 
+ 
+
+00:10:20,230 --> 00:10:23,110
+ 
+ 
+
+00:10:23,110 --> 00:10:26,790
+ 
+ 
+
+00:10:26,790 --> 00:10:26,800
+ 
+ 
+
+00:10:26,800 --> 00:10:27,670
+ 
+
+
+00:10:27,670 --> 00:10:29,110
+ 
+ 
+
+00:10:29,110 --> 00:10:30,870
+ 
+ 
+
+00:10:30,870 --> 00:10:34,150
+ 
+ 
+
+00:10:34,150 --> 00:10:38,440
+ 
+ 
+

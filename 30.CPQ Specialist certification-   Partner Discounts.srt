@@ -1,0 +1,1841 @@
+
+00:00:00,719 --> 00:00:02,310
+ 
+good everyone i hope you guys have an  amazing day as on the last episode i did  talk about more about the volume based  discount right that's  based on your product like a code code  line level now  what i want to do today i wanted to  touch uh more  about discount  so i wanted to  talk about the code level discount so  um what i'll do i'll go to the  cpq  and uh  i pick a code an existing code  and what i'll do i will add a  few products  but before that um i just wanted to talk  about the code level discount  so you see that we got this additional  discount right  so  sometimes you know you might want to  give you know a discount on the code  right  um  so  that what that means is that some of the  products  uh  they  are not configured for discount but if  you add  uh as a part of this code right so the  discount will be calculated based on  this uh additional level discount so let  me show you uh whatever that so if i add  zero here okay just for time being so if  i add a product  um let's pick up this one like okay so  this product is not configured for any  discount  so i'll do select  yeah  and um so  um  and a second  all right sorry i'll choose a better  code right let me go and choose  something else  uh maybe the code is oh yeah  that code is uh the reason why  uh that code was showing uh you know 10  discount because i've used a partner  discount but something i'll talk about  in a second  um okay so what i'll do let me let me go  back to the same code right so you can  see that i'm talking with a partner  discount so that's one of the reason why  um now you must be thinking what the  heck is a partner discount right so i'll  talk about it so  don't worry about it for now so i'll  take this off yeah  so let's start with a clean slate right  so that no confusion  so what i've done um  so i picked up this uh this code right  um and as you can see that there's no  um there's no such thing here anything  as such  about the partner discount yeah  so i'll go to edit lines and i'll try to  add a product right  which contains no discount  so i'll go add product  and i'll say  this one select it  okay so as you can see that the price of  this battery is five thousand dollars  now and i can add another product  and i will say  um  maybe  camera right let's see if i had  sorry if you're hearing the noise  they're just raining  it's just a rain ah nice okay so  i'll do save that's fine  let's see  [Music]  okay  so uh five thousand  five hundred  um hang on a second no i won't i i will  let me delete it because i wanna show  you guys the simple math right i mean i  just don't want it too  complicated taking you know complex  numbers so let me  uh show you  another product  i was trying to  see all right i just put the 10 one  right i don't care  it should be fine  so  okay so now as you can see that i don't  have any discount right on this product  um so if i wanted to as a as a as a  customer representative right if the  customer  uh says to me hey i'm gonna buy this  stuff from somewhere else and they're  offering me say ten percent discount or  i'd say five percent discount why you  guys not giving me any kind of discount  so the sales guy can go and give  discount on this code and say hey okay i  can give you you know 10 discount  right so they can do that and when that  happens right this will be a discount  applied on a code in so i'll show you  what happens  so as you can see that it's applied a  discount 10 percent discount on each  individual  product line items  and  and gave you a total  discounted amount right so you can see  here  so it is  [Music]  uh so it gives a ten percent discount  here  so uh you got four thousand five hundred  bucks here right because it's applied  ten percent on this product  and if you look at this product  um it applied a um uh 10 discount so uh  10 discount on  uh 10 that's one buck so you've got nine  dollars worth of product right  uh so that's exactly how the um  additional discount works now i just  wanted to talk about a certain kind of  discount so i'm going to show you from a  trailhead anyways uh so that is the the  partner and distributed discount so i'm  going to focus mostly on the partner  discount so sometimes what happens right  it's true that you wanted to give  discounts your customer which is great  uh you know but on top of it you know  you might also want to give discounts to  your partner right who actually uh sells  your product right um say for instance  right you're selling a uh software uh  you know software solution um and you  charge say 20 discounts your  uh to your customers but the partners  who actually sell to your product you  obviously want to sell give them say 40  discount so  now that's how the partner  uh discount comes in the picture now i  just wanted to show you a simple uh  diagram here right so what happens is  right so if say for instance if you are  giving a partner discount right um say  10 percent partner discount so it will  keep all the discount into consideration  and after that it will apply a partner  discount so as you can so i i know that  it sounds pretty confusing so for  instance right it this one gives you a  pretty simple example right you are  trying to sell a product for 10 bucks  sorry hundred dollars right and then you  have a volume based discount of 20 right  uh so that means you will get 80 bucks  right obviously 20 of 100 that's like 20  right and you subtract 20 from 100 so  you will get 80 bucks right so that's a  20 discounted  amount and then you will apply um  you know  a 10 on it and then you got the manual  discount and then on  uh so the once you've got the manual  discount right so you will apply  a partner discount  not on the 100 but on the  the resultant value so here till here  you see that you got 72 bucks right  after calculating all this discount  and then you got um you know the  the the ten percent on on 36  right sorry 50 36 uh 72 which is 36. so  that's  how the partner discount is calculated  i'll show you how it works  so  if you remember  uh i talked about the partner discount  so  uh initially when you know when i tried  to add this product and and  and it was showing 10 off right so  the reason why because i've configured  the partner discount so  what i'll do i will  go to the same codes right  because i wanted to start clean again  um and then i'll edit this code and i  will say okay  just give me a partner  discount  so you will have partner discount  and  then there is a  um  uh distributed discount that's something  i'll talk about in the next episode  right so today i just wanted to keep it  to partner discount  um so i'll do save  okay so i'll add a 10 partner discount  to it so  what happens is  i'm going to add a product  which is  say the same product  uh 10 battery  sorry 10k kilowatt  battery so  so you'll get 10 off which is 4500 which  is pretty cool right it's nothing  complicated here  now i'll remove this one and i will try  to  add another product which contains a  discount  so  if you remember from the previous  episode i talked about a 10 inch tablet  so if you buy more than three right you  get 10  scan so  all gonna use the same so we're going to  do 10 tablet  and uh  select  and uh okay  now if i do four  okay  uh calculate  all right so five one three okay now you  must be wondering how the heck is five  and three came into picture right so  it's pretty simple right if you look  from uh this  diagram right so the partner discount is  applied at the end right it's not  applied at the top though you can do  that as well if you want to apply the  partner discount first and the rest of  the discount later you can do that  there's another option for that  uh but in saying so in this case the  partner discount is applied at the end  okay so now what do you mean by end  right okay so let's work out the  discount okay so we got  four  uh so the actual product price of the  product  okay so this is what the discount  schedule looked like okay so what i'm  saying here is that okay  um if if i buy anything more than three  right so i should get a discount on 10  uh until 10 after that it will be 15  okay so but we are buying four so 10  discount will come into picture okay  because it's a uh  quantity basis kind of we'll be talking  about  uh so i'm buying four okay so that means  um okay  so  cancel sorry  so i'm buying four so four times  150 that's the price  of the product  okay so that's 600 now i'm applying 10  percent discount  uh  oh okay hang on a second  um  right okay all right  so if you remember  um  there's a okay now  let me go back to the  discounting  schedule  open in a new tab  let's see what is it here  discount options right this is the one  we're talking about  because  okay that's great  okay  now if you remember in the last episode  i talked about the slabs right if you  haven't watched the last episode please  go and watch it because then you will  not understand what i'm trying to do so  here the slab discount is getting  applied so what that means is that out  of four right only two will be  considered for discount so what that  means  um  in this case  uh  calculator so we only consider  discounting for  third and fourth product okay so two  times 150  um sorry that is 300 okay so 300 uh  divided by you know so okay so that's 3  000 so 300 so okay so we're gonna get uh  you know in this case a 30 bucks  discount okay so you will get 570 the  total price right now  uh your  10 partner discount will be applied on  570 okay so that means 57. so  uh  that means 570 minus uh  57  that should be like 530 so that's  exactly what's happening here  so i repeat it again  what's happening around the scene so  so  come on  so added this product right and this  product has a discount schedule set in  place right which is a slab base not a  range base okay  uh so slab base what happens is that if  you specify in the discount scheduler  right three items at about so the lower  bound is three so your discount will not  kick in uh from the till the third  product right so if you have four  products right so discount will be  calculated only for from third and the  bot so that means the third product and  the fourth product so the discount will  be calculated for only two products in  this case so that means uh  you will get a 10 discount on 300 bucks  instead of 10 discount on 600 bucks  that's how the slab works right if  if it's a range then you will get the  discount on 600 bucks okay so you have  to understand the difference and i  talked about it in the previous episode  so  so that's  will be calculated so in this case 30 so  now the 30 minus  600 minus 30 so that's 570. so you have  570 value in picture and now once that's  done  right so you get 570 here so you will be  calculating a partner discount on 570  okay interrupt 600. so five seventy ten  percent that's 57 so you subtract  uh you know 57 from  uh 570 you'll get 530 so that's how the  patent discount works so like i said if  you want the partner to come to kick in  early you can do that there is a  configuration you have to create a field  uh so it talks about  creating a field  apply partner discount first and you  and then you put a value to one it will  take care of it so that's pretty simple  i mean it's it's not a big deal  right so that's in simple nutshell how  the partner discount works we can look  at the distributed uh price the next  episode though  it's not much a biggie the distributor  discounts but in saying so i will talk  about it in the next episode so that  being said i hope you guys have an  amazing  thursday adios
+
+00:00:02,310 --> 00:00:05,030
+good everyone i hope you guys have an  amazing day as on the last episode i did  talk about more about the volume based  discount right that's  based on your product like a code code  line level now  what i want to do today i wanted to  touch uh more  about discount  so i wanted to  talk about the code level discount so  um what i'll do i'll go to the  cpq  and uh  i pick a code an existing code  and what i'll do i will add a  few products  but before that um i just wanted to talk  about the code level discount  so you see that we got this additional  discount right  so  sometimes you know you might want to  give you know a discount on the code  right  um  so  that what that means is that some of the  products  uh  they  are not configured for discount but if  you add  uh as a part of this code right so the  discount will be calculated based on  this uh additional level discount so let  me show you uh whatever that so if i add  zero here okay just for time being so if  i add a product  um let's pick up this one like okay so  this product is not configured for any  discount  so i'll do select  yeah  and um so  um  and a second  all right sorry i'll choose a better  code right let me go and choose  something else  uh maybe the code is oh yeah  that code is uh the reason why  uh that code was showing uh you know 10  discount because i've used a partner  discount but something i'll talk about  in a second  um okay so what i'll do let me let me go  back to the same code right so you can  see that i'm talking with a partner  discount so that's one of the reason why  um now you must be thinking what the  heck is a partner discount right so i'll  talk about it so  don't worry about it for now so i'll  take this off yeah  so let's start with a clean slate right  so that no confusion  so what i've done um  so i picked up this uh this code right  um and as you can see that there's no  um there's no such thing here anything  as such  about the partner discount yeah  so i'll go to edit lines and i'll try to  add a product right  which contains no discount  so i'll go add product  and i'll say  this one select it  okay so as you can see that the price of  this battery is five thousand dollars  now and i can add another product  and i will say  um  maybe  camera right let's see if i had  sorry if you're hearing the noise  they're just raining  it's just a rain ah nice okay so  i'll do save that's fine  let's see  [Music]  okay  so uh five thousand  five hundred  um hang on a second no i won't i i will  let me delete it because i wanna show  you guys the simple math right i mean i  just don't want it too  complicated taking you know complex  numbers so let me  uh show you  another product  i was trying to  see all right i just put the 10 one  right i don't care  it should be fine  so  okay so now as you can see that i don't  have any discount right on this product  um so if i wanted to as a as a as a  customer representative right if the  customer  uh says to me hey i'm gonna buy this  stuff from somewhere else and they're  offering me say ten percent discount or  i'd say five percent discount why you  guys not giving me any kind of discount  so the sales guy can go and give  discount on this code and say hey okay i  can give you you know 10 discount  right so they can do that and when that  happens right this will be a discount  applied on a code in so i'll show you  what happens  so as you can see that it's applied a  discount 10 percent discount on each  individual  product line items  and  and gave you a total  discounted amount right so you can see  here  so it is  [Music]  uh so it gives a ten percent discount  here  so uh you got four thousand five hundred  bucks here right because it's applied  ten percent on this product  and if you look at this product  um it applied a um uh 10 discount so uh  10 discount on  uh 10 that's one buck so you've got nine  dollars worth of product right  uh so that's exactly how the um  additional discount works now i just  wanted to talk about a certain kind of  discount so i'm going to show you from a  trailhead anyways uh so that is the the  partner and distributed discount so i'm  going to focus mostly on the partner  discount so sometimes what happens right  it's true that you wanted to give  discounts your customer which is great  uh you know but on top of it you know  you might also want to give discounts to  your partner right who actually uh sells  your product right um say for instance  right you're selling a uh software uh  you know software solution um and you  charge say 20 discounts your  uh to your customers but the partners  who actually sell to your product you  obviously want to sell give them say 40  discount so  now that's how the partner  uh discount comes in the picture now i  just wanted to show you a simple uh  diagram here right so what happens is  right so if say for instance if you are  giving a partner discount right um say  10 percent partner discount so it will  keep all the discount into consideration  and after that it will apply a partner  discount so as you can so i i know that  it sounds pretty confusing so for  instance right it this one gives you a  pretty simple example right you are  trying to sell a product for 10 bucks  sorry hundred dollars right and then you  have a volume based discount of 20 right  uh so that means you will get 80 bucks  right obviously 20 of 100 that's like 20  right and you subtract 20 from 100 so  you will get 80 bucks right so that's a  20 discounted  amount and then you will apply um  you know  a 10 on it and then you got the manual  discount and then on  uh so the once you've got the manual  discount right so you will apply  a partner discount  not on the 100 but on the  the resultant value so here till here  you see that you got 72 bucks right  after calculating all this discount  and then you got um you know the  the the ten percent on on 36  right sorry 50 36 uh 72 which is 36. so  that's  how the partner discount is calculated  i'll show you how it works  so  if you remember  uh i talked about the partner discount  so  uh initially when you know when i tried  to add this product and and  and it was showing 10 off right so  the reason why because i've configured  the partner discount so  what i'll do i will  go to the same codes right  because i wanted to start clean again  um and then i'll edit this code and i  will say okay  just give me a partner  discount  so you will have partner discount  and  then there is a  um  uh distributed discount that's something  i'll talk about in the next episode  right so today i just wanted to keep it  to partner discount  um so i'll do save  okay so i'll add a 10 partner discount  to it so  what happens is  i'm going to add a product  which is  say the same product  uh 10 battery  sorry 10k kilowatt  battery so  so you'll get 10 off which is 4500 which  is pretty cool right it's nothing  complicated here  now i'll remove this one and i will try  to  add another product which contains a  discount  so  if you remember from the previous  episode i talked about a 10 inch tablet  so if you buy more than three right you  get 10  scan so  all gonna use the same so we're going to  do 10 tablet  and uh  select  and uh okay  now if i do four  okay  uh calculate  all right so five one three okay now you  must be wondering how the heck is five  and three came into picture right so  it's pretty simple right if you look  from uh this  diagram right so the partner discount is  applied at the end right it's not  applied at the top though you can do  that as well if you want to apply the  partner discount first and the rest of  the discount later you can do that  there's another option for that  uh but in saying so in this case the  partner discount is applied at the end  okay so now what do you mean by end  right okay so let's work out the  discount okay so we got  four  uh so the actual product price of the  product  okay so this is what the discount  schedule looked like okay so what i'm  saying here is that okay  um if if i buy anything more than three  right so i should get a discount on 10  uh until 10 after that it will be 15  okay so but we are buying four so 10  discount will come into picture okay  because it's a uh  quantity basis kind of we'll be talking  about  uh so i'm buying four okay so that means  um okay  so  cancel sorry  so i'm buying four so four times  150 that's the price  of the product  okay so that's 600 now i'm applying 10  percent discount  uh  oh okay hang on a second  um  right okay all right  so if you remember  um  there's a okay now  let me go back to the  discounting  schedule  open in a new tab  let's see what is it here  discount options right this is the one  we're talking about  because  okay that's great  okay  now if you remember in the last episode  i talked about the slabs right if you  haven't watched the last episode please  go and watch it because then you will  not understand what i'm trying to do so  here the slab discount is getting  applied so what that means is that out  of four right only two will be  considered for discount so what that  means  um  in this case  uh  calculator so we only consider  discounting for  third and fourth product okay so two  times 150  um sorry that is 300 okay so 300 uh  divided by you know so okay so that's 3  000 so 300 so okay so we're gonna get uh  you know in this case a 30 bucks  discount okay so you will get 570 the  total price right now  uh your  10 partner discount will be applied on  570 okay so that means 57. so  uh  that means 570 minus uh  57  that should be like 530 so that's  exactly what's happening here  so i repeat it again  what's happening around the scene so  so  come on  so added this product right and this  product has a discount schedule set in  place right which is a slab base not a  range base okay  uh so slab base what happens is that if  you specify in the discount scheduler  right three items at about so the lower  bound is three so your discount will not  kick in uh from the till the third  product right so if you have four  products right so discount will be  calculated only for from third and the  bot so that means the third product and  the fourth product so the discount will  be calculated for only two products in  this case so that means uh  you will get a 10 discount on 300 bucks  instead of 10 discount on 600 bucks  that's how the slab works right if  if it's a range then you will get the  discount on 600 bucks okay so you have  to understand the difference and i  talked about it in the previous episode  so  so that's  will be calculated so in this case 30 so  now the 30 minus  600 minus 30 so that's 570. so you have  570 value in picture and now once that's  done  right so you get 570 here so you will be  calculating a partner discount on 570  okay interrupt 600. so five seventy ten  percent that's 57 so you subtract  uh you know 57 from  uh 570 you'll get 530 so that's how the  patent discount works so like i said if  you want the partner to come to kick in  early you can do that there is a  configuration you have to create a field  uh so it talks about  creating a field  apply partner discount first and you  and then you put a value to one it will  take care of it so that's pretty simple  i mean it's it's not a big deal  right so that's in simple nutshell how  the partner discount works we can look  at the distributed uh price the next  episode though  it's not much a biggie the distributor  discounts but in saying so i will talk  about it in the next episode so that  being said i hope you guys have an  amazing  thursday adios
+ 
+
+00:00:05,030 --> 00:00:07,110
+ 
+ 
+
+00:00:07,110 --> 00:00:08,950
+ 
+ 
+
+00:00:08,950 --> 00:00:11,669
+ 
+ 
+
+00:00:11,669 --> 00:00:13,589
+ 
+ 
+
+00:00:13,589 --> 00:00:15,030
+ 
+ 
+
+00:00:15,030 --> 00:00:17,269
+ 
+ 
+
+00:00:17,269 --> 00:00:19,590
+ 
+ 
+
+00:00:19,590 --> 00:00:21,510
+ 
+ 
+
+00:00:21,510 --> 00:00:24,310
+ 
+ 
+
+00:00:24,310 --> 00:00:28,390
+ 
+ 
+
+00:00:28,390 --> 00:00:28,400
+ 
+ 
+
+00:00:28,400 --> 00:00:31,029
+ 
+
+
+00:00:31,029 --> 00:00:36,790
+ 
+ 
+
+00:00:36,790 --> 00:00:41,510
+ 
+ 
+
+00:00:41,510 --> 00:00:45,430
+ 
+ 
+
+00:00:45,430 --> 00:00:46,709
+ 
+ 
+
+00:00:46,709 --> 00:00:49,110
+ 
+ 
+
+00:00:49,110 --> 00:00:50,950
+ 
+ 
+
+00:00:50,950 --> 00:00:52,790
+ 
+ 
+
+00:00:52,790 --> 00:00:54,150
+ 
+ 
+
+00:00:54,150 --> 00:00:54,160
+ 
+ 
+
+00:00:54,160 --> 00:00:54,869
+ 
+
+
+00:00:54,869 --> 00:00:56,950
+ 
+ 
+
+00:00:56,950 --> 00:00:58,869
+ 
+ 
+
+00:00:58,869 --> 00:00:58,879
+ 
+ 
+
+00:00:58,879 --> 00:00:59,750
+ 
+
+
+00:00:59,750 --> 00:00:59,760
+ 
+ 
+
+00:00:59,760 --> 00:01:00,790
+ 
+
+
+00:01:00,790 --> 00:01:00,800
+ 
+ 
+
+00:01:00,800 --> 00:01:01,830
+ 
+
+
+00:01:01,830 --> 00:01:03,349
+ 
+ 
+
+00:01:03,349 --> 00:01:03,359
+ 
+ 
+
+00:01:03,359 --> 00:01:04,390
+ 
+
+
+00:01:04,390 --> 00:01:04,400
+ 
+ 
+
+00:01:04,400 --> 00:01:05,270
+ 
+
+
+00:01:05,270 --> 00:01:05,280
+ 
+ 
+
+00:01:05,280 --> 00:01:07,270
+ 
+
+
+00:01:07,270 --> 00:01:08,950
+ 
+ 
+
+00:01:08,950 --> 00:01:09,990
+ 
+ 
+
+00:01:09,990 --> 00:01:12,390
+ 
+ 
+
+00:01:12,390 --> 00:01:13,990
+ 
+ 
+
+00:01:13,990 --> 00:01:16,230
+ 
+ 
+
+00:01:16,230 --> 00:01:18,789
+ 
+ 
+
+00:01:18,789 --> 00:01:22,230
+ 
+ 
+
+00:01:22,230 --> 00:01:24,710
+ 
+ 
+
+00:01:24,710 --> 00:01:27,510
+ 
+ 
+
+00:01:27,510 --> 00:01:29,990
+ 
+ 
+
+00:01:29,990 --> 00:01:30,000
+ 
+ 
+
+00:01:30,000 --> 00:01:31,109
+ 
+
+
+00:01:31,109 --> 00:01:33,190
+ 
+ 
+
+00:01:33,190 --> 00:01:33,200
+ 
+ 
+
+00:01:33,200 --> 00:01:34,469
+ 
+
+
+00:01:34,469 --> 00:01:38,950
+ 
+ 
+
+00:01:38,950 --> 00:01:38,960
+ 
+ 
+
+00:01:38,960 --> 00:01:42,710
+ 
+
+
+00:01:42,710 --> 00:01:51,030
+ 
+ 
+
+00:01:51,030 --> 00:01:53,109
+ 
+ 
+
+00:01:53,109 --> 00:01:55,109
+ 
+ 
+
+00:01:55,109 --> 00:01:57,350
+ 
+ 
+
+00:01:57,350 --> 00:02:00,310
+ 
+ 
+
+00:02:00,310 --> 00:02:03,429
+ 
+ 
+
+00:02:03,429 --> 00:02:06,870
+ 
+ 
+
+00:02:06,870 --> 00:02:08,469
+ 
+ 
+
+00:02:08,469 --> 00:02:10,389
+ 
+ 
+
+00:02:10,389 --> 00:02:11,670
+ 
+ 
+
+00:02:11,670 --> 00:02:13,910
+ 
+ 
+
+00:02:13,910 --> 00:02:15,670
+ 
+ 
+
+00:02:15,670 --> 00:02:17,270
+ 
+ 
+
+00:02:17,270 --> 00:02:20,949
+ 
+ 
+
+00:02:20,949 --> 00:02:23,670
+ 
+ 
+
+00:02:23,670 --> 00:02:25,270
+ 
+ 
+
+00:02:25,270 --> 00:02:27,110
+ 
+ 
+
+00:02:27,110 --> 00:02:29,030
+ 
+ 
+
+00:02:29,030 --> 00:02:31,030
+ 
+ 
+
+00:02:31,030 --> 00:02:32,949
+ 
+ 
+
+00:02:32,949 --> 00:02:34,630
+ 
+ 
+
+00:02:34,630 --> 00:02:37,350
+ 
+ 
+
+00:02:37,350 --> 00:02:40,630
+ 
+ 
+
+00:02:40,630 --> 00:02:44,309
+ 
+ 
+
+00:02:44,309 --> 00:02:46,470
+ 
+ 
+
+00:02:46,470 --> 00:02:47,830
+ 
+ 
+
+00:02:47,830 --> 00:02:50,630
+ 
+ 
+
+00:02:50,630 --> 00:02:53,430
+ 
+ 
+
+00:02:53,430 --> 00:02:55,750
+ 
+ 
+
+00:02:55,750 --> 00:02:58,149
+ 
+ 
+
+00:02:58,149 --> 00:03:00,630
+ 
+ 
+
+00:03:00,630 --> 00:03:02,229
+ 
+ 
+
+00:03:02,229 --> 00:03:06,309
+ 
+ 
+
+00:03:06,309 --> 00:03:09,270
+ 
+ 
+
+00:03:09,270 --> 00:03:11,430
+ 
+ 
+
+00:03:11,430 --> 00:03:15,030
+ 
+ 
+
+00:03:15,030 --> 00:03:17,589
+ 
+ 
+
+00:03:17,589 --> 00:03:17,599
+ 
+ 
+
+00:03:17,599 --> 00:03:19,670
+ 
+
+
+00:03:19,670 --> 00:03:19,680
+ 
+ 
+
+00:03:19,680 --> 00:03:22,710
+ 
+
+
+00:03:22,710 --> 00:03:29,670
+ 
+ 
+
+00:03:29,670 --> 00:03:31,350
+ 
+ 
+
+00:03:31,350 --> 00:03:33,190
+ 
+ 
+
+00:03:33,190 --> 00:03:36,229
+ 
+ 
+
+00:03:36,229 --> 00:03:40,149
+ 
+ 
+
+00:03:40,149 --> 00:03:40,910
+ 
+ 
+
+00:03:40,910 --> 00:03:40,920
+ 
+ 
+
+00:03:40,920 --> 00:03:43,750
+ 
+
+
+00:03:43,750 --> 00:03:43,760
+ 
+ 
+
+00:03:43,760 --> 00:03:44,830
+ 
+
+
+00:03:44,830 --> 00:03:48,390
+ 
+ 
+
+00:03:48,390 --> 00:03:51,030
+ 
+ 
+
+00:03:51,030 --> 00:03:53,830
+ 
+ 
+
+00:03:53,830 --> 00:03:55,750
+ 
+ 
+
+00:03:55,750 --> 00:03:58,949
+ 
+ 
+
+00:03:58,949 --> 00:04:00,550
+ 
+ 
+
+00:04:00,550 --> 00:04:04,070
+ 
+ 
+
+00:04:04,070 --> 00:04:05,910
+ 
+ 
+
+00:04:05,910 --> 00:04:07,429
+ 
+ 
+
+00:04:07,429 --> 00:04:10,309
+ 
+ 
+
+00:04:10,309 --> 00:04:12,830
+ 
+ 
+
+00:04:12,830 --> 00:04:15,830
+ 
+ 
+
+00:04:15,830 --> 00:04:17,189
+ 
+ 
+
+00:04:17,189 --> 00:04:18,550
+ 
+ 
+
+00:04:18,550 --> 00:04:18,560
+ 
+ 
+
+00:04:18,560 --> 00:04:20,069
+ 
+
+
+00:04:20,069 --> 00:04:22,390
+ 
+ 
+
+00:04:22,390 --> 00:04:24,870
+ 
+ 
+
+00:04:24,870 --> 00:04:27,990
+ 
+ 
+
+00:04:27,990 --> 00:04:29,670
+ 
+ 
+
+00:04:29,670 --> 00:04:29,680
+ 
+ 
+
+00:04:29,680 --> 00:04:30,870
+ 
+
+
+00:04:30,870 --> 00:04:33,670
+ 
+ 
+
+00:04:33,670 --> 00:04:35,510
+ 
+ 
+
+00:04:35,510 --> 00:04:38,150
+ 
+ 
+
+00:04:38,150 --> 00:04:39,830
+ 
+ 
+
+00:04:39,830 --> 00:04:41,909
+ 
+ 
+
+00:04:41,909 --> 00:04:43,909
+ 
+ 
+
+00:04:43,909 --> 00:04:47,030
+ 
+ 
+
+00:04:47,030 --> 00:04:49,909
+ 
+ 
+
+00:04:49,909 --> 00:04:52,150
+ 
+ 
+
+00:04:52,150 --> 00:04:54,310
+ 
+ 
+
+00:04:54,310 --> 00:04:57,909
+ 
+ 
+
+00:04:57,909 --> 00:05:00,950
+ 
+ 
+
+00:05:00,950 --> 00:05:04,230
+ 
+ 
+
+00:05:04,230 --> 00:05:07,510
+ 
+ 
+
+00:05:07,510 --> 00:05:07,520
+ 
+ 
+
+00:05:07,520 --> 00:05:09,029
+ 
+
+
+00:05:09,029 --> 00:05:11,670
+ 
+ 
+
+00:05:11,670 --> 00:05:11,680
+ 
+ 
+
+00:05:11,680 --> 00:05:13,350
+ 
+
+
+00:05:13,350 --> 00:05:15,510
+ 
+ 
+
+00:05:15,510 --> 00:05:17,830
+ 
+ 
+
+00:05:17,830 --> 00:05:17,840
+ 
+ 
+
+00:05:17,840 --> 00:05:19,909
+ 
+
+
+00:05:19,909 --> 00:05:21,770
+ 
+ 
+
+00:05:21,770 --> 00:05:21,780
+ 
+ 
+
+00:05:21,780 --> 00:05:23,350
+ 
+
+
+00:05:23,350 --> 00:05:25,909
+ 
+ 
+
+00:05:25,909 --> 00:05:25,919
+ 
+ 
+
+00:05:25,919 --> 00:05:26,950
+ 
+
+
+00:05:26,950 --> 00:05:29,670
+ 
+ 
+
+00:05:29,670 --> 00:05:32,150
+ 
+ 
+
+00:05:32,150 --> 00:05:34,070
+ 
+ 
+
+00:05:34,070 --> 00:05:36,150
+ 
+ 
+
+00:05:36,150 --> 00:05:40,390
+ 
+ 
+
+00:05:40,390 --> 00:05:42,469
+ 
+ 
+
+00:05:42,469 --> 00:05:45,430
+ 
+ 
+
+00:05:45,430 --> 00:05:47,909
+ 
+ 
+
+00:05:47,909 --> 00:05:51,110
+ 
+ 
+
+00:05:51,110 --> 00:05:53,670
+ 
+ 
+
+00:05:53,670 --> 00:05:55,990
+ 
+ 
+
+00:05:55,990 --> 00:05:58,070
+ 
+ 
+
+00:05:58,070 --> 00:06:01,189
+ 
+ 
+
+00:06:01,189 --> 00:06:03,510
+ 
+ 
+
+00:06:03,510 --> 00:06:04,950
+ 
+ 
+
+00:06:04,950 --> 00:06:07,990
+ 
+ 
+
+00:06:07,990 --> 00:06:09,590
+ 
+ 
+
+00:06:09,590 --> 00:06:11,990
+ 
+ 
+
+00:06:11,990 --> 00:06:14,309
+ 
+ 
+
+00:06:14,309 --> 00:06:16,390
+ 
+ 
+
+00:06:16,390 --> 00:06:18,710
+ 
+ 
+
+00:06:18,710 --> 00:06:21,670
+ 
+ 
+
+00:06:21,670 --> 00:06:25,029
+ 
+ 
+
+00:06:25,029 --> 00:06:27,670
+ 
+ 
+
+00:06:27,670 --> 00:06:30,309
+ 
+ 
+
+00:06:30,309 --> 00:06:32,629
+ 
+ 
+
+00:06:32,629 --> 00:06:34,550
+ 
+ 
+
+00:06:34,550 --> 00:06:37,270
+ 
+ 
+
+00:06:37,270 --> 00:06:38,710
+ 
+ 
+
+00:06:38,710 --> 00:06:40,629
+ 
+ 
+
+00:06:40,629 --> 00:06:43,110
+ 
+ 
+
+00:06:43,110 --> 00:06:45,749
+ 
+ 
+
+00:06:45,749 --> 00:06:49,270
+ 
+ 
+
+00:06:49,270 --> 00:06:51,589
+ 
+ 
+
+00:06:51,589 --> 00:06:54,629
+ 
+ 
+
+00:06:54,629 --> 00:06:56,950
+ 
+ 
+
+00:06:56,950 --> 00:06:59,589
+ 
+ 
+
+00:06:59,589 --> 00:07:01,430
+ 
+ 
+
+00:07:01,430 --> 00:07:04,469
+ 
+ 
+
+00:07:04,469 --> 00:07:06,150
+ 
+ 
+
+00:07:06,150 --> 00:07:07,990
+ 
+ 
+
+00:07:07,990 --> 00:07:10,550
+ 
+ 
+
+00:07:10,550 --> 00:07:12,550
+ 
+ 
+
+00:07:12,550 --> 00:07:14,550
+ 
+ 
+
+00:07:14,550 --> 00:07:17,510
+ 
+ 
+
+00:07:17,510 --> 00:07:19,909
+ 
+ 
+
+00:07:19,909 --> 00:07:23,589
+ 
+ 
+
+00:07:23,589 --> 00:07:25,589
+ 
+ 
+
+00:07:25,589 --> 00:07:27,749
+ 
+ 
+
+00:07:27,749 --> 00:07:29,749
+ 
+ 
+
+00:07:29,749 --> 00:07:34,550
+ 
+ 
+
+00:07:34,550 --> 00:07:35,510
+ 
+ 
+
+00:07:35,510 --> 00:07:37,990
+ 
+ 
+
+00:07:37,990 --> 00:07:40,230
+ 
+ 
+
+00:07:40,230 --> 00:07:42,070
+ 
+ 
+
+00:07:42,070 --> 00:07:45,110
+ 
+ 
+
+00:07:45,110 --> 00:07:47,110
+ 
+ 
+
+00:07:47,110 --> 00:07:50,390
+ 
+ 
+
+00:07:50,390 --> 00:07:52,950
+ 
+ 
+
+00:07:52,950 --> 00:07:55,350
+ 
+ 
+
+00:07:55,350 --> 00:07:57,589
+ 
+ 
+
+00:07:57,589 --> 00:08:00,710
+ 
+ 
+
+00:08:00,710 --> 00:08:04,070
+ 
+ 
+
+00:08:04,070 --> 00:08:08,710
+ 
+ 
+
+00:08:08,710 --> 00:08:08,720
+ 
+ 
+
+00:08:08,720 --> 00:08:09,589
+ 
+
+
+00:08:09,589 --> 00:08:11,110
+ 
+ 
+
+00:08:11,110 --> 00:08:13,670
+ 
+ 
+
+00:08:13,670 --> 00:08:13,680
+ 
+ 
+
+00:08:13,680 --> 00:08:15,110
+ 
+
+
+00:08:15,110 --> 00:08:16,309
+ 
+ 
+
+00:08:16,309 --> 00:08:18,309
+ 
+ 
+
+00:08:18,309 --> 00:08:18,319
+ 
+ 
+
+00:08:18,319 --> 00:08:19,510
+ 
+
+
+00:08:19,510 --> 00:08:22,869
+ 
+ 
+
+00:08:22,869 --> 00:08:24,710
+ 
+ 
+
+00:08:24,710 --> 00:08:27,909
+ 
+ 
+
+00:08:27,909 --> 00:08:29,510
+ 
+ 
+
+00:08:29,510 --> 00:08:31,749
+ 
+ 
+
+00:08:31,749 --> 00:08:34,709
+ 
+ 
+
+00:08:34,709 --> 00:08:39,990
+ 
+ 
+
+00:08:39,990 --> 00:08:42,389
+ 
+ 
+
+00:08:42,389 --> 00:08:44,710
+ 
+ 
+
+00:08:44,710 --> 00:08:46,310
+ 
+ 
+
+00:08:46,310 --> 00:08:48,870
+ 
+ 
+
+00:08:48,870 --> 00:08:48,880
+ 
+ 
+
+00:08:48,880 --> 00:08:50,150
+ 
+
+
+00:08:50,150 --> 00:08:52,310
+ 
+ 
+
+00:08:52,310 --> 00:08:52,320
+ 
+ 
+
+00:08:52,320 --> 00:08:53,350
+ 
+
+
+00:08:53,350 --> 00:08:54,949
+ 
+ 
+
+00:08:54,949 --> 00:08:54,959
+ 
+ 
+
+00:08:54,959 --> 00:08:56,310
+ 
+
+
+00:08:56,310 --> 00:08:57,910
+ 
+ 
+
+00:08:57,910 --> 00:08:59,350
+ 
+ 
+
+00:08:59,350 --> 00:09:00,790
+ 
+ 
+
+00:09:00,790 --> 00:09:02,470
+ 
+ 
+
+00:09:02,470 --> 00:09:05,190
+ 
+ 
+
+00:09:05,190 --> 00:09:07,430
+ 
+ 
+
+00:09:07,430 --> 00:09:09,590
+ 
+ 
+
+00:09:09,590 --> 00:09:11,509
+ 
+ 
+
+00:09:11,509 --> 00:09:14,790
+ 
+ 
+
+00:09:14,790 --> 00:09:16,630
+ 
+ 
+
+00:09:16,630 --> 00:09:18,710
+ 
+ 
+
+00:09:18,710 --> 00:09:20,630
+ 
+ 
+
+00:09:20,630 --> 00:09:23,350
+ 
+ 
+
+00:09:23,350 --> 00:09:25,590
+ 
+ 
+
+00:09:25,590 --> 00:09:28,150
+ 
+ 
+
+00:09:28,150 --> 00:09:30,150
+ 
+ 
+
+00:09:30,150 --> 00:09:31,590
+ 
+ 
+
+00:09:31,590 --> 00:09:34,070
+ 
+ 
+
+00:09:34,070 --> 00:09:34,080
+ 
+ 
+
+00:09:34,080 --> 00:09:34,829
+ 
+
+
+00:09:34,829 --> 00:09:38,150
+ 
+ 
+
+00:09:38,150 --> 00:09:38,160
+ 
+ 
+
+00:09:38,160 --> 00:09:39,350
+ 
+
+
+00:09:39,350 --> 00:09:39,360
+ 
+ 
+
+00:09:39,360 --> 00:09:40,870
+ 
+
+
+00:09:40,870 --> 00:09:42,630
+ 
+ 
+
+00:09:42,630 --> 00:09:45,829
+ 
+ 
+
+00:09:45,829 --> 00:09:48,070
+ 
+ 
+
+00:09:48,070 --> 00:09:49,430
+ 
+ 
+
+00:09:49,430 --> 00:09:51,110
+ 
+ 
+
+00:09:51,110 --> 00:09:53,190
+ 
+ 
+
+00:09:53,190 --> 00:09:55,590
+ 
+ 
+
+00:09:55,590 --> 00:09:59,430
+ 
+ 
+
+00:09:59,430 --> 00:09:59,440
+ 
+ 
+
+00:09:59,440 --> 00:10:03,350
+ 
+
+
+00:10:03,350 --> 00:10:05,590
+ 
+ 
+
+00:10:05,590 --> 00:10:08,550
+ 
+ 
+
+00:10:08,550 --> 00:10:08,560
+ 
+ 
+
+00:10:08,560 --> 00:10:09,430
+ 
+
+
+00:10:09,430 --> 00:10:12,150
+ 
+ 
+
+00:10:12,150 --> 00:10:14,389
+ 
+ 
+
+00:10:14,389 --> 00:10:16,389
+ 
+ 
+
+00:10:16,389 --> 00:10:18,470
+ 
+ 
+
+00:10:18,470 --> 00:10:20,470
+ 
+ 
+
+00:10:20,470 --> 00:10:22,790
+ 
+ 
+
+00:10:22,790 --> 00:10:25,190
+ 
+ 
+
+00:10:25,190 --> 00:10:27,670
+ 
+ 
+
+00:10:27,670 --> 00:10:30,230
+ 
+ 
+
+00:10:30,230 --> 00:10:32,310
+ 
+ 
+
+00:10:32,310 --> 00:10:34,389
+ 
+ 
+
+00:10:34,389 --> 00:10:35,990
+ 
+ 
+
+00:10:35,990 --> 00:10:37,750
+ 
+ 
+
+00:10:37,750 --> 00:10:41,110
+ 
+ 
+
+00:10:41,110 --> 00:10:43,030
+ 
+ 
+
+00:10:43,030 --> 00:10:44,630
+ 
+ 
+
+00:10:44,630 --> 00:10:46,630
+ 
+ 
+
+00:10:46,630 --> 00:10:49,269
+ 
+ 
+
+00:10:49,269 --> 00:10:49,279
+ 
+ 
+
+00:10:49,279 --> 00:10:50,470
+ 
+
+
+00:10:50,470 --> 00:10:53,030
+ 
+ 
+
+00:10:53,030 --> 00:10:53,040
+ 
+ 
+
+00:10:53,040 --> 00:10:54,310
+ 
+
+
+00:10:54,310 --> 00:10:56,069
+ 
+ 
+
+00:10:56,069 --> 00:10:58,949
+ 
+ 
+
+00:10:58,949 --> 00:11:00,870
+ 
+ 
+
+00:11:00,870 --> 00:11:03,269
+ 
+ 
+
+00:11:03,269 --> 00:11:05,829
+ 
+ 
+
+00:11:05,829 --> 00:11:08,389
+ 
+ 
+
+00:11:08,389 --> 00:11:10,949
+ 
+ 
+
+00:11:10,949 --> 00:11:12,710
+ 
+ 
+
+00:11:12,710 --> 00:11:15,269
+ 
+ 
+
+00:11:15,269 --> 00:11:16,870
+ 
+ 
+
+00:11:16,870 --> 00:11:16,880
+ 
+ 
+
+00:11:16,880 --> 00:11:17,829
+ 
+
+
+00:11:17,829 --> 00:11:21,910
+ 
+ 
+
+00:11:21,910 --> 00:11:23,430
+ 
+ 
+
+00:11:23,430 --> 00:11:23,440
+ 
+ 
+
+00:11:23,440 --> 00:11:24,550
+ 
+
+
+00:11:24,550 --> 00:11:26,550
+ 
+ 
+
+00:11:26,550 --> 00:11:29,030
+ 
+ 
+
+00:11:29,030 --> 00:11:30,949
+ 
+ 
+
+00:11:30,949 --> 00:11:32,150
+ 
+ 
+
+00:11:32,150 --> 00:11:35,670
+ 
+ 
+
+00:11:35,670 --> 00:11:37,350
+ 
+ 
+
+00:11:37,350 --> 00:11:37,360
+ 
+ 
+
+00:11:37,360 --> 00:11:44,630
+ 
+
+
+00:11:44,630 --> 00:11:55,750
+ 
+ 
+
+00:11:55,750 --> 00:11:55,760
+ 
+ 
+
+00:11:55,760 --> 00:12:02,230
+ 
+
+
+00:12:02,230 --> 00:12:06,069
+ 
+ 
+
+00:12:06,069 --> 00:12:07,910
+ 
+ 
+
+00:12:07,910 --> 00:12:07,920
+ 
+ 
+
+00:12:07,920 --> 00:12:10,790
+ 
+
+
+00:12:10,790 --> 00:12:15,030
+ 
+ 
+
+00:12:15,030 --> 00:12:17,829
+ 
+ 
+
+00:12:17,829 --> 00:12:17,839
+ 
+ 
+
+00:12:17,839 --> 00:12:19,829
+ 
+
+
+00:12:19,829 --> 00:12:19,839
+ 
+ 
+
+00:12:19,839 --> 00:12:24,069
+ 
+
+
+00:12:24,069 --> 00:12:26,870
+ 
+ 
+
+00:12:26,870 --> 00:12:30,550
+ 
+ 
+
+00:12:30,550 --> 00:12:32,389
+ 
+ 
+
+00:12:32,389 --> 00:12:34,389
+ 
+ 
+
+00:12:34,389 --> 00:12:34,399
+ 
+ 
+
+00:12:34,399 --> 00:12:39,430
+ 
+
+
+00:12:39,430 --> 00:12:41,350
+ 
+ 
+
+00:12:41,350 --> 00:12:41,360
+ 
+ 
+
+00:12:41,360 --> 00:12:42,790
+ 
+
+
+00:12:42,790 --> 00:12:45,509
+ 
+ 
+
+00:12:45,509 --> 00:12:47,430
+ 
+ 
+
+00:12:47,430 --> 00:12:48,790
+ 
+ 
+
+00:12:48,790 --> 00:12:50,829
+ 
+ 
+
+00:12:50,829 --> 00:12:53,590
+ 
+ 
+
+00:12:53,590 --> 00:12:55,030
+ 
+ 
+
+00:12:55,030 --> 00:12:57,110
+ 
+ 
+
+00:12:57,110 --> 00:12:58,790
+ 
+ 
+
+00:12:58,790 --> 00:13:00,310
+ 
+ 
+
+00:13:00,310 --> 00:13:00,320
+ 
+ 
+
+00:13:00,320 --> 00:13:01,509
+ 
+
+
+00:13:01,509 --> 00:13:01,519
+ 
+ 
+
+00:13:01,519 --> 00:13:02,550
+ 
+
+
+00:13:02,550 --> 00:13:03,829
+ 
+ 
+
+00:13:03,829 --> 00:13:03,839
+ 
+ 
+
+00:13:03,839 --> 00:13:04,829
+ 
+
+
+00:13:04,829 --> 00:13:07,269
+ 
+ 
+
+00:13:07,269 --> 00:13:08,949
+ 
+ 
+
+00:13:08,949 --> 00:13:11,269
+ 
+ 
+
+00:13:11,269 --> 00:13:13,190
+ 
+ 
+
+00:13:13,190 --> 00:13:18,389
+ 
+ 
+
+00:13:18,389 --> 00:13:22,150
+ 
+ 
+
+00:13:22,150 --> 00:13:26,150
+ 
+ 
+
+00:13:26,150 --> 00:13:28,790
+ 
+ 
+
+00:13:28,790 --> 00:13:32,629
+ 
+ 
+
+00:13:32,629 --> 00:13:35,590
+ 
+ 
+
+00:13:35,590 --> 00:13:37,350
+ 
+ 
+
+00:13:37,350 --> 00:13:39,990
+ 
+ 
+
+00:13:39,990 --> 00:13:44,790
+ 
+ 
+
+00:13:44,790 --> 00:13:44,800
+ 
+ 
+
+00:13:44,800 --> 00:13:46,150
+ 
+
+
+00:13:46,150 --> 00:13:49,750
+ 
+ 
+
+00:13:49,750 --> 00:13:49,760
+ 
+ 
+
+00:13:49,760 --> 00:13:51,910
+ 
+
+
+00:13:51,910 --> 00:13:54,870
+ 
+ 
+
+00:13:54,870 --> 00:13:56,710
+ 
+ 
+
+00:13:56,710 --> 00:13:58,550
+ 
+ 
+
+00:13:58,550 --> 00:14:01,829
+ 
+ 
+
+00:14:01,829 --> 00:14:01,839
+ 
+ 
+
+00:14:01,839 --> 00:14:02,710
+ 
+
+
+00:14:02,710 --> 00:14:04,550
+ 
+ 
+
+00:14:04,550 --> 00:14:06,629
+ 
+ 
+
+00:14:06,629 --> 00:14:09,030
+ 
+ 
+
+00:14:09,030 --> 00:14:11,430
+ 
+ 
+
+00:14:11,430 --> 00:14:13,030
+ 
+ 
+
+00:14:13,030 --> 00:14:15,189
+ 
+ 
+
+00:14:15,189 --> 00:14:17,750
+ 
+ 
+
+00:14:17,750 --> 00:14:19,990
+ 
+ 
+
+00:14:19,990 --> 00:14:22,470
+ 
+ 
+
+00:14:22,470 --> 00:14:25,590
+ 
+ 
+
+00:14:25,590 --> 00:14:28,150
+ 
+ 
+
+00:14:28,150 --> 00:14:29,670
+ 
+ 
+
+00:14:29,670 --> 00:14:32,150
+ 
+ 
+
+00:14:32,150 --> 00:14:34,230
+ 
+ 
+
+00:14:34,230 --> 00:14:35,910
+ 
+ 
+
+00:14:35,910 --> 00:14:37,910
+ 
+ 
+
+00:14:37,910 --> 00:14:41,030
+ 
+ 
+
+00:14:41,030 --> 00:14:44,629
+ 
+ 
+
+00:14:44,629 --> 00:14:47,030
+ 
+ 
+
+00:14:47,030 --> 00:14:49,990
+ 
+ 
+
+00:14:49,990 --> 00:14:51,750
+ 
+ 
+
+00:14:51,750 --> 00:14:55,590
+ 
+ 
+
+00:14:55,590 --> 00:14:57,189
+ 
+ 
+
+00:14:57,189 --> 00:14:58,870
+ 
+ 
+
+00:14:58,870 --> 00:14:58,880
+ 
+ 
+
+00:14:58,880 --> 00:15:00,310
+ 
+
+
+00:15:00,310 --> 00:15:02,310
+ 
+ 
+
+00:15:02,310 --> 00:15:05,670
+ 
+ 
+
+00:15:05,670 --> 00:15:07,670
+ 
+ 
+
+00:15:07,670 --> 00:15:11,189
+ 
+ 
+
+00:15:11,189 --> 00:15:15,110
+ 
+ 
+
+00:15:15,110 --> 00:15:15,120
+ 
+ 
+
+00:15:15,120 --> 00:15:16,069
+ 
+
+
+00:15:16,069 --> 00:15:20,150
+ 
+ 
+
+00:15:20,150 --> 00:15:23,670
+ 
+ 
+
+00:15:23,670 --> 00:15:27,269
+ 
+ 
+
+00:15:27,269 --> 00:15:30,550
+ 
+ 
+
+00:15:30,550 --> 00:15:33,110
+ 
+ 
+
+00:15:33,110 --> 00:15:35,990
+ 
+ 
+
+00:15:35,990 --> 00:15:38,150
+ 
+ 
+
+00:15:38,150 --> 00:15:40,389
+ 
+ 
+
+00:15:40,389 --> 00:15:42,470
+ 
+ 
+
+00:15:42,470 --> 00:15:44,470
+ 
+ 
+
+00:15:44,470 --> 00:15:46,629
+ 
+ 
+
+00:15:46,629 --> 00:15:48,310
+ 
+ 
+
+00:15:48,310 --> 00:15:51,430
+ 
+ 
+
+00:15:51,430 --> 00:15:53,829
+ 
+ 
+
+00:15:53,829 --> 00:15:55,910
+ 
+ 
+
+00:15:55,910 --> 00:15:58,629
+ 
+ 
+
+00:15:58,629 --> 00:16:01,030
+ 
+ 
+
+00:16:01,030 --> 00:16:02,470
+ 
+ 
+
+00:16:02,470 --> 00:16:05,590
+ 
+ 
+
+00:16:05,590 --> 00:16:08,470
+ 
+ 
+
+00:16:08,470 --> 00:16:11,350
+ 
+ 
+
+00:16:11,350 --> 00:16:13,990
+ 
+ 
+
+00:16:13,990 --> 00:16:15,590
+ 
+ 
+
+00:16:15,590 --> 00:16:16,949
+ 
+ 
+
+00:16:16,949 --> 00:16:16,959
+ 
+ 
+
+00:16:16,959 --> 00:16:17,990
+ 
+
+
+00:16:17,990 --> 00:16:21,360
+ 
+ 
+

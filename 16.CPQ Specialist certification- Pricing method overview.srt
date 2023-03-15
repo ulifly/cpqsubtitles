@@ -1,0 +1,2497 @@
+
+00:00:00,480 --> 00:00:02,230
+ 
+good everyone i hope you guys have an  amazing day so today what i'm going to  do i will uh talk about uh introduction  of uh  for pricing methods for sales for cpq  um now pricing is is very important uh  so you know think about a scenario right  you're a  you're a company so for instance who uh  excuse me uh ships uh different beers  you're a brewing company you sales for  cpq uh you know for product stuff and  and you ship you know beers to different  parts of the world now uh you might have  a different pricing model for certain  customers some customers might be like a  loyal customer so you wanted to give a  discount or a different pricing model  altogether  say for a few companies or and also you  wanted to  ship it to  different  countries right so your pricing might  vary so imagine if you're doing all  these things in a  spreadsheet it can get very messy  uh you know sometimes your sales reps or  your finance guy might you know forget  to update the pricing information and  you might end up having a legacy pricing  record so which might cause confusion  and frustration right so to solve that  problem cpu has  uh you know way to  help you with the pricing so there is a  concept what we normally use in cpq  that's uh called as a price book so you  might have seen um i just show you what  my my price book so in in simple terms  right  so before i show you i just wanted to  you know make you guys understand what  price book is about so  uh as you would have seen till now right  when when i when i was trying to create  a code i try to add a product okay so  every product has a  um  [Music]  the price information right so for  instance the samsung  phone will cost you say 200 bucks the  latest model so now where do you store  that surprising information you go store  that information in the price book so  price book um  contains uh entries  related to the price of a specific  product so say for instance i have a  price book uh so each entry associated  with the the price  uh for  a specific product right  now say for instance if you wanted to  give  say  a special price to a government agencies  right you have a few clients which is  belonging to a government agency so you  cleared a separate price book right and  that price book will contain information  about the products uh with different  price you wanted to ship it to  government agency  uh  so oh sorry you wanted to sell it to  government agency now similarly if you  wanted to make an exception for a few  other different customers you can do  that using separate price book but the  problem is that imagine you have like 50  000  uh  just for the you know wilder scenario  i'm just saying uh 50 000 different  prices you have to maintain it can get  very messy right  so  yes so cpq solves a problem uh cpu uh  comes with a different pricing tool  right um so the price books are  important right with the price book you  can't really work  uh you can't really add uh you know the  product to the code so the cpq  complements it the in simple terms i'm  just gonna uh  walk you through guys  uh two uh different um  excuse me uh different pricing tools  like you know blog price percentage of  total option pricing so today i'm just  gonna give you a brief introduction so  in the next episode we're gonna start  uh building stuff right so but i believe  the information is is pretty important  okay so  uh first thing first okay i want to  explain to you about the price book  where does the price book comes in the  picture so if you've been following  along if you remember i created a  product right  and  say samson  um  sorry where is the product  so i have samsung phone  so when i create a product right i have  to add a price book here  so i add a price to the price book so i  have to do that otherwise  if you don't have a price right it will  not you will not be able to see that  product uh  information in in a code line editor so  let me try to demonstrate what i mean by  that so if i go to new  let's say i wanted to add a product um  say any product say let's say cattle  cow  say cow product or whatever  okay vague beef right  i mean it's it's kind of  funny but i'm not sure if you guys have  eaten beef but  it's one of the best uh beef in the  world i personally believe um you know  you get in new zealand i mean i'm not  sure  if you're getting the the very advanced  cut version but it's very popular in  japan so this is a really if you make a  steak out of it just melts in your mouth  sorry digress  excuse me um so i'll just make it active  just let me try to see if i can add a  welding beef to it right so  let's see if i add a bug beef  okay so i don't have any price book  information here okay so now let me  refresh it  and  let me try to  go to the code and try to add that  product  i know it's ridiculous example but just  bear with me right i mean why not have  fun right while explaining this stuff  why i always get serious about things  excuse me  now if you try to add a  product  without  you know any price even the zero dollar  then you will may not be able to see  that information let's see if i can see  that  you see you don't see anything right  because you don't have an entry  associated with this specific product in  a price book  okay so let's go back  and let's let me add  um price book  so i would say at standard price  what would be list price i would say  even if i say you know  you know say zero dollar  let's see if i can  okay so you have an entry now in the  price book okay so now if you go back to  the order uh sort of code  um and you just refresh it  now i know i mean if you if you're an  american you might say hey we got a  better beef right i do understand right  um  but you know based on my experience you  know  i mean i do like angus but the wagyu is  always my favorite  you know just  you're agreed to disagree you're allowed  to disagree right so  that's your opinion  um  so  uh add products  um so if i try to search for what give  hopefully i can find i can eat some more  give tonight right so there you see  right  so this is how it works right the price  book is still very important  but  without uh adding an entry uh to  uh to your price point you can't use a  product in the cup  it's pretty simple right  so  sometimes you may not want to add a  price okay so that's why i've added zero  because the xero fulfills the  requirement  of having a price per gantry  um so  that's one other thing right otherwise  you won't be able to add a product to  the code okay  so sometimes you know the price might be  you know zero so you it's it's you still  gotta add that entry to the price book  okay now i wanted to talk about the  pricing tools uh something you know i  think you guys should know uh before we  actually get into the details  right there's a few  pricing tools which you should know  because we will be using it in the  future so the first thing i want to talk  about is the block price okay  i'm going to give you  an example  from a trailer which is pretty simple to  understand so the block price what is a  block price right it uses a flat price  uh for a range of quantities  right instead of uh multiplying by the  units so for instance  uh  you know if you guys say for instance i  run a you know the training platform so  if you guys are streaming video  uh say  from my platform it might cost you say  ten dollars also thirty dollars for  a month for say 10 concurrent viewers  uh or it might cost you say fifty  dollars for you know  uh 30 concurrent viewers so  uh that's the block pricing model works  it's pretty simple we're gonna do that  uh using handheld we're gonna do  hands-on right  i think my throat is ichi again  uh sorry just that  my partner sugar cowed unfortunately on  friday tested so  um  uh i haven't been tested positive yet  because i did a test and came negative  so fortunately i'm fine but i still got  this bloody itchy throat so  finding it very difficult to talk but  it's all right you know i have to do the  training you know you guys are preparing  for certification so it becomes my  responsibility so all right sorry  douglas uh percent of uh total pricing  um so  the the percent of total pricing which  is also called pot right p o t  so it looks the sum of other product  price then take a percent of that sum  okay so what that means is that you go  to a restaurant right um say let's say  you go to a restaurant united states um  because this example where i'm gonna go  it's not really applicable to new  zealand um so you go to a restaurant in  the united states and say you bought a  product for um so you bought a food  right or you you're going to do a dining  right so your total cost of of of the  for around  80 bucks and you and they say okay 10  um of the overall  order you have to pay a tip right means  eight dollars right so 88 bucks so  that's uh something you can categorize  as an example for the person of the  total so you know you  like total percentage for the 10 for the  total  uh price can be categorized tip in new  zealand we don't give tips right there's  our concept of tap here right you go to  restaurant it's not it's mandatory you  have to pay the tips right i don't it  might be shocking for people from other  countries but  yeah i mean it's up to you but there's  no concept as such right i don't know  about australia i'm gonna leave this so  um  anyways  so that's one example i hope you  understand right i guess you know if  you're from different parts of the world  you might have given tips right when you  go to  a restaurant so you get a bill and and  you might get on there on a receipt  saying that okay uh  10 of the total order will be giving us  a tip right  okay so  that's a percentage of the total and  this pricing tool uh gets used uh based  on a different scenario um but for now  this is what it is right this is what  actually  you mean when you talk about percentage  of the total pricing okay  now there's another one which is kind of  used um  often right that's option  uh pricing override  okay um so  as the name indicates right you are  overriding a price so  um  so it actually replaces the price of  product when it is within a bundle okay  so for instance uh you're selling um  uh apple sorry not apple uh samson um  headset right um  for  say 200 bucks right in a bundle and  you're buying a samsung phone  but when you are buying as an individual  right without a bundle like say for  instance i wanted to buy just a samsung  headset you're paying 220 bucks okay so  uh this is what the pricing override  actually means right  it's usually  uh comes a picture when you're dealing  stuff in a bundle  so  if the product involved in a bundle  then the price  will be different to  compared to when you wanted to sell it  individually right  okay  so now another thing i want to talk  about is the cost plus market pricing  um  [Music]  uh don't worry we're going to do  hands-on so you will understand you know  how to use it  but before you know you guys decide to  use it it's better to understand the  concept the basics okay  so this one is pretty interesting  uh this is like you know if you're a  sales guy you wanted to make a  commission  so  you add some percent on top of the  product cost so what that means is like  for instance  you go to showroom  right uh you know you wanted to buy a  car  right and often you see right car prices  like 34 000 or you know or 60k okay or  say 120k if you wanted to buy an audi or  bmw right so so the actual price  maybe say 110k and the sales rep would  have added 10k to make a commission so  for selling it 420k so  that's why there's cost plus market  pricing means  where the sales rep adds value on top of  the product cost  right okay now another one which is the  final one i promise i won't bore you  more  it's the contractor pricing okay  excuse me my apologies for coughing um  sorry i can't i don't know i got plenty  to throw since since yesterday  um because yeah  the weather is crap  anyways it's been raining since whole  day  so that's not helping either okay so  contractor pricing um it sets the  account specific prices for individual  products so for instance i give an  example  you wanted to  give a government agency a certain  different price you want to give a  private agency a different price for  instance you're selling to defense  corporation  say a headset for say a military style  headset for um  [Music]  say 200 bucks and the same headset might  cost say 300 bucks if you're selling to  a civilian right normal uh organization  uh you get the point right so the price  varies  uh based on the  uh amounts so it  for account specific accounts right  so  defense corporation might get a samsung  phone for 1000 bucks and a non-defense  corporation might  uh get the same phone for 1100 bucks so  that's how it works so contractor  pricing  now and there are different things uh  you have to keep in consideration right  uh now uh there are different pricing  fields uh usually um  like you know original price list price  special price regular price customer  price partner price net price these are  the things you you will get to know more  as we go along  so  um  so i will talk about the pricing field  anyway so  the you know original price right  you might get to hear this term  you know what  let me cancel it so  i will i'm not gonna append the price  next to it but you just get the point so  uh we say  so original price okay so  it means the price book price whatever  the price you have in a price book right  that's the price if i called 200 bucks  uh for the price of a samsung phone if  you remember that's the price i put for  the samsung phone um  here  so  so this is a uh price  okay um  so  that's something  excellent then we have list price  um  okay list price  includes the you know  it could be a price book price or you  can say block price or you know percent  of total price or override could be  could be anything okay  now  original price cannot be a block price  or a price override or a percent of  total price right so now we have special  price  and  um the special price uh comprises of  cost price cost plus  uh market price contractor price or  option discount okay so discount we're  going to talk about later uh when we  talk about the discount module but right  now just don't worry about the discount  right i hope you understand what  discount means right you go to shop  someone says if 10 bucks can give me  some discount so they will give you for  18 bucks right it's a two dollar  discount so kind of approach  uh in simple terms right it gets  complicated when you know when we can  show other factors but we're going to  talk about that later  then you have regular price okay so  regular price it's the result of you  know volume based discount so  just keep that in mind for now then you  have customer price you know result of  manually editable discounts so these are  discount related so for for now just  ignore it uh partner price you know  again the partner discount the net price  this really discount so these are the  few things you have to consider but  these ones will be more commonly used  for now  uh so just keep that into consideration  okay  so  in today's lecture we learn about the  price book why price book is important  when you're dealing with the sales for  cpq right without price book entry for  that specific product you cannot use a  product in a code okay now  we also looked at the different pricing  tools block price  percentage of total that's pot  option pricing override cost plus market  pricing contract pricing okay so  uh that's the thing we have looked at it  so in the uh next episode what we're  going to do  we will look at implementing block  pricing right then after that we're  going to look at implementing percentage  total then we implement option pricing  then we will configure cost plus  when we create a account based  contractor pricing then after we talk  about we'll look at manual overrides a  lot to cover pricing is a very important  module uh i guess it it covers  at least 16 it holds the weightage so  which is very important so i would  highly encourage you guys to pay close  attention to it like the product bundle  like the product rules product rules are  important  um so we got a lot to cover and i'm  going to speed up the process a lot  because  i will be away for a week from 18 to  22nd of july so i won't be making a  video just to let you guys know in  advance  because i'm just going to  uh different city to sort out some stuff  so yeah hopefully i'll my partner will  recover by that  um yeah it sucks to have  you know the sick people in the house  but that's what it is right you have to  look after your family at the end of the  day all right that that being said uh i  hope you guys have an amazing sunday  adios
+
+00:00:02,230 --> 00:00:03,830
+good everyone i hope you guys have an  amazing day so today what i'm going to  do i will uh talk about uh introduction  of uh  for pricing methods for sales for cpq  um now pricing is is very important uh  so you know think about a scenario right  you're a  you're a company so for instance who uh  excuse me uh ships uh different beers  you're a brewing company you sales for  cpq uh you know for product stuff and  and you ship you know beers to different  parts of the world now uh you might have  a different pricing model for certain  customers some customers might be like a  loyal customer so you wanted to give a  discount or a different pricing model  altogether  say for a few companies or and also you  wanted to  ship it to  different  countries right so your pricing might  vary so imagine if you're doing all  these things in a  spreadsheet it can get very messy  uh you know sometimes your sales reps or  your finance guy might you know forget  to update the pricing information and  you might end up having a legacy pricing  record so which might cause confusion  and frustration right so to solve that  problem cpu has  uh you know way to  help you with the pricing so there is a  concept what we normally use in cpq  that's uh called as a price book so you  might have seen um i just show you what  my my price book so in in simple terms  right  so before i show you i just wanted to  you know make you guys understand what  price book is about so  uh as you would have seen till now right  when when i when i was trying to create  a code i try to add a product okay so  every product has a  um  [Music]  the price information right so for  instance the samsung  phone will cost you say 200 bucks the  latest model so now where do you store  that surprising information you go store  that information in the price book so  price book um  contains uh entries  related to the price of a specific  product so say for instance i have a  price book uh so each entry associated  with the the price  uh for  a specific product right  now say for instance if you wanted to  give  say  a special price to a government agencies  right you have a few clients which is  belonging to a government agency so you  cleared a separate price book right and  that price book will contain information  about the products uh with different  price you wanted to ship it to  government agency  uh  so oh sorry you wanted to sell it to  government agency now similarly if you  wanted to make an exception for a few  other different customers you can do  that using separate price book but the  problem is that imagine you have like 50  000  uh  just for the you know wilder scenario  i'm just saying uh 50 000 different  prices you have to maintain it can get  very messy right  so  yes so cpq solves a problem uh cpu uh  comes with a different pricing tool  right um so the price books are  important right with the price book you  can't really work  uh you can't really add uh you know the  product to the code so the cpq  complements it the in simple terms i'm  just gonna uh  walk you through guys  uh two uh different um  excuse me uh different pricing tools  like you know blog price percentage of  total option pricing so today i'm just  gonna give you a brief introduction so  in the next episode we're gonna start  uh building stuff right so but i believe  the information is is pretty important  okay so  uh first thing first okay i want to  explain to you about the price book  where does the price book comes in the  picture so if you've been following  along if you remember i created a  product right  and  say samson  um  sorry where is the product  so i have samsung phone  so when i create a product right i have  to add a price book here  so i add a price to the price book so i  have to do that otherwise  if you don't have a price right it will  not you will not be able to see that  product uh  information in in a code line editor so  let me try to demonstrate what i mean by  that so if i go to new  let's say i wanted to add a product um  say any product say let's say cattle  cow  say cow product or whatever  okay vague beef right  i mean it's it's kind of  funny but i'm not sure if you guys have  eaten beef but  it's one of the best uh beef in the  world i personally believe um you know  you get in new zealand i mean i'm not  sure  if you're getting the the very advanced  cut version but it's very popular in  japan so this is a really if you make a  steak out of it just melts in your mouth  sorry digress  excuse me um so i'll just make it active  just let me try to see if i can add a  welding beef to it right so  let's see if i add a bug beef  okay so i don't have any price book  information here okay so now let me  refresh it  and  let me try to  go to the code and try to add that  product  i know it's ridiculous example but just  bear with me right i mean why not have  fun right while explaining this stuff  why i always get serious about things  excuse me  now if you try to add a  product  without  you know any price even the zero dollar  then you will may not be able to see  that information let's see if i can see  that  you see you don't see anything right  because you don't have an entry  associated with this specific product in  a price book  okay so let's go back  and let's let me add  um price book  so i would say at standard price  what would be list price i would say  even if i say you know  you know say zero dollar  let's see if i can  okay so you have an entry now in the  price book okay so now if you go back to  the order uh sort of code  um and you just refresh it  now i know i mean if you if you're an  american you might say hey we got a  better beef right i do understand right  um  but you know based on my experience you  know  i mean i do like angus but the wagyu is  always my favorite  you know just  you're agreed to disagree you're allowed  to disagree right so  that's your opinion  um  so  uh add products  um so if i try to search for what give  hopefully i can find i can eat some more  give tonight right so there you see  right  so this is how it works right the price  book is still very important  but  without uh adding an entry uh to  uh to your price point you can't use a  product in the cup  it's pretty simple right  so  sometimes you may not want to add a  price okay so that's why i've added zero  because the xero fulfills the  requirement  of having a price per gantry  um so  that's one other thing right otherwise  you won't be able to add a product to  the code okay  so sometimes you know the price might be  you know zero so you it's it's you still  gotta add that entry to the price book  okay now i wanted to talk about the  pricing tools uh something you know i  think you guys should know uh before we  actually get into the details  right there's a few  pricing tools which you should know  because we will be using it in the  future so the first thing i want to talk  about is the block price okay  i'm going to give you  an example  from a trailer which is pretty simple to  understand so the block price what is a  block price right it uses a flat price  uh for a range of quantities  right instead of uh multiplying by the  units so for instance  uh  you know if you guys say for instance i  run a you know the training platform so  if you guys are streaming video  uh say  from my platform it might cost you say  ten dollars also thirty dollars for  a month for say 10 concurrent viewers  uh or it might cost you say fifty  dollars for you know  uh 30 concurrent viewers so  uh that's the block pricing model works  it's pretty simple we're gonna do that  uh using handheld we're gonna do  hands-on right  i think my throat is ichi again  uh sorry just that  my partner sugar cowed unfortunately on  friday tested so  um  uh i haven't been tested positive yet  because i did a test and came negative  so fortunately i'm fine but i still got  this bloody itchy throat so  finding it very difficult to talk but  it's all right you know i have to do the  training you know you guys are preparing  for certification so it becomes my  responsibility so all right sorry  douglas uh percent of uh total pricing  um so  the the percent of total pricing which  is also called pot right p o t  so it looks the sum of other product  price then take a percent of that sum  okay so what that means is that you go  to a restaurant right um say let's say  you go to a restaurant united states um  because this example where i'm gonna go  it's not really applicable to new  zealand um so you go to a restaurant in  the united states and say you bought a  product for um so you bought a food  right or you you're going to do a dining  right so your total cost of of of the  for around  80 bucks and you and they say okay 10  um of the overall  order you have to pay a tip right means  eight dollars right so 88 bucks so  that's uh something you can categorize  as an example for the person of the  total so you know you  like total percentage for the 10 for the  total  uh price can be categorized tip in new  zealand we don't give tips right there's  our concept of tap here right you go to  restaurant it's not it's mandatory you  have to pay the tips right i don't it  might be shocking for people from other  countries but  yeah i mean it's up to you but there's  no concept as such right i don't know  about australia i'm gonna leave this so  um  anyways  so that's one example i hope you  understand right i guess you know if  you're from different parts of the world  you might have given tips right when you  go to  a restaurant so you get a bill and and  you might get on there on a receipt  saying that okay uh  10 of the total order will be giving us  a tip right  okay so  that's a percentage of the total and  this pricing tool uh gets used uh based  on a different scenario um but for now  this is what it is right this is what  actually  you mean when you talk about percentage  of the total pricing okay  now there's another one which is kind of  used um  often right that's option  uh pricing override  okay um so  as the name indicates right you are  overriding a price so  um  so it actually replaces the price of  product when it is within a bundle okay  so for instance uh you're selling um  uh apple sorry not apple uh samson um  headset right um  for  say 200 bucks right in a bundle and  you're buying a samsung phone  but when you are buying as an individual  right without a bundle like say for  instance i wanted to buy just a samsung  headset you're paying 220 bucks okay so  uh this is what the pricing override  actually means right  it's usually  uh comes a picture when you're dealing  stuff in a bundle  so  if the product involved in a bundle  then the price  will be different to  compared to when you wanted to sell it  individually right  okay  so now another thing i want to talk  about is the cost plus market pricing  um  [Music]  uh don't worry we're going to do  hands-on so you will understand you know  how to use it  but before you know you guys decide to  use it it's better to understand the  concept the basics okay  so this one is pretty interesting  uh this is like you know if you're a  sales guy you wanted to make a  commission  so  you add some percent on top of the  product cost so what that means is like  for instance  you go to showroom  right uh you know you wanted to buy a  car  right and often you see right car prices  like 34 000 or you know or 60k okay or  say 120k if you wanted to buy an audi or  bmw right so so the actual price  maybe say 110k and the sales rep would  have added 10k to make a commission so  for selling it 420k so  that's why there's cost plus market  pricing means  where the sales rep adds value on top of  the product cost  right okay now another one which is the  final one i promise i won't bore you  more  it's the contractor pricing okay  excuse me my apologies for coughing um  sorry i can't i don't know i got plenty  to throw since since yesterday  um because yeah  the weather is crap  anyways it's been raining since whole  day  so that's not helping either okay so  contractor pricing um it sets the  account specific prices for individual  products so for instance i give an  example  you wanted to  give a government agency a certain  different price you want to give a  private agency a different price for  instance you're selling to defense  corporation  say a headset for say a military style  headset for um  [Music]  say 200 bucks and the same headset might  cost say 300 bucks if you're selling to  a civilian right normal uh organization  uh you get the point right so the price  varies  uh based on the  uh amounts so it  for account specific accounts right  so  defense corporation might get a samsung  phone for 1000 bucks and a non-defense  corporation might  uh get the same phone for 1100 bucks so  that's how it works so contractor  pricing  now and there are different things uh  you have to keep in consideration right  uh now uh there are different pricing  fields uh usually um  like you know original price list price  special price regular price customer  price partner price net price these are  the things you you will get to know more  as we go along  so  um  so i will talk about the pricing field  anyway so  the you know original price right  you might get to hear this term  you know what  let me cancel it so  i will i'm not gonna append the price  next to it but you just get the point so  uh we say  so original price okay so  it means the price book price whatever  the price you have in a price book right  that's the price if i called 200 bucks  uh for the price of a samsung phone if  you remember that's the price i put for  the samsung phone um  here  so  so this is a uh price  okay um  so  that's something  excellent then we have list price  um  okay list price  includes the you know  it could be a price book price or you  can say block price or you know percent  of total price or override could be  could be anything okay  now  original price cannot be a block price  or a price override or a percent of  total price right so now we have special  price  and  um the special price uh comprises of  cost price cost plus  uh market price contractor price or  option discount okay so discount we're  going to talk about later uh when we  talk about the discount module but right  now just don't worry about the discount  right i hope you understand what  discount means right you go to shop  someone says if 10 bucks can give me  some discount so they will give you for  18 bucks right it's a two dollar  discount so kind of approach  uh in simple terms right it gets  complicated when you know when we can  show other factors but we're going to  talk about that later  then you have regular price okay so  regular price it's the result of you  know volume based discount so  just keep that in mind for now then you  have customer price you know result of  manually editable discounts so these are  discount related so for for now just  ignore it uh partner price you know  again the partner discount the net price  this really discount so these are the  few things you have to consider but  these ones will be more commonly used  for now  uh so just keep that into consideration  okay  so  in today's lecture we learn about the  price book why price book is important  when you're dealing with the sales for  cpq right without price book entry for  that specific product you cannot use a  product in a code okay now  we also looked at the different pricing  tools block price  percentage of total that's pot  option pricing override cost plus market  pricing contract pricing okay so  uh that's the thing we have looked at it  so in the uh next episode what we're  going to do  we will look at implementing block  pricing right then after that we're  going to look at implementing percentage  total then we implement option pricing  then we will configure cost plus  when we create a account based  contractor pricing then after we talk  about we'll look at manual overrides a  lot to cover pricing is a very important  module uh i guess it it covers  at least 16 it holds the weightage so  which is very important so i would  highly encourage you guys to pay close  attention to it like the product bundle  like the product rules product rules are  important  um so we got a lot to cover and i'm  going to speed up the process a lot  because  i will be away for a week from 18 to  22nd of july so i won't be making a  video just to let you guys know in  advance  because i'm just going to  uh different city to sort out some stuff  so yeah hopefully i'll my partner will  recover by that  um yeah it sucks to have  you know the sick people in the house  but that's what it is right you have to  look after your family at the end of the  day all right that that being said uh i  hope you guys have an amazing sunday  adios
+ 
+
+00:00:03,830 --> 00:00:07,030
+ 
+ 
+
+00:00:07,030 --> 00:00:08,390
+ 
+ 
+
+00:00:08,390 --> 00:00:11,430
+ 
+ 
+
+00:00:11,430 --> 00:00:14,870
+ 
+ 
+
+00:00:14,870 --> 00:00:16,790
+ 
+ 
+
+00:00:16,790 --> 00:00:17,910
+ 
+ 
+
+00:00:17,910 --> 00:00:20,870
+ 
+ 
+
+00:00:20,870 --> 00:00:24,390
+ 
+ 
+
+00:00:24,390 --> 00:00:26,230
+ 
+ 
+
+00:00:26,230 --> 00:00:29,990
+ 
+ 
+
+00:00:29,990 --> 00:00:31,990
+ 
+ 
+
+00:00:31,990 --> 00:00:35,270
+ 
+ 
+
+00:00:35,270 --> 00:00:36,790
+ 
+ 
+
+00:00:36,790 --> 00:00:39,030
+ 
+ 
+
+00:00:39,030 --> 00:00:41,430
+ 
+ 
+
+00:00:41,430 --> 00:00:43,190
+ 
+ 
+
+00:00:43,190 --> 00:00:43,200
+ 
+ 
+
+00:00:43,200 --> 00:00:45,190
+ 
+
+
+00:00:45,190 --> 00:00:48,069
+ 
+ 
+
+00:00:48,069 --> 00:00:49,270
+ 
+ 
+
+00:00:49,270 --> 00:00:51,029
+ 
+ 
+
+00:00:51,029 --> 00:00:51,039
+ 
+ 
+
+00:00:51,039 --> 00:00:52,709
+ 
+
+
+00:00:52,709 --> 00:00:55,590
+ 
+ 
+
+00:00:55,590 --> 00:00:57,990
+ 
+ 
+
+00:00:57,990 --> 00:00:59,590
+ 
+ 
+
+00:00:59,590 --> 00:01:01,830
+ 
+ 
+
+00:01:01,830 --> 00:01:04,630
+ 
+ 
+
+00:01:04,630 --> 00:01:06,630
+ 
+ 
+
+00:01:06,630 --> 00:01:08,950
+ 
+ 
+
+00:01:08,950 --> 00:01:12,070
+ 
+ 
+
+00:01:12,070 --> 00:01:13,990
+ 
+ 
+
+00:01:13,990 --> 00:01:16,390
+ 
+ 
+
+00:01:16,390 --> 00:01:18,230
+ 
+ 
+
+00:01:18,230 --> 00:01:20,310
+ 
+ 
+
+00:01:20,310 --> 00:01:23,510
+ 
+ 
+
+00:01:23,510 --> 00:01:26,469
+ 
+ 
+
+00:01:26,469 --> 00:01:29,830
+ 
+ 
+
+00:01:29,830 --> 00:01:32,789
+ 
+ 
+
+00:01:32,789 --> 00:01:35,190
+ 
+ 
+
+00:01:35,190 --> 00:01:35,200
+ 
+ 
+
+00:01:35,200 --> 00:01:35,990
+ 
+
+
+00:01:35,990 --> 00:01:37,990
+ 
+ 
+
+00:01:37,990 --> 00:01:39,830
+ 
+ 
+
+00:01:39,830 --> 00:01:41,990
+ 
+ 
+
+00:01:41,990 --> 00:01:44,870
+ 
+ 
+
+00:01:44,870 --> 00:01:46,389
+ 
+ 
+
+00:01:46,389 --> 00:01:48,550
+ 
+ 
+
+00:01:48,550 --> 00:01:50,630
+ 
+ 
+
+00:01:50,630 --> 00:01:50,640
+ 
+ 
+
+00:01:50,640 --> 00:01:52,010
+ 
+
+
+00:01:52,010 --> 00:01:52,020
+ 
+ 
+
+00:01:52,020 --> 00:01:53,350
+ 
+
+
+00:01:53,350 --> 00:01:55,030
+ 
+ 
+
+00:01:55,030 --> 00:01:56,870
+ 
+ 
+
+00:01:56,870 --> 00:01:58,950
+ 
+ 
+
+00:01:58,950 --> 00:02:01,109
+ 
+ 
+
+00:02:01,109 --> 00:02:03,109
+ 
+ 
+
+00:02:03,109 --> 00:02:04,870
+ 
+ 
+
+00:02:04,870 --> 00:02:07,030
+ 
+ 
+
+00:02:07,030 --> 00:02:09,669
+ 
+ 
+
+00:02:09,669 --> 00:02:11,270
+ 
+ 
+
+00:02:11,270 --> 00:02:13,430
+ 
+ 
+
+00:02:13,430 --> 00:02:16,550
+ 
+ 
+
+00:02:16,550 --> 00:02:18,229
+ 
+ 
+
+00:02:18,229 --> 00:02:19,350
+ 
+ 
+
+00:02:19,350 --> 00:02:21,830
+ 
+ 
+
+00:02:21,830 --> 00:02:24,309
+ 
+ 
+
+00:02:24,309 --> 00:02:24,319
+ 
+ 
+
+00:02:24,319 --> 00:02:25,910
+ 
+
+
+00:02:25,910 --> 00:02:25,920
+ 
+ 
+
+00:02:25,920 --> 00:02:27,030
+ 
+
+
+00:02:27,030 --> 00:02:29,350
+ 
+ 
+
+00:02:29,350 --> 00:02:30,550
+ 
+ 
+
+00:02:30,550 --> 00:02:32,390
+ 
+ 
+
+00:02:32,390 --> 00:02:34,550
+ 
+ 
+
+00:02:34,550 --> 00:02:36,869
+ 
+ 
+
+00:02:36,869 --> 00:02:39,190
+ 
+ 
+
+00:02:39,190 --> 00:02:40,790
+ 
+ 
+
+00:02:40,790 --> 00:02:42,309
+ 
+ 
+
+00:02:42,309 --> 00:02:42,319
+ 
+ 
+
+00:02:42,319 --> 00:02:43,270
+ 
+
+
+00:02:43,270 --> 00:02:45,190
+ 
+ 
+
+00:02:45,190 --> 00:02:47,830
+ 
+ 
+
+00:02:47,830 --> 00:02:49,589
+ 
+ 
+
+00:02:49,589 --> 00:02:51,270
+ 
+ 
+
+00:02:51,270 --> 00:02:52,550
+ 
+ 
+
+00:02:52,550 --> 00:02:54,470
+ 
+ 
+
+00:02:54,470 --> 00:02:54,480
+ 
+ 
+
+00:02:54,480 --> 00:02:55,509
+ 
+
+
+00:02:55,509 --> 00:02:55,519
+ 
+ 
+
+00:02:55,519 --> 00:02:56,790
+ 
+
+
+00:02:56,790 --> 00:02:58,550
+ 
+ 
+
+00:02:58,550 --> 00:03:01,110
+ 
+ 
+
+00:03:01,110 --> 00:03:02,710
+ 
+ 
+
+00:03:02,710 --> 00:03:05,270
+ 
+ 
+
+00:03:05,270 --> 00:03:05,280
+ 
+ 
+
+00:03:05,280 --> 00:03:06,149
+ 
+
+
+00:03:06,149 --> 00:03:10,550
+ 
+ 
+
+00:03:10,550 --> 00:03:13,190
+ 
+ 
+
+00:03:13,190 --> 00:03:15,430
+ 
+ 
+
+00:03:15,430 --> 00:03:17,110
+ 
+ 
+
+00:03:17,110 --> 00:03:18,470
+ 
+ 
+
+00:03:18,470 --> 00:03:21,430
+ 
+ 
+
+00:03:21,430 --> 00:03:23,670
+ 
+ 
+
+00:03:23,670 --> 00:03:26,309
+ 
+ 
+
+00:03:26,309 --> 00:03:28,149
+ 
+ 
+
+00:03:28,149 --> 00:03:29,750
+ 
+ 
+
+00:03:29,750 --> 00:03:32,470
+ 
+ 
+
+00:03:32,470 --> 00:03:35,030
+ 
+ 
+
+00:03:35,030 --> 00:03:36,789
+ 
+ 
+
+00:03:36,789 --> 00:03:39,190
+ 
+ 
+
+00:03:39,190 --> 00:03:41,030
+ 
+ 
+
+00:03:41,030 --> 00:03:43,509
+ 
+ 
+
+00:03:43,509 --> 00:03:45,910
+ 
+ 
+
+00:03:45,910 --> 00:03:48,149
+ 
+ 
+
+00:03:48,149 --> 00:03:49,350
+ 
+ 
+
+00:03:49,350 --> 00:03:51,910
+ 
+ 
+
+00:03:51,910 --> 00:03:53,910
+ 
+ 
+
+00:03:53,910 --> 00:03:55,429
+ 
+ 
+
+00:03:55,429 --> 00:03:56,949
+ 
+ 
+
+00:03:56,949 --> 00:03:59,030
+ 
+ 
+
+00:03:59,030 --> 00:04:00,630
+ 
+ 
+
+00:04:00,630 --> 00:04:00,640
+ 
+ 
+
+00:04:00,640 --> 00:04:01,990
+ 
+
+
+00:04:01,990 --> 00:04:03,830
+ 
+ 
+
+00:04:03,830 --> 00:04:03,840
+ 
+ 
+
+00:04:03,840 --> 00:04:05,350
+ 
+
+
+00:04:05,350 --> 00:04:08,630
+ 
+ 
+
+00:04:08,630 --> 00:04:10,390
+ 
+ 
+
+00:04:10,390 --> 00:04:12,789
+ 
+ 
+
+00:04:12,789 --> 00:04:15,750
+ 
+ 
+
+00:04:15,750 --> 00:04:18,710
+ 
+ 
+
+00:04:18,710 --> 00:04:20,390
+ 
+ 
+
+00:04:20,390 --> 00:04:22,950
+ 
+ 
+
+00:04:22,950 --> 00:04:24,710
+ 
+ 
+
+00:04:24,710 --> 00:04:26,629
+ 
+ 
+
+00:04:26,629 --> 00:04:30,150
+ 
+ 
+
+00:04:30,150 --> 00:04:32,230
+ 
+ 
+
+00:04:32,230 --> 00:04:34,390
+ 
+ 
+
+00:04:34,390 --> 00:04:36,950
+ 
+ 
+
+00:04:36,950 --> 00:04:40,310
+ 
+ 
+
+00:04:40,310 --> 00:04:40,320
+ 
+ 
+
+00:04:40,320 --> 00:04:41,590
+ 
+
+
+00:04:41,590 --> 00:04:44,390
+ 
+ 
+
+00:04:44,390 --> 00:04:46,230
+ 
+ 
+
+00:04:46,230 --> 00:04:48,550
+ 
+ 
+
+00:04:48,550 --> 00:04:50,629
+ 
+ 
+
+00:04:50,629 --> 00:04:52,710
+ 
+ 
+
+00:04:52,710 --> 00:04:55,670
+ 
+ 
+
+00:04:55,670 --> 00:04:58,629
+ 
+ 
+
+00:04:58,629 --> 00:05:00,070
+ 
+ 
+
+00:05:00,070 --> 00:05:00,080
+ 
+ 
+
+00:05:00,080 --> 00:05:00,950
+ 
+
+
+00:05:00,950 --> 00:05:03,029
+ 
+ 
+
+00:05:03,029 --> 00:05:05,350
+ 
+ 
+
+00:05:05,350 --> 00:05:07,430
+ 
+ 
+
+00:05:07,430 --> 00:05:09,350
+ 
+ 
+
+00:05:09,350 --> 00:05:10,790
+ 
+ 
+
+00:05:10,790 --> 00:05:14,230
+ 
+ 
+
+00:05:14,230 --> 00:05:15,749
+ 
+ 
+
+00:05:15,749 --> 00:05:17,749
+ 
+ 
+
+00:05:17,749 --> 00:05:20,230
+ 
+ 
+
+00:05:20,230 --> 00:05:23,270
+ 
+ 
+
+00:05:23,270 --> 00:05:25,110
+ 
+ 
+
+00:05:25,110 --> 00:05:27,110
+ 
+ 
+
+00:05:27,110 --> 00:05:27,120
+ 
+ 
+
+00:05:27,120 --> 00:05:27,990
+ 
+
+
+00:05:27,990 --> 00:05:30,310
+ 
+ 
+
+00:05:30,310 --> 00:05:33,270
+ 
+ 
+
+00:05:33,270 --> 00:05:33,280
+ 
+ 
+
+00:05:33,280 --> 00:05:35,110
+ 
+
+
+00:05:35,110 --> 00:05:37,590
+ 
+ 
+
+00:05:37,590 --> 00:05:39,189
+ 
+ 
+
+00:05:39,189 --> 00:05:40,710
+ 
+ 
+
+00:05:40,710 --> 00:05:43,189
+ 
+ 
+
+00:05:43,189 --> 00:05:45,510
+ 
+ 
+
+00:05:45,510 --> 00:05:48,390
+ 
+ 
+
+00:05:48,390 --> 00:05:48,400
+ 
+ 
+
+00:05:48,400 --> 00:05:49,749
+ 
+
+
+00:05:49,749 --> 00:05:49,759
+ 
+ 
+
+00:05:49,759 --> 00:05:50,790
+ 
+
+
+00:05:50,790 --> 00:05:54,070
+ 
+ 
+
+00:05:54,070 --> 00:05:56,309
+ 
+ 
+
+00:05:56,309 --> 00:05:57,830
+ 
+ 
+
+00:05:57,830 --> 00:05:57,840
+ 
+ 
+
+00:05:57,840 --> 00:06:02,790
+ 
+
+
+00:06:02,790 --> 00:06:04,469
+ 
+ 
+
+00:06:04,469 --> 00:06:06,309
+ 
+ 
+
+00:06:06,309 --> 00:06:08,390
+ 
+ 
+
+00:06:08,390 --> 00:06:09,670
+ 
+ 
+
+00:06:09,670 --> 00:06:13,110
+ 
+ 
+
+00:06:13,110 --> 00:06:15,670
+ 
+ 
+
+00:06:15,670 --> 00:06:18,469
+ 
+ 
+
+00:06:18,469 --> 00:06:21,749
+ 
+ 
+
+00:06:21,749 --> 00:06:23,590
+ 
+ 
+
+00:06:23,590 --> 00:06:25,749
+ 
+ 
+
+00:06:25,749 --> 00:06:28,070
+ 
+ 
+
+00:06:28,070 --> 00:06:30,629
+ 
+ 
+
+00:06:30,629 --> 00:06:32,469
+ 
+ 
+
+00:06:32,469 --> 00:06:34,790
+ 
+ 
+
+00:06:34,790 --> 00:06:37,510
+ 
+ 
+
+00:06:37,510 --> 00:06:42,790
+ 
+ 
+
+00:06:42,790 --> 00:06:44,469
+ 
+ 
+
+00:06:44,469 --> 00:06:46,070
+ 
+ 
+
+00:06:46,070 --> 00:06:48,230
+ 
+ 
+
+00:06:48,230 --> 00:06:48,240
+ 
+ 
+
+00:06:48,240 --> 00:06:49,189
+ 
+
+
+00:06:49,189 --> 00:06:51,270
+ 
+ 
+
+00:06:51,270 --> 00:06:51,280
+ 
+ 
+
+00:06:51,280 --> 00:06:52,309
+ 
+
+
+00:06:52,309 --> 00:06:54,870
+ 
+ 
+
+00:06:54,870 --> 00:06:56,629
+ 
+ 
+
+00:06:56,629 --> 00:06:59,749
+ 
+ 
+
+00:06:59,749 --> 00:07:02,469
+ 
+ 
+
+00:07:02,469 --> 00:07:04,469
+ 
+ 
+
+00:07:04,469 --> 00:07:05,830
+ 
+ 
+
+00:07:05,830 --> 00:07:05,840
+ 
+ 
+
+00:07:05,840 --> 00:07:06,950
+ 
+
+
+00:07:06,950 --> 00:07:06,960
+ 
+ 
+
+00:07:06,960 --> 00:07:09,270
+ 
+
+
+00:07:09,270 --> 00:07:11,110
+ 
+ 
+
+00:07:11,110 --> 00:07:13,510
+ 
+ 
+
+00:07:13,510 --> 00:07:15,510
+ 
+ 
+
+00:07:15,510 --> 00:07:17,670
+ 
+ 
+
+00:07:17,670 --> 00:07:17,680
+ 
+ 
+
+00:07:17,680 --> 00:07:18,710
+ 
+
+
+00:07:18,710 --> 00:07:20,950
+ 
+ 
+
+00:07:20,950 --> 00:07:22,870
+ 
+ 
+
+00:07:22,870 --> 00:07:22,880
+ 
+ 
+
+00:07:22,880 --> 00:07:23,670
+ 
+
+
+00:07:23,670 --> 00:07:27,270
+ 
+ 
+
+00:07:27,270 --> 00:07:29,189
+ 
+ 
+
+00:07:29,189 --> 00:07:30,629
+ 
+ 
+
+00:07:30,629 --> 00:07:33,830
+ 
+ 
+
+00:07:33,830 --> 00:07:33,840
+ 
+ 
+
+00:07:33,840 --> 00:07:34,629
+ 
+
+
+00:07:34,629 --> 00:07:37,350
+ 
+ 
+
+00:07:37,350 --> 00:07:39,909
+ 
+ 
+
+00:07:39,909 --> 00:07:41,589
+ 
+ 
+
+00:07:41,589 --> 00:07:41,599
+ 
+ 
+
+00:07:41,599 --> 00:07:42,870
+ 
+
+
+00:07:42,870 --> 00:07:45,510
+ 
+ 
+
+00:07:45,510 --> 00:07:47,510
+ 
+ 
+
+00:07:47,510 --> 00:07:49,270
+ 
+ 
+
+00:07:49,270 --> 00:07:51,110
+ 
+ 
+
+00:07:51,110 --> 00:07:52,790
+ 
+ 
+
+00:07:52,790 --> 00:07:54,790
+ 
+ 
+
+00:07:54,790 --> 00:07:57,270
+ 
+ 
+
+00:07:57,270 --> 00:07:59,670
+ 
+ 
+
+00:07:59,670 --> 00:08:02,070
+ 
+ 
+
+00:08:02,070 --> 00:08:04,869
+ 
+ 
+
+00:08:04,869 --> 00:08:07,270
+ 
+ 
+
+00:08:07,270 --> 00:08:09,430
+ 
+ 
+
+00:08:09,430 --> 00:08:11,270
+ 
+ 
+
+00:08:11,270 --> 00:08:12,950
+ 
+ 
+
+00:08:12,950 --> 00:08:14,869
+ 
+ 
+
+00:08:14,869 --> 00:08:17,350
+ 
+ 
+
+00:08:17,350 --> 00:08:20,469
+ 
+ 
+
+00:08:20,469 --> 00:08:21,909
+ 
+ 
+
+00:08:21,909 --> 00:08:23,670
+ 
+ 
+
+00:08:23,670 --> 00:08:26,710
+ 
+ 
+
+00:08:26,710 --> 00:08:29,510
+ 
+ 
+
+00:08:29,510 --> 00:08:31,990
+ 
+ 
+
+00:08:31,990 --> 00:08:34,389
+ 
+ 
+
+00:08:34,389 --> 00:08:36,550
+ 
+ 
+
+00:08:36,550 --> 00:08:38,310
+ 
+ 
+
+00:08:38,310 --> 00:08:38,320
+ 
+ 
+
+00:08:38,320 --> 00:08:39,269
+ 
+
+
+00:08:39,269 --> 00:08:41,589
+ 
+ 
+
+00:08:41,589 --> 00:08:44,149
+ 
+ 
+
+00:08:44,149 --> 00:08:46,150
+ 
+ 
+
+00:08:46,150 --> 00:08:47,509
+ 
+ 
+
+00:08:47,509 --> 00:08:49,590
+ 
+ 
+
+00:08:49,590 --> 00:08:52,710
+ 
+ 
+
+00:08:52,710 --> 00:08:56,470
+ 
+ 
+
+00:08:56,470 --> 00:08:59,350
+ 
+ 
+
+00:08:59,350 --> 00:09:00,949
+ 
+ 
+
+00:09:00,949 --> 00:09:03,509
+ 
+ 
+
+00:09:03,509 --> 00:09:06,470
+ 
+ 
+
+00:09:06,470 --> 00:09:09,350
+ 
+ 
+
+00:09:09,350 --> 00:09:11,509
+ 
+ 
+
+00:09:11,509 --> 00:09:14,630
+ 
+ 
+
+00:09:14,630 --> 00:09:17,509
+ 
+ 
+
+00:09:17,509 --> 00:09:19,590
+ 
+ 
+
+00:09:19,590 --> 00:09:22,870
+ 
+ 
+
+00:09:22,870 --> 00:09:24,870
+ 
+ 
+
+00:09:24,870 --> 00:09:24,880
+ 
+ 
+
+00:09:24,880 --> 00:09:26,949
+ 
+
+
+00:09:26,949 --> 00:09:30,550
+ 
+ 
+
+00:09:30,550 --> 00:09:32,710
+ 
+ 
+
+00:09:32,710 --> 00:09:35,030
+ 
+ 
+
+00:09:35,030 --> 00:09:37,430
+ 
+ 
+
+00:09:37,430 --> 00:09:39,190
+ 
+ 
+
+00:09:39,190 --> 00:09:40,790
+ 
+ 
+
+00:09:40,790 --> 00:09:42,389
+ 
+ 
+
+00:09:42,389 --> 00:09:44,070
+ 
+ 
+
+00:09:44,070 --> 00:09:45,750
+ 
+ 
+
+00:09:45,750 --> 00:09:49,269
+ 
+ 
+
+00:09:49,269 --> 00:09:51,110
+ 
+ 
+
+00:09:51,110 --> 00:09:52,870
+ 
+ 
+
+00:09:52,870 --> 00:09:56,150
+ 
+ 
+
+00:09:56,150 --> 00:09:58,150
+ 
+ 
+
+00:09:58,150 --> 00:10:02,550
+ 
+ 
+
+00:10:02,550 --> 00:10:04,710
+ 
+ 
+
+00:10:04,710 --> 00:10:07,509
+ 
+ 
+
+00:10:07,509 --> 00:10:10,310
+ 
+ 
+
+00:10:10,310 --> 00:10:11,750
+ 
+ 
+
+00:10:11,750 --> 00:10:13,190
+ 
+ 
+
+00:10:13,190 --> 00:10:15,269
+ 
+ 
+
+00:10:15,269 --> 00:10:17,350
+ 
+ 
+
+00:10:17,350 --> 00:10:20,230
+ 
+ 
+
+00:10:20,230 --> 00:10:22,550
+ 
+ 
+
+00:10:22,550 --> 00:10:26,230
+ 
+ 
+
+00:10:26,230 --> 00:10:27,590
+ 
+ 
+
+00:10:27,590 --> 00:10:31,110
+ 
+ 
+
+00:10:31,110 --> 00:10:34,150
+ 
+ 
+
+00:10:34,150 --> 00:10:36,310
+ 
+ 
+
+00:10:36,310 --> 00:10:39,030
+ 
+ 
+
+00:10:39,030 --> 00:10:41,910
+ 
+ 
+
+00:10:41,910 --> 00:10:43,430
+ 
+ 
+
+00:10:43,430 --> 00:10:45,670
+ 
+ 
+
+00:10:45,670 --> 00:10:48,470
+ 
+ 
+
+00:10:48,470 --> 00:10:48,480
+ 
+ 
+
+00:10:48,480 --> 00:10:49,670
+ 
+
+
+00:10:49,670 --> 00:10:51,829
+ 
+ 
+
+00:10:51,829 --> 00:10:53,350
+ 
+ 
+
+00:10:53,350 --> 00:10:55,590
+ 
+ 
+
+00:10:55,590 --> 00:10:57,750
+ 
+ 
+
+00:10:57,750 --> 00:10:59,590
+ 
+ 
+
+00:10:59,590 --> 00:11:01,110
+ 
+ 
+
+00:11:01,110 --> 00:11:02,949
+ 
+ 
+
+00:11:02,949 --> 00:11:04,550
+ 
+ 
+
+00:11:04,550 --> 00:11:06,790
+ 
+ 
+
+00:11:06,790 --> 00:11:08,870
+ 
+ 
+
+00:11:08,870 --> 00:11:08,880
+ 
+ 
+
+00:11:08,880 --> 00:11:09,829
+ 
+
+
+00:11:09,829 --> 00:11:09,839
+ 
+ 
+
+00:11:09,839 --> 00:11:10,949
+ 
+
+
+00:11:10,949 --> 00:11:12,470
+ 
+ 
+
+00:11:12,470 --> 00:11:13,990
+ 
+ 
+
+00:11:13,990 --> 00:11:15,430
+ 
+ 
+
+00:11:15,430 --> 00:11:17,190
+ 
+ 
+
+00:11:17,190 --> 00:11:18,389
+ 
+ 
+
+00:11:18,389 --> 00:11:20,630
+ 
+ 
+
+00:11:20,630 --> 00:11:22,550
+ 
+ 
+
+00:11:22,550 --> 00:11:24,310
+ 
+ 
+
+00:11:24,310 --> 00:11:27,190
+ 
+ 
+
+00:11:27,190 --> 00:11:29,110
+ 
+ 
+
+00:11:29,110 --> 00:11:30,470
+ 
+ 
+
+00:11:30,470 --> 00:11:32,630
+ 
+ 
+
+00:11:32,630 --> 00:11:35,190
+ 
+ 
+
+00:11:35,190 --> 00:11:37,670
+ 
+ 
+
+00:11:37,670 --> 00:11:39,829
+ 
+ 
+
+00:11:39,829 --> 00:11:39,839
+ 
+ 
+
+00:11:39,839 --> 00:11:41,590
+ 
+
+
+00:11:41,590 --> 00:11:43,990
+ 
+ 
+
+00:11:43,990 --> 00:11:45,750
+ 
+ 
+
+00:11:45,750 --> 00:11:47,829
+ 
+ 
+
+00:11:47,829 --> 00:11:49,670
+ 
+ 
+
+00:11:49,670 --> 00:11:52,790
+ 
+ 
+
+00:11:52,790 --> 00:11:55,509
+ 
+ 
+
+00:11:55,509 --> 00:11:57,750
+ 
+ 
+
+00:11:57,750 --> 00:11:59,910
+ 
+ 
+
+00:11:59,910 --> 00:12:01,910
+ 
+ 
+
+00:12:01,910 --> 00:12:01,920
+ 
+ 
+
+00:12:01,920 --> 00:12:02,710
+ 
+
+
+00:12:02,710 --> 00:12:04,870
+ 
+ 
+
+00:12:04,870 --> 00:12:08,230
+ 
+ 
+
+00:12:08,230 --> 00:12:12,230
+ 
+ 
+
+00:12:12,230 --> 00:12:16,310
+ 
+ 
+
+00:12:16,310 --> 00:12:18,870
+ 
+ 
+
+00:12:18,870 --> 00:12:18,880
+ 
+ 
+
+00:12:18,880 --> 00:12:19,990
+ 
+
+
+00:12:19,990 --> 00:12:22,710
+ 
+ 
+
+00:12:22,710 --> 00:12:26,150
+ 
+ 
+
+00:12:26,150 --> 00:12:28,949
+ 
+ 
+
+00:12:28,949 --> 00:12:31,030
+ 
+ 
+
+00:12:31,030 --> 00:12:33,350
+ 
+ 
+
+00:12:33,350 --> 00:12:37,430
+ 
+ 
+
+00:12:37,430 --> 00:12:40,870
+ 
+ 
+
+00:12:40,870 --> 00:12:42,389
+ 
+ 
+
+00:12:42,389 --> 00:12:43,910
+ 
+ 
+
+00:12:43,910 --> 00:12:46,230
+ 
+ 
+
+00:12:46,230 --> 00:12:47,509
+ 
+ 
+
+00:12:47,509 --> 00:12:47,519
+ 
+ 
+
+00:12:47,519 --> 00:12:48,710
+ 
+
+
+00:12:48,710 --> 00:12:50,870
+ 
+ 
+
+00:12:50,870 --> 00:12:52,949
+ 
+ 
+
+00:12:52,949 --> 00:12:55,350
+ 
+ 
+
+00:12:55,350 --> 00:12:59,430
+ 
+ 
+
+00:12:59,430 --> 00:13:01,110
+ 
+ 
+
+00:13:01,110 --> 00:13:01,120
+ 
+ 
+
+00:13:01,120 --> 00:13:02,150
+ 
+
+
+00:13:02,150 --> 00:13:04,550
+ 
+ 
+
+00:13:04,550 --> 00:13:08,230
+ 
+ 
+
+00:13:08,230 --> 00:13:08,240
+ 
+ 
+
+00:13:08,240 --> 00:13:08,570
+ 
+
+
+00:13:08,570 --> 00:13:08,580
+ 
+ 
+
+00:13:08,580 --> 00:13:11,190
+ 
+
+
+00:13:11,190 --> 00:13:12,389
+ 
+ 
+
+00:13:12,389 --> 00:13:14,710
+ 
+ 
+
+00:13:14,710 --> 00:13:16,389
+ 
+ 
+
+00:13:16,389 --> 00:13:18,870
+ 
+ 
+
+00:13:18,870 --> 00:13:20,629
+ 
+ 
+
+00:13:20,629 --> 00:13:23,350
+ 
+ 
+
+00:13:23,350 --> 00:13:25,670
+ 
+ 
+
+00:13:25,670 --> 00:13:27,350
+ 
+ 
+
+00:13:27,350 --> 00:13:28,470
+ 
+ 
+
+00:13:28,470 --> 00:13:28,480
+ 
+ 
+
+00:13:28,480 --> 00:13:29,509
+ 
+
+
+00:13:29,509 --> 00:13:29,519
+ 
+ 
+
+00:13:29,519 --> 00:13:30,470
+ 
+
+
+00:13:30,470 --> 00:13:32,790
+ 
+ 
+
+00:13:32,790 --> 00:13:34,710
+ 
+ 
+
+00:13:34,710 --> 00:13:35,910
+ 
+ 
+
+00:13:35,910 --> 00:13:37,430
+ 
+ 
+
+00:13:37,430 --> 00:13:39,269
+ 
+ 
+
+00:13:39,269 --> 00:13:39,279
+ 
+ 
+
+00:13:39,279 --> 00:13:40,230
+ 
+
+
+00:13:40,230 --> 00:13:43,030
+ 
+ 
+
+00:13:43,030 --> 00:13:46,389
+ 
+ 
+
+00:13:46,389 --> 00:13:49,269
+ 
+ 
+
+00:13:49,269 --> 00:13:52,949
+ 
+ 
+
+00:13:52,949 --> 00:13:56,310
+ 
+ 
+
+00:13:56,310 --> 00:13:59,030
+ 
+ 
+
+00:13:59,030 --> 00:14:01,670
+ 
+ 
+
+00:14:01,670 --> 00:14:03,750
+ 
+ 
+
+00:14:03,750 --> 00:14:05,430
+ 
+ 
+
+00:14:05,430 --> 00:14:08,310
+ 
+ 
+
+00:14:08,310 --> 00:14:09,990
+ 
+ 
+
+00:14:09,990 --> 00:14:12,629
+ 
+ 
+
+00:14:12,629 --> 00:14:14,629
+ 
+ 
+
+00:14:14,629 --> 00:14:14,639
+ 
+ 
+
+00:14:14,639 --> 00:14:15,750
+ 
+
+
+00:14:15,750 --> 00:14:20,710
+ 
+ 
+
+00:14:20,710 --> 00:14:23,189
+ 
+ 
+
+00:14:23,189 --> 00:14:25,670
+ 
+ 
+
+00:14:25,670 --> 00:14:28,470
+ 
+ 
+
+00:14:28,470 --> 00:14:30,710
+ 
+ 
+
+00:14:30,710 --> 00:14:32,389
+ 
+ 
+
+00:14:32,389 --> 00:14:34,310
+ 
+ 
+
+00:14:34,310 --> 00:14:34,320
+ 
+ 
+
+00:14:34,320 --> 00:14:35,189
+ 
+
+
+00:14:35,189 --> 00:14:37,189
+ 
+ 
+
+00:14:37,189 --> 00:14:39,509
+ 
+ 
+
+00:14:39,509 --> 00:14:41,350
+ 
+ 
+
+00:14:41,350 --> 00:14:43,189
+ 
+ 
+
+00:14:43,189 --> 00:14:43,199
+ 
+ 
+
+00:14:43,199 --> 00:14:44,790
+ 
+
+
+00:14:44,790 --> 00:14:46,310
+ 
+ 
+
+00:14:46,310 --> 00:14:48,949
+ 
+ 
+
+00:14:48,949 --> 00:14:50,710
+ 
+ 
+
+00:14:50,710 --> 00:14:52,150
+ 
+ 
+
+00:14:52,150 --> 00:14:54,470
+ 
+ 
+
+00:14:54,470 --> 00:14:54,480
+ 
+ 
+
+00:14:54,480 --> 00:14:55,829
+ 
+
+
+00:14:55,829 --> 00:14:59,829
+ 
+ 
+
+00:14:59,829 --> 00:15:01,200
+ 
+ 
+
+00:15:01,200 --> 00:15:01,210
+ 
+ 
+
+00:15:01,210 --> 00:15:02,470
+ 
+
+
+00:15:02,470 --> 00:15:05,189
+ 
+ 
+
+00:15:05,189 --> 00:15:07,269
+ 
+ 
+
+00:15:07,269 --> 00:15:11,189
+ 
+ 
+
+00:15:11,189 --> 00:15:13,750
+ 
+ 
+
+00:15:13,750 --> 00:15:13,760
+ 
+ 
+
+00:15:13,760 --> 00:15:14,710
+ 
+
+
+00:15:14,710 --> 00:15:16,389
+ 
+ 
+
+00:15:16,389 --> 00:15:18,870
+ 
+ 
+
+00:15:18,870 --> 00:15:21,430
+ 
+ 
+
+00:15:21,430 --> 00:15:21,440
+ 
+ 
+
+00:15:21,440 --> 00:15:23,110
+ 
+
+
+00:15:23,110 --> 00:15:25,509
+ 
+ 
+
+00:15:25,509 --> 00:15:29,509
+ 
+ 
+
+00:15:29,509 --> 00:15:31,189
+ 
+ 
+
+00:15:31,189 --> 00:15:34,949
+ 
+ 
+
+00:15:34,949 --> 00:15:36,870
+ 
+ 
+
+00:15:36,870 --> 00:15:36,880
+ 
+ 
+
+00:15:36,880 --> 00:15:39,030
+ 
+
+
+00:15:39,030 --> 00:15:41,350
+ 
+ 
+
+00:15:41,350 --> 00:15:43,670
+ 
+ 
+
+00:15:43,670 --> 00:15:46,790
+ 
+ 
+
+00:15:46,790 --> 00:15:51,829
+ 
+ 
+
+00:15:51,829 --> 00:15:53,910
+ 
+ 
+
+00:15:53,910 --> 00:15:55,910
+ 
+ 
+
+00:15:55,910 --> 00:15:58,389
+ 
+ 
+
+00:15:58,389 --> 00:16:00,470
+ 
+ 
+
+00:16:00,470 --> 00:16:02,230
+ 
+ 
+
+00:16:02,230 --> 00:16:02,240
+ 
+ 
+
+00:16:02,240 --> 00:16:03,590
+ 
+
+
+00:16:03,590 --> 00:16:03,600
+ 
+ 
+
+00:16:03,600 --> 00:16:04,629
+ 
+
+
+00:16:04,629 --> 00:16:07,110
+ 
+ 
+
+00:16:07,110 --> 00:16:08,870
+ 
+ 
+
+00:16:08,870 --> 00:16:12,310
+ 
+ 
+
+00:16:12,310 --> 00:16:15,990
+ 
+ 
+
+00:16:15,990 --> 00:16:17,030
+ 
+ 
+
+00:16:17,030 --> 00:16:20,150
+ 
+ 
+
+00:16:20,150 --> 00:16:22,949
+ 
+ 
+
+00:16:22,949 --> 00:16:26,470
+ 
+ 
+
+00:16:26,470 --> 00:16:29,910
+ 
+ 
+
+00:16:29,910 --> 00:16:33,110
+ 
+ 
+
+00:16:33,110 --> 00:16:35,030
+ 
+ 
+
+00:16:35,030 --> 00:16:37,350
+ 
+ 
+
+00:16:37,350 --> 00:16:40,629
+ 
+ 
+
+00:16:40,629 --> 00:16:43,030
+ 
+ 
+
+00:16:43,030 --> 00:16:44,470
+ 
+ 
+
+00:16:44,470 --> 00:16:47,350
+ 
+ 
+
+00:16:47,350 --> 00:16:47,360
+ 
+ 
+
+00:16:47,360 --> 00:16:52,069
+ 
+
+
+00:16:52,069 --> 00:16:52,079
+ 
+ 
+
+00:16:52,079 --> 00:16:57,110
+ 
+
+
+00:16:57,110 --> 00:17:00,870
+ 
+ 
+
+00:17:00,870 --> 00:17:02,629
+ 
+ 
+
+00:17:02,629 --> 00:17:02,639
+ 
+ 
+
+00:17:02,639 --> 00:17:04,230
+ 
+
+
+00:17:04,230 --> 00:17:05,990
+ 
+ 
+
+00:17:05,990 --> 00:17:11,350
+ 
+ 
+
+00:17:11,350 --> 00:17:11,360
+ 
+ 
+
+00:17:11,360 --> 00:17:15,189
+ 
+
+
+00:17:15,189 --> 00:17:17,029
+ 
+ 
+
+00:17:17,029 --> 00:17:19,189
+ 
+ 
+
+00:17:19,189 --> 00:17:21,270
+ 
+ 
+
+00:17:21,270 --> 00:17:24,069
+ 
+ 
+
+00:17:24,069 --> 00:17:26,549
+ 
+ 
+
+00:17:26,549 --> 00:17:29,909
+ 
+ 
+
+00:17:29,909 --> 00:17:29,919
+ 
+ 
+
+00:17:29,919 --> 00:17:31,110
+ 
+
+
+00:17:31,110 --> 00:17:32,950
+ 
+ 
+
+00:17:32,950 --> 00:17:35,270
+ 
+ 
+
+00:17:35,270 --> 00:17:37,909
+ 
+ 
+
+00:17:37,909 --> 00:17:37,919
+ 
+ 
+
+00:17:37,919 --> 00:17:40,390
+ 
+
+
+00:17:40,390 --> 00:17:40,400
+ 
+ 
+
+00:17:40,400 --> 00:17:43,270
+ 
+
+
+00:17:43,270 --> 00:17:46,150
+ 
+ 
+
+00:17:46,150 --> 00:17:48,390
+ 
+ 
+
+00:17:48,390 --> 00:17:50,710
+ 
+ 
+
+00:17:50,710 --> 00:17:52,630
+ 
+ 
+
+00:17:52,630 --> 00:17:54,549
+ 
+ 
+
+00:17:54,549 --> 00:17:56,310
+ 
+ 
+
+00:17:56,310 --> 00:17:58,310
+ 
+ 
+
+00:17:58,310 --> 00:17:59,990
+ 
+ 
+
+00:17:59,990 --> 00:18:01,510
+ 
+ 
+
+00:18:01,510 --> 00:18:03,590
+ 
+ 
+
+00:18:03,590 --> 00:18:05,110
+ 
+ 
+
+00:18:05,110 --> 00:18:07,190
+ 
+ 
+
+00:18:07,190 --> 00:18:09,830
+ 
+ 
+
+00:18:09,830 --> 00:18:11,590
+ 
+ 
+
+00:18:11,590 --> 00:18:13,669
+ 
+ 
+
+00:18:13,669 --> 00:18:15,029
+ 
+ 
+
+00:18:15,029 --> 00:18:16,390
+ 
+ 
+
+00:18:16,390 --> 00:18:19,350
+ 
+ 
+
+00:18:19,350 --> 00:18:21,909
+ 
+ 
+
+00:18:21,909 --> 00:18:24,549
+ 
+ 
+
+00:18:24,549 --> 00:18:26,549
+ 
+ 
+
+00:18:26,549 --> 00:18:28,710
+ 
+ 
+
+00:18:28,710 --> 00:18:30,549
+ 
+ 
+
+00:18:30,549 --> 00:18:32,470
+ 
+ 
+
+00:18:32,470 --> 00:18:35,110
+ 
+ 
+
+00:18:35,110 --> 00:18:37,110
+ 
+ 
+
+00:18:37,110 --> 00:18:39,510
+ 
+ 
+
+00:18:39,510 --> 00:18:41,029
+ 
+ 
+
+00:18:41,029 --> 00:18:42,870
+ 
+ 
+
+00:18:42,870 --> 00:18:43,830
+ 
+ 
+
+00:18:43,830 --> 00:18:45,669
+ 
+ 
+
+00:18:45,669 --> 00:18:45,679
+ 
+ 
+
+00:18:45,679 --> 00:18:46,470
+ 
+
+
+00:18:46,470 --> 00:18:46,480
+ 
+ 
+
+00:18:46,480 --> 00:18:47,270
+ 
+
+
+00:18:47,270 --> 00:18:49,270
+ 
+ 
+
+00:18:49,270 --> 00:18:51,029
+ 
+ 
+
+00:18:51,029 --> 00:18:52,390
+ 
+ 
+
+00:18:52,390 --> 00:18:55,750
+ 
+ 
+
+00:18:55,750 --> 00:18:57,990
+ 
+ 
+
+00:18:57,990 --> 00:19:01,350
+ 
+ 
+
+00:19:01,350 --> 00:19:03,270
+ 
+ 
+
+00:19:03,270 --> 00:19:05,270
+ 
+ 
+
+00:19:05,270 --> 00:19:08,230
+ 
+ 
+
+00:19:08,230 --> 00:19:10,789
+ 
+ 
+
+00:19:10,789 --> 00:19:14,150
+ 
+ 
+
+00:19:14,150 --> 00:19:16,710
+ 
+ 
+
+00:19:16,710 --> 00:19:19,350
+ 
+ 
+
+00:19:19,350 --> 00:19:20,310
+ 
+ 
+
+00:19:20,310 --> 00:19:21,830
+ 
+ 
+
+00:19:21,830 --> 00:19:23,190
+ 
+ 
+
+00:19:23,190 --> 00:19:24,710
+ 
+ 
+
+00:19:24,710 --> 00:19:27,510
+ 
+ 
+
+00:19:27,510 --> 00:19:30,070
+ 
+ 
+
+00:19:30,070 --> 00:19:31,669
+ 
+ 
+
+00:19:31,669 --> 00:19:33,750
+ 
+ 
+
+00:19:33,750 --> 00:19:35,750
+ 
+ 
+
+00:19:35,750 --> 00:19:37,750
+ 
+ 
+
+00:19:37,750 --> 00:19:41,190
+ 
+ 
+
+00:19:41,190 --> 00:19:43,669
+ 
+ 
+
+00:19:43,669 --> 00:19:45,350
+ 
+ 
+
+00:19:45,350 --> 00:19:46,789
+ 
+ 
+
+00:19:46,789 --> 00:19:48,710
+ 
+ 
+
+00:19:48,710 --> 00:19:50,549
+ 
+ 
+
+00:19:50,549 --> 00:19:50,559
+ 
+ 
+
+00:19:50,559 --> 00:19:51,510
+ 
+
+
+00:19:51,510 --> 00:19:53,990
+ 
+ 
+
+00:19:53,990 --> 00:19:55,669
+ 
+ 
+
+00:19:55,669 --> 00:19:55,679
+ 
+ 
+
+00:19:55,679 --> 00:19:56,710
+ 
+
+
+00:19:56,710 --> 00:19:59,990
+ 
+ 
+
+00:19:59,990 --> 00:20:02,630
+ 
+ 
+
+00:20:02,630 --> 00:20:04,549
+ 
+ 
+
+00:20:04,549 --> 00:20:04,559
+ 
+ 
+
+00:20:04,559 --> 00:20:05,830
+ 
+
+
+00:20:05,830 --> 00:20:07,750
+ 
+ 
+
+00:20:07,750 --> 00:20:10,630
+ 
+ 
+
+00:20:10,630 --> 00:20:12,950
+ 
+ 
+
+00:20:12,950 --> 00:20:14,390
+ 
+ 
+
+00:20:14,390 --> 00:20:16,630
+ 
+ 
+
+00:20:16,630 --> 00:20:18,070
+ 
+ 
+
+00:20:18,070 --> 00:20:19,750
+ 
+ 
+
+00:20:19,750 --> 00:20:21,190
+ 
+ 
+
+00:20:21,190 --> 00:20:23,830
+ 
+ 
+
+00:20:23,830 --> 00:20:26,390
+ 
+ 
+
+00:20:26,390 --> 00:20:26,400
+ 
+ 
+
+00:20:26,400 --> 00:20:29,400
+ 
+
+

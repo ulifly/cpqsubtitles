@@ -1,0 +1,565 @@
+
+00:00:00,719 --> 00:00:02,810
+ 
+good everyone I hope you guys have an  amazing day so in the last episode I  talked about how to create an order  right so what I'm going to do today in  this episode I will show you  how to split a code into multiple orders  right obviously you know you might have  a scenario where you might want to uh  split according to multiple orders  rather than just converting an entire uh  code to a single order right so I got  this code right so if I go to the code  lines  um  so  um what I'll do I wanted to split uh  Samsung watch in a separate order and I  want to keep rest of them in a single  order so basically I'm trying to to  split this code into two orders okay  that makes sense all right so let's go  back  um  so I'm in a code right and this code is  derived from this opportunity that's  selling Electronics right uh based on  this opportunity of created code so I'll  go to the code here which is a primary  code right if you remember in the  previous episode I did mention that the  code has to be primary code before  excuse me before you can even use this  ordered uh the tick box but in saying so  I'm not going to make use of the order  to box yet so before that what I'll do  I'll do something called create order  yeah  um and  um in the create order  I will choose the account of the school  account  uh order start date I just put you know  maybe 19 doesn't matter  um and then what I'll do I will link the  code to this specific code which is this  one  and then I'll save okay  so now that's done now I'll do to go to  this edit order product okay and what  I'll do I will say hey I want to choose  include only Samsung watch uh as a part  of this order okay and then I'll just  say  yeah  all right so that's done  and and I'll say Mark the status as  completed  okay so that's done and now I'll go to  the code  um and I'll go to this code again  and I will say edit  and I will say ordered  and I'll save it okay  now for whatever reason right uh let if  uh you for whatever reason if you're not  able to do create a multiple uh  order right from a code then there is a  setting which you might have to look for  it so what I'll do I'll go to the  scarecrow.com and I go to setup  um and under setup uh just look for  install packages  yeah and I'll go to the install packages  um so I'll go to configure  right under configure it's taking a  while it's my apologies for that uh  order just go to the order just tick  this option right along multiple orders  this needs to be ticked okay if you  wanted to have a multiple order to be  generated from a same code otherwise you  won't be able to do so okay so just have  a look at this option and if it's untick  just take it right  okay so what I'll do I'll go to the  counts and I'll go to the school account  because this particular opportunity was  derived from the specific account  because we are trying to sell uh  equipments to school account uh and  based on an opportunity a code is  created and now I split the code into  two parts one I will be shipping  um two parts in the sense of creating  two orders so one order contains the the  smart watch and the rest of the order  contains the rest of the Samsung stuff  right excuse me and I go to the related  options here and  obviously I'll go to the orders and I'll  see all orders  and  excuse me  um let's say recently activated orders  and  foreign  we got the the two orders  uh that being created okay so let's look  at this order  um well in a second  let's go back to this again  um  okay  um so let's look at this one option okay  and looks uh look at the the order  product the Samsung watch right that's a  separate order we've created and let's  look at this one  okay uh this one contains all the other  Samsung phone information right  so let's look at this  so that's pretty much how you do a  multiple order generation from a single  code right so that's all I wanted to  demonstrate in this episode and I hope  you guys enjoyed it and I hope you guys  have an amazing uh Monday adios
+
+00:00:02,810 --> 00:00:04,789
+good everyone I hope you guys have an  amazing day so in the last episode I  talked about how to create an order  right so what I'm going to do today in  this episode I will show you  how to split a code into multiple orders  right obviously you know you might have  a scenario where you might want to uh  split according to multiple orders  rather than just converting an entire uh  code to a single order right so I got  this code right so if I go to the code  lines  um  so  um what I'll do I wanted to split uh  Samsung watch in a separate order and I  want to keep rest of them in a single  order so basically I'm trying to to  split this code into two orders okay  that makes sense all right so let's go  back  um  so I'm in a code right and this code is  derived from this opportunity that's  selling Electronics right uh based on  this opportunity of created code so I'll  go to the code here which is a primary  code right if you remember in the  previous episode I did mention that the  code has to be primary code before  excuse me before you can even use this  ordered uh the tick box but in saying so  I'm not going to make use of the order  to box yet so before that what I'll do  I'll do something called create order  yeah  um and  um in the create order  I will choose the account of the school  account  uh order start date I just put you know  maybe 19 doesn't matter  um and then what I'll do I will link the  code to this specific code which is this  one  and then I'll save okay  so now that's done now I'll do to go to  this edit order product okay and what  I'll do I will say hey I want to choose  include only Samsung watch uh as a part  of this order okay and then I'll just  say  yeah  all right so that's done  and and I'll say Mark the status as  completed  okay so that's done and now I'll go to  the code  um and I'll go to this code again  and I will say edit  and I will say ordered  and I'll save it okay  now for whatever reason right uh let if  uh you for whatever reason if you're not  able to do create a multiple uh  order right from a code then there is a  setting which you might have to look for  it so what I'll do I'll go to the  scarecrow.com and I go to setup  um and under setup uh just look for  install packages  yeah and I'll go to the install packages  um so I'll go to configure  right under configure it's taking a  while it's my apologies for that uh  order just go to the order just tick  this option right along multiple orders  this needs to be ticked okay if you  wanted to have a multiple order to be  generated from a same code otherwise you  won't be able to do so okay so just have  a look at this option and if it's untick  just take it right  okay so what I'll do I'll go to the  counts and I'll go to the school account  because this particular opportunity was  derived from the specific account  because we are trying to sell uh  equipments to school account uh and  based on an opportunity a code is  created and now I split the code into  two parts one I will be shipping  um two parts in the sense of creating  two orders so one order contains the the  smart watch and the rest of the order  contains the rest of the Samsung stuff  right excuse me and I go to the related  options here and  obviously I'll go to the orders and I'll  see all orders  and  excuse me  um let's say recently activated orders  and  foreign  we got the the two orders  uh that being created okay so let's look  at this order  um well in a second  let's go back to this again  um  okay  um so let's look at this one option okay  and looks uh look at the the order  product the Samsung watch right that's a  separate order we've created and let's  look at this one  okay uh this one contains all the other  Samsung phone information right  so let's look at this  so that's pretty much how you do a  multiple order generation from a single  code right so that's all I wanted to  demonstrate in this episode and I hope  you guys enjoyed it and I hope you guys  have an amazing uh Monday adios
+ 
+
+00:00:04,789 --> 00:00:06,349
+ 
+ 
+
+00:00:06,349 --> 00:00:09,110
+ 
+ 
+
+00:00:09,110 --> 00:00:11,509
+ 
+ 
+
+00:00:11,509 --> 00:00:15,650
+ 
+ 
+
+00:00:15,650 --> 00:00:18,410
+ 
+ 
+
+00:00:18,410 --> 00:00:21,769
+ 
+ 
+
+00:00:21,769 --> 00:00:23,210
+ 
+ 
+
+00:00:23,210 --> 00:00:26,509
+ 
+ 
+
+00:00:26,509 --> 00:00:30,410
+ 
+ 
+
+00:00:30,410 --> 00:00:33,590
+ 
+ 
+
+00:00:33,590 --> 00:00:33,600
+ 
+ 
+
+00:00:33,600 --> 00:00:36,229
+ 
+
+
+00:00:36,229 --> 00:00:36,239
+ 
+ 
+
+00:00:36,239 --> 00:00:40,250
+ 
+
+
+00:00:40,250 --> 00:00:42,709
+ 
+ 
+
+00:00:42,709 --> 00:00:44,810
+ 
+ 
+
+00:00:44,810 --> 00:00:46,190
+ 
+ 
+
+00:00:46,190 --> 00:00:49,970
+ 
+ 
+
+00:00:49,970 --> 00:00:52,549
+ 
+ 
+
+00:00:52,549 --> 00:00:55,369
+ 
+ 
+
+00:00:55,369 --> 00:00:55,379
+ 
+ 
+
+00:00:55,379 --> 00:00:58,069
+ 
+
+
+00:00:58,069 --> 00:00:58,079
+ 
+ 
+
+00:00:58,079 --> 00:00:59,270
+ 
+
+
+00:00:59,270 --> 00:01:02,389
+ 
+ 
+
+00:01:02,389 --> 00:01:05,090
+ 
+ 
+
+00:01:05,090 --> 00:01:08,149
+ 
+ 
+
+00:01:08,149 --> 00:01:10,370
+ 
+ 
+
+00:01:10,370 --> 00:01:12,410
+ 
+ 
+
+00:01:12,410 --> 00:01:13,910
+ 
+ 
+
+00:01:13,910 --> 00:01:16,850
+ 
+ 
+
+00:01:16,850 --> 00:01:18,890
+ 
+ 
+
+00:01:18,890 --> 00:01:21,890
+ 
+ 
+
+00:01:21,890 --> 00:01:25,429
+ 
+ 
+
+00:01:25,429 --> 00:01:26,929
+ 
+ 
+
+00:01:26,929 --> 00:01:29,390
+ 
+ 
+
+00:01:29,390 --> 00:01:30,770
+ 
+ 
+
+00:01:30,770 --> 00:01:30,780
+ 
+ 
+
+00:01:30,780 --> 00:01:32,929
+ 
+
+
+00:01:32,929 --> 00:01:34,490
+ 
+ 
+
+00:01:34,490 --> 00:01:36,830
+ 
+ 
+
+00:01:36,830 --> 00:01:38,690
+ 
+ 
+
+00:01:38,690 --> 00:01:38,700
+ 
+ 
+
+00:01:38,700 --> 00:01:39,530
+ 
+
+
+00:01:39,530 --> 00:01:42,950
+ 
+ 
+
+00:01:42,950 --> 00:01:46,069
+ 
+ 
+
+00:01:46,069 --> 00:01:49,190
+ 
+ 
+
+00:01:49,190 --> 00:01:51,590
+ 
+ 
+
+00:01:51,590 --> 00:01:51,600
+ 
+ 
+
+00:01:51,600 --> 00:01:52,310
+ 
+
+
+00:01:52,310 --> 00:01:55,249
+ 
+ 
+
+00:01:55,249 --> 00:01:59,389
+ 
+ 
+
+00:01:59,389 --> 00:02:02,569
+ 
+ 
+
+00:02:02,569 --> 00:02:05,630
+ 
+ 
+
+00:02:05,630 --> 00:02:09,290
+ 
+ 
+
+00:02:09,290 --> 00:02:12,350
+ 
+ 
+
+00:02:12,350 --> 00:02:12,360
+ 
+ 
+
+00:02:12,360 --> 00:02:13,490
+ 
+
+
+00:02:13,490 --> 00:02:13,500
+ 
+ 
+
+00:02:13,500 --> 00:02:15,350
+ 
+
+
+00:02:15,350 --> 00:02:18,050
+ 
+ 
+
+00:02:18,050 --> 00:02:21,710
+ 
+ 
+
+00:02:21,710 --> 00:02:21,720
+ 
+ 
+
+00:02:21,720 --> 00:02:23,690
+ 
+
+
+00:02:23,690 --> 00:02:26,690
+ 
+ 
+
+00:02:26,690 --> 00:02:29,510
+ 
+ 
+
+00:02:29,510 --> 00:02:32,150
+ 
+ 
+
+00:02:32,150 --> 00:02:37,670
+ 
+ 
+
+00:02:37,670 --> 00:02:40,970
+ 
+ 
+
+00:02:40,970 --> 00:02:43,550
+ 
+ 
+
+00:02:43,550 --> 00:02:48,350
+ 
+ 
+
+00:02:48,350 --> 00:02:50,809
+ 
+ 
+
+00:02:50,809 --> 00:02:54,890
+ 
+ 
+
+00:02:54,890 --> 00:02:58,130
+ 
+ 
+
+00:02:58,130 --> 00:03:01,190
+ 
+ 
+
+00:03:01,190 --> 00:03:03,290
+ 
+ 
+
+00:03:03,290 --> 00:03:07,130
+ 
+ 
+
+00:03:07,130 --> 00:03:10,670
+ 
+ 
+
+00:03:10,670 --> 00:03:13,130
+ 
+ 
+
+00:03:13,130 --> 00:03:17,210
+ 
+ 
+
+00:03:17,210 --> 00:03:19,490
+ 
+ 
+
+00:03:19,490 --> 00:03:23,990
+ 
+ 
+
+00:03:23,990 --> 00:03:26,390
+ 
+ 
+
+00:03:26,390 --> 00:03:28,490
+ 
+ 
+
+00:03:28,490 --> 00:03:30,350
+ 
+ 
+
+00:03:30,350 --> 00:03:33,830
+ 
+ 
+
+00:03:33,830 --> 00:03:35,750
+ 
+ 
+
+00:03:35,750 --> 00:03:37,610
+ 
+ 
+
+00:03:37,610 --> 00:03:40,190
+ 
+ 
+
+00:03:40,190 --> 00:03:42,589
+ 
+ 
+
+00:03:42,589 --> 00:03:44,570
+ 
+ 
+
+00:03:44,570 --> 00:03:46,430
+ 
+ 
+
+00:03:46,430 --> 00:03:49,130
+ 
+ 
+
+00:03:49,130 --> 00:03:51,830
+ 
+ 
+
+00:03:51,830 --> 00:03:53,149
+ 
+ 
+
+00:03:53,149 --> 00:03:55,610
+ 
+ 
+
+00:03:55,610 --> 00:03:58,610
+ 
+ 
+
+00:03:58,610 --> 00:04:00,530
+ 
+ 
+
+00:04:00,530 --> 00:04:02,809
+ 
+ 
+
+00:04:02,809 --> 00:04:06,589
+ 
+ 
+
+00:04:06,589 --> 00:04:09,649
+ 
+ 
+
+00:04:09,649 --> 00:04:12,649
+ 
+ 
+
+00:04:12,649 --> 00:04:14,750
+ 
+ 
+
+00:04:14,750 --> 00:04:16,969
+ 
+ 
+
+00:04:16,969 --> 00:04:19,670
+ 
+ 
+
+00:04:19,670 --> 00:04:22,310
+ 
+ 
+
+00:04:22,310 --> 00:04:25,310
+ 
+ 
+
+00:04:25,310 --> 00:04:28,310
+ 
+ 
+
+00:04:28,310 --> 00:04:28,320
+ 
+ 
+
+00:04:28,320 --> 00:04:33,950
+ 
+
+
+00:04:33,950 --> 00:04:42,050
+ 
+ 
+
+00:04:42,050 --> 00:04:50,990
+ 
+ 
+
+00:04:50,990 --> 00:04:51,000
+ 
+ 
+
+00:04:51,000 --> 00:04:53,570
+ 
+
+
+00:04:53,570 --> 00:04:53,580
+ 
+ 
+
+00:04:53,580 --> 00:04:57,370
+ 
+
+
+00:04:57,370 --> 00:05:01,129
+ 
+ 
+
+00:05:01,129 --> 00:05:03,770
+ 
+ 
+
+00:05:03,770 --> 00:05:07,610
+ 
+ 
+
+00:05:07,610 --> 00:05:10,850
+ 
+ 
+
+00:05:10,850 --> 00:05:16,550
+ 
+ 
+
+00:05:16,550 --> 00:05:16,560
+ 
+ 
+
+00:05:16,560 --> 00:05:24,230
+ 
+
+
+00:05:24,230 --> 00:05:24,240
+ 
+ 
+
+00:05:24,240 --> 00:05:26,930
+ 
+
+
+00:05:26,930 --> 00:05:29,510
+ 
+ 
+
+00:05:29,510 --> 00:05:32,270
+ 
+ 
+
+00:05:32,270 --> 00:05:33,950
+ 
+ 
+
+00:05:33,950 --> 00:05:36,770
+ 
+ 
+
+00:05:36,770 --> 00:05:38,330
+ 
+ 
+
+00:05:38,330 --> 00:05:41,450
+ 
+ 
+
+00:05:41,450 --> 00:05:44,090
+ 
+ 
+
+00:05:44,090 --> 00:05:46,610
+ 
+ 
+
+00:05:46,610 --> 00:05:50,090
+ 
+ 
+
+00:05:50,090 --> 00:05:52,969
+ 
+ 
+
+00:05:52,969 --> 00:05:55,490
+ 
+ 
+
+00:05:55,490 --> 00:05:57,770
+ 
+ 
+
+00:05:57,770 --> 00:05:59,689
+ 
+ 
+
+00:05:59,689 --> 00:06:03,740
+ 
+ 
+

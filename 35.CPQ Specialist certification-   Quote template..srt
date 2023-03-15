@@ -1,0 +1,829 @@
+
+00:00:00,480 --> 00:00:02,629
+ 
+good everyone I hope you guys have an  amazing day so today what I'm going to  do I'm going to discuss briefly about  the codes template  um because uh if you remember uh  initially when I started the cpq series  right I explained you how to generate a  code so that's pretty much on what I'm  going to do today and on top of it I'll  show you how to generate a new code  template and you can make use of that  right it's pretty simple nothing fancy  there so I'll go to code first right  um so as usual I I hope you guys would  have registered for an org now which  contains the cpq package if not it's the  right time to do so  so I'll go to this code right  and you have an option to preview  document or generate document okay so  let me click on generate documents  and you will have uh you'll get option  here right paper size default you can  change it to whatever you want because  usually what happens you can uh  uh print this stuff or you can save an  email right uh to your customer so which  are a way that works for you so usually  uh  uh the some sometimes the company  selects the A4 size or most of them they  say okay we don't care we can choose it  to default or legal whatever right so  for now for the demo purpose I'm gonna  stick to the default right and as you  can see that I have a default existing  template so it's going to make use of it  so I will say preview  um  and it will give you something like this  right AWS Consulting and whatever  whatnot okay uh so what I'll do I will  change I don't I let's say I don't want  this code right I just don't want this  template I wanted to have my own  template I mean a little bit slightly  different and have some color to it as  well right I want some different shades  so  the the easy way to do uh that option is  to go to the code template and create  your own template it's pretty simple a  few clicks nothing fancy there so what  I'll do I'll go to the code template if  first whatever reason if you can't find  it just go to this uh Tic Tac Toe icon  and look for  code templates right when you do that  you will get this option pretty simple  okay so I'll go here  um and I'll do new  and I would say I would say training  okay new template right  uh if you have an ID for the watermark  and the logo you can put it so usually  you can find this uh if you go to your  document and you will have some uh maybe  you will have the file there so pick the  Salesforce ID and put it there so yeah  that's pretty simple  um so  um I'll keep most of the options similar  I'm not except that I will say uh this  is like a  [Music]  uh ale  limited right  um so I would say company country I  would say New Zealand  yeah I just wanted to fill some  copyright information  um and I say the font family say I don't  want the phone this I won't say let's  see what fought we got  uh I remember to let you know about you  right  let's see what we got with the winter  okay shading color I would say CC uh e e  f f right it just had some  uh border color just give it that font  size I would say 12 right  uh text color  uh default color applied so I I just  don't care you just can put whatever  color you want if you want right so you  just have to be the hex code remember  that right  um and  the  the group shading color I don't care so  I will keep all the other options as  such uh another thing you have to see if  you wanted to group you can group Fields  by it's a product family I wanted to do  that for a change right uh and the  roller field you can do that I can see a  product right customer discount total  discount yeah  and so you can pretty much pick and  choose this option uh it's like I mean  I'm not sure if you guys have worked  with the conga right so it's something  similar kind of tiny aspects of Conga  you can see here if you you know you can  choose different things but the only  thing is you have to do that option on  that on a word template or an Excel  template here you are just doing the  Salesforce form uh you know the the  screen  Okay Turtle field  uh I honestly don't care so you can if  you wanted to use the show customer  discount you can do that uh show partner  discount you can do that show package  product ah let's say I click all of it  right let's let's see what happens  okay  and line numbering so start at the code  that's fine short discount schedule for  code line if you want so you can choose  the orientation portrait or landscape I  just stick to the portrait mode right  okay so I've done that pretty simple  right I mean if you wanted to make it as  a default you can tick it so it will by  default this will be your template that  just depends upon your requirement right  but in saying so most companies will not  use that because they might want to use  custom pick and choose right they might  right but yeah it just depends upon your  business requirement right if you want  to use this template as you default go  for it  okay I'll go to the codes and I'll pick  up the the same code here  or different color whatever oh yeah I'll  pick up the same one right the 30 bucks  one  uh and I was a general document  and I will say  uh I think it's the new template  and outside preview  there you go  you see now we have you know shading is  there in place uh the logo got changed  right and the phones got changed as well  right so you know the template look a  bit different right because if you don't  see the difference let me show you  I'll close this one  yeah go back and I will say generate  document  and let me show you how it looks like  when I use the initial one right  so I'll do preview  and you can see that shading gone and it  just looks different right so and you  have split uh you know based on the  products but in our case we just Group  by product right so that's how it is  done it's pretty simple right so that's  all I wanted to cover in today's episode  in the next episode we'll look at more  options around the code template it's  not over yet we still have a few more  stuff to cover around the core template  and after that we'll we'll move into  Contracting and other stuff right so we  are nearly getting to the end of the cpq  certification I mean I guess 30 of the  content is still left right we covered  pretty much 70 70 65 to 70 which is  pretty cool uh given the fact right uh  we've been I mean I've been bit slow  that my apologies for that  um I'm also building uh sharing  visibility course as well at the same  time  um so just taking a lot of my time and  then plus you know full-time work and  and then you know a couple of other  businesses I look after so yeah just  right that being said I hope you guys  have an amazing uh Wednesday adios
+
+00:00:02,629 --> 00:00:04,130
+good everyone I hope you guys have an  amazing day so today what I'm going to  do I'm going to discuss briefly about  the codes template  um because uh if you remember uh  initially when I started the cpq series  right I explained you how to generate a  code so that's pretty much on what I'm  going to do today and on top of it I'll  show you how to generate a new code  template and you can make use of that  right it's pretty simple nothing fancy  there so I'll go to code first right  um so as usual I I hope you guys would  have registered for an org now which  contains the cpq package if not it's the  right time to do so  so I'll go to this code right  and you have an option to preview  document or generate document okay so  let me click on generate documents  and you will have uh you'll get option  here right paper size default you can  change it to whatever you want because  usually what happens you can uh  uh print this stuff or you can save an  email right uh to your customer so which  are a way that works for you so usually  uh  uh the some sometimes the company  selects the A4 size or most of them they  say okay we don't care we can choose it  to default or legal whatever right so  for now for the demo purpose I'm gonna  stick to the default right and as you  can see that I have a default existing  template so it's going to make use of it  so I will say preview  um  and it will give you something like this  right AWS Consulting and whatever  whatnot okay uh so what I'll do I will  change I don't I let's say I don't want  this code right I just don't want this  template I wanted to have my own  template I mean a little bit slightly  different and have some color to it as  well right I want some different shades  so  the the easy way to do uh that option is  to go to the code template and create  your own template it's pretty simple a  few clicks nothing fancy there so what  I'll do I'll go to the code template if  first whatever reason if you can't find  it just go to this uh Tic Tac Toe icon  and look for  code templates right when you do that  you will get this option pretty simple  okay so I'll go here  um and I'll do new  and I would say I would say training  okay new template right  uh if you have an ID for the watermark  and the logo you can put it so usually  you can find this uh if you go to your  document and you will have some uh maybe  you will have the file there so pick the  Salesforce ID and put it there so yeah  that's pretty simple  um so  um I'll keep most of the options similar  I'm not except that I will say uh this  is like a  [Music]  uh ale  limited right  um so I would say company country I  would say New Zealand  yeah I just wanted to fill some  copyright information  um and I say the font family say I don't  want the phone this I won't say let's  see what fought we got  uh I remember to let you know about you  right  let's see what we got with the winter  okay shading color I would say CC uh e e  f f right it just had some  uh border color just give it that font  size I would say 12 right  uh text color  uh default color applied so I I just  don't care you just can put whatever  color you want if you want right so you  just have to be the hex code remember  that right  um and  the  the group shading color I don't care so  I will keep all the other options as  such uh another thing you have to see if  you wanted to group you can group Fields  by it's a product family I wanted to do  that for a change right uh and the  roller field you can do that I can see a  product right customer discount total  discount yeah  and so you can pretty much pick and  choose this option uh it's like I mean  I'm not sure if you guys have worked  with the conga right so it's something  similar kind of tiny aspects of Conga  you can see here if you you know you can  choose different things but the only  thing is you have to do that option on  that on a word template or an Excel  template here you are just doing the  Salesforce form uh you know the the  screen  Okay Turtle field  uh I honestly don't care so you can if  you wanted to use the show customer  discount you can do that uh show partner  discount you can do that show package  product ah let's say I click all of it  right let's let's see what happens  okay  and line numbering so start at the code  that's fine short discount schedule for  code line if you want so you can choose  the orientation portrait or landscape I  just stick to the portrait mode right  okay so I've done that pretty simple  right I mean if you wanted to make it as  a default you can tick it so it will by  default this will be your template that  just depends upon your requirement right  but in saying so most companies will not  use that because they might want to use  custom pick and choose right they might  right but yeah it just depends upon your  business requirement right if you want  to use this template as you default go  for it  okay I'll go to the codes and I'll pick  up the the same code here  or different color whatever oh yeah I'll  pick up the same one right the 30 bucks  one  uh and I was a general document  and I will say  uh I think it's the new template  and outside preview  there you go  you see now we have you know shading is  there in place uh the logo got changed  right and the phones got changed as well  right so you know the template look a  bit different right because if you don't  see the difference let me show you  I'll close this one  yeah go back and I will say generate  document  and let me show you how it looks like  when I use the initial one right  so I'll do preview  and you can see that shading gone and it  just looks different right so and you  have split uh you know based on the  products but in our case we just Group  by product right so that's how it is  done it's pretty simple right so that's  all I wanted to cover in today's episode  in the next episode we'll look at more  options around the code template it's  not over yet we still have a few more  stuff to cover around the core template  and after that we'll we'll move into  Contracting and other stuff right so we  are nearly getting to the end of the cpq  certification I mean I guess 30 of the  content is still left right we covered  pretty much 70 70 65 to 70 which is  pretty cool uh given the fact right uh  we've been I mean I've been bit slow  that my apologies for that  um I'm also building uh sharing  visibility course as well at the same  time  um so just taking a lot of my time and  then plus you know full-time work and  and then you know a couple of other  businesses I look after so yeah just  right that being said I hope you guys  have an amazing uh Wednesday adios
+ 
+
+00:00:04,130 --> 00:00:05,990
+ 
+ 
+
+00:00:05,990 --> 00:00:07,909
+ 
+ 
+
+00:00:07,909 --> 00:00:10,250
+ 
+ 
+
+00:00:10,250 --> 00:00:12,049
+ 
+ 
+
+00:00:12,049 --> 00:00:14,089
+ 
+ 
+
+00:00:14,089 --> 00:00:16,730
+ 
+ 
+
+00:00:16,730 --> 00:00:19,010
+ 
+ 
+
+00:00:19,010 --> 00:00:21,830
+ 
+ 
+
+00:00:21,830 --> 00:00:24,290
+ 
+ 
+
+00:00:24,290 --> 00:00:26,450
+ 
+ 
+
+00:00:26,450 --> 00:00:29,570
+ 
+ 
+
+00:00:29,570 --> 00:00:32,150
+ 
+ 
+
+00:00:32,150 --> 00:00:33,830
+ 
+ 
+
+00:00:33,830 --> 00:00:36,590
+ 
+ 
+
+00:00:36,590 --> 00:00:38,030
+ 
+ 
+
+00:00:38,030 --> 00:00:40,569
+ 
+ 
+
+00:00:40,569 --> 00:00:42,590
+ 
+ 
+
+00:00:42,590 --> 00:00:44,630
+ 
+ 
+
+00:00:44,630 --> 00:00:47,389
+ 
+ 
+
+00:00:47,389 --> 00:00:51,229
+ 
+ 
+
+00:00:51,229 --> 00:00:53,389
+ 
+ 
+
+00:00:53,389 --> 00:00:55,010
+ 
+ 
+
+00:00:55,010 --> 00:00:59,090
+ 
+ 
+
+00:00:59,090 --> 00:01:02,330
+ 
+ 
+
+00:01:02,330 --> 00:01:06,890
+ 
+ 
+
+00:01:06,890 --> 00:01:08,870
+ 
+ 
+
+00:01:08,870 --> 00:01:08,880
+ 
+ 
+
+00:01:08,880 --> 00:01:10,609
+ 
+
+
+00:01:10,609 --> 00:01:12,649
+ 
+ 
+
+00:01:12,649 --> 00:01:15,830
+ 
+ 
+
+00:01:15,830 --> 00:01:17,929
+ 
+ 
+
+00:01:17,929 --> 00:01:19,850
+ 
+ 
+
+00:01:19,850 --> 00:01:21,590
+ 
+ 
+
+00:01:21,590 --> 00:01:24,170
+ 
+ 
+
+00:01:24,170 --> 00:01:26,330
+ 
+ 
+
+00:01:26,330 --> 00:01:28,730
+ 
+ 
+
+00:01:28,730 --> 00:01:32,390
+ 
+ 
+
+00:01:32,390 --> 00:01:32,400
+ 
+ 
+
+00:01:32,400 --> 00:01:34,310
+ 
+
+
+00:01:34,310 --> 00:01:36,289
+ 
+ 
+
+00:01:36,289 --> 00:01:38,030
+ 
+ 
+
+00:01:38,030 --> 00:01:42,890
+ 
+ 
+
+00:01:42,890 --> 00:01:45,109
+ 
+ 
+
+00:01:45,109 --> 00:01:47,210
+ 
+ 
+
+00:01:47,210 --> 00:01:49,010
+ 
+ 
+
+00:01:49,010 --> 00:01:51,289
+ 
+ 
+
+00:01:51,289 --> 00:01:53,270
+ 
+ 
+
+00:01:53,270 --> 00:01:55,670
+ 
+ 
+
+00:01:55,670 --> 00:01:55,680
+ 
+ 
+
+00:01:55,680 --> 00:01:57,410
+ 
+
+
+00:01:57,410 --> 00:02:00,410
+ 
+ 
+
+00:02:00,410 --> 00:02:01,789
+ 
+ 
+
+00:02:01,789 --> 00:02:03,410
+ 
+ 
+
+00:02:03,410 --> 00:02:05,510
+ 
+ 
+
+00:02:05,510 --> 00:02:07,069
+ 
+ 
+
+00:02:07,069 --> 00:02:08,749
+ 
+ 
+
+00:02:08,749 --> 00:02:11,449
+ 
+ 
+
+00:02:11,449 --> 00:02:13,430
+ 
+ 
+
+00:02:13,430 --> 00:02:15,290
+ 
+ 
+
+00:02:15,290 --> 00:02:16,970
+ 
+ 
+
+00:02:16,970 --> 00:02:19,970
+ 
+ 
+
+00:02:19,970 --> 00:02:21,910
+ 
+ 
+
+00:02:21,910 --> 00:02:26,390
+ 
+ 
+
+00:02:26,390 --> 00:02:29,650
+ 
+ 
+
+00:02:29,650 --> 00:02:32,990
+ 
+ 
+
+00:02:32,990 --> 00:02:36,050
+ 
+ 
+
+00:02:36,050 --> 00:02:39,650
+ 
+ 
+
+00:02:39,650 --> 00:02:43,490
+ 
+ 
+
+00:02:43,490 --> 00:02:46,130
+ 
+ 
+
+00:02:46,130 --> 00:02:48,229
+ 
+ 
+
+00:02:48,229 --> 00:02:50,089
+ 
+ 
+
+00:02:50,089 --> 00:02:51,710
+ 
+ 
+
+00:02:51,710 --> 00:02:53,770
+ 
+ 
+
+00:02:53,770 --> 00:02:57,350
+ 
+ 
+
+00:02:57,350 --> 00:03:02,550
+ 
+ 
+
+00:03:02,550 --> 00:03:02,560
+ 
+ 
+
+00:03:02,560 --> 00:03:04,630
+ 
+
+
+00:03:04,630 --> 00:03:07,190
+ 
+ 
+
+00:03:07,190 --> 00:03:10,309
+ 
+ 
+
+00:03:10,309 --> 00:03:12,410
+ 
+ 
+
+00:03:12,410 --> 00:03:14,449
+ 
+ 
+
+00:03:14,449 --> 00:03:16,850
+ 
+ 
+
+00:03:16,850 --> 00:03:18,949
+ 
+ 
+
+00:03:18,949 --> 00:03:21,170
+ 
+ 
+
+00:03:21,170 --> 00:03:23,690
+ 
+ 
+
+00:03:23,690 --> 00:03:25,850
+ 
+ 
+
+00:03:25,850 --> 00:03:29,089
+ 
+ 
+
+00:03:29,089 --> 00:03:29,099
+ 
+ 
+
+00:03:29,099 --> 00:03:30,190
+ 
+
+
+00:03:30,190 --> 00:03:32,809
+ 
+ 
+
+00:03:32,809 --> 00:03:37,070
+ 
+ 
+
+00:03:37,070 --> 00:03:39,589
+ 
+ 
+
+00:03:39,589 --> 00:03:42,410
+ 
+ 
+
+00:03:42,410 --> 00:03:45,610
+ 
+ 
+
+00:03:45,610 --> 00:03:49,130
+ 
+ 
+
+00:03:49,130 --> 00:03:53,270
+ 
+ 
+
+00:03:53,270 --> 00:03:54,710
+ 
+ 
+
+00:03:54,710 --> 00:03:56,809
+ 
+ 
+
+00:03:56,809 --> 00:03:58,610
+ 
+ 
+
+00:03:58,610 --> 00:04:00,649
+ 
+ 
+
+00:04:00,649 --> 00:04:02,149
+ 
+ 
+
+00:04:02,149 --> 00:04:02,159
+ 
+ 
+
+00:04:02,159 --> 00:04:03,530
+ 
+
+
+00:04:03,530 --> 00:04:07,070
+ 
+ 
+
+00:04:07,070 --> 00:04:08,930
+ 
+ 
+
+00:04:08,930 --> 00:04:11,869
+ 
+ 
+
+00:04:11,869 --> 00:04:15,170
+ 
+ 
+
+00:04:15,170 --> 00:04:16,909
+ 
+ 
+
+00:04:16,909 --> 00:04:19,550
+ 
+ 
+
+00:04:19,550 --> 00:04:21,590
+ 
+ 
+
+00:04:21,590 --> 00:04:25,129
+ 
+ 
+
+00:04:25,129 --> 00:04:27,350
+ 
+ 
+
+00:04:27,350 --> 00:04:30,230
+ 
+ 
+
+00:04:30,230 --> 00:04:32,570
+ 
+ 
+
+00:04:32,570 --> 00:04:33,770
+ 
+ 
+
+00:04:33,770 --> 00:04:35,510
+ 
+ 
+
+00:04:35,510 --> 00:04:39,290
+ 
+ 
+
+00:04:39,290 --> 00:04:40,909
+ 
+ 
+
+00:04:40,909 --> 00:04:42,350
+ 
+ 
+
+00:04:42,350 --> 00:04:44,629
+ 
+ 
+
+00:04:44,629 --> 00:04:46,310
+ 
+ 
+
+00:04:46,310 --> 00:04:48,290
+ 
+ 
+
+00:04:48,290 --> 00:04:50,510
+ 
+ 
+
+00:04:50,510 --> 00:04:50,520
+ 
+ 
+
+00:04:50,520 --> 00:04:51,350
+ 
+
+
+00:04:51,350 --> 00:04:53,810
+ 
+ 
+
+00:04:53,810 --> 00:04:57,409
+ 
+ 
+
+00:04:57,409 --> 00:04:58,610
+ 
+ 
+
+00:04:58,610 --> 00:05:01,129
+ 
+ 
+
+00:05:01,129 --> 00:05:03,170
+ 
+ 
+
+00:05:03,170 --> 00:05:05,090
+ 
+ 
+
+00:05:05,090 --> 00:05:07,490
+ 
+ 
+
+00:05:07,490 --> 00:05:07,500
+ 
+ 
+
+00:05:07,500 --> 00:05:08,770
+ 
+
+
+00:05:08,770 --> 00:05:12,290
+ 
+ 
+
+00:05:12,290 --> 00:05:15,590
+ 
+ 
+
+00:05:15,590 --> 00:05:18,469
+ 
+ 
+
+00:05:18,469 --> 00:05:21,170
+ 
+ 
+
+00:05:21,170 --> 00:05:24,050
+ 
+ 
+
+00:05:24,050 --> 00:05:25,969
+ 
+ 
+
+00:05:25,969 --> 00:05:27,830
+ 
+ 
+
+00:05:27,830 --> 00:05:30,170
+ 
+ 
+
+00:05:30,170 --> 00:05:32,270
+ 
+ 
+
+00:05:32,270 --> 00:05:34,430
+ 
+ 
+
+00:05:34,430 --> 00:05:37,790
+ 
+ 
+
+00:05:37,790 --> 00:05:40,790
+ 
+ 
+
+00:05:40,790 --> 00:05:42,950
+ 
+ 
+
+00:05:42,950 --> 00:05:45,350
+ 
+ 
+
+00:05:45,350 --> 00:05:47,150
+ 
+ 
+
+00:05:47,150 --> 00:05:48,950
+ 
+ 
+
+00:05:48,950 --> 00:05:49,969
+ 
+ 
+
+00:05:49,969 --> 00:05:53,629
+ 
+ 
+
+00:05:53,629 --> 00:05:57,469
+ 
+ 
+
+00:05:57,469 --> 00:05:59,270
+ 
+ 
+
+00:05:59,270 --> 00:06:00,830
+ 
+ 
+
+00:06:00,830 --> 00:06:00,840
+ 
+ 
+
+00:06:00,840 --> 00:06:03,230
+ 
+
+
+00:06:03,230 --> 00:06:06,950
+ 
+ 
+
+00:06:06,950 --> 00:06:08,689
+ 
+ 
+
+00:06:08,689 --> 00:06:11,749
+ 
+ 
+
+00:06:11,749 --> 00:06:16,129
+ 
+ 
+
+00:06:16,129 --> 00:06:17,689
+ 
+ 
+
+00:06:17,689 --> 00:06:21,110
+ 
+ 
+
+00:06:21,110 --> 00:06:24,170
+ 
+ 
+
+00:06:24,170 --> 00:06:27,710
+ 
+ 
+
+00:06:27,710 --> 00:06:30,170
+ 
+ 
+
+00:06:30,170 --> 00:06:32,270
+ 
+ 
+
+00:06:32,270 --> 00:06:34,730
+ 
+ 
+
+00:06:34,730 --> 00:06:36,770
+ 
+ 
+
+00:06:36,770 --> 00:06:40,309
+ 
+ 
+
+00:06:40,309 --> 00:06:40,319
+ 
+ 
+
+00:06:40,319 --> 00:06:41,150
+ 
+
+
+00:06:41,150 --> 00:06:44,210
+ 
+ 
+
+00:06:44,210 --> 00:06:47,990
+ 
+ 
+
+00:06:47,990 --> 00:06:51,710
+ 
+ 
+
+00:06:51,710 --> 00:06:54,590
+ 
+ 
+
+00:06:54,590 --> 00:06:58,730
+ 
+ 
+
+00:06:58,730 --> 00:07:03,110
+ 
+ 
+
+00:07:03,110 --> 00:07:05,270
+ 
+ 
+
+00:07:05,270 --> 00:07:08,809
+ 
+ 
+
+00:07:08,809 --> 00:07:11,809
+ 
+ 
+
+00:07:11,809 --> 00:07:13,790
+ 
+ 
+
+00:07:13,790 --> 00:07:16,189
+ 
+ 
+
+00:07:16,189 --> 00:07:18,770
+ 
+ 
+
+00:07:18,770 --> 00:07:20,930
+ 
+ 
+
+00:07:20,930 --> 00:07:22,610
+ 
+ 
+
+00:07:22,610 --> 00:07:25,249
+ 
+ 
+
+00:07:25,249 --> 00:07:28,129
+ 
+ 
+
+00:07:28,129 --> 00:07:30,890
+ 
+ 
+
+00:07:30,890 --> 00:07:33,050
+ 
+ 
+
+00:07:33,050 --> 00:07:35,330
+ 
+ 
+
+00:07:35,330 --> 00:07:39,050
+ 
+ 
+
+00:07:39,050 --> 00:07:42,110
+ 
+ 
+
+00:07:42,110 --> 00:07:43,610
+ 
+ 
+
+00:07:43,610 --> 00:07:45,589
+ 
+ 
+
+00:07:45,589 --> 00:07:48,170
+ 
+ 
+
+00:07:48,170 --> 00:07:49,969
+ 
+ 
+
+00:07:49,969 --> 00:07:49,979
+ 
+ 
+
+00:07:49,979 --> 00:07:51,110
+ 
+
+
+00:07:51,110 --> 00:07:53,330
+ 
+ 
+
+00:07:53,330 --> 00:07:56,270
+ 
+ 
+
+00:07:56,270 --> 00:07:58,430
+ 
+ 
+
+00:07:58,430 --> 00:08:01,790
+ 
+ 
+
+00:08:01,790 --> 00:08:03,650
+ 
+ 
+
+00:08:03,650 --> 00:08:07,880
+ 
+ 
+

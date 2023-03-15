@@ -1,0 +1,1621 @@
+
+00:00:00,560 --> 00:00:02,310
+ 
+good everyone i hope you guys have an  amazing day so in the last episode i  talked about the pricing methods and  explain what each one means right so  today it's a hands-on day which is  pretty cool so today  what i'm going to do i'll show case how  to do a blog price how to configure that  right so that i can show you uh how to  do that so uh let's build a scenario  right so that you know it becomes clear  for you so let's say i wanted to ship a  beer okay  now usually uh the beer  can so let's assume that we are shipping  a uh the can right so usually uh  you know beer cans you can buy  individual right or it comes in a pack  of six or comes in a pack of 12  or sometimes it comes in a pack of 20 or  sometimes it comes in a pack of 24 okay  so let's say you know if you're buying  um  say  um the beer  um  say six pack right so if someone uh  wants to buy say five beers right uh so  you will obviously ship them you know  the pack with six right i'm just giving  an example and if someone wants to buy  say eight so you'll give them a pack of  12 right so that price comes in picture  so  but if someone decides to  say buy you know pack of beer say 24  uh again then you give a pack of the 24  one but say someone wants to buy you  know 25 so then  uh you bring up a concept of uh  something called all  uh average rate  um so  i'll show you i've created a um  the field uh in a block price so before  i jump into that  um what i'm gonna do i will create a  product right so to explain everything  from the start  so  i logged into my work just pretty simple  right so you create a product  and let's say  let's create a product  called stout beer  um i'm not  putting any fancy be a name so  um so you scroll down and so this one  you know if you wanted to see  configuration i can say required right  so it doesn't matter uh option layout we  talked about that right in in the  previous episode when i was  demonstrating how to  uh create a product bundle so i'm not  going into the details today right if  you haven't watched the video uh please  check that uh tutorial first right okay  uh the pricing method right this is  where you do a  uh  modification so instead of list i'm  gonna choose block  okay now i'll do the same now if you  remember i mentioned before right if you  don't include a price book  excuse me you will not be able to find  uh  the product when you try to add to a  code okay so that's pretty basic so what  i'll do i will go to price book and i  will say  not sorry i'll just have price book  and i will say add stand price  and i will do list price again okay the  reason why i'm doing it is because so  that i can see this product  uh when i wanted to add product uh in a  code okay  otherwise you will not be able to see it  so which is not what we wanted okay  okay so i'm just gonna go back and uh  start beer and now  here where i'm gonna make a difference  that's the block price  okay so here we're gonna put the bounce  which is the range okay so i'm gonna  create one new  and i will say  one two  six  pack okay  the lower bound starts with one  upper bound is six okay and the price of  beer is say  six packs say stout  i'm not talking guinness skin is  expensive in new zealand worldwide cost  you 25 bucks for six  uh  six cans  right um i haven't seen 12 or 24 in new  zealand but just for the sake of  argument that's a boundary beer  um or  that's a lion red right  just the cheapest beer but  um let's say twelve dollars okay uh and  overage rate i'll explain to you in a  minute  so i would say six  and i will say okay and from six to  say 12  um say i will say the lower bound six  12  um  up around 12  and i will say the price of the beer as  20 22  okay  now anything about 12 right i don't want  to add an entries because otherwise you  keep on adding right  so what i'll do i will use an overage  rate which is a new  [Music]  custom field i mentioned i've created on  a blog price object so  you go to the object manager and you  look for a floor price  okay and you look for an overage rate  okay this is an average rate right so  so that means is that let's say in our  current scenario  i'll show you  uh right now i have configuration set  for one to six six to twelve what if you  want  more than 12 right  so what i'll do price  name uh say over 12.  so it's a lower bound 12  and the price let's say someone comes to  you and say hey i want 14 beers 14 can  of beers okay  so what what do you do you normally put  um  for 12 beers  22  and for from there onwards  any extra uh quantity you buy  you will use this over a trade so let's  say  if i'm gonna buy say uh say 13 beers  right 13 cans so i will be paying 26. if  i buy  an handsaw okay so i'll show you the  calculation how it works  so i've done this it's pretty sweet um  and uh so for 12  is 22 for 30 and it will keep  demonstration so go to code  um and go to this one  airlines just to make it simple what  i'll do  uh i will remove all the existing  products so that's become clear no  confusion in the calculation  i like to keep my canvas nice and tidy  so that is easy explain the the  calculation behind the scene  um okay so what i do now i will say  stout if i spell correctly  maybe i haven't spelled correctly the  product okay  um  i'm  my spelling is horrible horrendous  yeah there's something wrong why it's  not showing  okay maybe i'll just refresh it could be  that's why  obviously  uh let's look at the product to see  everything is set  correctly obviously the product list  price is zero  and you just say start beer  let's close this code um  we have price book we got zero dollars  okay um so that's cool oh yeah that's  right why the product is not visible  because it's not active my bad  okay now let me refresh it  um  it would be good right when you create a  product if it's not active just just  mark it active you can do that using  automation is pretty simple  um go to code  and go to code number  uh edit lines  like i said i like to keep my cameras  tidy  and just explain the calculations so i  will delete this ones  i'm going to add the product the stout  um  hopefully you can find it oh yeah this  boy is here  okay select  all right so now  by default um  if you select  that's gonna take some time okay  quantity one  okay so that's correct so obviously  uh anything from one to six right you  will be getting that pack  so let's say i will make it  seven so it should change the price  let's do calculate  okay become 22 okay so that's working  all right now  if i put 22  um  all right  there's something wrong okay oh sorry  my bad my bad not 22 because uh i was  wanting to show yeah that's correct  that's value's correct because now you  must be thinking  i need to calculate so uh just don't  worry about it just let's say calculate  here  okay this 22 okay  so  anything 22 and above  will get the overage rate okay so i will  do 13.  so when you do 12 right sorry anything  12 in about i don't know why i'm saying  22.  um  so  um  if you say 12 right obviously you will  get 12 packs of you know can in a pack  right  um so it could be a styling or whatever  beer right i mean it doesn't matter or  if it's if it's that mexican one uh  what's the name of it that's pretty  famous one that corona yeah excuse me um  so yeah  um you get that one as well so in a in a  pack right so it contains 12 cans or 12  bottles but  um  so if i do 13 see the difference here  okay 26 because  the reason why it's 26 anything above  13 will be using the base price which is  uh um  22 bucks and then plus that average rate  okay so it will add to that list  right so 22 plus  um  um  what's up 4 which is 26. now if i make  it 14  um it will be  30 because 22 plus  4 that's for 13 beers so  that is 26.  now you said i want extra beer that's 14  so you will add extra 4 to it because  the overage rate is getting considered  right so that's how the calculation  works it will support for any number of  beers you wanted to buy so  um this kind of pricing method is useful  when you wanted to do something like  this or if let's say you wanted to buy a  box of pencils so a box contains 10  pencils so if you wanted to buy seven uh  uh pencils so you will get that box and  if you want let's say another box  contains 20 pencils so if you wanted to  buy 15 of them so you will not be given  um you know 10 and 10 you will be given  the 21 box right so if you have such  kind of scenario this uh pricing method  works uh very efficiently uh and i also  explained like pricing book is very  handy right because you cannot  have a product  added to a code without a price book  right you need to add at least zero  dollars so as explained  so yeah this is pretty much all i wanted  to  demonstrate today i hope you enjoyed it  it's pretty simple and pretty basic  concept but if you get it right it can  do wonders for your cpq implementation  if you get it wrong  uh i'm afraid it won't be a very you  know  it won't look nice right  because your customer might ask hey do  you even know what you're doing so  that's why i often tell you guys or i  try to implement stuff right you know  just don't do certification for the sake  of it  because i would you know i just hate to  see people you know getting lots of  certification and when you ask them to  do a you know bloody basic things they  struggle right then  and i just tell them to check your  certification the bin is pointless  sometimes you know you got to be direct  with the people right because when you  run a company you're not running a  charity you even if you're running a  non-profit right you expect people to do  the job right to know this stuff  so  so that's the reason why i often say  you're preparing for certification from  a study group you know study with  someone be passionate about it because  obviously investing your time energy  right  you know might as well you know feel  proud that you're spending your time  energy you know and then you know once  you get certified you can go to your  boss and say look um i can do this stuff  right that's what really matters  okay sorry digress i know that blabber  all this time but just wanted to make it  clear right because i want you know  salesforce ecosystems to be very strong  and powerful the extremely talent people  not with the people who are just merely  certified and lack knowledge that's  something which gonna destroy our  ecosystem  that's one of the reason why i'm pretty  outspoken on that okay all right that's  being said i hope you guys have an  amazing uh monday adios
+
+00:00:02,310 --> 00:00:04,870
+good everyone i hope you guys have an  amazing day so in the last episode i  talked about the pricing methods and  explain what each one means right so  today it's a hands-on day which is  pretty cool so today  what i'm going to do i'll show case how  to do a blog price how to configure that  right so that i can show you uh how to  do that so uh let's build a scenario  right so that you know it becomes clear  for you so let's say i wanted to ship a  beer okay  now usually uh the beer  can so let's assume that we are shipping  a uh the can right so usually uh  you know beer cans you can buy  individual right or it comes in a pack  of six or comes in a pack of 12  or sometimes it comes in a pack of 20 or  sometimes it comes in a pack of 24 okay  so let's say you know if you're buying  um  say  um the beer  um  say six pack right so if someone uh  wants to buy say five beers right uh so  you will obviously ship them you know  the pack with six right i'm just giving  an example and if someone wants to buy  say eight so you'll give them a pack of  12 right so that price comes in picture  so  but if someone decides to  say buy you know pack of beer say 24  uh again then you give a pack of the 24  one but say someone wants to buy you  know 25 so then  uh you bring up a concept of uh  something called all  uh average rate  um so  i'll show you i've created a um  the field uh in a block price so before  i jump into that  um what i'm gonna do i will create a  product right so to explain everything  from the start  so  i logged into my work just pretty simple  right so you create a product  and let's say  let's create a product  called stout beer  um i'm not  putting any fancy be a name so  um so you scroll down and so this one  you know if you wanted to see  configuration i can say required right  so it doesn't matter uh option layout we  talked about that right in in the  previous episode when i was  demonstrating how to  uh create a product bundle so i'm not  going into the details today right if  you haven't watched the video uh please  check that uh tutorial first right okay  uh the pricing method right this is  where you do a  uh  modification so instead of list i'm  gonna choose block  okay now i'll do the same now if you  remember i mentioned before right if you  don't include a price book  excuse me you will not be able to find  uh  the product when you try to add to a  code okay so that's pretty basic so what  i'll do i will go to price book and i  will say  not sorry i'll just have price book  and i will say add stand price  and i will do list price again okay the  reason why i'm doing it is because so  that i can see this product  uh when i wanted to add product uh in a  code okay  otherwise you will not be able to see it  so which is not what we wanted okay  okay so i'm just gonna go back and uh  start beer and now  here where i'm gonna make a difference  that's the block price  okay so here we're gonna put the bounce  which is the range okay so i'm gonna  create one new  and i will say  one two  six  pack okay  the lower bound starts with one  upper bound is six okay and the price of  beer is say  six packs say stout  i'm not talking guinness skin is  expensive in new zealand worldwide cost  you 25 bucks for six  uh  six cans  right um i haven't seen 12 or 24 in new  zealand but just for the sake of  argument that's a boundary beer  um or  that's a lion red right  just the cheapest beer but  um let's say twelve dollars okay uh and  overage rate i'll explain to you in a  minute  so i would say six  and i will say okay and from six to  say 12  um say i will say the lower bound six  12  um  up around 12  and i will say the price of the beer as  20 22  okay  now anything about 12 right i don't want  to add an entries because otherwise you  keep on adding right  so what i'll do i will use an overage  rate which is a new  [Music]  custom field i mentioned i've created on  a blog price object so  you go to the object manager and you  look for a floor price  okay and you look for an overage rate  okay this is an average rate right so  so that means is that let's say in our  current scenario  i'll show you  uh right now i have configuration set  for one to six six to twelve what if you  want  more than 12 right  so what i'll do price  name uh say over 12.  so it's a lower bound 12  and the price let's say someone comes to  you and say hey i want 14 beers 14 can  of beers okay  so what what do you do you normally put  um  for 12 beers  22  and for from there onwards  any extra uh quantity you buy  you will use this over a trade so let's  say  if i'm gonna buy say uh say 13 beers  right 13 cans so i will be paying 26. if  i buy  an handsaw okay so i'll show you the  calculation how it works  so i've done this it's pretty sweet um  and uh so for 12  is 22 for 30 and it will keep  demonstration so go to code  um and go to this one  airlines just to make it simple what  i'll do  uh i will remove all the existing  products so that's become clear no  confusion in the calculation  i like to keep my canvas nice and tidy  so that is easy explain the the  calculation behind the scene  um okay so what i do now i will say  stout if i spell correctly  maybe i haven't spelled correctly the  product okay  um  i'm  my spelling is horrible horrendous  yeah there's something wrong why it's  not showing  okay maybe i'll just refresh it could be  that's why  obviously  uh let's look at the product to see  everything is set  correctly obviously the product list  price is zero  and you just say start beer  let's close this code um  we have price book we got zero dollars  okay um so that's cool oh yeah that's  right why the product is not visible  because it's not active my bad  okay now let me refresh it  um  it would be good right when you create a  product if it's not active just just  mark it active you can do that using  automation is pretty simple  um go to code  and go to code number  uh edit lines  like i said i like to keep my cameras  tidy  and just explain the calculations so i  will delete this ones  i'm going to add the product the stout  um  hopefully you can find it oh yeah this  boy is here  okay select  all right so now  by default um  if you select  that's gonna take some time okay  quantity one  okay so that's correct so obviously  uh anything from one to six right you  will be getting that pack  so let's say i will make it  seven so it should change the price  let's do calculate  okay become 22 okay so that's working  all right now  if i put 22  um  all right  there's something wrong okay oh sorry  my bad my bad not 22 because uh i was  wanting to show yeah that's correct  that's value's correct because now you  must be thinking  i need to calculate so uh just don't  worry about it just let's say calculate  here  okay this 22 okay  so  anything 22 and above  will get the overage rate okay so i will  do 13.  so when you do 12 right sorry anything  12 in about i don't know why i'm saying  22.  um  so  um  if you say 12 right obviously you will  get 12 packs of you know can in a pack  right  um so it could be a styling or whatever  beer right i mean it doesn't matter or  if it's if it's that mexican one uh  what's the name of it that's pretty  famous one that corona yeah excuse me um  so yeah  um you get that one as well so in a in a  pack right so it contains 12 cans or 12  bottles but  um  so if i do 13 see the difference here  okay 26 because  the reason why it's 26 anything above  13 will be using the base price which is  uh um  22 bucks and then plus that average rate  okay so it will add to that list  right so 22 plus  um  um  what's up 4 which is 26. now if i make  it 14  um it will be  30 because 22 plus  4 that's for 13 beers so  that is 26.  now you said i want extra beer that's 14  so you will add extra 4 to it because  the overage rate is getting considered  right so that's how the calculation  works it will support for any number of  beers you wanted to buy so  um this kind of pricing method is useful  when you wanted to do something like  this or if let's say you wanted to buy a  box of pencils so a box contains 10  pencils so if you wanted to buy seven uh  uh pencils so you will get that box and  if you want let's say another box  contains 20 pencils so if you wanted to  buy 15 of them so you will not be given  um you know 10 and 10 you will be given  the 21 box right so if you have such  kind of scenario this uh pricing method  works uh very efficiently uh and i also  explained like pricing book is very  handy right because you cannot  have a product  added to a code without a price book  right you need to add at least zero  dollars so as explained  so yeah this is pretty much all i wanted  to  demonstrate today i hope you enjoyed it  it's pretty simple and pretty basic  concept but if you get it right it can  do wonders for your cpq implementation  if you get it wrong  uh i'm afraid it won't be a very you  know  it won't look nice right  because your customer might ask hey do  you even know what you're doing so  that's why i often tell you guys or i  try to implement stuff right you know  just don't do certification for the sake  of it  because i would you know i just hate to  see people you know getting lots of  certification and when you ask them to  do a you know bloody basic things they  struggle right then  and i just tell them to check your  certification the bin is pointless  sometimes you know you got to be direct  with the people right because when you  run a company you're not running a  charity you even if you're running a  non-profit right you expect people to do  the job right to know this stuff  so  so that's the reason why i often say  you're preparing for certification from  a study group you know study with  someone be passionate about it because  obviously investing your time energy  right  you know might as well you know feel  proud that you're spending your time  energy you know and then you know once  you get certified you can go to your  boss and say look um i can do this stuff  right that's what really matters  okay sorry digress i know that blabber  all this time but just wanted to make it  clear right because i want you know  salesforce ecosystems to be very strong  and powerful the extremely talent people  not with the people who are just merely  certified and lack knowledge that's  something which gonna destroy our  ecosystem  that's one of the reason why i'm pretty  outspoken on that okay all right that's  being said i hope you guys have an  amazing uh monday adios
+ 
+
+00:00:04,870 --> 00:00:06,869
+ 
+ 
+
+00:00:06,869 --> 00:00:09,910
+ 
+ 
+
+00:00:09,910 --> 00:00:11,509
+ 
+ 
+
+00:00:11,509 --> 00:00:13,589
+ 
+ 
+
+00:00:13,589 --> 00:00:15,749
+ 
+ 
+
+00:00:15,749 --> 00:00:17,670
+ 
+ 
+
+00:00:17,670 --> 00:00:20,550
+ 
+ 
+
+00:00:20,550 --> 00:00:22,950
+ 
+ 
+
+00:00:22,950 --> 00:00:24,870
+ 
+ 
+
+00:00:24,870 --> 00:00:26,710
+ 
+ 
+
+00:00:26,710 --> 00:00:28,310
+ 
+ 
+
+00:00:28,310 --> 00:00:30,950
+ 
+ 
+
+00:00:30,950 --> 00:00:33,430
+ 
+ 
+
+00:00:33,430 --> 00:00:37,350
+ 
+ 
+
+00:00:37,350 --> 00:00:39,190
+ 
+ 
+
+00:00:39,190 --> 00:00:41,270
+ 
+ 
+
+00:00:41,270 --> 00:00:44,869
+ 
+ 
+
+00:00:44,869 --> 00:00:47,590
+ 
+ 
+
+00:00:47,590 --> 00:00:50,229
+ 
+ 
+
+00:00:50,229 --> 00:00:53,590
+ 
+ 
+
+00:00:53,590 --> 00:00:53,600
+ 
+ 
+
+00:00:53,600 --> 00:00:54,470
+ 
+
+
+00:00:54,470 --> 00:00:54,480
+ 
+ 
+
+00:00:54,480 --> 00:00:56,830
+ 
+
+
+00:00:56,830 --> 00:00:59,510
+ 
+ 
+
+00:00:59,510 --> 00:00:59,520
+ 
+ 
+
+00:00:59,520 --> 00:01:00,790
+ 
+
+
+00:01:00,790 --> 00:01:04,630
+ 
+ 
+
+00:01:04,630 --> 00:01:07,670
+ 
+ 
+
+00:01:07,670 --> 00:01:09,510
+ 
+ 
+
+00:01:09,510 --> 00:01:12,469
+ 
+ 
+
+00:01:12,469 --> 00:01:14,550
+ 
+ 
+
+00:01:14,550 --> 00:01:16,310
+ 
+ 
+
+00:01:16,310 --> 00:01:19,350
+ 
+ 
+
+00:01:19,350 --> 00:01:19,360
+ 
+ 
+
+00:01:19,360 --> 00:01:21,190
+ 
+
+
+00:01:21,190 --> 00:01:23,190
+ 
+ 
+
+00:01:23,190 --> 00:01:27,590
+ 
+ 
+
+00:01:27,590 --> 00:01:30,149
+ 
+ 
+
+00:01:30,149 --> 00:01:32,149
+ 
+ 
+
+00:01:32,149 --> 00:01:34,310
+ 
+ 
+
+00:01:34,310 --> 00:01:36,630
+ 
+ 
+
+00:01:36,630 --> 00:01:38,310
+ 
+ 
+
+00:01:38,310 --> 00:01:40,469
+ 
+ 
+
+00:01:40,469 --> 00:01:42,550
+ 
+ 
+
+00:01:42,550 --> 00:01:45,590
+ 
+ 
+
+00:01:45,590 --> 00:01:48,389
+ 
+ 
+
+00:01:48,389 --> 00:01:50,230
+ 
+ 
+
+00:01:50,230 --> 00:01:52,310
+ 
+ 
+
+00:01:52,310 --> 00:01:54,789
+ 
+ 
+
+00:01:54,789 --> 00:01:56,149
+ 
+ 
+
+00:01:56,149 --> 00:01:56,159
+ 
+ 
+
+00:01:56,159 --> 00:01:57,030
+ 
+
+
+00:01:57,030 --> 00:01:58,870
+ 
+ 
+
+00:01:58,870 --> 00:02:01,830
+ 
+ 
+
+00:02:01,830 --> 00:02:03,510
+ 
+ 
+
+00:02:03,510 --> 00:02:05,109
+ 
+ 
+
+00:02:05,109 --> 00:02:09,270
+ 
+ 
+
+00:02:09,270 --> 00:02:10,869
+ 
+ 
+
+00:02:10,869 --> 00:02:14,470
+ 
+ 
+
+00:02:14,470 --> 00:02:18,070
+ 
+ 
+
+00:02:18,070 --> 00:02:19,110
+ 
+ 
+
+00:02:19,110 --> 00:02:22,550
+ 
+ 
+
+00:02:22,550 --> 00:02:24,949
+ 
+ 
+
+00:02:24,949 --> 00:02:26,550
+ 
+ 
+
+00:02:26,550 --> 00:02:27,830
+ 
+ 
+
+00:02:27,830 --> 00:02:29,670
+ 
+ 
+
+00:02:29,670 --> 00:02:32,229
+ 
+ 
+
+00:02:32,229 --> 00:02:34,309
+ 
+ 
+
+00:02:34,309 --> 00:02:36,790
+ 
+ 
+
+00:02:36,790 --> 00:02:40,070
+ 
+ 
+
+00:02:40,070 --> 00:02:41,589
+ 
+ 
+
+00:02:41,589 --> 00:02:43,990
+ 
+ 
+
+00:02:43,990 --> 00:02:44,000
+ 
+ 
+
+00:02:44,000 --> 00:02:45,030
+ 
+
+
+00:02:45,030 --> 00:02:46,790
+ 
+ 
+
+00:02:46,790 --> 00:02:48,630
+ 
+ 
+
+00:02:48,630 --> 00:02:50,790
+ 
+ 
+
+00:02:50,790 --> 00:02:52,949
+ 
+ 
+
+00:02:52,949 --> 00:02:55,509
+ 
+ 
+
+00:02:55,509 --> 00:02:58,390
+ 
+ 
+
+00:02:58,390 --> 00:02:58,400
+ 
+ 
+
+00:02:58,400 --> 00:02:59,750
+ 
+
+
+00:02:59,750 --> 00:03:01,430
+ 
+ 
+
+00:03:01,430 --> 00:03:04,710
+ 
+ 
+
+00:03:04,710 --> 00:03:07,830
+ 
+ 
+
+00:03:07,830 --> 00:03:09,110
+ 
+ 
+
+00:03:09,110 --> 00:03:11,750
+ 
+ 
+
+00:03:11,750 --> 00:03:14,229
+ 
+ 
+
+00:03:14,229 --> 00:03:16,869
+ 
+ 
+
+00:03:16,869 --> 00:03:18,630
+ 
+ 
+
+00:03:18,630 --> 00:03:20,790
+ 
+ 
+
+00:03:20,790 --> 00:03:23,509
+ 
+ 
+
+00:03:23,509 --> 00:03:24,949
+ 
+ 
+
+00:03:24,949 --> 00:03:27,110
+ 
+ 
+
+00:03:27,110 --> 00:03:29,910
+ 
+ 
+
+00:03:29,910 --> 00:03:32,550
+ 
+ 
+
+00:03:32,550 --> 00:03:34,789
+ 
+ 
+
+00:03:34,789 --> 00:03:36,470
+ 
+ 
+
+00:03:36,470 --> 00:03:38,390
+ 
+ 
+
+00:03:38,390 --> 00:03:40,869
+ 
+ 
+
+00:03:40,869 --> 00:03:43,589
+ 
+ 
+
+00:03:43,589 --> 00:03:45,110
+ 
+ 
+
+00:03:45,110 --> 00:03:47,110
+ 
+ 
+
+00:03:47,110 --> 00:03:49,030
+ 
+ 
+
+00:03:49,030 --> 00:03:49,040
+ 
+ 
+
+00:03:49,040 --> 00:03:49,910
+ 
+
+
+00:03:49,910 --> 00:03:51,350
+ 
+ 
+
+00:03:51,350 --> 00:03:53,589
+ 
+ 
+
+00:03:53,589 --> 00:03:56,390
+ 
+ 
+
+00:03:56,390 --> 00:03:58,949
+ 
+ 
+
+00:03:58,949 --> 00:04:01,270
+ 
+ 
+
+00:04:01,270 --> 00:04:02,550
+ 
+ 
+
+00:04:02,550 --> 00:04:04,390
+ 
+ 
+
+00:04:04,390 --> 00:04:07,030
+ 
+ 
+
+00:04:07,030 --> 00:04:07,040
+ 
+ 
+
+00:04:07,040 --> 00:04:07,990
+ 
+
+
+00:04:07,990 --> 00:04:09,670
+ 
+ 
+
+00:04:09,670 --> 00:04:12,869
+ 
+ 
+
+00:04:12,869 --> 00:04:14,149
+ 
+ 
+
+00:04:14,149 --> 00:04:15,990
+ 
+ 
+
+00:04:15,990 --> 00:04:17,349
+ 
+ 
+
+00:04:17,349 --> 00:04:19,670
+ 
+ 
+
+00:04:19,670 --> 00:04:21,990
+ 
+ 
+
+00:04:21,990 --> 00:04:24,710
+ 
+ 
+
+00:04:24,710 --> 00:04:26,710
+ 
+ 
+
+00:04:26,710 --> 00:04:26,720
+ 
+ 
+
+00:04:26,720 --> 00:04:27,670
+ 
+
+
+00:04:27,670 --> 00:04:30,150
+ 
+ 
+
+00:04:30,150 --> 00:04:33,350
+ 
+ 
+
+00:04:33,350 --> 00:04:36,390
+ 
+ 
+
+00:04:36,390 --> 00:04:40,150
+ 
+ 
+
+00:04:40,150 --> 00:04:40,160
+ 
+ 
+
+00:04:40,160 --> 00:04:41,270
+ 
+
+
+00:04:41,270 --> 00:04:41,280
+ 
+ 
+
+00:04:41,280 --> 00:04:42,550
+ 
+
+
+00:04:42,550 --> 00:04:43,990
+ 
+ 
+
+00:04:43,990 --> 00:04:45,909
+ 
+ 
+
+00:04:45,909 --> 00:04:47,430
+ 
+ 
+
+00:04:47,430 --> 00:04:47,440
+ 
+ 
+
+00:04:47,440 --> 00:04:48,390
+ 
+
+
+00:04:48,390 --> 00:04:52,230
+ 
+ 
+
+00:04:52,230 --> 00:04:54,230
+ 
+ 
+
+00:04:54,230 --> 00:04:55,749
+ 
+ 
+
+00:04:55,749 --> 00:04:58,150
+ 
+ 
+
+00:04:58,150 --> 00:05:00,020
+ 
+ 
+
+00:05:00,020 --> 00:05:00,030
+ 
+ 
+
+00:05:00,030 --> 00:05:01,189
+ 
+
+
+00:05:01,189 --> 00:05:04,710
+ 
+ 
+
+00:05:04,710 --> 00:05:06,790
+ 
+ 
+
+00:05:06,790 --> 00:05:09,189
+ 
+ 
+
+00:05:09,189 --> 00:05:13,189
+ 
+ 
+
+00:05:13,189 --> 00:05:22,390
+ 
+ 
+
+00:05:22,390 --> 00:05:25,510
+ 
+ 
+
+00:05:25,510 --> 00:05:27,909
+ 
+ 
+
+00:05:27,909 --> 00:05:29,749
+ 
+ 
+
+00:05:29,749 --> 00:05:31,029
+ 
+ 
+
+00:05:31,029 --> 00:05:33,590
+ 
+ 
+
+00:05:33,590 --> 00:05:36,469
+ 
+ 
+
+00:05:36,469 --> 00:05:36,479
+ 
+ 
+
+00:05:36,479 --> 00:05:37,590
+ 
+
+
+00:05:37,590 --> 00:05:40,550
+ 
+ 
+
+00:05:40,550 --> 00:05:43,029
+ 
+ 
+
+00:05:43,029 --> 00:05:47,110
+ 
+ 
+
+00:05:47,110 --> 00:05:49,909
+ 
+ 
+
+00:05:49,909 --> 00:05:52,390
+ 
+ 
+
+00:05:52,390 --> 00:05:55,510
+ 
+ 
+
+00:05:55,510 --> 00:05:57,029
+ 
+ 
+
+00:05:57,029 --> 00:06:00,230
+ 
+ 
+
+00:06:00,230 --> 00:06:00,240
+ 
+ 
+
+00:06:00,240 --> 00:06:01,110
+ 
+
+
+00:06:01,110 --> 00:06:02,629
+ 
+ 
+
+00:06:02,629 --> 00:06:02,639
+ 
+ 
+
+00:06:02,639 --> 00:06:03,909
+ 
+
+
+00:06:03,909 --> 00:06:06,710
+ 
+ 
+
+00:06:06,710 --> 00:06:10,550
+ 
+ 
+
+00:06:10,550 --> 00:06:13,029
+ 
+ 
+
+00:06:13,029 --> 00:06:13,039
+ 
+ 
+
+00:06:13,039 --> 00:06:14,230
+ 
+
+
+00:06:14,230 --> 00:06:18,390
+ 
+ 
+
+00:06:18,390 --> 00:06:22,469
+ 
+ 
+
+00:06:22,469 --> 00:06:24,070
+ 
+ 
+
+00:06:24,070 --> 00:06:27,189
+ 
+ 
+
+00:06:27,189 --> 00:06:29,430
+ 
+ 
+
+00:06:29,430 --> 00:06:34,629
+ 
+ 
+
+00:06:34,629 --> 00:06:37,430
+ 
+ 
+
+00:06:37,430 --> 00:06:39,749
+ 
+ 
+
+00:06:39,749 --> 00:06:43,430
+ 
+ 
+
+00:06:43,430 --> 00:06:47,990
+ 
+ 
+
+00:06:47,990 --> 00:06:50,309
+ 
+ 
+
+00:06:50,309 --> 00:06:51,589
+ 
+ 
+
+00:06:51,589 --> 00:06:53,430
+ 
+ 
+
+00:06:53,430 --> 00:06:55,830
+ 
+ 
+
+00:06:55,830 --> 00:06:58,870
+ 
+ 
+
+00:06:58,870 --> 00:07:01,670
+ 
+ 
+
+00:07:01,670 --> 00:07:03,670
+ 
+ 
+
+00:07:03,670 --> 00:07:06,469
+ 
+ 
+
+00:07:06,469 --> 00:07:10,390
+ 
+ 
+
+00:07:10,390 --> 00:07:14,390
+ 
+ 
+
+00:07:14,390 --> 00:07:16,070
+ 
+ 
+
+00:07:16,070 --> 00:07:20,469
+ 
+ 
+
+00:07:20,469 --> 00:07:20,479
+ 
+ 
+
+00:07:20,479 --> 00:07:22,230
+ 
+
+
+00:07:22,230 --> 00:07:22,240
+ 
+ 
+
+00:07:22,240 --> 00:07:23,589
+ 
+
+
+00:07:23,589 --> 00:07:27,430
+ 
+ 
+
+00:07:27,430 --> 00:07:29,749
+ 
+ 
+
+00:07:29,749 --> 00:07:31,350
+ 
+ 
+
+00:07:31,350 --> 00:07:33,909
+ 
+ 
+
+00:07:33,909 --> 00:07:36,870
+ 
+ 
+
+00:07:36,870 --> 00:07:36,880
+ 
+ 
+
+00:07:36,880 --> 00:07:38,390
+ 
+
+
+00:07:38,390 --> 00:07:40,070
+ 
+ 
+
+00:07:40,070 --> 00:07:42,830
+ 
+ 
+
+00:07:42,830 --> 00:07:45,110
+ 
+ 
+
+00:07:45,110 --> 00:07:46,469
+ 
+ 
+
+00:07:46,469 --> 00:07:49,430
+ 
+ 
+
+00:07:49,430 --> 00:07:52,550
+ 
+ 
+
+00:07:52,550 --> 00:07:54,790
+ 
+ 
+
+00:07:54,790 --> 00:07:57,430
+ 
+ 
+
+00:07:57,430 --> 00:07:59,830
+ 
+ 
+
+00:07:59,830 --> 00:08:04,230
+ 
+ 
+
+00:08:04,230 --> 00:08:08,550
+ 
+ 
+
+00:08:08,550 --> 00:08:08,560
+ 
+ 
+
+00:08:08,560 --> 00:08:13,510
+ 
+
+
+00:08:13,510 --> 00:08:14,950
+ 
+ 
+
+00:08:14,950 --> 00:08:17,589
+ 
+ 
+
+00:08:17,589 --> 00:08:19,430
+ 
+ 
+
+00:08:19,430 --> 00:08:21,189
+ 
+ 
+
+00:08:21,189 --> 00:08:23,270
+ 
+ 
+
+00:08:23,270 --> 00:08:26,150
+ 
+ 
+
+00:08:26,150 --> 00:08:28,309
+ 
+ 
+
+00:08:28,309 --> 00:08:30,629
+ 
+ 
+
+00:08:30,629 --> 00:08:30,639
+ 
+ 
+
+00:08:30,639 --> 00:08:31,830
+ 
+
+
+00:08:31,830 --> 00:08:34,230
+ 
+ 
+
+00:08:34,230 --> 00:08:38,230
+ 
+ 
+
+00:08:38,230 --> 00:08:43,589
+ 
+ 
+
+00:08:43,589 --> 00:08:43,599
+ 
+ 
+
+00:08:43,599 --> 00:08:44,710
+ 
+
+
+00:08:44,710 --> 00:08:46,870
+ 
+ 
+
+00:08:46,870 --> 00:08:48,310
+ 
+ 
+
+00:08:48,310 --> 00:08:50,150
+ 
+ 
+
+00:08:50,150 --> 00:08:52,470
+ 
+ 
+
+00:08:52,470 --> 00:08:54,389
+ 
+ 
+
+00:08:54,389 --> 00:08:56,070
+ 
+ 
+
+00:08:56,070 --> 00:08:57,670
+ 
+ 
+
+00:08:57,670 --> 00:08:59,430
+ 
+ 
+
+00:08:59,430 --> 00:09:02,310
+ 
+ 
+
+00:09:02,310 --> 00:09:04,790
+ 
+ 
+
+00:09:04,790 --> 00:09:07,430
+ 
+ 
+
+00:09:07,430 --> 00:09:09,670
+ 
+ 
+
+00:09:09,670 --> 00:09:12,949
+ 
+ 
+
+00:09:12,949 --> 00:09:16,310
+ 
+ 
+
+00:09:16,310 --> 00:09:19,509
+ 
+ 
+
+00:09:19,509 --> 00:09:20,710
+ 
+ 
+
+00:09:20,710 --> 00:09:33,269
+ 
+ 
+
+00:09:33,269 --> 00:09:33,279
+ 
+ 
+
+00:09:33,279 --> 00:09:35,590
+ 
+
+
+00:09:35,590 --> 00:09:37,430
+ 
+ 
+
+00:09:37,430 --> 00:09:40,550
+ 
+ 
+
+00:09:40,550 --> 00:09:44,550
+ 
+ 
+
+00:09:44,550 --> 00:09:46,150
+ 
+ 
+
+00:09:46,150 --> 00:09:47,990
+ 
+ 
+
+00:09:47,990 --> 00:09:49,269
+ 
+ 
+
+00:09:49,269 --> 00:09:51,190
+ 
+ 
+
+00:09:51,190 --> 00:09:52,710
+ 
+ 
+
+00:09:52,710 --> 00:09:52,720
+ 
+ 
+
+00:09:52,720 --> 00:09:54,310
+ 
+
+
+00:09:54,310 --> 00:09:56,150
+ 
+ 
+
+00:09:56,150 --> 00:09:56,160
+ 
+ 
+
+00:09:56,160 --> 00:09:56,870
+ 
+
+
+00:09:56,870 --> 00:09:59,350
+ 
+ 
+
+00:09:59,350 --> 00:10:02,710
+ 
+ 
+
+00:10:02,710 --> 00:10:04,630
+ 
+ 
+
+00:10:04,630 --> 00:10:07,350
+ 
+ 
+
+00:10:07,350 --> 00:10:08,949
+ 
+ 
+
+00:10:08,949 --> 00:10:08,959
+ 
+ 
+
+00:10:08,959 --> 00:10:10,069
+ 
+
+
+00:10:10,069 --> 00:10:10,079
+ 
+ 
+
+00:10:10,079 --> 00:10:11,910
+ 
+
+
+00:10:11,910 --> 00:10:11,920
+ 
+ 
+
+00:10:11,920 --> 00:10:13,030
+ 
+
+
+00:10:13,030 --> 00:10:13,040
+ 
+ 
+
+00:10:13,040 --> 00:10:14,069
+ 
+
+
+00:10:14,069 --> 00:10:15,990
+ 
+ 
+
+00:10:15,990 --> 00:10:19,829
+ 
+ 
+
+00:10:19,829 --> 00:10:19,839
+ 
+ 
+
+00:10:19,839 --> 00:10:20,790
+ 
+
+
+00:10:20,790 --> 00:10:23,110
+ 
+ 
+
+00:10:23,110 --> 00:10:24,870
+ 
+ 
+
+00:10:24,870 --> 00:10:26,949
+ 
+ 
+
+00:10:26,949 --> 00:10:28,949
+ 
+ 
+
+00:10:28,949 --> 00:10:32,790
+ 
+ 
+
+00:10:32,790 --> 00:10:34,150
+ 
+ 
+
+00:10:34,150 --> 00:10:37,269
+ 
+ 
+
+00:10:37,269 --> 00:10:39,590
+ 
+ 
+
+00:10:39,590 --> 00:10:41,030
+ 
+ 
+
+00:10:41,030 --> 00:10:41,040
+ 
+ 
+
+00:10:41,040 --> 00:10:43,190
+ 
+
+
+00:10:43,190 --> 00:10:48,870
+ 
+ 
+
+00:10:48,870 --> 00:10:50,870
+ 
+ 
+
+00:10:50,870 --> 00:10:54,470
+ 
+ 
+
+00:10:54,470 --> 00:10:58,829
+ 
+ 
+
+00:10:58,829 --> 00:11:00,710
+ 
+ 
+
+00:11:00,710 --> 00:11:04,230
+ 
+ 
+
+00:11:04,230 --> 00:11:08,230
+ 
+ 
+
+00:11:08,230 --> 00:11:10,150
+ 
+ 
+
+00:11:10,150 --> 00:11:10,160
+ 
+ 
+
+00:11:10,160 --> 00:11:11,509
+ 
+
+
+00:11:11,509 --> 00:11:11,519
+ 
+ 
+
+00:11:11,519 --> 00:11:12,870
+ 
+
+
+00:11:12,870 --> 00:11:15,670
+ 
+ 
+
+00:11:15,670 --> 00:11:18,470
+ 
+ 
+
+00:11:18,470 --> 00:11:23,030
+ 
+ 
+
+00:11:23,030 --> 00:11:26,630
+ 
+ 
+
+00:11:26,630 --> 00:11:29,430
+ 
+ 
+
+00:11:29,430 --> 00:11:31,509
+ 
+ 
+
+00:11:31,509 --> 00:11:34,230
+ 
+ 
+
+00:11:34,230 --> 00:11:36,470
+ 
+ 
+
+00:11:36,470 --> 00:11:38,470
+ 
+ 
+
+00:11:38,470 --> 00:11:40,389
+ 
+ 
+
+00:11:40,389 --> 00:11:42,230
+ 
+ 
+
+00:11:42,230 --> 00:11:44,069
+ 
+ 
+
+00:11:44,069 --> 00:11:47,269
+ 
+ 
+
+00:11:47,269 --> 00:11:48,710
+ 
+ 
+
+00:11:48,710 --> 00:11:50,470
+ 
+ 
+
+00:11:50,470 --> 00:11:53,350
+ 
+ 
+
+00:11:53,350 --> 00:11:56,790
+ 
+ 
+
+00:11:56,790 --> 00:11:59,110
+ 
+ 
+
+00:11:59,110 --> 00:12:00,870
+ 
+ 
+
+00:12:00,870 --> 00:12:03,269
+ 
+ 
+
+00:12:03,269 --> 00:12:05,990
+ 
+ 
+
+00:12:05,990 --> 00:12:08,870
+ 
+ 
+
+00:12:08,870 --> 00:12:11,829
+ 
+ 
+
+00:12:11,829 --> 00:12:14,389
+ 
+ 
+
+00:12:14,389 --> 00:12:17,590
+ 
+ 
+
+00:12:17,590 --> 00:12:19,590
+ 
+ 
+
+00:12:19,590 --> 00:12:21,990
+ 
+ 
+
+00:12:21,990 --> 00:12:23,670
+ 
+ 
+
+00:12:23,670 --> 00:12:25,990
+ 
+ 
+
+00:12:25,990 --> 00:12:27,910
+ 
+ 
+
+00:12:27,910 --> 00:12:30,550
+ 
+ 
+
+00:12:30,550 --> 00:12:33,030
+ 
+ 
+
+00:12:33,030 --> 00:12:33,040
+ 
+ 
+
+00:12:33,040 --> 00:12:33,910
+ 
+
+
+00:12:33,910 --> 00:12:36,150
+ 
+ 
+
+00:12:36,150 --> 00:12:38,230
+ 
+ 
+
+00:12:38,230 --> 00:12:40,310
+ 
+ 
+
+00:12:40,310 --> 00:12:43,670
+ 
+ 
+
+00:12:43,670 --> 00:12:45,430
+ 
+ 
+
+00:12:45,430 --> 00:12:48,310
+ 
+ 
+
+00:12:48,310 --> 00:12:48,320
+ 
+ 
+
+00:12:48,320 --> 00:12:49,269
+ 
+
+
+00:12:49,269 --> 00:12:51,030
+ 
+ 
+
+00:12:51,030 --> 00:12:52,790
+ 
+ 
+
+00:12:52,790 --> 00:12:54,470
+ 
+ 
+
+00:12:54,470 --> 00:12:56,230
+ 
+ 
+
+00:12:56,230 --> 00:12:58,790
+ 
+ 
+
+00:12:58,790 --> 00:13:00,550
+ 
+ 
+
+00:13:00,550 --> 00:13:01,430
+ 
+ 
+
+00:13:01,430 --> 00:13:03,829
+ 
+ 
+
+00:13:03,829 --> 00:13:06,389
+ 
+ 
+
+00:13:06,389 --> 00:13:07,829
+ 
+ 
+
+00:13:07,829 --> 00:13:10,150
+ 
+ 
+
+00:13:10,150 --> 00:13:11,750
+ 
+ 
+
+00:13:11,750 --> 00:13:12,949
+ 
+ 
+
+00:13:12,949 --> 00:13:16,069
+ 
+ 
+
+00:13:16,069 --> 00:13:17,670
+ 
+ 
+
+00:13:17,670 --> 00:13:18,949
+ 
+ 
+
+00:13:18,949 --> 00:13:21,030
+ 
+ 
+
+00:13:21,030 --> 00:13:22,710
+ 
+ 
+
+00:13:22,710 --> 00:13:24,389
+ 
+ 
+
+00:13:24,389 --> 00:13:27,110
+ 
+ 
+
+00:13:27,110 --> 00:13:27,120
+ 
+ 
+
+00:13:27,120 --> 00:13:28,230
+ 
+
+
+00:13:28,230 --> 00:13:30,629
+ 
+ 
+
+00:13:30,629 --> 00:13:32,470
+ 
+ 
+
+00:13:32,470 --> 00:13:34,069
+ 
+ 
+
+00:13:34,069 --> 00:13:36,470
+ 
+ 
+
+00:13:36,470 --> 00:13:38,150
+ 
+ 
+
+00:13:38,150 --> 00:13:38,160
+ 
+ 
+
+00:13:38,160 --> 00:13:38,949
+ 
+
+
+00:13:38,949 --> 00:13:40,949
+ 
+ 
+
+00:13:40,949 --> 00:13:42,710
+ 
+ 
+
+00:13:42,710 --> 00:13:44,870
+ 
+ 
+
+00:13:44,870 --> 00:13:46,949
+ 
+ 
+
+00:13:46,949 --> 00:13:49,269
+ 
+ 
+
+00:13:49,269 --> 00:13:52,310
+ 
+ 
+
+00:13:52,310 --> 00:13:54,870
+ 
+ 
+
+00:13:54,870 --> 00:13:57,030
+ 
+ 
+
+00:13:57,030 --> 00:13:59,350
+ 
+ 
+
+00:13:59,350 --> 00:14:01,509
+ 
+ 
+
+00:14:01,509 --> 00:14:04,389
+ 
+ 
+
+00:14:04,389 --> 00:14:06,949
+ 
+ 
+
+00:14:06,949 --> 00:14:08,870
+ 
+ 
+
+00:14:08,870 --> 00:14:10,389
+ 
+ 
+
+00:14:10,389 --> 00:14:10,399
+ 
+ 
+
+00:14:10,399 --> 00:14:11,750
+ 
+
+
+00:14:11,750 --> 00:14:13,350
+ 
+ 
+
+00:14:13,350 --> 00:14:15,430
+ 
+ 
+
+00:14:15,430 --> 00:14:16,949
+ 
+ 
+
+00:14:16,949 --> 00:14:21,720
+ 
+ 
+

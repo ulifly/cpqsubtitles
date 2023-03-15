@@ -1,0 +1,697 @@
+
+00:00:00,780 --> 00:00:02,869
+ 
+good everyone I hope you guys have an  amazing day so today what I'm going to  do I will talk about uh discounting  option right  um so we've been talking about  multi-dimension codes and and and we  looked at the different uh options to  configure it now I just wanted to uh  mention how the discounting plays in the  picture so usually what happens right I  mean forget about the cpq for for a  second usually right when you buy stuff  in bulk right you usually tend to get a  discount for instance uh you go to  supermarket uh so say you buy uh to  um cream cheese right a two box of cream  cheese uh they will give you the two box  of cream cheese for uh six dollars right  compared to buying separately right if  you buy individual one it might cost you  3.50 So you you're getting a you know a  dollar discount here so uh so that's  typically a normal scenario which you  would have encountered in your  day-to-day life right so you buy stuff  in bulk so the bulk means it's decided  by a quantity so anything you know more  than one so right or more than ten  whatever they call it as a bulk right so  now uh when it comes to cpq that's  functionality is it's pretty much out of  box but what if uh you don't want to  worry about the quantity instead you  wanted to give a term based discount  like for instance uh you are buying a  um a subscription based uh you know  product right where so for instance  you're buying a Netflix right a  subscription so if you're buying a  Netflix subscription say for instance if  you buy for two years you will get say  20 discount right or let's say you buy  Amazon Prime right if you buy that for  say a year you will get five percent  discount so uh that is something what I  wanted to show you today how to  configure it and how that that thing  works right so I have VPN license right  which is pretty sweet which is the  product uh we've been talking about  lately right so obviously you buy  license right so the people license is a  subscription base so they wanted to sell  you you know monthly right uh you know  usually you know you can buy  um you know like antibi sorry antivirus  software right you can buy for a year  then you renew it so uh in our case this  is monthly based right so obviously what  I want to do is that right I'm buying  this for 24 months if I'm buying four or  four inches I'm buying this for 36  months right so if I wanted to buy this  VPN license say for 24 months or 34 or  36 months I should be given uh say five  percent discount or ten percent discount  right so how to implement that that's  exactly what we're gonna look today  right uh so the the first thing first  right so you have to log into your work  right and you I hope that you guys have  Salesforce cpq installed uh I've all  already talked about how to register for  this org I'm not gonna get into that  nitty-gritty details again uh so uh so  you gotta go to something called  discount schedule so if you don't see  that on the tab as you can see I have it  in the tab but if you don't so you go to  the sticker icon  and you just look for Discount right  just type discount you will find  discount schedules okay so once you open  there uh once you go there you'll get an  interface something like this right so  all you have to do click on new and I  will say  uh we're planning to give 10 discount  right so I will say 10 okay and I'll  keep every other option as such I'm not  going to fiddle with it at this stage so  I will say save yeah now pay special  attention to edit tiers right so this is  where we're going to add the range and  kind of stuff so we click on here  um and then you give the name so we say  you know 10 percent  discount yeah and the lower bound right  so the lower bound could be uh say  from which uh year onwards you wanted to  give a discounted for instance right  you're buying a Netflix subscription so  if you buy a subscription anything 24  months in a bowl you will get 10 uh  discount if you buy say uh uh you know  um so or you can say that if you buy  anything uh ear in the bar you will get  uh  ten percent discount or whatever right  so you can say I will put 24 I'm not uh  concerned about the upper bound could be  anything uh you can put if you want but  I'm not um bothered with it so I'll put  like say 10 discount right so I'll click  on Save  uh that's pretty much how to do uh in  terms of discount uh schedule so what  I'll do next I'll go to the product  right excuse me I'll go to VPN license  and I will edit  and I'll look for Discount  right so we got two things here right we  got discount schedule and the term  discount schedule so uh please make sure  do not put your you know the discount  the 10 what you've created to the  discount schedule it will not work  because we are talking about uh a term  discount right so what we do we go here  and we say 10 yeah  so this is what we've created uh under  discount schedule so we are pointing  that record to here okay so term  discount schedule and click on type  that's all you have to do right now  let's go and create a code  um so what I'll do I'll create a new  code  um and I'll make it as a primary code  and what I'll do I'll put the  subscription term to  uh say 24 months right  and then I'll save it okay  and then I will go to edit lines  and uh I will add that product  so I will add that product  excuse me  um and I'll say VPN  okay  um and I'll select this  I'll select  now I at least so you got 18 uh so 18  bucks right so you so you got two uh  dollar discount right so if you look at  it so highly speaking what should have  happened if you if you haven't given  this count uh you would have got like 20  bucks right 10 bucks for each year right  so as you can see the price here right  so you can see the 10 bucks that's a  price uh so 10 times 2 that's 20 but  since we're giving 10 discount uh 10 of  20 is two so it will subtract two from  it so you'll get 18 bucks right that's  how easy it is to configure a term  discount right so that's pretty much I  wanted to cover today I hope you guys  enjoyed it so uh that being said I hope  you guys have an amazing uh evening  adios
+
+00:00:02,869 --> 00:00:04,430
+good everyone I hope you guys have an  amazing day so today what I'm going to  do I will talk about uh discounting  option right  um so we've been talking about  multi-dimension codes and and and we  looked at the different uh options to  configure it now I just wanted to uh  mention how the discounting plays in the  picture so usually what happens right I  mean forget about the cpq for for a  second usually right when you buy stuff  in bulk right you usually tend to get a  discount for instance uh you go to  supermarket uh so say you buy uh to  um cream cheese right a two box of cream  cheese uh they will give you the two box  of cream cheese for uh six dollars right  compared to buying separately right if  you buy individual one it might cost you  3.50 So you you're getting a you know a  dollar discount here so uh so that's  typically a normal scenario which you  would have encountered in your  day-to-day life right so you buy stuff  in bulk so the bulk means it's decided  by a quantity so anything you know more  than one so right or more than ten  whatever they call it as a bulk right so  now uh when it comes to cpq that's  functionality is it's pretty much out of  box but what if uh you don't want to  worry about the quantity instead you  wanted to give a term based discount  like for instance uh you are buying a  um a subscription based uh you know  product right where so for instance  you're buying a Netflix right a  subscription so if you're buying a  Netflix subscription say for instance if  you buy for two years you will get say  20 discount right or let's say you buy  Amazon Prime right if you buy that for  say a year you will get five percent  discount so uh that is something what I  wanted to show you today how to  configure it and how that that thing  works right so I have VPN license right  which is pretty sweet which is the  product uh we've been talking about  lately right so obviously you buy  license right so the people license is a  subscription base so they wanted to sell  you you know monthly right uh you know  usually you know you can buy  um you know like antibi sorry antivirus  software right you can buy for a year  then you renew it so uh in our case this  is monthly based right so obviously what  I want to do is that right I'm buying  this for 24 months if I'm buying four or  four inches I'm buying this for 36  months right so if I wanted to buy this  VPN license say for 24 months or 34 or  36 months I should be given uh say five  percent discount or ten percent discount  right so how to implement that that's  exactly what we're gonna look today  right uh so the the first thing first  right so you have to log into your work  right and you I hope that you guys have  Salesforce cpq installed uh I've all  already talked about how to register for  this org I'm not gonna get into that  nitty-gritty details again uh so uh so  you gotta go to something called  discount schedule so if you don't see  that on the tab as you can see I have it  in the tab but if you don't so you go to  the sticker icon  and you just look for Discount right  just type discount you will find  discount schedules okay so once you open  there uh once you go there you'll get an  interface something like this right so  all you have to do click on new and I  will say  uh we're planning to give 10 discount  right so I will say 10 okay and I'll  keep every other option as such I'm not  going to fiddle with it at this stage so  I will say save yeah now pay special  attention to edit tiers right so this is  where we're going to add the range and  kind of stuff so we click on here  um and then you give the name so we say  you know 10 percent  discount yeah and the lower bound right  so the lower bound could be uh say  from which uh year onwards you wanted to  give a discounted for instance right  you're buying a Netflix subscription so  if you buy a subscription anything 24  months in a bowl you will get 10 uh  discount if you buy say uh uh you know  um so or you can say that if you buy  anything uh ear in the bar you will get  uh  ten percent discount or whatever right  so you can say I will put 24 I'm not uh  concerned about the upper bound could be  anything uh you can put if you want but  I'm not um bothered with it so I'll put  like say 10 discount right so I'll click  on Save  uh that's pretty much how to do uh in  terms of discount uh schedule so what  I'll do next I'll go to the product  right excuse me I'll go to VPN license  and I will edit  and I'll look for Discount  right so we got two things here right we  got discount schedule and the term  discount schedule so uh please make sure  do not put your you know the discount  the 10 what you've created to the  discount schedule it will not work  because we are talking about uh a term  discount right so what we do we go here  and we say 10 yeah  so this is what we've created uh under  discount schedule so we are pointing  that record to here okay so term  discount schedule and click on type  that's all you have to do right now  let's go and create a code  um so what I'll do I'll create a new  code  um and I'll make it as a primary code  and what I'll do I'll put the  subscription term to  uh say 24 months right  and then I'll save it okay  and then I will go to edit lines  and uh I will add that product  so I will add that product  excuse me  um and I'll say VPN  okay  um and I'll select this  I'll select  now I at least so you got 18 uh so 18  bucks right so you so you got two uh  dollar discount right so if you look at  it so highly speaking what should have  happened if you if you haven't given  this count uh you would have got like 20  bucks right 10 bucks for each year right  so as you can see the price here right  so you can see the 10 bucks that's a  price uh so 10 times 2 that's 20 but  since we're giving 10 discount uh 10 of  20 is two so it will subtract two from  it so you'll get 18 bucks right that's  how easy it is to configure a term  discount right so that's pretty much I  wanted to cover today I hope you guys  enjoyed it so uh that being said I hope  you guys have an amazing uh evening  adios
+ 
+
+00:00:04,430 --> 00:00:07,190
+ 
+ 
+
+00:00:07,190 --> 00:00:08,750
+ 
+ 
+
+00:00:08,750 --> 00:00:10,209
+ 
+ 
+
+00:00:10,209 --> 00:00:13,190
+ 
+ 
+
+00:00:13,190 --> 00:00:15,589
+ 
+ 
+
+00:00:15,589 --> 00:00:18,410
+ 
+ 
+
+00:00:18,410 --> 00:00:20,689
+ 
+ 
+
+00:00:20,689 --> 00:00:23,450
+ 
+ 
+
+00:00:23,450 --> 00:00:25,730
+ 
+ 
+
+00:00:25,730 --> 00:00:27,950
+ 
+ 
+
+00:00:27,950 --> 00:00:30,710
+ 
+ 
+
+00:00:30,710 --> 00:00:32,870
+ 
+ 
+
+00:00:32,870 --> 00:00:39,170
+ 
+ 
+
+00:00:39,170 --> 00:00:41,389
+ 
+ 
+
+00:00:41,389 --> 00:00:44,510
+ 
+ 
+
+00:00:44,510 --> 00:00:47,770
+ 
+ 
+
+00:00:47,770 --> 00:00:50,209
+ 
+ 
+
+00:00:50,209 --> 00:00:52,729
+ 
+ 
+
+00:00:52,729 --> 00:00:56,090
+ 
+ 
+
+00:00:56,090 --> 00:00:58,790
+ 
+ 
+
+00:00:58,790 --> 00:01:01,610
+ 
+ 
+
+00:01:01,610 --> 00:01:02,750
+ 
+ 
+
+00:01:02,750 --> 00:01:04,670
+ 
+ 
+
+00:01:04,670 --> 00:01:07,250
+ 
+ 
+
+00:01:07,250 --> 00:01:09,710
+ 
+ 
+
+00:01:09,710 --> 00:01:12,170
+ 
+ 
+
+00:01:12,170 --> 00:01:14,810
+ 
+ 
+
+00:01:14,810 --> 00:01:17,749
+ 
+ 
+
+00:01:17,749 --> 00:01:20,030
+ 
+ 
+
+00:01:20,030 --> 00:01:23,270
+ 
+ 
+
+00:01:23,270 --> 00:01:26,090
+ 
+ 
+
+00:01:26,090 --> 00:01:27,830
+ 
+ 
+
+00:01:27,830 --> 00:01:31,609
+ 
+ 
+
+00:01:31,609 --> 00:01:34,910
+ 
+ 
+
+00:01:34,910 --> 00:01:36,469
+ 
+ 
+
+00:01:36,469 --> 00:01:38,390
+ 
+ 
+
+00:01:38,390 --> 00:01:39,830
+ 
+ 
+
+00:01:39,830 --> 00:01:41,510
+ 
+ 
+
+00:01:41,510 --> 00:01:44,030
+ 
+ 
+
+00:01:44,030 --> 00:01:47,530
+ 
+ 
+
+00:01:47,530 --> 00:01:50,870
+ 
+ 
+
+00:01:50,870 --> 00:01:53,030
+ 
+ 
+
+00:01:53,030 --> 00:01:56,810
+ 
+ 
+
+00:01:56,810 --> 00:01:58,130
+ 
+ 
+
+00:01:58,130 --> 00:02:01,789
+ 
+ 
+
+00:02:01,789 --> 00:02:04,730
+ 
+ 
+
+00:02:04,730 --> 00:02:07,010
+ 
+ 
+
+00:02:07,010 --> 00:02:08,749
+ 
+ 
+
+00:02:08,749 --> 00:02:10,850
+ 
+ 
+
+00:02:10,850 --> 00:02:13,670
+ 
+ 
+
+00:02:13,670 --> 00:02:15,350
+ 
+ 
+
+00:02:15,350 --> 00:02:18,290
+ 
+ 
+
+00:02:18,290 --> 00:02:21,290
+ 
+ 
+
+00:02:21,290 --> 00:02:23,990
+ 
+ 
+
+00:02:23,990 --> 00:02:26,330
+ 
+ 
+
+00:02:26,330 --> 00:02:29,630
+ 
+ 
+
+00:02:29,630 --> 00:02:32,809
+ 
+ 
+
+00:02:32,809 --> 00:02:34,670
+ 
+ 
+
+00:02:34,670 --> 00:02:36,830
+ 
+ 
+
+00:02:36,830 --> 00:02:38,750
+ 
+ 
+
+00:02:38,750 --> 00:02:41,330
+ 
+ 
+
+00:02:41,330 --> 00:02:43,970
+ 
+ 
+
+00:02:43,970 --> 00:02:47,390
+ 
+ 
+
+00:02:47,390 --> 00:02:48,890
+ 
+ 
+
+00:02:48,890 --> 00:02:51,770
+ 
+ 
+
+00:02:51,770 --> 00:02:54,050
+ 
+ 
+
+00:02:54,050 --> 00:02:56,630
+ 
+ 
+
+00:02:56,630 --> 00:02:58,550
+ 
+ 
+
+00:02:58,550 --> 00:03:00,649
+ 
+ 
+
+00:03:00,649 --> 00:03:04,190
+ 
+ 
+
+00:03:04,190 --> 00:03:06,290
+ 
+ 
+
+00:03:06,290 --> 00:03:08,210
+ 
+ 
+
+00:03:08,210 --> 00:03:12,470
+ 
+ 
+
+00:03:12,470 --> 00:03:13,490
+ 
+ 
+
+00:03:13,490 --> 00:03:15,710
+ 
+ 
+
+00:03:15,710 --> 00:03:18,110
+ 
+ 
+
+00:03:18,110 --> 00:03:20,449
+ 
+ 
+
+00:03:20,449 --> 00:03:22,610
+ 
+ 
+
+00:03:22,610 --> 00:03:25,430
+ 
+ 
+
+00:03:25,430 --> 00:03:27,530
+ 
+ 
+
+00:03:27,530 --> 00:03:30,170
+ 
+ 
+
+00:03:30,170 --> 00:03:33,050
+ 
+ 
+
+00:03:33,050 --> 00:03:35,690
+ 
+ 
+
+00:03:35,690 --> 00:03:38,270
+ 
+ 
+
+00:03:38,270 --> 00:03:39,589
+ 
+ 
+
+00:03:39,589 --> 00:03:41,570
+ 
+ 
+
+00:03:41,570 --> 00:03:46,729
+ 
+ 
+
+00:03:46,729 --> 00:03:49,190
+ 
+ 
+
+00:03:49,190 --> 00:03:51,530
+ 
+ 
+
+00:03:51,530 --> 00:03:54,649
+ 
+ 
+
+00:03:54,649 --> 00:03:57,910
+ 
+ 
+
+00:03:57,910 --> 00:04:02,149
+ 
+ 
+
+00:04:02,149 --> 00:04:05,330
+ 
+ 
+
+00:04:05,330 --> 00:04:08,270
+ 
+ 
+
+00:04:08,270 --> 00:04:11,509
+ 
+ 
+
+00:04:11,509 --> 00:04:14,929
+ 
+ 
+
+00:04:14,929 --> 00:04:18,830
+ 
+ 
+
+00:04:18,830 --> 00:04:22,850
+ 
+ 
+
+00:04:22,850 --> 00:04:24,409
+ 
+ 
+
+00:04:24,409 --> 00:04:26,390
+ 
+ 
+
+00:04:26,390 --> 00:04:28,969
+ 
+ 
+
+00:04:28,969 --> 00:04:31,730
+ 
+ 
+
+00:04:31,730 --> 00:04:36,770
+ 
+ 
+
+00:04:36,770 --> 00:04:38,450
+ 
+ 
+
+00:04:38,450 --> 00:04:40,670
+ 
+ 
+
+00:04:40,670 --> 00:04:40,680
+ 
+ 
+
+00:04:40,680 --> 00:04:41,930
+ 
+
+
+00:04:41,930 --> 00:04:43,610
+ 
+ 
+
+00:04:43,610 --> 00:04:47,450
+ 
+ 
+
+00:04:47,450 --> 00:04:49,490
+ 
+ 
+
+00:04:49,490 --> 00:04:52,129
+ 
+ 
+
+00:04:52,129 --> 00:04:54,650
+ 
+ 
+
+00:04:54,650 --> 00:04:57,590
+ 
+ 
+
+00:04:57,590 --> 00:04:58,909
+ 
+ 
+
+00:04:58,909 --> 00:05:01,610
+ 
+ 
+
+00:05:01,610 --> 00:05:04,189
+ 
+ 
+
+00:05:04,189 --> 00:05:06,469
+ 
+ 
+
+00:05:06,469 --> 00:05:10,850
+ 
+ 
+
+00:05:10,850 --> 00:05:13,310
+ 
+ 
+
+00:05:13,310 --> 00:05:17,090
+ 
+ 
+
+00:05:17,090 --> 00:05:19,790
+ 
+ 
+
+00:05:19,790 --> 00:05:21,950
+ 
+ 
+
+00:05:21,950 --> 00:05:25,610
+ 
+ 
+
+00:05:25,610 --> 00:05:28,070
+ 
+ 
+
+00:05:28,070 --> 00:05:30,590
+ 
+ 
+
+00:05:30,590 --> 00:05:32,029
+ 
+ 
+
+00:05:32,029 --> 00:05:34,909
+ 
+ 
+
+00:05:34,909 --> 00:05:37,249
+ 
+ 
+
+00:05:37,249 --> 00:05:39,890
+ 
+ 
+
+00:05:39,890 --> 00:05:41,990
+ 
+ 
+
+00:05:41,990 --> 00:05:44,029
+ 
+ 
+
+00:05:44,029 --> 00:05:46,490
+ 
+ 
+
+00:05:46,490 --> 00:05:48,890
+ 
+ 
+
+00:05:48,890 --> 00:05:51,290
+ 
+ 
+
+00:05:51,290 --> 00:05:53,870
+ 
+ 
+
+00:05:53,870 --> 00:05:55,850
+ 
+ 
+
+00:05:55,850 --> 00:05:55,860
+ 
+ 
+
+00:05:55,860 --> 00:05:57,170
+ 
+
+
+00:05:57,170 --> 00:05:59,270
+ 
+ 
+
+00:05:59,270 --> 00:06:01,490
+ 
+ 
+
+00:06:01,490 --> 00:06:04,610
+ 
+ 
+
+00:06:04,610 --> 00:06:07,070
+ 
+ 
+
+00:06:07,070 --> 00:06:09,790
+ 
+ 
+
+00:06:09,790 --> 00:06:14,510
+ 
+ 
+
+00:06:14,510 --> 00:06:19,029
+ 
+ 
+
+00:06:19,029 --> 00:06:23,809
+ 
+ 
+
+00:06:23,809 --> 00:06:25,070
+ 
+ 
+
+00:06:25,070 --> 00:06:29,210
+ 
+ 
+
+00:06:29,210 --> 00:06:29,220
+ 
+ 
+
+00:06:29,220 --> 00:06:30,650
+ 
+
+
+00:06:30,650 --> 00:06:32,870
+ 
+ 
+
+00:06:32,870 --> 00:06:34,550
+ 
+ 
+
+00:06:34,550 --> 00:06:39,710
+ 
+ 
+
+00:06:39,710 --> 00:06:43,670
+ 
+ 
+
+00:06:43,670 --> 00:06:46,670
+ 
+ 
+
+00:06:46,670 --> 00:06:49,070
+ 
+ 
+
+00:06:49,070 --> 00:06:50,629
+ 
+ 
+
+00:06:50,629 --> 00:06:53,330
+ 
+ 
+
+00:06:53,330 --> 00:06:56,150
+ 
+ 
+
+00:06:56,150 --> 00:06:58,550
+ 
+ 
+
+00:06:58,550 --> 00:07:00,290
+ 
+ 
+
+00:07:00,290 --> 00:07:03,529
+ 
+ 
+
+00:07:03,529 --> 00:07:06,589
+ 
+ 
+
+00:07:06,589 --> 00:07:09,290
+ 
+ 
+
+00:07:09,290 --> 00:07:11,870
+ 
+ 
+
+00:07:11,870 --> 00:07:13,790
+ 
+ 
+
+00:07:13,790 --> 00:07:16,010
+ 
+ 
+
+00:07:16,010 --> 00:07:17,510
+ 
+ 
+
+00:07:17,510 --> 00:07:20,629
+ 
+ 
+
+00:07:20,629 --> 00:07:22,249
+ 
+ 
+
+00:07:22,249 --> 00:07:22,259
+ 
+ 
+
+00:07:22,259 --> 00:07:24,800
+ 
+
+

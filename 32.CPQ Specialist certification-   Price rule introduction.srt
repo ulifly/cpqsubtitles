@@ -1,0 +1,1145 @@
+
+00:00:00,799 --> 00:00:02,710
+ 
+good everyone i hope you guys have an  amazing day so today i'm going to talk  about the pricing rules uh we talked  about the pricing method subscription uh  options right um the pricing rule is  important when you're not happy with the  you know subscription offer or  uh the pricing method which comes out of  box right so so for instance i'll give  you an example this is a pretty classic  trailer example right so you wanted to  sell say a chromebook obviously right in  new zealand if you're in new zealand or  perhaps in the united states or maybe in  the uk the kids st says use chromebook  at school right school encourage  um  them to use chromebooks for their home  uh for the assignments as pretty  useful um you know for doing a lot of  things using google google classrooms  and other kind of stuff right  so um  say  uh you as a company wanted to you know  ship a chromebook on a discounted price  or in a special price  uh if  an account belong to an education  account right so obviously when you  create an account you have industry type  so if anything  associated with education right say for  instance  i have accounts right  let me show you right it's good and then  i have a school account  and where i specified  education as  sorry  industry as an education so what i  wanted to do  i wanted to give  a different price for a chromebook for  every account associated with industry  uh  where value equals to education right  now you can say that oh why can't i use  the price book right you can't use a  price but but imagine  if you have to use the price book and if  you want to work out the scenarios right  you might end up having a lot of price  books and when that happens you might  end up in making a mistake by choosing  the wrong price book or then you're  going to go and amend it it's not really  a great user experience right from a  from a sales rep perspective so that's  why we have something called price rule  in place so price rule will  give you that options and you can uh do  this custom requirement which is pretty  amazing so before configuring the price  book right you just have to remember one  thing you have to  uh change the legacy calculator options  so unfortunately i've changed it so i  can't demonstrate it but i can still  show you if you go to  setup right  and if you look for  install packages  okay  so  install packages  right and then look for the cpq  and then you say configure  all right this is cpu one  um under configure  um  uh under pricing and calculation  [Music]  right uh you have an option called the  legacy calculator right so by default it  will be ticked okay so when you untick  it you will have some option called  some kind of managed calculation you  need to click that and i will give you  an option to acknowledge it you do that  then it will get unticked means  basically you're not using a legacy  calculator if you're going to use the  legacy calculator then the price  rules won't work okay so remember that  once you configure that  go to this tick tack talk icon and you  just look for price rules so i'm going  to configure price for price rule it's  like an if  then condition right you have a  condition and based on the condition you  will get an expected output that's all  to it okay it's like uh if you're coming  from an apex background you'll see if  else condition right so or if you've  used the formula fields right if you are  an admin if you haven't worked with  salesforce apex so you would know right  what if  condition means right so it's similar to  that we're going to use it here and i'll  show you it's pretty simple  so the first thing first right if i like  i wanted to build that scenario where i  wanted to give  uh  a product called chromebook to an  account  where we create a code for a specific  grade okay  so what i'll do  uh i'll go to  so the chromebook so let's look at the  product first okay  yeah chromebook  uh  the price of it is like 400 bucks okay  so i wanted to give this to say 230  bucks  to  an account associated with industry type  education okay so i'll go to price rule  uh go to new  and i say school  or i can say education  price  right  uh evaluation scope uh use calculator  for now i'll explain in detail in the  next episode or the future episode but  for now just use calculator um uh just  um  uh just make sure to  you keep it active right if you don't  take it too active your pricing rules  will not get applicable right yeah just  click save  all right now  this is where the magic happens the if  condition right  you need to specify a logic  so this is the if and this price action  will be then okay so if you meet certain  criteria you will get this specific  outcome so what is we are looking for we  say hey uh look at the code so obviously  when you create a code right you select  an account and so in that code we have a  field called account industry so this is  the default uh field which salesforce  which this code has which is a formula  field which is pretty much linking to an  account industry type so in future if  you wanted to  do uh based on different requirement you  might have to create an extra field and  that will show up here okay so i'm just  trying to demonstrate a pretty basic  example that's been uh demonstrated in  trailhead so  okay so account industry  uh operators also equals filter type  value and also education right  and i'll do save  okay so i said if  in my code  industry type equals education right  now i also want to choose the product  right obviously you know what that will  do that any if you if you don't want to  choose a product that's fine you can use  this  you  but i would really uh prefer  that  you choose a product otherwise you know  it it no it will not make any sense  right so all the new  uh because then you are giving the same  price to every product so which is not  really ideal in my opinion okay the code  line because obviously your code line  will have product  uh the field is the product code so the  product code i will say  equals  value  uh  chromebook okay oh yeah chrome  look obviously it's an uppercase  okay so now i specify my if condition i  said all right i have a  code right we're an account industry  type equals education and  when you choose the code line the  product code is kills the chromebook  pretty simple right  now  based on this condition what exactly we  wanted to achieve right so i wanted to  set a price which is different to the  price book price  so i'll go new  um i'll choose the target object as  the code line right  and i'll choose this list price okay and  i'll say value  to 30 bucks  that's all i have to do right now let's  go to the code  okay  i'll create a new code  and i'll say  make a primary  account i will choose the school account  right save it  i'll choose the code line  edit lines  and uh  i'll keep it all right that's not a  problem here  right now add products  look for chromebook  and i'll select it  select  now you see the difference  to 30 bucks right  so that's how it works it's very  flexible as you can see it's not rocket  science guys it's just a very basic  configuration right you don't need to be  a programmer to do this right cpq  there's a there's a developer one which  is different thing but i'm saying i mean  you don't really have to be a developer  to actually work with cpq you can be a  functional consultant and you will do  pretty amazing work with the cpq it's  pretty simple it's not complicated the  only thing you have to understand is  that different options different  configuration you know when to suggest  what right so  if if you could manage that then you're  pretty good to go in my opinion so  that's pretty much i wanted to cover in  this episode i hope you guys enjoyed it  so that being said i hope you guys have  an amazing sunday adios
+
+00:00:02,710 --> 00:00:04,390
+good everyone i hope you guys have an  amazing day so today i'm going to talk  about the pricing rules uh we talked  about the pricing method subscription uh  options right um the pricing rule is  important when you're not happy with the  you know subscription offer or  uh the pricing method which comes out of  box right so so for instance i'll give  you an example this is a pretty classic  trailer example right so you wanted to  sell say a chromebook obviously right in  new zealand if you're in new zealand or  perhaps in the united states or maybe in  the uk the kids st says use chromebook  at school right school encourage  um  them to use chromebooks for their home  uh for the assignments as pretty  useful um you know for doing a lot of  things using google google classrooms  and other kind of stuff right  so um  say  uh you as a company wanted to you know  ship a chromebook on a discounted price  or in a special price  uh if  an account belong to an education  account right so obviously when you  create an account you have industry type  so if anything  associated with education right say for  instance  i have accounts right  let me show you right it's good and then  i have a school account  and where i specified  education as  sorry  industry as an education so what i  wanted to do  i wanted to give  a different price for a chromebook for  every account associated with industry  uh  where value equals to education right  now you can say that oh why can't i use  the price book right you can't use a  price but but imagine  if you have to use the price book and if  you want to work out the scenarios right  you might end up having a lot of price  books and when that happens you might  end up in making a mistake by choosing  the wrong price book or then you're  going to go and amend it it's not really  a great user experience right from a  from a sales rep perspective so that's  why we have something called price rule  in place so price rule will  give you that options and you can uh do  this custom requirement which is pretty  amazing so before configuring the price  book right you just have to remember one  thing you have to  uh change the legacy calculator options  so unfortunately i've changed it so i  can't demonstrate it but i can still  show you if you go to  setup right  and if you look for  install packages  okay  so  install packages  right and then look for the cpq  and then you say configure  all right this is cpu one  um under configure  um  uh under pricing and calculation  [Music]  right uh you have an option called the  legacy calculator right so by default it  will be ticked okay so when you untick  it you will have some option called  some kind of managed calculation you  need to click that and i will give you  an option to acknowledge it you do that  then it will get unticked means  basically you're not using a legacy  calculator if you're going to use the  legacy calculator then the price  rules won't work okay so remember that  once you configure that  go to this tick tack talk icon and you  just look for price rules so i'm going  to configure price for price rule it's  like an if  then condition right you have a  condition and based on the condition you  will get an expected output that's all  to it okay it's like uh if you're coming  from an apex background you'll see if  else condition right so or if you've  used the formula fields right if you are  an admin if you haven't worked with  salesforce apex so you would know right  what if  condition means right so it's similar to  that we're going to use it here and i'll  show you it's pretty simple  so the first thing first right if i like  i wanted to build that scenario where i  wanted to give  uh  a product called chromebook to an  account  where we create a code for a specific  grade okay  so what i'll do  uh i'll go to  so the chromebook so let's look at the  product first okay  yeah chromebook  uh  the price of it is like 400 bucks okay  so i wanted to give this to say 230  bucks  to  an account associated with industry type  education okay so i'll go to price rule  uh go to new  and i say school  or i can say education  price  right  uh evaluation scope uh use calculator  for now i'll explain in detail in the  next episode or the future episode but  for now just use calculator um uh just  um  uh just make sure to  you keep it active right if you don't  take it too active your pricing rules  will not get applicable right yeah just  click save  all right now  this is where the magic happens the if  condition right  you need to specify a logic  so this is the if and this price action  will be then okay so if you meet certain  criteria you will get this specific  outcome so what is we are looking for we  say hey uh look at the code so obviously  when you create a code right you select  an account and so in that code we have a  field called account industry so this is  the default uh field which salesforce  which this code has which is a formula  field which is pretty much linking to an  account industry type so in future if  you wanted to  do uh based on different requirement you  might have to create an extra field and  that will show up here okay so i'm just  trying to demonstrate a pretty basic  example that's been uh demonstrated in  trailhead so  okay so account industry  uh operators also equals filter type  value and also education right  and i'll do save  okay so i said if  in my code  industry type equals education right  now i also want to choose the product  right obviously you know what that will  do that any if you if you don't want to  choose a product that's fine you can use  this  you  but i would really uh prefer  that  you choose a product otherwise you know  it it no it will not make any sense  right so all the new  uh because then you are giving the same  price to every product so which is not  really ideal in my opinion okay the code  line because obviously your code line  will have product  uh the field is the product code so the  product code i will say  equals  value  uh  chromebook okay oh yeah chrome  look obviously it's an uppercase  okay so now i specify my if condition i  said all right i have a  code right we're an account industry  type equals education and  when you choose the code line the  product code is kills the chromebook  pretty simple right  now  based on this condition what exactly we  wanted to achieve right so i wanted to  set a price which is different to the  price book price  so i'll go new  um i'll choose the target object as  the code line right  and i'll choose this list price okay and  i'll say value  to 30 bucks  that's all i have to do right now let's  go to the code  okay  i'll create a new code  and i'll say  make a primary  account i will choose the school account  right save it  i'll choose the code line  edit lines  and uh  i'll keep it all right that's not a  problem here  right now add products  look for chromebook  and i'll select it  select  now you see the difference  to 30 bucks right  so that's how it works it's very  flexible as you can see it's not rocket  science guys it's just a very basic  configuration right you don't need to be  a programmer to do this right cpq  there's a there's a developer one which  is different thing but i'm saying i mean  you don't really have to be a developer  to actually work with cpq you can be a  functional consultant and you will do  pretty amazing work with the cpq it's  pretty simple it's not complicated the  only thing you have to understand is  that different options different  configuration you know when to suggest  what right so  if if you could manage that then you're  pretty good to go in my opinion so  that's pretty much i wanted to cover in  this episode i hope you guys enjoyed it  so that being said i hope you guys have  an amazing sunday adios
+ 
+
+00:00:04,390 --> 00:00:06,710
+ 
+ 
+
+00:00:06,710 --> 00:00:09,750
+ 
+ 
+
+00:00:09,750 --> 00:00:12,310
+ 
+ 
+
+00:00:12,310 --> 00:00:14,709
+ 
+ 
+
+00:00:14,709 --> 00:00:17,029
+ 
+ 
+
+00:00:17,029 --> 00:00:19,189
+ 
+ 
+
+00:00:19,189 --> 00:00:21,510
+ 
+ 
+
+00:00:21,510 --> 00:00:23,029
+ 
+ 
+
+00:00:23,029 --> 00:00:26,150
+ 
+ 
+
+00:00:26,150 --> 00:00:29,189
+ 
+ 
+
+00:00:29,189 --> 00:00:31,189
+ 
+ 
+
+00:00:31,189 --> 00:00:32,950
+ 
+ 
+
+00:00:32,950 --> 00:00:35,750
+ 
+ 
+
+00:00:35,750 --> 00:00:37,830
+ 
+ 
+
+00:00:37,830 --> 00:00:37,840
+ 
+ 
+
+00:00:37,840 --> 00:00:38,950
+ 
+
+
+00:00:38,950 --> 00:00:41,750
+ 
+ 
+
+00:00:41,750 --> 00:00:44,869
+ 
+ 
+
+00:00:44,869 --> 00:00:47,350
+ 
+ 
+
+00:00:47,350 --> 00:00:49,350
+ 
+ 
+
+00:00:49,350 --> 00:00:51,029
+ 
+ 
+
+00:00:51,029 --> 00:00:52,389
+ 
+ 
+
+00:00:52,389 --> 00:00:52,399
+ 
+ 
+
+00:00:52,399 --> 00:00:53,189
+ 
+
+
+00:00:53,189 --> 00:00:55,590
+ 
+ 
+
+00:00:55,590 --> 00:00:58,790
+ 
+ 
+
+00:00:58,790 --> 00:01:00,470
+ 
+ 
+
+00:01:00,470 --> 00:01:01,750
+ 
+ 
+
+00:01:01,750 --> 00:01:04,310
+ 
+ 
+
+00:01:04,310 --> 00:01:06,469
+ 
+ 
+
+00:01:06,469 --> 00:01:09,030
+ 
+ 
+
+00:01:09,030 --> 00:01:10,870
+ 
+ 
+
+00:01:10,870 --> 00:01:13,670
+ 
+ 
+
+00:01:13,670 --> 00:01:13,680
+ 
+ 
+
+00:01:13,680 --> 00:01:15,350
+ 
+
+
+00:01:15,350 --> 00:01:18,469
+ 
+ 
+
+00:01:18,469 --> 00:01:20,630
+ 
+ 
+
+00:01:20,630 --> 00:01:22,870
+ 
+ 
+
+00:01:22,870 --> 00:01:25,749
+ 
+ 
+
+00:01:25,749 --> 00:01:27,109
+ 
+ 
+
+00:01:27,109 --> 00:01:27,119
+ 
+ 
+
+00:01:27,119 --> 00:01:27,910
+ 
+
+
+00:01:27,910 --> 00:01:29,990
+ 
+ 
+
+00:01:29,990 --> 00:01:31,109
+ 
+ 
+
+00:01:31,109 --> 00:01:35,190
+ 
+ 
+
+00:01:35,190 --> 00:01:37,830
+ 
+ 
+
+00:01:37,830 --> 00:01:40,550
+ 
+ 
+
+00:01:40,550 --> 00:01:40,560
+ 
+ 
+
+00:01:40,560 --> 00:01:41,429
+ 
+
+
+00:01:41,429 --> 00:01:44,950
+ 
+ 
+
+00:01:44,950 --> 00:01:47,830
+ 
+ 
+
+00:01:47,830 --> 00:01:49,270
+ 
+ 
+
+00:01:49,270 --> 00:01:51,190
+ 
+ 
+
+00:01:51,190 --> 00:01:53,590
+ 
+ 
+
+00:01:53,590 --> 00:01:55,830
+ 
+ 
+
+00:01:55,830 --> 00:01:57,670
+ 
+ 
+
+00:01:57,670 --> 00:02:00,069
+ 
+ 
+
+00:02:00,069 --> 00:02:02,230
+ 
+ 
+
+00:02:02,230 --> 00:02:04,149
+ 
+ 
+
+00:02:04,149 --> 00:02:06,310
+ 
+ 
+
+00:02:06,310 --> 00:02:08,309
+ 
+ 
+
+00:02:08,309 --> 00:02:10,469
+ 
+ 
+
+00:02:10,469 --> 00:02:12,150
+ 
+ 
+
+00:02:12,150 --> 00:02:15,110
+ 
+ 
+
+00:02:15,110 --> 00:02:17,830
+ 
+ 
+
+00:02:17,830 --> 00:02:20,070
+ 
+ 
+
+00:02:20,070 --> 00:02:22,869
+ 
+ 
+
+00:02:22,869 --> 00:02:24,869
+ 
+ 
+
+00:02:24,869 --> 00:02:26,470
+ 
+ 
+
+00:02:26,470 --> 00:02:29,750
+ 
+ 
+
+00:02:29,750 --> 00:02:32,229
+ 
+ 
+
+00:02:32,229 --> 00:02:34,550
+ 
+ 
+
+00:02:34,550 --> 00:02:36,550
+ 
+ 
+
+00:02:36,550 --> 00:02:38,470
+ 
+ 
+
+00:02:38,470 --> 00:02:40,470
+ 
+ 
+
+00:02:40,470 --> 00:02:42,150
+ 
+ 
+
+00:02:42,150 --> 00:02:42,160
+ 
+ 
+
+00:02:42,160 --> 00:02:43,270
+ 
+
+
+00:02:43,270 --> 00:02:43,280
+ 
+ 
+
+00:02:43,280 --> 00:02:44,550
+ 
+
+
+00:02:44,550 --> 00:02:48,869
+ 
+ 
+
+00:02:48,869 --> 00:02:51,430
+ 
+ 
+
+00:02:51,430 --> 00:02:55,509
+ 
+ 
+
+00:02:55,509 --> 00:02:57,589
+ 
+ 
+
+00:02:57,589 --> 00:02:59,589
+ 
+ 
+
+00:02:59,589 --> 00:02:59,599
+ 
+ 
+
+00:02:59,599 --> 00:03:02,949
+ 
+
+
+00:03:02,949 --> 00:03:05,480
+ 
+ 
+
+00:03:05,480 --> 00:03:05,490
+ 
+ 
+
+00:03:05,490 --> 00:03:07,190
+ 
+
+
+00:03:07,190 --> 00:03:09,910
+ 
+ 
+
+00:03:09,910 --> 00:03:13,110
+ 
+ 
+
+00:03:13,110 --> 00:03:15,350
+ 
+ 
+
+00:03:15,350 --> 00:03:17,670
+ 
+ 
+
+00:03:17,670 --> 00:03:19,270
+ 
+ 
+
+00:03:19,270 --> 00:03:21,110
+ 
+ 
+
+00:03:21,110 --> 00:03:23,589
+ 
+ 
+
+00:03:23,589 --> 00:03:25,670
+ 
+ 
+
+00:03:25,670 --> 00:03:27,430
+ 
+ 
+
+00:03:27,430 --> 00:03:29,110
+ 
+ 
+
+00:03:29,110 --> 00:03:31,430
+ 
+ 
+
+00:03:31,430 --> 00:03:34,390
+ 
+ 
+
+00:03:34,390 --> 00:03:36,070
+ 
+ 
+
+00:03:36,070 --> 00:03:38,229
+ 
+ 
+
+00:03:38,229 --> 00:03:40,710
+ 
+ 
+
+00:03:40,710 --> 00:03:42,309
+ 
+ 
+
+00:03:42,309 --> 00:03:43,589
+ 
+ 
+
+00:03:43,589 --> 00:03:45,350
+ 
+ 
+
+00:03:45,350 --> 00:03:47,910
+ 
+ 
+
+00:03:47,910 --> 00:03:50,550
+ 
+ 
+
+00:03:50,550 --> 00:03:53,110
+ 
+ 
+
+00:03:53,110 --> 00:03:54,949
+ 
+ 
+
+00:03:54,949 --> 00:03:56,869
+ 
+ 
+
+00:03:56,869 --> 00:03:58,789
+ 
+ 
+
+00:03:58,789 --> 00:04:00,470
+ 
+ 
+
+00:04:00,470 --> 00:04:02,710
+ 
+ 
+
+00:04:02,710 --> 00:04:03,830
+ 
+ 
+
+00:04:03,830 --> 00:04:05,750
+ 
+ 
+
+00:04:05,750 --> 00:04:07,830
+ 
+ 
+
+00:04:07,830 --> 00:04:09,350
+ 
+ 
+
+00:04:09,350 --> 00:04:11,910
+ 
+ 
+
+00:04:11,910 --> 00:04:13,509
+ 
+ 
+
+00:04:13,509 --> 00:04:14,710
+ 
+ 
+
+00:04:14,710 --> 00:04:14,720
+ 
+ 
+
+00:04:14,720 --> 00:04:15,750
+ 
+
+
+00:04:15,750 --> 00:04:18,310
+ 
+ 
+
+00:04:18,310 --> 00:04:18,320
+ 
+ 
+
+00:04:18,320 --> 00:04:19,509
+ 
+
+
+00:04:19,509 --> 00:04:21,349
+ 
+ 
+
+00:04:21,349 --> 00:04:22,870
+ 
+ 
+
+00:04:22,870 --> 00:04:24,629
+ 
+ 
+
+00:04:24,629 --> 00:04:26,310
+ 
+ 
+
+00:04:26,310 --> 00:04:28,150
+ 
+ 
+
+00:04:28,150 --> 00:04:30,230
+ 
+ 
+
+00:04:30,230 --> 00:04:32,469
+ 
+ 
+
+00:04:32,469 --> 00:04:32,479
+ 
+ 
+
+00:04:32,479 --> 00:04:33,590
+ 
+
+
+00:04:33,590 --> 00:04:36,230
+ 
+ 
+
+00:04:36,230 --> 00:04:38,310
+ 
+ 
+
+00:04:38,310 --> 00:04:38,320
+ 
+ 
+
+00:04:38,320 --> 00:04:39,350
+ 
+
+
+00:04:39,350 --> 00:04:39,360
+ 
+ 
+
+00:04:39,360 --> 00:04:40,150
+ 
+
+
+00:04:40,150 --> 00:04:42,469
+ 
+ 
+
+00:04:42,469 --> 00:04:46,070
+ 
+ 
+
+00:04:46,070 --> 00:04:47,990
+ 
+ 
+
+00:04:47,990 --> 00:04:50,790
+ 
+ 
+
+00:04:50,790 --> 00:04:53,030
+ 
+ 
+
+00:04:53,030 --> 00:04:53,040
+ 
+ 
+
+00:04:53,040 --> 00:04:54,310
+ 
+
+
+00:04:54,310 --> 00:04:54,320
+ 
+ 
+
+00:04:54,320 --> 00:04:55,030
+ 
+
+
+00:04:55,030 --> 00:04:57,749
+ 
+ 
+
+00:04:57,749 --> 00:04:59,270
+ 
+ 
+
+00:04:59,270 --> 00:05:01,350
+ 
+ 
+
+00:05:01,350 --> 00:05:04,790
+ 
+ 
+
+00:05:04,790 --> 00:05:04,800
+ 
+ 
+
+00:05:04,800 --> 00:05:06,550
+ 
+
+
+00:05:06,550 --> 00:05:08,629
+ 
+ 
+
+00:05:08,629 --> 00:05:11,110
+ 
+ 
+
+00:05:11,110 --> 00:05:13,749
+ 
+ 
+
+00:05:13,749 --> 00:05:16,390
+ 
+ 
+
+00:05:16,390 --> 00:05:19,029
+ 
+ 
+
+00:05:19,029 --> 00:05:20,870
+ 
+ 
+
+00:05:20,870 --> 00:05:23,029
+ 
+ 
+
+00:05:23,029 --> 00:05:24,469
+ 
+ 
+
+00:05:24,469 --> 00:05:26,550
+ 
+ 
+
+00:05:26,550 --> 00:05:28,950
+ 
+ 
+
+00:05:28,950 --> 00:05:31,270
+ 
+ 
+
+00:05:31,270 --> 00:05:33,510
+ 
+ 
+
+00:05:33,510 --> 00:05:36,469
+ 
+ 
+
+00:05:36,469 --> 00:05:40,150
+ 
+ 
+
+00:05:40,150 --> 00:05:41,749
+ 
+ 
+
+00:05:41,749 --> 00:05:45,189
+ 
+ 
+
+00:05:45,189 --> 00:05:48,150
+ 
+ 
+
+00:05:48,150 --> 00:05:51,430
+ 
+ 
+
+00:05:51,430 --> 00:05:53,590
+ 
+ 
+
+00:05:53,590 --> 00:05:55,510
+ 
+ 
+
+00:05:55,510 --> 00:05:58,070
+ 
+ 
+
+00:05:58,070 --> 00:05:59,830
+ 
+ 
+
+00:05:59,830 --> 00:06:01,990
+ 
+ 
+
+00:06:01,990 --> 00:06:04,150
+ 
+ 
+
+00:06:04,150 --> 00:06:06,309
+ 
+ 
+
+00:06:06,309 --> 00:06:07,909
+ 
+ 
+
+00:06:07,909 --> 00:06:10,070
+ 
+ 
+
+00:06:10,070 --> 00:06:11,670
+ 
+ 
+
+00:06:11,670 --> 00:06:13,909
+ 
+ 
+
+00:06:13,909 --> 00:06:17,189
+ 
+ 
+
+00:06:17,189 --> 00:06:21,990
+ 
+ 
+
+00:06:21,990 --> 00:06:23,830
+ 
+ 
+
+00:06:23,830 --> 00:06:25,990
+ 
+ 
+
+00:06:25,990 --> 00:06:27,510
+ 
+ 
+
+00:06:27,510 --> 00:06:30,950
+ 
+ 
+
+00:06:30,950 --> 00:06:32,710
+ 
+ 
+
+00:06:32,710 --> 00:06:35,270
+ 
+ 
+
+00:06:35,270 --> 00:06:37,670
+ 
+ 
+
+00:06:37,670 --> 00:06:39,430
+ 
+ 
+
+00:06:39,430 --> 00:06:39,440
+ 
+ 
+
+00:06:39,440 --> 00:06:40,469
+ 
+
+
+00:06:40,469 --> 00:06:40,479
+ 
+ 
+
+00:06:40,479 --> 00:06:41,189
+ 
+
+
+00:06:41,189 --> 00:06:44,550
+ 
+ 
+
+00:06:44,550 --> 00:06:44,560
+ 
+ 
+
+00:06:44,560 --> 00:06:46,070
+ 
+
+
+00:06:46,070 --> 00:06:48,469
+ 
+ 
+
+00:06:48,469 --> 00:06:51,189
+ 
+ 
+
+00:06:51,189 --> 00:06:54,070
+ 
+ 
+
+00:06:54,070 --> 00:06:55,830
+ 
+ 
+
+00:06:55,830 --> 00:06:57,510
+ 
+ 
+
+00:06:57,510 --> 00:06:59,909
+ 
+ 
+
+00:06:59,909 --> 00:07:01,430
+ 
+ 
+
+00:07:01,430 --> 00:07:03,189
+ 
+ 
+
+00:07:03,189 --> 00:07:06,150
+ 
+ 
+
+00:07:06,150 --> 00:07:09,510
+ 
+ 
+
+00:07:09,510 --> 00:07:09,520
+ 
+ 
+
+00:07:09,520 --> 00:07:11,350
+ 
+
+
+00:07:11,350 --> 00:07:11,360
+ 
+ 
+
+00:07:11,360 --> 00:07:12,950
+ 
+
+
+00:07:12,950 --> 00:07:12,960
+ 
+ 
+
+00:07:12,960 --> 00:07:14,070
+ 
+
+
+00:07:14,070 --> 00:07:17,830
+ 
+ 
+
+00:07:17,830 --> 00:07:21,110
+ 
+ 
+
+00:07:21,110 --> 00:07:23,749
+ 
+ 
+
+00:07:23,749 --> 00:07:26,230
+ 
+ 
+
+00:07:26,230 --> 00:07:29,350
+ 
+ 
+
+00:07:29,350 --> 00:07:31,909
+ 
+ 
+
+00:07:31,909 --> 00:07:33,110
+ 
+ 
+
+00:07:33,110 --> 00:07:34,629
+ 
+ 
+
+00:07:34,629 --> 00:07:36,070
+ 
+ 
+
+00:07:36,070 --> 00:07:36,080
+ 
+ 
+
+00:07:36,080 --> 00:07:37,430
+ 
+
+
+00:07:37,430 --> 00:07:39,430
+ 
+ 
+
+00:07:39,430 --> 00:07:41,589
+ 
+ 
+
+00:07:41,589 --> 00:07:43,350
+ 
+ 
+
+00:07:43,350 --> 00:07:44,790
+ 
+ 
+
+00:07:44,790 --> 00:07:47,110
+ 
+ 
+
+00:07:47,110 --> 00:07:49,589
+ 
+ 
+
+00:07:49,589 --> 00:07:51,510
+ 
+ 
+
+00:07:51,510 --> 00:07:54,150
+ 
+ 
+
+00:07:54,150 --> 00:07:55,589
+ 
+ 
+
+00:07:55,589 --> 00:07:58,710
+ 
+ 
+
+00:07:58,710 --> 00:08:00,869
+ 
+ 
+
+00:08:00,869 --> 00:08:02,230
+ 
+ 
+
+00:08:02,230 --> 00:08:02,240
+ 
+ 
+
+00:08:02,240 --> 00:08:03,909
+ 
+
+
+00:08:03,909 --> 00:08:09,510
+ 
+ 
+
+00:08:09,510 --> 00:08:11,270
+ 
+ 
+
+00:08:11,270 --> 00:08:13,110
+ 
+ 
+
+00:08:13,110 --> 00:08:15,589
+ 
+ 
+
+00:08:15,589 --> 00:08:20,869
+ 
+ 
+
+00:08:20,869 --> 00:08:23,830
+ 
+ 
+
+00:08:23,830 --> 00:08:26,710
+ 
+ 
+
+00:08:26,710 --> 00:08:30,309
+ 
+ 
+
+00:08:30,309 --> 00:08:32,630
+ 
+ 
+
+00:08:32,630 --> 00:08:35,269
+ 
+ 
+
+00:08:35,269 --> 00:08:40,149
+ 
+ 
+
+00:08:40,149 --> 00:08:43,909
+ 
+ 
+
+00:08:43,909 --> 00:08:45,750
+ 
+ 
+
+00:08:45,750 --> 00:08:45,760
+ 
+ 
+
+00:08:45,760 --> 00:08:47,990
+ 
+
+
+00:08:47,990 --> 00:08:49,590
+ 
+ 
+
+00:08:49,590 --> 00:08:51,750
+ 
+ 
+
+00:08:51,750 --> 00:08:53,670
+ 
+ 
+
+00:08:53,670 --> 00:08:56,070
+ 
+ 
+
+00:08:56,070 --> 00:08:58,070
+ 
+ 
+
+00:08:58,070 --> 00:08:59,910
+ 
+ 
+
+00:08:59,910 --> 00:09:02,389
+ 
+ 
+
+00:09:02,389 --> 00:09:04,230
+ 
+ 
+
+00:09:04,230 --> 00:09:06,070
+ 
+ 
+
+00:09:06,070 --> 00:09:07,910
+ 
+ 
+
+00:09:07,910 --> 00:09:10,470
+ 
+ 
+
+00:09:10,470 --> 00:09:12,389
+ 
+ 
+
+00:09:12,389 --> 00:09:14,389
+ 
+ 
+
+00:09:14,389 --> 00:09:16,550
+ 
+ 
+
+00:09:16,550 --> 00:09:17,910
+ 
+ 
+
+00:09:17,910 --> 00:09:19,030
+ 
+ 
+
+00:09:19,030 --> 00:09:21,190
+ 
+ 
+
+00:09:21,190 --> 00:09:22,949
+ 
+ 
+
+00:09:22,949 --> 00:09:25,030
+ 
+ 
+
+00:09:25,030 --> 00:09:27,190
+ 
+ 
+
+00:09:27,190 --> 00:09:29,110
+ 
+ 
+
+00:09:29,110 --> 00:09:31,110
+ 
+ 
+
+00:09:31,110 --> 00:09:32,630
+ 
+ 
+
+00:09:32,630 --> 00:09:36,519
+ 
+ 
+

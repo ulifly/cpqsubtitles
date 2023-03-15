@@ -1,0 +1,985 @@
+
+00:00:00,659 --> 00:00:02,810
+ 
+good everyone I hope you guys have an  amazing day so until now I talked about  code code template you know which is  pretty cool now you know once you create  a code right the next stage  is to create an order  um so obviously what happens is that you  opened up an opportunity and based on  opportunity with the customer uh you  create a code and once the code get  approved you change that code to a node  which is pretty much the case in most of  the scenarios but that being said you  know you might have a cup you know three  to four codes and out of which  unfortunately only one get approved  right so the code which get approved uh  that get pretty much converted into  order now the few things you have to  understand when you're dealing with cpq  right uh obviously you know it's it's a  very painful process to create an order  from the scratch you can uh pretty you  can if you wanted to do it I mean  it you can do it I mean if you can't  create a new order but that's really not  a very great practice so usually you  know what CPU offers you uh Autobox  functionality where you do a few clicks  and the order will get generated behind  the scene provided if that code is your  primary code okay now if you are not  sure what an order is about order is  just a it just take an example  um of of your day-to-day shopping right  so for instance you know you decide to  buy a PlayStation right PlayStation 5  from a PlayStation from Electronics shop  um now  you place an order right you you go to  the website and you say sweet this is a  Playstation console I wanted to buy and  a few games right you wanted to buy uh  and then you add to the card  and then you pay using your PayPal or  you know Visa Master whatever and then  once it's done you will be given an  order number so that order will be sent  to the to the company to say hey a  customer placed in order this is the  product what they're after that's the  PlayStation console and few games  so the customer sorry the company will  look at it and say okay sweet this is  the customer information the customer  information will be mostly like the name  and address right the billing and  shipping address uh when exactly they  are expecting and the amount of paid uh  you know GST you know especially in New  Zealand you know we got GST and stuff  um and and yeah and it's like a promise  between your customer and and and a  company right to say that okay the  customer bought a product and now the  responsibility of the company to ship uh  the product on time if they can't they  have to pay free from the money right I  do understand that sometimes you know  you know Shady's thing can happen and  customer  uh you know end up in waiting and  waiting and  they don't receive the product so in New  Zealand at least you can take them to a  consumer club I'm not sure of other  countries but uh I'm just telling from a  New Zealand perspective this is how it  works but in general the rule of thumb  right is pretty much the same everywhere  you place an order the company gets an  order right an order often contains  information like I said about the  product they wanted to buy or the  service they wanted to buy uh and you  know the customer information the start  date and their price pay GSD everything  right  okay now first thing first  right uh I mean we pretty much reached  to the end of the course end of the  course like we still got like  um pretty much like 20 25 percent  content remaining and I hope you guys  have registered for our work by this  time right  if if not then I I'm pretty pretty much  lost for words right because that means  you has really not very serious about  taking the certification that's all I  can say right I've been telling pretty  much in every episode right if you guys  haven't registered for it or please do  it please do Hands-On it's very  essential right  um okay all right so  I have created an opportunity right this  is an opportunity I have okay  now I have this primary code okay so  I'll go to this code  and  the one thing I have to tell you guys  right  uh only the primary code can be  converted to order if you are you right  because there's no point in converting  you know the many codes to an order it  doesn't work it makes no sense right and  also you know it makes no sense to  convert that order which is in draft  status right  because what's the point of uh you know  converting an order uh sorry converting  a code to an order which is not even  approved right obviously your customer  has to prove it right they're okay with  the deal you're providing right  sometimes you have to give them  discounted symptoms you have to amend  orders so once the customer says pretty  sweet they are okay to go with this  proposal so you come here uh and change  the status to  uh  approved right  okay once that's done  um all you have to do is pretty simple  you go here you see this tick option  right order you just go here and take it  let's see if it works  okay so that's done now  what will happen right  the order will be created behind the  scene okay  so it will take some time and order will  be generated you can also do this using  an approval process right uh so what  that means is right so obviously someone  will approve once the code get approved  uh this will automatically get ticked  right and then if it's a primary code  right the order will be generated  if that makes sense  okay so let's go to  opportunities so  and  let's go to this one  um so this opportunity is in place now  let's go to the school account because  obviously this  uh opportunity belong to the specific  account to go to the related list  now under related list there's something  called order here you go the order will  be  generator here  okay now let's see what's the order  so you got the four products which is on  which got transferred from a code and  all the prices associated with it will  be transferred as well right if you go  to individual product you can see you  know  it's the order products so all the  prices will be transferred here as well  okay  now you can test it if you like if you  can just verify it I mean just go to the  code  um  it's just one see this status has been  approved and get the codes and it goes  to edit lines  you see this is a the stuff you've paid  right and you can see information about  each one right you can see the stuff  here  special price  and  to factor right 40 bucks 40 bucks so  probably  um  see this is the price we see okay let's  go back to the other one  and just to make it clear  USB I think  40 bucks 40 bucks so the prices get  transferred as well so that's how you  create  um an order right so once the order is  created and you know  you can do activated and you can Market  the current status yeah  so the order has been marked as  activated okay  so and  now you can see the order history you  can you know that's which is pretty  simple right it's the tracking history  in our world  um so yeah that's that's all I wanted to  cover in this episode just to give you a  heads up about what order is about how  easy you can do that using cpq right so  you just have to work around your  process right if you're if you wanted to  use epq for order generation right it  it's a pretty simple process right but  you have to have the process in place  right like I said some companies might  have approval process and say some  companies will have automatic you know  enabling that order tick box so the way  you do it that's all driven by your  process at the end of the day it's all  about process right business process and  you try to solve a customer problem  okay so that's pretty much I wanted to  cover in this episode I hope you guys  have an amazing Saturday adios
+
+00:00:02,810 --> 00:00:05,590
+good everyone I hope you guys have an  amazing day so until now I talked about  code code template you know which is  pretty cool now you know once you create  a code right the next stage  is to create an order  um so obviously what happens is that you  opened up an opportunity and based on  opportunity with the customer uh you  create a code and once the code get  approved you change that code to a node  which is pretty much the case in most of  the scenarios but that being said you  know you might have a cup you know three  to four codes and out of which  unfortunately only one get approved  right so the code which get approved uh  that get pretty much converted into  order now the few things you have to  understand when you're dealing with cpq  right uh obviously you know it's it's a  very painful process to create an order  from the scratch you can uh pretty you  can if you wanted to do it I mean  it you can do it I mean if you can't  create a new order but that's really not  a very great practice so usually you  know what CPU offers you uh Autobox  functionality where you do a few clicks  and the order will get generated behind  the scene provided if that code is your  primary code okay now if you are not  sure what an order is about order is  just a it just take an example  um of of your day-to-day shopping right  so for instance you know you decide to  buy a PlayStation right PlayStation 5  from a PlayStation from Electronics shop  um now  you place an order right you you go to  the website and you say sweet this is a  Playstation console I wanted to buy and  a few games right you wanted to buy uh  and then you add to the card  and then you pay using your PayPal or  you know Visa Master whatever and then  once it's done you will be given an  order number so that order will be sent  to the to the company to say hey a  customer placed in order this is the  product what they're after that's the  PlayStation console and few games  so the customer sorry the company will  look at it and say okay sweet this is  the customer information the customer  information will be mostly like the name  and address right the billing and  shipping address uh when exactly they  are expecting and the amount of paid uh  you know GST you know especially in New  Zealand you know we got GST and stuff  um and and yeah and it's like a promise  between your customer and and and a  company right to say that okay the  customer bought a product and now the  responsibility of the company to ship uh  the product on time if they can't they  have to pay free from the money right I  do understand that sometimes you know  you know Shady's thing can happen and  customer  uh you know end up in waiting and  waiting and  they don't receive the product so in New  Zealand at least you can take them to a  consumer club I'm not sure of other  countries but uh I'm just telling from a  New Zealand perspective this is how it  works but in general the rule of thumb  right is pretty much the same everywhere  you place an order the company gets an  order right an order often contains  information like I said about the  product they wanted to buy or the  service they wanted to buy uh and you  know the customer information the start  date and their price pay GSD everything  right  okay now first thing first  right uh I mean we pretty much reached  to the end of the course end of the  course like we still got like  um pretty much like 20 25 percent  content remaining and I hope you guys  have registered for our work by this  time right  if if not then I I'm pretty pretty much  lost for words right because that means  you has really not very serious about  taking the certification that's all I  can say right I've been telling pretty  much in every episode right if you guys  haven't registered for it or please do  it please do Hands-On it's very  essential right  um okay all right so  I have created an opportunity right this  is an opportunity I have okay  now I have this primary code okay so  I'll go to this code  and  the one thing I have to tell you guys  right  uh only the primary code can be  converted to order if you are you right  because there's no point in converting  you know the many codes to an order it  doesn't work it makes no sense right and  also you know it makes no sense to  convert that order which is in draft  status right  because what's the point of uh you know  converting an order uh sorry converting  a code to an order which is not even  approved right obviously your customer  has to prove it right they're okay with  the deal you're providing right  sometimes you have to give them  discounted symptoms you have to amend  orders so once the customer says pretty  sweet they are okay to go with this  proposal so you come here uh and change  the status to  uh  approved right  okay once that's done  um all you have to do is pretty simple  you go here you see this tick option  right order you just go here and take it  let's see if it works  okay so that's done now  what will happen right  the order will be created behind the  scene okay  so it will take some time and order will  be generated you can also do this using  an approval process right uh so what  that means is right so obviously someone  will approve once the code get approved  uh this will automatically get ticked  right and then if it's a primary code  right the order will be generated  if that makes sense  okay so let's go to  opportunities so  and  let's go to this one  um so this opportunity is in place now  let's go to the school account because  obviously this  uh opportunity belong to the specific  account to go to the related list  now under related list there's something  called order here you go the order will  be  generator here  okay now let's see what's the order  so you got the four products which is on  which got transferred from a code and  all the prices associated with it will  be transferred as well right if you go  to individual product you can see you  know  it's the order products so all the  prices will be transferred here as well  okay  now you can test it if you like if you  can just verify it I mean just go to the  code  um  it's just one see this status has been  approved and get the codes and it goes  to edit lines  you see this is a the stuff you've paid  right and you can see information about  each one right you can see the stuff  here  special price  and  to factor right 40 bucks 40 bucks so  probably  um  see this is the price we see okay let's  go back to the other one  and just to make it clear  USB I think  40 bucks 40 bucks so the prices get  transferred as well so that's how you  create  um an order right so once the order is  created and you know  you can do activated and you can Market  the current status yeah  so the order has been marked as  activated okay  so and  now you can see the order history you  can you know that's which is pretty  simple right it's the tracking history  in our world  um so yeah that's that's all I wanted to  cover in this episode just to give you a  heads up about what order is about how  easy you can do that using cpq right so  you just have to work around your  process right if you're if you wanted to  use epq for order generation right it  it's a pretty simple process right but  you have to have the process in place  right like I said some companies might  have approval process and say some  companies will have automatic you know  enabling that order tick box so the way  you do it that's all driven by your  process at the end of the day it's all  about process right business process and  you try to solve a customer problem  okay so that's pretty much I wanted to  cover in this episode I hope you guys  have an amazing Saturday adios
+ 
+
+00:00:05,590 --> 00:00:08,810
+ 
+ 
+
+00:00:08,810 --> 00:00:11,930
+ 
+ 
+
+00:00:11,930 --> 00:00:14,150
+ 
+ 
+
+00:00:14,150 --> 00:00:16,430
+ 
+ 
+
+00:00:16,430 --> 00:00:18,230
+ 
+ 
+
+00:00:18,230 --> 00:00:20,689
+ 
+ 
+
+00:00:20,689 --> 00:00:23,090
+ 
+ 
+
+00:00:23,090 --> 00:00:25,070
+ 
+ 
+
+00:00:25,070 --> 00:00:27,230
+ 
+ 
+
+00:00:27,230 --> 00:00:29,929
+ 
+ 
+
+00:00:29,929 --> 00:00:32,749
+ 
+ 
+
+00:00:32,749 --> 00:00:34,610
+ 
+ 
+
+00:00:34,610 --> 00:00:35,990
+ 
+ 
+
+00:00:35,990 --> 00:00:38,450
+ 
+ 
+
+00:00:38,450 --> 00:00:40,850
+ 
+ 
+
+00:00:40,850 --> 00:00:42,410
+ 
+ 
+
+00:00:42,410 --> 00:00:44,750
+ 
+ 
+
+00:00:44,750 --> 00:00:46,490
+ 
+ 
+
+00:00:46,490 --> 00:00:49,670
+ 
+ 
+
+00:00:49,670 --> 00:00:51,290
+ 
+ 
+
+00:00:51,290 --> 00:00:55,010
+ 
+ 
+
+00:00:55,010 --> 00:00:58,090
+ 
+ 
+
+00:00:58,090 --> 00:01:01,490
+ 
+ 
+
+00:01:01,490 --> 00:01:04,789
+ 
+ 
+
+00:01:04,789 --> 00:01:07,250
+ 
+ 
+
+00:01:07,250 --> 00:01:09,590
+ 
+ 
+
+00:01:09,590 --> 00:01:12,170
+ 
+ 
+
+00:01:12,170 --> 00:01:14,210
+ 
+ 
+
+00:01:14,210 --> 00:01:16,609
+ 
+ 
+
+00:01:16,609 --> 00:01:19,370
+ 
+ 
+
+00:01:19,370 --> 00:01:21,289
+ 
+ 
+
+00:01:21,289 --> 00:01:24,410
+ 
+ 
+
+00:01:24,410 --> 00:01:26,990
+ 
+ 
+
+00:01:26,990 --> 00:01:29,570
+ 
+ 
+
+00:01:29,570 --> 00:01:31,969
+ 
+ 
+
+00:01:31,969 --> 00:01:36,710
+ 
+ 
+
+00:01:36,710 --> 00:01:38,149
+ 
+ 
+
+00:01:38,149 --> 00:01:41,149
+ 
+ 
+
+00:01:41,149 --> 00:01:43,730
+ 
+ 
+
+00:01:43,730 --> 00:01:46,190
+ 
+ 
+
+00:01:46,190 --> 00:01:49,069
+ 
+ 
+
+00:01:49,069 --> 00:01:51,050
+ 
+ 
+
+00:01:51,050 --> 00:01:54,050
+ 
+ 
+
+00:01:54,050 --> 00:01:57,170
+ 
+ 
+
+00:01:57,170 --> 00:02:00,410
+ 
+ 
+
+00:02:00,410 --> 00:02:03,710
+ 
+ 
+
+00:02:03,710 --> 00:02:06,950
+ 
+ 
+
+00:02:06,950 --> 00:02:08,749
+ 
+ 
+
+00:02:08,749 --> 00:02:10,669
+ 
+ 
+
+00:02:10,669 --> 00:02:12,650
+ 
+ 
+
+00:02:12,650 --> 00:02:15,350
+ 
+ 
+
+00:02:15,350 --> 00:02:17,210
+ 
+ 
+
+00:02:17,210 --> 00:02:19,490
+ 
+ 
+
+00:02:19,490 --> 00:02:22,070
+ 
+ 
+
+00:02:22,070 --> 00:02:24,350
+ 
+ 
+
+00:02:24,350 --> 00:02:26,750
+ 
+ 
+
+00:02:26,750 --> 00:02:29,630
+ 
+ 
+
+00:02:29,630 --> 00:02:31,550
+ 
+ 
+
+00:02:31,550 --> 00:02:34,550
+ 
+ 
+
+00:02:34,550 --> 00:02:37,790
+ 
+ 
+
+00:02:37,790 --> 00:02:41,150
+ 
+ 
+
+00:02:41,150 --> 00:02:43,610
+ 
+ 
+
+00:02:43,610 --> 00:02:45,229
+ 
+ 
+
+00:02:45,229 --> 00:02:47,809
+ 
+ 
+
+00:02:47,809 --> 00:02:49,970
+ 
+ 
+
+00:02:49,970 --> 00:02:52,369
+ 
+ 
+
+00:02:52,369 --> 00:02:54,110
+ 
+ 
+
+00:02:54,110 --> 00:02:57,290
+ 
+ 
+
+00:02:57,290 --> 00:02:57,300
+ 
+ 
+
+00:02:57,300 --> 00:02:59,210
+ 
+
+
+00:02:59,210 --> 00:03:01,369
+ 
+ 
+
+00:03:01,369 --> 00:03:02,930
+ 
+ 
+
+00:03:02,930 --> 00:03:05,690
+ 
+ 
+
+00:03:05,690 --> 00:03:07,970
+ 
+ 
+
+00:03:07,970 --> 00:03:09,710
+ 
+ 
+
+00:03:09,710 --> 00:03:12,589
+ 
+ 
+
+00:03:12,589 --> 00:03:13,910
+ 
+ 
+
+00:03:13,910 --> 00:03:15,830
+ 
+ 
+
+00:03:15,830 --> 00:03:17,869
+ 
+ 
+
+00:03:17,869 --> 00:03:20,270
+ 
+ 
+
+00:03:20,270 --> 00:03:22,490
+ 
+ 
+
+00:03:22,490 --> 00:03:23,990
+ 
+ 
+
+00:03:23,990 --> 00:03:25,970
+ 
+ 
+
+00:03:25,970 --> 00:03:28,970
+ 
+ 
+
+00:03:28,970 --> 00:03:30,470
+ 
+ 
+
+00:03:30,470 --> 00:03:32,869
+ 
+ 
+
+00:03:32,869 --> 00:03:32,879
+ 
+ 
+
+00:03:32,879 --> 00:03:34,130
+ 
+
+
+00:03:34,130 --> 00:03:37,430
+ 
+ 
+
+00:03:37,430 --> 00:03:40,789
+ 
+ 
+
+00:03:40,789 --> 00:03:42,649
+ 
+ 
+
+00:03:42,649 --> 00:03:45,050
+ 
+ 
+
+00:03:45,050 --> 00:03:48,410
+ 
+ 
+
+00:03:48,410 --> 00:03:50,869
+ 
+ 
+
+00:03:50,869 --> 00:03:52,670
+ 
+ 
+
+00:03:52,670 --> 00:03:53,990
+ 
+ 
+
+00:03:53,990 --> 00:03:58,190
+ 
+ 
+
+00:03:58,190 --> 00:03:59,990
+ 
+ 
+
+00:03:59,990 --> 00:04:02,570
+ 
+ 
+
+00:04:02,570 --> 00:04:04,789
+ 
+ 
+
+00:04:04,789 --> 00:04:06,830
+ 
+ 
+
+00:04:06,830 --> 00:04:08,210
+ 
+ 
+
+00:04:08,210 --> 00:04:09,949
+ 
+ 
+
+00:04:09,949 --> 00:04:11,390
+ 
+ 
+
+00:04:11,390 --> 00:04:14,149
+ 
+ 
+
+00:04:14,149 --> 00:04:16,430
+ 
+ 
+
+00:04:16,430 --> 00:04:19,670
+ 
+ 
+
+00:04:19,670 --> 00:04:22,430
+ 
+ 
+
+00:04:22,430 --> 00:04:26,030
+ 
+ 
+
+00:04:26,030 --> 00:04:28,430
+ 
+ 
+
+00:04:28,430 --> 00:04:28,440
+ 
+ 
+
+00:04:28,440 --> 00:04:31,010
+ 
+
+
+00:04:31,010 --> 00:04:33,170
+ 
+ 
+
+00:04:33,170 --> 00:04:33,180
+ 
+ 
+
+00:04:33,180 --> 00:04:34,550
+ 
+
+
+00:04:34,550 --> 00:04:37,670
+ 
+ 
+
+00:04:37,670 --> 00:04:40,129
+ 
+ 
+
+00:04:40,129 --> 00:04:41,689
+ 
+ 
+
+00:04:41,689 --> 00:04:44,570
+ 
+ 
+
+00:04:44,570 --> 00:04:47,870
+ 
+ 
+
+00:04:47,870 --> 00:04:50,210
+ 
+ 
+
+00:04:50,210 --> 00:04:52,370
+ 
+ 
+
+00:04:52,370 --> 00:04:54,110
+ 
+ 
+
+00:04:54,110 --> 00:04:58,129
+ 
+ 
+
+00:04:58,129 --> 00:05:00,650
+ 
+ 
+
+00:05:00,650 --> 00:05:02,689
+ 
+ 
+
+00:05:02,689 --> 00:05:04,850
+ 
+ 
+
+00:05:04,850 --> 00:05:06,650
+ 
+ 
+
+00:05:06,650 --> 00:05:08,090
+ 
+ 
+
+00:05:08,090 --> 00:05:09,590
+ 
+ 
+
+00:05:09,590 --> 00:05:11,270
+ 
+ 
+
+00:05:11,270 --> 00:05:14,390
+ 
+ 
+
+00:05:14,390 --> 00:05:16,129
+ 
+ 
+
+00:05:16,129 --> 00:05:19,790
+ 
+ 
+
+00:05:19,790 --> 00:05:21,770
+ 
+ 
+
+00:05:21,770 --> 00:05:21,780
+ 
+ 
+
+00:05:21,780 --> 00:05:23,810
+ 
+
+
+00:05:23,810 --> 00:05:25,850
+ 
+ 
+
+00:05:25,850 --> 00:05:28,129
+ 
+ 
+
+00:05:28,129 --> 00:05:29,450
+ 
+ 
+
+00:05:29,450 --> 00:05:31,909
+ 
+ 
+
+00:05:31,909 --> 00:05:36,110
+ 
+ 
+
+00:05:36,110 --> 00:05:40,189
+ 
+ 
+
+00:05:40,189 --> 00:05:43,670
+ 
+ 
+
+00:05:43,670 --> 00:05:46,010
+ 
+ 
+
+00:05:46,010 --> 00:05:49,189
+ 
+ 
+
+00:05:49,189 --> 00:05:50,810
+ 
+ 
+
+00:05:50,810 --> 00:05:53,810
+ 
+ 
+
+00:05:53,810 --> 00:05:56,029
+ 
+ 
+
+00:05:56,029 --> 00:05:58,730
+ 
+ 
+
+00:05:58,730 --> 00:06:00,890
+ 
+ 
+
+00:06:00,890 --> 00:06:02,830
+ 
+ 
+
+00:06:02,830 --> 00:06:05,629
+ 
+ 
+
+00:06:05,629 --> 00:06:08,510
+ 
+ 
+
+00:06:08,510 --> 00:06:10,670
+ 
+ 
+
+00:06:10,670 --> 00:06:12,529
+ 
+ 
+
+00:06:12,529 --> 00:06:15,230
+ 
+ 
+
+00:06:15,230 --> 00:06:17,990
+ 
+ 
+
+00:06:17,990 --> 00:06:18,000
+ 
+ 
+
+00:06:18,000 --> 00:06:20,810
+ 
+
+
+00:06:20,810 --> 00:06:26,029
+ 
+ 
+
+00:06:26,029 --> 00:06:28,790
+ 
+ 
+
+00:06:28,790 --> 00:06:30,290
+ 
+ 
+
+00:06:30,290 --> 00:06:31,550
+ 
+ 
+
+00:06:31,550 --> 00:06:33,710
+ 
+ 
+
+00:06:33,710 --> 00:06:36,950
+ 
+ 
+
+00:06:36,950 --> 00:06:38,990
+ 
+ 
+
+00:06:38,990 --> 00:06:41,270
+ 
+ 
+
+00:06:41,270 --> 00:06:41,280
+ 
+ 
+
+00:06:41,280 --> 00:06:42,590
+ 
+
+
+00:06:42,590 --> 00:06:44,390
+ 
+ 
+
+00:06:44,390 --> 00:06:46,730
+ 
+ 
+
+00:06:46,730 --> 00:06:50,090
+ 
+ 
+
+00:06:50,090 --> 00:06:53,029
+ 
+ 
+
+00:06:53,029 --> 00:06:55,010
+ 
+ 
+
+00:06:55,010 --> 00:06:56,510
+ 
+ 
+
+00:06:56,510 --> 00:06:59,629
+ 
+ 
+
+00:06:59,629 --> 00:06:59,639
+ 
+ 
+
+00:06:59,639 --> 00:07:00,590
+ 
+
+
+00:07:00,590 --> 00:07:02,330
+ 
+ 
+
+00:07:02,330 --> 00:07:04,129
+ 
+ 
+
+00:07:04,129 --> 00:07:04,139
+ 
+ 
+
+00:07:04,139 --> 00:07:05,390
+ 
+
+
+00:07:05,390 --> 00:07:08,150
+ 
+ 
+
+00:07:08,150 --> 00:07:10,129
+ 
+ 
+
+00:07:10,129 --> 00:07:10,139
+ 
+ 
+
+00:07:10,139 --> 00:07:13,730
+ 
+
+
+00:07:13,730 --> 00:07:13,740
+ 
+ 
+
+00:07:13,740 --> 00:07:15,110
+ 
+
+
+00:07:15,110 --> 00:07:17,870
+ 
+ 
+
+00:07:17,870 --> 00:07:20,629
+ 
+ 
+
+00:07:20,629 --> 00:07:26,809
+ 
+ 
+
+00:07:26,809 --> 00:07:29,210
+ 
+ 
+
+00:07:29,210 --> 00:07:33,290
+ 
+ 
+
+00:07:33,290 --> 00:07:35,990
+ 
+ 
+
+00:07:35,990 --> 00:07:36,000
+ 
+ 
+
+00:07:36,000 --> 00:07:37,129
+ 
+
+
+00:07:37,129 --> 00:07:38,809
+ 
+ 
+
+00:07:38,809 --> 00:07:38,819
+ 
+ 
+
+00:07:38,819 --> 00:07:41,150
+ 
+
+
+00:07:41,150 --> 00:07:44,749
+ 
+ 
+
+00:07:44,749 --> 00:07:44,759
+ 
+ 
+
+00:07:44,759 --> 00:07:46,909
+ 
+
+
+00:07:46,909 --> 00:07:46,919
+ 
+ 
+
+00:07:46,919 --> 00:07:48,830
+ 
+
+
+00:07:48,830 --> 00:07:51,110
+ 
+ 
+
+00:07:51,110 --> 00:07:53,990
+ 
+ 
+
+00:07:53,990 --> 00:07:56,330
+ 
+ 
+
+00:07:56,330 --> 00:07:59,809
+ 
+ 
+
+00:07:59,809 --> 00:08:02,270
+ 
+ 
+
+00:08:02,270 --> 00:08:05,749
+ 
+ 
+
+00:08:05,749 --> 00:08:05,759
+ 
+ 
+
+00:08:05,759 --> 00:08:07,189
+ 
+
+
+00:08:07,189 --> 00:08:10,610
+ 
+ 
+
+00:08:10,610 --> 00:08:12,770
+ 
+ 
+
+00:08:12,770 --> 00:08:15,170
+ 
+ 
+
+00:08:15,170 --> 00:08:17,629
+ 
+ 
+
+00:08:17,629 --> 00:08:19,430
+ 
+ 
+
+00:08:19,430 --> 00:08:21,170
+ 
+ 
+
+00:08:21,170 --> 00:08:23,210
+ 
+ 
+
+00:08:23,210 --> 00:08:25,790
+ 
+ 
+
+00:08:25,790 --> 00:08:26,990
+ 
+ 
+
+00:08:26,990 --> 00:08:28,430
+ 
+ 
+
+00:08:28,430 --> 00:08:30,350
+ 
+ 
+
+00:08:30,350 --> 00:08:32,510
+ 
+ 
+
+00:08:32,510 --> 00:08:34,250
+ 
+ 
+
+00:08:34,250 --> 00:08:37,250
+ 
+ 
+
+00:08:37,250 --> 00:08:40,430
+ 
+ 
+
+00:08:40,430 --> 00:08:41,810
+ 
+ 
+
+00:08:41,810 --> 00:08:44,089
+ 
+ 
+
+00:08:44,089 --> 00:08:47,090
+ 
+ 
+
+00:08:47,090 --> 00:08:49,250
+ 
+ 
+
+00:08:49,250 --> 00:08:50,870
+ 
+ 
+
+00:08:50,870 --> 00:08:52,970
+ 
+ 
+
+00:08:52,970 --> 00:08:54,530
+ 
+ 
+
+00:08:54,530 --> 00:08:56,750
+ 
+ 
+
+00:08:56,750 --> 00:08:59,870
+ 
+ 
+
+00:08:59,870 --> 00:09:02,329
+ 
+ 
+
+00:09:02,329 --> 00:09:03,829
+ 
+ 
+
+00:09:03,829 --> 00:09:05,930
+ 
+ 
+
+00:09:05,930 --> 00:09:07,910
+ 
+ 
+
+00:09:07,910 --> 00:09:10,670
+ 
+ 
+
+00:09:10,670 --> 00:09:12,590
+ 
+ 
+
+00:09:12,590 --> 00:09:17,220
+ 
+ 
+

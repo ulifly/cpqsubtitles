@@ -1,0 +1,833 @@
+
+00:00:00,640 --> 00:00:02,230
+ 
+good everyone i hope you guys have an  amazing day um so today what i'm going  to do i'm going to briefly touch bon uh  distribute a discount uh we talked about  the partners discount in the last  episode right so the distributor  discount right uh it actually  helps you uh to apply  um an extra discount to your codes  and your code lines uh based on your  opportunities distributors  so  i mean it's pretty simple right you  don't have to worry much about it so  what happens is that you know admins can  manually define a percentage for this  field  like that's a distributed discount i'll  show you whether where the field is  or if they want they can create a  workflow rule that automatically  provides  a value based on the code distributed  field  right  so  it's  pretty simple because usually sells for  cpq right  uh it takes care of it behind the scenes  because salesforce cpq  applies distributed discount to the  code's partner price  uh when the code  line price prices calculated  so  and this result uh the result of this  calculation right um is often applied to  the code line net unit price okay  so it's pretty simple so what i'll do  right i'll go to code right  and  so if you remember that in the last  episode i applied the partner discount  and i choose the products and we we  talked about the waterfall uh the sort  of price fault model right so you know  if you have a partner discount and  although the discount comes first then  the partner is going to get applied  later uh and then  after that  uh you know  if you apply the shredder discount so it  applies on top of the partner discount  so  so what i'll do i will go to  uh edit yeah and i will say  i will just choose the distributor so we  have a partner discount and we have a  dispute discount right  so  um like it clearly says that distributed  discount applies to the code unless  overwritten  on the item level you can overwrite it  but that's that's another choice because  uh sometimes business still wants uh  this to be overwritten  uh based on whatever the requirement  they have in place  uh but for now just to keep it simple so  we're just gonna apply at the code level  so what i've done i've used this  distributed discount 15 and the partner  discovered 10  okay  so it's pretty simple um  so what i'll do i'll go to edit lines  uh  and i will add a product  and i will apply  um  uh  all the discount and then i'll show you  the the way it's supplied  so i'll choose here okay  so  now you can see that it's it's it's  114.75 because the reason why  uh so it's apply the partner discount  first right 150 uh 15 uh sorry 10  percent of 150 that is  we get um  uh 15 bucks right so subtract the 15  bucks so you get 135 so you are applying  15 135  uh and then you pretty much get this one  right so what i'll do i will apply i  change the quantity to four okay so when  that happens you remember we have a  discount schedule in place where i  applied  a slab-based discount right so i will do  a calculate and explain to you how the  calculation works behind the scene so  okay so now how do you get this 43605  right  so what i'll do  um so we have calculator okay  so  i will open this the discount schedule  okay so let me minimize it  so this is a slab bait discount so  anything three and above okay so that  means we are gonna get discount when we  talk about the slap discount for for our  two products so that means uh n is a 10  i presume right  okay so 10 so that means we were gonna  get discount on two so 150 times two  that's 200 so we will get a discount on  a 10  um let me  do that here  so you have 600 bucks right and out of  600 bucks that's split into four parts  right each quantity  is worth 150 bucks right so now we're  going to apply discount on the two  products so it will be two of 300 so 10  of it so we will get a 5  570 right okay  now we have partner discount which get  applied on top of it so the five seventy  ten percent is 57 so which is going to  get the 57 right  all right now  we have 15 percent  uh distributed discount so we're gonna  do  times 15  uh  yes seven  six nine five right  and so  divided by a hundred  okay now we're gonna see  what was that  five and three something right  so four three six point five right so  that's how the distributed discount  works i hope it's clear it's pretty  simple right so  you calculate all the i mean you can  change the order if you remember the  last time i said you can apply the  pattern discount first and then the  other discount later but just to keep it  simple just you know if you're just  following the you know the waterfall  model so all the discounts get applied  first and the partner discount then on  top of it if you have a distributor  discount in place it get applied right  so this is a very commonly used scenario  most of the companies i've seen  especially when i've done a cpg  implementation in the past i've seen  that they've used something similar this  way  so yeah so this is a pretty simple  concept right usually the distributed  discount on the partners account often  is applied when you are you know when  some other company wants to sell your  product right so obviously you wanted to  give more discount compared to um the  discount you often give to your customer  right  so yeah that's pretty much i wanted to  cover uh in this episode so that being  said i hope you guys have an amazing  sunday adios
+
+00:00:02,230 --> 00:00:04,150
+good everyone i hope you guys have an  amazing day um so today what i'm going  to do i'm going to briefly touch bon uh  distribute a discount uh we talked about  the partners discount in the last  episode right so the distributor  discount right uh it actually  helps you uh to apply  um an extra discount to your codes  and your code lines uh based on your  opportunities distributors  so  i mean it's pretty simple right you  don't have to worry much about it so  what happens is that you know admins can  manually define a percentage for this  field  like that's a distributed discount i'll  show you whether where the field is  or if they want they can create a  workflow rule that automatically  provides  a value based on the code distributed  field  right  so  it's  pretty simple because usually sells for  cpq right  uh it takes care of it behind the scenes  because salesforce cpq  applies distributed discount to the  code's partner price  uh when the code  line price prices calculated  so  and this result uh the result of this  calculation right um is often applied to  the code line net unit price okay  so it's pretty simple so what i'll do  right i'll go to code right  and  so if you remember that in the last  episode i applied the partner discount  and i choose the products and we we  talked about the waterfall uh the sort  of price fault model right so you know  if you have a partner discount and  although the discount comes first then  the partner is going to get applied  later uh and then  after that  uh you know  if you apply the shredder discount so it  applies on top of the partner discount  so  so what i'll do i will go to  uh edit yeah and i will say  i will just choose the distributor so we  have a partner discount and we have a  dispute discount right  so  um like it clearly says that distributed  discount applies to the code unless  overwritten  on the item level you can overwrite it  but that's that's another choice because  uh sometimes business still wants uh  this to be overwritten  uh based on whatever the requirement  they have in place  uh but for now just to keep it simple so  we're just gonna apply at the code level  so what i've done i've used this  distributed discount 15 and the partner  discovered 10  okay  so it's pretty simple um  so what i'll do i'll go to edit lines  uh  and i will add a product  and i will apply  um  uh  all the discount and then i'll show you  the the way it's supplied  so i'll choose here okay  so  now you can see that it's it's it's  114.75 because the reason why  uh so it's apply the partner discount  first right 150 uh 15 uh sorry 10  percent of 150 that is  we get um  uh 15 bucks right so subtract the 15  bucks so you get 135 so you are applying  15 135  uh and then you pretty much get this one  right so what i'll do i will apply i  change the quantity to four okay so when  that happens you remember we have a  discount schedule in place where i  applied  a slab-based discount right so i will do  a calculate and explain to you how the  calculation works behind the scene so  okay so now how do you get this 43605  right  so what i'll do  um so we have calculator okay  so  i will open this the discount schedule  okay so let me minimize it  so this is a slab bait discount so  anything three and above okay so that  means we are gonna get discount when we  talk about the slap discount for for our  two products so that means uh n is a 10  i presume right  okay so 10 so that means we were gonna  get discount on two so 150 times two  that's 200 so we will get a discount on  a 10  um let me  do that here  so you have 600 bucks right and out of  600 bucks that's split into four parts  right each quantity  is worth 150 bucks right so now we're  going to apply discount on the two  products so it will be two of 300 so 10  of it so we will get a 5  570 right okay  now we have partner discount which get  applied on top of it so the five seventy  ten percent is 57 so which is going to  get the 57 right  all right now  we have 15 percent  uh distributed discount so we're gonna  do  times 15  uh  yes seven  six nine five right  and so  divided by a hundred  okay now we're gonna see  what was that  five and three something right  so four three six point five right so  that's how the distributed discount  works i hope it's clear it's pretty  simple right so  you calculate all the i mean you can  change the order if you remember the  last time i said you can apply the  pattern discount first and then the  other discount later but just to keep it  simple just you know if you're just  following the you know the waterfall  model so all the discounts get applied  first and the partner discount then on  top of it if you have a distributor  discount in place it get applied right  so this is a very commonly used scenario  most of the companies i've seen  especially when i've done a cpg  implementation in the past i've seen  that they've used something similar this  way  so yeah so this is a pretty simple  concept right usually the distributed  discount on the partners account often  is applied when you are you know when  some other company wants to sell your  product right so obviously you wanted to  give more discount compared to um the  discount you often give to your customer  right  so yeah that's pretty much i wanted to  cover uh in this episode so that being  said i hope you guys have an amazing  sunday adios
+ 
+
+00:00:04,150 --> 00:00:06,389
+ 
+ 
+
+00:00:06,389 --> 00:00:08,629
+ 
+ 
+
+00:00:08,629 --> 00:00:09,990
+ 
+ 
+
+00:00:09,990 --> 00:00:11,990
+ 
+ 
+
+00:00:11,990 --> 00:00:14,549
+ 
+ 
+
+00:00:14,549 --> 00:00:17,189
+ 
+ 
+
+00:00:17,189 --> 00:00:20,310
+ 
+ 
+
+00:00:20,310 --> 00:00:23,910
+ 
+ 
+
+00:00:23,910 --> 00:00:26,230
+ 
+ 
+
+00:00:26,230 --> 00:00:26,240
+ 
+ 
+
+00:00:26,240 --> 00:00:27,109
+ 
+
+
+00:00:27,109 --> 00:00:28,710
+ 
+ 
+
+00:00:28,710 --> 00:00:31,349
+ 
+ 
+
+00:00:31,349 --> 00:00:33,350
+ 
+ 
+
+00:00:33,350 --> 00:00:35,430
+ 
+ 
+
+00:00:35,430 --> 00:00:35,440
+ 
+ 
+
+00:00:35,440 --> 00:00:36,310
+ 
+
+
+00:00:36,310 --> 00:00:37,830
+ 
+ 
+
+00:00:37,830 --> 00:00:40,630
+ 
+ 
+
+00:00:40,630 --> 00:00:42,069
+ 
+ 
+
+00:00:42,069 --> 00:00:44,150
+ 
+ 
+
+00:00:44,150 --> 00:00:44,160
+ 
+ 
+
+00:00:44,160 --> 00:00:45,430
+ 
+
+
+00:00:45,430 --> 00:00:47,990
+ 
+ 
+
+00:00:47,990 --> 00:00:48,000
+ 
+ 
+
+00:00:48,000 --> 00:00:49,110
+ 
+
+
+00:00:49,110 --> 00:00:49,120
+ 
+ 
+
+00:00:49,120 --> 00:00:50,630
+ 
+
+
+00:00:50,630 --> 00:00:50,640
+ 
+ 
+
+00:00:50,640 --> 00:00:53,029
+ 
+
+
+00:00:53,029 --> 00:00:53,039
+ 
+ 
+
+00:00:53,039 --> 00:00:54,069
+ 
+
+
+00:00:54,069 --> 00:00:57,189
+ 
+ 
+
+00:00:57,189 --> 00:00:58,470
+ 
+ 
+
+00:00:58,470 --> 00:01:00,869
+ 
+ 
+
+00:01:00,869 --> 00:01:03,189
+ 
+ 
+
+00:01:03,189 --> 00:01:05,670
+ 
+ 
+
+00:01:05,670 --> 00:01:07,510
+ 
+ 
+
+00:01:07,510 --> 00:01:10,469
+ 
+ 
+
+00:01:10,469 --> 00:01:12,710
+ 
+ 
+
+00:01:12,710 --> 00:01:12,720
+ 
+ 
+
+00:01:12,720 --> 00:01:13,510
+ 
+
+
+00:01:13,510 --> 00:01:17,030
+ 
+ 
+
+00:01:17,030 --> 00:01:20,870
+ 
+ 
+
+00:01:20,870 --> 00:01:25,030
+ 
+ 
+
+00:01:25,030 --> 00:01:27,830
+ 
+ 
+
+00:01:27,830 --> 00:01:30,390
+ 
+ 
+
+00:01:30,390 --> 00:01:30,400
+ 
+ 
+
+00:01:30,400 --> 00:01:31,830
+ 
+
+
+00:01:31,830 --> 00:01:33,270
+ 
+ 
+
+00:01:33,270 --> 00:01:35,350
+ 
+ 
+
+00:01:35,350 --> 00:01:37,030
+ 
+ 
+
+00:01:37,030 --> 00:01:39,350
+ 
+ 
+
+00:01:39,350 --> 00:01:41,749
+ 
+ 
+
+00:01:41,749 --> 00:01:43,670
+ 
+ 
+
+00:01:43,670 --> 00:01:45,109
+ 
+ 
+
+00:01:45,109 --> 00:01:46,389
+ 
+ 
+
+00:01:46,389 --> 00:01:49,429
+ 
+ 
+
+00:01:49,429 --> 00:01:50,870
+ 
+ 
+
+00:01:50,870 --> 00:01:52,950
+ 
+ 
+
+00:01:52,950 --> 00:01:54,950
+ 
+ 
+
+00:01:54,950 --> 00:01:56,950
+ 
+ 
+
+00:01:56,950 --> 00:01:56,960
+ 
+ 
+
+00:01:56,960 --> 00:01:57,749
+ 
+
+
+00:01:57,749 --> 00:02:01,109
+ 
+ 
+
+00:02:01,109 --> 00:02:05,510
+ 
+ 
+
+00:02:05,510 --> 00:02:07,830
+ 
+ 
+
+00:02:07,830 --> 00:02:09,190
+ 
+ 
+
+00:02:09,190 --> 00:02:11,350
+ 
+ 
+
+00:02:11,350 --> 00:02:11,360
+ 
+ 
+
+00:02:11,360 --> 00:02:13,350
+ 
+
+
+00:02:13,350 --> 00:02:15,589
+ 
+ 
+
+00:02:15,589 --> 00:02:17,830
+ 
+ 
+
+00:02:17,830 --> 00:02:17,840
+ 
+ 
+
+00:02:17,840 --> 00:02:19,270
+ 
+
+
+00:02:19,270 --> 00:02:21,430
+ 
+ 
+
+00:02:21,430 --> 00:02:23,990
+ 
+ 
+
+00:02:23,990 --> 00:02:26,630
+ 
+ 
+
+00:02:26,630 --> 00:02:28,150
+ 
+ 
+
+00:02:28,150 --> 00:02:30,229
+ 
+ 
+
+00:02:30,229 --> 00:02:31,750
+ 
+ 
+
+00:02:31,750 --> 00:02:34,309
+ 
+ 
+
+00:02:34,309 --> 00:02:36,790
+ 
+ 
+
+00:02:36,790 --> 00:02:38,470
+ 
+ 
+
+00:02:38,470 --> 00:02:40,550
+ 
+ 
+
+00:02:40,550 --> 00:02:41,990
+ 
+ 
+
+00:02:41,990 --> 00:02:42,000
+ 
+ 
+
+00:02:42,000 --> 00:02:42,790
+ 
+
+
+00:02:42,790 --> 00:02:45,910
+ 
+ 
+
+00:02:45,910 --> 00:02:49,750
+ 
+ 
+
+00:02:49,750 --> 00:02:49,760
+ 
+ 
+
+00:02:49,760 --> 00:02:52,550
+ 
+
+
+00:02:52,550 --> 00:02:54,550
+ 
+ 
+
+00:02:54,550 --> 00:02:56,070
+ 
+ 
+
+00:02:56,070 --> 00:02:56,080
+ 
+ 
+
+00:02:56,080 --> 00:02:57,350
+ 
+
+
+00:02:57,350 --> 00:02:57,360
+ 
+ 
+
+00:02:57,360 --> 00:02:58,790
+ 
+
+
+00:02:58,790 --> 00:03:00,869
+ 
+ 
+
+00:03:00,869 --> 00:03:03,350
+ 
+ 
+
+00:03:03,350 --> 00:03:07,509
+ 
+ 
+
+00:03:07,509 --> 00:03:07,519
+ 
+ 
+
+00:03:07,519 --> 00:03:08,710
+ 
+
+
+00:03:08,710 --> 00:03:10,990
+ 
+ 
+
+00:03:10,990 --> 00:03:13,589
+ 
+ 
+
+00:03:13,589 --> 00:03:15,830
+ 
+ 
+
+00:03:15,830 --> 00:03:20,070
+ 
+ 
+
+00:03:20,070 --> 00:03:22,710
+ 
+ 
+
+00:03:22,710 --> 00:03:25,030
+ 
+ 
+
+00:03:25,030 --> 00:03:27,509
+ 
+ 
+
+00:03:27,509 --> 00:03:31,030
+ 
+ 
+
+00:03:31,030 --> 00:03:33,270
+ 
+ 
+
+00:03:33,270 --> 00:03:35,589
+ 
+ 
+
+00:03:35,589 --> 00:03:38,630
+ 
+ 
+
+00:03:38,630 --> 00:03:41,030
+ 
+ 
+
+00:03:41,030 --> 00:03:42,630
+ 
+ 
+
+00:03:42,630 --> 00:03:44,149
+ 
+ 
+
+00:03:44,149 --> 00:03:44,159
+ 
+ 
+
+00:03:44,159 --> 00:03:45,430
+ 
+
+
+00:03:45,430 --> 00:03:48,550
+ 
+ 
+
+00:03:48,550 --> 00:03:50,390
+ 
+ 
+
+00:03:50,390 --> 00:03:52,229
+ 
+ 
+
+00:03:52,229 --> 00:03:55,110
+ 
+ 
+
+00:03:55,110 --> 00:03:55,120
+ 
+ 
+
+00:03:55,120 --> 00:03:55,990
+ 
+
+
+00:03:55,990 --> 00:03:57,589
+ 
+ 
+
+00:03:57,589 --> 00:04:01,030
+ 
+ 
+
+00:04:01,030 --> 00:04:01,040
+ 
+ 
+
+00:04:01,040 --> 00:04:01,750
+ 
+
+
+00:04:01,750 --> 00:04:04,390
+ 
+ 
+
+00:04:04,390 --> 00:04:06,789
+ 
+ 
+
+00:04:06,789 --> 00:04:08,470
+ 
+ 
+
+00:04:08,470 --> 00:04:10,949
+ 
+ 
+
+00:04:10,949 --> 00:04:14,149
+ 
+ 
+
+00:04:14,149 --> 00:04:16,870
+ 
+ 
+
+00:04:16,870 --> 00:04:19,990
+ 
+ 
+
+00:04:19,990 --> 00:04:21,830
+ 
+ 
+
+00:04:21,830 --> 00:04:24,310
+ 
+ 
+
+00:04:24,310 --> 00:04:26,550
+ 
+ 
+
+00:04:26,550 --> 00:04:29,590
+ 
+ 
+
+00:04:29,590 --> 00:04:31,110
+ 
+ 
+
+00:04:31,110 --> 00:04:33,270
+ 
+ 
+
+00:04:33,270 --> 00:04:34,550
+ 
+ 
+
+00:04:34,550 --> 00:04:37,670
+ 
+ 
+
+00:04:37,670 --> 00:04:40,230
+ 
+ 
+
+00:04:40,230 --> 00:04:42,629
+ 
+ 
+
+00:04:42,629 --> 00:04:45,350
+ 
+ 
+
+00:04:45,350 --> 00:04:46,550
+ 
+ 
+
+00:04:46,550 --> 00:04:49,909
+ 
+ 
+
+00:04:49,909 --> 00:04:53,189
+ 
+ 
+
+00:04:53,189 --> 00:04:55,670
+ 
+ 
+
+00:04:55,670 --> 00:04:57,990
+ 
+ 
+
+00:04:57,990 --> 00:05:00,550
+ 
+ 
+
+00:05:00,550 --> 00:05:02,469
+ 
+ 
+
+00:05:02,469 --> 00:05:04,469
+ 
+ 
+
+00:05:04,469 --> 00:05:06,550
+ 
+ 
+
+00:05:06,550 --> 00:05:08,629
+ 
+ 
+
+00:05:08,629 --> 00:05:10,230
+ 
+ 
+
+00:05:10,230 --> 00:05:10,240
+ 
+ 
+
+00:05:10,240 --> 00:05:11,029
+ 
+
+
+00:05:11,029 --> 00:05:13,430
+ 
+ 
+
+00:05:13,430 --> 00:05:13,440
+ 
+ 
+
+00:05:13,440 --> 00:05:14,629
+ 
+
+
+00:05:14,629 --> 00:05:16,790
+ 
+ 
+
+00:05:16,790 --> 00:05:19,350
+ 
+ 
+
+00:05:19,350 --> 00:05:20,950
+ 
+ 
+
+00:05:20,950 --> 00:05:23,270
+ 
+ 
+
+00:05:23,270 --> 00:05:25,270
+ 
+ 
+
+00:05:25,270 --> 00:05:26,550
+ 
+ 
+
+00:05:26,550 --> 00:05:29,670
+ 
+ 
+
+00:05:29,670 --> 00:05:32,469
+ 
+ 
+
+00:05:32,469 --> 00:05:34,230
+ 
+ 
+
+00:05:34,230 --> 00:05:35,510
+ 
+ 
+
+00:05:35,510 --> 00:05:37,350
+ 
+ 
+
+00:05:37,350 --> 00:05:39,189
+ 
+ 
+
+00:05:39,189 --> 00:05:41,029
+ 
+ 
+
+00:05:41,029 --> 00:05:42,469
+ 
+ 
+
+00:05:42,469 --> 00:05:44,230
+ 
+ 
+
+00:05:44,230 --> 00:05:46,070
+ 
+ 
+
+00:05:46,070 --> 00:05:47,749
+ 
+ 
+
+00:05:47,749 --> 00:05:49,029
+ 
+ 
+
+00:05:49,029 --> 00:05:51,110
+ 
+ 
+
+00:05:51,110 --> 00:05:52,870
+ 
+ 
+
+00:05:52,870 --> 00:05:54,629
+ 
+ 
+
+00:05:54,629 --> 00:05:57,110
+ 
+ 
+
+00:05:57,110 --> 00:05:59,110
+ 
+ 
+
+00:05:59,110 --> 00:06:01,189
+ 
+ 
+
+00:06:01,189 --> 00:06:03,110
+ 
+ 
+
+00:06:03,110 --> 00:06:05,350
+ 
+ 
+
+00:06:05,350 --> 00:06:07,270
+ 
+ 
+
+00:06:07,270 --> 00:06:07,280
+ 
+ 
+
+00:06:07,280 --> 00:06:08,070
+ 
+
+
+00:06:08,070 --> 00:06:10,230
+ 
+ 
+
+00:06:10,230 --> 00:06:12,070
+ 
+ 
+
+00:06:12,070 --> 00:06:14,070
+ 
+ 
+
+00:06:14,070 --> 00:06:17,029
+ 
+ 
+
+00:06:17,029 --> 00:06:19,270
+ 
+ 
+
+00:06:19,270 --> 00:06:20,950
+ 
+ 
+
+00:06:20,950 --> 00:06:24,070
+ 
+ 
+
+00:06:24,070 --> 00:06:26,550
+ 
+ 
+
+00:06:26,550 --> 00:06:26,560
+ 
+ 
+
+00:06:26,560 --> 00:06:27,990
+ 
+
+
+00:06:27,990 --> 00:06:29,670
+ 
+ 
+
+00:06:29,670 --> 00:06:31,830
+ 
+ 
+
+00:06:31,830 --> 00:06:33,430
+ 
+ 
+
+00:06:33,430 --> 00:06:36,720
+ 
+ 
+

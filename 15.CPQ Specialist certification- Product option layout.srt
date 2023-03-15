@@ -1,0 +1,1097 @@
+
+00:00:00,640 --> 00:00:02,310
+ 
+good everyone i hope you guys have an  amazing day so if you remember in the  last episode uh when i demonstrated how  to create a product bundle right there  was an option i was interested  uh to demonstrate that's the option  layout um and for some reason it was not  working right and i said right don't  worry about it that time i will  you know pretty much display uh  demonstrate this in the next episode so  that's exactly what i wanted to do today  and i'll show you the problem  uh the reason why i was not i wouldn't  say it was a problem the the reason why  i was not uh displaying it um at the fir  you know initially  so you might  experience this um so  you know and you might wonder um what's  going on why this you know option layout  functionality is not working say for  instance right now it's tabs right so  um  let's go to the code  and let me show you how it works now  so if i try to add say a code  and  go to the edit lines  a pretty simple  um  configuration that  um  so  for some reason salesforce is acting a  bit slower today that's all right okay  let's do add product  um  samsung  okay um so samsung phone  and i'm just going to do select  okay so now you see it's showing the  form of the tabs right so you can go  here  um you can go to next step right and i  wanted to demonstrate the that option as  well  um so let me go to edit  and  say  instead of tabs just gonna want to say  visit right  um so what the visit will do is right so  you have to  so  in wizard section right like like you  can see here we have tabs uh so you can  jump in from one tab to another tab but  in visit you really can't do that so you  will have an option underneath here  which you know where you have to go next  next right that's how it works so all  right uh so what i'll do i will go back  to the code and i'll refresh this page  and let's look for an up so let's see  what's going on behind the scene  um so you go to code  and you go to edit lines  i mean usually you won't get asked this  stuff  from an exam point of view but when you  really go and implement it right you  might realize oh i have this feature why  it's not working so so that's the reason  why i'm demonstrating it so i often tell  to people right don't take certification  just for the sake of taking it just  consider that you know uh as an  opportunity to learn new stuff so that  you know you you might find it useful  when you actually go and implement  things right that's the whole point of  getting certified um also i would say  that you know if you  usually  uh certifications are not for people who  are pretty new uh to salesforce what i  meant by that is like advanced  certifications right people ask me hey  can i take architecture certification uh  if you're if i'm new to say integration  or i'm new to identity no my answer is  no it's pointless right you don't have a  real life experience implementing stuff  so what's the point of having it so if i  look at your resume and come to me for a  job interview i said hey your  certification is pointless to me if you  don't have real implementation  experience because i might ask you a  real life scenario question and you  won't be able to answer that so for me  the certification is pointless right so  that's why people often have a  misconception oh i got like 18  certification i was going to work a  solution like i said  no my friends that's not how it works  especially in new zealand that's  absolutely not how it works i've seen  people with 20 um certifications working  as consultant right i have like a few  certifications i work as a  technical architect so  i mean  i no one asked me when i got into how  many certifications they have the only  thing you know my boss asked me like  what was your previous experience like  the projects you worked on tell let's  talk about that a bit even though you  know i do understand that you can't  really talk in detail about your  previous project because of nda but at  least you know you can gauge from person  work experience you know what they've  done sorry i digress but i just thought  to raise this anyways okay uh so add to  product  um and um  just go to  samsung and  uh phone all right so you can see now we  got this  uh page numbers kind of thing here  um so you just see here you can't jump  it from you know tap to tap okay now  what changed compared to the last uh  episode right all right so let's look at  the product right so if you remember  this is the primary product and this  product when you add phone um so you  will get extra stop added to it as a  part of a bundle okay now go to features  so in the last time right i've  categorized everything under hardware  so  if i  so if i change it  back to say category  um so  all right so i'll say hardware  so that option will not work  so i'll just go back and i'll make it to  samsung right  and i will go back to the category  and my apologies i i overlooked this  last time  so even though you know the truth was  there right in front of you in the plain  sight but i couldn't say it for whatever  reason  as we say  you know the best way to hide the truth  is higher than plain side right  um so  okay so this is what it is right now if  you try to refresh it you will not find  this option anymore so i'll show you  what i meant by that  so let me refresh it  and  and  add lines  um add products  okay so  not this one products  effect  right you see it's not working because  it's configured characterized by  hardware that's the reason all right if  you don't add any category to it so it  okay let's do one more thing right let's  let's fiddle with one more thing and i'm  gonna change the samsung watch  uh so let's let's pretend i'm i'm a  stupid guy i don't know much about it so  i i think so samson watches his software  so you know just for the sake of  argument  and let's refresh it  right  okay so go back  and try to add it  um  all right so you go to samsung phone  see now  it's kind of changed right  uh but still  uh it's not the wizard right so i can  still go to software i can still go to  hardware right it acts like a tab  because it's categorizing in the form of  a tab  right but if you take the categories off  it will work right so  just something you know it's good to  keep into consideration  so yeah that's pretty much i wanted to  uh cover in this episode from perhaps  from the next episode we might looking  at the price rules and other kind of  stuff right we still got a lot to cover  right and i'm i'm planning to cover this  within you know  um  uh within few weeks time uh because but  i'm away  uh entire next week i'm just going on a  holiday so i won't be doing any kind of  recording that time so my apologies for  that if you if you're waiting for my  recording often i do understand that i  kind of slow down a bit there's lots  going on right  in my life  um i'm because as you know that i run a  training company now i've started a  another company  so i do run a deep learning company as  well  um so i'm building one stuff with my  mate and i'm starting a new firm as well  around virtual reality so  so that's something i'm working on and  plus i i do work on salesforce as well  uh usual so pretty full-on packed when  it comes to my usual schedule right so  yeah so my apologies that i'm bit slow  at this stage but i will make sure that  i finish this cpq then as promised i'm  gonna do experience uh  cloud certification after that uh then  we'll see you know  what to do next so that being said uh  thank you very much for tuning in today  i hope you guys have amazing saturday  adios
+
+00:00:02,310 --> 00:00:04,390
+good everyone i hope you guys have an  amazing day so if you remember in the  last episode uh when i demonstrated how  to create a product bundle right there  was an option i was interested  uh to demonstrate that's the option  layout um and for some reason it was not  working right and i said right don't  worry about it that time i will  you know pretty much display uh  demonstrate this in the next episode so  that's exactly what i wanted to do today  and i'll show you the problem  uh the reason why i was not i wouldn't  say it was a problem the the reason why  i was not uh displaying it um at the fir  you know initially  so you might  experience this um so  you know and you might wonder um what's  going on why this you know option layout  functionality is not working say for  instance right now it's tabs right so  um  let's go to the code  and let me show you how it works now  so if i try to add say a code  and  go to the edit lines  a pretty simple  um  configuration that  um  so  for some reason salesforce is acting a  bit slower today that's all right okay  let's do add product  um  samsung  okay um so samsung phone  and i'm just going to do select  okay so now you see it's showing the  form of the tabs right so you can go  here  um you can go to next step right and i  wanted to demonstrate the that option as  well  um so let me go to edit  and  say  instead of tabs just gonna want to say  visit right  um so what the visit will do is right so  you have to  so  in wizard section right like like you  can see here we have tabs uh so you can  jump in from one tab to another tab but  in visit you really can't do that so you  will have an option underneath here  which you know where you have to go next  next right that's how it works so all  right uh so what i'll do i will go back  to the code and i'll refresh this page  and let's look for an up so let's see  what's going on behind the scene  um so you go to code  and you go to edit lines  i mean usually you won't get asked this  stuff  from an exam point of view but when you  really go and implement it right you  might realize oh i have this feature why  it's not working so so that's the reason  why i'm demonstrating it so i often tell  to people right don't take certification  just for the sake of taking it just  consider that you know uh as an  opportunity to learn new stuff so that  you know you you might find it useful  when you actually go and implement  things right that's the whole point of  getting certified um also i would say  that you know if you  usually  uh certifications are not for people who  are pretty new uh to salesforce what i  meant by that is like advanced  certifications right people ask me hey  can i take architecture certification uh  if you're if i'm new to say integration  or i'm new to identity no my answer is  no it's pointless right you don't have a  real life experience implementing stuff  so what's the point of having it so if i  look at your resume and come to me for a  job interview i said hey your  certification is pointless to me if you  don't have real implementation  experience because i might ask you a  real life scenario question and you  won't be able to answer that so for me  the certification is pointless right so  that's why people often have a  misconception oh i got like 18  certification i was going to work a  solution like i said  no my friends that's not how it works  especially in new zealand that's  absolutely not how it works i've seen  people with 20 um certifications working  as consultant right i have like a few  certifications i work as a  technical architect so  i mean  i no one asked me when i got into how  many certifications they have the only  thing you know my boss asked me like  what was your previous experience like  the projects you worked on tell let's  talk about that a bit even though you  know i do understand that you can't  really talk in detail about your  previous project because of nda but at  least you know you can gauge from person  work experience you know what they've  done sorry i digress but i just thought  to raise this anyways okay uh so add to  product  um and um  just go to  samsung and  uh phone all right so you can see now we  got this  uh page numbers kind of thing here  um so you just see here you can't jump  it from you know tap to tap okay now  what changed compared to the last uh  episode right all right so let's look at  the product right so if you remember  this is the primary product and this  product when you add phone um so you  will get extra stop added to it as a  part of a bundle okay now go to features  so in the last time right i've  categorized everything under hardware  so  if i  so if i change it  back to say category  um so  all right so i'll say hardware  so that option will not work  so i'll just go back and i'll make it to  samsung right  and i will go back to the category  and my apologies i i overlooked this  last time  so even though you know the truth was  there right in front of you in the plain  sight but i couldn't say it for whatever  reason  as we say  you know the best way to hide the truth  is higher than plain side right  um so  okay so this is what it is right now if  you try to refresh it you will not find  this option anymore so i'll show you  what i meant by that  so let me refresh it  and  and  add lines  um add products  okay so  not this one products  effect  right you see it's not working because  it's configured characterized by  hardware that's the reason all right if  you don't add any category to it so it  okay let's do one more thing right let's  let's fiddle with one more thing and i'm  gonna change the samsung watch  uh so let's let's pretend i'm i'm a  stupid guy i don't know much about it so  i i think so samson watches his software  so you know just for the sake of  argument  and let's refresh it  right  okay so go back  and try to add it  um  all right so you go to samsung phone  see now  it's kind of changed right  uh but still  uh it's not the wizard right so i can  still go to software i can still go to  hardware right it acts like a tab  because it's categorizing in the form of  a tab  right but if you take the categories off  it will work right so  just something you know it's good to  keep into consideration  so yeah that's pretty much i wanted to  uh cover in this episode from perhaps  from the next episode we might looking  at the price rules and other kind of  stuff right we still got a lot to cover  right and i'm i'm planning to cover this  within you know  um  uh within few weeks time uh because but  i'm away  uh entire next week i'm just going on a  holiday so i won't be doing any kind of  recording that time so my apologies for  that if you if you're waiting for my  recording often i do understand that i  kind of slow down a bit there's lots  going on right  in my life  um i'm because as you know that i run a  training company now i've started a  another company  so i do run a deep learning company as  well  um so i'm building one stuff with my  mate and i'm starting a new firm as well  around virtual reality so  so that's something i'm working on and  plus i i do work on salesforce as well  uh usual so pretty full-on packed when  it comes to my usual schedule right so  yeah so my apologies that i'm bit slow  at this stage but i will make sure that  i finish this cpq then as promised i'm  gonna do experience uh  cloud certification after that uh then  we'll see you know  what to do next so that being said uh  thank you very much for tuning in today  i hope you guys have amazing saturday  adios
+ 
+
+00:00:04,390 --> 00:00:07,110
+ 
+ 
+
+00:00:07,110 --> 00:00:08,710
+ 
+ 
+
+00:00:08,710 --> 00:00:11,190
+ 
+ 
+
+00:00:11,190 --> 00:00:13,190
+ 
+ 
+
+00:00:13,190 --> 00:00:15,669
+ 
+ 
+
+00:00:15,669 --> 00:00:17,430
+ 
+ 
+
+00:00:17,430 --> 00:00:19,429
+ 
+ 
+
+00:00:19,429 --> 00:00:21,590
+ 
+ 
+
+00:00:21,590 --> 00:00:23,590
+ 
+ 
+
+00:00:23,590 --> 00:00:25,109
+ 
+ 
+
+00:00:25,109 --> 00:00:27,029
+ 
+ 
+
+00:00:27,029 --> 00:00:29,269
+ 
+ 
+
+00:00:29,269 --> 00:00:31,269
+ 
+ 
+
+00:00:31,269 --> 00:00:34,709
+ 
+ 
+
+00:00:34,709 --> 00:00:36,069
+ 
+ 
+
+00:00:36,069 --> 00:00:37,430
+ 
+ 
+
+00:00:37,430 --> 00:00:40,229
+ 
+ 
+
+00:00:40,229 --> 00:00:42,069
+ 
+ 
+
+00:00:42,069 --> 00:00:44,630
+ 
+ 
+
+00:00:44,630 --> 00:00:46,790
+ 
+ 
+
+00:00:46,790 --> 00:00:49,670
+ 
+ 
+
+00:00:49,670 --> 00:00:49,680
+ 
+ 
+
+00:00:49,680 --> 00:00:50,790
+ 
+
+
+00:00:50,790 --> 00:00:52,790
+ 
+ 
+
+00:00:52,790 --> 00:00:56,630
+ 
+ 
+
+00:00:56,630 --> 00:01:05,350
+ 
+ 
+
+00:01:05,350 --> 00:01:05,360
+ 
+ 
+
+00:01:05,360 --> 00:01:07,990
+ 
+
+
+00:01:07,990 --> 00:01:12,070
+ 
+ 
+
+00:01:12,070 --> 00:01:13,990
+ 
+ 
+
+00:01:13,990 --> 00:01:14,000
+ 
+ 
+
+00:01:14,000 --> 00:01:15,429
+ 
+
+
+00:01:15,429 --> 00:01:18,870
+ 
+ 
+
+00:01:18,870 --> 00:01:18,880
+ 
+ 
+
+00:01:18,880 --> 00:01:19,670
+ 
+
+
+00:01:19,670 --> 00:01:19,680
+ 
+ 
+
+00:01:19,680 --> 00:01:24,630
+ 
+
+
+00:01:24,630 --> 00:01:26,390
+ 
+ 
+
+00:01:26,390 --> 00:01:28,390
+ 
+ 
+
+00:01:28,390 --> 00:01:31,190
+ 
+ 
+
+00:01:31,190 --> 00:01:31,200
+ 
+ 
+
+00:01:31,200 --> 00:01:32,469
+ 
+
+
+00:01:32,469 --> 00:01:32,479
+ 
+ 
+
+00:01:32,479 --> 00:01:34,789
+ 
+
+
+00:01:34,789 --> 00:01:39,350
+ 
+ 
+
+00:01:39,350 --> 00:01:45,910
+ 
+ 
+
+00:01:45,910 --> 00:01:48,149
+ 
+ 
+
+00:01:48,149 --> 00:01:50,230
+ 
+ 
+
+00:01:50,230 --> 00:01:50,240
+ 
+ 
+
+00:01:50,240 --> 00:01:51,270
+ 
+
+
+00:01:51,270 --> 00:01:53,510
+ 
+ 
+
+00:01:53,510 --> 00:01:55,510
+ 
+ 
+
+00:01:55,510 --> 00:01:55,520
+ 
+ 
+
+00:01:55,520 --> 00:01:56,310
+ 
+
+
+00:01:56,310 --> 00:01:59,910
+ 
+ 
+
+00:01:59,910 --> 00:01:59,920
+ 
+ 
+
+00:01:59,920 --> 00:02:01,270
+ 
+
+
+00:02:01,270 --> 00:02:01,280
+ 
+ 
+
+00:02:01,280 --> 00:02:02,870
+ 
+
+
+00:02:02,870 --> 00:02:05,270
+ 
+ 
+
+00:02:05,270 --> 00:02:06,709
+ 
+ 
+
+00:02:06,709 --> 00:02:09,910
+ 
+ 
+
+00:02:09,910 --> 00:02:11,350
+ 
+ 
+
+00:02:11,350 --> 00:02:11,360
+ 
+ 
+
+00:02:11,360 --> 00:02:12,150
+ 
+
+
+00:02:12,150 --> 00:02:14,150
+ 
+ 
+
+00:02:14,150 --> 00:02:17,110
+ 
+ 
+
+00:02:17,110 --> 00:02:19,110
+ 
+ 
+
+00:02:19,110 --> 00:02:21,430
+ 
+ 
+
+00:02:21,430 --> 00:02:23,589
+ 
+ 
+
+00:02:23,589 --> 00:02:25,510
+ 
+ 
+
+00:02:25,510 --> 00:02:27,670
+ 
+ 
+
+00:02:27,670 --> 00:02:30,390
+ 
+ 
+
+00:02:30,390 --> 00:02:32,869
+ 
+ 
+
+00:02:32,869 --> 00:02:35,350
+ 
+ 
+
+00:02:35,350 --> 00:02:37,750
+ 
+ 
+
+00:02:37,750 --> 00:02:42,390
+ 
+ 
+
+00:02:42,390 --> 00:02:44,869
+ 
+ 
+
+00:02:44,869 --> 00:02:47,509
+ 
+ 
+
+00:02:47,509 --> 00:02:47,519
+ 
+ 
+
+00:02:47,519 --> 00:02:48,390
+ 
+
+
+00:02:48,390 --> 00:02:50,309
+ 
+ 
+
+00:02:50,309 --> 00:02:52,229
+ 
+ 
+
+00:02:52,229 --> 00:02:54,150
+ 
+ 
+
+00:02:54,150 --> 00:02:56,869
+ 
+ 
+
+00:02:56,869 --> 00:02:59,830
+ 
+ 
+
+00:02:59,830 --> 00:03:01,750
+ 
+ 
+
+00:03:01,750 --> 00:03:03,830
+ 
+ 
+
+00:03:03,830 --> 00:03:06,390
+ 
+ 
+
+00:03:06,390 --> 00:03:08,390
+ 
+ 
+
+00:03:08,390 --> 00:03:10,309
+ 
+ 
+
+00:03:10,309 --> 00:03:11,670
+ 
+ 
+
+00:03:11,670 --> 00:03:13,750
+ 
+ 
+
+00:03:13,750 --> 00:03:16,710
+ 
+ 
+
+00:03:16,710 --> 00:03:18,390
+ 
+ 
+
+00:03:18,390 --> 00:03:18,400
+ 
+ 
+
+00:03:18,400 --> 00:03:19,430
+ 
+
+
+00:03:19,430 --> 00:03:22,710
+ 
+ 
+
+00:03:22,710 --> 00:03:25,670
+ 
+ 
+
+00:03:25,670 --> 00:03:27,110
+ 
+ 
+
+00:03:27,110 --> 00:03:29,589
+ 
+ 
+
+00:03:29,589 --> 00:03:32,309
+ 
+ 
+
+00:03:32,309 --> 00:03:34,789
+ 
+ 
+
+00:03:34,789 --> 00:03:37,030
+ 
+ 
+
+00:03:37,030 --> 00:03:38,949
+ 
+ 
+
+00:03:38,949 --> 00:03:40,869
+ 
+ 
+
+00:03:40,869 --> 00:03:42,710
+ 
+ 
+
+00:03:42,710 --> 00:03:44,470
+ 
+ 
+
+00:03:44,470 --> 00:03:46,229
+ 
+ 
+
+00:03:46,229 --> 00:03:48,149
+ 
+ 
+
+00:03:48,149 --> 00:03:49,750
+ 
+ 
+
+00:03:49,750 --> 00:03:51,910
+ 
+ 
+
+00:03:51,910 --> 00:03:53,670
+ 
+ 
+
+00:03:53,670 --> 00:03:55,830
+ 
+ 
+
+00:03:55,830 --> 00:03:57,830
+ 
+ 
+
+00:03:57,830 --> 00:03:59,270
+ 
+ 
+
+00:03:59,270 --> 00:04:01,030
+ 
+ 
+
+00:04:01,030 --> 00:04:02,470
+ 
+ 
+
+00:04:02,470 --> 00:04:03,990
+ 
+ 
+
+00:04:03,990 --> 00:04:05,830
+ 
+ 
+
+00:04:05,830 --> 00:04:07,110
+ 
+ 
+
+00:04:07,110 --> 00:04:08,550
+ 
+ 
+
+00:04:08,550 --> 00:04:11,429
+ 
+ 
+
+00:04:11,429 --> 00:04:13,589
+ 
+ 
+
+00:04:13,589 --> 00:04:15,589
+ 
+ 
+
+00:04:15,589 --> 00:04:17,270
+ 
+ 
+
+00:04:17,270 --> 00:04:18,150
+ 
+ 
+
+00:04:18,150 --> 00:04:20,629
+ 
+ 
+
+00:04:20,629 --> 00:04:22,550
+ 
+ 
+
+00:04:22,550 --> 00:04:23,990
+ 
+ 
+
+00:04:23,990 --> 00:04:25,350
+ 
+ 
+
+00:04:25,350 --> 00:04:27,590
+ 
+ 
+
+00:04:27,590 --> 00:04:29,510
+ 
+ 
+
+00:04:29,510 --> 00:04:31,510
+ 
+ 
+
+00:04:31,510 --> 00:04:32,950
+ 
+ 
+
+00:04:32,950 --> 00:04:35,270
+ 
+ 
+
+00:04:35,270 --> 00:04:37,990
+ 
+ 
+
+00:04:37,990 --> 00:04:40,150
+ 
+ 
+
+00:04:40,150 --> 00:04:42,310
+ 
+ 
+
+00:04:42,310 --> 00:04:46,070
+ 
+ 
+
+00:04:46,070 --> 00:04:46,080
+ 
+ 
+
+00:04:46,080 --> 00:04:47,909
+ 
+
+
+00:04:47,909 --> 00:04:49,670
+ 
+ 
+
+00:04:49,670 --> 00:04:51,510
+ 
+ 
+
+00:04:51,510 --> 00:04:54,310
+ 
+ 
+
+00:04:54,310 --> 00:04:57,830
+ 
+ 
+
+00:04:57,830 --> 00:04:58,950
+ 
+ 
+
+00:04:58,950 --> 00:05:02,230
+ 
+ 
+
+00:05:02,230 --> 00:05:04,870
+ 
+ 
+
+00:05:04,870 --> 00:05:07,029
+ 
+ 
+
+00:05:07,029 --> 00:05:09,749
+ 
+ 
+
+00:05:09,749 --> 00:05:11,830
+ 
+ 
+
+00:05:11,830 --> 00:05:13,749
+ 
+ 
+
+00:05:13,749 --> 00:05:15,830
+ 
+ 
+
+00:05:15,830 --> 00:05:19,029
+ 
+ 
+
+00:05:19,029 --> 00:05:20,870
+ 
+ 
+
+00:05:20,870 --> 00:05:24,150
+ 
+ 
+
+00:05:24,150 --> 00:05:26,070
+ 
+ 
+
+00:05:26,070 --> 00:05:28,790
+ 
+ 
+
+00:05:28,790 --> 00:05:28,800
+ 
+ 
+
+00:05:28,800 --> 00:05:29,590
+ 
+
+
+00:05:29,590 --> 00:05:31,029
+ 
+ 
+
+00:05:31,029 --> 00:05:33,670
+ 
+ 
+
+00:05:33,670 --> 00:05:36,150
+ 
+ 
+
+00:05:36,150 --> 00:05:38,230
+ 
+ 
+
+00:05:38,230 --> 00:05:40,790
+ 
+ 
+
+00:05:40,790 --> 00:05:43,189
+ 
+ 
+
+00:05:43,189 --> 00:05:46,150
+ 
+ 
+
+00:05:46,150 --> 00:05:48,469
+ 
+ 
+
+00:05:48,469 --> 00:05:52,790
+ 
+ 
+
+00:05:52,790 --> 00:05:55,909
+ 
+ 
+
+00:05:55,909 --> 00:05:57,189
+ 
+ 
+
+00:05:57,189 --> 00:05:58,950
+ 
+ 
+
+00:05:58,950 --> 00:06:00,550
+ 
+ 
+
+00:06:00,550 --> 00:06:02,230
+ 
+ 
+
+00:06:02,230 --> 00:06:02,240
+ 
+ 
+
+00:06:02,240 --> 00:06:03,189
+ 
+
+
+00:06:03,189 --> 00:06:05,189
+ 
+ 
+
+00:06:05,189 --> 00:06:06,629
+ 
+ 
+
+00:06:06,629 --> 00:06:09,990
+ 
+ 
+
+00:06:09,990 --> 00:06:13,029
+ 
+ 
+
+00:06:13,029 --> 00:06:15,909
+ 
+ 
+
+00:06:15,909 --> 00:06:18,629
+ 
+ 
+
+00:06:18,629 --> 00:06:20,790
+ 
+ 
+
+00:06:20,790 --> 00:06:22,550
+ 
+ 
+
+00:06:22,550 --> 00:06:27,510
+ 
+ 
+
+00:06:27,510 --> 00:06:27,520
+ 
+ 
+
+00:06:27,520 --> 00:06:31,110
+ 
+
+
+00:06:31,110 --> 00:06:31,120
+ 
+ 
+
+00:06:31,120 --> 00:06:32,150
+ 
+
+
+00:06:32,150 --> 00:06:39,189
+ 
+ 
+
+00:06:39,189 --> 00:06:41,909
+ 
+ 
+
+00:06:41,909 --> 00:06:43,350
+ 
+ 
+
+00:06:43,350 --> 00:06:49,110
+ 
+ 
+
+00:06:49,110 --> 00:06:49,120
+ 
+ 
+
+00:06:49,120 --> 00:06:51,589
+ 
+
+
+00:06:51,589 --> 00:06:53,270
+ 
+ 
+
+00:06:53,270 --> 00:06:55,110
+ 
+ 
+
+00:06:55,110 --> 00:06:56,950
+ 
+ 
+
+00:06:56,950 --> 00:07:00,070
+ 
+ 
+
+00:07:00,070 --> 00:07:02,309
+ 
+ 
+
+00:07:02,309 --> 00:07:04,550
+ 
+ 
+
+00:07:04,550 --> 00:07:06,950
+ 
+ 
+
+00:07:06,950 --> 00:07:09,430
+ 
+ 
+
+00:07:09,430 --> 00:07:12,390
+ 
+ 
+
+00:07:12,390 --> 00:07:15,430
+ 
+ 
+
+00:07:15,430 --> 00:07:17,029
+ 
+ 
+
+00:07:17,029 --> 00:07:17,039
+ 
+ 
+
+00:07:17,039 --> 00:07:18,390
+ 
+
+
+00:07:18,390 --> 00:07:20,150
+ 
+ 
+
+00:07:20,150 --> 00:07:20,160
+ 
+ 
+
+00:07:20,160 --> 00:07:28,710
+ 
+
+
+00:07:28,710 --> 00:07:31,510
+ 
+ 
+
+00:07:31,510 --> 00:07:37,830
+ 
+ 
+
+00:07:37,830 --> 00:07:37,840
+ 
+ 
+
+00:07:37,840 --> 00:07:43,670
+ 
+
+
+00:07:43,670 --> 00:07:47,749
+ 
+ 
+
+00:07:47,749 --> 00:07:48,950
+ 
+ 
+
+00:07:48,950 --> 00:07:51,430
+ 
+ 
+
+00:07:51,430 --> 00:07:53,270
+ 
+ 
+
+00:07:53,270 --> 00:07:56,790
+ 
+ 
+
+00:07:56,790 --> 00:07:58,629
+ 
+ 
+
+00:07:58,629 --> 00:08:00,790
+ 
+ 
+
+00:08:00,790 --> 00:08:02,629
+ 
+ 
+
+00:08:02,629 --> 00:08:03,749
+ 
+ 
+
+00:08:03,749 --> 00:08:06,390
+ 
+ 
+
+00:08:06,390 --> 00:08:08,869
+ 
+ 
+
+00:08:08,869 --> 00:08:10,869
+ 
+ 
+
+00:08:10,869 --> 00:08:13,110
+ 
+ 
+
+00:08:13,110 --> 00:08:15,270
+ 
+ 
+
+00:08:15,270 --> 00:08:17,749
+ 
+ 
+
+00:08:17,749 --> 00:08:19,270
+ 
+ 
+
+00:08:19,270 --> 00:08:21,189
+ 
+ 
+
+00:08:21,189 --> 00:08:23,510
+ 
+ 
+
+00:08:23,510 --> 00:08:26,629
+ 
+ 
+
+00:08:26,629 --> 00:08:28,070
+ 
+ 
+
+00:08:28,070 --> 00:08:28,080
+ 
+ 
+
+00:08:28,080 --> 00:08:29,110
+ 
+
+
+00:08:29,110 --> 00:08:31,670
+ 
+ 
+
+00:08:31,670 --> 00:08:32,790
+ 
+ 
+
+00:08:32,790 --> 00:08:34,709
+ 
+ 
+
+00:08:34,709 --> 00:08:37,670
+ 
+ 
+
+00:08:37,670 --> 00:08:41,430
+ 
+ 
+
+00:08:41,430 --> 00:08:43,589
+ 
+ 
+
+00:08:43,589 --> 00:08:45,509
+ 
+ 
+
+00:08:45,509 --> 00:08:47,430
+ 
+ 
+
+00:08:47,430 --> 00:08:48,790
+ 
+ 
+
+00:08:48,790 --> 00:08:49,910
+ 
+ 
+
+00:08:49,910 --> 00:08:52,230
+ 
+ 
+
+00:08:52,230 --> 00:08:54,470
+ 
+ 
+
+00:08:54,470 --> 00:08:56,070
+ 
+ 
+
+00:08:56,070 --> 00:08:57,910
+ 
+ 
+
+00:08:57,910 --> 00:08:57,920
+ 
+ 
+
+00:08:57,920 --> 00:08:58,949
+ 
+
+
+00:08:58,949 --> 00:09:01,030
+ 
+ 
+
+00:09:01,030 --> 00:09:03,910
+ 
+ 
+
+00:09:03,910 --> 00:09:06,550
+ 
+ 
+
+00:09:06,550 --> 00:09:08,070
+ 
+ 
+
+00:09:08,070 --> 00:09:10,949
+ 
+ 
+
+00:09:10,949 --> 00:09:14,470
+ 
+ 
+
+00:09:14,470 --> 00:09:17,430
+ 
+ 
+
+00:09:17,430 --> 00:09:20,070
+ 
+ 
+
+00:09:20,070 --> 00:09:22,310
+ 
+ 
+
+00:09:22,310 --> 00:09:25,190
+ 
+ 
+
+00:09:25,190 --> 00:09:27,750
+ 
+ 
+
+00:09:27,750 --> 00:09:29,990
+ 
+ 
+
+00:09:29,990 --> 00:09:32,150
+ 
+ 
+
+00:09:32,150 --> 00:09:34,150
+ 
+ 
+
+00:09:34,150 --> 00:09:36,150
+ 
+ 
+
+00:09:36,150 --> 00:09:38,150
+ 
+ 
+
+00:09:38,150 --> 00:09:38,160
+ 
+ 
+
+00:09:38,160 --> 00:09:41,160
+ 
+
+

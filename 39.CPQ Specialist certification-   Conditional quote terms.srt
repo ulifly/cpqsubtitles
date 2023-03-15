@@ -1,0 +1,705 @@
+
+00:00:00,539 --> 00:00:02,629
+ 
+good everyone I hope you guys have an  amazing day so in the last episode I  talked about the code terms right  and how code terms can be useful for  sending the proposals now I also  mentioned one thing right in in the  future episode I will be talking about  how to render code terms conditionally  right  um so so I've I've demonstrated right uh  so for instance if I wanted to  um display just one code term so I have  to pretty much untick all the options  that's what I did in the last episode  but this time what I'll do I will  activate this one right  uh  and then  I will add condition so that you know  only one of these out of two only one of  them get displayed so under current  scenario if you if you're gonna look at  how the code will be uh displayed so you  will see that you will be able to see uh  both the code terms uh getting rendered  uh to the PDF document uh let me show  you so if I go to code  um and I go to  this particular one  and I will say generate document  and I'll choose the template  and I will do preview  I mean this this is this options could  be pretty useful right I mean if you  want if you wanted to include certain  code terms uh for certain customers and  exclude certain code terms right you can  do that all right so if if I look at  this one right you can see I got both  the code terms included now what if I  only wanted to see this right and at the  same time I do not want to deactivate  the other ones okay so is there a way to  do that absolutely so let's check it out  how we can do it so I'll go back to the  code terms right so for now I'm just  going to dealing with uh two chord terms  so I'm gonna show you a trailer example  right it's pretty basic example but it  will uh clear your concept to know how  to conditionally render a code terms  okay so in account right if I go to an  account I have the school account right  and under account uh there is something  called SLA right so we it's a pick list  right we got gold silver bronze Etc  right so what I'll do I will filter  uh the code terms based on the SLA right  so obviously when you create a code you  link that code to a certain account  right so for instance I'm linking a code  to the school account so obviously the  SLA will come from uh the count field  right now so what I wanted to do I  wanted to include only  uh those core terms where I will set a  term conditions to say hey the SLS  should be a bronze right so if it's not  clear I'll just show you what I meant by  that  so I go to code terms right uh let's  pick this one  and what I'll say I'm going to relate it  I want to include  um  say account SLA which is a Formula field  on the code object which actually gets  the value from account SLA field  should contain I'll just say just to  make it simple contains prawns  right and I'm saying that okay include  this code terms if there's a field  contains bronze right or you can do  equal just just to keep it simple I'm  just using contains and then I go back  to the other one  and what I'll do I will go to the relate  list I've got new  um I'll pick the same field because you  know that's exactly what I wanted to  uh compare it so I will do  contained silver okay  so I got two active code terms right now  all I've done I've added terms  conditions to both the code terms right  so let's go back to the code right and  I'm using this code okay and I got the  school account and as you know that  school account has an SLA of bronze  which I have already  uh just like I showed you before okay  now I will go to generate document  option  and  okay and I'll pick this template okay  and I'll do preview yeah  let's see what happens right it might  take you know a few seconds but okay  so as you can see we've got only one  code term display because it's rendering  based on uh conditions right so this is  exactly what I wanted to Showcase today  I mean I do understand that right you  know you know if you have a lot of code  terms it can get challenging so uh you  can also  um play with uh something called  just a second if you have  uh  more than one terms condition you can  also do  something called all condition Med you  can you know fiddle with this as well so  for now I think this is good enough of  for you to know from an exam point of  view  um I would highly encourage you to you  guys to practice it build a scenario  um you know because I do understand that  trailer is pretty basic right I mean  let's accept the fact trailer it's  pretty basic it it gets you started but  you know as you develop more scenarios  you will get you know in in you know  inside out of any product right that's  that's how it works right trailer is  pretty great platform don't get me wrong  I love train hack because Trailhead is  my go-to place for learning anything  related to Salesforce in saying so the  the scenario of things are pretty basic  right yes I do appreciate the fact that  God super badge super badge is pretty  amazing so I highly recommend people to  do super badge right before they go and  appear for any certification if you are  someone uh who is new to Salesforce and  trying you know to get your things  around because if you are someone who's  got lots of experience then  um I'm not sure what value super badge  will bring because like for instance I  have lots of you know programming  experience in Salesforce for me  programming super patch adds no value  whatsoever because I've  you know built the complex scenarios  down that but in saying so right I just  I'm not discouraging you guys to use  Superman I'm saying if you have tons of  experience if you know what you're doing  then I don't see super rich gonna add a  value but if you're someone who's new to  Salesforce wants to learn certain  aspects of the Salesforce then I will  highly recommend super match so that  being said I hope you guys have an  amazing uh Thursday adios
+
+00:00:02,629 --> 00:00:04,490
+good everyone I hope you guys have an  amazing day so in the last episode I  talked about the code terms right  and how code terms can be useful for  sending the proposals now I also  mentioned one thing right in in the  future episode I will be talking about  how to render code terms conditionally  right  um so so I've I've demonstrated right uh  so for instance if I wanted to  um display just one code term so I have  to pretty much untick all the options  that's what I did in the last episode  but this time what I'll do I will  activate this one right  uh  and then  I will add condition so that you know  only one of these out of two only one of  them get displayed so under current  scenario if you if you're gonna look at  how the code will be uh displayed so you  will see that you will be able to see uh  both the code terms uh getting rendered  uh to the PDF document uh let me show  you so if I go to code  um and I go to  this particular one  and I will say generate document  and I'll choose the template  and I will do preview  I mean this this is this options could  be pretty useful right I mean if you  want if you wanted to include certain  code terms uh for certain customers and  exclude certain code terms right you can  do that all right so if if I look at  this one right you can see I got both  the code terms included now what if I  only wanted to see this right and at the  same time I do not want to deactivate  the other ones okay so is there a way to  do that absolutely so let's check it out  how we can do it so I'll go back to the  code terms right so for now I'm just  going to dealing with uh two chord terms  so I'm gonna show you a trailer example  right it's pretty basic example but it  will uh clear your concept to know how  to conditionally render a code terms  okay so in account right if I go to an  account I have the school account right  and under account uh there is something  called SLA right so we it's a pick list  right we got gold silver bronze Etc  right so what I'll do I will filter  uh the code terms based on the SLA right  so obviously when you create a code you  link that code to a certain account  right so for instance I'm linking a code  to the school account so obviously the  SLA will come from uh the count field  right now so what I wanted to do I  wanted to include only  uh those core terms where I will set a  term conditions to say hey the SLS  should be a bronze right so if it's not  clear I'll just show you what I meant by  that  so I go to code terms right uh let's  pick this one  and what I'll say I'm going to relate it  I want to include  um  say account SLA which is a Formula field  on the code object which actually gets  the value from account SLA field  should contain I'll just say just to  make it simple contains prawns  right and I'm saying that okay include  this code terms if there's a field  contains bronze right or you can do  equal just just to keep it simple I'm  just using contains and then I go back  to the other one  and what I'll do I will go to the relate  list I've got new  um I'll pick the same field because you  know that's exactly what I wanted to  uh compare it so I will do  contained silver okay  so I got two active code terms right now  all I've done I've added terms  conditions to both the code terms right  so let's go back to the code right and  I'm using this code okay and I got the  school account and as you know that  school account has an SLA of bronze  which I have already  uh just like I showed you before okay  now I will go to generate document  option  and  okay and I'll pick this template okay  and I'll do preview yeah  let's see what happens right it might  take you know a few seconds but okay  so as you can see we've got only one  code term display because it's rendering  based on uh conditions right so this is  exactly what I wanted to Showcase today  I mean I do understand that right you  know you know if you have a lot of code  terms it can get challenging so uh you  can also  um play with uh something called  just a second if you have  uh  more than one terms condition you can  also do  something called all condition Med you  can you know fiddle with this as well so  for now I think this is good enough of  for you to know from an exam point of  view  um I would highly encourage you to you  guys to practice it build a scenario  um you know because I do understand that  trailer is pretty basic right I mean  let's accept the fact trailer it's  pretty basic it it gets you started but  you know as you develop more scenarios  you will get you know in in you know  inside out of any product right that's  that's how it works right trailer is  pretty great platform don't get me wrong  I love train hack because Trailhead is  my go-to place for learning anything  related to Salesforce in saying so the  the scenario of things are pretty basic  right yes I do appreciate the fact that  God super badge super badge is pretty  amazing so I highly recommend people to  do super badge right before they go and  appear for any certification if you are  someone uh who is new to Salesforce and  trying you know to get your things  around because if you are someone who's  got lots of experience then  um I'm not sure what value super badge  will bring because like for instance I  have lots of you know programming  experience in Salesforce for me  programming super patch adds no value  whatsoever because I've  you know built the complex scenarios  down that but in saying so right I just  I'm not discouraging you guys to use  Superman I'm saying if you have tons of  experience if you know what you're doing  then I don't see super rich gonna add a  value but if you're someone who's new to  Salesforce wants to learn certain  aspects of the Salesforce then I will  highly recommend super match so that  being said I hope you guys have an  amazing uh Thursday adios
+ 
+
+00:00:04,490 --> 00:00:06,490
+ 
+ 
+
+00:00:06,490 --> 00:00:09,770
+ 
+ 
+
+00:00:09,770 --> 00:00:13,190
+ 
+ 
+
+00:00:13,190 --> 00:00:15,049
+ 
+ 
+
+00:00:15,049 --> 00:00:16,849
+ 
+ 
+
+00:00:16,849 --> 00:00:20,090
+ 
+ 
+
+00:00:20,090 --> 00:00:20,100
+ 
+ 
+
+00:00:20,100 --> 00:00:21,650
+ 
+
+
+00:00:21,650 --> 00:00:25,189
+ 
+ 
+
+00:00:25,189 --> 00:00:27,890
+ 
+ 
+
+00:00:27,890 --> 00:00:30,950
+ 
+ 
+
+00:00:30,950 --> 00:00:34,069
+ 
+ 
+
+00:00:34,069 --> 00:00:36,229
+ 
+ 
+
+00:00:36,229 --> 00:00:39,310
+ 
+ 
+
+00:00:39,310 --> 00:00:42,170
+ 
+ 
+
+00:00:42,170 --> 00:00:42,180
+ 
+ 
+
+00:00:42,180 --> 00:00:43,990
+ 
+
+
+00:00:43,990 --> 00:00:46,850
+ 
+ 
+
+00:00:46,850 --> 00:00:49,369
+ 
+ 
+
+00:00:49,369 --> 00:00:51,950
+ 
+ 
+
+00:00:51,950 --> 00:00:54,049
+ 
+ 
+
+00:00:54,049 --> 00:00:56,090
+ 
+ 
+
+00:00:56,090 --> 00:00:59,990
+ 
+ 
+
+00:00:59,990 --> 00:01:03,170
+ 
+ 
+
+00:01:03,170 --> 00:01:06,050
+ 
+ 
+
+00:01:06,050 --> 00:01:08,990
+ 
+ 
+
+00:01:08,990 --> 00:01:11,690
+ 
+ 
+
+00:01:11,690 --> 00:01:13,450
+ 
+ 
+
+00:01:13,450 --> 00:01:16,390
+ 
+ 
+
+00:01:16,390 --> 00:01:21,230
+ 
+ 
+
+00:01:21,230 --> 00:01:23,870
+ 
+ 
+
+00:01:23,870 --> 00:01:26,990
+ 
+ 
+
+00:01:26,990 --> 00:01:29,030
+ 
+ 
+
+00:01:29,030 --> 00:01:30,770
+ 
+ 
+
+00:01:30,770 --> 00:01:32,030
+ 
+ 
+
+00:01:32,030 --> 00:01:35,510
+ 
+ 
+
+00:01:35,510 --> 00:01:37,910
+ 
+ 
+
+00:01:37,910 --> 00:01:40,370
+ 
+ 
+
+00:01:40,370 --> 00:01:43,609
+ 
+ 
+
+00:01:43,609 --> 00:01:46,190
+ 
+ 
+
+00:01:46,190 --> 00:01:48,710
+ 
+ 
+
+00:01:48,710 --> 00:01:50,749
+ 
+ 
+
+00:01:50,749 --> 00:01:53,389
+ 
+ 
+
+00:01:53,389 --> 00:01:55,670
+ 
+ 
+
+00:01:55,670 --> 00:01:58,550
+ 
+ 
+
+00:01:58,550 --> 00:02:00,649
+ 
+ 
+
+00:02:00,649 --> 00:02:02,810
+ 
+ 
+
+00:02:02,810 --> 00:02:05,510
+ 
+ 
+
+00:02:05,510 --> 00:02:07,969
+ 
+ 
+
+00:02:07,969 --> 00:02:12,050
+ 
+ 
+
+00:02:12,050 --> 00:02:14,270
+ 
+ 
+
+00:02:14,270 --> 00:02:16,970
+ 
+ 
+
+00:02:16,970 --> 00:02:19,130
+ 
+ 
+
+00:02:19,130 --> 00:02:22,070
+ 
+ 
+
+00:02:22,070 --> 00:02:25,369
+ 
+ 
+
+00:02:25,369 --> 00:02:28,130
+ 
+ 
+
+00:02:28,130 --> 00:02:32,949
+ 
+ 
+
+00:02:32,949 --> 00:02:36,710
+ 
+ 
+
+00:02:36,710 --> 00:02:38,510
+ 
+ 
+
+00:02:38,510 --> 00:02:39,830
+ 
+ 
+
+00:02:39,830 --> 00:02:42,290
+ 
+ 
+
+00:02:42,290 --> 00:02:44,330
+ 
+ 
+
+00:02:44,330 --> 00:02:46,910
+ 
+ 
+
+00:02:46,910 --> 00:02:50,630
+ 
+ 
+
+00:02:50,630 --> 00:02:53,410
+ 
+ 
+
+00:02:53,410 --> 00:02:57,290
+ 
+ 
+
+00:02:57,290 --> 00:02:59,809
+ 
+ 
+
+00:02:59,809 --> 00:03:03,410
+ 
+ 
+
+00:03:03,410 --> 00:03:05,089
+ 
+ 
+
+00:03:05,089 --> 00:03:05,099
+ 
+ 
+
+00:03:05,099 --> 00:03:05,869
+ 
+
+
+00:03:05,869 --> 00:03:09,290
+ 
+ 
+
+00:03:09,290 --> 00:03:11,030
+ 
+ 
+
+00:03:11,030 --> 00:03:13,910
+ 
+ 
+
+00:03:13,910 --> 00:03:17,570
+ 
+ 
+
+00:03:17,570 --> 00:03:17,580
+ 
+ 
+
+00:03:17,580 --> 00:03:18,410
+ 
+
+
+00:03:18,410 --> 00:03:21,710
+ 
+ 
+
+00:03:21,710 --> 00:03:24,350
+ 
+ 
+
+00:03:24,350 --> 00:03:26,890
+ 
+ 
+
+00:03:26,890 --> 00:03:29,509
+ 
+ 
+
+00:03:29,509 --> 00:03:33,350
+ 
+ 
+
+00:03:33,350 --> 00:03:37,309
+ 
+ 
+
+00:03:37,309 --> 00:03:39,229
+ 
+ 
+
+00:03:39,229 --> 00:03:41,330
+ 
+ 
+
+00:03:41,330 --> 00:03:43,550
+ 
+ 
+
+00:03:43,550 --> 00:03:46,309
+ 
+ 
+
+00:03:46,309 --> 00:03:47,890
+ 
+ 
+
+00:03:47,890 --> 00:03:51,710
+ 
+ 
+
+00:03:51,710 --> 00:03:54,949
+ 
+ 
+
+00:03:54,949 --> 00:03:58,910
+ 
+ 
+
+00:03:58,910 --> 00:04:01,130
+ 
+ 
+
+00:04:01,130 --> 00:04:04,850
+ 
+ 
+
+00:04:04,850 --> 00:04:08,630
+ 
+ 
+
+00:04:08,630 --> 00:04:12,649
+ 
+ 
+
+00:04:12,649 --> 00:04:14,390
+ 
+ 
+
+00:04:14,390 --> 00:04:16,430
+ 
+ 
+
+00:04:16,430 --> 00:04:20,330
+ 
+ 
+
+00:04:20,330 --> 00:04:23,210
+ 
+ 
+
+00:04:23,210 --> 00:04:24,710
+ 
+ 
+
+00:04:24,710 --> 00:04:28,070
+ 
+ 
+
+00:04:28,070 --> 00:04:29,570
+ 
+ 
+
+00:04:29,570 --> 00:04:32,210
+ 
+ 
+
+00:04:32,210 --> 00:04:34,550
+ 
+ 
+
+00:04:34,550 --> 00:04:34,560
+ 
+ 
+
+00:04:34,560 --> 00:04:36,129
+ 
+
+
+00:04:36,129 --> 00:04:36,139
+ 
+ 
+
+00:04:36,139 --> 00:04:37,930
+ 
+
+
+00:04:37,930 --> 00:04:42,110
+ 
+ 
+
+00:04:42,110 --> 00:04:44,930
+ 
+ 
+
+00:04:44,930 --> 00:04:46,370
+ 
+ 
+
+00:04:46,370 --> 00:04:50,090
+ 
+ 
+
+00:04:50,090 --> 00:04:53,150
+ 
+ 
+
+00:04:53,150 --> 00:04:55,909
+ 
+ 
+
+00:04:55,909 --> 00:04:59,629
+ 
+ 
+
+00:04:59,629 --> 00:05:01,969
+ 
+ 
+
+00:05:01,969 --> 00:05:04,969
+ 
+ 
+
+00:05:04,969 --> 00:05:07,430
+ 
+ 
+
+00:05:07,430 --> 00:05:10,430
+ 
+ 
+
+00:05:10,430 --> 00:05:11,930
+ 
+ 
+
+00:05:11,930 --> 00:05:15,170
+ 
+ 
+
+00:05:15,170 --> 00:05:18,710
+ 
+ 
+
+00:05:18,710 --> 00:05:18,720
+ 
+ 
+
+00:05:18,720 --> 00:05:20,510
+ 
+
+
+00:05:20,510 --> 00:05:22,850
+ 
+ 
+
+00:05:22,850 --> 00:05:25,490
+ 
+ 
+
+00:05:25,490 --> 00:05:27,950
+ 
+ 
+
+00:05:27,950 --> 00:05:30,409
+ 
+ 
+
+00:05:30,409 --> 00:05:33,050
+ 
+ 
+
+00:05:33,050 --> 00:05:34,909
+ 
+ 
+
+00:05:34,909 --> 00:05:34,919
+ 
+ 
+
+00:05:34,919 --> 00:05:36,050
+ 
+
+
+00:05:36,050 --> 00:05:37,610
+ 
+ 
+
+00:05:37,610 --> 00:05:40,850
+ 
+ 
+
+00:05:40,850 --> 00:05:42,650
+ 
+ 
+
+00:05:42,650 --> 00:05:44,210
+ 
+ 
+
+00:05:44,210 --> 00:05:45,529
+ 
+ 
+
+00:05:45,529 --> 00:05:48,290
+ 
+ 
+
+00:05:48,290 --> 00:05:50,629
+ 
+ 
+
+00:05:50,629 --> 00:05:52,730
+ 
+ 
+
+00:05:52,730 --> 00:05:55,490
+ 
+ 
+
+00:05:55,490 --> 00:05:57,890
+ 
+ 
+
+00:05:57,890 --> 00:05:59,210
+ 
+ 
+
+00:05:59,210 --> 00:06:01,310
+ 
+ 
+
+00:06:01,310 --> 00:06:03,050
+ 
+ 
+
+00:06:03,050 --> 00:06:05,450
+ 
+ 
+
+00:06:05,450 --> 00:06:07,490
+ 
+ 
+
+00:06:07,490 --> 00:06:09,830
+ 
+ 
+
+00:06:09,830 --> 00:06:11,629
+ 
+ 
+
+00:06:11,629 --> 00:06:14,450
+ 
+ 
+
+00:06:14,450 --> 00:06:17,510
+ 
+ 
+
+00:06:17,510 --> 00:06:19,790
+ 
+ 
+
+00:06:19,790 --> 00:06:23,390
+ 
+ 
+
+00:06:23,390 --> 00:06:25,430
+ 
+ 
+
+00:06:25,430 --> 00:06:28,010
+ 
+ 
+
+00:06:28,010 --> 00:06:31,070
+ 
+ 
+
+00:06:31,070 --> 00:06:33,469
+ 
+ 
+
+00:06:33,469 --> 00:06:36,350
+ 
+ 
+
+00:06:36,350 --> 00:06:38,570
+ 
+ 
+
+00:06:38,570 --> 00:06:39,950
+ 
+ 
+
+00:06:39,950 --> 00:06:42,830
+ 
+ 
+
+00:06:42,830 --> 00:06:44,749
+ 
+ 
+
+00:06:44,749 --> 00:06:46,550
+ 
+ 
+
+00:06:46,550 --> 00:06:49,129
+ 
+ 
+
+00:06:49,129 --> 00:06:50,930
+ 
+ 
+
+00:06:50,930 --> 00:06:53,809
+ 
+ 
+
+00:06:53,809 --> 00:06:55,189
+ 
+ 
+
+00:06:55,189 --> 00:06:57,710
+ 
+ 
+
+00:06:57,710 --> 00:06:59,629
+ 
+ 
+
+00:06:59,629 --> 00:07:02,150
+ 
+ 
+
+00:07:02,150 --> 00:07:04,129
+ 
+ 
+
+00:07:04,129 --> 00:07:06,350
+ 
+ 
+
+00:07:06,350 --> 00:07:08,390
+ 
+ 
+
+00:07:08,390 --> 00:07:12,380
+ 
+ 
+

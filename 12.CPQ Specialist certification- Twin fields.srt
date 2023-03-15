@@ -1,0 +1,1297 @@
+
+00:00:00,640 --> 00:00:02,470
+ 
+good everyone i hope you guys have an  amazing day so today what i'm going to  do i will talk about  excuse me the twin feels uh  you know which is a very important uh  from a salesforce cpq perspective so  what is a twin feel right why do you  want to talk about it so consider you  have say let's take an example of a two  objects right you have the the source  object and you have the target object  okay  so now what happens is that so when you  create a target or record in the target  object  the value from the source object get  transferred to  the target object so these are the  custom fields which normally we create  and  those two fields on each object should  have the similar api names  right and excuse me and then you have  the matching field types right for  instance  uh if you're using picklist right on  source the other field uh should be  pickles it shouldn't be a date field or  something right so it should have a  similar  uh the matching  api names  so that's something i'm gonna  demonstrate how it works it's pretty  simple  so now one thing you have to understand  right if you wanted to map one field to  another in simple terms  you need to have a read access on the  source field and you need to have an  edit access on the target field okay you  cannot use the standard fields right so  standard fields can't be mapped between  the objects  um so  what we're going to do we will talk we  will demonstrate i will demonstrate  right now how this thing works now um  you can do the twin feels between um  a contract and uh opportunities made  from uh renewing the contract  uh you can do between the the products  and the code line the one which i want  to demonstrate because it's pretty  simple to demonstrate uh product options  and the code line so product option is  your the source and the code line is  your target object right you can do code  and orders  you can do code line and order products  you can do subscriptions and code line  right different subscription is your the  source and the code line is your target  um you can also do order product and  invoice line you can also do asset  between asset and the code line right  where assets your source and the code  line is your target  object okay so let's look at the  scenario why we need to do it right okay  let's look at the product first  okay so  so now i'm going to pick any product  right um  say  all right let's say so for support right  so what i'm going to do right in this  software support  um i wanted to  give a type right but to say whether  it's a hardware or it's a software right  so obviously the software support cannot  be classified under hardware it has to  be software right so  what that will do is say when i add this  product  to your code and when you save the code  the code will automatically have the  value from here  getting populated to that field so what  i mean by that is that let's say i  create a field  custom field say product type right  on a product  object and i create a similar custom  field called a product type on code line  so and i  and i append the value of the product  type in product to say software in this  case  and without touching the product  uh type and code line  so when you  create a code line from this product it  will automatically populate the value  from the product to the code line i know  it sounds confusing i'll demonstrate it  just to make it simple right okay let's  go to the  uh edit object  so what i'll do i will add a picklist  right um  this is  the most simplest option you can do and  and somehow the salesforce behind the  scene recognize that okay this is twin  fields you know so let's behave  according to the twin fields okay so  i've got a good new and i would say  uh i'm just gonna see the pick list  and i say  you know just a  product  type right i'll just copy this  and i also enter the value i'll say  hardware  and i'll just say  software  and  i will do next  i'm doing this on the product right and  i'll do next  uh i'll save okay now let's go to the  code line  and uh  all right i'm just going to do the code  line  um  and just go to the field relationships  and  i've got a new  um we're going to use the pictures here  all right  just go down  and go next  i'm going to use the same uh api just  you have to remember that api name  should be similar uh between the target  object as well as the source object  right okay so i'm going to put  a  hardware  i'm just going to do something right um  i'm just gonna do next  and i'm gonna go next and i'll save okay  now let's go to the  product  okay  and uh  let's go to the software support  and the product type let's edit this one  and obviously um this is not a  hardware this is a software obviously  software type cannot be classified as a  hardware right so so what i'm going to  do i'll go to the code  and uh let's say i'm going to create a  you  new  code  doesn't matter any code  um just taking some time which is all  right  um  okay it's interesting  sometimes salesforce acts but weird  right  because this is one of the things right  when you are relying on a cloud system  right so it just acts a bit funny but  anyways  whatever the performance is okay so i  just want to make it as primary i'm just  going to say status  and draft don't care  so just wanted to create a dummy code  and then what i'll do i will go to  edit lines  um  and  okay just i don't care about the  standard price book for now just gonna  say add products  are we gonna talk about the price book  right eventually it's important uh just  because i said it's not important right  now that's not the case right  um  okay i'm i have just have to  okay  what is the product code right software  support i don't know if i can  if i can search for it no that's pretty  strange  just a second  hmm interesting  okay just gonna cancel it  um a product which is weird  um just a second  this is bit weird but anyways  um anyways doesn't matter so what i'll  do i will go back to the  another product um let's see what is  available here anyways um  whatever reason it's not showing uh  yeah just a second  right  okay  so  software license let me change this one  here right so i will change it  all right okay so that's done okay now  i'll just  refresh it  yeah i know what's the problem why it  was not showing anyways i will worry  about that later  so what i'll do  yeah so for license for now just wanted  to focus on this demo at this stage  then i'll  next time i'll show you why it's not  working but okay so i'm gonna do save  right  all right when i do save  all right um okay so we got a code line  here right so let's go to the code line  here  it's just pretty simple right you will  be surprised how simple it is  uh  product type  here you go software right so somehow  salesforce recognized behind the scene  that's a twin field and it's copied the  value  pretty simple right  so  that's how it works so as you can see  um  it's quite straightforward and but it's  an important uh concept you should know  and it's important from your  certification point of view as well  right you might get asked question  around it and even uh from an  implementation perspective it's very  important uh so just keep that in mind  and if you want i would highly encourage  you to  you guys to go and read uh this um and  practice  you know using say perhaps stride using  between a a contract service contract an  opportunity to see how that works or  between a  um you know you can try between your  code line and subscription just to give  it a try right to see if that works  uh i do understand that we haven't  talked about the subscription yet we  will cover that eventually but you know  so  right and so i'm just wanted to let you  guys know that once i'm done with cpq  which hopefully will take a month i'm  gonna talk about experience cloud  because i've seen experience cloud  uh more people  uh requested me experience cloud even  linkedin or from other uh platform so  yeah experience cloud it is after that  all right that's all i wanted to talk  about in this episode have a great uh  friday adios
+
+00:00:02,470 --> 00:00:03,909
+good everyone i hope you guys have an  amazing day so today what i'm going to  do i will talk about  excuse me the twin feels uh  you know which is a very important uh  from a salesforce cpq perspective so  what is a twin feel right why do you  want to talk about it so consider you  have say let's take an example of a two  objects right you have the the source  object and you have the target object  okay  so now what happens is that so when you  create a target or record in the target  object  the value from the source object get  transferred to  the target object so these are the  custom fields which normally we create  and  those two fields on each object should  have the similar api names  right and excuse me and then you have  the matching field types right for  instance  uh if you're using picklist right on  source the other field uh should be  pickles it shouldn't be a date field or  something right so it should have a  similar  uh the matching  api names  so that's something i'm gonna  demonstrate how it works it's pretty  simple  so now one thing you have to understand  right if you wanted to map one field to  another in simple terms  you need to have a read access on the  source field and you need to have an  edit access on the target field okay you  cannot use the standard fields right so  standard fields can't be mapped between  the objects  um so  what we're going to do we will talk we  will demonstrate i will demonstrate  right now how this thing works now um  you can do the twin feels between um  a contract and uh opportunities made  from uh renewing the contract  uh you can do between the the products  and the code line the one which i want  to demonstrate because it's pretty  simple to demonstrate uh product options  and the code line so product option is  your the source and the code line is  your target object right you can do code  and orders  you can do code line and order products  you can do subscriptions and code line  right different subscription is your the  source and the code line is your target  um you can also do order product and  invoice line you can also do asset  between asset and the code line right  where assets your source and the code  line is your target  object okay so let's look at the  scenario why we need to do it right okay  let's look at the product first  okay so  so now i'm going to pick any product  right um  say  all right let's say so for support right  so what i'm going to do right in this  software support  um i wanted to  give a type right but to say whether  it's a hardware or it's a software right  so obviously the software support cannot  be classified under hardware it has to  be software right so  what that will do is say when i add this  product  to your code and when you save the code  the code will automatically have the  value from here  getting populated to that field so what  i mean by that is that let's say i  create a field  custom field say product type right  on a product  object and i create a similar custom  field called a product type on code line  so and i  and i append the value of the product  type in product to say software in this  case  and without touching the product  uh type and code line  so when you  create a code line from this product it  will automatically populate the value  from the product to the code line i know  it sounds confusing i'll demonstrate it  just to make it simple right okay let's  go to the  uh edit object  so what i'll do i will add a picklist  right um  this is  the most simplest option you can do and  and somehow the salesforce behind the  scene recognize that okay this is twin  fields you know so let's behave  according to the twin fields okay so  i've got a good new and i would say  uh i'm just gonna see the pick list  and i say  you know just a  product  type right i'll just copy this  and i also enter the value i'll say  hardware  and i'll just say  software  and  i will do next  i'm doing this on the product right and  i'll do next  uh i'll save okay now let's go to the  code line  and uh  all right i'm just going to do the code  line  um  and just go to the field relationships  and  i've got a new  um we're going to use the pictures here  all right  just go down  and go next  i'm going to use the same uh api just  you have to remember that api name  should be similar uh between the target  object as well as the source object  right okay so i'm going to put  a  hardware  i'm just going to do something right um  i'm just gonna do next  and i'm gonna go next and i'll save okay  now let's go to the  product  okay  and uh  let's go to the software support  and the product type let's edit this one  and obviously um this is not a  hardware this is a software obviously  software type cannot be classified as a  hardware right so so what i'm going to  do i'll go to the code  and uh let's say i'm going to create a  you  new  code  doesn't matter any code  um just taking some time which is all  right  um  okay it's interesting  sometimes salesforce acts but weird  right  because this is one of the things right  when you are relying on a cloud system  right so it just acts a bit funny but  anyways  whatever the performance is okay so i  just want to make it as primary i'm just  going to say status  and draft don't care  so just wanted to create a dummy code  and then what i'll do i will go to  edit lines  um  and  okay just i don't care about the  standard price book for now just gonna  say add products  are we gonna talk about the price book  right eventually it's important uh just  because i said it's not important right  now that's not the case right  um  okay i'm i have just have to  okay  what is the product code right software  support i don't know if i can  if i can search for it no that's pretty  strange  just a second  hmm interesting  okay just gonna cancel it  um a product which is weird  um just a second  this is bit weird but anyways  um anyways doesn't matter so what i'll  do i will go back to the  another product um let's see what is  available here anyways um  whatever reason it's not showing uh  yeah just a second  right  okay  so  software license let me change this one  here right so i will change it  all right okay so that's done okay now  i'll just  refresh it  yeah i know what's the problem why it  was not showing anyways i will worry  about that later  so what i'll do  yeah so for license for now just wanted  to focus on this demo at this stage  then i'll  next time i'll show you why it's not  working but okay so i'm gonna do save  right  all right when i do save  all right um okay so we got a code line  here right so let's go to the code line  here  it's just pretty simple right you will  be surprised how simple it is  uh  product type  here you go software right so somehow  salesforce recognized behind the scene  that's a twin field and it's copied the  value  pretty simple right  so  that's how it works so as you can see  um  it's quite straightforward and but it's  an important uh concept you should know  and it's important from your  certification point of view as well  right you might get asked question  around it and even uh from an  implementation perspective it's very  important uh so just keep that in mind  and if you want i would highly encourage  you to  you guys to go and read uh this um and  practice  you know using say perhaps stride using  between a a contract service contract an  opportunity to see how that works or  between a  um you know you can try between your  code line and subscription just to give  it a try right to see if that works  uh i do understand that we haven't  talked about the subscription yet we  will cover that eventually but you know  so  right and so i'm just wanted to let you  guys know that once i'm done with cpq  which hopefully will take a month i'm  gonna talk about experience cloud  because i've seen experience cloud  uh more people  uh requested me experience cloud even  linkedin or from other uh platform so  yeah experience cloud it is after that  all right that's all i wanted to talk  about in this episode have a great uh  friday adios
+ 
+
+00:00:03,909 --> 00:00:06,150
+ 
+ 
+
+00:00:06,150 --> 00:00:08,629
+ 
+ 
+
+00:00:08,629 --> 00:00:10,950
+ 
+ 
+
+00:00:10,950 --> 00:00:13,509
+ 
+ 
+
+00:00:13,509 --> 00:00:15,270
+ 
+ 
+
+00:00:15,270 --> 00:00:17,910
+ 
+ 
+
+00:00:17,910 --> 00:00:20,950
+ 
+ 
+
+00:00:20,950 --> 00:00:22,950
+ 
+ 
+
+00:00:22,950 --> 00:00:24,950
+ 
+ 
+
+00:00:24,950 --> 00:00:24,960
+ 
+ 
+
+00:00:24,960 --> 00:00:25,830
+ 
+
+
+00:00:25,830 --> 00:00:28,790
+ 
+ 
+
+00:00:28,790 --> 00:00:31,669
+ 
+ 
+
+00:00:31,669 --> 00:00:31,679
+ 
+ 
+
+00:00:31,679 --> 00:00:33,030
+ 
+
+
+00:00:33,030 --> 00:00:35,990
+ 
+ 
+
+00:00:35,990 --> 00:00:38,470
+ 
+ 
+
+00:00:38,470 --> 00:00:40,630
+ 
+ 
+
+00:00:40,630 --> 00:00:43,430
+ 
+ 
+
+00:00:43,430 --> 00:00:43,440
+ 
+ 
+
+00:00:43,440 --> 00:00:44,549
+ 
+
+
+00:00:44,549 --> 00:00:47,350
+ 
+ 
+
+00:00:47,350 --> 00:00:50,310
+ 
+ 
+
+00:00:50,310 --> 00:00:52,229
+ 
+ 
+
+00:00:52,229 --> 00:00:53,830
+ 
+ 
+
+00:00:53,830 --> 00:00:53,840
+ 
+ 
+
+00:00:53,840 --> 00:00:54,790
+ 
+
+
+00:00:54,790 --> 00:00:57,110
+ 
+ 
+
+00:00:57,110 --> 00:00:59,830
+ 
+ 
+
+00:00:59,830 --> 00:01:01,910
+ 
+ 
+
+00:01:01,910 --> 00:01:03,510
+ 
+ 
+
+00:01:03,510 --> 00:01:03,520
+ 
+ 
+
+00:01:03,520 --> 00:01:04,549
+ 
+
+
+00:01:04,549 --> 00:01:06,469
+ 
+ 
+
+00:01:06,469 --> 00:01:07,750
+ 
+ 
+
+00:01:07,750 --> 00:01:09,109
+ 
+ 
+
+00:01:09,109 --> 00:01:10,710
+ 
+ 
+
+00:01:10,710 --> 00:01:10,720
+ 
+ 
+
+00:01:10,720 --> 00:01:12,310
+ 
+
+
+00:01:12,310 --> 00:01:13,990
+ 
+ 
+
+00:01:13,990 --> 00:01:16,310
+ 
+ 
+
+00:01:16,310 --> 00:01:18,230
+ 
+ 
+
+00:01:18,230 --> 00:01:20,070
+ 
+ 
+
+00:01:20,070 --> 00:01:22,230
+ 
+ 
+
+00:01:22,230 --> 00:01:24,789
+ 
+ 
+
+00:01:24,789 --> 00:01:27,190
+ 
+ 
+
+00:01:27,190 --> 00:01:28,950
+ 
+ 
+
+00:01:28,950 --> 00:01:30,230
+ 
+ 
+
+00:01:30,230 --> 00:01:31,830
+ 
+ 
+
+00:01:31,830 --> 00:01:33,510
+ 
+ 
+
+00:01:33,510 --> 00:01:34,870
+ 
+ 
+
+00:01:34,870 --> 00:01:38,149
+ 
+ 
+
+00:01:38,149 --> 00:01:42,069
+ 
+ 
+
+00:01:42,069 --> 00:01:44,950
+ 
+ 
+
+00:01:44,950 --> 00:01:47,749
+ 
+ 
+
+00:01:47,749 --> 00:01:50,149
+ 
+ 
+
+00:01:50,149 --> 00:01:51,830
+ 
+ 
+
+00:01:51,830 --> 00:01:52,870
+ 
+ 
+
+00:01:52,870 --> 00:01:55,270
+ 
+ 
+
+00:01:55,270 --> 00:01:57,350
+ 
+ 
+
+00:01:57,350 --> 00:01:59,510
+ 
+ 
+
+00:01:59,510 --> 00:02:01,590
+ 
+ 
+
+00:02:01,590 --> 00:02:02,950
+ 
+ 
+
+00:02:02,950 --> 00:02:06,230
+ 
+ 
+
+00:02:06,230 --> 00:02:08,389
+ 
+ 
+
+00:02:08,389 --> 00:02:10,869
+ 
+ 
+
+00:02:10,869 --> 00:02:13,270
+ 
+ 
+
+00:02:13,270 --> 00:02:15,830
+ 
+ 
+
+00:02:15,830 --> 00:02:18,070
+ 
+ 
+
+00:02:18,070 --> 00:02:19,510
+ 
+ 
+
+00:02:19,510 --> 00:02:21,510
+ 
+ 
+
+00:02:21,510 --> 00:02:24,949
+ 
+ 
+
+00:02:24,949 --> 00:02:27,430
+ 
+ 
+
+00:02:27,430 --> 00:02:29,430
+ 
+ 
+
+00:02:29,430 --> 00:02:31,430
+ 
+ 
+
+00:02:31,430 --> 00:02:34,150
+ 
+ 
+
+00:02:34,150 --> 00:02:35,910
+ 
+ 
+
+00:02:35,910 --> 00:02:38,869
+ 
+ 
+
+00:02:38,869 --> 00:02:38,879
+ 
+ 
+
+00:02:38,879 --> 00:02:40,390
+ 
+
+
+00:02:40,390 --> 00:02:43,350
+ 
+ 
+
+00:02:43,350 --> 00:02:46,150
+ 
+ 
+
+00:02:46,150 --> 00:02:47,509
+ 
+ 
+
+00:02:47,509 --> 00:02:49,509
+ 
+ 
+
+00:02:49,509 --> 00:02:51,750
+ 
+ 
+
+00:02:51,750 --> 00:02:54,390
+ 
+ 
+
+00:02:54,390 --> 00:02:56,150
+ 
+ 
+
+00:02:56,150 --> 00:02:58,149
+ 
+ 
+
+00:02:58,149 --> 00:02:59,990
+ 
+ 
+
+00:02:59,990 --> 00:03:02,309
+ 
+ 
+
+00:03:02,309 --> 00:03:02,319
+ 
+ 
+
+00:03:02,319 --> 00:03:03,589
+ 
+
+
+00:03:03,589 --> 00:03:05,589
+ 
+ 
+
+00:03:05,589 --> 00:03:07,589
+ 
+ 
+
+00:03:07,589 --> 00:03:09,830
+ 
+ 
+
+00:03:09,830 --> 00:03:12,710
+ 
+ 
+
+00:03:12,710 --> 00:03:14,869
+ 
+ 
+
+00:03:14,869 --> 00:03:16,550
+ 
+ 
+
+00:03:16,550 --> 00:03:20,630
+ 
+ 
+
+00:03:20,630 --> 00:03:23,270
+ 
+ 
+
+00:03:23,270 --> 00:03:25,509
+ 
+ 
+
+00:03:25,509 --> 00:03:29,350
+ 
+ 
+
+00:03:29,350 --> 00:03:31,190
+ 
+ 
+
+00:03:31,190 --> 00:03:33,910
+ 
+ 
+
+00:03:33,910 --> 00:03:35,990
+ 
+ 
+
+00:03:35,990 --> 00:03:36,000
+ 
+ 
+
+00:03:36,000 --> 00:03:36,789
+ 
+
+
+00:03:36,789 --> 00:03:39,270
+ 
+ 
+
+00:03:39,270 --> 00:03:41,509
+ 
+ 
+
+00:03:41,509 --> 00:03:42,710
+ 
+ 
+
+00:03:42,710 --> 00:03:44,470
+ 
+ 
+
+00:03:44,470 --> 00:03:46,070
+ 
+ 
+
+00:03:46,070 --> 00:03:47,430
+ 
+ 
+
+00:03:47,430 --> 00:03:48,949
+ 
+ 
+
+00:03:48,949 --> 00:03:50,949
+ 
+ 
+
+00:03:50,949 --> 00:03:52,390
+ 
+ 
+
+00:03:52,390 --> 00:03:54,710
+ 
+ 
+
+00:03:54,710 --> 00:03:57,509
+ 
+ 
+
+00:03:57,509 --> 00:04:00,550
+ 
+ 
+
+00:04:00,550 --> 00:04:01,589
+ 
+ 
+
+00:04:01,589 --> 00:04:03,270
+ 
+ 
+
+00:04:03,270 --> 00:04:05,190
+ 
+ 
+
+00:04:05,190 --> 00:04:07,350
+ 
+ 
+
+00:04:07,350 --> 00:04:09,670
+ 
+ 
+
+00:04:09,670 --> 00:04:11,670
+ 
+ 
+
+00:04:11,670 --> 00:04:15,030
+ 
+ 
+
+00:04:15,030 --> 00:04:17,670
+ 
+ 
+
+00:04:17,670 --> 00:04:23,430
+ 
+ 
+
+00:04:23,430 --> 00:04:25,189
+ 
+ 
+
+00:04:25,189 --> 00:04:25,199
+ 
+ 
+
+00:04:25,199 --> 00:04:26,230
+ 
+
+
+00:04:26,230 --> 00:04:29,510
+ 
+ 
+
+00:04:29,510 --> 00:04:32,950
+ 
+ 
+
+00:04:32,950 --> 00:04:32,960
+ 
+ 
+
+00:04:32,960 --> 00:04:35,189
+ 
+
+
+00:04:35,189 --> 00:04:37,430
+ 
+ 
+
+00:04:37,430 --> 00:04:37,440
+ 
+ 
+
+00:04:37,440 --> 00:04:39,590
+ 
+
+
+00:04:39,590 --> 00:04:39,600
+ 
+ 
+
+00:04:39,600 --> 00:04:40,629
+ 
+
+
+00:04:40,629 --> 00:04:42,950
+ 
+ 
+
+00:04:42,950 --> 00:04:44,950
+ 
+ 
+
+00:04:44,950 --> 00:04:46,710
+ 
+ 
+
+00:04:46,710 --> 00:04:49,430
+ 
+ 
+
+00:04:49,430 --> 00:04:51,350
+ 
+ 
+
+00:04:51,350 --> 00:04:54,310
+ 
+ 
+
+00:04:54,310 --> 00:04:56,070
+ 
+ 
+
+00:04:56,070 --> 00:04:56,080
+ 
+ 
+
+00:04:56,080 --> 00:05:00,550
+ 
+
+
+00:05:00,550 --> 00:05:00,560
+ 
+ 
+
+00:05:00,560 --> 00:05:02,310
+ 
+
+
+00:05:02,310 --> 00:05:04,710
+ 
+ 
+
+00:05:04,710 --> 00:05:04,720
+ 
+ 
+
+00:05:04,720 --> 00:05:09,430
+ 
+
+
+00:05:09,430 --> 00:05:12,310
+ 
+ 
+
+00:05:12,310 --> 00:05:15,590
+ 
+ 
+
+00:05:15,590 --> 00:05:16,469
+ 
+ 
+
+00:05:16,469 --> 00:05:20,150
+ 
+ 
+
+00:05:20,150 --> 00:05:22,710
+ 
+ 
+
+00:05:22,710 --> 00:05:25,110
+ 
+ 
+
+00:05:25,110 --> 00:05:26,790
+ 
+ 
+
+00:05:26,790 --> 00:05:29,110
+ 
+ 
+
+00:05:29,110 --> 00:05:30,710
+ 
+ 
+
+00:05:30,710 --> 00:05:32,790
+ 
+ 
+
+00:05:32,790 --> 00:05:32,800
+ 
+ 
+
+00:05:32,800 --> 00:05:33,749
+ 
+
+
+00:05:33,749 --> 00:05:33,759
+ 
+ 
+
+00:05:33,759 --> 00:05:34,870
+ 
+
+
+00:05:34,870 --> 00:05:38,310
+ 
+ 
+
+00:05:38,310 --> 00:05:41,830
+ 
+ 
+
+00:05:41,830 --> 00:05:45,029
+ 
+ 
+
+00:05:45,029 --> 00:05:47,110
+ 
+ 
+
+00:05:47,110 --> 00:05:47,120
+ 
+ 
+
+00:05:47,120 --> 00:05:50,950
+ 
+
+
+00:05:50,950 --> 00:05:50,960
+ 
+ 
+
+00:05:50,960 --> 00:05:53,510
+ 
+
+
+00:05:53,510 --> 00:05:56,950
+ 
+ 
+
+00:05:56,950 --> 00:06:01,270
+ 
+ 
+
+00:06:01,270 --> 00:06:04,710
+ 
+ 
+
+00:06:04,710 --> 00:06:07,990
+ 
+ 
+
+00:06:07,990 --> 00:06:10,230
+ 
+ 
+
+00:06:10,230 --> 00:06:12,309
+ 
+ 
+
+00:06:12,309 --> 00:06:14,230
+ 
+ 
+
+00:06:14,230 --> 00:06:15,990
+ 
+ 
+
+00:06:15,990 --> 00:06:19,590
+ 
+ 
+
+00:06:19,590 --> 00:06:19,600
+ 
+ 
+
+00:06:19,600 --> 00:06:19,830
+ 
+
+
+00:06:19,830 --> 00:06:23,029
+ 
+ 
+
+00:06:23,029 --> 00:06:25,430
+ 
+ 
+
+00:06:25,430 --> 00:06:25,440
+ 
+ 
+
+00:06:25,440 --> 00:06:26,870
+ 
+
+
+00:06:26,870 --> 00:06:26,880
+ 
+ 
+
+00:06:26,880 --> 00:06:31,909
+ 
+
+
+00:06:31,909 --> 00:06:33,670
+ 
+ 
+
+00:06:33,670 --> 00:06:36,710
+ 
+ 
+
+00:06:36,710 --> 00:06:36,720
+ 
+ 
+
+00:06:36,720 --> 00:06:37,909
+ 
+
+
+00:06:37,909 --> 00:06:39,270
+ 
+ 
+
+00:06:39,270 --> 00:06:41,029
+ 
+ 
+
+00:06:41,029 --> 00:06:43,189
+ 
+ 
+
+00:06:43,189 --> 00:06:43,199
+ 
+ 
+
+00:06:43,199 --> 00:06:44,710
+ 
+
+
+00:06:44,710 --> 00:06:46,309
+ 
+ 
+
+00:06:46,309 --> 00:06:48,230
+ 
+ 
+
+00:06:48,230 --> 00:06:50,550
+ 
+ 
+
+00:06:50,550 --> 00:06:53,670
+ 
+ 
+
+00:06:53,670 --> 00:06:55,830
+ 
+ 
+
+00:06:55,830 --> 00:06:59,350
+ 
+ 
+
+00:06:59,350 --> 00:07:02,790
+ 
+ 
+
+00:07:02,790 --> 00:07:02,800
+ 
+ 
+
+00:07:02,800 --> 00:07:03,909
+ 
+
+
+00:07:03,909 --> 00:07:03,919
+ 
+ 
+
+00:07:03,919 --> 00:07:05,830
+ 
+
+
+00:07:05,830 --> 00:07:07,589
+ 
+ 
+
+00:07:07,589 --> 00:07:09,589
+ 
+ 
+
+00:07:09,589 --> 00:07:11,589
+ 
+ 
+
+00:07:11,589 --> 00:07:12,950
+ 
+ 
+
+00:07:12,950 --> 00:07:15,589
+ 
+ 
+
+00:07:15,589 --> 00:07:17,350
+ 
+ 
+
+00:07:17,350 --> 00:07:19,589
+ 
+ 
+
+00:07:19,589 --> 00:07:19,599
+ 
+ 
+
+00:07:19,599 --> 00:07:20,710
+ 
+
+
+00:07:20,710 --> 00:07:23,749
+ 
+ 
+
+00:07:23,749 --> 00:07:23,759
+ 
+ 
+
+00:07:23,759 --> 00:07:24,870
+ 
+
+
+00:07:24,870 --> 00:07:27,270
+ 
+ 
+
+00:07:27,270 --> 00:07:32,309
+ 
+ 
+
+00:07:32,309 --> 00:07:34,629
+ 
+ 
+
+00:07:34,629 --> 00:07:34,639
+ 
+ 
+
+00:07:34,639 --> 00:07:41,909
+ 
+
+
+00:07:41,909 --> 00:07:53,830
+ 
+ 
+
+00:07:53,830 --> 00:07:57,189
+ 
+ 
+
+00:07:57,189 --> 00:08:01,029
+ 
+ 
+
+00:08:01,029 --> 00:08:12,950
+ 
+ 
+
+00:08:12,950 --> 00:08:28,469
+ 
+ 
+
+00:08:28,469 --> 00:08:33,589
+ 
+ 
+
+00:08:33,589 --> 00:08:35,990
+ 
+ 
+
+00:08:35,990 --> 00:08:38,790
+ 
+ 
+
+00:08:38,790 --> 00:08:40,870
+ 
+ 
+
+00:08:40,870 --> 00:08:44,389
+ 
+ 
+
+00:08:44,389 --> 00:08:50,150
+ 
+ 
+
+00:08:50,150 --> 00:09:01,990
+ 
+ 
+
+00:09:01,990 --> 00:09:02,000
+ 
+ 
+
+00:09:02,000 --> 00:09:03,990
+ 
+
+
+00:09:03,990 --> 00:09:04,000
+ 
+ 
+
+00:09:04,000 --> 00:09:05,269
+ 
+
+
+00:09:05,269 --> 00:09:05,279
+ 
+ 
+
+00:09:05,279 --> 00:09:06,070
+ 
+
+
+00:09:06,070 --> 00:09:09,190
+ 
+ 
+
+00:09:09,190 --> 00:09:19,110
+ 
+ 
+
+00:09:19,110 --> 00:09:22,550
+ 
+ 
+
+00:09:22,550 --> 00:09:23,670
+ 
+ 
+
+00:09:23,670 --> 00:09:32,550
+ 
+ 
+
+00:09:32,550 --> 00:09:34,389
+ 
+ 
+
+00:09:34,389 --> 00:09:36,230
+ 
+ 
+
+00:09:36,230 --> 00:09:39,590
+ 
+ 
+
+00:09:39,590 --> 00:09:42,389
+ 
+ 
+
+00:09:42,389 --> 00:09:44,790
+ 
+ 
+
+00:09:44,790 --> 00:09:49,269
+ 
+ 
+
+00:09:49,269 --> 00:09:51,269
+ 
+ 
+
+00:09:51,269 --> 00:09:53,030
+ 
+ 
+
+00:09:53,030 --> 00:09:55,750
+ 
+ 
+
+00:09:55,750 --> 00:09:55,760
+ 
+ 
+
+00:09:55,760 --> 00:09:58,150
+ 
+
+
+00:09:58,150 --> 00:10:02,150
+ 
+ 
+
+00:10:02,150 --> 00:10:04,470
+ 
+ 
+
+00:10:04,470 --> 00:10:06,069
+ 
+ 
+
+00:10:06,069 --> 00:10:06,079
+ 
+ 
+
+00:10:06,079 --> 00:10:07,110
+ 
+
+
+00:10:07,110 --> 00:10:09,190
+ 
+ 
+
+00:10:09,190 --> 00:10:12,630
+ 
+ 
+
+00:10:12,630 --> 00:10:12,640
+ 
+ 
+
+00:10:12,640 --> 00:10:13,430
+ 
+
+
+00:10:13,430 --> 00:10:14,949
+ 
+ 
+
+00:10:14,949 --> 00:10:17,350
+ 
+ 
+
+00:10:17,350 --> 00:10:19,430
+ 
+ 
+
+00:10:19,430 --> 00:10:21,750
+ 
+ 
+
+00:10:21,750 --> 00:10:21,760
+ 
+ 
+
+00:10:21,760 --> 00:10:22,630
+ 
+
+
+00:10:22,630 --> 00:10:23,990
+ 
+ 
+
+00:10:23,990 --> 00:10:24,000
+ 
+ 
+
+00:10:24,000 --> 00:10:24,790
+ 
+
+
+00:10:24,790 --> 00:10:27,430
+ 
+ 
+
+00:10:27,430 --> 00:10:27,440
+ 
+ 
+
+00:10:27,440 --> 00:10:28,389
+ 
+
+
+00:10:28,389 --> 00:10:30,630
+ 
+ 
+
+00:10:30,630 --> 00:10:33,750
+ 
+ 
+
+00:10:33,750 --> 00:10:35,350
+ 
+ 
+
+00:10:35,350 --> 00:10:36,710
+ 
+ 
+
+00:10:36,710 --> 00:10:38,069
+ 
+ 
+
+00:10:38,069 --> 00:10:40,069
+ 
+ 
+
+00:10:40,069 --> 00:10:41,590
+ 
+ 
+
+00:10:41,590 --> 00:10:44,389
+ 
+ 
+
+00:10:44,389 --> 00:10:46,069
+ 
+ 
+
+00:10:46,069 --> 00:10:46,949
+ 
+ 
+
+00:10:46,949 --> 00:10:49,750
+ 
+ 
+
+00:10:49,750 --> 00:10:49,760
+ 
+ 
+
+00:10:49,760 --> 00:10:50,710
+ 
+
+
+00:10:50,710 --> 00:10:53,110
+ 
+ 
+
+00:10:53,110 --> 00:10:55,590
+ 
+ 
+
+00:10:55,590 --> 00:10:57,190
+ 
+ 
+
+00:10:57,190 --> 00:10:58,470
+ 
+ 
+
+00:10:58,470 --> 00:11:00,069
+ 
+ 
+
+00:11:00,069 --> 00:11:02,470
+ 
+ 
+
+00:11:02,470 --> 00:11:04,870
+ 
+ 
+
+00:11:04,870 --> 00:11:06,470
+ 
+ 
+
+00:11:06,470 --> 00:11:07,990
+ 
+ 
+
+00:11:07,990 --> 00:11:10,949
+ 
+ 
+
+00:11:10,949 --> 00:11:10,959
+ 
+ 
+
+00:11:10,959 --> 00:11:11,750
+ 
+
+
+00:11:11,750 --> 00:11:13,990
+ 
+ 
+
+00:11:13,990 --> 00:11:17,269
+ 
+ 
+
+00:11:17,269 --> 00:11:19,509
+ 
+ 
+
+00:11:19,509 --> 00:11:22,230
+ 
+ 
+
+00:11:22,230 --> 00:11:24,630
+ 
+ 
+
+00:11:24,630 --> 00:11:26,470
+ 
+ 
+
+00:11:26,470 --> 00:11:28,949
+ 
+ 
+
+00:11:28,949 --> 00:11:32,870
+ 
+ 
+
+00:11:32,870 --> 00:11:35,110
+ 
+ 
+
+00:11:35,110 --> 00:11:36,949
+ 
+ 
+
+00:11:36,949 --> 00:11:39,509
+ 
+ 
+
+00:11:39,509 --> 00:11:43,000
+ 
+ 
+

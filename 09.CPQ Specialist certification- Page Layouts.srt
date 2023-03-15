@@ -1,0 +1,749 @@
+
+00:00:00,560 --> 00:00:02,389
+ 
+good everyone i hope you guys have an  amazing day uh so today what i'm gonna  do i'll briefly touch about the page  layouts which is  another thing you should know from a  certification point of view um so when  you install cpq right so different page  layouts associated with the cpq get  installed for instance  uh  if you install for instance uh for an  account you have cpu account page layout  for a contract you have a contract page  layout so we're gonna look at it today  right it sounds interesting um now if  you look at an account so this is my  account record so  um as you can see we have this extra  information here contract contamination  uh preserve bundle  so this is a part of http layout so let  me go to the  object and i'll show you  the layouts that get installed  uh if you are not using cpq you won't  see this layout so  i know it's not fancy right but it's  still good to know so this is account  layout so which get installed  um  and so you can see all these fields here  right which i mentioned  um and then uh  let me go to  the contract page  and i'll show you the layout that get  installed  so contract object  and page layout  so the cpu contract layout so this is  you know which get installed as well  so this is pretty simple  uh let's go to the  opportunity page layout  and let's look at the page layout  and you can see  cpu opportunity page layout right  let's look at the let's go inside  it's gonna say take some time which is  fine  and you can see that it's just  a bit different right  um  let's look at the the product one you'll  see you'll have the product page layout  just a second  you can see the product page there right  so  so  this is how it works so when you  installed a package cpk package you will  get the  page layout getting installed  and let's look at the code  and so you can see that  it has  the code layout that's fine  and so  as you can see right uh all these uh you  know got installed uh as a part of you  know or  wait a second  see all this you can see right uh this  got installed as a part of the cpq the  different objects you can see  and  you see cost you have contractor price  and the discount  you know favorites so  so if you haven't installed the package  right i would highly encourage you to do  so i mean there's not much to cover uh  on the layout side i just wanted to  briefly touch about right you know the  things that i get installed especially  the page layout so if you so for  instance right um  i i'm pretty sure you guys know which  page layout is previewing so if you go  to here  and go to edit page  um  and then  right  um i have a second  and  so this is it this one is the training  account page layout but that's fine  so you can change it to the cpq but uh  but just generally saying right so  um so this is how you can see it which  one is previewed so this is right now  it's a training one so let's if you go  to the account  and let's look at the training one  i mean i'll be honest with you right i  mean i  uh i mean as much as  i love cpu there are certain aspects of  cpg which is pretty boring i mean i know  it's  it's not really a motivating uh kind of  things which i'm saying but  you know i'm a technical person right i  mean i do enjoy  lots of hands-on when there's not much  hands-on i find it extremely important  so this is what you can see right you  can  um  so  yeah and so i hope to do a lot of  hands-on as we go along so tomorrow what  we're going to do uh we're going to talk  about add fields to code line  uh editor field seed field set that's  exactly what we're going to do then  we're going to look at cpq object  relationship then we can look at the  mapping custom fields between objects  then translating cpu records then group  uh product selection by field  then after that we will look at  configure bundles which is cool  product rules we have already talked  about it um and then we're gonna you  know look at other aspects  uh  we can talk about the pricings and the  like pricing methods for cpq  subscription pricing discounting tools  price rules um product pricing method  subscriber guidelines uh price rule  fields price actions look up queries  uh codes right a lot of things to cover  right so we're gonna talk about it right  eventually um after cpq i will do  something technical right i mean because  i've done  service cloud service cloud was  very good um i will probably do  um maybe a developer one right because  i've  personally speaking right i find the  functional certifications extremely  boring because  i mean it's all right i mean like like i  said i'm an architect i i do enjoy  things to build it but if it's get too  much functional you know with no  hands-on it's extremely boring for me so  i'm not saying this to demotivate you  guys the cpg has a lot of fantastic  content which we're going to cover right  so today's topic if you find it boring  my apologies right so that's being said  that's pretty much what i wanted to talk  about  in today's episode adios
+
+00:00:02,389 --> 00:00:04,070
+good everyone i hope you guys have an  amazing day uh so today what i'm gonna  do i'll briefly touch about the page  layouts which is  another thing you should know from a  certification point of view um so when  you install cpq right so different page  layouts associated with the cpq get  installed for instance  uh  if you install for instance uh for an  account you have cpu account page layout  for a contract you have a contract page  layout so we're gonna look at it today  right it sounds interesting um now if  you look at an account so this is my  account record so  um as you can see we have this extra  information here contract contamination  uh preserve bundle  so this is a part of http layout so let  me go to the  object and i'll show you  the layouts that get installed  uh if you are not using cpq you won't  see this layout so  i know it's not fancy right but it's  still good to know so this is account  layout so which get installed  um  and so you can see all these fields here  right which i mentioned  um and then uh  let me go to  the contract page  and i'll show you the layout that get  installed  so contract object  and page layout  so the cpu contract layout so this is  you know which get installed as well  so this is pretty simple  uh let's go to the  opportunity page layout  and let's look at the page layout  and you can see  cpu opportunity page layout right  let's look at the let's go inside  it's gonna say take some time which is  fine  and you can see that it's just  a bit different right  um  let's look at the the product one you'll  see you'll have the product page layout  just a second  you can see the product page there right  so  so  this is how it works so when you  installed a package cpk package you will  get the  page layout getting installed  and let's look at the code  and so you can see that  it has  the code layout that's fine  and so  as you can see right uh all these uh you  know got installed uh as a part of you  know or  wait a second  see all this you can see right uh this  got installed as a part of the cpq the  different objects you can see  and  you see cost you have contractor price  and the discount  you know favorites so  so if you haven't installed the package  right i would highly encourage you to do  so i mean there's not much to cover uh  on the layout side i just wanted to  briefly touch about right you know the  things that i get installed especially  the page layout so if you so for  instance right um  i i'm pretty sure you guys know which  page layout is previewing so if you go  to here  and go to edit page  um  and then  right  um i have a second  and  so this is it this one is the training  account page layout but that's fine  so you can change it to the cpq but uh  but just generally saying right so  um so this is how you can see it which  one is previewed so this is right now  it's a training one so let's if you go  to the account  and let's look at the training one  i mean i'll be honest with you right i  mean i  uh i mean as much as  i love cpu there are certain aspects of  cpg which is pretty boring i mean i know  it's  it's not really a motivating uh kind of  things which i'm saying but  you know i'm a technical person right i  mean i do enjoy  lots of hands-on when there's not much  hands-on i find it extremely important  so this is what you can see right you  can  um  so  yeah and so i hope to do a lot of  hands-on as we go along so tomorrow what  we're going to do uh we're going to talk  about add fields to code line  uh editor field seed field set that's  exactly what we're going to do then  we're going to look at cpq object  relationship then we can look at the  mapping custom fields between objects  then translating cpu records then group  uh product selection by field  then after that we will look at  configure bundles which is cool  product rules we have already talked  about it um and then we're gonna you  know look at other aspects  uh  we can talk about the pricings and the  like pricing methods for cpq  subscription pricing discounting tools  price rules um product pricing method  subscriber guidelines uh price rule  fields price actions look up queries  uh codes right a lot of things to cover  right so we're gonna talk about it right  eventually um after cpq i will do  something technical right i mean because  i've done  service cloud service cloud was  very good um i will probably do  um maybe a developer one right because  i've  personally speaking right i find the  functional certifications extremely  boring because  i mean it's all right i mean like like i  said i'm an architect i i do enjoy  things to build it but if it's get too  much functional you know with no  hands-on it's extremely boring for me so  i'm not saying this to demotivate you  guys the cpg has a lot of fantastic  content which we're going to cover right  so today's topic if you find it boring  my apologies right so that's being said  that's pretty much what i wanted to talk  about  in today's episode adios
+ 
+
+00:00:04,070 --> 00:00:06,309
+ 
+ 
+
+00:00:06,309 --> 00:00:07,670
+ 
+ 
+
+00:00:07,670 --> 00:00:09,830
+ 
+ 
+
+00:00:09,830 --> 00:00:11,910
+ 
+ 
+
+00:00:11,910 --> 00:00:14,070
+ 
+ 
+
+00:00:14,070 --> 00:00:15,910
+ 
+ 
+
+00:00:15,910 --> 00:00:17,430
+ 
+ 
+
+00:00:17,430 --> 00:00:17,440
+ 
+ 
+
+00:00:17,440 --> 00:00:18,310
+ 
+
+
+00:00:18,310 --> 00:00:20,390
+ 
+ 
+
+00:00:20,390 --> 00:00:23,269
+ 
+ 
+
+00:00:23,269 --> 00:00:25,109
+ 
+ 
+
+00:00:25,109 --> 00:00:26,550
+ 
+ 
+
+00:00:26,550 --> 00:00:29,189
+ 
+ 
+
+00:00:29,189 --> 00:00:30,710
+ 
+ 
+
+00:00:30,710 --> 00:00:32,870
+ 
+ 
+
+00:00:32,870 --> 00:00:34,709
+ 
+ 
+
+00:00:34,709 --> 00:00:37,670
+ 
+ 
+
+00:00:37,670 --> 00:00:39,910
+ 
+ 
+
+00:00:39,910 --> 00:00:42,950
+ 
+ 
+
+00:00:42,950 --> 00:00:46,709
+ 
+ 
+
+00:00:46,709 --> 00:00:49,110
+ 
+ 
+
+00:00:49,110 --> 00:00:53,510
+ 
+ 
+
+00:00:53,510 --> 00:00:55,430
+ 
+ 
+
+00:00:55,430 --> 00:00:57,750
+ 
+ 
+
+00:00:57,750 --> 00:00:59,349
+ 
+ 
+
+00:00:59,349 --> 00:01:01,349
+ 
+ 
+
+00:01:01,349 --> 00:01:03,830
+ 
+ 
+
+00:01:03,830 --> 00:01:03,840
+ 
+ 
+
+00:01:03,840 --> 00:01:05,030
+ 
+
+
+00:01:05,030 --> 00:01:07,670
+ 
+ 
+
+00:01:07,670 --> 00:01:09,910
+ 
+ 
+
+00:01:09,910 --> 00:01:13,590
+ 
+ 
+
+00:01:13,590 --> 00:01:15,510
+ 
+ 
+
+00:01:15,510 --> 00:01:17,749
+ 
+ 
+
+00:01:17,749 --> 00:01:19,190
+ 
+ 
+
+00:01:19,190 --> 00:01:19,200
+ 
+ 
+
+00:01:19,200 --> 00:01:21,270
+ 
+
+
+00:01:21,270 --> 00:01:23,350
+ 
+ 
+
+00:01:23,350 --> 00:01:25,590
+ 
+ 
+
+00:01:25,590 --> 00:01:28,390
+ 
+ 
+
+00:01:28,390 --> 00:01:33,030
+ 
+ 
+
+00:01:33,030 --> 00:01:34,870
+ 
+ 
+
+00:01:34,870 --> 00:01:37,030
+ 
+ 
+
+00:01:37,030 --> 00:01:45,830
+ 
+ 
+
+00:01:45,830 --> 00:01:48,230
+ 
+ 
+
+00:01:48,230 --> 00:01:49,510
+ 
+ 
+
+00:01:49,510 --> 00:01:52,310
+ 
+ 
+
+00:01:52,310 --> 00:02:00,230
+ 
+ 
+
+00:02:00,230 --> 00:02:02,230
+ 
+ 
+
+00:02:02,230 --> 00:02:02,240
+ 
+ 
+
+00:02:02,240 --> 00:02:06,830
+ 
+
+
+00:02:06,830 --> 00:02:10,389
+ 
+ 
+
+00:02:10,389 --> 00:02:12,790
+ 
+ 
+
+00:02:12,790 --> 00:02:12,800
+ 
+ 
+
+00:02:12,800 --> 00:02:14,309
+ 
+
+
+00:02:14,309 --> 00:02:16,550
+ 
+ 
+
+00:02:16,550 --> 00:02:27,670
+ 
+ 
+
+00:02:27,670 --> 00:02:29,270
+ 
+ 
+
+00:02:29,270 --> 00:02:31,030
+ 
+ 
+
+00:02:31,030 --> 00:02:31,040
+ 
+ 
+
+00:02:31,040 --> 00:02:32,869
+ 
+
+
+00:02:32,869 --> 00:02:32,879
+ 
+ 
+
+00:02:32,879 --> 00:02:34,150
+ 
+
+
+00:02:34,150 --> 00:02:35,750
+ 
+ 
+
+00:02:35,750 --> 00:02:38,710
+ 
+ 
+
+00:02:38,710 --> 00:02:40,229
+ 
+ 
+
+00:02:40,229 --> 00:02:44,790
+ 
+ 
+
+00:02:44,790 --> 00:02:46,869
+ 
+ 
+
+00:02:46,869 --> 00:02:50,949
+ 
+ 
+
+00:02:50,949 --> 00:02:52,790
+ 
+ 
+
+00:02:52,790 --> 00:02:55,430
+ 
+ 
+
+00:02:55,430 --> 00:02:57,110
+ 
+ 
+
+00:02:57,110 --> 00:03:00,309
+ 
+ 
+
+00:03:00,309 --> 00:03:03,430
+ 
+ 
+
+00:03:03,430 --> 00:03:08,229
+ 
+ 
+
+00:03:08,229 --> 00:03:12,630
+ 
+ 
+
+00:03:12,630 --> 00:03:14,630
+ 
+ 
+
+00:03:14,630 --> 00:03:17,270
+ 
+ 
+
+00:03:17,270 --> 00:03:19,350
+ 
+ 
+
+00:03:19,350 --> 00:03:19,360
+ 
+ 
+
+00:03:19,360 --> 00:03:22,949
+ 
+
+
+00:03:22,949 --> 00:03:26,550
+ 
+ 
+
+00:03:26,550 --> 00:03:28,710
+ 
+ 
+
+00:03:28,710 --> 00:03:31,589
+ 
+ 
+
+00:03:31,589 --> 00:03:33,350
+ 
+ 
+
+00:03:33,350 --> 00:03:34,789
+ 
+ 
+
+00:03:34,789 --> 00:03:37,110
+ 
+ 
+
+00:03:37,110 --> 00:03:39,110
+ 
+ 
+
+00:03:39,110 --> 00:03:41,430
+ 
+ 
+
+00:03:41,430 --> 00:03:43,509
+ 
+ 
+
+00:03:43,509 --> 00:03:46,309
+ 
+ 
+
+00:03:46,309 --> 00:03:48,390
+ 
+ 
+
+00:03:48,390 --> 00:03:50,229
+ 
+ 
+
+00:03:50,229 --> 00:03:52,149
+ 
+ 
+
+00:03:52,149 --> 00:03:54,149
+ 
+ 
+
+00:03:54,149 --> 00:03:56,550
+ 
+ 
+
+00:03:56,550 --> 00:03:56,560
+ 
+ 
+
+00:03:56,560 --> 00:03:57,509
+ 
+
+
+00:03:57,509 --> 00:04:08,470
+ 
+ 
+
+00:04:08,470 --> 00:04:08,480
+ 
+ 
+
+00:04:08,480 --> 00:04:11,750
+ 
+
+
+00:04:11,750 --> 00:04:19,189
+ 
+ 
+
+00:04:19,189 --> 00:04:19,199
+ 
+ 
+
+00:04:19,199 --> 00:04:27,110
+ 
+
+
+00:04:27,110 --> 00:04:31,030
+ 
+ 
+
+00:04:31,030 --> 00:04:33,430
+ 
+ 
+
+00:04:33,430 --> 00:04:35,990
+ 
+ 
+
+00:04:35,990 --> 00:04:38,790
+ 
+ 
+
+00:04:38,790 --> 00:04:40,950
+ 
+ 
+
+00:04:40,950 --> 00:04:42,629
+ 
+ 
+
+00:04:42,629 --> 00:04:44,790
+ 
+ 
+
+00:04:44,790 --> 00:04:46,550
+ 
+ 
+
+00:04:46,550 --> 00:04:54,310
+ 
+ 
+
+00:04:54,310 --> 00:04:55,830
+ 
+ 
+
+00:04:55,830 --> 00:04:56,790
+ 
+ 
+
+00:04:56,790 --> 00:04:58,950
+ 
+ 
+
+00:04:58,950 --> 00:05:00,790
+ 
+ 
+
+00:05:00,790 --> 00:05:03,270
+ 
+ 
+
+00:05:03,270 --> 00:05:03,280
+ 
+ 
+
+00:05:03,280 --> 00:05:04,230
+ 
+
+
+00:05:04,230 --> 00:05:07,510
+ 
+ 
+
+00:05:07,510 --> 00:05:09,670
+ 
+ 
+
+00:05:09,670 --> 00:05:11,270
+ 
+ 
+
+00:05:11,270 --> 00:05:13,350
+ 
+ 
+
+00:05:13,350 --> 00:05:14,950
+ 
+ 
+
+00:05:14,950 --> 00:05:16,550
+ 
+ 
+
+00:05:16,550 --> 00:05:18,390
+ 
+ 
+
+00:05:18,390 --> 00:05:18,400
+ 
+ 
+
+00:05:18,400 --> 00:05:19,510
+ 
+
+
+00:05:19,510 --> 00:05:19,520
+ 
+ 
+
+00:05:19,520 --> 00:05:20,390
+ 
+
+
+00:05:20,390 --> 00:05:20,400
+ 
+ 
+
+00:05:20,400 --> 00:05:21,430
+ 
+
+
+00:05:21,430 --> 00:05:24,550
+ 
+ 
+
+00:05:24,550 --> 00:05:26,629
+ 
+ 
+
+00:05:26,629 --> 00:05:28,150
+ 
+ 
+
+00:05:28,150 --> 00:05:30,629
+ 
+ 
+
+00:05:30,629 --> 00:05:33,189
+ 
+ 
+
+00:05:33,189 --> 00:05:34,310
+ 
+ 
+
+00:05:34,310 --> 00:05:36,070
+ 
+ 
+
+00:05:36,070 --> 00:05:38,550
+ 
+ 
+
+00:05:38,550 --> 00:05:40,710
+ 
+ 
+
+00:05:40,710 --> 00:05:44,070
+ 
+ 
+
+00:05:44,070 --> 00:05:46,629
+ 
+ 
+
+00:05:46,629 --> 00:05:48,390
+ 
+ 
+
+00:05:48,390 --> 00:05:51,029
+ 
+ 
+
+00:05:51,029 --> 00:05:52,390
+ 
+ 
+
+00:05:52,390 --> 00:05:55,189
+ 
+ 
+
+00:05:55,189 --> 00:05:57,830
+ 
+ 
+
+00:05:57,830 --> 00:05:57,840
+ 
+ 
+
+00:05:57,840 --> 00:05:58,710
+ 
+
+
+00:05:58,710 --> 00:06:00,710
+ 
+ 
+
+00:06:00,710 --> 00:06:02,710
+ 
+ 
+
+00:06:02,710 --> 00:06:05,029
+ 
+ 
+
+00:06:05,029 --> 00:06:08,550
+ 
+ 
+
+00:06:08,550 --> 00:06:11,830
+ 
+ 
+
+00:06:11,830 --> 00:06:15,029
+ 
+ 
+
+00:06:15,029 --> 00:06:18,150
+ 
+ 
+
+00:06:18,150 --> 00:06:20,070
+ 
+ 
+
+00:06:20,070 --> 00:06:22,870
+ 
+ 
+
+00:06:22,870 --> 00:06:25,189
+ 
+ 
+
+00:06:25,189 --> 00:06:26,230
+ 
+ 
+
+00:06:26,230 --> 00:06:28,309
+ 
+ 
+
+00:06:28,309 --> 00:06:31,110
+ 
+ 
+
+00:06:31,110 --> 00:06:35,110
+ 
+ 
+
+00:06:35,110 --> 00:06:35,120
+ 
+ 
+
+00:06:35,120 --> 00:06:36,469
+ 
+
+
+00:06:36,469 --> 00:06:38,390
+ 
+ 
+
+00:06:38,390 --> 00:06:40,390
+ 
+ 
+
+00:06:40,390 --> 00:06:41,830
+ 
+ 
+
+00:06:41,830 --> 00:06:43,830
+ 
+ 
+
+00:06:43,830 --> 00:06:46,070
+ 
+ 
+
+00:06:46,070 --> 00:06:47,909
+ 
+ 
+
+00:06:47,909 --> 00:06:49,430
+ 
+ 
+
+00:06:49,430 --> 00:06:51,990
+ 
+ 
+
+00:06:51,990 --> 00:06:54,070
+ 
+ 
+
+00:06:54,070 --> 00:06:56,390
+ 
+ 
+
+00:06:56,390 --> 00:06:58,230
+ 
+ 
+
+00:06:58,230 --> 00:07:00,469
+ 
+ 
+
+00:07:00,469 --> 00:07:02,870
+ 
+ 
+
+00:07:02,870 --> 00:07:04,070
+ 
+ 
+
+00:07:04,070 --> 00:07:04,080
+ 
+ 
+
+00:07:04,080 --> 00:07:04,790
+ 
+
+
+00:07:04,790 --> 00:07:08,680
+ 
+ 
+

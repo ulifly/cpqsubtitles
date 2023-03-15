@@ -1,0 +1,1233 @@
+
+00:00:00,480 --> 00:00:02,310
+ 
+good everyone i hope you guys have an  amazing day uh so today i will be  talking about the subscription uh  pricing um it's a pretty important  concept right when it comes to cpq uh  and yet it's very simple to use  uh now subscription is a pretty common  term you might have used it say for  instance you you might have bought the  uh netflix subscription right for a year  or you might have bought  uh something else right so back in the  days we used to have newspapers so you  often get subscribed monthly basis right  so  uh subscription can be yearly uh could  be you know  monthly or could be four days right uh  now  just one thing you have to uh understand  right so you can set the subscription uh  terms  uh in terms of days or in terms of month  uh to do that you have to configure that  option uh in the  cpq setting right  so i'll show you how to do that it's  pretty uh simple  so the first thing first you need to log  into org if you haven't done so and you  need to install the cpu okay now then  you go to uh  to your gear call guy card and once you  go to gecko icon  right um all right i'll just close this  one right just explain it from the  beginning  uh just go to setup  and uh  go to installed  packages  and  uninstall packages  you go to configure  and go to subscription  uh so the subscription term unit right  so you have to set it to either month or  days right because if you don't do that  then typically will not know right uh  which one to use  and it's not possible  for some product to use months or some  as a unit or while other use days so  this is an org wide setting so if you  say okay i'm going to use month so cpg  will assume that you wanted to use  a monthly basis right you don't want it  to use in terms of days so  so that's pretty much it in terms of uh  configuration right so this is very  important so if you want say for  instance in terms of days then you have  to come here and make sure you use days  okay  but like i said you cannot use some  products to use months or uh some  products to use as days right it's just  org wide setting okay so what i'm gonna  do  now we have configured this right so i  will pick an existing product  right and show you how the subscription  work okay so now when you create a  product for the first time right so that  product will not be a subscription  uh based product okay  so you need to do some kind of uh tiny  uh configuration to make the product as  a subscription-based product it's pretty  simple okay  now there's one more concept i just  wanted to  uh guys to know that is the prorated  pricing so you know uh you know  obviously  uh  you set the product for a term right so  you can sell the product uh for a whole  term right so when you when you talk  about the subscription you're pretty  much talking about selling as a service  live for instance netflix right you're  selling it for say 12 months okay  so if you decide not to you know buy for  12 months let's say if you wanted to use  it only for eight months or instead of  or in simple terms if you're not using  uh the whole term right instead you're  planning to use the portion of the term  that's what we call as the prorator  pricing okay  so  i will show you how that works right now  before  that we need to configure a product okay  so i've already have a product  configured so you know you might have  heard about the vpn license right let's  say you know vpn is very powerful right  if  we talk about netflix right sometimes  what happens you cannot watch  us shows right in in new zealand  uh so obviously you can use a vpn right  and using vpn you can switch to the  united states and your netflix assumes  you are in united states so it starts  showing you all united states shows so  you decide to buy a vpn license which is  say  yearly subscription right so  now you need to configure that in the  product now how to do that it's pretty  simple so you go to the product right  and choose this vpn license now remember  one thing there are two settings okay  there there's pretty much one setting  which will  actually determine if this product can  be used as a subscription-based product  okay  now  go to edit okay  now  there is a field  called  uh  subscription pricing okay  so if you when you create a product for  the first time right it often sets to  none by default okay  now this indicates that this product is  not a subscription based product okay so  this will be sold as a normal product so  this will in other words this will not  be sold as a service  okay now to make it  uh as a service okay  or subscription you need to set it to  either fixed price  or percent of total okay now percent of  total i will discuss later now if you  set the fixed price what will happen is  it will pick up the price from the price  book okay whatever price you mentioned  in the price book that will be the price  for this product for the term okay now  subscription term is where you specify a  term so say for instance if you wanted  to set this product  uh say  say if you wanted to set the term for  the product say one year so you normally  said 12. sorry  so now  what happens is that you're telling to  cpu hey this product  worth xyz  for  12 months okay and we are selling this  in the form of a subscription right  now one thing you have to remember so  for whatever reason if you decide not to  update this term  uh cpq assumes that this is a yearly  based term okay so if you don't put  anything here  the default will be  used as 12 that is an early base okay  now if you wanted to  say excuse me  if you have selected say  days here right  then you have to put 365 days  right because obviously there are 365  days  in a year  so  i  just to demonstrate i'm not gonna put  anything here i'm gonna save okay  now what we do we go to code okay now  we're gonna create a code for  uh with the subscription term two years  that is 24 months okay and i'll show you  how the calculation works  so we go to this code  okay existing code  and go to edit  and  there is a field okay you know what  let's do the  code okay let's create a new code just  to make it simple  uh let's go new  and uh  make this code as primary i'm not  concerned about the account for now uh  so you got a subscription term here okay  so i'll say i wanted to buy this vpn  license for  two years okay 24 months  so i'm gonna say yes  now i will say edit lines  and  so the price book price for the vpn is  10 bucks okay  so  your ad  product and we say vpn  we can license  select it here  select it  see the list price is 10 bucks  now you will get 20. the reason why i  get 20 because the product  yearly subscription cost 20 10 bucks now  you are buying two year subscription so  that means it will cost you 20 bucks  but  you can also buy the part of the portion  of the term instead of buying the whole  terms right  so  let's say  you are going to cancel it you wanted to  make a code for eight months okay  instead of 12 months or 24 months  you decide to you know buy this  service for eight months okay  so the cpq will do that calculation  behind the scene  so  it's not that they will charge you 10  bucks  they'll say hey i don't care  you're going to buy the portion of the  term or the whole term you'll be  charging full term now that's not how it  works so that's where the prorate comes  in the picture okay  now we go to edit lines  is really powerful right  at products  so we're going to do vpn  then  vpn  license  vpn selector here right  and you're going to do select  now you see it won't be 10 bucks it will  be 6.67 because  uh  cpu is calculating based on eight months  instead of 12 months so that's pretty  much i wanted to cover in today's  episode um subscription will have impact  on discount but we're going to talk  about discount when we touch this guy  right later stage so i hope you guys  enjoyed it so this is a very important  topic pay very special attention to it  um and in the next episode we're going  to look at more options around  subscription pricing so that being said  i hope you guys have an amazing day  adios
+
+00:00:02,310 --> 00:00:04,309
+good everyone i hope you guys have an  amazing day uh so today i will be  talking about the subscription uh  pricing um it's a pretty important  concept right when it comes to cpq uh  and yet it's very simple to use  uh now subscription is a pretty common  term you might have used it say for  instance you you might have bought the  uh netflix subscription right for a year  or you might have bought  uh something else right so back in the  days we used to have newspapers so you  often get subscribed monthly basis right  so  uh subscription can be yearly uh could  be you know  monthly or could be four days right uh  now  just one thing you have to uh understand  right so you can set the subscription uh  terms  uh in terms of days or in terms of month  uh to do that you have to configure that  option uh in the  cpq setting right  so i'll show you how to do that it's  pretty uh simple  so the first thing first you need to log  into org if you haven't done so and you  need to install the cpu okay now then  you go to uh  to your gear call guy card and once you  go to gecko icon  right um all right i'll just close this  one right just explain it from the  beginning  uh just go to setup  and uh  go to installed  packages  and  uninstall packages  you go to configure  and go to subscription  uh so the subscription term unit right  so you have to set it to either month or  days right because if you don't do that  then typically will not know right uh  which one to use  and it's not possible  for some product to use months or some  as a unit or while other use days so  this is an org wide setting so if you  say okay i'm going to use month so cpg  will assume that you wanted to use  a monthly basis right you don't want it  to use in terms of days so  so that's pretty much it in terms of uh  configuration right so this is very  important so if you want say for  instance in terms of days then you have  to come here and make sure you use days  okay  but like i said you cannot use some  products to use months or uh some  products to use as days right it's just  org wide setting okay so what i'm gonna  do  now we have configured this right so i  will pick an existing product  right and show you how the subscription  work okay so now when you create a  product for the first time right so that  product will not be a subscription  uh based product okay  so you need to do some kind of uh tiny  uh configuration to make the product as  a subscription-based product it's pretty  simple okay  now there's one more concept i just  wanted to  uh guys to know that is the prorated  pricing so you know uh you know  obviously  uh  you set the product for a term right so  you can sell the product uh for a whole  term right so when you when you talk  about the subscription you're pretty  much talking about selling as a service  live for instance netflix right you're  selling it for say 12 months okay  so if you decide not to you know buy for  12 months let's say if you wanted to use  it only for eight months or instead of  or in simple terms if you're not using  uh the whole term right instead you're  planning to use the portion of the term  that's what we call as the prorator  pricing okay  so  i will show you how that works right now  before  that we need to configure a product okay  so i've already have a product  configured so you know you might have  heard about the vpn license right let's  say you know vpn is very powerful right  if  we talk about netflix right sometimes  what happens you cannot watch  us shows right in in new zealand  uh so obviously you can use a vpn right  and using vpn you can switch to the  united states and your netflix assumes  you are in united states so it starts  showing you all united states shows so  you decide to buy a vpn license which is  say  yearly subscription right so  now you need to configure that in the  product now how to do that it's pretty  simple so you go to the product right  and choose this vpn license now remember  one thing there are two settings okay  there there's pretty much one setting  which will  actually determine if this product can  be used as a subscription-based product  okay  now  go to edit okay  now  there is a field  called  uh  subscription pricing okay  so if you when you create a product for  the first time right it often sets to  none by default okay  now this indicates that this product is  not a subscription based product okay so  this will be sold as a normal product so  this will in other words this will not  be sold as a service  okay now to make it  uh as a service okay  or subscription you need to set it to  either fixed price  or percent of total okay now percent of  total i will discuss later now if you  set the fixed price what will happen is  it will pick up the price from the price  book okay whatever price you mentioned  in the price book that will be the price  for this product for the term okay now  subscription term is where you specify a  term so say for instance if you wanted  to set this product  uh say  say if you wanted to set the term for  the product say one year so you normally  said 12. sorry  so now  what happens is that you're telling to  cpu hey this product  worth xyz  for  12 months okay and we are selling this  in the form of a subscription right  now one thing you have to remember so  for whatever reason if you decide not to  update this term  uh cpq assumes that this is a yearly  based term okay so if you don't put  anything here  the default will be  used as 12 that is an early base okay  now if you wanted to  say excuse me  if you have selected say  days here right  then you have to put 365 days  right because obviously there are 365  days  in a year  so  i  just to demonstrate i'm not gonna put  anything here i'm gonna save okay  now what we do we go to code okay now  we're gonna create a code for  uh with the subscription term two years  that is 24 months okay and i'll show you  how the calculation works  so we go to this code  okay existing code  and go to edit  and  there is a field okay you know what  let's do the  code okay let's create a new code just  to make it simple  uh let's go new  and uh  make this code as primary i'm not  concerned about the account for now uh  so you got a subscription term here okay  so i'll say i wanted to buy this vpn  license for  two years okay 24 months  so i'm gonna say yes  now i will say edit lines  and  so the price book price for the vpn is  10 bucks okay  so  your ad  product and we say vpn  we can license  select it here  select it  see the list price is 10 bucks  now you will get 20. the reason why i  get 20 because the product  yearly subscription cost 20 10 bucks now  you are buying two year subscription so  that means it will cost you 20 bucks  but  you can also buy the part of the portion  of the term instead of buying the whole  terms right  so  let's say  you are going to cancel it you wanted to  make a code for eight months okay  instead of 12 months or 24 months  you decide to you know buy this  service for eight months okay  so the cpq will do that calculation  behind the scene  so  it's not that they will charge you 10  bucks  they'll say hey i don't care  you're going to buy the portion of the  term or the whole term you'll be  charging full term now that's not how it  works so that's where the prorate comes  in the picture okay  now we go to edit lines  is really powerful right  at products  so we're going to do vpn  then  vpn  license  vpn selector here right  and you're going to do select  now you see it won't be 10 bucks it will  be 6.67 because  uh  cpu is calculating based on eight months  instead of 12 months so that's pretty  much i wanted to cover in today's  episode um subscription will have impact  on discount but we're going to talk  about discount when we touch this guy  right later stage so i hope you guys  enjoyed it so this is a very important  topic pay very special attention to it  um and in the next episode we're going  to look at more options around  subscription pricing so that being said  i hope you guys have an amazing day  adios
+ 
+
+00:00:04,309 --> 00:00:06,389
+ 
+ 
+
+00:00:06,389 --> 00:00:08,710
+ 
+ 
+
+00:00:08,710 --> 00:00:11,749
+ 
+ 
+
+00:00:11,749 --> 00:00:14,789
+ 
+ 
+
+00:00:14,789 --> 00:00:17,269
+ 
+ 
+
+00:00:17,269 --> 00:00:19,189
+ 
+ 
+
+00:00:19,189 --> 00:00:21,590
+ 
+ 
+
+00:00:21,590 --> 00:00:23,750
+ 
+ 
+
+00:00:23,750 --> 00:00:25,189
+ 
+ 
+
+00:00:25,189 --> 00:00:27,349
+ 
+ 
+
+00:00:27,349 --> 00:00:29,429
+ 
+ 
+
+00:00:29,429 --> 00:00:32,150
+ 
+ 
+
+00:00:32,150 --> 00:00:32,160
+ 
+ 
+
+00:00:32,160 --> 00:00:33,030
+ 
+
+
+00:00:33,030 --> 00:00:35,350
+ 
+ 
+
+00:00:35,350 --> 00:00:36,790
+ 
+ 
+
+00:00:36,790 --> 00:00:39,510
+ 
+ 
+
+00:00:39,510 --> 00:00:39,520
+ 
+ 
+
+00:00:39,520 --> 00:00:40,389
+ 
+
+
+00:00:40,389 --> 00:00:43,030
+ 
+ 
+
+00:00:43,030 --> 00:00:46,389
+ 
+ 
+
+00:00:46,389 --> 00:00:46,399
+ 
+ 
+
+00:00:46,399 --> 00:00:47,430
+ 
+
+
+00:00:47,430 --> 00:00:51,189
+ 
+ 
+
+00:00:51,189 --> 00:00:54,150
+ 
+ 
+
+00:00:54,150 --> 00:00:56,830
+ 
+ 
+
+00:00:56,830 --> 00:00:59,270
+ 
+ 
+
+00:00:59,270 --> 00:01:00,549
+ 
+ 
+
+00:01:00,549 --> 00:01:03,189
+ 
+ 
+
+00:01:03,189 --> 00:01:04,869
+ 
+ 
+
+00:01:04,869 --> 00:01:07,830
+ 
+ 
+
+00:01:07,830 --> 00:01:09,910
+ 
+ 
+
+00:01:09,910 --> 00:01:11,670
+ 
+ 
+
+00:01:11,670 --> 00:01:13,510
+ 
+ 
+
+00:01:13,510 --> 00:01:15,030
+ 
+ 
+
+00:01:15,030 --> 00:01:17,270
+ 
+ 
+
+00:01:17,270 --> 00:01:18,950
+ 
+ 
+
+00:01:18,950 --> 00:01:18,960
+ 
+ 
+
+00:01:18,960 --> 00:01:19,990
+ 
+
+
+00:01:19,990 --> 00:01:24,830
+ 
+ 
+
+00:01:24,830 --> 00:01:27,109
+ 
+ 
+
+00:01:27,109 --> 00:01:30,390
+ 
+ 
+
+00:01:30,390 --> 00:01:30,400
+ 
+ 
+
+00:01:30,400 --> 00:01:32,069
+ 
+
+
+00:01:32,069 --> 00:01:32,079
+ 
+ 
+
+00:01:32,079 --> 00:01:33,030
+ 
+
+
+00:01:33,030 --> 00:01:34,950
+ 
+ 
+
+00:01:34,950 --> 00:01:44,149
+ 
+ 
+
+00:01:44,149 --> 00:01:46,710
+ 
+ 
+
+00:01:46,710 --> 00:01:51,590
+ 
+ 
+
+00:01:51,590 --> 00:01:54,950
+ 
+ 
+
+00:01:54,950 --> 00:01:57,510
+ 
+ 
+
+00:01:57,510 --> 00:01:59,749
+ 
+ 
+
+00:01:59,749 --> 00:02:01,670
+ 
+ 
+
+00:02:01,670 --> 00:02:04,069
+ 
+ 
+
+00:02:04,069 --> 00:02:06,149
+ 
+ 
+
+00:02:06,149 --> 00:02:08,469
+ 
+ 
+
+00:02:08,469 --> 00:02:11,029
+ 
+ 
+
+00:02:11,029 --> 00:02:13,110
+ 
+ 
+
+00:02:13,110 --> 00:02:17,030
+ 
+ 
+
+00:02:17,030 --> 00:02:18,949
+ 
+ 
+
+00:02:18,949 --> 00:02:21,670
+ 
+ 
+
+00:02:21,670 --> 00:02:24,869
+ 
+ 
+
+00:02:24,869 --> 00:02:26,949
+ 
+ 
+
+00:02:26,949 --> 00:02:29,030
+ 
+ 
+
+00:02:29,030 --> 00:02:31,190
+ 
+ 
+
+00:02:31,190 --> 00:02:34,390
+ 
+ 
+
+00:02:34,390 --> 00:02:34,400
+ 
+ 
+
+00:02:34,400 --> 00:02:35,350
+ 
+
+
+00:02:35,350 --> 00:02:38,470
+ 
+ 
+
+00:02:38,470 --> 00:02:40,710
+ 
+ 
+
+00:02:40,710 --> 00:02:43,750
+ 
+ 
+
+00:02:43,750 --> 00:02:46,710
+ 
+ 
+
+00:02:46,710 --> 00:02:46,720
+ 
+ 
+
+00:02:46,720 --> 00:02:47,910
+ 
+
+
+00:02:47,910 --> 00:02:50,229
+ 
+ 
+
+00:02:50,229 --> 00:02:52,790
+ 
+ 
+
+00:02:52,790 --> 00:02:54,550
+ 
+ 
+
+00:02:54,550 --> 00:02:56,470
+ 
+ 
+
+00:02:56,470 --> 00:02:58,550
+ 
+ 
+
+00:02:58,550 --> 00:03:00,869
+ 
+ 
+
+00:03:00,869 --> 00:03:02,949
+ 
+ 
+
+00:03:02,949 --> 00:03:06,710
+ 
+ 
+
+00:03:06,710 --> 00:03:09,190
+ 
+ 
+
+00:03:09,190 --> 00:03:10,949
+ 
+ 
+
+00:03:10,949 --> 00:03:12,309
+ 
+ 
+
+00:03:12,309 --> 00:03:14,470
+ 
+ 
+
+00:03:14,470 --> 00:03:15,670
+ 
+ 
+
+00:03:15,670 --> 00:03:18,309
+ 
+ 
+
+00:03:18,309 --> 00:03:21,030
+ 
+ 
+
+00:03:21,030 --> 00:03:21,040
+ 
+ 
+
+00:03:21,040 --> 00:03:22,070
+ 
+
+
+00:03:22,070 --> 00:03:22,080
+ 
+ 
+
+00:03:22,080 --> 00:03:23,509
+ 
+
+
+00:03:23,509 --> 00:03:26,390
+ 
+ 
+
+00:03:26,390 --> 00:03:28,869
+ 
+ 
+
+00:03:28,869 --> 00:03:30,710
+ 
+ 
+
+00:03:30,710 --> 00:03:31,910
+ 
+ 
+
+00:03:31,910 --> 00:03:33,670
+ 
+ 
+
+00:03:33,670 --> 00:03:35,509
+ 
+ 
+
+00:03:35,509 --> 00:03:38,630
+ 
+ 
+
+00:03:38,630 --> 00:03:41,750
+ 
+ 
+
+00:03:41,750 --> 00:03:43,270
+ 
+ 
+
+00:03:43,270 --> 00:03:45,670
+ 
+ 
+
+00:03:45,670 --> 00:03:48,070
+ 
+ 
+
+00:03:48,070 --> 00:03:50,309
+ 
+ 
+
+00:03:50,309 --> 00:03:53,030
+ 
+ 
+
+00:03:53,030 --> 00:03:54,949
+ 
+ 
+
+00:03:54,949 --> 00:03:56,550
+ 
+ 
+
+00:03:56,550 --> 00:03:56,560
+ 
+ 
+
+00:03:56,560 --> 00:03:57,670
+ 
+
+
+00:03:57,670 --> 00:04:00,869
+ 
+ 
+
+00:04:00,869 --> 00:04:00,879
+ 
+ 
+
+00:04:00,879 --> 00:04:02,309
+ 
+
+
+00:04:02,309 --> 00:04:04,309
+ 
+ 
+
+00:04:04,309 --> 00:04:05,429
+ 
+ 
+
+00:04:05,429 --> 00:04:07,670
+ 
+ 
+
+00:04:07,670 --> 00:04:09,429
+ 
+ 
+
+00:04:09,429 --> 00:04:11,830
+ 
+ 
+
+00:04:11,830 --> 00:04:11,840
+ 
+ 
+
+00:04:11,840 --> 00:04:12,710
+ 
+
+
+00:04:12,710 --> 00:04:14,630
+ 
+ 
+
+00:04:14,630 --> 00:04:17,189
+ 
+ 
+
+00:04:17,189 --> 00:04:20,150
+ 
+ 
+
+00:04:20,150 --> 00:04:23,110
+ 
+ 
+
+00:04:23,110 --> 00:04:24,469
+ 
+ 
+
+00:04:24,469 --> 00:04:26,950
+ 
+ 
+
+00:04:26,950 --> 00:04:28,469
+ 
+ 
+
+00:04:28,469 --> 00:04:31,430
+ 
+ 
+
+00:04:31,430 --> 00:04:34,070
+ 
+ 
+
+00:04:34,070 --> 00:04:34,080
+ 
+ 
+
+00:04:34,080 --> 00:04:34,950
+ 
+
+
+00:04:34,950 --> 00:04:37,670
+ 
+ 
+
+00:04:37,670 --> 00:04:39,270
+ 
+ 
+
+00:04:39,270 --> 00:04:41,270
+ 
+ 
+
+00:04:41,270 --> 00:04:43,670
+ 
+ 
+
+00:04:43,670 --> 00:04:46,469
+ 
+ 
+
+00:04:46,469 --> 00:04:48,629
+ 
+ 
+
+00:04:48,629 --> 00:04:50,150
+ 
+ 
+
+00:04:50,150 --> 00:04:51,110
+ 
+ 
+
+00:04:51,110 --> 00:04:53,030
+ 
+ 
+
+00:04:53,030 --> 00:04:54,870
+ 
+ 
+
+00:04:54,870 --> 00:04:54,880
+ 
+ 
+
+00:04:54,880 --> 00:04:55,670
+ 
+
+
+00:04:55,670 --> 00:04:55,680
+ 
+ 
+
+00:04:55,680 --> 00:04:57,350
+ 
+
+
+00:04:57,350 --> 00:04:59,670
+ 
+ 
+
+00:04:59,670 --> 00:04:59,680
+ 
+ 
+
+00:04:59,680 --> 00:05:00,710
+ 
+
+
+00:05:00,710 --> 00:05:03,270
+ 
+ 
+
+00:05:03,270 --> 00:05:03,280
+ 
+ 
+
+00:05:03,280 --> 00:05:05,590
+ 
+
+
+00:05:05,590 --> 00:05:05,600
+ 
+ 
+
+00:05:05,600 --> 00:05:06,629
+ 
+
+
+00:05:06,629 --> 00:05:08,710
+ 
+ 
+
+00:05:08,710 --> 00:05:11,029
+ 
+ 
+
+00:05:11,029 --> 00:05:13,510
+ 
+ 
+
+00:05:13,510 --> 00:05:15,590
+ 
+ 
+
+00:05:15,590 --> 00:05:18,230
+ 
+ 
+
+00:05:18,230 --> 00:05:21,350
+ 
+ 
+
+00:05:21,350 --> 00:05:24,150
+ 
+ 
+
+00:05:24,150 --> 00:05:25,670
+ 
+ 
+
+00:05:25,670 --> 00:05:27,510
+ 
+ 
+
+00:05:27,510 --> 00:05:30,710
+ 
+ 
+
+00:05:30,710 --> 00:05:32,870
+ 
+ 
+
+00:05:32,870 --> 00:05:35,430
+ 
+ 
+
+00:05:35,430 --> 00:05:36,950
+ 
+ 
+
+00:05:36,950 --> 00:05:39,990
+ 
+ 
+
+00:05:39,990 --> 00:05:42,790
+ 
+ 
+
+00:05:42,790 --> 00:05:45,270
+ 
+ 
+
+00:05:45,270 --> 00:05:47,510
+ 
+ 
+
+00:05:47,510 --> 00:05:49,270
+ 
+ 
+
+00:05:49,270 --> 00:05:51,830
+ 
+ 
+
+00:05:51,830 --> 00:05:55,029
+ 
+ 
+
+00:05:55,029 --> 00:05:57,270
+ 
+ 
+
+00:05:57,270 --> 00:05:59,430
+ 
+ 
+
+00:05:59,430 --> 00:06:01,510
+ 
+ 
+
+00:06:01,510 --> 00:06:03,270
+ 
+ 
+
+00:06:03,270 --> 00:06:04,950
+ 
+ 
+
+00:06:04,950 --> 00:06:07,270
+ 
+ 
+
+00:06:07,270 --> 00:06:10,309
+ 
+ 
+
+00:06:10,309 --> 00:06:11,590
+ 
+ 
+
+00:06:11,590 --> 00:06:13,270
+ 
+ 
+
+00:06:13,270 --> 00:06:15,670
+ 
+ 
+
+00:06:15,670 --> 00:06:17,590
+ 
+ 
+
+00:06:17,590 --> 00:06:17,600
+ 
+ 
+
+00:06:17,600 --> 00:06:18,550
+ 
+
+
+00:06:18,550 --> 00:06:20,550
+ 
+ 
+
+00:06:20,550 --> 00:06:23,749
+ 
+ 
+
+00:06:23,749 --> 00:06:25,510
+ 
+ 
+
+00:06:25,510 --> 00:06:28,309
+ 
+ 
+
+00:06:28,309 --> 00:06:29,830
+ 
+ 
+
+00:06:29,830 --> 00:06:32,870
+ 
+ 
+
+00:06:32,870 --> 00:06:35,830
+ 
+ 
+
+00:06:35,830 --> 00:06:37,029
+ 
+ 
+
+00:06:37,029 --> 00:06:39,029
+ 
+ 
+
+00:06:39,029 --> 00:06:42,469
+ 
+ 
+
+00:06:42,469 --> 00:06:44,070
+ 
+ 
+
+00:06:44,070 --> 00:06:46,469
+ 
+ 
+
+00:06:46,469 --> 00:06:49,029
+ 
+ 
+
+00:06:49,029 --> 00:06:50,790
+ 
+ 
+
+00:06:50,790 --> 00:06:53,110
+ 
+ 
+
+00:06:53,110 --> 00:06:55,749
+ 
+ 
+
+00:06:55,749 --> 00:06:55,759
+ 
+ 
+
+00:06:55,759 --> 00:06:56,950
+ 
+
+
+00:06:56,950 --> 00:06:58,710
+ 
+ 
+
+00:06:58,710 --> 00:06:58,720
+ 
+ 
+
+00:06:58,720 --> 00:07:00,469
+ 
+
+
+00:07:00,469 --> 00:07:00,479
+ 
+ 
+
+00:07:00,479 --> 00:07:01,270
+ 
+
+
+00:07:01,270 --> 00:07:02,790
+ 
+ 
+
+00:07:02,790 --> 00:07:06,309
+ 
+ 
+
+00:07:06,309 --> 00:07:09,029
+ 
+ 
+
+00:07:09,029 --> 00:07:11,270
+ 
+ 
+
+00:07:11,270 --> 00:07:13,110
+ 
+ 
+
+00:07:13,110 --> 00:07:15,670
+ 
+ 
+
+00:07:15,670 --> 00:07:18,870
+ 
+ 
+
+00:07:18,870 --> 00:07:21,029
+ 
+ 
+
+00:07:21,029 --> 00:07:22,870
+ 
+ 
+
+00:07:22,870 --> 00:07:25,029
+ 
+ 
+
+00:07:25,029 --> 00:07:25,039
+ 
+ 
+
+00:07:25,039 --> 00:07:26,309
+ 
+
+
+00:07:26,309 --> 00:07:29,430
+ 
+ 
+
+00:07:29,430 --> 00:07:30,870
+ 
+ 
+
+00:07:30,870 --> 00:07:32,870
+ 
+ 
+
+00:07:32,870 --> 00:07:35,110
+ 
+ 
+
+00:07:35,110 --> 00:07:37,830
+ 
+ 
+
+00:07:37,830 --> 00:07:40,070
+ 
+ 
+
+00:07:40,070 --> 00:07:41,670
+ 
+ 
+
+00:07:41,670 --> 00:07:44,869
+ 
+ 
+
+00:07:44,869 --> 00:07:46,790
+ 
+ 
+
+00:07:46,790 --> 00:07:49,510
+ 
+ 
+
+00:07:49,510 --> 00:07:50,710
+ 
+ 
+
+00:07:50,710 --> 00:07:53,430
+ 
+ 
+
+00:07:53,430 --> 00:07:56,230
+ 
+ 
+
+00:07:56,230 --> 00:08:00,469
+ 
+ 
+
+00:08:00,469 --> 00:08:00,479
+ 
+ 
+
+00:08:00,479 --> 00:08:01,749
+ 
+
+
+00:08:01,749 --> 00:08:04,629
+ 
+ 
+
+00:08:04,629 --> 00:08:06,309
+ 
+ 
+
+00:08:06,309 --> 00:08:06,319
+ 
+ 
+
+00:08:06,319 --> 00:08:09,350
+ 
+
+
+00:08:09,350 --> 00:08:10,830
+ 
+ 
+
+00:08:10,830 --> 00:08:15,430
+ 
+ 
+
+00:08:15,430 --> 00:08:17,029
+ 
+ 
+
+00:08:17,029 --> 00:08:18,950
+ 
+ 
+
+00:08:18,950 --> 00:08:20,390
+ 
+ 
+
+00:08:20,390 --> 00:08:22,390
+ 
+ 
+
+00:08:22,390 --> 00:08:24,710
+ 
+ 
+
+00:08:24,710 --> 00:08:27,510
+ 
+ 
+
+00:08:27,510 --> 00:08:30,150
+ 
+ 
+
+00:08:30,150 --> 00:08:32,790
+ 
+ 
+
+00:08:32,790 --> 00:08:35,430
+ 
+ 
+
+00:08:35,430 --> 00:08:35,440
+ 
+ 
+
+00:08:35,440 --> 00:08:36,230
+ 
+
+
+00:08:36,230 --> 00:08:39,029
+ 
+ 
+
+00:08:39,029 --> 00:08:40,630
+ 
+ 
+
+00:08:40,630 --> 00:08:41,990
+ 
+ 
+
+00:08:41,990 --> 00:08:42,000
+ 
+ 
+
+00:08:42,000 --> 00:08:43,110
+ 
+
+
+00:08:43,110 --> 00:08:44,310
+ 
+ 
+
+00:08:44,310 --> 00:08:46,710
+ 
+ 
+
+00:08:46,710 --> 00:08:49,030
+ 
+ 
+
+00:08:49,030 --> 00:08:52,230
+ 
+ 
+
+00:08:52,230 --> 00:08:54,949
+ 
+ 
+
+00:08:54,949 --> 00:08:57,750
+ 
+ 
+
+00:08:57,750 --> 00:09:00,470
+ 
+ 
+
+00:09:00,470 --> 00:09:03,030
+ 
+ 
+
+00:09:03,030 --> 00:09:03,040
+ 
+ 
+
+00:09:03,040 --> 00:09:03,990
+ 
+
+
+00:09:03,990 --> 00:09:05,509
+ 
+ 
+
+00:09:05,509 --> 00:09:05,519
+ 
+ 
+
+00:09:05,519 --> 00:09:06,389
+ 
+
+
+00:09:06,389 --> 00:09:08,470
+ 
+ 
+
+00:09:08,470 --> 00:09:10,070
+ 
+ 
+
+00:09:10,070 --> 00:09:11,829
+ 
+ 
+
+00:09:11,829 --> 00:09:13,910
+ 
+ 
+
+00:09:13,910 --> 00:09:16,389
+ 
+ 
+
+00:09:16,389 --> 00:09:18,790
+ 
+ 
+
+00:09:18,790 --> 00:09:21,829
+ 
+ 
+
+00:09:21,829 --> 00:09:28,310
+ 
+ 
+
+00:09:28,310 --> 00:09:31,350
+ 
+ 
+
+00:09:31,350 --> 00:09:35,110
+ 
+ 
+
+00:09:35,110 --> 00:09:35,120
+ 
+ 
+
+00:09:35,120 --> 00:09:35,430
+ 
+
+
+00:09:35,430 --> 00:09:37,750
+ 
+ 
+
+00:09:37,750 --> 00:09:40,389
+ 
+ 
+
+00:09:40,389 --> 00:09:42,070
+ 
+ 
+
+00:09:42,070 --> 00:09:44,310
+ 
+ 
+
+00:09:44,310 --> 00:09:44,320
+ 
+ 
+
+00:09:44,320 --> 00:09:45,430
+ 
+
+
+00:09:45,430 --> 00:09:47,750
+ 
+ 
+
+00:09:47,750 --> 00:09:51,269
+ 
+ 
+
+00:09:51,269 --> 00:09:52,870
+ 
+ 
+
+00:09:52,870 --> 00:09:55,910
+ 
+ 
+
+00:09:55,910 --> 00:09:57,509
+ 
+ 
+
+00:09:57,509 --> 00:10:00,150
+ 
+ 
+
+00:10:00,150 --> 00:10:02,790
+ 
+ 
+
+00:10:02,790 --> 00:10:04,310
+ 
+ 
+
+00:10:04,310 --> 00:10:06,949
+ 
+ 
+
+00:10:06,949 --> 00:10:09,190
+ 
+ 
+
+00:10:09,190 --> 00:10:11,430
+ 
+ 
+
+00:10:11,430 --> 00:10:13,910
+ 
+ 
+
+00:10:13,910 --> 00:10:15,670
+ 
+ 
+
+00:10:15,670 --> 00:10:15,680
+ 
+ 
+
+00:10:15,680 --> 00:10:18,640
+ 
+
+

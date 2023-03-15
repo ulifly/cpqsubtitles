@@ -1,0 +1,880 @@
+1
+00:00:00,719 --> 00:00:03,229
+good everyone, i hope you guys have an  amazing day 
+
+2
+00:00:04,010 --> 00:00:07,670
+so today i will be  starting a new salesforce certification  series  
+
+3
+00:00:07,671 --> 00:00:11,571
+that is the CPQ specialist  
+
+4
+00:00:11,680 --> 00:00:16,300
+CPQ is a very popular  
+certification on salesforce space 
+
+5
+00:00:16,301 --> 00:00:19,266
+it's a  specialized certification 
+
+6
+00:00:19,790 --> 00:00:23,775
+that's one of  the reason why you can see the name "CPQ specialist" 
+
+7
+00:00:24,060 --> 00:00:26,269
+now the the word CPQ means 
+
+8
+00:00:26,869 --> 00:00:30,269
+Configure 
+Price 
+Quote
+
+9
+00:00:31,091 --> 00:00:35,469
+now you must be wondering, okay so that's cool, 
+that that sounds familiar
+
+10
+00:00:35,569 --> 00:00:38,470
+but what  the heck is CPQ anyways right  
+
+11
+00:00:39,020 --> 00:00:43,109
+so in simple terms, you can, you can  say CPQ is a tool  
+
+12
+00:00:44,070 --> 00:00:51,470
+for companies to provide accurate pricing  
+with any given product configuration scenario  
+
+13
+00:00:52,600 --> 00:01:00,559
+so  that's in a nutshell, so i'll be talking in details as we go along with the certification 
+
+14
+00:01:01,009 --> 00:01:07,559
+so today  what i'm going to do i wanted to talk  
+about the exam guide and and the topics which we're going to cover right
+
+15
+00:01:07,759 --> 00:01:10,059
+so this is just an intoduction round 
+
+16
+00:01:11,109 --> 00:01:17,670
+so  but i i still believe that it's very important 
+because i wanted to give you information around the total passing score 
+
+17
+00:01:18,390 --> 00:01:21,400
+and different things around the  certification  
+
+18
+00:01:21,980 --> 00:01:28,830
+right, so, the first thing i wanted to  mention to you guys
+
+19
+00:01:29,390 --> 00:01:32,400
+i would highly encourage you to take  this certification 
+
+20
+00:01:32,719 --> 00:01:35,789
+only after you have some experience with CPQ  
+
+21 
+00:01:35,789 --> 00:01:40,249
+the reason why i'm saying right, CPQ is a specialized certification, right 
+
+22
+00:01:41,149 --> 00:01:43,390
+and, or i would say
+
+23
+00:01:43,590 --> 00:01:49,230
+if your company demands you to have a CPQ certification because a project is coming  
+
+23
+00:01:49,770 --> 00:01:54,355
+projects in pipeline  
+and so for instance, your company put a tender out
+
+24
+00:01:54,355 --> 00:01:56,223
+and they're expecting some CPQ work 
+
+25
+00:01:56,670 --> 00:01:59,354
+yeah then i would highly  
+encourage you to go for the  certification 
+
+26
+00:01:59,550 --> 00:02:05,113
+but, if you are someone planning to take the certification just for the sake of it
+
+27
+00:02:05,213 --> 00:02:08,064
+i would tell you guys to hold on for some time right 
+
+28
+00:02:08,449 --> 00:02:13,250
+it's good to  have some real life experience with the CPQ 
+because you know  
+
+29
+00:02:13,350 --> 00:02:16,810
+if you don't have a CPQ experience then it it don't make  much sense 
+
+30
+00:02:16,990 --> 00:02:21,910
+i do have CPQ experience that's the reason why 
+i'm going to teach you guys about this certification 
+
+31
+00:02:22,790 --> 00:02:26,270
+i'm  not an i'm not a 100..  like a super  super expert 
+
+32
+00:02:26,270 --> 00:02:31,259
+but i have real life practical experience working with CPQ
+
+33
+00:02:31,670 --> 00:02:37,490
+right now,  who can take this certification? right  
+
+34
+00:02:37,670 --> 00:02:40,270
+so i would say pretty much anyone right  
+
+35
+00:02:41,270 --> 00:02:49,039
+but in saying that, this certification is more applicable for functional consultants  
+
+36
+00:02:50,239 --> 00:02:52,210
+solution architects 
+
+37
+00:02:52,310 --> 00:02:58,120
+even if you  are  a technical architect you know it's not  a bad certification to have  
+
+38
+00:02:59,150 --> 00:03:05,249
+that being said right if you are someone who are going to focus mostly on the CPQ side of things 
+
+39
+00:03:05,790 --> 00:03:09,710
+for that person CPQ certification, you know it's going to be very important  
+
+40
+00:03:10,210 --> 00:03:14,000
+okay now let's look at the exam guide right 
+
+41
+00:03:14,200 --> 00:03:18,000
+so, the best way to look at the exam  guide, you just go to the trailhead 
+
+42
+00:03:18,170 --> 00:03:20,830
+and  you'll get all the information, it's  pretty simple right?  
+
+43
+00:03:21,830 --> 00:03:25,010
+so when you look at the exam guide  
+
+44
+00:03:25,110 --> 00:03:29,509
+right, so this is a spring 2022 release
+
+45
+00:03:29,609 --> 00:03:32,119
+so, this is what they expect  
+
+46
+00:03:32,950 --> 00:03:36,469
+you know talk about  the things which they're going to expect  
+
+47
+00:03:36,869 --> 00:03:39,229
+so before we dive into the exam outline right 
+
+48
+00:03:40,129 --> 00:03:41,123
+let me  
+
+49
+00:03:41,910 --> 00:03:43,320
+show you something 
+
+50
+00:03:43,420 --> 00:03:46,990
+so what normally salesforce expects
+
+51
+00:03:47,000 --> 00:03:49,190
+of you know, before you go and take the certification 
+
+52
+00:03:49,195 --> 00:03:52,550
+they expect you  to have  
+some knowledge on CPQ right 
+
+54
+00:03:52,550 --> 00:03:53,910
+what that  means is that they expect you to know  
+
+55
+00:03:53,910 --> 00:03:56,229
+how to configure bundles 
+
+56
+00:03:56,229 --> 00:03:59,910
+how to  configure code line pricing fields 
+
+57
+00:03:59,910 --> 00:04:04,000
+and  how to configure a dynamic code template  
+using code terms
+
+58
+00:04:04,070 --> 00:04:07,729
+how to utilize the ordering and contracting process  
+
+59
+00:04:08,630 --> 00:04:11,190
+and you should know how to manage  
+
+60
+00:04:11,190 --> 00:04:14,429
+products price books and price book entries 
+
+61
+00:04:15,229 --> 00:04:20,439
+you should have a little bit or quite  
+a decent understanding  
+
+62
+00:04:20,439 --> 00:04:23,539
+about native and advanced rules  
+
+63
+00:04:25,530 --> 00:04:27,750
+you should know how to configure search  
+
+64
+00:04:27,750 --> 00:04:31,250
+custom actions for product selections configuration
+
+65
+00:04:31,250 --> 00:04:34,113
+knowledge about CPQ object data model  
+
+66
+00:04:34,213 --> 00:04:38,713
+now if you're thinking that what i'm  saying  
+
+67
+00:04:39,113 --> 00:04:40,813
+sounds like a jargon to you  
+
+68
+00:04:41,813 --> 00:04:46,100
+it's all right don't worry about it right 
+i'm gonna cover everything from the start 
+
+69
+00:04:46,100 --> 00:04:48,813
+so but in saying so right 
+
+70
+00:04:49,100 --> 00:04:50,900
+i still believe right 
+
+71
+00:04:50,950 --> 00:04:53,500
+if you have a little  
+bit of real life experience with CPQ
+
+72
+00:04:53,500 --> 00:04:56,600
+it  will  be good for you guys right
+
+73
+00:04:57,000 --> 00:04:59,000
+if you don't, that's fine  
+
+74
+00:04:59,900 --> 00:05:02,000
+all right so  
+
+75
+00:05:02,310 --> 00:05:04,710
+they will not test you anything about
+
+76
+00:05:04,710 --> 00:05:07,749
+apex or visual force page or billing  
+
+77
+00:05:07,749 --> 00:05:10,230
+or CPQ plug in's so 
+
+78
+00:05:10,230 --> 00:05:12,469
+you know you don't have to worry about it 
+
+79
+00:05:12,469 --> 00:05:15,070
+so i mean salesforce certifications are pretty flexible 
+
+80
+00:05:15,070 --> 00:05:20,113
+the main intention for them to test you 
+
+81
+00:05:20,410 --> 00:05:22,689
+is to know whether you  guys can do the job right 
+
+82
+00:05:22,789 --> 00:05:27,990
+obviously the purpose of certification is 
+to get to yourself upskilled right  
+
+83
+00:05:28,000 --> 00:05:29,470
+that's the way i look at it 
+
+84
+00:05:29,470 --> 00:05:33,333
+so it will  give you an opportunity 
+to learn new things, give you an opportunity to  
+
+85
+00:05:33,900 --> 00:05:36,700
+you know do something different which  
+you haven't done before 
+
+86
+00:05:36,870 --> 00:05:40,790
+which is  fantastic in my personal opinion 
+because i always love to do something new  
+
+87
+00:05:41,350 --> 00:05:44,570
+and also it's an opportunity to showcase  
+to your future employers 
+
+88
+00:05:44,570 --> 00:05:47,890
+that hey, uh i got the certification 
+
+89
+00:05:48,629 --> 00:05:53,800
+so i'm pretty confident that i can do the job  
+around CPQ right, so
+
+90
+00:05:53,990 --> 00:05:56,790
+okay so kind of the job roles right 
+
+91
+00:05:56,790 --> 00:06:01,470
+so like i've already mentioned that you  know if you're a technical architect function
+
+92
+00:06:01,490 --> 00:06:05,150
+architect or consultant, implementation consultants
+
+93
+00:06:05,150 --> 00:06:13,629
+that's most commonly used terminology 
+for the job titles 
+
+94
+00:06:13,950 --> 00:06:16,950
+who, you know for for the people who 
+are going to take the  certification 
+
+95
+00:06:17,000 --> 00:06:20,429
+because most of the  companies will have consultants right 
+
+96
+00:06:20,550 --> 00:06:25,490
+in  consulting space you have, often you have functional consultants and technic consultants 
+
+97
+00:06:25,600 --> 00:06:31,950
+so they are  often called as the functional  implementation consultant or technical  implementation consultant 
+
+98
+00:06:32,250 --> 00:06:38,190
+so, i mean the term term varies from  companies to companies right, so 
+
+
+98
+00:06:38,190 --> 00:06:48,190
+just remember this right, you know all of this profiles 
+you can see, you can see right, so it's applicable to them 
+
+99
+00:06:48,290 --> 00:06:52,349
+okay  now let's look at the real meat of the  certification right 
+
+100
+00:06:52,549 --> 00:06:56,749
+number of questions, obviously 60 multiple choice questions  
+
+101
+00:06:56,849 --> 00:07:02,549
+so the format is pretty much the same like every
+other certifications you have taken in salesforce space
+
+102
+00:07:02,629 --> 00:07:09,430
+the passing score is 65%  which is  not too bad  
+
+103
+00:07:09,670 --> 00:07:17,870
+registration fee is 200 usd so, if you fail the certification
+you can retake by paying hundred dollars right on the usd
+
+104
+00:07:17,989 --> 00:07:20,150
+fantastic right  
+
+105
+00:07:20,150 --> 00:07:23,990
+now um you can take online certification  
+
+106
+00:07:24,000 --> 00:07:31,550
+or you can, online in the center, you can take it from home or 
+you can take uh you know from a testing center  
+
+107
+00:07:32,629 --> 00:07:39,629
+so that's about the, you know housekeeping stuff when it comes to certification  
+
+108
+00:07:41,250 --> 00:07:45,060
+so, let's look at the exam outline right 
+
+109 
+00:07:45,270 --> 00:07:52,110
+so, in this like the expected to know CPQ platform 
+which is like, which is 23%
+
+110
+00:07:52,205 --> 00:07:54,690
+which means it's very very important 
+
+111
+00:07:54,790 --> 00:08:00,470
+if you look at other sections, so CPQ platform 
+has the highest weightage  
+
+112
+00:08:01,189 --> 00:08:05,830
+so they expect you to design, configure,  
+troubleshoot, pricing rules 
+
+113
+00:08:06,169 --> 00:08:09,190
+using lookup objects and formula fields 
+to meet the  business requirement 
+
+114
+00:08:09,390 --> 00:08:12,869
+which is very basic  and he had very important  
+
+115
+00:08:13,270 --> 00:08:16,029
+apply understanding of the code calculation sequence 
+
+116
+00:08:16,589 --> 00:08:21,450
+i will talk about it right, when we reach to this, this topic so don't worry about it 
+
+117
+00:08:21,510 --> 00:08:23,589
+like i said if it sounds jogging to you guys  
+
+118
+00:08:23,689 --> 00:08:25,870
+just don't worry about it for today right  
+
+119
+00:08:27,110 --> 00:08:33,670
+then you need to know how to, to you know demonstrate 
+the knowledge about CPQ object data model  
+
+120
+00:08:33,909 --> 00:08:36,949
+as it relates to data migration right  
+
+121
+00:08:36,949 --> 00:08:44,790
+set up CPQ for localization and multi-currency 
+for international customers and users right  
+
+122
+00:08:46,930 --> 00:08:52,240
+so, i will talk about it right i will cover each and every topic
+
+123
+00:08:52,389 --> 00:08:58,299
+so, that's CPQ platform then you need to know bundle configuration  
+
+124
+00:08:58,370 --> 00:09:01,750
+17% which is still pretty important  
+
+125
+00:09:01,910 --> 00:09:08,590
+you're given a scenario sort of a bundle structure to meet 
+the business requirements, so it's all about the bundles right 
+
+126
+00:09:09,190 --> 00:09:10,870
+so, we will look into that  
+
+127
+00:09:10,870 --> 00:09:13,710
+then we have pricing which is very important  
+
+128
+00:09:13,750 --> 00:09:19,550
+so, you know, talk about expect the price outcomes and other stuff  
+
+129
+00:09:20,710 --> 00:09:23,990
+templates 7% still important
+
+130
+00:09:23,990 --> 00:09:33,269
+product selection, you know search filters and custom actions, pretty important still, right  
+
+131
+00:09:33,269 --> 00:09:38,670 
+order, contracts, amendments, renewals, 15%  
+very important  
+
+132
+00:09:39,350 --> 00:09:41,350
+then you need to know about the products
+
+133
+00:09:41,450 --> 00:09:43,350
+demonstrate how to set up products, price books  
+
+134
+00:09:44,949 --> 00:09:49,110
+price book entries and approval process right 
+
+135
+00:09:49,670 --> 00:09:52,550
+so, the expectation is that by the time  
+
+136
+00:09:52,550 --> 00:09:58,310
+you know you clear the certification,
+you should be very well aware of all these topics  
+
+137
+00:09:58,710 --> 00:10:02,830
+if you're not that means that you haven't studied very well right 
+
+138
+00:10:02,870 --> 00:10:07,670
+so, like  i always say right, take certification 
+as an opportunity to learn something new, right  
+
+139
+00:10:07,870 --> 00:10:10,430
+it's not just to pass or fail, right 
+
+140
+00:10:10,430 --> 00:10:13,750
+i mean, you might pass, you might fail it doesn't matter 
+
+141
+00:10:13,750 --> 00:10:16,609
+are you  having fun in the journey? that's important right 
+
+142
+00:10:16,709 --> 00:10:19,110
+and along with the fun, are you learning something new? right 
+
+143
+00:10:19,110 --> 00:10:21,110
+you know that's the way i look at  it  
+
+
+144
+00:10:21,110 --> 00:10:28,120
+for me, yes i do understand right, you're investing 200 bucks it's  important to pass the certification
+
+145
+00:10:28,550 --> 00:10:32,350
+but people do fail right, and if you fail for whatever reason 
+
+146
+00:10:32,569 --> 00:10:35,430
+just take it as a learning opportunity and move on, right  
+
+147
+00:10:35,430 --> 00:10:39,509
+try again, so that's the way it is  
+
+148
+00:10:39,509 --> 00:10:44,000
+and right so, the topic what we're going  to cover right, so let me show you that  
+
+149
+00:10:44,110 --> 00:10:48,350
+i'll be teaching on trailhead, 
+as you know right, most of the stuffs are covered in trailhead 
+
+150
+00:10:48,450 --> 00:10:53,509
+and plus i'm going to bring some of the real life experience 
+as well so, it's going to be fun right 
+
+151
+00:10:53,509 --> 00:10:55,670
+we're going  to do hands-on we're going to do theory  
+
+152
+00:10:55,670 --> 00:11:00,509
+so we're going to do some fun stuff together right,
+so it's going to be an interesting journey 
+
+153
+00:11:00,609 --> 00:11:02,750
+i'm really looking  forward to you  
+
+154
+00:11:03,360 -->  00:11:10,389
+okay so, prepare for your salesforce CPQ certification uh sorry specialist credentials  
+
+155
+00:11:10,389 --> 00:11:15,560 
+i have to mention CPQ specialist right, 
+because it's a specialist certification
+
+116
+00:11:15,910 --> 000:11:21,750
+right so overview, we already talked about it, 
+so the first part is pretty much knocked off 
+
+117
+00:11:21,750 --> 00:11:24,630
+so, we are in the sweet spot, right 
+
+118
+00:11:24,630 --> 00:11:27,870
+then the CPQ platform we can talk about basics 
+
+119
+00:11:28,910 --> 00:11:33,670
+important features, installation, settings, sorry the package settings  
+
+120
+00:11:33,670 --> 00:11:42,069
+page layouts, object relationship, mapping custom fields between objects  
+
+121
+00:11:42,069 --> 00:11:45,829
+translating salesforce CPQ records 
+
+122
+00:11:45,829 --> 00:11:49,829
+then we talk about bundles, product bundles, right 
+
+123
+00:11:50,629 --> 00:11:54,710
+all this stuff  right, excuse me, pricing information,  
+
+124
+00:11:57,110 --> 00:12:04,710
+product selection, so yeah it's gonna be fun all right, 
+i can tell you that CPQ is extremely interesting  
+
+125
+00:12:04,710 --> 00:12:10,310
+it's really exciting topic right, you guys really gonna have fun 
+
+126
+00:12:10,310 --> 00:12:15,410
+and yes it's it can be challenging at time,
+but it is really fun
+
+127  
+00:12:15,630 --> 00:12:19,670
+to, to do stuff in CPQ
+
+128
+00:12:19,670 --> 00:12:24,030
+just one thing i wanted to tell you guys right, 
+i do understand that right
+
+129
+00:12:24,030 --> 00:12:27,910
+you know, i'm giving this certification free, right  
+
+130
+00:12:27,950 --> 00:12:33,910
+so, that's fine because i love to give it back 
+to the salesforce community 
+
+131
+00:12:33,910 --> 00:12:38,909
+in saying so, i do expect you guys to, you know
+
+132
+00:12:39,190 --> 00:12:42,670
+form a study group or you know read from trailhead 
+
+133
+00:12:42,670 --> 00:12:46,470
+because just don't assume, that right i'm just making a video 
+
+134
+00:12:46,470 --> 00:12:51,430
+so you watch my video and you know just go 
+and sit in the certification and you'll clear it 
+
+135
+00:12:51,430 --> 00:12:56,310
+it's not going to happen guys, 
+you have to put  your own time, right 
+
+136
+00:12:56,310 --> 00:13:02,710
+you have to spend time to understand, 
+you have to read the documentation, you have to do hands-on 
+
+137
+00:13:02,750 --> 00:13:06,870
+you're right, it's an investment right 
+so you have to be proactive  
+
+138
+00:13:06,870 --> 00:13:11,990
+you can't expect me that right, i'm just gonna make entire video 
+
+139
+00:13:11,990 --> 00:13:16,999
+and then i'll assume that you guys are pretty sweet to go,
+it's it's not gonna happen like that, right  
+
+140
+00:13:17,129 --> 00:13:20,009
+so you guys have to put your own time and effort 
+
+141
+00:13:20,009 --> 00:13:24,030
+and till you guys don't do it, 
+then the certification is going to be very difficult 
+
+142
+00:13:24,030 --> 00:13:25,030
+i'll be very upfront right  
+
+142
+
+00:13:25,040 --> 00:13:30,710
+so, yeah that's that's pretty much i wanted  
+to cover in today's episode 
+
+143
+00:13:30,710 --> 00:13:35,590
+so, tomorrow what we're going to do, 
+we're going to start looking at the CPQ basics  
+
+144
+00:13:35,590 --> 00:13:41,910
+so it's going to take us right, roughly around... maybe 15 hours  
+
+145
+00:13:41,910 --> 00:13:45,910
+right, so we'll see how we go right 
+
+146
+00:13:45,910 --> 00:13:52,790
+so, i don't want to rush right, i wanted to give you guys enough time 
+so even in in my previous certification right
+
+147
+00:13:52,790 --> 00:13:56,470
+the service cloud, you might have seen that  i've been doing quite slow 
+
+148
+00:13:56,470 --> 00:13:59,350
+the reason why i'm being doing quite slower 
+
+149
+00:13:59,350 --> 00:14:06,389
+because i want you guys to you know
+have enough time to read the material 
+
+150
+00:14:06,389 --> 00:14:10,629
+to, to do different things to practice before you you know, 
+start working on the next topic  
+
+151
+00:14:10,629 --> 00:14:17,430
+so usually, i would say if you are pretty new to CPQ 
+you will need at least three to four months 
+
+152
+00:14:17,430 --> 00:14:21,389
+at  least a preparation, you cannot clear it  just by doing 15 days 
+
+153
+00:14:21,389 --> 00:14:24,629
+i just hate to break this to you guys  
+
+154
+00:14:24,629 --> 00:14:29,030
+you cannot clear CPQ certification with zero experience in 15 days 
+
+155
+00:14:29,030 --> 00:14:31,430
+if that's what you are aspiring to be  
+
+156
+00:14:31,430 --> 00:14:35,430
+it's, i mean, you might pass but what's the point? right  
+
+157
+00:14:35,430 --> 00:14:38,949
+so i would highly encourage you guys to spend at least two to three months
+
+158
+00:14:38,949 --> 00:14:40,870
+if you are new to CPQ
+
+159
+00:14:40,870 --> 00:14:44,790
+if you're experienced, if you have a lot of experience then you'll smash it up even in a week
+
+160
+00:14:44,790 --> 00:14:46,470
+so you don't have to worry much so  
+
+161
+00:14:47,829 --> 00:14:54,279
+yeah so that's pretty much i wanted to  talk about in today's episode 
+thank you
+
+ 
+
+ 
+
+

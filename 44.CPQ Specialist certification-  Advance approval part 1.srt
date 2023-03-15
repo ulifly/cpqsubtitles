@@ -1,0 +1,2045 @@
+
+00:00:00,599 --> 00:00:02,629
+ 
+good everyone I hope you guys have an  amazing day so what I'll do today I will  talk about uh cpq Advanced approval  process so  cpq advanced process approval process is  the last uh topic uh for the  certification so after that we're pretty  much done so why do we need a cpq  advanced approval process right because  You Must Be Wondering we already have an  inbuilt Salesforce approval process  uh well think about a scenario right  let's say you have approved  um say say you you wanted to prove an  expense right so you submitted an  expense report and let's say your  expense is pretty expensive right it's  like well let's say 60 Grand it has to  go to say four levels of approval say  approval one approval two approval three  approval four now let's say an approval  uh the third person guard uh the person  who  um rejected uh the third person rejected  your expense right and they asked that  person they asked you to do some kind of  modification and you did some kind of  modification and send for approval now  imagine what happens right it has to go  through the approval of one approval to  approval three right now Salesforce cpq  has something called smart approval  process which remembers the people who  have been approved so you don't have to  go through those people so you just have  to bypass you can bypass those two uh  approvals and then you can go straight  away to the person who rejected it uh  that's one thing and also another thing  is that you can actually see in a very a  nice looking UI the the people who will  be approving your say codes or  opportunity so the list of approvals so  it's pretty nice much to have that you  know look and feel so it will give you  an indication you know where it's  heading based on uh what right  um so before uh you start using cpq  Advanced approval stuff right you need  to install a package so for that you  need to go to install Dot steelbrick.com  and once you go here  um what you have to do is that uh you  come down right and then look for  um Advanced approval and then you  install uh based on production of  sandbox where it is right so once that  is installed  um what you can do you can go to your  org and you can go to the setup  and  um  and once you do that and you can go to  install package  okay  um  and then  take some time  um  and you can see that  um Advanced approval here right so you  can look at the configuration option  and  so I just wanted to tell you that once  you do that so this is how it looks like  um you know I and then you have a dual  test settings and kind of stuff you're  not you're not worried about that just  wanted to show you guys that you know  this thing has been installed uh now  once you install it you may not be able  to use it directly out of box because  you might have to configure a few stuff  so I'll just go through from the help  documentation because it's there in the  help so  um so first thing first you need to  create a few fields on an approval  object so  um so you go here  um let's do that one by one let's have a  look at it so you go here to the setup  and so you go to the approval  subject manager uh this is pretty basic  right you could just uh I will put the  link in the description below don't  worry about it so you go to the approval  so now you can see why I'm seeing SP  right because it's still brick that's  why uh so you got an approval uh object  and you just need to create a lookup for  the code uh once you do that I've  already done that so just you know  showing you guys  um  I don't know how it works  so I've already created a code lookup  right so you might have to do that and  then  um so what I'll do I'll close this one  yeah and then so you have to uh after  that you go to code object then you  create a uh another field called  approval status and then you create a  date field called submit a date then you  create a  submitted user and after that you need  to create an apex class and copy this  code right this one is pretty simple if  you don't know how to create it Apex  class is pretty simple  um so what do you do you can you can do  two ways right one you can go to the  developer console and  um it's I'll show you anyway so you go  to developer console and just go to file  or you can create it  um using  oh come on nevermind  all right it's stuck sometimes it  doesn't  so hang on a second uh let me okay for  whatever reason okay all right no oh  come on sorry  so you go to file and you go to new Apex  class right and that's one way you can  go Visual Studio code that's my favorite  approach you create a class individual  3D code but if you're if you are not  comfortable with using get or if you're  not comfortable using visual studio code  that's fine  um go to file uh create new Apex class  and  um  and then copy uh this this code so when  you create an apex files right please  make sure you keep the name of the class  to this code extension controller and  then copy this code right and similarly  uh you might have to create a another  class which is a test class give this  name and copy the code right so  and then after you do that you might  have to create a advanced uh approval  buttons okay so which is pretty simple  so I'm pretty sure you guys know how to  create it so before that you just have  to create a visual force page so what  you have to do  um so you just go here to the  uh set up and  and you go to the visual  force page  and then you just create a new right  when you create a new uh for the name uh  just keep this sub in the code submit  the code and then after that in the body  just copy paste this one  um similarly you need to create another  visual force page just type these two  names that's pretty cool right uh and  then copy this uh content I've already  done so so that's why I can't really do  this step  uh and then you might need to create a  new button so it's pretty cool right you  just go to the uh object which is that  um the code object and then create a new  button and uh link it to the visual  force page I'll put the link in the  description below uh please go through  it it's very simple to follow uh it's  not a rocket science it's a few clicks  few things right because I obviously I  believe since you're doing cpq  certification you will be fairly  comfortable how to create a new button  right so I assume so okay all right so  that's done okay and then what you have  to do you have to create a page layout  so which is pretty cool  um so just go to the  um  um the codes right just open the code  and then add the buttons to your page  layout okay that's all you have to do so  I've done that everything is done so  what I'll do now I have to go through  certain steps so obviously you know when  you talk about approval right you need  approval obviously someone has to prove  right  um then the approval condition right and  approval rules okay so I'll show you  each one by one the process so uh  after you install the package right and  after you do all the step right  um all you have to do just go here  um and just type Brewer okay and then  let's create an approver here so what  I'll do I will create something called  uh  um that the finance  uh Brewer so I will link this user David  Muller and  um  I  that's pretty much I have to do right  you can also create a delegator approver  if someone is away so you can assign  that program as well or if you wanted to  give a group right so you can give the  group out of here as well  so yeah and you can also do the  delegation delegator approval start date  and end date so this is pretty flexible  right based on your requirement so uh  you can configure it  um it's very handy so I'll save it  so I created this approver now if I go  to the related list I have few things I  have to worry about what is approval  rules so approval rules is where I will  create my rule on an object so what I'll  say uh partner  uh discount  over yeah or 10 right  uh Target object you can choose  opportunity um or code so before  whatever reason right if you can't find  this code  um so what you can do  um so let's close it right and just  um  uh go back to this setup  sorry  um  so you go to the approval rule right  um and then what you can do  um  so if I go new  so go to the Target object  um  let me close this visual force page  right and I go to the field relationship  okay and I close this one because it's  all over the place and it's confusing I  guess  so I go to Target object and it's a pick  list  right and in that pick list  add the name of the object you wanted to  work with right so I've added the API  name of the code  uh it's not there or the box so you  might have to go and click on you and  add it so uh that's why you can see it  here before whatever reason if you're  not able to see it that's the reason why  okay  all right so I will say partner uh par  discount  greater than 10 right  don't forget to activate it and choose  this code approval Services could be uh  I'm not talking about approval chain at  this stage so for now just forget about  it  um you can create a template  um to link it to it  I'm not concerned about at this stage so  what I'll do approval recipient  record owner  initial submitter  and this the same record and initial  submitter yeah  and also save  okay so that's done now I'll go here now  I'll create a approval condition so  obviously you know you you set up you  put up a rule on an object obviously you  want something to happen right uh  obviously the uh this whole process to  be triggered based on something right so  that's exactly what we're going to do  here  um so what I'll do  I'll put index here and so approval  condition right testing Fields now when  it comes to test the fields you must be  thinking I can't find any of this  information here right except these two  three Fields so that's pretty simple so  go to the approval condition object go  to the tested field right it's a pick  list okay I'll just show you anyways so  it's easier right  um okay so I'll just go approver  uh condition yeah and I've Got a Feeling  relationship  and I'll just go to the sorry test the  fields  and I've got a tissue build here pretty  fantastic right  um and then I've added where the heck is  it okay I've added the field name so I  got this field name from a code object  so these are the field API names of a  field and the code object that's a  pattern discount  um and distributed discount right so  yeah  okay so I've added that and I'll choose  a part of this ground okay now what do  you want with this part that's going  okay I wanted to say greater than okay  great then  value  should be greater than 10 uh then you  should fire this condition okay  it's pretty simple nothing fancy there  right  okay now what I'll do to test it I'll go  to orders  uh sorry not orders MyPad uh code okay  so I'll go to the code here so I already  have a code here uh with a partner  discount obviously Partners count is way  higher it's just a 40 so basically that  being said it should go to approve  process right so how do you know that  whether this code will be eligible for  the approval process it's pretty simple  you can look at the the preview approval  so if I if I click on preview approval  um  you will see  okay all right  unable to find the approval rule ID okay  that's fine  uh something didn't work okay that's  fine  uh don't worry about it so what I'll do  that's the first time I'm seeing there  though but okay that's fine  uh so what I'll do I'll just go to prove  where let's let's look at the financial  approver  um and I'll choose this guy as an  improver  and I chose this everything is good  uh just with the related and so I'll do  this  and Next Step roll chain  this is a code all condition mad  and I said  Corona record submitter  and okay that's great then I go to  relate to list  I'll go here  okay and what I'll do I'll throw a rule  this is a part of the discount  and I said greater than I want the value  okay  uh that's pretty much it  okay now refresh it let me create a code  and let's see  so I go to code  and I will create a new code  um  and I'll make this a primary code right  and I will say  account that's a school account  um  I'll just put this as Boys 30 and  this one operas 30 right I and I'll save  it okay  and what I'll do I will go to the  um edit lines  and I'll add a few stuff here right I'll  just probably add something okay I do  that  and products  um  okay I'll add the Samsung phone okay so  that's pretty cool  and uh I'll save it  and uh  I'll save it  okay now let's see if it works if not  then we have to find out what's going on  unable to find the approval for rule ID  and let me see what rule ID is talking  about okay  uh approval rules  okay so what I'll do  okay so I will delete all of it maybe  there is an existing rule that's in  place  which is kicking behind the scene and  it's causing a problem right  I honestly don't care about any of this  stuff here okay  so there's some old data that was  causing a problem maybe that's the case  okay let's see  um do we have any approval already for  this one  okay we don't have one okay that's cool  so I'll go to code  and I'll go here  uh should work hopefully  okay so there you go so now you can see  that uh this guy is someone who will be  Brewer uh because obviously in the park  underground is greater than so it will  go to this person right  um so we'll submit for approval  okay  take something for approval let's see  what happened  so I think that's submitted  um  so let me go to the  setup  oh yeah I can go here  what's a big deal right if another  screen  um  login  right  that's fine that's that's perfectly fine  uh for now  so that's something I'm going to discuss  about uh in the next episode right what  happens when you do click on submit so  there's something that needs to be done  so  uh for now this this is all I wanted to  show in this episode anyways just to  show you how it looks like you know uh  when you have a code which is uh which  needs approval right so next time we're  going to look at the submit approval  training process uh in more detail right  so that's pretty much I wanted to cover  in this episode I hope you guys have an  amazing Monday adios
+
+00:00:02,629 --> 00:00:05,030
+good everyone I hope you guys have an  amazing day so what I'll do today I will  talk about uh cpq Advanced approval  process so  cpq advanced process approval process is  the last uh topic uh for the  certification so after that we're pretty  much done so why do we need a cpq  advanced approval process right because  You Must Be Wondering we already have an  inbuilt Salesforce approval process  uh well think about a scenario right  let's say you have approved  um say say you you wanted to prove an  expense right so you submitted an  expense report and let's say your  expense is pretty expensive right it's  like well let's say 60 Grand it has to  go to say four levels of approval say  approval one approval two approval three  approval four now let's say an approval  uh the third person guard uh the person  who  um rejected uh the third person rejected  your expense right and they asked that  person they asked you to do some kind of  modification and you did some kind of  modification and send for approval now  imagine what happens right it has to go  through the approval of one approval to  approval three right now Salesforce cpq  has something called smart approval  process which remembers the people who  have been approved so you don't have to  go through those people so you just have  to bypass you can bypass those two uh  approvals and then you can go straight  away to the person who rejected it uh  that's one thing and also another thing  is that you can actually see in a very a  nice looking UI the the people who will  be approving your say codes or  opportunity so the list of approvals so  it's pretty nice much to have that you  know look and feel so it will give you  an indication you know where it's  heading based on uh what right  um so before uh you start using cpq  Advanced approval stuff right you need  to install a package so for that you  need to go to install Dot steelbrick.com  and once you go here  um what you have to do is that uh you  come down right and then look for  um Advanced approval and then you  install uh based on production of  sandbox where it is right so once that  is installed  um what you can do you can go to your  org and you can go to the setup  and  um  and once you do that and you can go to  install package  okay  um  and then  take some time  um  and you can see that  um Advanced approval here right so you  can look at the configuration option  and  so I just wanted to tell you that once  you do that so this is how it looks like  um you know I and then you have a dual  test settings and kind of stuff you're  not you're not worried about that just  wanted to show you guys that you know  this thing has been installed uh now  once you install it you may not be able  to use it directly out of box because  you might have to configure a few stuff  so I'll just go through from the help  documentation because it's there in the  help so  um so first thing first you need to  create a few fields on an approval  object so  um so you go here  um let's do that one by one let's have a  look at it so you go here to the setup  and so you go to the approval  subject manager uh this is pretty basic  right you could just uh I will put the  link in the description below don't  worry about it so you go to the approval  so now you can see why I'm seeing SP  right because it's still brick that's  why uh so you got an approval uh object  and you just need to create a lookup for  the code uh once you do that I've  already done that so just you know  showing you guys  um  I don't know how it works  so I've already created a code lookup  right so you might have to do that and  then  um so what I'll do I'll close this one  yeah and then so you have to uh after  that you go to code object then you  create a uh another field called  approval status and then you create a  date field called submit a date then you  create a  submitted user and after that you need  to create an apex class and copy this  code right this one is pretty simple if  you don't know how to create it Apex  class is pretty simple  um so what do you do you can you can do  two ways right one you can go to the  developer console and  um it's I'll show you anyway so you go  to developer console and just go to file  or you can create it  um using  oh come on nevermind  all right it's stuck sometimes it  doesn't  so hang on a second uh let me okay for  whatever reason okay all right no oh  come on sorry  so you go to file and you go to new Apex  class right and that's one way you can  go Visual Studio code that's my favorite  approach you create a class individual  3D code but if you're if you are not  comfortable with using get or if you're  not comfortable using visual studio code  that's fine  um go to file uh create new Apex class  and  um  and then copy uh this this code so when  you create an apex files right please  make sure you keep the name of the class  to this code extension controller and  then copy this code right and similarly  uh you might have to create a another  class which is a test class give this  name and copy the code right so  and then after you do that you might  have to create a advanced uh approval  buttons okay so which is pretty simple  so I'm pretty sure you guys know how to  create it so before that you just have  to create a visual force page so what  you have to do  um so you just go here to the  uh set up and  and you go to the visual  force page  and then you just create a new right  when you create a new uh for the name uh  just keep this sub in the code submit  the code and then after that in the body  just copy paste this one  um similarly you need to create another  visual force page just type these two  names that's pretty cool right uh and  then copy this uh content I've already  done so so that's why I can't really do  this step  uh and then you might need to create a  new button so it's pretty cool right you  just go to the uh object which is that  um the code object and then create a new  button and uh link it to the visual  force page I'll put the link in the  description below uh please go through  it it's very simple to follow uh it's  not a rocket science it's a few clicks  few things right because I obviously I  believe since you're doing cpq  certification you will be fairly  comfortable how to create a new button  right so I assume so okay all right so  that's done okay and then what you have  to do you have to create a page layout  so which is pretty cool  um so just go to the  um  um the codes right just open the code  and then add the buttons to your page  layout okay that's all you have to do so  I've done that everything is done so  what I'll do now I have to go through  certain steps so obviously you know when  you talk about approval right you need  approval obviously someone has to prove  right  um then the approval condition right and  approval rules okay so I'll show you  each one by one the process so uh  after you install the package right and  after you do all the step right  um all you have to do just go here  um and just type Brewer okay and then  let's create an approver here so what  I'll do I will create something called  uh  um that the finance  uh Brewer so I will link this user David  Muller and  um  I  that's pretty much I have to do right  you can also create a delegator approver  if someone is away so you can assign  that program as well or if you wanted to  give a group right so you can give the  group out of here as well  so yeah and you can also do the  delegation delegator approval start date  and end date so this is pretty flexible  right based on your requirement so uh  you can configure it  um it's very handy so I'll save it  so I created this approver now if I go  to the related list I have few things I  have to worry about what is approval  rules so approval rules is where I will  create my rule on an object so what I'll  say uh partner  uh discount  over yeah or 10 right  uh Target object you can choose  opportunity um or code so before  whatever reason right if you can't find  this code  um so what you can do  um so let's close it right and just  um  uh go back to this setup  sorry  um  so you go to the approval rule right  um and then what you can do  um  so if I go new  so go to the Target object  um  let me close this visual force page  right and I go to the field relationship  okay and I close this one because it's  all over the place and it's confusing I  guess  so I go to Target object and it's a pick  list  right and in that pick list  add the name of the object you wanted to  work with right so I've added the API  name of the code  uh it's not there or the box so you  might have to go and click on you and  add it so uh that's why you can see it  here before whatever reason if you're  not able to see it that's the reason why  okay  all right so I will say partner uh par  discount  greater than 10 right  don't forget to activate it and choose  this code approval Services could be uh  I'm not talking about approval chain at  this stage so for now just forget about  it  um you can create a template  um to link it to it  I'm not concerned about at this stage so  what I'll do approval recipient  record owner  initial submitter  and this the same record and initial  submitter yeah  and also save  okay so that's done now I'll go here now  I'll create a approval condition so  obviously you know you you set up you  put up a rule on an object obviously you  want something to happen right uh  obviously the uh this whole process to  be triggered based on something right so  that's exactly what we're going to do  here  um so what I'll do  I'll put index here and so approval  condition right testing Fields now when  it comes to test the fields you must be  thinking I can't find any of this  information here right except these two  three Fields so that's pretty simple so  go to the approval condition object go  to the tested field right it's a pick  list okay I'll just show you anyways so  it's easier right  um okay so I'll just go approver  uh condition yeah and I've Got a Feeling  relationship  and I'll just go to the sorry test the  fields  and I've got a tissue build here pretty  fantastic right  um and then I've added where the heck is  it okay I've added the field name so I  got this field name from a code object  so these are the field API names of a  field and the code object that's a  pattern discount  um and distributed discount right so  yeah  okay so I've added that and I'll choose  a part of this ground okay now what do  you want with this part that's going  okay I wanted to say greater than okay  great then  value  should be greater than 10 uh then you  should fire this condition okay  it's pretty simple nothing fancy there  right  okay now what I'll do to test it I'll go  to orders  uh sorry not orders MyPad uh code okay  so I'll go to the code here so I already  have a code here uh with a partner  discount obviously Partners count is way  higher it's just a 40 so basically that  being said it should go to approve  process right so how do you know that  whether this code will be eligible for  the approval process it's pretty simple  you can look at the the preview approval  so if I if I click on preview approval  um  you will see  okay all right  unable to find the approval rule ID okay  that's fine  uh something didn't work okay that's  fine  uh don't worry about it so what I'll do  that's the first time I'm seeing there  though but okay that's fine  uh so what I'll do I'll just go to prove  where let's let's look at the financial  approver  um and I'll choose this guy as an  improver  and I chose this everything is good  uh just with the related and so I'll do  this  and Next Step roll chain  this is a code all condition mad  and I said  Corona record submitter  and okay that's great then I go to  relate to list  I'll go here  okay and what I'll do I'll throw a rule  this is a part of the discount  and I said greater than I want the value  okay  uh that's pretty much it  okay now refresh it let me create a code  and let's see  so I go to code  and I will create a new code  um  and I'll make this a primary code right  and I will say  account that's a school account  um  I'll just put this as Boys 30 and  this one operas 30 right I and I'll save  it okay  and what I'll do I will go to the  um edit lines  and I'll add a few stuff here right I'll  just probably add something okay I do  that  and products  um  okay I'll add the Samsung phone okay so  that's pretty cool  and uh I'll save it  and uh  I'll save it  okay now let's see if it works if not  then we have to find out what's going on  unable to find the approval for rule ID  and let me see what rule ID is talking  about okay  uh approval rules  okay so what I'll do  okay so I will delete all of it maybe  there is an existing rule that's in  place  which is kicking behind the scene and  it's causing a problem right  I honestly don't care about any of this  stuff here okay  so there's some old data that was  causing a problem maybe that's the case  okay let's see  um do we have any approval already for  this one  okay we don't have one okay that's cool  so I'll go to code  and I'll go here  uh should work hopefully  okay so there you go so now you can see  that uh this guy is someone who will be  Brewer uh because obviously in the park  underground is greater than so it will  go to this person right  um so we'll submit for approval  okay  take something for approval let's see  what happened  so I think that's submitted  um  so let me go to the  setup  oh yeah I can go here  what's a big deal right if another  screen  um  login  right  that's fine that's that's perfectly fine  uh for now  so that's something I'm going to discuss  about uh in the next episode right what  happens when you do click on submit so  there's something that needs to be done  so  uh for now this this is all I wanted to  show in this episode anyways just to  show you how it looks like you know uh  when you have a code which is uh which  needs approval right so next time we're  going to look at the submit approval  training process uh in more detail right  so that's pretty much I wanted to cover  in this episode I hope you guys have an  amazing Monday adios
+ 
+
+00:00:05,030 --> 00:00:07,970
+ 
+ 
+
+00:00:07,970 --> 00:00:09,770
+ 
+ 
+
+00:00:09,770 --> 00:00:12,530
+ 
+ 
+
+00:00:12,530 --> 00:00:15,470
+ 
+ 
+
+00:00:15,470 --> 00:00:17,210
+ 
+ 
+
+00:00:17,210 --> 00:00:20,230
+ 
+ 
+
+00:00:20,230 --> 00:00:22,310
+ 
+ 
+
+00:00:22,310 --> 00:00:24,950
+ 
+ 
+
+00:00:24,950 --> 00:00:26,990
+ 
+ 
+
+00:00:26,990 --> 00:00:29,029
+ 
+ 
+
+00:00:29,029 --> 00:00:32,030
+ 
+ 
+
+00:00:32,030 --> 00:00:34,370
+ 
+ 
+
+00:00:34,370 --> 00:00:36,290
+ 
+ 
+
+00:00:36,290 --> 00:00:37,549
+ 
+ 
+
+00:00:37,549 --> 00:00:40,010
+ 
+ 
+
+00:00:40,010 --> 00:00:43,130
+ 
+ 
+
+00:00:43,130 --> 00:00:45,229
+ 
+ 
+
+00:00:45,229 --> 00:00:47,090
+ 
+ 
+
+00:00:47,090 --> 00:00:49,610
+ 
+ 
+
+00:00:49,610 --> 00:00:52,850
+ 
+ 
+
+00:00:52,850 --> 00:00:52,860
+ 
+ 
+
+00:00:52,860 --> 00:00:54,410
+ 
+
+
+00:00:54,410 --> 00:00:57,950
+ 
+ 
+
+00:00:57,950 --> 00:01:00,650
+ 
+ 
+
+00:01:00,650 --> 00:01:02,810
+ 
+ 
+
+00:01:02,810 --> 00:01:04,310
+ 
+ 
+
+00:01:04,310 --> 00:01:06,170
+ 
+ 
+
+00:01:06,170 --> 00:01:07,850
+ 
+ 
+
+00:01:07,850 --> 00:01:09,170
+ 
+ 
+
+00:01:09,170 --> 00:01:11,390
+ 
+ 
+
+00:01:11,390 --> 00:01:12,890
+ 
+ 
+
+00:01:12,890 --> 00:01:14,990
+ 
+ 
+
+00:01:14,990 --> 00:01:16,730
+ 
+ 
+
+00:01:16,730 --> 00:01:18,469
+ 
+ 
+
+00:01:18,469 --> 00:01:21,530
+ 
+ 
+
+00:01:21,530 --> 00:01:24,830
+ 
+ 
+
+00:01:24,830 --> 00:01:27,530
+ 
+ 
+
+00:01:27,530 --> 00:01:29,149
+ 
+ 
+
+00:01:29,149 --> 00:01:32,090
+ 
+ 
+
+00:01:32,090 --> 00:01:34,550
+ 
+ 
+
+00:01:34,550 --> 00:01:36,289
+ 
+ 
+
+00:01:36,289 --> 00:01:38,569
+ 
+ 
+
+00:01:38,569 --> 00:01:41,149
+ 
+ 
+
+00:01:41,149 --> 00:01:42,830
+ 
+ 
+
+00:01:42,830 --> 00:01:44,210
+ 
+ 
+
+00:01:44,210 --> 00:01:47,330
+ 
+ 
+
+00:01:47,330 --> 00:01:50,330
+ 
+ 
+
+00:01:50,330 --> 00:01:52,969
+ 
+ 
+
+00:01:52,969 --> 00:01:55,850
+ 
+ 
+
+00:01:55,850 --> 00:01:59,170
+ 
+ 
+
+00:01:59,170 --> 00:02:02,270
+ 
+ 
+
+00:02:02,270 --> 00:02:04,550
+ 
+ 
+
+00:02:04,550 --> 00:02:08,150
+ 
+ 
+
+00:02:08,150 --> 00:02:10,010
+ 
+ 
+
+00:02:10,010 --> 00:02:12,410
+ 
+ 
+
+00:02:12,410 --> 00:02:14,809
+ 
+ 
+
+00:02:14,809 --> 00:02:16,130
+ 
+ 
+
+00:02:16,130 --> 00:02:17,630
+ 
+ 
+
+00:02:17,630 --> 00:02:20,930
+ 
+ 
+
+00:02:20,930 --> 00:02:20,940
+ 
+ 
+
+00:02:20,940 --> 00:02:23,809
+ 
+
+
+00:02:23,809 --> 00:02:23,819
+ 
+ 
+
+00:02:23,819 --> 00:02:26,089
+ 
+
+
+00:02:26,089 --> 00:02:28,850
+ 
+ 
+
+00:02:28,850 --> 00:02:31,910
+ 
+ 
+
+00:02:31,910 --> 00:02:31,920
+ 
+ 
+
+00:02:31,920 --> 00:02:33,050
+ 
+
+
+00:02:33,050 --> 00:02:33,060
+ 
+ 
+
+00:02:33,060 --> 00:02:33,770
+ 
+
+
+00:02:33,770 --> 00:02:41,449
+ 
+ 
+
+00:02:41,449 --> 00:02:43,850
+ 
+ 
+
+00:02:43,850 --> 00:02:43,860
+ 
+ 
+
+00:02:43,860 --> 00:02:44,869
+ 
+
+
+00:02:44,869 --> 00:02:46,910
+ 
+ 
+
+00:02:46,910 --> 00:02:48,650
+ 
+ 
+
+00:02:48,650 --> 00:02:50,690
+ 
+ 
+
+00:02:50,690 --> 00:02:50,700
+ 
+ 
+
+00:02:50,700 --> 00:02:53,030
+ 
+
+
+00:02:53,030 --> 00:02:55,490
+ 
+ 
+
+00:02:55,490 --> 00:02:57,589
+ 
+ 
+
+00:02:57,589 --> 00:03:00,290
+ 
+ 
+
+00:03:00,290 --> 00:03:02,030
+ 
+ 
+
+00:03:02,030 --> 00:03:03,650
+ 
+ 
+
+00:03:03,650 --> 00:03:05,570
+ 
+ 
+
+00:03:05,570 --> 00:03:07,670
+ 
+ 
+
+00:03:07,670 --> 00:03:09,890
+ 
+ 
+
+00:03:09,890 --> 00:03:11,570
+ 
+ 
+
+00:03:11,570 --> 00:03:13,850
+ 
+ 
+
+00:03:13,850 --> 00:03:15,890
+ 
+ 
+
+00:03:15,890 --> 00:03:17,930
+ 
+ 
+
+00:03:17,930 --> 00:03:19,490
+ 
+ 
+
+00:03:19,490 --> 00:03:20,990
+ 
+ 
+
+00:03:20,990 --> 00:03:22,790
+ 
+ 
+
+00:03:22,790 --> 00:03:24,410
+ 
+ 
+
+00:03:24,410 --> 00:03:26,210
+ 
+ 
+
+00:03:26,210 --> 00:03:28,729
+ 
+ 
+
+00:03:28,729 --> 00:03:32,649
+ 
+ 
+
+00:03:32,649 --> 00:03:36,589
+ 
+ 
+
+00:03:36,589 --> 00:03:39,530
+ 
+ 
+
+00:03:39,530 --> 00:03:41,930
+ 
+ 
+
+00:03:41,930 --> 00:03:43,009
+ 
+ 
+
+00:03:43,009 --> 00:03:44,630
+ 
+ 
+
+00:03:44,630 --> 00:03:47,210
+ 
+ 
+
+00:03:47,210 --> 00:03:48,949
+ 
+ 
+
+00:03:48,949 --> 00:03:51,949
+ 
+ 
+
+00:03:51,949 --> 00:03:54,830
+ 
+ 
+
+00:03:54,830 --> 00:03:57,289
+ 
+ 
+
+00:03:57,289 --> 00:03:59,390
+ 
+ 
+
+00:03:59,390 --> 00:04:00,890
+ 
+ 
+
+00:04:00,890 --> 00:04:00,900
+ 
+ 
+
+00:04:00,900 --> 00:04:02,089
+ 
+
+
+00:04:02,089 --> 00:04:06,229
+ 
+ 
+
+00:04:06,229 --> 00:04:08,630
+ 
+ 
+
+00:04:08,630 --> 00:04:10,910
+ 
+ 
+
+00:04:10,910 --> 00:04:10,920
+ 
+ 
+
+00:04:10,920 --> 00:04:12,170
+ 
+
+
+00:04:12,170 --> 00:04:13,610
+ 
+ 
+
+00:04:13,610 --> 00:04:17,449
+ 
+ 
+
+00:04:17,449 --> 00:04:19,069
+ 
+ 
+
+00:04:19,069 --> 00:04:21,530
+ 
+ 
+
+00:04:21,530 --> 00:04:23,870
+ 
+ 
+
+00:04:23,870 --> 00:04:25,790
+ 
+ 
+
+00:04:25,790 --> 00:04:27,010
+ 
+ 
+
+00:04:27,010 --> 00:04:30,170
+ 
+ 
+
+00:04:30,170 --> 00:04:32,510
+ 
+ 
+
+00:04:32,510 --> 00:04:34,550
+ 
+ 
+
+00:04:34,550 --> 00:04:36,170
+ 
+ 
+
+00:04:36,170 --> 00:04:38,570
+ 
+ 
+
+00:04:38,570 --> 00:04:40,670
+ 
+ 
+
+00:04:40,670 --> 00:04:42,950
+ 
+ 
+
+00:04:42,950 --> 00:04:46,249
+ 
+ 
+
+00:04:46,249 --> 00:04:47,990
+ 
+ 
+
+00:04:47,990 --> 00:04:52,010
+ 
+ 
+
+00:04:52,010 --> 00:04:54,050
+ 
+ 
+
+00:04:54,050 --> 00:04:56,150
+ 
+ 
+
+00:04:56,150 --> 00:04:58,610
+ 
+ 
+
+00:04:58,610 --> 00:05:01,189
+ 
+ 
+
+00:05:01,189 --> 00:05:01,199
+ 
+ 
+
+00:05:01,199 --> 00:05:02,330
+ 
+
+
+00:05:02,330 --> 00:05:06,770
+ 
+ 
+
+00:05:06,770 --> 00:05:10,550
+ 
+ 
+
+00:05:10,550 --> 00:05:13,189
+ 
+ 
+
+00:05:13,189 --> 00:05:15,770
+ 
+ 
+
+00:05:15,770 --> 00:05:18,230
+ 
+ 
+
+00:05:18,230 --> 00:05:20,749
+ 
+ 
+
+00:05:20,749 --> 00:05:22,969
+ 
+ 
+
+00:05:22,969 --> 00:05:25,430
+ 
+ 
+
+00:05:25,430 --> 00:05:26,870
+ 
+ 
+
+00:05:26,870 --> 00:05:28,249
+ 
+ 
+
+00:05:28,249 --> 00:05:29,930
+ 
+ 
+
+00:05:29,930 --> 00:05:32,990
+ 
+ 
+
+00:05:32,990 --> 00:05:33,000
+ 
+ 
+
+00:05:33,000 --> 00:05:35,390
+ 
+
+
+00:05:35,390 --> 00:05:35,400
+ 
+ 
+
+00:05:35,400 --> 00:05:36,170
+ 
+
+
+00:05:36,170 --> 00:05:39,529
+ 
+ 
+
+00:05:39,529 --> 00:05:40,969
+ 
+ 
+
+00:05:40,969 --> 00:05:42,710
+ 
+ 
+
+00:05:42,710 --> 00:05:45,290
+ 
+ 
+
+00:05:45,290 --> 00:05:47,710
+ 
+ 
+
+00:05:47,710 --> 00:05:50,210
+ 
+ 
+
+00:05:50,210 --> 00:05:52,370
+ 
+ 
+
+00:05:52,370 --> 00:05:55,490
+ 
+ 
+
+00:05:55,490 --> 00:05:58,490
+ 
+ 
+
+00:05:58,490 --> 00:06:02,210
+ 
+ 
+
+00:06:02,210 --> 00:06:04,749
+ 
+ 
+
+00:06:04,749 --> 00:06:07,129
+ 
+ 
+
+00:06:07,129 --> 00:06:09,050
+ 
+ 
+
+00:06:09,050 --> 00:06:11,570
+ 
+ 
+
+00:06:11,570 --> 00:06:12,950
+ 
+ 
+
+00:06:12,950 --> 00:06:17,450
+ 
+ 
+
+00:06:17,450 --> 00:06:20,990
+ 
+ 
+
+00:06:20,990 --> 00:06:23,950
+ 
+ 
+
+00:06:23,950 --> 00:06:26,570
+ 
+ 
+
+00:06:26,570 --> 00:06:29,330
+ 
+ 
+
+00:06:29,330 --> 00:06:32,749
+ 
+ 
+
+00:06:32,749 --> 00:06:34,550
+ 
+ 
+
+00:06:34,550 --> 00:06:35,990
+ 
+ 
+
+00:06:35,990 --> 00:06:38,210
+ 
+ 
+
+00:06:38,210 --> 00:06:39,710
+ 
+ 
+
+00:06:39,710 --> 00:06:41,689
+ 
+ 
+
+00:06:41,689 --> 00:06:44,990
+ 
+ 
+
+00:06:44,990 --> 00:06:48,350
+ 
+ 
+
+00:06:48,350 --> 00:06:52,189
+ 
+ 
+
+00:06:52,189 --> 00:06:53,510
+ 
+ 
+
+00:06:53,510 --> 00:06:56,749
+ 
+ 
+
+00:06:56,749 --> 00:06:59,090
+ 
+ 
+
+00:06:59,090 --> 00:07:02,809
+ 
+ 
+
+00:07:02,809 --> 00:07:05,749
+ 
+ 
+
+00:07:05,749 --> 00:07:09,050
+ 
+ 
+
+00:07:09,050 --> 00:07:10,730
+ 
+ 
+
+00:07:10,730 --> 00:07:12,350
+ 
+ 
+
+00:07:12,350 --> 00:07:15,050
+ 
+ 
+
+00:07:15,050 --> 00:07:16,909
+ 
+ 
+
+00:07:16,909 --> 00:07:19,189
+ 
+ 
+
+00:07:19,189 --> 00:07:21,230
+ 
+ 
+
+00:07:21,230 --> 00:07:22,790
+ 
+ 
+
+00:07:22,790 --> 00:07:24,409
+ 
+ 
+
+00:07:24,409 --> 00:07:27,589
+ 
+ 
+
+00:07:27,589 --> 00:07:30,170
+ 
+ 
+
+00:07:30,170 --> 00:07:31,850
+ 
+ 
+
+00:07:31,850 --> 00:07:34,490
+ 
+ 
+
+00:07:34,490 --> 00:07:36,890
+ 
+ 
+
+00:07:36,890 --> 00:07:36,900
+ 
+ 
+
+00:07:36,900 --> 00:07:38,629
+ 
+
+
+00:07:38,629 --> 00:07:40,490
+ 
+ 
+
+00:07:40,490 --> 00:07:44,210
+ 
+ 
+
+00:07:44,210 --> 00:07:47,150
+ 
+ 
+
+00:07:47,150 --> 00:07:49,370
+ 
+ 
+
+00:07:49,370 --> 00:07:51,890
+ 
+ 
+
+00:07:51,890 --> 00:07:55,249
+ 
+ 
+
+00:07:55,249 --> 00:07:56,990
+ 
+ 
+
+00:07:56,990 --> 00:07:58,969
+ 
+ 
+
+00:07:58,969 --> 00:07:58,979
+ 
+ 
+
+00:07:58,979 --> 00:08:00,170
+ 
+
+
+00:08:00,170 --> 00:08:02,629
+ 
+ 
+
+00:08:02,629 --> 00:08:04,670
+ 
+ 
+
+00:08:04,670 --> 00:08:08,809
+ 
+ 
+
+00:08:08,809 --> 00:08:10,850
+ 
+ 
+
+00:08:10,850 --> 00:08:13,129
+ 
+ 
+
+00:08:13,129 --> 00:08:16,010
+ 
+ 
+
+00:08:16,010 --> 00:08:18,830
+ 
+ 
+
+00:08:18,830 --> 00:08:20,570
+ 
+ 
+
+00:08:20,570 --> 00:08:22,430
+ 
+ 
+
+00:08:22,430 --> 00:08:22,440
+ 
+ 
+
+00:08:22,440 --> 00:08:23,749
+ 
+
+
+00:08:23,749 --> 00:08:26,089
+ 
+ 
+
+00:08:26,089 --> 00:08:29,809
+ 
+ 
+
+00:08:29,809 --> 00:08:32,630
+ 
+ 
+
+00:08:32,630 --> 00:08:32,640
+ 
+ 
+
+00:08:32,640 --> 00:08:33,409
+ 
+
+
+00:08:33,409 --> 00:08:33,419
+ 
+ 
+
+00:08:33,419 --> 00:08:36,250
+ 
+
+
+00:08:36,250 --> 00:08:39,589
+ 
+ 
+
+00:08:39,589 --> 00:08:41,630
+ 
+ 
+
+00:08:41,630 --> 00:08:43,850
+ 
+ 
+
+00:08:43,850 --> 00:08:45,710
+ 
+ 
+
+00:08:45,710 --> 00:08:48,650
+ 
+ 
+
+00:08:48,650 --> 00:08:50,350
+ 
+ 
+
+00:08:50,350 --> 00:08:53,150
+ 
+ 
+
+00:08:53,150 --> 00:08:55,490
+ 
+ 
+
+00:08:55,490 --> 00:08:57,050
+ 
+ 
+
+00:08:57,050 --> 00:08:59,990
+ 
+ 
+
+00:08:59,990 --> 00:09:01,970
+ 
+ 
+
+00:09:01,970 --> 00:09:04,910
+ 
+ 
+
+00:09:04,910 --> 00:09:07,070
+ 
+ 
+
+00:09:07,070 --> 00:09:09,530
+ 
+ 
+
+00:09:09,530 --> 00:09:10,970
+ 
+ 
+
+00:09:10,970 --> 00:09:14,509
+ 
+ 
+
+00:09:14,509 --> 00:09:17,690
+ 
+ 
+
+00:09:17,690 --> 00:09:20,810
+ 
+ 
+
+00:09:20,810 --> 00:09:23,630
+ 
+ 
+
+00:09:23,630 --> 00:09:27,710
+ 
+ 
+
+00:09:27,710 --> 00:09:29,810
+ 
+ 
+
+00:09:29,810 --> 00:09:32,030
+ 
+ 
+
+00:09:32,030 --> 00:09:34,310
+ 
+ 
+
+00:09:34,310 --> 00:09:36,050
+ 
+ 
+
+00:09:36,050 --> 00:09:38,509
+ 
+ 
+
+00:09:38,509 --> 00:09:41,930
+ 
+ 
+
+00:09:41,930 --> 00:09:41,940
+ 
+ 
+
+00:09:41,940 --> 00:09:43,190
+ 
+
+
+00:09:43,190 --> 00:09:50,530
+ 
+ 
+
+00:09:50,530 --> 00:09:50,540
+ 
+ 
+
+00:09:50,540 --> 00:09:52,190
+ 
+
+
+00:09:52,190 --> 00:09:52,200
+ 
+ 
+
+00:09:52,200 --> 00:09:55,430
+ 
+
+
+00:09:55,430 --> 00:09:58,730
+ 
+ 
+
+00:09:58,730 --> 00:10:01,250
+ 
+ 
+
+00:10:01,250 --> 00:10:01,260
+ 
+ 
+
+00:10:01,260 --> 00:10:02,110
+ 
+
+
+00:10:02,110 --> 00:10:04,790
+ 
+ 
+
+00:10:04,790 --> 00:10:07,910
+ 
+ 
+
+00:10:07,910 --> 00:10:07,920
+ 
+ 
+
+00:10:07,920 --> 00:10:09,889
+ 
+
+
+00:10:09,889 --> 00:10:11,509
+ 
+ 
+
+00:10:11,509 --> 00:10:15,350
+ 
+ 
+
+00:10:15,350 --> 00:10:17,329
+ 
+ 
+
+00:10:17,329 --> 00:10:19,009
+ 
+ 
+
+00:10:19,009 --> 00:10:19,019
+ 
+ 
+
+00:10:19,019 --> 00:10:19,730
+ 
+
+
+00:10:19,730 --> 00:10:22,009
+ 
+ 
+
+00:10:22,009 --> 00:10:22,019
+ 
+ 
+
+00:10:22,019 --> 00:10:23,090
+ 
+
+
+00:10:23,090 --> 00:10:25,930
+ 
+ 
+
+00:10:25,930 --> 00:10:29,269
+ 
+ 
+
+00:10:29,269 --> 00:10:31,670
+ 
+ 
+
+00:10:31,670 --> 00:10:32,930
+ 
+ 
+
+00:10:32,930 --> 00:10:35,329
+ 
+ 
+
+00:10:35,329 --> 00:10:37,190
+ 
+ 
+
+00:10:37,190 --> 00:10:39,829
+ 
+ 
+
+00:10:39,829 --> 00:10:41,509
+ 
+ 
+
+00:10:41,509 --> 00:10:43,490
+ 
+ 
+
+00:10:43,490 --> 00:10:43,500
+ 
+ 
+
+00:10:43,500 --> 00:10:44,509
+ 
+
+
+00:10:44,509 --> 00:10:48,530
+ 
+ 
+
+00:10:48,530 --> 00:10:48,540
+ 
+ 
+
+00:10:48,540 --> 00:10:51,110
+ 
+
+
+00:10:51,110 --> 00:10:54,949
+ 
+ 
+
+00:10:54,949 --> 00:10:57,829
+ 
+ 
+
+00:10:57,829 --> 00:11:01,069
+ 
+ 
+
+00:11:01,069 --> 00:11:02,509
+ 
+ 
+
+00:11:02,509 --> 00:11:04,310
+ 
+ 
+
+00:11:04,310 --> 00:11:04,320
+ 
+ 
+
+00:11:04,320 --> 00:11:05,750
+ 
+
+
+00:11:05,750 --> 00:11:08,449
+ 
+ 
+
+00:11:08,449 --> 00:11:10,009
+ 
+ 
+
+00:11:10,009 --> 00:11:11,990
+ 
+ 
+
+00:11:11,990 --> 00:11:14,690
+ 
+ 
+
+00:11:14,690 --> 00:11:16,389
+ 
+ 
+
+00:11:16,389 --> 00:11:19,009
+ 
+ 
+
+00:11:19,009 --> 00:11:21,230
+ 
+ 
+
+00:11:21,230 --> 00:11:22,970
+ 
+ 
+
+00:11:22,970 --> 00:11:24,769
+ 
+ 
+
+00:11:24,769 --> 00:11:29,569
+ 
+ 
+
+00:11:29,569 --> 00:11:31,550
+ 
+ 
+
+00:11:31,550 --> 00:11:34,130
+ 
+ 
+
+00:11:34,130 --> 00:11:37,190
+ 
+ 
+
+00:11:37,190 --> 00:11:39,290
+ 
+ 
+
+00:11:39,290 --> 00:11:41,630
+ 
+ 
+
+00:11:41,630 --> 00:11:43,790
+ 
+ 
+
+00:11:43,790 --> 00:11:44,990
+ 
+ 
+
+00:11:44,990 --> 00:11:45,000
+ 
+ 
+
+00:11:45,000 --> 00:11:46,250
+ 
+
+
+00:11:46,250 --> 00:11:48,230
+ 
+ 
+
+00:11:48,230 --> 00:11:51,170
+ 
+ 
+
+00:11:51,170 --> 00:11:53,329
+ 
+ 
+
+00:11:53,329 --> 00:11:54,829
+ 
+ 
+
+00:11:54,829 --> 00:11:56,750
+ 
+ 
+
+00:11:56,750 --> 00:11:58,790
+ 
+ 
+
+00:11:58,790 --> 00:12:00,650
+ 
+ 
+
+00:12:00,650 --> 00:12:02,750
+ 
+ 
+
+00:12:02,750 --> 00:12:05,030
+ 
+ 
+
+00:12:05,030 --> 00:12:07,910
+ 
+ 
+
+00:12:07,910 --> 00:12:10,670
+ 
+ 
+
+00:12:10,670 --> 00:12:13,850
+ 
+ 
+
+00:12:13,850 --> 00:12:16,610
+ 
+ 
+
+00:12:16,610 --> 00:12:16,620
+ 
+ 
+
+00:12:16,620 --> 00:12:17,870
+ 
+
+
+00:12:17,870 --> 00:12:21,170
+ 
+ 
+
+00:12:21,170 --> 00:12:21,180
+ 
+ 
+
+00:12:21,180 --> 00:12:22,550
+ 
+
+
+00:12:22,550 --> 00:12:24,290
+ 
+ 
+
+00:12:24,290 --> 00:12:26,030
+ 
+ 
+
+00:12:26,030 --> 00:12:28,250
+ 
+ 
+
+00:12:28,250 --> 00:12:30,530
+ 
+ 
+
+00:12:30,530 --> 00:12:32,210
+ 
+ 
+
+00:12:32,210 --> 00:12:34,430
+ 
+ 
+
+00:12:34,430 --> 00:12:35,569
+ 
+ 
+
+00:12:35,569 --> 00:12:37,250
+ 
+ 
+
+00:12:37,250 --> 00:12:40,490
+ 
+ 
+
+00:12:40,490 --> 00:12:40,500
+ 
+ 
+
+00:12:40,500 --> 00:12:41,630
+ 
+
+
+00:12:41,630 --> 00:12:43,490
+ 
+ 
+
+00:12:43,490 --> 00:12:45,050
+ 
+ 
+
+00:12:45,050 --> 00:12:46,069
+ 
+ 
+
+00:12:46,069 --> 00:12:49,970
+ 
+ 
+
+00:12:49,970 --> 00:12:51,530
+ 
+ 
+
+00:12:51,530 --> 00:12:51,540
+ 
+ 
+
+00:12:51,540 --> 00:12:52,610
+ 
+
+
+00:12:52,610 --> 00:12:55,370
+ 
+ 
+
+00:12:55,370 --> 00:12:57,710
+ 
+ 
+
+00:12:57,710 --> 00:12:59,690
+ 
+ 
+
+00:12:59,690 --> 00:12:59,700
+ 
+ 
+
+00:12:59,700 --> 00:13:00,530
+ 
+
+
+00:13:00,530 --> 00:13:03,170
+ 
+ 
+
+00:13:03,170 --> 00:13:04,970
+ 
+ 
+
+00:13:04,970 --> 00:13:09,110
+ 
+ 
+
+00:13:09,110 --> 00:13:11,329
+ 
+ 
+
+00:13:11,329 --> 00:13:15,170
+ 
+ 
+
+00:13:15,170 --> 00:13:17,569
+ 
+ 
+
+00:13:17,569 --> 00:13:20,269
+ 
+ 
+
+00:13:20,269 --> 00:13:21,710
+ 
+ 
+
+00:13:21,710 --> 00:13:24,230
+ 
+ 
+
+00:13:24,230 --> 00:13:26,210
+ 
+ 
+
+00:13:26,210 --> 00:13:27,889
+ 
+ 
+
+00:13:27,889 --> 00:13:30,230
+ 
+ 
+
+00:13:30,230 --> 00:13:33,290
+ 
+ 
+
+00:13:33,290 --> 00:13:33,300
+ 
+ 
+
+00:13:33,300 --> 00:13:34,610
+ 
+
+
+00:13:34,610 --> 00:13:40,670
+ 
+ 
+
+00:13:40,670 --> 00:13:43,910
+ 
+ 
+
+00:13:43,910 --> 00:13:46,670
+ 
+ 
+
+00:13:46,670 --> 00:13:48,410
+ 
+ 
+
+00:13:48,410 --> 00:13:51,410
+ 
+ 
+
+00:13:51,410 --> 00:13:51,420
+ 
+ 
+
+00:13:51,420 --> 00:13:53,110
+ 
+
+
+00:13:53,110 --> 00:13:57,949
+ 
+ 
+
+00:13:57,949 --> 00:13:59,870
+ 
+ 
+
+00:13:59,870 --> 00:14:02,629
+ 
+ 
+
+00:14:02,629 --> 00:14:05,150
+ 
+ 
+
+00:14:05,150 --> 00:14:06,710
+ 
+ 
+
+00:14:06,710 --> 00:14:06,720
+ 
+ 
+
+00:14:06,720 --> 00:14:09,170
+ 
+
+
+00:14:09,170 --> 00:14:11,210
+ 
+ 
+
+00:14:11,210 --> 00:14:11,220
+ 
+ 
+
+00:14:11,220 --> 00:14:12,170
+ 
+
+
+00:14:12,170 --> 00:14:17,090
+ 
+ 
+
+00:14:17,090 --> 00:14:20,810
+ 
+ 
+
+00:14:20,810 --> 00:14:20,820
+ 
+ 
+
+00:14:20,820 --> 00:14:22,850
+ 
+
+
+00:14:22,850 --> 00:14:25,430
+ 
+ 
+
+00:14:25,430 --> 00:14:28,310
+ 
+ 
+
+00:14:28,310 --> 00:14:30,889
+ 
+ 
+
+00:14:30,889 --> 00:14:33,530
+ 
+ 
+
+00:14:33,530 --> 00:14:35,810
+ 
+ 
+
+00:14:35,810 --> 00:14:37,430
+ 
+ 
+
+00:14:37,430 --> 00:14:40,009
+ 
+ 
+
+00:14:40,009 --> 00:14:43,550
+ 
+ 
+
+00:14:43,550 --> 00:14:46,550
+ 
+ 
+
+00:14:46,550 --> 00:14:48,949
+ 
+ 
+
+00:14:48,949 --> 00:14:48,959
+ 
+ 
+
+00:14:48,959 --> 00:14:51,110
+ 
+
+
+00:14:51,110 --> 00:14:54,350
+ 
+ 
+
+00:14:54,350 --> 00:14:57,590
+ 
+ 
+
+00:14:57,590 --> 00:14:59,269
+ 
+ 
+
+00:14:59,269 --> 00:15:00,829
+ 
+ 
+
+00:15:00,829 --> 00:15:05,750
+ 
+ 
+
+00:15:05,750 --> 00:15:05,760
+ 
+ 
+
+00:15:05,760 --> 00:15:10,569
+ 
+
+
+00:15:10,569 --> 00:15:12,949
+ 
+ 
+
+00:15:12,949 --> 00:15:14,870
+ 
+ 
+
+00:15:14,870 --> 00:15:18,889
+ 
+ 
+
+00:15:18,889 --> 00:15:18,899
+ 
+ 
+
+00:15:18,899 --> 00:15:21,710
+ 
+
+
+00:15:21,710 --> 00:15:25,430
+ 
+ 
+
+00:15:25,430 --> 00:15:29,930
+ 
+ 
+
+00:15:29,930 --> 00:15:31,850
+ 
+ 
+
+00:15:31,850 --> 00:15:37,009
+ 
+ 
+
+00:15:37,009 --> 00:15:40,129
+ 
+ 
+
+00:15:40,129 --> 00:15:42,350
+ 
+ 
+
+00:15:42,350 --> 00:15:45,290
+ 
+ 
+
+00:15:45,290 --> 00:15:45,300
+ 
+ 
+
+00:15:45,300 --> 00:15:47,689
+ 
+
+
+00:15:47,689 --> 00:15:53,269
+ 
+ 
+
+00:15:53,269 --> 00:15:53,279
+ 
+ 
+
+00:15:53,279 --> 00:15:54,530
+ 
+
+
+00:15:54,530 --> 00:15:57,949
+ 
+ 
+
+00:15:57,949 --> 00:16:00,769
+ 
+ 
+
+00:16:00,769 --> 00:16:02,930
+ 
+ 
+
+00:16:02,930 --> 00:16:13,030
+ 
+ 
+
+00:16:13,030 --> 00:16:16,009
+ 
+ 
+
+00:16:16,009 --> 00:16:19,069
+ 
+ 
+
+00:16:19,069 --> 00:16:27,110
+ 
+ 
+
+00:16:27,110 --> 00:16:31,850
+ 
+ 
+
+00:16:31,850 --> 00:16:35,090
+ 
+ 
+
+00:16:35,090 --> 00:16:38,389
+ 
+ 
+
+00:16:38,389 --> 00:16:43,850
+ 
+ 
+
+00:16:43,850 --> 00:16:47,629
+ 
+ 
+
+00:16:47,629 --> 00:16:49,970
+ 
+ 
+
+00:16:49,970 --> 00:16:52,009
+ 
+ 
+
+00:16:52,009 --> 00:16:52,019
+ 
+ 
+
+00:16:52,019 --> 00:16:52,970
+ 
+
+
+00:16:52,970 --> 00:16:55,069
+ 
+ 
+
+00:16:55,069 --> 00:16:57,769
+ 
+ 
+
+00:16:57,769 --> 00:17:00,230
+ 
+ 
+
+00:17:00,230 --> 00:17:03,170
+ 
+ 
+
+00:17:03,170 --> 00:17:05,809
+ 
+ 
+
+00:17:05,809 --> 00:17:08,390
+ 
+ 
+
+00:17:08,390 --> 00:17:10,250
+ 
+ 
+
+00:17:10,250 --> 00:17:12,350
+ 
+ 
+
+00:17:12,350 --> 00:17:16,490
+ 
+ 
+
+00:17:16,490 --> 00:17:19,370
+ 
+ 
+
+00:17:19,370 --> 00:17:21,230
+ 
+ 
+
+00:17:21,230 --> 00:17:24,169
+ 
+ 
+
+00:17:24,169 --> 00:17:28,130
+ 
+ 
+
+00:17:28,130 --> 00:17:30,770
+ 
+ 
+
+00:17:30,770 --> 00:17:34,430
+ 
+ 
+
+00:17:34,430 --> 00:17:36,710
+ 
+ 
+
+00:17:36,710 --> 00:17:38,450
+ 
+ 
+
+00:17:38,450 --> 00:17:40,669
+ 
+ 
+
+00:17:40,669 --> 00:17:46,010
+ 
+ 
+
+00:17:46,010 --> 00:17:46,020
+ 
+ 
+
+00:17:46,020 --> 00:17:48,710
+ 
+
+
+00:17:48,710 --> 00:17:50,450
+ 
+ 
+
+00:17:50,450 --> 00:17:59,090
+ 
+ 
+
+00:17:59,090 --> 00:18:01,850
+ 
+ 
+
+00:18:01,850 --> 00:18:01,860
+ 
+ 
+
+00:18:01,860 --> 00:18:02,830
+ 
+
+
+00:18:02,830 --> 00:18:06,890
+ 
+ 
+
+00:18:06,890 --> 00:18:06,900
+ 
+ 
+
+00:18:06,900 --> 00:18:08,570
+ 
+
+
+00:18:08,570 --> 00:18:11,390
+ 
+ 
+
+00:18:11,390 --> 00:18:13,669
+ 
+ 
+
+00:18:13,669 --> 00:18:13,679
+ 
+ 
+
+00:18:13,679 --> 00:18:18,590
+ 
+
+
+00:18:18,590 --> 00:18:18,600
+ 
+ 
+
+00:18:18,600 --> 00:18:20,210
+ 
+
+
+00:18:20,210 --> 00:18:20,220
+ 
+ 
+
+00:18:20,220 --> 00:18:26,029
+ 
+
+
+00:18:26,029 --> 00:18:26,039
+ 
+ 
+
+00:18:26,039 --> 00:18:35,690
+ 
+
+
+00:18:35,690 --> 00:18:38,450
+ 
+ 
+
+00:18:38,450 --> 00:18:40,610
+ 
+ 
+
+00:18:40,610 --> 00:18:42,830
+ 
+ 
+
+00:18:42,830 --> 00:18:45,350
+ 
+ 
+
+00:18:45,350 --> 00:18:47,390
+ 
+ 
+
+00:18:47,390 --> 00:18:49,070
+ 
+ 
+
+00:18:49,070 --> 00:18:49,080
+ 
+ 
+
+00:18:49,080 --> 00:18:50,270
+ 
+
+
+00:18:50,270 --> 00:18:52,610
+ 
+ 
+
+00:18:52,610 --> 00:18:55,010
+ 
+ 
+
+00:18:55,010 --> 00:18:58,370
+ 
+ 
+
+00:18:58,370 --> 00:19:01,970
+ 
+ 
+
+00:19:01,970 --> 00:19:03,890
+ 
+ 
+
+00:19:03,890 --> 00:19:05,090
+ 
+ 
+
+00:19:05,090 --> 00:19:07,909
+ 
+ 
+
+00:19:07,909 --> 00:19:09,590
+ 
+ 
+
+00:19:09,590 --> 00:19:11,450
+ 
+ 
+
+00:19:11,450 --> 00:19:14,600
+ 
+ 
+

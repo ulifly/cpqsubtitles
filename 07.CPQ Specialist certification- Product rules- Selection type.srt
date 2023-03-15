@@ -1,0 +1,917 @@
+
+00:00:00,480 --> 00:00:02,389
+ 
+good everyone i hope you guys have an  amazing day um so today i'm going to  talk about selection rules like in the  previous uh episode i talked about the  alert types right so today i will be  talking about the selection one  now you must be wondering okay we got  violation rules in place we got alert  rules in place now why do we need a  selection rules right um so with the  selection rules you can adjust the  product options in a bundle so for  instance right uh you separate i'll just  give you an example that will make it  very clear right so i got this code  right existing code so i'm gonna add a  desktop computer  uh as a product bundle so i'll go to  edit lines  now  let's go to  say  i choose this desktop computer  and  i will select this right  now  so for instance  uh i'm using this uh in this  bundle right if i wanted to  use the cpq right sorry no the cpu  uh 28 gigahertz right uh then i would be  able to select all of this quantity all  of this storage right i could select you  know  the hardest four terabyte i could select  ssd i could select you know nvm  or optic drive now  imagine if you have a scenario where if  you select this right  uh then you shouldn't be able to select  this one  right  so that's where the selection rule comes  in picture i'll show you an example so  for instance i i select this one right  this processor  and  i was able to select this one right  which is fantastic now for some reason i  have a change of mind and i decided to  select this  and i decide to apply the rules  now you see what happens  now you can see this is disabled right i  i can no longer select it so that's  where  you know the selection rules comes in  picture the selection rules have  different times you have to remove you  have enabled you have disabled you have  enable and add disable and remove show  hide shown add remove and hide right a  lot of options i'll show you how to  configure it okay the first thing first  you need to have a product rule in place  so i'll go to product rule so i've  configured it so i'm just going to walk  you through how it's all done so i've  got a computer that's the name of the  product rule i could have named it  better that's all right so i've selected  the type to selection right and rest is  pretty much the same what we have  discussed for other  uh types right alert and validation  um now as usual you know we need to have  an error condition defined so  i've already defined that  so the error condition is  if  uh the sum of processor and which is the  summary variable let me go to the  summary variable  so what i've said if the sum of this  processor right cpu if it's greater than  one right obviously greater  greater than zero uh  then  you should kick in that uh product  action so that's pretty much it so it  will trigger error condition if your  product bundle contains  uh the specific  uh cpu uh whose quantity is greater than  zero  right i hope that's explained okay so  once that's done right now  all you have to do uh you got to go to  error condition sorry action so you can  go to new and do that so  i'll do it here  and  you select the the type which is  different types  now add  you will add a specified option remove  it dislikes the specify option you will  be able to  deselect it and enable um so if an  option is disabled so that actual uh  action will enable it  then you will have disable uh so disable  an option so user can't select it  uh enable and  uh enable an option and select it  disable and remove  uh deselect an option  uh deselect an option and disable it so  that's one of the option i've  demonstrated right where i've been able  to select  the hard drive right of something called  nvm and then when i  uh  changed the cpu configuration so i was  able to it got deselected right so  that's  the option and then you have show which  show and hit an option then you have  hide  which prevents an option from showing  show and add show the option selected  remove  so hide and remove um yeah just select  an option and yeah so  okay  so  uh once you do that you need to select a  product which you wanted to you know  so uh  to in this case disable and remove so  i've selected this right so what that  means is that if  if your product rule hits the error  condition right where  uh the sum of the specific cpu is  greater than  sum of quantities of the specific cpu is  greater than zero then it will disable  and remove this uh  hard disk  right so that's pretty much it uh you  can add the filter condition but i'm not  gonna do that this is  pretty much all to it so that's all  you know when it comes to uh the  selection rule you can add other you can  play with you know different ones like i  said you can you can try to add  um you can try to remove it you can try  to you know enable an ad you can play  with different options um and another  thing is  you do need to have a configuration  option configuration rule which is  pretty much the same like discussed in  the previous episode uh you select the  product rule and you select a product  that's pretty much it  so that's pretty much all i wanted to  talk about in today's episode is pretty  simple  uh but i will highly encourage you to go  through the documentation and you know  have a play around  uh you know cpq is a boss topic but you  know you should be  proactive to you know do different  things uh like i said right like i  always say a former study group right  work with the mate and you know come up  with a scenario it's fun when you come  up with a scenario and try to solve a  business problem right that's where you  know you  learn things right it's it's okay i mean  you you're watching my videos here i i  hope i'm adding some value but in saying  that  i would highly encourage you to you know  join a user group or you know form a  study group and that's the best way guys  you can learn it so in saying that  um  i really hope you enjoy cpk because cpu  is an amazing product i really love cpu  it's it's one of the best um  component or  the product on sales for space i would  say i mean i really enjoy working with  cpu i've done cpk before and you know i  can do cpq alone on salesforce  space you know for years to come so  you know i would say that cpq and  velocity these are the two things which  is pretty exciting right all right sorry  i digress so i hope you guys have an  amazing uh evening adios
+
+00:00:02,389 --> 00:00:04,230
+good everyone i hope you guys have an  amazing day um so today i'm going to  talk about selection rules like in the  previous uh episode i talked about the  alert types right so today i will be  talking about the selection one  now you must be wondering okay we got  violation rules in place we got alert  rules in place now why do we need a  selection rules right um so with the  selection rules you can adjust the  product options in a bundle so for  instance right uh you separate i'll just  give you an example that will make it  very clear right so i got this code  right existing code so i'm gonna add a  desktop computer  uh as a product bundle so i'll go to  edit lines  now  let's go to  say  i choose this desktop computer  and  i will select this right  now  so for instance  uh i'm using this uh in this  bundle right if i wanted to  use the cpq right sorry no the cpu  uh 28 gigahertz right uh then i would be  able to select all of this quantity all  of this storage right i could select you  know  the hardest four terabyte i could select  ssd i could select you know nvm  or optic drive now  imagine if you have a scenario where if  you select this right  uh then you shouldn't be able to select  this one  right  so that's where the selection rule comes  in picture i'll show you an example so  for instance i i select this one right  this processor  and  i was able to select this one right  which is fantastic now for some reason i  have a change of mind and i decided to  select this  and i decide to apply the rules  now you see what happens  now you can see this is disabled right i  i can no longer select it so that's  where  you know the selection rules comes in  picture the selection rules have  different times you have to remove you  have enabled you have disabled you have  enable and add disable and remove show  hide shown add remove and hide right a  lot of options i'll show you how to  configure it okay the first thing first  you need to have a product rule in place  so i'll go to product rule so i've  configured it so i'm just going to walk  you through how it's all done so i've  got a computer that's the name of the  product rule i could have named it  better that's all right so i've selected  the type to selection right and rest is  pretty much the same what we have  discussed for other  uh types right alert and validation  um now as usual you know we need to have  an error condition defined so  i've already defined that  so the error condition is  if  uh the sum of processor and which is the  summary variable let me go to the  summary variable  so what i've said if the sum of this  processor right cpu if it's greater than  one right obviously greater  greater than zero uh  then  you should kick in that uh product  action so that's pretty much it so it  will trigger error condition if your  product bundle contains  uh the specific  uh cpu uh whose quantity is greater than  zero  right i hope that's explained okay so  once that's done right now  all you have to do uh you got to go to  error condition sorry action so you can  go to new and do that so  i'll do it here  and  you select the the type which is  different types  now add  you will add a specified option remove  it dislikes the specify option you will  be able to  deselect it and enable um so if an  option is disabled so that actual uh  action will enable it  then you will have disable uh so disable  an option so user can't select it  uh enable and  uh enable an option and select it  disable and remove  uh deselect an option  uh deselect an option and disable it so  that's one of the option i've  demonstrated right where i've been able  to select  the hard drive right of something called  nvm and then when i  uh  changed the cpu configuration so i was  able to it got deselected right so  that's  the option and then you have show which  show and hit an option then you have  hide  which prevents an option from showing  show and add show the option selected  remove  so hide and remove um yeah just select  an option and yeah so  okay  so  uh once you do that you need to select a  product which you wanted to you know  so uh  to in this case disable and remove so  i've selected this right so what that  means is that if  if your product rule hits the error  condition right where  uh the sum of the specific cpu is  greater than  sum of quantities of the specific cpu is  greater than zero then it will disable  and remove this uh  hard disk  right so that's pretty much it uh you  can add the filter condition but i'm not  gonna do that this is  pretty much all to it so that's all  you know when it comes to uh the  selection rule you can add other you can  play with you know different ones like i  said you can you can try to add  um you can try to remove it you can try  to you know enable an ad you can play  with different options um and another  thing is  you do need to have a configuration  option configuration rule which is  pretty much the same like discussed in  the previous episode uh you select the  product rule and you select a product  that's pretty much it  so that's pretty much all i wanted to  talk about in today's episode is pretty  simple  uh but i will highly encourage you to go  through the documentation and you know  have a play around  uh you know cpq is a boss topic but you  know you should be  proactive to you know do different  things uh like i said right like i  always say a former study group right  work with the mate and you know come up  with a scenario it's fun when you come  up with a scenario and try to solve a  business problem right that's where you  know you  learn things right it's it's okay i mean  you you're watching my videos here i i  hope i'm adding some value but in saying  that  i would highly encourage you to you know  join a user group or you know form a  study group and that's the best way guys  you can learn it so in saying that  um  i really hope you enjoy cpk because cpu  is an amazing product i really love cpu  it's it's one of the best um  component or  the product on sales for space i would  say i mean i really enjoy working with  cpu i've done cpk before and you know i  can do cpq alone on salesforce  space you know for years to come so  you know i would say that cpq and  velocity these are the two things which  is pretty exciting right all right sorry  i digress so i hope you guys have an  amazing uh evening adios
+ 
+
+00:00:04,230 --> 00:00:06,150
+ 
+ 
+
+00:00:06,150 --> 00:00:08,470
+ 
+ 
+
+00:00:08,470 --> 00:00:10,230
+ 
+ 
+
+00:00:10,230 --> 00:00:12,230
+ 
+ 
+
+00:00:12,230 --> 00:00:14,549
+ 
+ 
+
+00:00:14,549 --> 00:00:17,189
+ 
+ 
+
+00:00:17,189 --> 00:00:18,710
+ 
+ 
+
+00:00:18,710 --> 00:00:21,109
+ 
+ 
+
+00:00:21,109 --> 00:00:23,590
+ 
+ 
+
+00:00:23,590 --> 00:00:25,509
+ 
+ 
+
+00:00:25,509 --> 00:00:28,470
+ 
+ 
+
+00:00:28,470 --> 00:00:30,550
+ 
+ 
+
+00:00:30,550 --> 00:00:32,950
+ 
+ 
+
+00:00:32,950 --> 00:00:34,870
+ 
+ 
+
+00:00:34,870 --> 00:00:36,389
+ 
+ 
+
+00:00:36,389 --> 00:00:38,790
+ 
+ 
+
+00:00:38,790 --> 00:00:41,510
+ 
+ 
+
+00:00:41,510 --> 00:00:41,520
+ 
+ 
+
+00:00:41,520 --> 00:00:44,630
+ 
+
+
+00:00:44,630 --> 00:00:47,750
+ 
+ 
+
+00:00:47,750 --> 00:00:47,760
+ 
+ 
+
+00:00:47,760 --> 00:00:49,270
+ 
+
+
+00:00:49,270 --> 00:00:52,389
+ 
+ 
+
+00:00:52,389 --> 00:00:52,399
+ 
+ 
+
+00:00:52,399 --> 00:00:53,590
+ 
+
+
+00:00:53,590 --> 00:00:55,750
+ 
+ 
+
+00:00:55,750 --> 00:00:55,760
+ 
+ 
+
+00:00:55,760 --> 00:00:57,270
+ 
+
+
+00:00:57,270 --> 00:00:58,470
+ 
+ 
+
+00:00:58,470 --> 00:01:01,189
+ 
+ 
+
+00:01:01,189 --> 00:01:03,349
+ 
+ 
+
+00:01:03,349 --> 00:01:07,670
+ 
+ 
+
+00:01:07,670 --> 00:01:12,149
+ 
+ 
+
+00:01:12,149 --> 00:01:14,710
+ 
+ 
+
+00:01:14,710 --> 00:01:17,030
+ 
+ 
+
+00:01:17,030 --> 00:01:17,040
+ 
+ 
+
+00:01:17,040 --> 00:01:19,030
+ 
+
+
+00:01:19,030 --> 00:01:21,830
+ 
+ 
+
+00:01:21,830 --> 00:01:24,550
+ 
+ 
+
+00:01:24,550 --> 00:01:26,950
+ 
+ 
+
+00:01:26,950 --> 00:01:28,870
+ 
+ 
+
+00:01:28,870 --> 00:01:31,109
+ 
+ 
+
+00:01:31,109 --> 00:01:33,749
+ 
+ 
+
+00:01:33,749 --> 00:01:35,350
+ 
+ 
+
+00:01:35,350 --> 00:01:35,360
+ 
+ 
+
+00:01:35,360 --> 00:01:36,710
+ 
+
+
+00:01:36,710 --> 00:01:38,469
+ 
+ 
+
+00:01:38,469 --> 00:01:40,310
+ 
+ 
+
+00:01:40,310 --> 00:01:43,030
+ 
+ 
+
+00:01:43,030 --> 00:01:44,469
+ 
+ 
+
+00:01:44,469 --> 00:01:44,479
+ 
+ 
+
+00:01:44,479 --> 00:01:45,590
+ 
+
+
+00:01:45,590 --> 00:01:47,990
+ 
+ 
+
+00:01:47,990 --> 00:01:50,469
+ 
+ 
+
+00:01:50,469 --> 00:01:52,389
+ 
+ 
+
+00:01:52,389 --> 00:01:53,510
+ 
+ 
+
+00:01:53,510 --> 00:01:55,910
+ 
+ 
+
+00:01:55,910 --> 00:01:59,109
+ 
+ 
+
+00:01:59,109 --> 00:02:01,670
+ 
+ 
+
+00:02:01,670 --> 00:02:04,149
+ 
+ 
+
+00:02:04,149 --> 00:02:04,159
+ 
+ 
+
+00:02:04,159 --> 00:02:04,950
+ 
+
+
+00:02:04,950 --> 00:02:06,389
+ 
+ 
+
+00:02:06,389 --> 00:02:08,229
+ 
+ 
+
+00:02:08,229 --> 00:02:09,910
+ 
+ 
+
+00:02:09,910 --> 00:02:12,390
+ 
+ 
+
+00:02:12,390 --> 00:02:14,790
+ 
+ 
+
+00:02:14,790 --> 00:02:17,430
+ 
+ 
+
+00:02:17,430 --> 00:02:19,270
+ 
+ 
+
+00:02:19,270 --> 00:02:21,270
+ 
+ 
+
+00:02:21,270 --> 00:02:23,190
+ 
+ 
+
+00:02:23,190 --> 00:02:25,270
+ 
+ 
+
+00:02:25,270 --> 00:02:26,790
+ 
+ 
+
+00:02:26,790 --> 00:02:29,510
+ 
+ 
+
+00:02:29,510 --> 00:02:31,190
+ 
+ 
+
+00:02:31,190 --> 00:02:32,550
+ 
+ 
+
+00:02:32,550 --> 00:02:35,030
+ 
+ 
+
+00:02:35,030 --> 00:02:38,390
+ 
+ 
+
+00:02:38,390 --> 00:02:39,910
+ 
+ 
+
+00:02:39,910 --> 00:02:41,830
+ 
+ 
+
+00:02:41,830 --> 00:02:45,030
+ 
+ 
+
+00:02:45,030 --> 00:02:47,270
+ 
+ 
+
+00:02:47,270 --> 00:02:49,589
+ 
+ 
+
+00:02:49,589 --> 00:02:51,910
+ 
+ 
+
+00:02:51,910 --> 00:02:53,830
+ 
+ 
+
+00:02:53,830 --> 00:02:53,840
+ 
+ 
+
+00:02:53,840 --> 00:02:54,869
+ 
+
+
+00:02:54,869 --> 00:02:57,350
+ 
+ 
+
+00:02:57,350 --> 00:02:59,190
+ 
+ 
+
+00:02:59,190 --> 00:03:00,470
+ 
+ 
+
+00:03:00,470 --> 00:03:03,589
+ 
+ 
+
+00:03:03,589 --> 00:03:06,949
+ 
+ 
+
+00:03:06,949 --> 00:03:09,270
+ 
+ 
+
+00:03:09,270 --> 00:03:11,830
+ 
+ 
+
+00:03:11,830 --> 00:03:11,840
+ 
+ 
+
+00:03:11,840 --> 00:03:12,630
+ 
+
+
+00:03:12,630 --> 00:03:14,869
+ 
+ 
+
+00:03:14,869 --> 00:03:17,190
+ 
+ 
+
+00:03:17,190 --> 00:03:19,110
+ 
+ 
+
+00:03:19,110 --> 00:03:21,190
+ 
+ 
+
+00:03:21,190 --> 00:03:23,030
+ 
+ 
+
+00:03:23,030 --> 00:03:25,990
+ 
+ 
+
+00:03:25,990 --> 00:03:26,000
+ 
+ 
+
+00:03:26,000 --> 00:03:26,869
+ 
+
+
+00:03:26,869 --> 00:03:30,070
+ 
+ 
+
+00:03:30,070 --> 00:03:33,030
+ 
+ 
+
+00:03:33,030 --> 00:03:35,430
+ 
+ 
+
+00:03:35,430 --> 00:03:38,070
+ 
+ 
+
+00:03:38,070 --> 00:03:40,229
+ 
+ 
+
+00:03:40,229 --> 00:03:41,910
+ 
+ 
+
+00:03:41,910 --> 00:03:41,920
+ 
+ 
+
+00:03:41,920 --> 00:03:43,750
+ 
+
+
+00:03:43,750 --> 00:03:47,030
+ 
+ 
+
+00:03:47,030 --> 00:03:48,710
+ 
+ 
+
+00:03:48,710 --> 00:03:50,949
+ 
+ 
+
+00:03:50,949 --> 00:03:53,509
+ 
+ 
+
+00:03:53,509 --> 00:03:55,990
+ 
+ 
+
+00:03:55,990 --> 00:03:57,350
+ 
+ 
+
+00:03:57,350 --> 00:04:00,789
+ 
+ 
+
+00:04:00,789 --> 00:04:03,589
+ 
+ 
+
+00:04:03,589 --> 00:04:06,229
+ 
+ 
+
+00:04:06,229 --> 00:04:09,270
+ 
+ 
+
+00:04:09,270 --> 00:04:11,670
+ 
+ 
+
+00:04:11,670 --> 00:04:13,750
+ 
+ 
+
+00:04:13,750 --> 00:04:15,509
+ 
+ 
+
+00:04:15,509 --> 00:04:17,189
+ 
+ 
+
+00:04:17,189 --> 00:04:19,270
+ 
+ 
+
+00:04:19,270 --> 00:04:21,189
+ 
+ 
+
+00:04:21,189 --> 00:04:22,550
+ 
+ 
+
+00:04:22,550 --> 00:04:24,230
+ 
+ 
+
+00:04:24,230 --> 00:04:27,110
+ 
+ 
+
+00:04:27,110 --> 00:04:29,270
+ 
+ 
+
+00:04:29,270 --> 00:04:31,749
+ 
+ 
+
+00:04:31,749 --> 00:04:31,759
+ 
+ 
+
+00:04:31,759 --> 00:04:33,030
+ 
+
+
+00:04:33,030 --> 00:04:35,909
+ 
+ 
+
+00:04:35,909 --> 00:04:38,710
+ 
+ 
+
+00:04:38,710 --> 00:04:38,720
+ 
+ 
+
+00:04:38,720 --> 00:04:39,590
+ 
+
+
+00:04:39,590 --> 00:04:42,150
+ 
+ 
+
+00:04:42,150 --> 00:04:43,990
+ 
+ 
+
+00:04:43,990 --> 00:04:44,000
+ 
+ 
+
+00:04:44,000 --> 00:04:45,189
+ 
+
+
+00:04:45,189 --> 00:04:48,469
+ 
+ 
+
+00:04:48,469 --> 00:04:51,350
+ 
+ 
+
+00:04:51,350 --> 00:04:51,360
+ 
+ 
+
+00:04:51,360 --> 00:04:53,909
+ 
+
+
+00:04:53,909 --> 00:04:57,670
+ 
+ 
+
+00:04:57,670 --> 00:05:01,189
+ 
+ 
+
+00:05:01,189 --> 00:05:01,199
+ 
+ 
+
+00:05:01,199 --> 00:05:02,469
+ 
+
+
+00:05:02,469 --> 00:05:02,479
+ 
+ 
+
+00:05:02,479 --> 00:05:03,510
+ 
+
+
+00:05:03,510 --> 00:05:05,830
+ 
+ 
+
+00:05:05,830 --> 00:05:08,950
+ 
+ 
+
+00:05:08,950 --> 00:05:10,710
+ 
+ 
+
+00:05:10,710 --> 00:05:12,790
+ 
+ 
+
+00:05:12,790 --> 00:05:15,670
+ 
+ 
+
+00:05:15,670 --> 00:05:17,430
+ 
+ 
+
+00:05:17,430 --> 00:05:18,870
+ 
+ 
+
+00:05:18,870 --> 00:05:20,629
+ 
+ 
+
+00:05:20,629 --> 00:05:23,510
+ 
+ 
+
+00:05:23,510 --> 00:05:24,390
+ 
+ 
+
+00:05:24,390 --> 00:05:26,230
+ 
+ 
+
+00:05:26,230 --> 00:05:28,469
+ 
+ 
+
+00:05:28,469 --> 00:05:31,110
+ 
+ 
+
+00:05:31,110 --> 00:05:32,390
+ 
+ 
+
+00:05:32,390 --> 00:05:34,710
+ 
+ 
+
+00:05:34,710 --> 00:05:36,310
+ 
+ 
+
+00:05:36,310 --> 00:05:37,909
+ 
+ 
+
+00:05:37,909 --> 00:05:41,510
+ 
+ 
+
+00:05:41,510 --> 00:05:43,430
+ 
+ 
+
+00:05:43,430 --> 00:05:45,510
+ 
+ 
+
+00:05:45,510 --> 00:05:47,270
+ 
+ 
+
+00:05:47,270 --> 00:05:49,990
+ 
+ 
+
+00:05:49,990 --> 00:05:52,390
+ 
+ 
+
+00:05:52,390 --> 00:05:54,950
+ 
+ 
+
+00:05:54,950 --> 00:05:57,189
+ 
+ 
+
+00:05:57,189 --> 00:05:58,469
+ 
+ 
+
+00:05:58,469 --> 00:06:02,230
+ 
+ 
+
+00:06:02,230 --> 00:06:04,629
+ 
+ 
+
+00:06:04,629 --> 00:06:07,350
+ 
+ 
+
+00:06:07,350 --> 00:06:09,590
+ 
+ 
+
+00:06:09,590 --> 00:06:11,990
+ 
+ 
+
+00:06:11,990 --> 00:06:13,270
+ 
+ 
+
+00:06:13,270 --> 00:06:15,029
+ 
+ 
+
+00:06:15,029 --> 00:06:17,189
+ 
+ 
+
+00:06:17,189 --> 00:06:17,199
+ 
+ 
+
+00:06:17,199 --> 00:06:18,150
+ 
+
+
+00:06:18,150 --> 00:06:20,070
+ 
+ 
+
+00:06:20,070 --> 00:06:21,990
+ 
+ 
+
+00:06:21,990 --> 00:06:23,430
+ 
+ 
+
+00:06:23,430 --> 00:06:25,749
+ 
+ 
+
+00:06:25,749 --> 00:06:27,029
+ 
+ 
+
+00:06:27,029 --> 00:06:29,110
+ 
+ 
+
+00:06:29,110 --> 00:06:31,270
+ 
+ 
+
+00:06:31,270 --> 00:06:33,749
+ 
+ 
+
+00:06:33,749 --> 00:06:35,909
+ 
+ 
+
+00:06:35,909 --> 00:06:37,749
+ 
+ 
+
+00:06:37,749 --> 00:06:40,230
+ 
+ 
+
+00:06:40,230 --> 00:06:41,909
+ 
+ 
+
+00:06:41,909 --> 00:06:42,950
+ 
+ 
+
+00:06:42,950 --> 00:06:45,350
+ 
+ 
+
+00:06:45,350 --> 00:06:47,510
+ 
+ 
+
+00:06:47,510 --> 00:06:49,990
+ 
+ 
+
+00:06:49,990 --> 00:06:50,000
+ 
+ 
+
+00:06:50,000 --> 00:06:50,870
+ 
+
+
+00:06:50,870 --> 00:06:52,550
+ 
+ 
+
+00:06:52,550 --> 00:06:54,790
+ 
+ 
+
+00:06:54,790 --> 00:06:56,950
+ 
+ 
+
+00:06:56,950 --> 00:06:59,670
+ 
+ 
+
+00:06:59,670 --> 00:06:59,680
+ 
+ 
+
+00:06:59,680 --> 00:07:00,790
+ 
+
+
+00:07:00,790 --> 00:07:03,830
+ 
+ 
+
+00:07:03,830 --> 00:07:06,150
+ 
+ 
+
+00:07:06,150 --> 00:07:09,589
+ 
+ 
+
+00:07:09,589 --> 00:07:11,029
+ 
+ 
+
+00:07:11,029 --> 00:07:13,189
+ 
+ 
+
+00:07:13,189 --> 00:07:15,029
+ 
+ 
+
+00:07:15,029 --> 00:07:18,150
+ 
+ 
+
+00:07:18,150 --> 00:07:21,430
+ 
+ 
+
+00:07:21,430 --> 00:07:24,950
+ 
+ 
+
+00:07:24,950 --> 00:07:27,749
+ 
+ 
+
+00:07:27,749 --> 00:07:29,510
+ 
+ 
+
+00:07:29,510 --> 00:07:32,150
+ 
+ 
+
+00:07:32,150 --> 00:07:34,309
+ 
+ 
+
+00:07:34,309 --> 00:07:38,759
+ 
+ 
+

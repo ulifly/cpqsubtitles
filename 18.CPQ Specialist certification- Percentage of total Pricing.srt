@@ -1,0 +1,1173 @@
+
+00:00:00,560 --> 00:00:02,389
+ 
+good everyone i hope you guys have an  amazing day so in the last episode i  talked about the block pricing method in  this episode um i will talk about the  percentage of the total pricing so i  wanted to give you a very classic  example right you go to a restaurant for  eating food right  so  and  so like say for instance you are in  united states right so you go to  restaurant uh you know so you  you eat like steak and chips  and  something to drink you know maybe a pint  or something right  and then your total will comes out to be  say  um 100 bucks okay and then you will see  a 10 tip so that's like uh  um you know 110 so that 10 percent right  that's what we're talking about the  percentage of total  uh means the you know the percentage of  the total bill  right so that means like a 10  of 100 bucks that's like a ten dollars  in in new zealand we don't have that  concept we don't have a concept of tips  because the reason why  we don't uh emphasize in on tips because  our minimum wage is pretty high right  it's  almost 20. i'm not 100 sure how much it  is it's 20 plus at least i guess  so you know so you go to restaurant  there's no concept like you've been  asked to pay the tip there's no such  thing here right i mean people do get  cultural shock when they come here oh  there's no tip well that's how it is  right um okay so that's the concept or  other example i would like to say like  you bought a dashboard computer and you  decide to pay 10  on a warranty maintenance warranty right  so 10 of the total bill right so  that's one of the other example you can  consider right if you're not if you  don't want to think from a restaurant  point of view um so there are a few  configurations very tiny one which we're  going to look at it it's pretty basic uh  so you're not going to get into the  nasty details of it right we're just  going to look at some of the overview  stuff how to set it up so if you are  implementing for a customer it's a  pretty straightforward process right so  but that being said you just uh you know  you can't directly recommend this  functionality there are different  options right you have to consider okay  so the first thing first i'm going to  take you to the  um the product which i uh  created  so i'll go to salesforcepq  and i'll go to the products  uh under products so i'll go for this  warranty right warranty  it's like you bought a  like i gave an example right you bought  a desktop computer or you bought  something for right the total warranty  will be like 10 of the total product  uh  total bill right okay so i'll create a  normal product so the only difference  here if you pay attention  um the first thing what i did  so the pricing method if you remember  the last episode when i talked about the  block pricing um i mentioned um  for us uh for a product right uh which  i've created um  so  to have the block pricing so where we  specify the range  uh for the beer right for the stout beer  one to ten or cost you this you know  then overage rate i talked about it so  anything over then it will increase so  so instead of block price here we're  going to look at percentage of total  and here you will include the percentage  of total  and then  you have  different options here you have list uh  this is the  percentage of the total base the list  price is just like your pricing price  uh and the regular and customers so net  means the total  uh  on  the  uh on the code right if it's a code it's  for say 100 100 bucks so your  uh the percentage total will be on the  hundred bucks  um and there's uh one thing i just  wanted to include the percentage of the  total it means that if you wanted to  include a product as a part of this  calculation you can do that or if say  for instance in a bun or if you don't  want say in a code you have a few  products right if you don't want that  specific product to be included  when it comes to the percentage of the  totals you just have to go to that  product and check this one right uh so  usually what happens right the  subscription products will be excluded  because subscription right you have the  terms right monthly times a yearly  yearly subscription um so these are  not the subscription products what i'm  talking about or like a dashboard  computer it's not a subscription product  so it is a one-off purchase right you're  not buying desktop computer every month  right whereas if you're  uh looking for  uh say for instance a magazine right  monthly subscription right so that's  that's say a subscription base so but  in saying so if you if you still wanted  to include a subscription base so you  need to check include in the percentage  of total so it will  uh calculate all the terms and other  stuff  so we're not going to get into that  because we haven't covered the  subscription yet so if i started talking  with the subscription it was going to  get complicated right so just to keep it  simple just to make it nice and easy  because this is just a pricing module so  uh include this right um and that's  pretty much we're gonna do okay so this  is i'm gonna do on the main on the  warranty product which i created  uh and if you look at the price book uh  price book is pretty simple so it's just  a dollar  zero so sorry zero dollar the reason why  i have to add  uh zero dollar because otherwise you  will not be able to add this product to  your code okay so this is something we  talked about  um i talked about in a couple of  episodes ago right so  um if you are unsure why we need to add  zero dollar to the price book so please  go and watch you know a couple of  episodes  when i when i talked about the  introduction to pricing okay  all right so uh let's go to orders  sorry codes i don't know why i always  emphasize on orders like  i've done so much of you know when i you  know  i did a lot of  um i helped out a mate on sab recently  right i did a lot of order stuff on that  i kind of stuck in my brain since it  just  anyways sorry diagrams okay go to edit  lines  okay  uh i will clean all the product from  this okay so that we can start with a  clean slate right so you don't have to  worry about  you know the calculations getting  complicated or whatnot  add products okay so i'm gonna add a  desktop  computer and um  a second  all right and i'm going to see desktop  computer  obviously select  okay and i'll say okay  so  all right what am i saying so 980 bucks  that's the price of this code okay  now i wanted to add a warranty to this  okay the warranty  or the maintenance warranty whatever you  like to call right it's the 10  of the total bill okay so the 10 of 980  will be  98 bucks right so i will go to the  product  and  oh another beef  definitely not the beef you know how to  add the beef  not talking with the dinner here  all right uh so warranty  okay  um so you go select  all right so  your bill has  changed i said what's going on all right  so let's go to this warranty right  so this is 98 bucks so 980 plus  uh 98 so we'll give you this uh one zero  seven eight so this is how it works so  if you add more product to it it will  um it will  work on the 10 of the total uh products  build right two products of the two  products cost 200 bucks so 10 of it will  calculate 20. okay so that's how it  works so it's pretty simple um it based  on uh case by case so you have to  understand the customer business  requirement before you suggest this  right so i'll give you an example where  you can use it so  it might vary from customer to customer  right so  just because we cpq offers you the  functionality just don't say the  customer hey you can use this but the  customer will ask  why should i be using it when i don't  have any requirement right so it's  everything is driven by  business requirement right customer  needs  so yeah this is a functionality we have  right just an outer box functionality  you can use it it's good to know that  there is something out there when the  requirement arises but if you don't have  one don't don't worry about it right but  in saying so this is how the the  percentage of the total  pricing works right so that's pretty  much i wanted to cover i do understand  this is a pretty  simple but i'm after simple explanation  and to demonstrate how you can set it up  uh we can look at the  nitty-gritty stuff in the future but for  now just to get you started this much  information is sufficient in my opinion  so that being said i hope you guys have  an amazing day adios
+
+00:00:02,389 --> 00:00:04,470
+good everyone i hope you guys have an  amazing day so in the last episode i  talked about the block pricing method in  this episode um i will talk about the  percentage of the total pricing so i  wanted to give you a very classic  example right you go to a restaurant for  eating food right  so  and  so like say for instance you are in  united states right so you go to  restaurant uh you know so you  you eat like steak and chips  and  something to drink you know maybe a pint  or something right  and then your total will comes out to be  say  um 100 bucks okay and then you will see  a 10 tip so that's like uh  um you know 110 so that 10 percent right  that's what we're talking about the  percentage of total  uh means the you know the percentage of  the total bill  right so that means like a 10  of 100 bucks that's like a ten dollars  in in new zealand we don't have that  concept we don't have a concept of tips  because the reason why  we don't uh emphasize in on tips because  our minimum wage is pretty high right  it's  almost 20. i'm not 100 sure how much it  is it's 20 plus at least i guess  so you know so you go to restaurant  there's no concept like you've been  asked to pay the tip there's no such  thing here right i mean people do get  cultural shock when they come here oh  there's no tip well that's how it is  right um okay so that's the concept or  other example i would like to say like  you bought a dashboard computer and you  decide to pay 10  on a warranty maintenance warranty right  so 10 of the total bill right so  that's one of the other example you can  consider right if you're not if you  don't want to think from a restaurant  point of view um so there are a few  configurations very tiny one which we're  going to look at it it's pretty basic uh  so you're not going to get into the  nasty details of it right we're just  going to look at some of the overview  stuff how to set it up so if you are  implementing for a customer it's a  pretty straightforward process right so  but that being said you just uh you know  you can't directly recommend this  functionality there are different  options right you have to consider okay  so the first thing first i'm going to  take you to the  um the product which i uh  created  so i'll go to salesforcepq  and i'll go to the products  uh under products so i'll go for this  warranty right warranty  it's like you bought a  like i gave an example right you bought  a desktop computer or you bought  something for right the total warranty  will be like 10 of the total product  uh  total bill right okay so i'll create a  normal product so the only difference  here if you pay attention  um the first thing what i did  so the pricing method if you remember  the last episode when i talked about the  block pricing um i mentioned um  for us uh for a product right uh which  i've created um  so  to have the block pricing so where we  specify the range  uh for the beer right for the stout beer  one to ten or cost you this you know  then overage rate i talked about it so  anything over then it will increase so  so instead of block price here we're  going to look at percentage of total  and here you will include the percentage  of total  and then  you have  different options here you have list uh  this is the  percentage of the total base the list  price is just like your pricing price  uh and the regular and customers so net  means the total  uh  on  the  uh on the code right if it's a code it's  for say 100 100 bucks so your  uh the percentage total will be on the  hundred bucks  um and there's uh one thing i just  wanted to include the percentage of the  total it means that if you wanted to  include a product as a part of this  calculation you can do that or if say  for instance in a bun or if you don't  want say in a code you have a few  products right if you don't want that  specific product to be included  when it comes to the percentage of the  totals you just have to go to that  product and check this one right uh so  usually what happens right the  subscription products will be excluded  because subscription right you have the  terms right monthly times a yearly  yearly subscription um so these are  not the subscription products what i'm  talking about or like a dashboard  computer it's not a subscription product  so it is a one-off purchase right you're  not buying desktop computer every month  right whereas if you're  uh looking for  uh say for instance a magazine right  monthly subscription right so that's  that's say a subscription base so but  in saying so if you if you still wanted  to include a subscription base so you  need to check include in the percentage  of total so it will  uh calculate all the terms and other  stuff  so we're not going to get into that  because we haven't covered the  subscription yet so if i started talking  with the subscription it was going to  get complicated right so just to keep it  simple just to make it nice and easy  because this is just a pricing module so  uh include this right um and that's  pretty much we're gonna do okay so this  is i'm gonna do on the main on the  warranty product which i created  uh and if you look at the price book uh  price book is pretty simple so it's just  a dollar  zero so sorry zero dollar the reason why  i have to add  uh zero dollar because otherwise you  will not be able to add this product to  your code okay so this is something we  talked about  um i talked about in a couple of  episodes ago right so  um if you are unsure why we need to add  zero dollar to the price book so please  go and watch you know a couple of  episodes  when i when i talked about the  introduction to pricing okay  all right so uh let's go to orders  sorry codes i don't know why i always  emphasize on orders like  i've done so much of you know when i you  know  i did a lot of  um i helped out a mate on sab recently  right i did a lot of order stuff on that  i kind of stuck in my brain since it  just  anyways sorry diagrams okay go to edit  lines  okay  uh i will clean all the product from  this okay so that we can start with a  clean slate right so you don't have to  worry about  you know the calculations getting  complicated or whatnot  add products okay so i'm gonna add a  desktop  computer and um  a second  all right and i'm going to see desktop  computer  obviously select  okay and i'll say okay  so  all right what am i saying so 980 bucks  that's the price of this code okay  now i wanted to add a warranty to this  okay the warranty  or the maintenance warranty whatever you  like to call right it's the 10  of the total bill okay so the 10 of 980  will be  98 bucks right so i will go to the  product  and  oh another beef  definitely not the beef you know how to  add the beef  not talking with the dinner here  all right uh so warranty  okay  um so you go select  all right so  your bill has  changed i said what's going on all right  so let's go to this warranty right  so this is 98 bucks so 980 plus  uh 98 so we'll give you this uh one zero  seven eight so this is how it works so  if you add more product to it it will  um it will  work on the 10 of the total uh products  build right two products of the two  products cost 200 bucks so 10 of it will  calculate 20. okay so that's how it  works so it's pretty simple um it based  on uh case by case so you have to  understand the customer business  requirement before you suggest this  right so i'll give you an example where  you can use it so  it might vary from customer to customer  right so  just because we cpq offers you the  functionality just don't say the  customer hey you can use this but the  customer will ask  why should i be using it when i don't  have any requirement right so it's  everything is driven by  business requirement right customer  needs  so yeah this is a functionality we have  right just an outer box functionality  you can use it it's good to know that  there is something out there when the  requirement arises but if you don't have  one don't don't worry about it right but  in saying so this is how the the  percentage of the total  pricing works right so that's pretty  much i wanted to cover i do understand  this is a pretty  simple but i'm after simple explanation  and to demonstrate how you can set it up  uh we can look at the  nitty-gritty stuff in the future but for  now just to get you started this much  information is sufficient in my opinion  so that being said i hope you guys have  an amazing day adios
+ 
+
+00:00:04,470 --> 00:00:07,269
+ 
+ 
+
+00:00:07,269 --> 00:00:09,830
+ 
+ 
+
+00:00:09,830 --> 00:00:12,230
+ 
+ 
+
+00:00:12,230 --> 00:00:13,749
+ 
+ 
+
+00:00:13,749 --> 00:00:15,829
+ 
+ 
+
+00:00:15,829 --> 00:00:18,070
+ 
+ 
+
+00:00:18,070 --> 00:00:18,080
+ 
+ 
+
+00:00:18,080 --> 00:00:18,950
+ 
+
+
+00:00:18,950 --> 00:00:18,960
+ 
+ 
+
+00:00:18,960 --> 00:00:19,750
+ 
+
+
+00:00:19,750 --> 00:00:21,910
+ 
+ 
+
+00:00:21,910 --> 00:00:23,750
+ 
+ 
+
+00:00:23,750 --> 00:00:26,630
+ 
+ 
+
+00:00:26,630 --> 00:00:29,429
+ 
+ 
+
+00:00:29,429 --> 00:00:29,439
+ 
+ 
+
+00:00:29,439 --> 00:00:30,390
+ 
+
+
+00:00:30,390 --> 00:00:32,709
+ 
+ 
+
+00:00:32,709 --> 00:00:34,549
+ 
+ 
+
+00:00:34,549 --> 00:00:36,950
+ 
+ 
+
+00:00:36,950 --> 00:00:36,960
+ 
+ 
+
+00:00:36,960 --> 00:00:38,229
+ 
+
+
+00:00:38,229 --> 00:00:41,430
+ 
+ 
+
+00:00:41,430 --> 00:00:44,389
+ 
+ 
+
+00:00:44,389 --> 00:00:47,029
+ 
+ 
+
+00:00:47,029 --> 00:00:48,310
+ 
+ 
+
+00:00:48,310 --> 00:00:49,910
+ 
+ 
+
+00:00:49,910 --> 00:00:52,549
+ 
+ 
+
+00:00:52,549 --> 00:00:53,990
+ 
+ 
+
+00:00:53,990 --> 00:00:56,389
+ 
+ 
+
+00:00:56,389 --> 00:00:58,709
+ 
+ 
+
+00:00:58,709 --> 00:01:00,549
+ 
+ 
+
+00:01:00,549 --> 00:01:02,310
+ 
+ 
+
+00:01:02,310 --> 00:01:04,310
+ 
+ 
+
+00:01:04,310 --> 00:01:06,950
+ 
+ 
+
+00:01:06,950 --> 00:01:08,789
+ 
+ 
+
+00:01:08,789 --> 00:01:08,799
+ 
+ 
+
+00:01:08,799 --> 00:01:09,510
+ 
+
+
+00:01:09,510 --> 00:01:12,469
+ 
+ 
+
+00:01:12,469 --> 00:01:16,310
+ 
+ 
+
+00:01:16,310 --> 00:01:18,310
+ 
+ 
+
+00:01:18,310 --> 00:01:19,830
+ 
+ 
+
+00:01:19,830 --> 00:01:21,749
+ 
+ 
+
+00:01:21,749 --> 00:01:23,830
+ 
+ 
+
+00:01:23,830 --> 00:01:25,590
+ 
+ 
+
+00:01:25,590 --> 00:01:27,429
+ 
+ 
+
+00:01:27,429 --> 00:01:30,390
+ 
+ 
+
+00:01:30,390 --> 00:01:32,630
+ 
+ 
+
+00:01:32,630 --> 00:01:34,710
+ 
+ 
+
+00:01:34,710 --> 00:01:36,710
+ 
+ 
+
+00:01:36,710 --> 00:01:39,030
+ 
+ 
+
+00:01:39,030 --> 00:01:42,469
+ 
+ 
+
+00:01:42,469 --> 00:01:44,389
+ 
+ 
+
+00:01:44,389 --> 00:01:46,550
+ 
+ 
+
+00:01:46,550 --> 00:01:47,990
+ 
+ 
+
+00:01:47,990 --> 00:01:50,389
+ 
+ 
+
+00:01:50,389 --> 00:01:52,230
+ 
+ 
+
+00:01:52,230 --> 00:01:54,870
+ 
+ 
+
+00:01:54,870 --> 00:01:56,469
+ 
+ 
+
+00:01:56,469 --> 00:01:58,469
+ 
+ 
+
+00:01:58,469 --> 00:02:00,469
+ 
+ 
+
+00:02:00,469 --> 00:02:03,350
+ 
+ 
+
+00:02:03,350 --> 00:02:04,870
+ 
+ 
+
+00:02:04,870 --> 00:02:06,870
+ 
+ 
+
+00:02:06,870 --> 00:02:09,270
+ 
+ 
+
+00:02:09,270 --> 00:02:10,790
+ 
+ 
+
+00:02:10,790 --> 00:02:11,990
+ 
+ 
+
+00:02:11,990 --> 00:02:14,309
+ 
+ 
+
+00:02:14,309 --> 00:02:15,510
+ 
+ 
+
+00:02:15,510 --> 00:02:16,869
+ 
+ 
+
+00:02:16,869 --> 00:02:19,670
+ 
+ 
+
+00:02:19,670 --> 00:02:19,680
+ 
+ 
+
+00:02:19,680 --> 00:02:21,510
+ 
+
+
+00:02:21,510 --> 00:02:25,110
+ 
+ 
+
+00:02:25,110 --> 00:02:28,070
+ 
+ 
+
+00:02:28,070 --> 00:02:30,150
+ 
+ 
+
+00:02:30,150 --> 00:02:31,990
+ 
+ 
+
+00:02:31,990 --> 00:02:34,150
+ 
+ 
+
+00:02:34,150 --> 00:02:35,750
+ 
+ 
+
+00:02:35,750 --> 00:02:37,589
+ 
+ 
+
+00:02:37,589 --> 00:02:39,750
+ 
+ 
+
+00:02:39,750 --> 00:02:42,949
+ 
+ 
+
+00:02:42,949 --> 00:02:42,959
+ 
+ 
+
+00:02:42,959 --> 00:02:44,470
+ 
+
+
+00:02:44,470 --> 00:02:46,550
+ 
+ 
+
+00:02:46,550 --> 00:02:48,710
+ 
+ 
+
+00:02:48,710 --> 00:02:51,350
+ 
+ 
+
+00:02:51,350 --> 00:02:53,830
+ 
+ 
+
+00:02:53,830 --> 00:02:55,670
+ 
+ 
+
+00:02:55,670 --> 00:02:57,670
+ 
+ 
+
+00:02:57,670 --> 00:03:01,509
+ 
+ 
+
+00:03:01,509 --> 00:03:04,869
+ 
+ 
+
+00:03:04,869 --> 00:03:06,949
+ 
+ 
+
+00:03:06,949 --> 00:03:06,959
+ 
+ 
+
+00:03:06,959 --> 00:03:08,070
+ 
+
+
+00:03:08,070 --> 00:03:09,910
+ 
+ 
+
+00:03:09,910 --> 00:03:11,350
+ 
+ 
+
+00:03:11,350 --> 00:03:13,350
+ 
+ 
+
+00:03:13,350 --> 00:03:15,830
+ 
+ 
+
+00:03:15,830 --> 00:03:17,750
+ 
+ 
+
+00:03:17,750 --> 00:03:20,070
+ 
+ 
+
+00:03:20,070 --> 00:03:22,229
+ 
+ 
+
+00:03:22,229 --> 00:03:24,229
+ 
+ 
+
+00:03:24,229 --> 00:03:26,630
+ 
+ 
+
+00:03:26,630 --> 00:03:28,149
+ 
+ 
+
+00:03:28,149 --> 00:03:29,430
+ 
+ 
+
+00:03:29,430 --> 00:03:30,390
+ 
+ 
+
+00:03:30,390 --> 00:03:32,630
+ 
+ 
+
+00:03:32,630 --> 00:03:34,149
+ 
+ 
+
+00:03:34,149 --> 00:03:36,149
+ 
+ 
+
+00:03:36,149 --> 00:03:38,390
+ 
+ 
+
+00:03:38,390 --> 00:03:40,630
+ 
+ 
+
+00:03:40,630 --> 00:03:42,070
+ 
+ 
+
+00:03:42,070 --> 00:03:42,080
+ 
+ 
+
+00:03:42,080 --> 00:03:43,589
+ 
+
+
+00:03:43,589 --> 00:03:43,599
+ 
+ 
+
+00:03:43,599 --> 00:03:44,390
+ 
+
+
+00:03:44,390 --> 00:03:44,400
+ 
+ 
+
+00:03:44,400 --> 00:03:45,190
+ 
+
+
+00:03:45,190 --> 00:03:47,990
+ 
+ 
+
+00:03:47,990 --> 00:03:51,110
+ 
+ 
+
+00:03:51,110 --> 00:03:53,030
+ 
+ 
+
+00:03:53,030 --> 00:03:54,309
+ 
+ 
+
+00:03:54,309 --> 00:03:56,470
+ 
+ 
+
+00:03:56,470 --> 00:03:58,710
+ 
+ 
+
+00:03:58,710 --> 00:04:00,149
+ 
+ 
+
+00:04:00,149 --> 00:04:02,470
+ 
+ 
+
+00:04:02,470 --> 00:04:04,869
+ 
+ 
+
+00:04:04,869 --> 00:04:06,630
+ 
+ 
+
+00:04:06,630 --> 00:04:08,229
+ 
+ 
+
+00:04:08,229 --> 00:04:10,390
+ 
+ 
+
+00:04:10,390 --> 00:04:13,429
+ 
+ 
+
+00:04:13,429 --> 00:04:15,030
+ 
+ 
+
+00:04:15,030 --> 00:04:16,710
+ 
+ 
+
+00:04:16,710 --> 00:04:19,430
+ 
+ 
+
+00:04:19,430 --> 00:04:20,710
+ 
+ 
+
+00:04:20,710 --> 00:04:22,469
+ 
+ 
+
+00:04:22,469 --> 00:04:24,310
+ 
+ 
+
+00:04:24,310 --> 00:04:26,070
+ 
+ 
+
+00:04:26,070 --> 00:04:29,030
+ 
+ 
+
+00:04:29,030 --> 00:04:30,469
+ 
+ 
+
+00:04:30,469 --> 00:04:31,670
+ 
+ 
+
+00:04:31,670 --> 00:04:33,830
+ 
+ 
+
+00:04:33,830 --> 00:04:36,629
+ 
+ 
+
+00:04:36,629 --> 00:04:39,430
+ 
+ 
+
+00:04:39,430 --> 00:04:41,510
+ 
+ 
+
+00:04:41,510 --> 00:04:43,510
+ 
+ 
+
+00:04:43,510 --> 00:04:45,830
+ 
+ 
+
+00:04:45,830 --> 00:04:47,670
+ 
+ 
+
+00:04:47,670 --> 00:04:51,110
+ 
+ 
+
+00:04:51,110 --> 00:04:52,790
+ 
+ 
+
+00:04:52,790 --> 00:04:55,670
+ 
+ 
+
+00:04:55,670 --> 00:04:57,670
+ 
+ 
+
+00:04:57,670 --> 00:04:59,110
+ 
+ 
+
+00:04:59,110 --> 00:05:01,189
+ 
+ 
+
+00:05:01,189 --> 00:05:01,199
+ 
+ 
+
+00:05:01,199 --> 00:05:02,070
+ 
+
+
+00:05:02,070 --> 00:05:03,830
+ 
+ 
+
+00:05:03,830 --> 00:05:05,029
+ 
+ 
+
+00:05:05,029 --> 00:05:06,950
+ 
+ 
+
+00:05:06,950 --> 00:05:08,390
+ 
+ 
+
+00:05:08,390 --> 00:05:10,230
+ 
+ 
+
+00:05:10,230 --> 00:05:11,909
+ 
+ 
+
+00:05:11,909 --> 00:05:15,350
+ 
+ 
+
+00:05:15,350 --> 00:05:18,310
+ 
+ 
+
+00:05:18,310 --> 00:05:20,390
+ 
+ 
+
+00:05:20,390 --> 00:05:22,790
+ 
+ 
+
+00:05:22,790 --> 00:05:24,950
+ 
+ 
+
+00:05:24,950 --> 00:05:27,830
+ 
+ 
+
+00:05:27,830 --> 00:05:29,830
+ 
+ 
+
+00:05:29,830 --> 00:05:30,950
+ 
+ 
+
+00:05:30,950 --> 00:05:33,430
+ 
+ 
+
+00:05:33,430 --> 00:05:34,790
+ 
+ 
+
+00:05:34,790 --> 00:05:37,110
+ 
+ 
+
+00:05:37,110 --> 00:05:39,110
+ 
+ 
+
+00:05:39,110 --> 00:05:41,990
+ 
+ 
+
+00:05:41,990 --> 00:05:43,350
+ 
+ 
+
+00:05:43,350 --> 00:05:45,350
+ 
+ 
+
+00:05:45,350 --> 00:05:47,590
+ 
+ 
+
+00:05:47,590 --> 00:05:51,670
+ 
+ 
+
+00:05:51,670 --> 00:05:53,510
+ 
+ 
+
+00:05:53,510 --> 00:05:55,590
+ 
+ 
+
+00:05:55,590 --> 00:05:55,600
+ 
+ 
+
+00:05:55,600 --> 00:05:56,629
+ 
+
+
+00:05:56,629 --> 00:05:58,469
+ 
+ 
+
+00:05:58,469 --> 00:06:00,790
+ 
+ 
+
+00:06:00,790 --> 00:06:05,270
+ 
+ 
+
+00:06:05,270 --> 00:06:07,670
+ 
+ 
+
+00:06:07,670 --> 00:06:09,590
+ 
+ 
+
+00:06:09,590 --> 00:06:12,070
+ 
+ 
+
+00:06:12,070 --> 00:06:12,080
+ 
+ 
+
+00:06:12,080 --> 00:06:13,110
+ 
+
+
+00:06:13,110 --> 00:06:14,550
+ 
+ 
+
+00:06:14,550 --> 00:06:18,070
+ 
+ 
+
+00:06:18,070 --> 00:06:20,629
+ 
+ 
+
+00:06:20,629 --> 00:06:23,749
+ 
+ 
+
+00:06:23,749 --> 00:06:23,759
+ 
+ 
+
+00:06:23,759 --> 00:06:24,950
+ 
+
+
+00:06:24,950 --> 00:06:27,430
+ 
+ 
+
+00:06:27,430 --> 00:06:27,440
+ 
+ 
+
+00:06:27,440 --> 00:06:28,469
+ 
+
+
+00:06:28,469 --> 00:06:28,479
+ 
+ 
+
+00:06:28,479 --> 00:06:29,510
+ 
+
+
+00:06:29,510 --> 00:06:32,469
+ 
+ 
+
+00:06:32,469 --> 00:06:34,790
+ 
+ 
+
+00:06:34,790 --> 00:06:37,270
+ 
+ 
+
+00:06:37,270 --> 00:06:38,710
+ 
+ 
+
+00:06:38,710 --> 00:06:40,150
+ 
+ 
+
+00:06:40,150 --> 00:06:42,710
+ 
+ 
+
+00:06:42,710 --> 00:06:45,110
+ 
+ 
+
+00:06:45,110 --> 00:06:45,120
+ 
+ 
+
+00:06:45,120 --> 00:06:46,510
+ 
+
+
+00:06:46,510 --> 00:06:51,350
+ 
+ 
+
+00:06:51,350 --> 00:06:55,990
+ 
+ 
+
+00:06:55,990 --> 00:06:57,589
+ 
+ 
+
+00:06:57,589 --> 00:06:57,599
+ 
+ 
+
+00:06:57,599 --> 00:06:58,870
+ 
+
+
+00:06:58,870 --> 00:07:00,830
+ 
+ 
+
+00:07:00,830 --> 00:07:05,670
+ 
+ 
+
+00:07:05,670 --> 00:07:05,680
+ 
+ 
+
+00:07:05,680 --> 00:07:07,430
+ 
+
+
+00:07:07,430 --> 00:07:09,830
+ 
+ 
+
+00:07:09,830 --> 00:07:13,430
+ 
+ 
+
+00:07:13,430 --> 00:07:15,909
+ 
+ 
+
+00:07:15,909 --> 00:07:17,510
+ 
+ 
+
+00:07:17,510 --> 00:07:19,589
+ 
+ 
+
+00:07:19,589 --> 00:07:22,469
+ 
+ 
+
+00:07:22,469 --> 00:07:26,870
+ 
+ 
+
+00:07:26,870 --> 00:07:27,830
+ 
+ 
+
+00:07:27,830 --> 00:07:31,430
+ 
+ 
+
+00:07:31,430 --> 00:07:31,440
+ 
+ 
+
+00:07:31,440 --> 00:07:33,909
+ 
+
+
+00:07:33,909 --> 00:07:33,919
+ 
+ 
+
+00:07:33,919 --> 00:07:36,230
+ 
+
+
+00:07:36,230 --> 00:07:37,909
+ 
+ 
+
+00:07:37,909 --> 00:07:39,350
+ 
+ 
+
+00:07:39,350 --> 00:07:41,430
+ 
+ 
+
+00:07:41,430 --> 00:07:43,670
+ 
+ 
+
+00:07:43,670 --> 00:07:46,390
+ 
+ 
+
+00:07:46,390 --> 00:07:46,400
+ 
+ 
+
+00:07:46,400 --> 00:07:47,589
+ 
+
+
+00:07:47,589 --> 00:07:52,469
+ 
+ 
+
+00:07:52,469 --> 00:07:54,230
+ 
+ 
+
+00:07:54,230 --> 00:07:56,070
+ 
+ 
+
+00:07:56,070 --> 00:07:58,469
+ 
+ 
+
+00:07:58,469 --> 00:08:01,990
+ 
+ 
+
+00:08:01,990 --> 00:08:05,350
+ 
+ 
+
+00:08:05,350 --> 00:08:09,430
+ 
+ 
+
+00:08:09,430 --> 00:08:11,749
+ 
+ 
+
+00:08:11,749 --> 00:08:14,150
+ 
+ 
+
+00:08:14,150 --> 00:08:15,589
+ 
+ 
+
+00:08:15,589 --> 00:08:18,469
+ 
+ 
+
+00:08:18,469 --> 00:08:19,909
+ 
+ 
+
+00:08:19,909 --> 00:08:22,710
+ 
+ 
+
+00:08:22,710 --> 00:08:25,189
+ 
+ 
+
+00:08:25,189 --> 00:08:27,909
+ 
+ 
+
+00:08:27,909 --> 00:08:30,469
+ 
+ 
+
+00:08:30,469 --> 00:08:32,149
+ 
+ 
+
+00:08:32,149 --> 00:08:33,829
+ 
+ 
+
+00:08:33,829 --> 00:08:35,750
+ 
+ 
+
+00:08:35,750 --> 00:08:37,509
+ 
+ 
+
+00:08:37,509 --> 00:08:39,430
+ 
+ 
+
+00:08:39,430 --> 00:08:40,389
+ 
+ 
+
+00:08:40,389 --> 00:08:42,389
+ 
+ 
+
+00:08:42,389 --> 00:08:44,710
+ 
+ 
+
+00:08:44,710 --> 00:08:46,949
+ 
+ 
+
+00:08:46,949 --> 00:08:48,710
+ 
+ 
+
+00:08:48,710 --> 00:08:50,710
+ 
+ 
+
+00:08:50,710 --> 00:08:52,630
+ 
+ 
+
+00:08:52,630 --> 00:08:54,630
+ 
+ 
+
+00:08:54,630 --> 00:08:56,550
+ 
+ 
+
+00:08:56,550 --> 00:08:56,560
+ 
+ 
+
+00:08:56,560 --> 00:08:57,430
+ 
+
+
+00:08:57,430 --> 00:09:00,070
+ 
+ 
+
+00:09:00,070 --> 00:09:01,750
+ 
+ 
+
+00:09:01,750 --> 00:09:03,750
+ 
+ 
+
+00:09:03,750 --> 00:09:05,509
+ 
+ 
+
+00:09:05,509 --> 00:09:08,310
+ 
+ 
+
+00:09:08,310 --> 00:09:10,870
+ 
+ 
+
+00:09:10,870 --> 00:09:13,030
+ 
+ 
+
+00:09:13,030 --> 00:09:14,630
+ 
+ 
+
+00:09:14,630 --> 00:09:17,269
+ 
+ 
+
+00:09:17,269 --> 00:09:18,949
+ 
+ 
+
+00:09:18,949 --> 00:09:20,230
+ 
+ 
+
+00:09:20,230 --> 00:09:23,110
+ 
+ 
+
+00:09:23,110 --> 00:09:25,350
+ 
+ 
+
+00:09:25,350 --> 00:09:28,070
+ 
+ 
+
+00:09:28,070 --> 00:09:30,389
+ 
+ 
+
+00:09:30,389 --> 00:09:32,949
+ 
+ 
+
+00:09:32,949 --> 00:09:34,949
+ 
+ 
+
+00:09:34,949 --> 00:09:37,030
+ 
+ 
+
+00:09:37,030 --> 00:09:41,560
+ 
+ 
+

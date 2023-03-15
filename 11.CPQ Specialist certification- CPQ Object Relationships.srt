@@ -1,0 +1,1153 @@
+
+00:00:00,640 --> 00:00:02,389
+ 
+good everyone i hope you guys have an  amazing day so what i'm going to do  today right so i'll talk briefly about  the cpq object relationship so for  instance we take a product object and  so in that product object do you have  any master detail relationship with  another object or look up  relationship with another object so  i'm mostly going to talk from a cpq  perspective when you install cpq  different  custom objects get installed and  so those custom objects will have lookup  or master detail relationship uh between  other objects so it's like we're gonna  talk look at the data model so i'm gonna  explain it from a from a health  documentation because i don't want to  reinvent the wheel but in saying so the  data model is very important because in  my uh salesforce career i've seen you  know people doing crazy data models you  know which sometimes you know make no  sense to me so  um so uh from a cpk perspective it's  very important um so that you know you  might get tempted to you know in your  cpq implementation okay let me do  a master detail relationship with this  let me do much detailed relations  i mean you obviously don't want to end  up having a circular relationship right  so  uh it's very important you guys  understand that so um this is the the uh  the salesforce help documentation so i'm  gonna go walk you guys from here so we  have a lot of objects uh which is  associated with the cpq uh which special  um which comes handy uh when you're  doing cpu implementation so  say for instance right uh additional  document right so this is  um  if you look at this one if you go to  object manager um  so this documentation the additional  document does not contain any master uh  detail with any other custom objects or  standard objects for that matter  so it does have you know forget about  the user right it does have opportunity  uh or product code  uh all in the form of a uh lookup  relationship it also has  a template section and code  uh there's no master detail relationship  right so the same way it goes for  asset  it has a lookup relationship for code  line product and subscription the block  price  configuration attribute so  um  if you look at uh only the contracted  price  it has a lookup master detail with  account so if you look at  um  yeah this one  so if you look at it  it does have a master  detail relationship you can see that  with an account so which is cool  so and then when you go to the  configuration rule it has a mass detail  with the product rule  and then same goes with the custom  action condition  so uh discount schedule has none  but it has with you know look up uh with  other  uh  objects like account schedule price book  etc  now things get interesting when you uh  go to the  uh  the price side of things right  for price action you have the price rule  which is a master detail  um price condition has price rule  so you know  uh you have to be careful  uh when you build the data model right  so how to  uh refer another custom object in the  form of lookup or you know the master  details so i mean this is a pretty basic  admin stuff right but the reason why i'm  talking about this just to let you guys  know write different objects that's out  there and the different lookup  relationships that object shares with  another cbq custom object so  uh then we have price rule then we have  process input  uh which is not and i'm not concerned  about that for now all right so product  right product  which is the  main key  in cpq right so  um  does not have any lookup relationship  with any sorry master detail with any uh  custom object but it does has with this  lookup with discount category discount  schedule and product right so  um  which is very interesting and then you  have  um  with product action we have a massive  detail with the product  and then we have product feature which  has  um  none  um sorry when i say product action it  has a master detailed product rule  so a code document obviously will have  you know the master detail with the code  because obviously right  uh the code document is a child of the  code right if you look at that and if  you want it  so obviously when the code don't exist  the document makes no sense so in that  perspective  right and similarly the code line right  because codes are very important right  from a cpu perspective um  so  so the code  line cannot exist without a code right  so obviously it's a master detailed  relationship it's not a lookup  okay  so  we have codeline group it's pretty much  the same for the code group  subscription asset you know obviously  i know that we haven't talked about the  subscription yet we'll cover that  eventually over the course of time  because cp is a huge topic  um  and uh so i'll show you the things which  you have to cover the long way to go  right i know that you must be thinking  that i'm a bit slow yeah i understand a  bit slow  in making because like i said cpq is a  functional  uh certification and  i mean  i  usually enjoy covering more architects  and technical certification but in  saying so cpgs is a great one as well i  did enjoy covering uh service clar  right service cloud is one of my  favorite certification it's beautiful  it's amazing uh cbq i do love cpu i mean  i've implemented a couple of stuff at  the cpu i i enjoyed super good stuff but  you know there are certain things which  is when it gets extremely functional i  yeah it just makes me a little bit  uh  bored if i would say  because i love techno functional stuff  right combination about just pure  functional  i don't really enjoy it so but anyway  sorry digress  uh so subscription asset right so  subscription asset cannot exist without  subscription it's just a you know common  sense so  um then we have template content and  template section so  um so there are a lot of it i mean i  highly encourage you to go through it  read through it you know if you know  it's good to know i mean from example if  you you know you won't get asked much  but you know  it's good to know from an implementation  perspective right uh so you know if  someone talks about subscription you  shouldn't be jumping to say hey let's  create a new custom object when there is  already a subscription object that you  get along with the cpu right so you have  to uh so from that perspective it's  important to understand the data model  so i'm just covering purely based on  that  excuse me so that's pretty much i wanted  to cover today it's pretty simple i know  that it's nothing fancy you just you  know for your own reference please go  through it you know highly encourage it  okay so um i talked about a lot of  things you know mapping custom fields  i'll talk about this translation  translating cpu records i'm going to  talk about it there are a lot of things  to cover  group  uh bundle we're going to look at it uh  product rules we already done right so  we don't want to talk about that  uh product bundles product options  uh pricing we're gonna talk about it  discounting we're gonna talk about it um  price rules we're gonna talk about it  code we're gonna talk  yeah so  a lot of stuff we have and approval  processes we're gonna look at it as well  so yeah i mean it will be interesting so  and i would highly encourage you like i  said or always i say right i think i  might have said this like zillions of  times you should form a study group  right if you're preparing a loan it's  good to have a study partner right you  know with whom or you know you can  uh share your you know ideas your  opinions and you guys can work together  and it's good to have join a user group  because it's very handy it's always good  to you know get to know new stuff you  know you know different experience from  different people and also you know get  to meet new people so  that's one of my advice to anyone who is  new to salesforce but i presume if you  are  taking cpq you would have some  understanding of salesforce uh in saying  so that's pretty much i wanted to cover  thank you
+
+00:00:02,389 --> 00:00:03,909
+good everyone i hope you guys have an  amazing day so what i'm going to do  today right so i'll talk briefly about  the cpq object relationship so for  instance we take a product object and  so in that product object do you have  any master detail relationship with  another object or look up  relationship with another object so  i'm mostly going to talk from a cpq  perspective when you install cpq  different  custom objects get installed and  so those custom objects will have lookup  or master detail relationship uh between  other objects so it's like we're gonna  talk look at the data model so i'm gonna  explain it from a from a health  documentation because i don't want to  reinvent the wheel but in saying so the  data model is very important because in  my uh salesforce career i've seen you  know people doing crazy data models you  know which sometimes you know make no  sense to me so  um so uh from a cpk perspective it's  very important um so that you know you  might get tempted to you know in your  cpq implementation okay let me do  a master detail relationship with this  let me do much detailed relations  i mean you obviously don't want to end  up having a circular relationship right  so  uh it's very important you guys  understand that so um this is the the uh  the salesforce help documentation so i'm  gonna go walk you guys from here so we  have a lot of objects uh which is  associated with the cpq uh which special  um which comes handy uh when you're  doing cpu implementation so  say for instance right uh additional  document right so this is  um  if you look at this one if you go to  object manager um  so this documentation the additional  document does not contain any master uh  detail with any other custom objects or  standard objects for that matter  so it does have you know forget about  the user right it does have opportunity  uh or product code  uh all in the form of a uh lookup  relationship it also has  a template section and code  uh there's no master detail relationship  right so the same way it goes for  asset  it has a lookup relationship for code  line product and subscription the block  price  configuration attribute so  um  if you look at uh only the contracted  price  it has a lookup master detail with  account so if you look at  um  yeah this one  so if you look at it  it does have a master  detail relationship you can see that  with an account so which is cool  so and then when you go to the  configuration rule it has a mass detail  with the product rule  and then same goes with the custom  action condition  so uh discount schedule has none  but it has with you know look up uh with  other  uh  objects like account schedule price book  etc  now things get interesting when you uh  go to the  uh  the price side of things right  for price action you have the price rule  which is a master detail  um price condition has price rule  so you know  uh you have to be careful  uh when you build the data model right  so how to  uh refer another custom object in the  form of lookup or you know the master  details so i mean this is a pretty basic  admin stuff right but the reason why i'm  talking about this just to let you guys  know write different objects that's out  there and the different lookup  relationships that object shares with  another cbq custom object so  uh then we have price rule then we have  process input  uh which is not and i'm not concerned  about that for now all right so product  right product  which is the  main key  in cpq right so  um  does not have any lookup relationship  with any sorry master detail with any uh  custom object but it does has with this  lookup with discount category discount  schedule and product right so  um  which is very interesting and then you  have  um  with product action we have a massive  detail with the product  and then we have product feature which  has  um  none  um sorry when i say product action it  has a master detailed product rule  so a code document obviously will have  you know the master detail with the code  because obviously right  uh the code document is a child of the  code right if you look at that and if  you want it  so obviously when the code don't exist  the document makes no sense so in that  perspective  right and similarly the code line right  because codes are very important right  from a cpu perspective um  so  so the code  line cannot exist without a code right  so obviously it's a master detailed  relationship it's not a lookup  okay  so  we have codeline group it's pretty much  the same for the code group  subscription asset you know obviously  i know that we haven't talked about the  subscription yet we'll cover that  eventually over the course of time  because cp is a huge topic  um  and uh so i'll show you the things which  you have to cover the long way to go  right i know that you must be thinking  that i'm a bit slow yeah i understand a  bit slow  in making because like i said cpq is a  functional  uh certification and  i mean  i  usually enjoy covering more architects  and technical certification but in  saying so cpgs is a great one as well i  did enjoy covering uh service clar  right service cloud is one of my  favorite certification it's beautiful  it's amazing uh cbq i do love cpu i mean  i've implemented a couple of stuff at  the cpu i i enjoyed super good stuff but  you know there are certain things which  is when it gets extremely functional i  yeah it just makes me a little bit  uh  bored if i would say  because i love techno functional stuff  right combination about just pure  functional  i don't really enjoy it so but anyway  sorry digress  uh so subscription asset right so  subscription asset cannot exist without  subscription it's just a you know common  sense so  um then we have template content and  template section so  um so there are a lot of it i mean i  highly encourage you to go through it  read through it you know if you know  it's good to know i mean from example if  you you know you won't get asked much  but you know  it's good to know from an implementation  perspective right uh so you know if  someone talks about subscription you  shouldn't be jumping to say hey let's  create a new custom object when there is  already a subscription object that you  get along with the cpu right so you have  to uh so from that perspective it's  important to understand the data model  so i'm just covering purely based on  that  excuse me so that's pretty much i wanted  to cover today it's pretty simple i know  that it's nothing fancy you just you  know for your own reference please go  through it you know highly encourage it  okay so um i talked about a lot of  things you know mapping custom fields  i'll talk about this translation  translating cpu records i'm going to  talk about it there are a lot of things  to cover  group  uh bundle we're going to look at it uh  product rules we already done right so  we don't want to talk about that  uh product bundles product options  uh pricing we're gonna talk about it  discounting we're gonna talk about it um  price rules we're gonna talk about it  code we're gonna talk  yeah so  a lot of stuff we have and approval  processes we're gonna look at it as well  so yeah i mean it will be interesting so  and i would highly encourage you like i  said or always i say right i think i  might have said this like zillions of  times you should form a study group  right if you're preparing a loan it's  good to have a study partner right you  know with whom or you know you can  uh share your you know ideas your  opinions and you guys can work together  and it's good to have join a user group  because it's very handy it's always good  to you know get to know new stuff you  know you know different experience from  different people and also you know get  to meet new people so  that's one of my advice to anyone who is  new to salesforce but i presume if you  are  taking cpq you would have some  understanding of salesforce uh in saying  so that's pretty much i wanted to cover  thank you
+ 
+
+00:00:03,909 --> 00:00:06,630
+ 
+ 
+
+00:00:06,630 --> 00:00:09,350
+ 
+ 
+
+00:00:09,350 --> 00:00:12,549
+ 
+ 
+
+00:00:12,549 --> 00:00:14,390
+ 
+ 
+
+00:00:14,390 --> 00:00:16,150
+ 
+ 
+
+00:00:16,150 --> 00:00:18,150
+ 
+ 
+
+00:00:18,150 --> 00:00:20,630
+ 
+ 
+
+00:00:20,630 --> 00:00:23,670
+ 
+ 
+
+00:00:23,670 --> 00:00:25,349
+ 
+ 
+
+00:00:25,349 --> 00:00:25,359
+ 
+ 
+
+00:00:25,359 --> 00:00:26,790
+ 
+
+
+00:00:26,790 --> 00:00:30,150
+ 
+ 
+
+00:00:30,150 --> 00:00:32,790
+ 
+ 
+
+00:00:32,790 --> 00:00:35,430
+ 
+ 
+
+00:00:35,430 --> 00:00:37,350
+ 
+ 
+
+00:00:37,350 --> 00:00:39,350
+ 
+ 
+
+00:00:39,350 --> 00:00:41,510
+ 
+ 
+
+00:00:41,510 --> 00:00:43,110
+ 
+ 
+
+00:00:43,110 --> 00:00:45,350
+ 
+ 
+
+00:00:45,350 --> 00:00:48,069
+ 
+ 
+
+00:00:48,069 --> 00:00:50,630
+ 
+ 
+
+00:00:50,630 --> 00:00:53,029
+ 
+ 
+
+00:00:53,029 --> 00:00:55,029
+ 
+ 
+
+00:00:55,029 --> 00:00:56,470
+ 
+ 
+
+00:00:56,470 --> 00:01:00,310
+ 
+ 
+
+00:01:00,310 --> 00:01:02,470
+ 
+ 
+
+00:01:02,470 --> 00:01:04,310
+ 
+ 
+
+00:01:04,310 --> 00:01:07,350
+ 
+ 
+
+00:01:07,350 --> 00:01:09,429
+ 
+ 
+
+00:01:09,429 --> 00:01:11,590
+ 
+ 
+
+00:01:11,590 --> 00:01:14,070
+ 
+ 
+
+00:01:14,070 --> 00:01:16,230
+ 
+ 
+
+00:01:16,230 --> 00:01:16,240
+ 
+ 
+
+00:01:16,240 --> 00:01:17,350
+ 
+
+
+00:01:17,350 --> 00:01:19,190
+ 
+ 
+
+00:01:19,190 --> 00:01:22,310
+ 
+ 
+
+00:01:22,310 --> 00:01:24,550
+ 
+ 
+
+00:01:24,550 --> 00:01:27,510
+ 
+ 
+
+00:01:27,510 --> 00:01:29,270
+ 
+ 
+
+00:01:29,270 --> 00:01:31,990
+ 
+ 
+
+00:01:31,990 --> 00:01:35,510
+ 
+ 
+
+00:01:35,510 --> 00:01:38,069
+ 
+ 
+
+00:01:38,069 --> 00:01:40,550
+ 
+ 
+
+00:01:40,550 --> 00:01:42,469
+ 
+ 
+
+00:01:42,469 --> 00:01:42,479
+ 
+ 
+
+00:01:42,479 --> 00:01:43,510
+ 
+
+
+00:01:43,510 --> 00:01:44,870
+ 
+ 
+
+00:01:44,870 --> 00:01:47,429
+ 
+ 
+
+00:01:47,429 --> 00:01:49,749
+ 
+ 
+
+00:01:49,749 --> 00:01:52,469
+ 
+ 
+
+00:01:52,469 --> 00:01:55,109
+ 
+ 
+
+00:01:55,109 --> 00:01:56,950
+ 
+ 
+
+00:01:56,950 --> 00:01:59,510
+ 
+ 
+
+00:01:59,510 --> 00:02:01,749
+ 
+ 
+
+00:02:01,749 --> 00:02:04,630
+ 
+ 
+
+00:02:04,630 --> 00:02:06,950
+ 
+ 
+
+00:02:06,950 --> 00:02:09,510
+ 
+ 
+
+00:02:09,510 --> 00:02:11,430
+ 
+ 
+
+00:02:11,430 --> 00:02:13,910
+ 
+ 
+
+00:02:13,910 --> 00:02:17,190
+ 
+ 
+
+00:02:17,190 --> 00:02:17,200
+ 
+ 
+
+00:02:17,200 --> 00:02:18,309
+ 
+
+
+00:02:18,309 --> 00:02:20,390
+ 
+ 
+
+00:02:20,390 --> 00:02:22,550
+ 
+ 
+
+00:02:22,550 --> 00:02:22,560
+ 
+ 
+
+00:02:22,560 --> 00:02:24,150
+ 
+
+
+00:02:24,150 --> 00:02:26,550
+ 
+ 
+
+00:02:26,550 --> 00:02:26,560
+ 
+ 
+
+00:02:26,560 --> 00:02:27,350
+ 
+
+
+00:02:27,350 --> 00:02:30,470
+ 
+ 
+
+00:02:30,470 --> 00:02:30,480
+ 
+ 
+
+00:02:30,480 --> 00:02:31,430
+ 
+
+
+00:02:31,430 --> 00:02:33,509
+ 
+ 
+
+00:02:33,509 --> 00:02:41,350
+ 
+ 
+
+00:02:41,350 --> 00:02:41,360
+ 
+ 
+
+00:02:41,360 --> 00:02:43,270
+ 
+
+
+00:02:43,270 --> 00:02:44,949
+ 
+ 
+
+00:02:44,949 --> 00:02:47,430
+ 
+ 
+
+00:02:47,430 --> 00:02:49,190
+ 
+ 
+
+00:02:49,190 --> 00:02:51,750
+ 
+ 
+
+00:02:51,750 --> 00:02:56,550
+ 
+ 
+
+00:02:56,550 --> 00:02:58,710
+ 
+ 
+
+00:02:58,710 --> 00:03:01,030
+ 
+ 
+
+00:03:01,030 --> 00:03:03,110
+ 
+ 
+
+00:03:03,110 --> 00:03:05,750
+ 
+ 
+
+00:03:05,750 --> 00:03:07,509
+ 
+ 
+
+00:03:07,509 --> 00:03:10,149
+ 
+ 
+
+00:03:10,149 --> 00:03:12,949
+ 
+ 
+
+00:03:12,949 --> 00:03:12,959
+ 
+ 
+
+00:03:12,959 --> 00:03:13,990
+ 
+
+
+00:03:13,990 --> 00:03:14,000
+ 
+ 
+
+00:03:14,000 --> 00:03:14,869
+ 
+
+
+00:03:14,869 --> 00:03:17,910
+ 
+ 
+
+00:03:17,910 --> 00:03:17,920
+ 
+ 
+
+00:03:17,920 --> 00:03:19,910
+ 
+
+
+00:03:19,910 --> 00:03:22,070
+ 
+ 
+
+00:03:22,070 --> 00:03:24,070
+ 
+ 
+
+00:03:24,070 --> 00:03:24,080
+ 
+ 
+
+00:03:24,080 --> 00:03:25,670
+ 
+
+
+00:03:25,670 --> 00:03:28,149
+ 
+ 
+
+00:03:28,149 --> 00:03:31,350
+ 
+ 
+
+00:03:31,350 --> 00:03:33,430
+ 
+ 
+
+00:03:33,430 --> 00:03:36,869
+ 
+ 
+
+00:03:36,869 --> 00:03:38,789
+ 
+ 
+
+00:03:38,789 --> 00:03:41,270
+ 
+ 
+
+00:03:41,270 --> 00:03:43,589
+ 
+ 
+
+00:03:43,589 --> 00:03:45,350
+ 
+ 
+
+00:03:45,350 --> 00:03:48,309
+ 
+ 
+
+00:03:48,309 --> 00:03:50,149
+ 
+ 
+
+00:03:50,149 --> 00:03:52,070
+ 
+ 
+
+00:03:52,070 --> 00:03:54,309
+ 
+ 
+
+00:03:54,309 --> 00:03:56,309
+ 
+ 
+
+00:03:56,309 --> 00:03:57,830
+ 
+ 
+
+00:03:57,830 --> 00:03:59,270
+ 
+ 
+
+00:03:59,270 --> 00:04:01,190
+ 
+ 
+
+00:04:01,190 --> 00:04:04,630
+ 
+ 
+
+00:04:04,630 --> 00:04:06,390
+ 
+ 
+
+00:04:06,390 --> 00:04:08,470
+ 
+ 
+
+00:04:08,470 --> 00:04:10,070
+ 
+ 
+
+00:04:10,070 --> 00:04:12,149
+ 
+ 
+
+00:04:12,149 --> 00:04:13,670
+ 
+ 
+
+00:04:13,670 --> 00:04:15,030
+ 
+ 
+
+00:04:15,030 --> 00:04:16,229
+ 
+ 
+
+00:04:16,229 --> 00:04:18,390
+ 
+ 
+
+00:04:18,390 --> 00:04:18,400
+ 
+ 
+
+00:04:18,400 --> 00:04:19,430
+ 
+
+
+00:04:19,430 --> 00:04:20,949
+ 
+ 
+
+00:04:20,949 --> 00:04:23,990
+ 
+ 
+
+00:04:23,990 --> 00:04:26,710
+ 
+ 
+
+00:04:26,710 --> 00:04:28,950
+ 
+ 
+
+00:04:28,950 --> 00:04:32,310
+ 
+ 
+
+00:04:32,310 --> 00:04:32,320
+ 
+ 
+
+00:04:32,320 --> 00:04:33,350
+ 
+
+
+00:04:33,350 --> 00:04:35,350
+ 
+ 
+
+00:04:35,350 --> 00:04:35,360
+ 
+ 
+
+00:04:35,360 --> 00:04:36,950
+ 
+
+
+00:04:36,950 --> 00:04:36,960
+ 
+ 
+
+00:04:36,960 --> 00:04:38,230
+ 
+
+
+00:04:38,230 --> 00:04:40,790
+ 
+ 
+
+00:04:40,790 --> 00:04:42,390
+ 
+ 
+
+00:04:42,390 --> 00:04:44,230
+ 
+ 
+
+00:04:44,230 --> 00:04:44,240
+ 
+ 
+
+00:04:44,240 --> 00:04:45,830
+ 
+
+
+00:04:45,830 --> 00:04:45,840
+ 
+ 
+
+00:04:45,840 --> 00:04:46,790
+ 
+
+
+00:04:46,790 --> 00:04:46,800
+ 
+ 
+
+00:04:46,800 --> 00:04:48,390
+ 
+
+
+00:04:48,390 --> 00:04:50,469
+ 
+ 
+
+00:04:50,469 --> 00:04:52,710
+ 
+ 
+
+00:04:52,710 --> 00:04:55,749
+ 
+ 
+
+00:04:55,749 --> 00:04:57,990
+ 
+ 
+
+00:04:57,990 --> 00:04:59,590
+ 
+ 
+
+00:04:59,590 --> 00:05:01,749
+ 
+ 
+
+00:05:01,749 --> 00:05:03,350
+ 
+ 
+
+00:05:03,350 --> 00:05:04,390
+ 
+ 
+
+00:05:04,390 --> 00:05:05,990
+ 
+ 
+
+00:05:05,990 --> 00:05:07,749
+ 
+ 
+
+00:05:07,749 --> 00:05:07,759
+ 
+ 
+
+00:05:07,759 --> 00:05:08,870
+ 
+
+
+00:05:08,870 --> 00:05:10,790
+ 
+ 
+
+00:05:10,790 --> 00:05:13,029
+ 
+ 
+
+00:05:13,029 --> 00:05:15,350
+ 
+ 
+
+00:05:15,350 --> 00:05:15,360
+ 
+ 
+
+00:05:15,360 --> 00:05:16,390
+ 
+
+
+00:05:16,390 --> 00:05:18,390
+ 
+ 
+
+00:05:18,390 --> 00:05:20,150
+ 
+ 
+
+00:05:20,150 --> 00:05:21,590
+ 
+ 
+
+00:05:21,590 --> 00:05:27,749
+ 
+ 
+
+00:05:27,749 --> 00:05:27,759
+ 
+ 
+
+00:05:27,759 --> 00:05:28,710
+ 
+
+
+00:05:28,710 --> 00:05:28,720
+ 
+ 
+
+00:05:28,720 --> 00:05:30,150
+ 
+
+
+00:05:30,150 --> 00:05:31,909
+ 
+ 
+
+00:05:31,909 --> 00:05:33,990
+ 
+ 
+
+00:05:33,990 --> 00:05:37,029
+ 
+ 
+
+00:05:37,029 --> 00:05:38,230
+ 
+ 
+
+00:05:38,230 --> 00:05:40,150
+ 
+ 
+
+00:05:40,150 --> 00:05:41,350
+ 
+ 
+
+00:05:41,350 --> 00:05:43,350
+ 
+ 
+
+00:05:43,350 --> 00:05:43,360
+ 
+ 
+
+00:05:43,360 --> 00:05:44,310
+ 
+
+
+00:05:44,310 --> 00:05:47,110
+ 
+ 
+
+00:05:47,110 --> 00:05:48,390
+ 
+ 
+
+00:05:48,390 --> 00:05:49,990
+ 
+ 
+
+00:05:49,990 --> 00:05:51,749
+ 
+ 
+
+00:05:51,749 --> 00:05:53,189
+ 
+ 
+
+00:05:53,189 --> 00:05:55,350
+ 
+ 
+
+00:05:55,350 --> 00:05:55,360
+ 
+ 
+
+00:05:55,360 --> 00:05:56,469
+ 
+
+
+00:05:56,469 --> 00:05:58,950
+ 
+ 
+
+00:05:58,950 --> 00:05:59,909
+ 
+ 
+
+00:05:59,909 --> 00:05:59,919
+ 
+ 
+
+00:05:59,919 --> 00:06:00,710
+ 
+
+
+00:06:00,710 --> 00:06:03,350
+ 
+ 
+
+00:06:03,350 --> 00:06:05,749
+ 
+ 
+
+00:06:05,749 --> 00:06:08,070
+ 
+ 
+
+00:06:08,070 --> 00:06:11,430
+ 
+ 
+
+00:06:11,430 --> 00:06:12,950
+ 
+ 
+
+00:06:12,950 --> 00:06:14,390
+ 
+ 
+
+00:06:14,390 --> 00:06:17,749
+ 
+ 
+
+00:06:17,749 --> 00:06:19,350
+ 
+ 
+
+00:06:19,350 --> 00:06:22,550
+ 
+ 
+
+00:06:22,550 --> 00:06:23,909
+ 
+ 
+
+00:06:23,909 --> 00:06:26,710
+ 
+ 
+
+00:06:26,710 --> 00:06:28,870
+ 
+ 
+
+00:06:28,870 --> 00:06:28,880
+ 
+ 
+
+00:06:28,880 --> 00:06:30,870
+ 
+
+
+00:06:30,870 --> 00:06:33,029
+ 
+ 
+
+00:06:33,029 --> 00:06:34,710
+ 
+ 
+
+00:06:34,710 --> 00:06:36,710
+ 
+ 
+
+00:06:36,710 --> 00:06:36,720
+ 
+ 
+
+00:06:36,720 --> 00:06:37,670
+ 
+
+
+00:06:37,670 --> 00:06:39,749
+ 
+ 
+
+00:06:39,749 --> 00:06:41,189
+ 
+ 
+
+00:06:41,189 --> 00:06:43,350
+ 
+ 
+
+00:06:43,350 --> 00:06:45,510
+ 
+ 
+
+00:06:45,510 --> 00:06:47,670
+ 
+ 
+
+00:06:47,670 --> 00:06:48,790
+ 
+ 
+
+00:06:48,790 --> 00:06:51,029
+ 
+ 
+
+00:06:51,029 --> 00:06:52,629
+ 
+ 
+
+00:06:52,629 --> 00:06:54,870
+ 
+ 
+
+00:06:54,870 --> 00:06:56,150
+ 
+ 
+
+00:06:56,150 --> 00:06:58,230
+ 
+ 
+
+00:06:58,230 --> 00:07:00,469
+ 
+ 
+
+00:07:00,469 --> 00:07:02,870
+ 
+ 
+
+00:07:02,870 --> 00:07:04,230
+ 
+ 
+
+00:07:04,230 --> 00:07:05,909
+ 
+ 
+
+00:07:05,909 --> 00:07:08,469
+ 
+ 
+
+00:07:08,469 --> 00:07:10,230
+ 
+ 
+
+00:07:10,230 --> 00:07:11,749
+ 
+ 
+
+00:07:11,749 --> 00:07:13,270
+ 
+ 
+
+00:07:13,270 --> 00:07:15,189
+ 
+ 
+
+00:07:15,189 --> 00:07:17,670
+ 
+ 
+
+00:07:17,670 --> 00:07:20,309
+ 
+ 
+
+00:07:20,309 --> 00:07:21,830
+ 
+ 
+
+00:07:21,830 --> 00:07:23,430
+ 
+ 
+
+00:07:23,430 --> 00:07:23,440
+ 
+ 
+
+00:07:23,440 --> 00:07:24,390
+ 
+
+
+00:07:24,390 --> 00:07:26,550
+ 
+ 
+
+00:07:26,550 --> 00:07:28,629
+ 
+ 
+
+00:07:28,629 --> 00:07:30,469
+ 
+ 
+
+00:07:30,469 --> 00:07:32,070
+ 
+ 
+
+00:07:32,070 --> 00:07:34,550
+ 
+ 
+
+00:07:34,550 --> 00:07:37,430
+ 
+ 
+
+00:07:37,430 --> 00:07:39,909
+ 
+ 
+
+00:07:39,909 --> 00:07:42,070
+ 
+ 
+
+00:07:42,070 --> 00:07:43,909
+ 
+ 
+
+00:07:43,909 --> 00:07:44,950
+ 
+ 
+
+00:07:44,950 --> 00:07:45,909
+ 
+ 
+
+00:07:45,909 --> 00:07:45,919
+ 
+ 
+
+00:07:45,919 --> 00:07:46,710
+ 
+
+
+00:07:46,710 --> 00:07:48,950
+ 
+ 
+
+00:07:48,950 --> 00:07:50,950
+ 
+ 
+
+00:07:50,950 --> 00:07:52,710
+ 
+ 
+
+00:07:52,710 --> 00:07:56,230
+ 
+ 
+
+00:07:56,230 --> 00:07:57,749
+ 
+ 
+
+00:07:57,749 --> 00:08:00,150
+ 
+ 
+
+00:08:00,150 --> 00:08:01,830
+ 
+ 
+
+00:08:01,830 --> 00:08:04,070
+ 
+ 
+
+00:08:04,070 --> 00:08:05,430
+ 
+ 
+
+00:08:05,430 --> 00:08:07,749
+ 
+ 
+
+00:08:07,749 --> 00:08:10,629
+ 
+ 
+
+00:08:10,629 --> 00:08:13,110
+ 
+ 
+
+00:08:13,110 --> 00:08:14,710
+ 
+ 
+
+00:08:14,710 --> 00:08:17,350
+ 
+ 
+
+00:08:17,350 --> 00:08:18,710
+ 
+ 
+
+00:08:18,710 --> 00:08:20,710
+ 
+ 
+
+00:08:20,710 --> 00:08:23,110
+ 
+ 
+
+00:08:23,110 --> 00:08:25,189
+ 
+ 
+
+00:08:25,189 --> 00:08:27,670
+ 
+ 
+
+00:08:27,670 --> 00:08:29,990
+ 
+ 
+
+00:08:29,990 --> 00:08:32,469
+ 
+ 
+
+00:08:32,469 --> 00:08:34,389
+ 
+ 
+
+00:08:34,389 --> 00:08:36,630
+ 
+ 
+
+00:08:36,630 --> 00:08:38,949
+ 
+ 
+
+00:08:38,949 --> 00:08:41,829
+ 
+ 
+
+00:08:41,829 --> 00:08:43,589
+ 
+ 
+
+00:08:43,589 --> 00:08:45,509
+ 
+ 
+
+00:08:45,509 --> 00:08:48,550
+ 
+ 
+
+00:08:48,550 --> 00:08:51,030
+ 
+ 
+
+00:08:51,030 --> 00:08:51,040
+ 
+ 
+
+00:08:51,040 --> 00:08:51,829
+ 
+
+
+00:08:51,829 --> 00:08:53,750
+ 
+ 
+
+00:08:53,750 --> 00:08:56,070
+ 
+ 
+
+00:08:56,070 --> 00:08:58,310
+ 
+ 
+
+00:08:58,310 --> 00:09:01,480
+ 
+ 
+

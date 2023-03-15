@@ -1,0 +1,1597 @@
+
+00:00:00,719 --> 00:00:02,629
+ 
+good everyone i hope you guys have an  amazing day so today what i'm gonna do i  will talk about  uh optional pricing  uh in a product bundle so uh if you  remember i discussed and i've  demonstrated how to create a product  bundle right  um so i'm going to use the same example  uh samsung phone  and i'll demonstrate how the optional  pricing works so the the concept is  pretty simple right so for instance um  you want to buy  you know samsung phone and when you buy  a samsung phone you will get  you know samsung watch  um and other stuff right if you if  you're buying it as a part of a bundle  you will get samsung  watch for say 150 bucks  uh but if you're not buying as a bundle  if you wanted to buy that as a separate  uh  product then  uh not as a part of a bundle then you  might end up paying  uh say 200 bucks so that is  a kind of uh  model some companies follow you might  have seen right hey you can buy you know  this laptop and you know you buy xyz  stuff along with that you will get it  you know for a cheaper price but if you  wanted to buy that product in an  individual way uh not as a part of a  bundle you might end up in paying more  so this is something excuse me a pretty  simple concept and i'll show you how to  implement it it's just you know just a  few clicks okay so what i'll do  i'll demonstrate how it works uh in a  normal scenario  um so  right now the product prices are same  so it won't make much difference so  if you if i go to the cpq  come on  that's pretty strange  let me refresh it  okay  let's put it okay  sales from  cpq um  and i'll go to the product right  so i will pick the same product samsung  yeah  and we have a different options here  right so we have  samsung watch so if i go to samsung  watch  okay  and if i look at the price book it will  cost you 250 bucks excuse me right so  now if i go to  a code  right and if i try to add  say  edit lines  yeah  yeah it's taking longer  all right  i don't know why it's taking longer  today sometimes  yeah  okay all right so if i go here and  delete the lines  and  if i add product  and if you go to  samsung phone  okay  i just select yes  okay so you got one four five zero  because 1200 is the price of a phone  uh and 250 is the price of the watch now  you must be wondering okay so that's  fine  why i'm not seeing the price for  uh you know the 512 gb ram or the black  phone case why it's not showing okay so  the reason why it's not showing if you  go to the product  uh and if you go to the  the say samsung phone  right  and if you go to  options that's exactly where i wanted to  go whenever it's ready so if i go to  say  [Music]  the case right  so samsung phone case  uh  not this one sorry  i wanted to go to the feature so if i go  to the samsung phone case  if you scroll down you will see that the  bundled option is ticked so when you  tick that option right you're telling to  cpq right hey  i'm happy to be considered uh  to be part of the main product so that  means that my price will be zero and my  price will be  you know will be mixed with  the main price so so what that means is  that let's say your main  product price is say 20 bucks and if you  tick this option and even if you mark  this product to be sold for say 30 bucks  so your total bundle price will be total  because you said okay my price should be  you know whatever the the main product  prices so  if i untick it  right so if i untick it  and  black phone case right  for untick it  and i save it you will see that the  price of the black phone will be  included as well okay so just wanted to  demonstrate that first yeah  and then we'll look into how to  uh add an optional price to the product  bundle  okay so i go to the  um  okay yeah as you can see it's pretty  slow today i don't know why  sometimes salesforce acts very slow  it's not a fault of my internet though  if that's what you're thinking my  internet is pretty fast i can do you  know when i access other sites it's  pretty fast it's just a sales force  um  but anyways  okay go to edit lines um  and  i'll take this off okay i just wanted to  start with a clean slate uh just delete  lines  um  yeah  right seconds on time  this is sometimes you will have issue  with the sas product right because you  don't really have control on the  infrastructure how it's it's all up to  the sales force you blindly trust  salesforce with the assumption that they  will do the job properly i presume that  they're doing it but sometimes you know  for whatever reason um okay add products  uh and then you go to  samsung phone  and then select  phone case just choosing the black  okay and it will show a different price  okay so the phone case was 20 bucks so  from one four uh seven zero to twenty  okay now i wanted to  uh  do an optional pricing okay so what i'll  do i'll go to the product okay so you've  seen that i have samsung watch  right  and  the samsung watch  um  if i go here  the price book  the standard price is 250 bucks okay  now i wanted to give it for 200 bucks if  you're since we're selling it as a part  of a bundle now how to do that is pretty  simple  uh you don't have to you know  do much  on the product side uh just go to the  main product  which is a samsung phone  uh and  okay  and go to options and i'll go to the  samsung watch  yeah  and what i'll do i will edit this yeah  and there is something called unit price  okay so i will add 200 bucks okay  and  and i'll save it that's pretty much it  and i'll go to the code  and  i'll just refresh the screen  just in case  and i'll go to the code  and i will say okay  go to the edit lines  and i'll remove this one yeah um i'm  just gonna do delete lines  and i will say add product  uh samsung phone  so last time we've seen the price to be  around one four  seven zero that is 1200 for the price of  their  uh phone uh 250 for the price of the  watch and 20 bucks for the price of the  case so in this case we are giving uh 50  bucks off right so it should it will be  uh one four two zero  yeah  let's see  okay  right it's gonna take your time i  yeah  it's not really my fault  it just i can't help it so  all right so 1420 right  okay so that's the optional pricing  right so  that's  how you implement it okay now if i want  to add say i'll delete this one right  um three lines and if i want to add just  a  uh  watch  you will see the the price  it will be 250  um samsung so just look for samsung  yeah so  it will be watch  yeah  select  right it's taking some time  i mean  okay so 250 bucks right so  you know i mean you can implement this i  mean but it just depends on your  business scenario right you know depends  upon you on the client request and what  they're after their business process  so yeah this is a pretty simple and  interesting feature right you know as  you can see i did this like in five  minutes  so cpk makes the life uh you know  of you know when of a consultant or as  well as the customer pretty easy  uh you know they make it a lot of  options are out of box right you don't  have to really  go and you know build a lot of  customization you can do a lot of stuff  uh you know  as you know like as an outer box  functionality  uh but that's why i really enjoy doing  cpq cpq yes you know like i'm like you  know i often tell people right i there  are certain things i don't enjoy right  like i'm not a 100 functional guy i  don't like doing a role of a ba business  analyst that's i find it extremely  boring  i like the role where it involves techno  function right or pure technical so  functionality is very important right if  you're an architect it's very important  you understand the business process and  um  and  and the functionality  of what you wanted to implement as well  as you should be able to do proof of  concept right so it's a mix of both  right it's the best of both worlds i  would say  but if you are a functional architect  then  i'm not really a functional architect  right  so that's the reason why but people are  different right you might say hey i find  the you know the business analyst role  to be  the most challenging and most rewarding  that's fine that's good for you right  that's your forte that's your calling  and for me  that's  kind of role i want shy and i won't do  well right so  i mean i i need my daily dose of some  tech stuff right  i cannot do fully functional you know  eight hours a day that just it's not  gonna work for me very well so that's  why i try to do hands-on you know even  you know i'm an architect i still try to  get involved in the coding because i  love doing programming you know whenever  i get a chance it's  you know  it's fantastic right it's just  this is amazing so that that's something  i really enjoy doing it so all right so  that's pretty much i wanted to talk  about in this episode i hope you enjoyed  it it's pretty simple  uh you know i would highly encourage you  to try it out you know uh to see how it  goes right um if you have any questions  or comments just yeah you know questions  just leave the comment below right  um so i i'll try to answer as much as i  can  but sometimes people ask different  questions and you know i try to reply  and i do get a request to do this  different things i try to do that right  i'm with all due respect you know i like  your questions and i don't consider any  question as a bad question i really  appreciate that you're asking questions  and whenever i get an opportunity i'll  try to answer it and if if it's not too  time consuming i will implement it and  demonstrate it right so that's all i  wanted to  convey so that being said i hope you  guys  have an amazing thursday adios
+
+00:00:02,629 --> 00:00:04,630
+good everyone i hope you guys have an  amazing day so today what i'm gonna do i  will talk about  uh optional pricing  uh in a product bundle so uh if you  remember i discussed and i've  demonstrated how to create a product  bundle right  um so i'm going to use the same example  uh samsung phone  and i'll demonstrate how the optional  pricing works so the the concept is  pretty simple right so for instance um  you want to buy  you know samsung phone and when you buy  a samsung phone you will get  you know samsung watch  um and other stuff right if you if  you're buying it as a part of a bundle  you will get samsung  watch for say 150 bucks  uh but if you're not buying as a bundle  if you wanted to buy that as a separate  uh  product then  uh not as a part of a bundle then you  might end up paying  uh say 200 bucks so that is  a kind of uh  model some companies follow you might  have seen right hey you can buy you know  this laptop and you know you buy xyz  stuff along with that you will get it  you know for a cheaper price but if you  wanted to buy that product in an  individual way uh not as a part of a  bundle you might end up in paying more  so this is something excuse me a pretty  simple concept and i'll show you how to  implement it it's just you know just a  few clicks okay so what i'll do  i'll demonstrate how it works uh in a  normal scenario  um so  right now the product prices are same  so it won't make much difference so  if you if i go to the cpq  come on  that's pretty strange  let me refresh it  okay  let's put it okay  sales from  cpq um  and i'll go to the product right  so i will pick the same product samsung  yeah  and we have a different options here  right so we have  samsung watch so if i go to samsung  watch  okay  and if i look at the price book it will  cost you 250 bucks excuse me right so  now if i go to  a code  right and if i try to add  say  edit lines  yeah  yeah it's taking longer  all right  i don't know why it's taking longer  today sometimes  yeah  okay all right so if i go here and  delete the lines  and  if i add product  and if you go to  samsung phone  okay  i just select yes  okay so you got one four five zero  because 1200 is the price of a phone  uh and 250 is the price of the watch now  you must be wondering okay so that's  fine  why i'm not seeing the price for  uh you know the 512 gb ram or the black  phone case why it's not showing okay so  the reason why it's not showing if you  go to the product  uh and if you go to the  the say samsung phone  right  and if you go to  options that's exactly where i wanted to  go whenever it's ready so if i go to  say  [Music]  the case right  so samsung phone case  uh  not this one sorry  i wanted to go to the feature so if i go  to the samsung phone case  if you scroll down you will see that the  bundled option is ticked so when you  tick that option right you're telling to  cpq right hey  i'm happy to be considered uh  to be part of the main product so that  means that my price will be zero and my  price will be  you know will be mixed with  the main price so so what that means is  that let's say your main  product price is say 20 bucks and if you  tick this option and even if you mark  this product to be sold for say 30 bucks  so your total bundle price will be total  because you said okay my price should be  you know whatever the the main product  prices so  if i untick it  right so if i untick it  and  black phone case right  for untick it  and i save it you will see that the  price of the black phone will be  included as well okay so just wanted to  demonstrate that first yeah  and then we'll look into how to  uh add an optional price to the product  bundle  okay so i go to the  um  okay yeah as you can see it's pretty  slow today i don't know why  sometimes salesforce acts very slow  it's not a fault of my internet though  if that's what you're thinking my  internet is pretty fast i can do you  know when i access other sites it's  pretty fast it's just a sales force  um  but anyways  okay go to edit lines um  and  i'll take this off okay i just wanted to  start with a clean slate uh just delete  lines  um  yeah  right seconds on time  this is sometimes you will have issue  with the sas product right because you  don't really have control on the  infrastructure how it's it's all up to  the sales force you blindly trust  salesforce with the assumption that they  will do the job properly i presume that  they're doing it but sometimes you know  for whatever reason um okay add products  uh and then you go to  samsung phone  and then select  phone case just choosing the black  okay and it will show a different price  okay so the phone case was 20 bucks so  from one four uh seven zero to twenty  okay now i wanted to  uh  do an optional pricing okay so what i'll  do i'll go to the product okay so you've  seen that i have samsung watch  right  and  the samsung watch  um  if i go here  the price book  the standard price is 250 bucks okay  now i wanted to give it for 200 bucks if  you're since we're selling it as a part  of a bundle now how to do that is pretty  simple  uh you don't have to you know  do much  on the product side uh just go to the  main product  which is a samsung phone  uh and  okay  and go to options and i'll go to the  samsung watch  yeah  and what i'll do i will edit this yeah  and there is something called unit price  okay so i will add 200 bucks okay  and  and i'll save it that's pretty much it  and i'll go to the code  and  i'll just refresh the screen  just in case  and i'll go to the code  and i will say okay  go to the edit lines  and i'll remove this one yeah um i'm  just gonna do delete lines  and i will say add product  uh samsung phone  so last time we've seen the price to be  around one four  seven zero that is 1200 for the price of  their  uh phone uh 250 for the price of the  watch and 20 bucks for the price of the  case so in this case we are giving uh 50  bucks off right so it should it will be  uh one four two zero  yeah  let's see  okay  right it's gonna take your time i  yeah  it's not really my fault  it just i can't help it so  all right so 1420 right  okay so that's the optional pricing  right so  that's  how you implement it okay now if i want  to add say i'll delete this one right  um three lines and if i want to add just  a  uh  watch  you will see the the price  it will be 250  um samsung so just look for samsung  yeah so  it will be watch  yeah  select  right it's taking some time  i mean  okay so 250 bucks right so  you know i mean you can implement this i  mean but it just depends on your  business scenario right you know depends  upon you on the client request and what  they're after their business process  so yeah this is a pretty simple and  interesting feature right you know as  you can see i did this like in five  minutes  so cpk makes the life uh you know  of you know when of a consultant or as  well as the customer pretty easy  uh you know they make it a lot of  options are out of box right you don't  have to really  go and you know build a lot of  customization you can do a lot of stuff  uh you know  as you know like as an outer box  functionality  uh but that's why i really enjoy doing  cpq cpq yes you know like i'm like you  know i often tell people right i there  are certain things i don't enjoy right  like i'm not a 100 functional guy i  don't like doing a role of a ba business  analyst that's i find it extremely  boring  i like the role where it involves techno  function right or pure technical so  functionality is very important right if  you're an architect it's very important  you understand the business process and  um  and  and the functionality  of what you wanted to implement as well  as you should be able to do proof of  concept right so it's a mix of both  right it's the best of both worlds i  would say  but if you are a functional architect  then  i'm not really a functional architect  right  so that's the reason why but people are  different right you might say hey i find  the you know the business analyst role  to be  the most challenging and most rewarding  that's fine that's good for you right  that's your forte that's your calling  and for me  that's  kind of role i want shy and i won't do  well right so  i mean i i need my daily dose of some  tech stuff right  i cannot do fully functional you know  eight hours a day that just it's not  gonna work for me very well so that's  why i try to do hands-on you know even  you know i'm an architect i still try to  get involved in the coding because i  love doing programming you know whenever  i get a chance it's  you know  it's fantastic right it's just  this is amazing so that that's something  i really enjoy doing it so all right so  that's pretty much i wanted to talk  about in this episode i hope you enjoyed  it it's pretty simple  uh you know i would highly encourage you  to try it out you know uh to see how it  goes right um if you have any questions  or comments just yeah you know questions  just leave the comment below right  um so i i'll try to answer as much as i  can  but sometimes people ask different  questions and you know i try to reply  and i do get a request to do this  different things i try to do that right  i'm with all due respect you know i like  your questions and i don't consider any  question as a bad question i really  appreciate that you're asking questions  and whenever i get an opportunity i'll  try to answer it and if if it's not too  time consuming i will implement it and  demonstrate it right so that's all i  wanted to  convey so that being said i hope you  guys  have an amazing thursday adios
+ 
+
+00:00:04,630 --> 00:00:06,470
+ 
+ 
+
+00:00:06,470 --> 00:00:08,549
+ 
+ 
+
+00:00:08,549 --> 00:00:11,270
+ 
+ 
+
+00:00:11,270 --> 00:00:14,150
+ 
+ 
+
+00:00:14,150 --> 00:00:15,669
+ 
+ 
+
+00:00:15,669 --> 00:00:16,870
+ 
+ 
+
+00:00:16,870 --> 00:00:19,269
+ 
+ 
+
+00:00:19,269 --> 00:00:21,109
+ 
+ 
+
+00:00:21,109 --> 00:00:22,870
+ 
+ 
+
+00:00:22,870 --> 00:00:24,630
+ 
+ 
+
+00:00:24,630 --> 00:00:27,830
+ 
+ 
+
+00:00:27,830 --> 00:00:29,669
+ 
+ 
+
+00:00:29,669 --> 00:00:31,830
+ 
+ 
+
+00:00:31,830 --> 00:00:34,069
+ 
+ 
+
+00:00:34,069 --> 00:00:35,830
+ 
+ 
+
+00:00:35,830 --> 00:00:37,990
+ 
+ 
+
+00:00:37,990 --> 00:00:40,389
+ 
+ 
+
+00:00:40,389 --> 00:00:42,389
+ 
+ 
+
+00:00:42,389 --> 00:00:46,150
+ 
+ 
+
+00:00:46,150 --> 00:00:47,990
+ 
+ 
+
+00:00:47,990 --> 00:00:51,270
+ 
+ 
+
+00:00:51,270 --> 00:00:51,280
+ 
+ 
+
+00:00:51,280 --> 00:00:52,069
+ 
+
+
+00:00:52,069 --> 00:00:53,270
+ 
+ 
+
+00:00:53,270 --> 00:00:55,029
+ 
+ 
+
+00:00:55,029 --> 00:00:56,869
+ 
+ 
+
+00:00:56,869 --> 00:01:00,069
+ 
+ 
+
+00:01:00,069 --> 00:01:01,990
+ 
+ 
+
+00:01:01,990 --> 00:01:04,070
+ 
+ 
+
+00:01:04,070 --> 00:01:06,550
+ 
+ 
+
+00:01:06,550 --> 00:01:09,190
+ 
+ 
+
+00:01:09,190 --> 00:01:10,550
+ 
+ 
+
+00:01:10,550 --> 00:01:12,630
+ 
+ 
+
+00:01:12,630 --> 00:01:14,950
+ 
+ 
+
+00:01:14,950 --> 00:01:17,429
+ 
+ 
+
+00:01:17,429 --> 00:01:19,270
+ 
+ 
+
+00:01:19,270 --> 00:01:22,870
+ 
+ 
+
+00:01:22,870 --> 00:01:25,030
+ 
+ 
+
+00:01:25,030 --> 00:01:27,429
+ 
+ 
+
+00:01:27,429 --> 00:01:31,030
+ 
+ 
+
+00:01:31,030 --> 00:01:32,950
+ 
+ 
+
+00:01:32,950 --> 00:01:34,630
+ 
+ 
+
+00:01:34,630 --> 00:01:36,630
+ 
+ 
+
+00:01:36,630 --> 00:01:39,109
+ 
+ 
+
+00:01:39,109 --> 00:01:41,749
+ 
+ 
+
+00:01:41,749 --> 00:01:44,950
+ 
+ 
+
+00:01:44,950 --> 00:01:46,870
+ 
+ 
+
+00:01:46,870 --> 00:01:49,749
+ 
+ 
+
+00:01:49,749 --> 00:01:57,429
+ 
+ 
+
+00:01:57,429 --> 00:01:57,439
+ 
+ 
+
+00:01:57,439 --> 00:02:01,190
+ 
+
+
+00:02:01,190 --> 00:02:02,789
+ 
+ 
+
+00:02:02,789 --> 00:02:05,149
+ 
+ 
+
+00:02:05,149 --> 00:02:09,350
+ 
+ 
+
+00:02:09,350 --> 00:02:15,110
+ 
+ 
+
+00:02:15,110 --> 00:02:18,150
+ 
+ 
+
+00:02:18,150 --> 00:02:18,160
+ 
+ 
+
+00:02:18,160 --> 00:02:19,190
+ 
+
+
+00:02:19,190 --> 00:02:22,869
+ 
+ 
+
+00:02:22,869 --> 00:02:24,550
+ 
+ 
+
+00:02:24,550 --> 00:02:26,470
+ 
+ 
+
+00:02:26,470 --> 00:02:26,480
+ 
+ 
+
+00:02:26,480 --> 00:02:27,350
+ 
+
+
+00:02:27,350 --> 00:02:27,360
+ 
+ 
+
+00:02:27,360 --> 00:02:28,390
+ 
+
+
+00:02:28,390 --> 00:02:30,550
+ 
+ 
+
+00:02:30,550 --> 00:02:34,309
+ 
+ 
+
+00:02:34,309 --> 00:02:36,470
+ 
+ 
+
+00:02:36,470 --> 00:02:39,030
+ 
+ 
+
+00:02:39,030 --> 00:02:42,790
+ 
+ 
+
+00:02:42,790 --> 00:02:42,800
+ 
+ 
+
+00:02:42,800 --> 00:02:43,670
+ 
+
+
+00:02:43,670 --> 00:02:49,350
+ 
+ 
+
+00:02:49,350 --> 00:02:49,360
+ 
+ 
+
+00:02:49,360 --> 00:02:52,150
+ 
+
+
+00:02:52,150 --> 00:02:57,830
+ 
+ 
+
+00:02:57,830 --> 00:02:59,190
+ 
+ 
+
+00:02:59,190 --> 00:03:00,390
+ 
+ 
+
+00:03:00,390 --> 00:03:02,790
+ 
+ 
+
+00:03:02,790 --> 00:03:02,800
+ 
+ 
+
+00:03:02,800 --> 00:03:03,750
+ 
+
+
+00:03:03,750 --> 00:03:06,229
+ 
+ 
+
+00:03:06,229 --> 00:03:07,750
+ 
+ 
+
+00:03:07,750 --> 00:03:07,760
+ 
+ 
+
+00:03:07,760 --> 00:03:09,110
+ 
+
+
+00:03:09,110 --> 00:03:12,470
+ 
+ 
+
+00:03:12,470 --> 00:03:15,350
+ 
+ 
+
+00:03:15,350 --> 00:03:18,630
+ 
+ 
+
+00:03:18,630 --> 00:03:18,640
+ 
+ 
+
+00:03:18,640 --> 00:03:21,430
+ 
+
+
+00:03:21,430 --> 00:03:26,149
+ 
+ 
+
+00:03:26,149 --> 00:03:28,550
+ 
+ 
+
+00:03:28,550 --> 00:03:31,110
+ 
+ 
+
+00:03:31,110 --> 00:03:35,030
+ 
+ 
+
+00:03:35,030 --> 00:03:36,949
+ 
+ 
+
+00:03:36,949 --> 00:03:36,959
+ 
+ 
+
+00:03:36,959 --> 00:03:37,910
+ 
+
+
+00:03:37,910 --> 00:03:40,309
+ 
+ 
+
+00:03:40,309 --> 00:03:43,589
+ 
+ 
+
+00:03:43,589 --> 00:03:46,949
+ 
+ 
+
+00:03:46,949 --> 00:03:48,470
+ 
+ 
+
+00:03:48,470 --> 00:03:50,789
+ 
+ 
+
+00:03:50,789 --> 00:03:53,509
+ 
+ 
+
+00:03:53,509 --> 00:03:55,910
+ 
+ 
+
+00:03:55,910 --> 00:03:55,920
+ 
+ 
+
+00:03:55,920 --> 00:03:57,030
+ 
+
+
+00:03:57,030 --> 00:04:03,830
+ 
+ 
+
+00:04:03,830 --> 00:04:05,509
+ 
+ 
+
+00:04:05,509 --> 00:04:08,789
+ 
+ 
+
+00:04:08,789 --> 00:04:08,799
+ 
+ 
+
+00:04:08,799 --> 00:04:09,820
+ 
+
+
+00:04:09,820 --> 00:04:09,830
+ 
+ 
+
+00:04:09,830 --> 00:04:10,949
+ 
+
+
+00:04:10,949 --> 00:04:12,949
+ 
+ 
+
+00:04:12,949 --> 00:04:20,870
+ 
+ 
+
+00:04:20,870 --> 00:04:20,880
+ 
+ 
+
+00:04:20,880 --> 00:04:22,150
+ 
+
+
+00:04:22,150 --> 00:04:24,550
+ 
+ 
+
+00:04:24,550 --> 00:04:26,230
+ 
+ 
+
+00:04:26,230 --> 00:04:30,230
+ 
+ 
+
+00:04:30,230 --> 00:04:32,629
+ 
+ 
+
+00:04:32,629 --> 00:04:35,110
+ 
+ 
+
+00:04:35,110 --> 00:04:37,430
+ 
+ 
+
+00:04:37,430 --> 00:04:39,189
+ 
+ 
+
+00:04:39,189 --> 00:04:43,030
+ 
+ 
+
+00:04:43,030 --> 00:04:45,909
+ 
+ 
+
+00:04:45,909 --> 00:04:48,790
+ 
+ 
+
+00:04:48,790 --> 00:04:50,310
+ 
+ 
+
+00:04:50,310 --> 00:04:52,310
+ 
+ 
+
+00:04:52,310 --> 00:04:54,310
+ 
+ 
+
+00:04:54,310 --> 00:04:55,830
+ 
+ 
+
+00:04:55,830 --> 00:04:58,310
+ 
+ 
+
+00:04:58,310 --> 00:05:00,950
+ 
+ 
+
+00:05:00,950 --> 00:05:03,430
+ 
+ 
+
+00:05:03,430 --> 00:05:05,909
+ 
+ 
+
+00:05:05,909 --> 00:05:08,390
+ 
+ 
+
+00:05:08,390 --> 00:05:10,950
+ 
+ 
+
+00:05:10,950 --> 00:05:12,150
+ 
+ 
+
+00:05:12,150 --> 00:05:14,070
+ 
+ 
+
+00:05:14,070 --> 00:05:16,950
+ 
+ 
+
+00:05:16,950 --> 00:05:16,960
+ 
+ 
+
+00:05:16,960 --> 00:05:19,749
+ 
+
+
+00:05:19,749 --> 00:05:21,430
+ 
+ 
+
+00:05:21,430 --> 00:05:22,870
+ 
+ 
+
+00:05:22,870 --> 00:05:25,270
+ 
+ 
+
+00:05:25,270 --> 00:05:26,870
+ 
+ 
+
+00:05:26,870 --> 00:05:29,270
+ 
+ 
+
+00:05:29,270 --> 00:05:31,749
+ 
+ 
+
+00:05:31,749 --> 00:05:34,070
+ 
+ 
+
+00:05:34,070 --> 00:05:36,230
+ 
+ 
+
+00:05:36,230 --> 00:05:36,240
+ 
+ 
+
+00:05:36,240 --> 00:05:37,189
+ 
+
+
+00:05:37,189 --> 00:05:39,029
+ 
+ 
+
+00:05:39,029 --> 00:05:39,039
+ 
+ 
+
+00:05:39,039 --> 00:05:39,990
+ 
+
+
+00:05:39,990 --> 00:05:42,310
+ 
+ 
+
+00:05:42,310 --> 00:05:45,270
+ 
+ 
+
+00:05:45,270 --> 00:05:50,230
+ 
+ 
+
+00:05:50,230 --> 00:05:51,830
+ 
+ 
+
+00:05:51,830 --> 00:05:53,270
+ 
+ 
+
+00:05:53,270 --> 00:05:55,830
+ 
+ 
+
+00:05:55,830 --> 00:05:57,830
+ 
+ 
+
+00:05:57,830 --> 00:06:00,230
+ 
+ 
+
+00:06:00,230 --> 00:06:00,240
+ 
+ 
+
+00:06:00,240 --> 00:06:01,029
+ 
+
+
+00:06:01,029 --> 00:06:02,390
+ 
+ 
+
+00:06:02,390 --> 00:06:05,110
+ 
+ 
+
+00:06:05,110 --> 00:06:05,120
+ 
+ 
+
+00:06:05,120 --> 00:06:08,309
+ 
+
+
+00:06:08,309 --> 00:06:10,790
+ 
+ 
+
+00:06:10,790 --> 00:06:13,590
+ 
+ 
+
+00:06:13,590 --> 00:06:13,600
+ 
+ 
+
+00:06:13,600 --> 00:06:15,350
+ 
+
+
+00:06:15,350 --> 00:06:15,360
+ 
+ 
+
+00:06:15,360 --> 00:06:17,909
+ 
+
+
+00:06:17,909 --> 00:06:17,919
+ 
+ 
+
+00:06:17,919 --> 00:06:19,110
+ 
+
+
+00:06:19,110 --> 00:06:23,350
+ 
+ 
+
+00:06:23,350 --> 00:06:25,670
+ 
+ 
+
+00:06:25,670 --> 00:06:27,110
+ 
+ 
+
+00:06:27,110 --> 00:06:29,029
+ 
+ 
+
+00:06:29,029 --> 00:06:31,909
+ 
+ 
+
+00:06:31,909 --> 00:06:33,830
+ 
+ 
+
+00:06:33,830 --> 00:06:35,270
+ 
+ 
+
+00:06:35,270 --> 00:06:37,350
+ 
+ 
+
+00:06:37,350 --> 00:06:39,830
+ 
+ 
+
+00:06:39,830 --> 00:06:43,990
+ 
+ 
+
+00:06:43,990 --> 00:06:49,749
+ 
+ 
+
+00:06:49,749 --> 00:06:51,430
+ 
+ 
+
+00:06:51,430 --> 00:06:55,830
+ 
+ 
+
+00:06:55,830 --> 00:07:01,029
+ 
+ 
+
+00:07:01,029 --> 00:07:03,909
+ 
+ 
+
+00:07:03,909 --> 00:07:06,790
+ 
+ 
+
+00:07:06,790 --> 00:07:09,350
+ 
+ 
+
+00:07:09,350 --> 00:07:11,670
+ 
+ 
+
+00:07:11,670 --> 00:07:11,680
+ 
+ 
+
+00:07:11,680 --> 00:07:12,550
+ 
+
+
+00:07:12,550 --> 00:07:14,710
+ 
+ 
+
+00:07:14,710 --> 00:07:17,749
+ 
+ 
+
+00:07:17,749 --> 00:07:20,469
+ 
+ 
+
+00:07:20,469 --> 00:07:20,479
+ 
+ 
+
+00:07:20,479 --> 00:07:22,390
+ 
+
+
+00:07:22,390 --> 00:07:22,400
+ 
+ 
+
+00:07:22,400 --> 00:07:24,230
+ 
+
+
+00:07:24,230 --> 00:07:25,830
+ 
+ 
+
+00:07:25,830 --> 00:07:25,840
+ 
+ 
+
+00:07:25,840 --> 00:07:27,909
+ 
+
+
+00:07:27,909 --> 00:07:29,670
+ 
+ 
+
+00:07:29,670 --> 00:07:31,749
+ 
+ 
+
+00:07:31,749 --> 00:07:34,950
+ 
+ 
+
+00:07:34,950 --> 00:07:37,830
+ 
+ 
+
+00:07:37,830 --> 00:07:39,510
+ 
+ 
+
+00:07:39,510 --> 00:07:42,230
+ 
+ 
+
+00:07:42,230 --> 00:07:42,240
+ 
+ 
+
+00:07:42,240 --> 00:07:43,350
+ 
+
+
+00:07:43,350 --> 00:07:45,749
+ 
+ 
+
+00:07:45,749 --> 00:07:46,869
+ 
+ 
+
+00:07:46,869 --> 00:07:49,029
+ 
+ 
+
+00:07:49,029 --> 00:07:50,390
+ 
+ 
+
+00:07:50,390 --> 00:07:52,550
+ 
+ 
+
+00:07:52,550 --> 00:07:54,629
+ 
+ 
+
+00:07:54,629 --> 00:07:54,639
+ 
+ 
+
+00:07:54,639 --> 00:07:55,909
+ 
+
+
+00:07:55,909 --> 00:07:59,029
+ 
+ 
+
+00:07:59,029 --> 00:08:00,950
+ 
+ 
+
+00:08:00,950 --> 00:08:00,960
+ 
+ 
+
+00:08:00,960 --> 00:08:02,230
+ 
+
+
+00:08:02,230 --> 00:08:06,469
+ 
+ 
+
+00:08:06,469 --> 00:08:08,950
+ 
+ 
+
+00:08:08,950 --> 00:08:13,510
+ 
+ 
+
+00:08:13,510 --> 00:08:13,520
+ 
+ 
+
+00:08:13,520 --> 00:08:15,189
+ 
+
+
+00:08:15,189 --> 00:08:16,950
+ 
+ 
+
+00:08:16,950 --> 00:08:20,150
+ 
+ 
+
+00:08:20,150 --> 00:08:20,160
+ 
+ 
+
+00:08:20,160 --> 00:08:21,029
+ 
+
+
+00:08:21,029 --> 00:08:22,950
+ 
+ 
+
+00:08:22,950 --> 00:08:26,790
+ 
+ 
+
+00:08:26,790 --> 00:08:31,350
+ 
+ 
+
+00:08:31,350 --> 00:08:34,389
+ 
+ 
+
+00:08:34,389 --> 00:08:39,990
+ 
+ 
+
+00:08:39,990 --> 00:08:42,630
+ 
+ 
+
+00:08:42,630 --> 00:08:45,430
+ 
+ 
+
+00:08:45,430 --> 00:08:48,790
+ 
+ 
+
+00:08:48,790 --> 00:08:51,190
+ 
+ 
+
+00:08:51,190 --> 00:08:54,870
+ 
+ 
+
+00:08:54,870 --> 00:08:56,949
+ 
+ 
+
+00:08:56,949 --> 00:08:59,670
+ 
+ 
+
+00:08:59,670 --> 00:08:59,680
+ 
+ 
+
+00:08:59,680 --> 00:09:00,710
+ 
+
+
+00:09:00,710 --> 00:09:03,750
+ 
+ 
+
+00:09:03,750 --> 00:09:06,070
+ 
+ 
+
+00:09:06,070 --> 00:09:09,269
+ 
+ 
+
+00:09:09,269 --> 00:09:11,670
+ 
+ 
+
+00:09:11,670 --> 00:09:13,910
+ 
+ 
+
+00:09:13,910 --> 00:09:13,920
+ 
+ 
+
+00:09:13,920 --> 00:09:15,030
+ 
+
+
+00:09:15,030 --> 00:09:18,870
+ 
+ 
+
+00:09:18,870 --> 00:09:18,880
+ 
+ 
+
+00:09:18,880 --> 00:09:21,110
+ 
+
+
+00:09:21,110 --> 00:09:24,150
+ 
+ 
+
+00:09:24,150 --> 00:09:24,160
+ 
+ 
+
+00:09:24,160 --> 00:09:25,590
+ 
+
+
+00:09:25,590 --> 00:09:27,670
+ 
+ 
+
+00:09:27,670 --> 00:09:34,470
+ 
+ 
+
+00:09:34,470 --> 00:09:36,949
+ 
+ 
+
+00:09:36,949 --> 00:09:39,590
+ 
+ 
+
+00:09:39,590 --> 00:09:41,030
+ 
+ 
+
+00:09:41,030 --> 00:09:41,040
+ 
+ 
+
+00:09:41,040 --> 00:09:41,990
+ 
+
+
+00:09:41,990 --> 00:09:44,389
+ 
+ 
+
+00:09:44,389 --> 00:09:47,350
+ 
+ 
+
+00:09:47,350 --> 00:09:50,070
+ 
+ 
+
+00:09:50,070 --> 00:09:50,080
+ 
+ 
+
+00:09:50,080 --> 00:09:50,949
+ 
+
+
+00:09:50,949 --> 00:09:50,959
+ 
+ 
+
+00:09:50,959 --> 00:09:52,790
+ 
+
+
+00:09:52,790 --> 00:09:52,800
+ 
+ 
+
+00:09:52,800 --> 00:09:53,670
+ 
+
+
+00:09:53,670 --> 00:09:55,590
+ 
+ 
+
+00:09:55,590 --> 00:09:58,310
+ 
+ 
+
+00:09:58,310 --> 00:10:02,829
+ 
+ 
+
+00:10:02,829 --> 00:10:05,110
+ 
+ 
+
+00:10:05,110 --> 00:10:06,550
+ 
+ 
+
+00:10:06,550 --> 00:10:06,560
+ 
+ 
+
+00:10:06,560 --> 00:10:07,590
+ 
+
+
+00:10:07,590 --> 00:10:07,600
+ 
+ 
+
+00:10:07,600 --> 00:10:14,069
+ 
+
+
+00:10:14,069 --> 00:10:16,069
+ 
+ 
+
+00:10:16,069 --> 00:10:17,110
+ 
+ 
+
+00:10:17,110 --> 00:10:19,990
+ 
+ 
+
+00:10:19,990 --> 00:10:22,470
+ 
+ 
+
+00:10:22,470 --> 00:10:24,470
+ 
+ 
+
+00:10:24,470 --> 00:10:26,630
+ 
+ 
+
+00:10:26,630 --> 00:10:28,949
+ 
+ 
+
+00:10:28,949 --> 00:10:31,190
+ 
+ 
+
+00:10:31,190 --> 00:10:33,030
+ 
+ 
+
+00:10:33,030 --> 00:10:35,030
+ 
+ 
+
+00:10:35,030 --> 00:10:37,030
+ 
+ 
+
+00:10:37,030 --> 00:10:37,040
+ 
+ 
+
+00:10:37,040 --> 00:10:38,790
+ 
+
+
+00:10:38,790 --> 00:10:42,389
+ 
+ 
+
+00:10:42,389 --> 00:10:44,790
+ 
+ 
+
+00:10:44,790 --> 00:10:47,110
+ 
+ 
+
+00:10:47,110 --> 00:10:49,670
+ 
+ 
+
+00:10:49,670 --> 00:10:51,829
+ 
+ 
+
+00:10:51,829 --> 00:10:53,030
+ 
+ 
+
+00:10:53,030 --> 00:10:55,030
+ 
+ 
+
+00:10:55,030 --> 00:10:57,269
+ 
+ 
+
+00:10:57,269 --> 00:10:58,550
+ 
+ 
+
+00:10:58,550 --> 00:11:00,230
+ 
+ 
+
+00:11:00,230 --> 00:11:00,240
+ 
+ 
+
+00:11:00,240 --> 00:11:01,430
+ 
+
+
+00:11:01,430 --> 00:11:03,750
+ 
+ 
+
+00:11:03,750 --> 00:11:07,110
+ 
+ 
+
+00:11:07,110 --> 00:11:09,110
+ 
+ 
+
+00:11:09,110 --> 00:11:11,350
+ 
+ 
+
+00:11:11,350 --> 00:11:13,590
+ 
+ 
+
+00:11:13,590 --> 00:11:16,310
+ 
+ 
+
+00:11:16,310 --> 00:11:17,910
+ 
+ 
+
+00:11:17,910 --> 00:11:17,920
+ 
+ 
+
+00:11:17,920 --> 00:11:18,949
+ 
+
+
+00:11:18,949 --> 00:11:21,269
+ 
+ 
+
+00:11:21,269 --> 00:11:24,870
+ 
+ 
+
+00:11:24,870 --> 00:11:26,550
+ 
+ 
+
+00:11:26,550 --> 00:11:28,069
+ 
+ 
+
+00:11:28,069 --> 00:11:31,350
+ 
+ 
+
+00:11:31,350 --> 00:11:31,360
+ 
+ 
+
+00:11:31,360 --> 00:11:32,710
+ 
+
+
+00:11:32,710 --> 00:11:32,720
+ 
+ 
+
+00:11:32,720 --> 00:11:33,829
+ 
+
+
+00:11:33,829 --> 00:11:35,509
+ 
+ 
+
+00:11:35,509 --> 00:11:37,509
+ 
+ 
+
+00:11:37,509 --> 00:11:39,350
+ 
+ 
+
+00:11:39,350 --> 00:11:41,670
+ 
+ 
+
+00:11:41,670 --> 00:11:43,269
+ 
+ 
+
+00:11:43,269 --> 00:11:44,150
+ 
+ 
+
+00:11:44,150 --> 00:11:46,550
+ 
+ 
+
+00:11:46,550 --> 00:11:46,560
+ 
+ 
+
+00:11:46,560 --> 00:11:47,990
+ 
+
+
+00:11:47,990 --> 00:11:49,430
+ 
+ 
+
+00:11:49,430 --> 00:11:49,440
+ 
+ 
+
+00:11:49,440 --> 00:11:50,230
+ 
+
+
+00:11:50,230 --> 00:11:52,629
+ 
+ 
+
+00:11:52,629 --> 00:11:54,710
+ 
+ 
+
+00:11:54,710 --> 00:11:56,550
+ 
+ 
+
+00:11:56,550 --> 00:11:57,430
+ 
+ 
+
+00:11:57,430 --> 00:11:59,829
+ 
+ 
+
+00:11:59,829 --> 00:12:01,190
+ 
+ 
+
+00:12:01,190 --> 00:12:03,430
+ 
+ 
+
+00:12:03,430 --> 00:12:04,710
+ 
+ 
+
+00:12:04,710 --> 00:12:04,720
+ 
+ 
+
+00:12:04,720 --> 00:12:05,829
+ 
+
+
+00:12:05,829 --> 00:12:07,750
+ 
+ 
+
+00:12:07,750 --> 00:12:09,350
+ 
+ 
+
+00:12:09,350 --> 00:12:11,670
+ 
+ 
+
+00:12:11,670 --> 00:12:13,110
+ 
+ 
+
+00:12:13,110 --> 00:12:15,430
+ 
+ 
+
+00:12:15,430 --> 00:12:17,590
+ 
+ 
+
+00:12:17,590 --> 00:12:19,590
+ 
+ 
+
+00:12:19,590 --> 00:12:21,910
+ 
+ 
+
+00:12:21,910 --> 00:12:23,829
+ 
+ 
+
+00:12:23,829 --> 00:12:25,910
+ 
+ 
+
+00:12:25,910 --> 00:12:27,750
+ 
+ 
+
+00:12:27,750 --> 00:12:29,350
+ 
+ 
+
+00:12:29,350 --> 00:12:30,310
+ 
+ 
+
+00:12:30,310 --> 00:12:32,230
+ 
+ 
+
+00:12:32,230 --> 00:12:34,310
+ 
+ 
+
+00:12:34,310 --> 00:12:36,550
+ 
+ 
+
+00:12:36,550 --> 00:12:38,230
+ 
+ 
+
+00:12:38,230 --> 00:12:40,310
+ 
+ 
+
+00:12:40,310 --> 00:12:41,750
+ 
+ 
+
+00:12:41,750 --> 00:12:43,509
+ 
+ 
+
+00:12:43,509 --> 00:12:46,150
+ 
+ 
+
+00:12:46,150 --> 00:12:48,470
+ 
+ 
+
+00:12:48,470 --> 00:12:50,470
+ 
+ 
+
+00:12:50,470 --> 00:12:52,710
+ 
+ 
+
+00:12:52,710 --> 00:12:56,470
+ 
+ 
+
+00:12:56,470 --> 00:12:56,480
+ 
+ 
+
+00:12:56,480 --> 00:12:57,509
+ 
+
+
+00:12:57,509 --> 00:12:59,110
+ 
+ 
+
+00:12:59,110 --> 00:13:02,310
+ 
+ 
+
+00:13:02,310 --> 00:13:04,150
+ 
+ 
+
+00:13:04,150 --> 00:13:05,990
+ 
+ 
+
+00:13:05,990 --> 00:13:08,389
+ 
+ 
+
+00:13:08,389 --> 00:13:10,710
+ 
+ 
+
+00:13:10,710 --> 00:13:12,150
+ 
+ 
+
+00:13:12,150 --> 00:13:14,230
+ 
+ 
+
+00:13:14,230 --> 00:13:16,310
+ 
+ 
+
+00:13:16,310 --> 00:13:19,190
+ 
+ 
+
+00:13:19,190 --> 00:13:21,190
+ 
+ 
+
+00:13:21,190 --> 00:13:23,509
+ 
+ 
+
+00:13:23,509 --> 00:13:24,710
+ 
+ 
+
+00:13:24,710 --> 00:13:26,629
+ 
+ 
+
+00:13:26,629 --> 00:13:26,639
+ 
+ 
+
+00:13:26,639 --> 00:13:27,590
+ 
+
+
+00:13:27,590 --> 00:13:32,760
+ 
+ 
+

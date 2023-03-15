@@ -1,0 +1,825 @@
+
+00:00:00,719 --> 00:00:02,470
+ 
+good everyone i hope you guys have an  amazing day so in the last episode i  talked about uh valediction rule when it  comes to the uh product rule and i've  demonstrated how to set up the  product rule uh in a validation mode and  demonstrated how that works in a product  bundle so today what i'm going to do i  will demonstrate how the alert rule  works okay so  uh let me go to the  cpq so  sell for cpq now you must be wondering  why do i need to have an alert rule  right so uh if you remember in the last  episode i've demonstrated that  a scenario where you're buying a desktop  computer in the form of a bundle  and let's say if someone wants if your  sales trap is trying to add more than  say three monitors it just kind of stops  you  from adding more than three monitors but  say for whatever reason your business  decides okay hey we don't have to stop  instead we can warn the sales rep to say  hey you you're not supposed to add more  than three monitors but for whatever  reason the client wants it you know let  them buy it so okay so it's pretty  simple there's nothing fancy here pretty  much the same configuration what we've  used we're gonna use it uh for the alert  rule okay so i'm gonna  make use of the same  um alert rule now if you're wondering uh  about uh this product rule right if you  haven't  configured the product rules i would  highly encourage you to check out the  previous uh you know episode regarding  the product rule because i've explained  uh regard what  the definition of the summary variables  and uh  and how to set up a product rule okay  so we're gonna go to the same product  rule right so this is what i named as a  computer i should have named it better  uh because computer it's just a silly  name but  either way so uh this is the type we'll  be talking about so  i've  used this as a validation before okay so  what happens is that when you use the  validation okay let me show you let me  change it back to the validation okay  and  let me uh go and try to  add  the product lines to the code and then  we try to fiddle uh with  adding more than three monitors and  let's see what happens right  so we go to the codes  and we choose the same one  and we just um okay just refresh it  hopefully you know  get refreshed  uh and then we go to the code lines  right and then we sorry not this one  we edit lines  and  let's add a product right product bundle  and  so we just go to add products  and let's choose the desktop  computers and i'm going to choose this  and add  so  see the validation rules have its own  purpose right but  under certain scenario right the  validation rule may not be a good fit so  you might have to use alert um so  so let's say i built the validation rule  for the monitor so can't select more  than say three so i'm just gonna select  the four  okay so you got this message right you  can only select so what that means is  that you cannot save using for now even  if i want to save it it won't let you  save it okay so now that's something say  as a business you decided okay that's  not a very a very good uh way to you  know  configure things so we want to give the  flexibility where we want the sales rep  to see the message but we shouldn't be  stopping them from saving okay so in  that scenario we're just going to go for  an alert rule so the way to configure it  so  it's pretty much the same i'm going to  change the same rule and change the type  till i wrote right uh so i'll just go to  validation here  um  and go to the alert now  i'll just  uh look at the error condition it's  pretty much the same  so i'm using the the summary variables  so i'm saying the sum of monitors if  it's greater than three so if user try  to add the  the same the monitor right  [Music]  more than three times for the same  product bundle it will give you a  warning right so that's pretty much it  and then you have um  the final configuration where you hook  up your  uh product to the the product group  that's pretty much it okay so that's  done okay now i'm gonna refresh it  and let's see how the code works now  it's the most easiest option but yet  very powerful at the same time  uh we're gonna talk about the selection  type next time so i just want to focus  today mostly on the alert  type  i'm just doing it slowly so that you  guys understand why we're doing this  right i mean because there's no point in  just going you know doing in the rush  because you need to understand the  concept and and from a business point of  view and to understand right where we  can make use of this functionality  because you know cpq's is huge you have  a lot of different ways to do different  things so you know if you don't  understand the business cons context  behind it and you know it's pointless  okay so you go to edit lines  um and then uh  let's choose the product right so gonna  go add product  um and just gonna use the  desktop computer and  i will choose select  yeah  and  and i'll just do the quantity and let's  choose four right  okay i'm gonna save it  okay  all right see now you got an alert it's  a different message so uh it will  not stop you from saving it i mean  unless you decide to say close but if  you say continue  you know you can have four monitors  right so you can see here for no one  stops you from doing it so  this is a  you know this is a kind of uh product  rule which you should be considering  based on your business scenario right  it's it's all driven by your business  requirement because we have a lot of  options in salesforce but you know you  you know you shouldn't be  using it just for the sake of it it  should be driven by your business  requirement okay  so that's pretty much i wanted to talk  about in this episode in the next  episode we're going to look at the  selection criteria right so selection  type so go to product rules and  we will look at  the selection right so that's pretty  much for today i hope you guys have an  amazing sunday adios
+
+00:00:02,470 --> 00:00:04,630
+good everyone i hope you guys have an  amazing day so in the last episode i  talked about uh valediction rule when it  comes to the uh product rule and i've  demonstrated how to set up the  product rule uh in a validation mode and  demonstrated how that works in a product  bundle so today what i'm going to do i  will demonstrate how the alert rule  works okay so  uh let me go to the  cpq so  sell for cpq now you must be wondering  why do i need to have an alert rule  right so uh if you remember in the last  episode i've demonstrated that  a scenario where you're buying a desktop  computer in the form of a bundle  and let's say if someone wants if your  sales trap is trying to add more than  say three monitors it just kind of stops  you  from adding more than three monitors but  say for whatever reason your business  decides okay hey we don't have to stop  instead we can warn the sales rep to say  hey you you're not supposed to add more  than three monitors but for whatever  reason the client wants it you know let  them buy it so okay so it's pretty  simple there's nothing fancy here pretty  much the same configuration what we've  used we're gonna use it uh for the alert  rule okay so i'm gonna  make use of the same  um alert rule now if you're wondering uh  about uh this product rule right if you  haven't  configured the product rules i would  highly encourage you to check out the  previous uh you know episode regarding  the product rule because i've explained  uh regard what  the definition of the summary variables  and uh  and how to set up a product rule okay  so we're gonna go to the same product  rule right so this is what i named as a  computer i should have named it better  uh because computer it's just a silly  name but  either way so uh this is the type we'll  be talking about so  i've  used this as a validation before okay so  what happens is that when you use the  validation okay let me show you let me  change it back to the validation okay  and  let me uh go and try to  add  the product lines to the code and then  we try to fiddle uh with  adding more than three monitors and  let's see what happens right  so we go to the codes  and we choose the same one  and we just um okay just refresh it  hopefully you know  get refreshed  uh and then we go to the code lines  right and then we sorry not this one  we edit lines  and  let's add a product right product bundle  and  so we just go to add products  and let's choose the desktop  computers and i'm going to choose this  and add  so  see the validation rules have its own  purpose right but  under certain scenario right the  validation rule may not be a good fit so  you might have to use alert um so  so let's say i built the validation rule  for the monitor so can't select more  than say three so i'm just gonna select  the four  okay so you got this message right you  can only select so what that means is  that you cannot save using for now even  if i want to save it it won't let you  save it okay so now that's something say  as a business you decided okay that's  not a very a very good uh way to you  know  configure things so we want to give the  flexibility where we want the sales rep  to see the message but we shouldn't be  stopping them from saving okay so in  that scenario we're just going to go for  an alert rule so the way to configure it  so  it's pretty much the same i'm going to  change the same rule and change the type  till i wrote right uh so i'll just go to  validation here  um  and go to the alert now  i'll just  uh look at the error condition it's  pretty much the same  so i'm using the the summary variables  so i'm saying the sum of monitors if  it's greater than three so if user try  to add the  the same the monitor right  [Music]  more than three times for the same  product bundle it will give you a  warning right so that's pretty much it  and then you have um  the final configuration where you hook  up your  uh product to the the product group  that's pretty much it okay so that's  done okay now i'm gonna refresh it  and let's see how the code works now  it's the most easiest option but yet  very powerful at the same time  uh we're gonna talk about the selection  type next time so i just want to focus  today mostly on the alert  type  i'm just doing it slowly so that you  guys understand why we're doing this  right i mean because there's no point in  just going you know doing in the rush  because you need to understand the  concept and and from a business point of  view and to understand right where we  can make use of this functionality  because you know cpq's is huge you have  a lot of different ways to do different  things so you know if you don't  understand the business cons context  behind it and you know it's pointless  okay so you go to edit lines  um and then uh  let's choose the product right so gonna  go add product  um and just gonna use the  desktop computer and  i will choose select  yeah  and  and i'll just do the quantity and let's  choose four right  okay i'm gonna save it  okay  all right see now you got an alert it's  a different message so uh it will  not stop you from saving it i mean  unless you decide to say close but if  you say continue  you know you can have four monitors  right so you can see here for no one  stops you from doing it so  this is a  you know this is a kind of uh product  rule which you should be considering  based on your business scenario right  it's it's all driven by your business  requirement because we have a lot of  options in salesforce but you know you  you know you shouldn't be  using it just for the sake of it it  should be driven by your business  requirement okay  so that's pretty much i wanted to talk  about in this episode in the next  episode we're going to look at the  selection criteria right so selection  type so go to product rules and  we will look at  the selection right so that's pretty  much for today i hope you guys have an  amazing sunday adios
+ 
+
+00:00:04,630 --> 00:00:07,829
+ 
+ 
+
+00:00:07,829 --> 00:00:10,390
+ 
+ 
+
+00:00:10,390 --> 00:00:13,110
+ 
+ 
+
+00:00:13,110 --> 00:00:16,630
+ 
+ 
+
+00:00:16,630 --> 00:00:18,630
+ 
+ 
+
+00:00:18,630 --> 00:00:20,870
+ 
+ 
+
+00:00:20,870 --> 00:00:22,870
+ 
+ 
+
+00:00:22,870 --> 00:00:25,029
+ 
+ 
+
+00:00:25,029 --> 00:00:27,509
+ 
+ 
+
+00:00:27,509 --> 00:00:29,269
+ 
+ 
+
+00:00:29,269 --> 00:00:31,750
+ 
+ 
+
+00:00:31,750 --> 00:00:33,590
+ 
+ 
+
+00:00:33,590 --> 00:00:36,549
+ 
+ 
+
+00:00:36,549 --> 00:00:40,150
+ 
+ 
+
+00:00:40,150 --> 00:00:42,470
+ 
+ 
+
+00:00:42,470 --> 00:00:44,549
+ 
+ 
+
+00:00:44,549 --> 00:00:46,950
+ 
+ 
+
+00:00:46,950 --> 00:00:48,790
+ 
+ 
+
+00:00:48,790 --> 00:00:51,510
+ 
+ 
+
+00:00:51,510 --> 00:00:51,520
+ 
+ 
+
+00:00:51,520 --> 00:00:53,750
+ 
+
+
+00:00:53,750 --> 00:00:56,389
+ 
+ 
+
+00:00:56,389 --> 00:00:57,990
+ 
+ 
+
+00:00:57,990 --> 00:01:00,950
+ 
+ 
+
+00:01:00,950 --> 00:01:03,189
+ 
+ 
+
+00:01:03,189 --> 00:01:04,869
+ 
+ 
+
+00:01:04,869 --> 00:01:06,469
+ 
+ 
+
+00:01:06,469 --> 00:01:08,550
+ 
+ 
+
+00:01:08,550 --> 00:01:11,190
+ 
+ 
+
+00:01:11,190 --> 00:01:13,750
+ 
+ 
+
+00:01:13,750 --> 00:01:15,510
+ 
+ 
+
+00:01:15,510 --> 00:01:17,749
+ 
+ 
+
+00:01:17,749 --> 00:01:19,670
+ 
+ 
+
+00:01:19,670 --> 00:01:21,429
+ 
+ 
+
+00:01:21,429 --> 00:01:24,830
+ 
+ 
+
+00:01:24,830 --> 00:01:27,429
+ 
+ 
+
+00:01:27,429 --> 00:01:27,439
+ 
+ 
+
+00:01:27,439 --> 00:01:29,109
+ 
+
+
+00:01:29,109 --> 00:01:30,789
+ 
+ 
+
+00:01:30,789 --> 00:01:32,149
+ 
+ 
+
+00:01:32,149 --> 00:01:35,510
+ 
+ 
+
+00:01:35,510 --> 00:01:37,910
+ 
+ 
+
+00:01:37,910 --> 00:01:39,749
+ 
+ 
+
+00:01:39,749 --> 00:01:42,069
+ 
+ 
+
+00:01:42,069 --> 00:01:43,590
+ 
+ 
+
+00:01:43,590 --> 00:01:45,830
+ 
+ 
+
+00:01:45,830 --> 00:01:47,749
+ 
+ 
+
+00:01:47,749 --> 00:01:50,310
+ 
+ 
+
+00:01:50,310 --> 00:01:52,630
+ 
+ 
+
+00:01:52,630 --> 00:01:55,030
+ 
+ 
+
+00:01:55,030 --> 00:01:56,069
+ 
+ 
+
+00:01:56,069 --> 00:01:58,950
+ 
+ 
+
+00:01:58,950 --> 00:02:01,910
+ 
+ 
+
+00:02:01,910 --> 00:02:01,920
+ 
+ 
+
+00:02:01,920 --> 00:02:03,350
+ 
+
+
+00:02:03,350 --> 00:02:05,910
+ 
+ 
+
+00:02:05,910 --> 00:02:07,350
+ 
+ 
+
+00:02:07,350 --> 00:02:09,669
+ 
+ 
+
+00:02:09,669 --> 00:02:12,150
+ 
+ 
+
+00:02:12,150 --> 00:02:12,160
+ 
+ 
+
+00:02:12,160 --> 00:02:13,990
+ 
+
+
+00:02:13,990 --> 00:02:17,750
+ 
+ 
+
+00:02:17,750 --> 00:02:17,760
+ 
+ 
+
+00:02:17,760 --> 00:02:19,510
+ 
+
+
+00:02:19,510 --> 00:02:22,150
+ 
+ 
+
+00:02:22,150 --> 00:02:24,710
+ 
+ 
+
+00:02:24,710 --> 00:02:26,550
+ 
+ 
+
+00:02:26,550 --> 00:02:28,229
+ 
+ 
+
+00:02:28,229 --> 00:02:30,229
+ 
+ 
+
+00:02:30,229 --> 00:02:32,630
+ 
+ 
+
+00:02:32,630 --> 00:02:36,229
+ 
+ 
+
+00:02:36,229 --> 00:02:37,910
+ 
+ 
+
+00:02:37,910 --> 00:02:39,830
+ 
+ 
+
+00:02:39,830 --> 00:02:43,750
+ 
+ 
+
+00:02:43,750 --> 00:02:47,270
+ 
+ 
+
+00:02:47,270 --> 00:02:49,350
+ 
+ 
+
+00:02:49,350 --> 00:02:49,360
+ 
+ 
+
+00:02:49,360 --> 00:02:51,830
+ 
+
+
+00:02:51,830 --> 00:02:55,509
+ 
+ 
+
+00:02:55,509 --> 00:02:55,519
+ 
+ 
+
+00:02:55,519 --> 00:02:56,470
+ 
+
+
+00:02:56,470 --> 00:02:59,430
+ 
+ 
+
+00:02:59,430 --> 00:03:02,869
+ 
+ 
+
+00:03:02,869 --> 00:03:05,190
+ 
+ 
+
+00:03:05,190 --> 00:03:09,830
+ 
+ 
+
+00:03:09,830 --> 00:03:09,840
+ 
+ 
+
+00:03:09,840 --> 00:03:10,869
+ 
+
+
+00:03:10,869 --> 00:03:12,869
+ 
+ 
+
+00:03:12,869 --> 00:03:14,790
+ 
+ 
+
+00:03:14,790 --> 00:03:16,470
+ 
+ 
+
+00:03:16,470 --> 00:03:18,790
+ 
+ 
+
+00:03:18,790 --> 00:03:22,470
+ 
+ 
+
+00:03:22,470 --> 00:03:25,190
+ 
+ 
+
+00:03:25,190 --> 00:03:27,110
+ 
+ 
+
+00:03:27,110 --> 00:03:29,509
+ 
+ 
+
+00:03:29,509 --> 00:03:31,589
+ 
+ 
+
+00:03:31,589 --> 00:03:33,190
+ 
+ 
+
+00:03:33,190 --> 00:03:35,350
+ 
+ 
+
+00:03:35,350 --> 00:03:38,470
+ 
+ 
+
+00:03:38,470 --> 00:03:40,149
+ 
+ 
+
+00:03:40,149 --> 00:03:42,949
+ 
+ 
+
+00:03:42,949 --> 00:03:44,630
+ 
+ 
+
+00:03:44,630 --> 00:03:47,990
+ 
+ 
+
+00:03:47,990 --> 00:03:48,000
+ 
+ 
+
+00:03:48,000 --> 00:03:48,710
+ 
+
+
+00:03:48,710 --> 00:03:51,110
+ 
+ 
+
+00:03:51,110 --> 00:03:54,149
+ 
+ 
+
+00:03:54,149 --> 00:03:56,070
+ 
+ 
+
+00:03:56,070 --> 00:03:58,710
+ 
+ 
+
+00:03:58,710 --> 00:04:00,550
+ 
+ 
+
+00:04:00,550 --> 00:04:03,670
+ 
+ 
+
+00:04:03,670 --> 00:04:03,680
+ 
+ 
+
+00:04:03,680 --> 00:04:04,470
+ 
+
+
+00:04:04,470 --> 00:04:05,670
+ 
+ 
+
+00:04:05,670 --> 00:04:07,830
+ 
+ 
+
+00:04:07,830 --> 00:04:10,229
+ 
+ 
+
+00:04:10,229 --> 00:04:11,589
+ 
+ 
+
+00:04:11,589 --> 00:04:11,599
+ 
+ 
+
+00:04:11,599 --> 00:04:12,470
+ 
+
+
+00:04:12,470 --> 00:04:14,949
+ 
+ 
+
+00:04:14,949 --> 00:04:16,229
+ 
+ 
+
+00:04:16,229 --> 00:04:18,069
+ 
+ 
+
+00:04:18,069 --> 00:04:19,670
+ 
+ 
+
+00:04:19,670 --> 00:04:21,909
+ 
+ 
+
+00:04:21,909 --> 00:04:24,150
+ 
+ 
+
+00:04:24,150 --> 00:04:26,310
+ 
+ 
+
+00:04:26,310 --> 00:04:28,790
+ 
+ 
+
+00:04:28,790 --> 00:04:30,740
+ 
+ 
+
+00:04:30,740 --> 00:04:30,750
+ 
+ 
+
+00:04:30,750 --> 00:04:31,830
+ 
+
+
+00:04:31,830 --> 00:04:33,430
+ 
+ 
+
+00:04:33,430 --> 00:04:35,189
+ 
+ 
+
+00:04:35,189 --> 00:04:37,350
+ 
+ 
+
+00:04:37,350 --> 00:04:40,710
+ 
+ 
+
+00:04:40,710 --> 00:04:42,550
+ 
+ 
+
+00:04:42,550 --> 00:04:43,830
+ 
+ 
+
+00:04:43,830 --> 00:04:45,990
+ 
+ 
+
+00:04:45,990 --> 00:04:47,990
+ 
+ 
+
+00:04:47,990 --> 00:04:51,510
+ 
+ 
+
+00:04:51,510 --> 00:04:55,430
+ 
+ 
+
+00:04:55,430 --> 00:04:57,189
+ 
+ 
+
+00:04:57,189 --> 00:05:00,150
+ 
+ 
+
+00:05:00,150 --> 00:05:02,790
+ 
+ 
+
+00:05:02,790 --> 00:05:05,430
+ 
+ 
+
+00:05:05,430 --> 00:05:07,510
+ 
+ 
+
+00:05:07,510 --> 00:05:07,520
+ 
+ 
+
+00:05:07,520 --> 00:05:08,469
+ 
+
+
+00:05:08,469 --> 00:05:10,230
+ 
+ 
+
+00:05:10,230 --> 00:05:12,550
+ 
+ 
+
+00:05:12,550 --> 00:05:14,469
+ 
+ 
+
+00:05:14,469 --> 00:05:16,870
+ 
+ 
+
+00:05:16,870 --> 00:05:17,990
+ 
+ 
+
+00:05:17,990 --> 00:05:20,550
+ 
+ 
+
+00:05:20,550 --> 00:05:23,670
+ 
+ 
+
+00:05:23,670 --> 00:05:26,070
+ 
+ 
+
+00:05:26,070 --> 00:05:29,110
+ 
+ 
+
+00:05:29,110 --> 00:05:30,790
+ 
+ 
+
+00:05:30,790 --> 00:05:32,790
+ 
+ 
+
+00:05:32,790 --> 00:05:35,110
+ 
+ 
+
+00:05:35,110 --> 00:05:37,909
+ 
+ 
+
+00:05:37,909 --> 00:05:41,590
+ 
+ 
+
+00:05:41,590 --> 00:05:43,510
+ 
+ 
+
+00:05:43,510 --> 00:05:45,749
+ 
+ 
+
+00:05:45,749 --> 00:05:47,749
+ 
+ 
+
+00:05:47,749 --> 00:05:50,830
+ 
+ 
+
+00:05:50,830 --> 00:05:54,550
+ 
+ 
+
+00:05:54,550 --> 00:05:56,950
+ 
+ 
+
+00:05:56,950 --> 00:05:56,960
+ 
+ 
+
+00:05:56,960 --> 00:05:58,469
+ 
+
+
+00:05:58,469 --> 00:05:58,479
+ 
+ 
+
+00:05:58,479 --> 00:06:01,430
+ 
+
+
+00:06:01,430 --> 00:06:03,749
+ 
+ 
+
+00:06:03,749 --> 00:06:05,510
+ 
+ 
+
+00:06:05,510 --> 00:06:09,590
+ 
+ 
+
+00:06:09,590 --> 00:06:09,600
+ 
+ 
+
+00:06:09,600 --> 00:06:10,629
+ 
+
+
+00:06:10,629 --> 00:06:12,710
+ 
+ 
+
+00:06:12,710 --> 00:06:16,150
+ 
+ 
+
+00:06:16,150 --> 00:06:18,870
+ 
+ 
+
+00:06:18,870 --> 00:06:21,510
+ 
+ 
+
+00:06:21,510 --> 00:06:23,270
+ 
+ 
+
+00:06:23,270 --> 00:06:26,150
+ 
+ 
+
+00:06:26,150 --> 00:06:28,390
+ 
+ 
+
+00:06:28,390 --> 00:06:30,230
+ 
+ 
+
+00:06:30,230 --> 00:06:31,670
+ 
+ 
+
+00:06:31,670 --> 00:06:34,230
+ 
+ 
+
+00:06:34,230 --> 00:06:36,790
+ 
+ 
+
+00:06:36,790 --> 00:06:38,550
+ 
+ 
+
+00:06:38,550 --> 00:06:40,550
+ 
+ 
+
+00:06:40,550 --> 00:06:42,790
+ 
+ 
+
+00:06:42,790 --> 00:06:45,350
+ 
+ 
+
+00:06:45,350 --> 00:06:47,029
+ 
+ 
+
+00:06:47,029 --> 00:06:48,710
+ 
+ 
+
+00:06:48,710 --> 00:06:50,309
+ 
+ 
+
+00:06:50,309 --> 00:06:52,070
+ 
+ 
+
+00:06:52,070 --> 00:06:54,070
+ 
+ 
+
+00:06:54,070 --> 00:06:55,589
+ 
+ 
+
+00:06:55,589 --> 00:06:57,189
+ 
+ 
+
+00:06:57,189 --> 00:06:59,189
+ 
+ 
+
+00:06:59,189 --> 00:07:02,469
+ 
+ 
+
+00:07:02,469 --> 00:07:05,430
+ 
+ 
+
+00:07:05,430 --> 00:07:07,589
+ 
+ 
+
+00:07:07,589 --> 00:07:09,350
+ 
+ 
+
+00:07:09,350 --> 00:07:13,240
+ 
+ 
+
